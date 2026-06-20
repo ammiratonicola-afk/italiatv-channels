@@ -53,7 +53,12 @@
   .gfilm { background:var(--card2); border-radius:8px; overflow:hidden; }
   .gfilm img { width:100%; aspect-ratio:2/3; object-fit:cover; background:#000; display:block; }
   .gfilm .gt { font-size:10px; padding:4px 4px 4px; line-height:1.25; height:30px; overflow:hidden; }
-  .gfilm .gsel { width:100%; font-size:10px; padding:3px; border-radius:0 0 8px 8px; border:none; border-top:1px solid #33335a; background:#1a1a2e; color:var(--text); }
+  .gfilm .gt { cursor:pointer; }
+  .gfilm img { cursor:pointer; }
+  /* modale */
+  .modal { position:fixed; inset:0; background:rgba(0,0,0,.7); display:flex; align-items:flex-start; justify-content:center; z-index:50; padding:20px; overflow:auto; }
+  .mbox { background:var(--card); border:1px solid #2a2a45; border-radius:12px; padding:18px; max-width:560px; width:100%; margin:auto; }
+  .mbox label { margin-top:8px; }
 </style>
 </head>
 <body>
@@ -122,10 +127,10 @@
     <div class="actions">
       <button class="sec" id="catBtn" onclick="showCatalog()">📚 Mostra tutto il catalogo</button>
       <input id="catSearch" placeholder="Filtra per titolo…" style="max-width:240px;display:none" oninput="renderCatalog()">
-      <button id="saveCatBtn" onclick="saveCatalog()" style="display:none">💾 Salva genere catalogo</button>
+      <button id="saveCatBtn" onclick="saveCatalog()" style="display:none">💾 Salva modifiche catalogo</button>
       <span class="help" id="catInfo" style="margin:0"></span>
     </div>
-    <div class="help" id="catHint" style="display:none;margin-top:6px">Cambia il genere dal menu sotto ogni film. I film del <b>catalogo</b> si salvano col pulsante verde qui sopra; i film <b>manuali</b> col tasto "Salva su GitHub" in fondo.</div>
+    <div class="help" id="catHint" style="display:none;margin-top:6px"><b>Clicca un film</b> per modificarne qualsiasi dato (titolo, anno, genere, trama, poster) o per <b>ri-identificarlo</b> su TMDB. I film del <b>catalogo</b> si salvano col pulsante verde qui sopra; i film <b>manuali</b> col tasto "Salva su GitHub" in fondo.</div>
     <div id="catalog"></div>
   </div>
 
@@ -136,6 +141,38 @@
       <span class="help" style="margin:0">Dopo il salvataggio le TV si aggiornano entro 6 ore.</span>
     </div>
     <div id="status"></div>
+  </div>
+
+  <!-- Modale modifica film -->
+  <div id="modal" class="modal" style="display:none">
+    <div class="mbox">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+        <h2 style="flex:1;margin:0">Modifica film</h2>
+        <button class="sec" onclick="closeModal()">✕</button>
+      </div>
+      <div class="row">
+        <img id="m_poster" style="width:90px;aspect-ratio:2/3;object-fit:cover;border-radius:8px;background:#000">
+        <div style="flex:1;min-width:160px">
+          <label>Titolo</label><input id="m_title">
+          <div class="row">
+            <div style="max-width:110px"><label>Anno</label><input id="m_year" inputmode="numeric"></div>
+            <div><label>Genere</label><select id="m_genre"></select></div>
+          </div>
+          <label>TMDB ID <span class="help" id="m_type" style="margin:0"></span></label><input id="m_tmdb" readonly style="opacity:.7">
+        </div>
+      </div>
+      <label>Trama</label><textarea id="m_plot" rows="4" style="width:100%;padding:10px 12px;background:var(--card2);border:1px solid #33335a;border-radius:8px;color:var(--text);font-size:14px;font-family:inherit"></textarea>
+      <label>Poster (path TMDB, es. /abc.jpg)</label><input id="m_posterpath" placeholder="lascia vuoto per nessuno">
+      <div class="actions">
+        <button class="sec" onclick="modalSearch()">🔎 Ri-identifica su TMDB</button>
+        <span class="help" style="margin:0">Cerca e scegli il film giusto → ricarica TUTTI i metadati.</span>
+      </div>
+      <div class="results" id="m_results"></div>
+      <div class="actions" style="border-top:1px solid #2a2a45;padding-top:12px;margin-top:14px">
+        <button onclick="applyEdit()">✓ Applica modifiche</button>
+        <button class="sec" onclick="closeModal()">Annulla</button>
+      </div>
+    </div>
   </div>
 
 </main>
@@ -159,9 +196,10 @@ function render(){
   movies.forEach((m,i)=>{
     const d=document.createElement("div"); d.className="film";
     d.innerHTML=`<img src="${poster(m)}" onerror="this.style.visibility='hidden'">
-      <div class="meta"><div class="t">${title(m)}</div>
+      <div class="meta" style="cursor:pointer" title="Clicca per modificare"><div class="t">${title(m)}</div>
       <div class="s">${m.tmdb_year_official||"—"} · <span class="badge">${m.genre||"?"}</span> · TMDB ${m.tmdb_id||"—"}</div></div>
       <button>Rimuovi</button>`;
+    d.querySelector(".meta").onclick=()=>openEdit(m.video_id,"man");
     d.querySelector("button").onclick=()=>{ movies.splice(i,1); render(); };
     L.appendChild(d);
   });
@@ -219,7 +257,7 @@ function selectRes(i,el){
 }
 
 // costruisce il record completo da un film O da una serie TV (campi diversi)
-async function buildRecord(vid, sel, genre){
+async function buildRecord(vid, sel, genre, titleOv, yearOv){
   const isTv=sel._type==="tv";
   const base=isTv?`${TMDB}/tv/${sel.id}`:`${TMDB}/movie/${sel.id}`;
   const it=await fetch(`${base}?api_key=${TKEY}&language=it-IT&append_to_response=credits,videos`).then(r=>r.json());
@@ -235,8 +273,8 @@ async function buildRecord(vid, sel, genre){
   const trailer=yt.length?{url:`https://www.youtube.com/watch?v=${yt[0].key}`,lingua:"it",fonte:"YouTube",canale:null,
     ufficiale:!!yt[0].official,verificato:true,motivo_verifica:"TMDB videos"}:null;
   const apiDate=(it.release_date||it.first_air_date||"").slice(0,4);
-  const yr=parseInt(($("year").value.trim())||apiDate)||null;
-  const titolo=$("title").value.trim()||it.title||it.name;
+  const yr=parseInt((yearOv||"").trim()||apiDate)||null;
+  const titolo=(titleOv||"").trim()||it.title||it.name;
   const runtime=isTv?((it.episode_run_time&&it.episode_run_time[0])||null):(it.runtime||null);
   return { video_id:vid, is_movie:true, manual_include:true, channel:"Manuale", genre,
     original_title:titolo, tmdb_id:sel.id, tmdb_title_official:titolo, tmdb_year_official:yr,
@@ -255,7 +293,7 @@ async function addSelected(){
   if(movies.some(m=>m.video_id===vid)){ status("Questo video è già nella lista.",false); return; }
   $("addBtn").disabled=true; status("Recupero metadati TMDB…",true);
   try{
-    const rec=await buildRecord(vid, selected, $("genre").value);
+    const rec=await buildRecord(vid, selected, $("genre").value, $("title").value, $("year").value);
     movies.push(rec); render();
     $("yt").value=$("title").value=$("year").value=""; $("results").innerHTML=""; $("addRow").style.display="none"; selected=null;
     status("Aggiunto «"+rec.tmdb_title_official+"». Ricordati di premere 'Salva su GitHub'.",true);
@@ -316,20 +354,15 @@ function renderCatalog(){
     items.sort((a,b)=>title(a.m).localeCompare(title(b.m)));
     shown+=items.length;
     const sec=document.createElement("div"); sec.className="gsec";
-    let html=`<h3>${label} <span>(${items.length})</span></h3><div class="gcat">`;
+    sec.innerHTML=`<h3>${label} <span>(${items.length})</span></h3>`;
+    const grid=document.createElement("div"); grid.className="gcat";
     items.forEach(x=>{ const m=x.m;
-      html+=`<div class="gfilm"><img loading="lazy" src="${poster(m)}" onerror="this.style.visibility='hidden'">
-        <div class="gt">${title(m)}</div><select class="gsel" data-vid="${m.video_id}" data-src="${x.src}">${GOPTS}</select></div>`; });
-    html+="</div>"; sec.innerHTML=html; C.appendChild(sec);
-  });
-  C.querySelectorAll(".gsel").forEach(sel=>{
-    const vid=sel.dataset.vid, src=sel.dataset.src;
-    const x=catalogAll.find(y=>y.m.video_id===vid && y.src===src);
-    sel.value=(x&&x.m.genre)||"";
-    sel.onchange=()=>{ x.m.genre=sel.value;
-      if(src==="cat"){ catDirty.add(vid); $("saveCatBtn").style.display="inline-block";
-        $("catInfo").textContent=`${catDirty.size} modifiche catalogo in sospeso`; }
-      else { render(); $("catInfo").textContent="Film manuale modificato → premi 'Salva su GitHub' in fondo."; } };
+      const d=document.createElement("div"); d.className="gfilm"; d.title="Clicca per modificare";
+      d.innerHTML=`<img loading="lazy" src="${poster(m)}" onerror="this.style.visibility='hidden'"><div class="gt">${title(m)}</div>`;
+      d.onclick=()=>openEdit(m.video_id, x.src);
+      grid.appendChild(d);
+    });
+    sec.appendChild(grid); C.appendChild(sec);
   });
   $("catInfo").textContent=`${shown} film`+(q?` (filtro "${q}")`:"");
 }
@@ -342,13 +375,91 @@ async function saveCatalog(){
     const tree=await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/git/trees/main`,{headers:{Authorization:"Bearer "+token}}).then(r=>r.json());
     const node=(tree.tree||[]).find(t=>t.path==="movies_metadata.json");
     if(!node) throw new Error("movies_metadata.json non trovato");
-    const body={ message:`Modifica generi catalogo (${catDirty.size})`, content:b64(JSON.stringify(catRawObj,null,2)), sha:node.sha };
+    const body={ message:`Modifica dati catalogo da editor web (${catDirty.size} film)`, content:b64(JSON.stringify(catRawObj,null,2)), sha:node.sha };
     const res=await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/movies_metadata.json`,
       {method:"PUT",headers:{Authorization:"Bearer "+token,"Content-Type":"application/json"},body:JSON.stringify(body)});
     if(res.ok){ catDirty.clear(); $("saveCatBtn").style.display="none"; status("✓ Catalogo salvato! Le TV si aggiornano entro 6h.",true); }
     else{ const e=await res.json(); status("Errore GitHub: "+(e.message||res.status),false); }
   }catch(e){ status("Errore: "+e.message,false); }
   $("saveCatBtn").disabled=false;
+}
+
+// ── Modale: modifica QUALSIASI dato del film ──────────────────────────────
+let editing=null, pendingFull=null;
+function genreOptions(sel){ return GENRE_ORDER.map(([k,l])=>`<option value="${k}"${k===(sel||"")?" selected":""}>${l}</option>`).join(""); }
+function findFilm(vid,src){
+  if(src==="cat") return (catRawObj&&catRawObj.movies||[]).find(z=>z.video_id===vid);
+  return movies.find(z=>z.video_id===vid);
+}
+function openEdit(vid, src){
+  const m=findFilm(vid,src); if(!m) return;
+  editing={m,src}; pendingFull=null;
+  const v2=m.strict_id_v2||{};
+  $("m_title").value=m.tmdb_title_official||m.original_title||"";
+  $("m_year").value=m.tmdb_year_official||v2.anno_uscita||"";
+  $("m_genre").innerHTML=genreOptions(m.genre);
+  $("m_tmdb").value=m.tmdb_id||"";
+  $("m_type").textContent=m.tmdb_media_type?("("+m.tmdb_media_type+")"):"";
+  $("m_plot").value=v2.trama||m.enriched_plot||"";
+  $("m_posterpath").value=m.tmdb_poster_path||"";
+  $("m_poster").src=poster(m); $("m_results").innerHTML="";
+  $("modal").style.display="flex";
+}
+function closeModal(){ $("modal").style.display="none"; editing=null; pendingFull=null; }
+async function modalSearch(){
+  const t=$("m_title").value.trim(), y=$("m_year").value.trim();
+  if(!t){ return; }
+  const R=$("m_results"); R.innerHTML="<div class='help'>Cerco film + serie TV…</div>";
+  try{
+    const q=encodeURIComponent(t);
+    const norm=(arr,type)=>(arr||[]).map(r=>({_type:type,id:r.id,poster_path:r.poster_path,title:(r.title||r.name||""),year:((r.release_date||r.first_air_date||"").slice(0,4))}));
+    const [mv,tv]=await Promise.all([
+      fetch(`${TMDB}/search/movie?api_key=${TKEY}&language=it-IT&query=${q}`+(y?`&year=${y}`:"")).then(r=>r.json()),
+      fetch(`${TMDB}/search/tv?api_key=${TKEY}&language=it-IT&query=${q}`+(y?`&first_air_date_year=${y}`:"")).then(r=>r.json())]);
+    let res=[...norm(mv.results,"movie"),...norm(tv.results,"tv")].sort((a,b)=>(b.poster_path?1:0)-(a.poster_path?1:0)).slice(0,8);
+    R.innerHTML="";
+    if(!res.length){ R.innerHTML="<div class='help'>Nessun risultato.</div>"; return; }
+    res.forEach(r=>{ const d=document.createElement("div"); d.className="res";
+      d.innerHTML=`<img src="${r.poster_path?IMG+'w185'+r.poster_path:''}" onerror="this.style.visibility='hidden'"><div class="rt">${r.title}${r._type==='tv'?' 📺':''}</div><div class="ry">${r.year||'—'} · #${r.id}</div>`;
+      d.onclick=async()=>{ R.querySelectorAll(".res").forEach(e=>e.classList.remove("sel")); d.classList.add("sel");
+        const old=d.querySelector(".rt").textContent; d.querySelector(".rt").textContent="caricamento…";
+        try{
+          const rec=await buildRecord(editing.m.video_id, r, $("m_genre").value);
+          pendingFull=rec;
+          $("m_title").value=rec.tmdb_title_official; $("m_year").value=rec.tmdb_year_official||"";
+          $("m_tmdb").value=rec.tmdb_id; $("m_type").textContent="("+(rec.tmdb_media_type||"movie")+")";
+          $("m_plot").value=rec.strict_id_v2.trama||""; $("m_posterpath").value=rec.tmdb_poster_path||"";
+          $("m_poster").src=rec.tmdb_poster_path?IMG+"w300"+rec.tmdb_poster_path:"";
+        }catch(e){}
+        d.querySelector(".rt").textContent=old;
+      };
+      R.appendChild(d); });
+  }catch(e){ R.innerHTML="<div class='help'>Errore: "+e.message+"</div>"; }
+}
+function applyEdit(){
+  if(!editing) return;
+  const m=editing.m, src=editing.src;
+  if(pendingFull){ // ri-identificato: porta i metadati completi SENZA toccare channel/manual_include/is_movie
+    m.tmdb_id=pendingFull.tmdb_id; m.tmdb_poster_path=pendingFull.tmdb_poster_path;
+    m.tmdb_title_official=pendingFull.tmdb_title_official; m.tmdb_year_official=pendingFull.tmdb_year_official;
+    m.tmdb_media_type=pendingFull.tmdb_media_type; m.tmdb_confidence="verified";
+    m.strict_id_v2=pendingFull.strict_id_v2;
+  }
+  const tit=$("m_title").value.trim(); if(tit){ m.tmdb_title_official=tit; m.original_title=tit; }
+  const yr=parseInt($("m_year").value)||null; if(yr) m.tmdb_year_official=yr;
+  m.genre=$("m_genre").value;
+  const tid=parseInt($("m_tmdb").value)||null; if(tid) m.tmdb_id=tid;
+  const pp=$("m_posterpath").value.trim(); m.tmdb_poster_path=pp||null;
+  m.strict_id_v2=m.strict_id_v2||{};
+  if(tit) m.strict_id_v2.titolo_italiano=tit;
+  if(yr) m.strict_id_v2.anno_uscita=yr;
+  m.strict_id_v2.trama=$("m_plot").value;
+  m.strict_id_v2.locandina_url=pp?IMG+"w500"+pp:null;
+  if(src==="cat"){ catDirty.add(m.video_id); $("saveCatBtn").style.display="inline-block"; }
+  else { render(); }
+  if(catalogAll) renderCatalog();
+  closeModal();
+  status("Modifica applicata. Salva con « "+(src==="cat"?"Salva genere catalogo":"Salva su GitHub")+" ».",true);
 }
 
 $("token").value=localStorage.getItem("gh_token")||"";
