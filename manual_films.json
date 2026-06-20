@@ -7337,6 +7337,4506 @@
         },
         "tmdb_id_scelto": 179453
       }
+    },
+    {
+      "video_id": "edDiBI2fQ4g",
+      "is_movie": true,
+      "manual_include": true,
+      "channel": "Commedia",
+      "genre": "commedia",
+      "original_title": "7 chili in 7 giorni",
+      "tmdb_title_official": "7 chili in 7 giorni",
+      "tmdb_year_official": 1986,
+      "tmdb_id": 35536,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "CZoa89PvWmo",
+      "is_movie": true,
+      "manual_include": true,
+      "channel": "Commedia",
+      "genre": "commedia",
+      "original_title": "Porgi l'altra guancia",
+      "tmdb_title_official": "Porgi l'altra guancia",
+      "tmdb_year_official": 1974,
+      "tmdb_id": 11538,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "OggcIGr6iMg",
+      "is_movie": true,
+      "manual_include": true,
+      "channel": "Commedia",
+      "genre": "commedia",
+      "original_title": "I carabbinieri",
+      "tmdb_title_official": "I carabbinieri",
+      "tmdb_year_official": 1981,
+      "tmdb_id": 188420,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "FHoTB9TbEas",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Il secondo tragico Fantozzi",
+      "genre": "commedia",
+      "tmdb_id": 47865,
+      "tmdb_title_official": "Il secondo tragico Fantozzi",
+      "tmdb_year_official": 1976,
+      "tmdb_poster_path": "/rqfwdYhDjWjSi67FOOAoDbazZpZ.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 47865",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Il secondo tragico Fantozzi",
+        "titolo_originale": "Sárkány és papucs",
+        "anno_uscita": 1976,
+        "durata_minuti": 72,
+        "genere": [
+          "Animazione",
+          "Fantasy",
+          "Famiglia",
+          "Avventura"
+        ],
+        "regista": [
+          "Tibor Hernádi"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Csákányi László",
+            "personaggio": "Góliát, a sárkány (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/13vScXdIxIqVjECalsGhH4WbmIS.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/102505",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gálvölgyi János",
+            "personaggio": "Sir Lancelot (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tq5bHJ9zciTKghAGzpbg6Ii54Uo.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/125250",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sztankay István",
+            "personaggio": "Arthur király (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/su3N5YK84NTukPHW1E0dR2yBl9e.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1259960",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Éva Almási",
+            "personaggio": "Guinevra királyné (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/j5QgWpNl4fLhrzD7TV0uMz2xnvQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1177338",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Halász Judit",
+            "personaggio": "Peggy, Guinevra szolgálólánya (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fo3CyqilQ8xS8P9Azx1bNXd79F9.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1260012",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mikó István",
+            "personaggio": "Udvari bolond (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/a2u1oYSGcxvxlc99pxaq5OKG8B1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/16251",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kamill Feleki",
+            "personaggio": "Merlin, a varázsló (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wzLI4sg0uPw8sfSqqqgUjzdttpT.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1097151",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tábori Nóra",
+            "personaggio": "Matilda, a boszorkány, Góliát házvezetőnője (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/yeYilpRUtsNmqVLcVM6rkaRGFBb.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1140139",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "László Tahi Tóth",
+            "personaggio": "Olivér, Lancelot lova (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nIphSqR9H0rSOE0Qaf4WtxQrdGX.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1199978",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "György Miklósy",
+            "personaggio": "Pelikán, Merlin futárja (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1204365",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Lancillotto, allevato dalla fata Viviana sul fondo di un lago, arriva giovanissimo alla corte di Re Artù, entrando a far parte dei Cavalieri della Tavola Rotonda. Con loro, partecipa a mirabili imprese. Il suo spirito, il suo eroismo e i suoi ideali lo porteranno a diventare uno dei più brillanti cavalieri alla corte di Re Artù, un modello di valore e lealtà...",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/rqfwdYhDjWjSi67FOOAoDbazZpZ.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 47865
+      }
+    },
+    {
+      "video_id": "XCnlxdEwFSM",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Così è la vita",
+      "genre": "commedia",
+      "tmdb_id": 53000,
+      "tmdb_title_official": "Così è la vita",
+      "tmdb_year_official": 1998,
+      "tmdb_poster_path": "/9xlhZxbP1LbLD3uZPzbOHjJZ2uY.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 53000",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Così è la vita",
+        "titolo_originale": "Soul Assassin",
+        "anno_uscita": 1998,
+        "durata_minuti": 96,
+        "genere": [
+          "Animazione",
+          "Azione",
+          "Thriller",
+          "Crime"
+        ],
+        "regista": [
+          "Laurence Malkin"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Skeet Ulrich",
+            "personaggio": "Kevin Burke",
+            "foto_url": "https://image.tmdb.org/t/p/w185/moyTBJUTl82PaAhm8aHGwlvKr7r.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/22108",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kristy Swanson",
+            "personaggio": "Tessa Jansen",
+            "foto_url": "https://image.tmdb.org/t/p/w185/eoEhyZcJ1NMVAKefRh0E5adRMGh.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/56128",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Derek de Lint",
+            "personaggio": "Karl Jorgensen",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8fRRmh8EYZBlUtu1Wlop0j22QcP.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/9128",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rena Owen",
+            "personaggio": "Karina",
+            "foto_url": "https://image.tmdb.org/t/p/w185/648ZdDBmlx6OFDFRmgAbh6q5LBo.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/7241",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Antonie Kamerling",
+            "personaggio": "Karl Jorgensen Jr.",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zgFQb4ryjB1nFY9up5AnfARpREU.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/27957",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Serge-Henri Valcke",
+            "personaggio": "Mr. Ficks",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zRYqWx6JB1Bp5pJAYsnOM9D2TxF.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/21446",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nicholas Irons",
+            "personaggio": "Gary Knight",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qEdGpo8Xcs1HrNhHr1jo4EDE9YV.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/191754",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Thom Hoffman",
+            "personaggio": "Inspector Willem",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9idfzAANRjFDPnPHsRVVBb2LbNR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/7572",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Katherine Lang",
+            "personaggio": "Rosalind Bremmond",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2904308",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "André Arend van de Noord",
+            "personaggio": "Thorsten Fredriksz",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1144865",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "A security agent at an investment bank uncovers espionage that is linked to his girlfriend's murder. He vows to seek revenge on those responsible.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/9xlhZxbP1LbLD3uZPzbOHjJZ2uY.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 53000
+      }
+    },
+    {
+      "video_id": "wyE6Lu7oOc8",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Nati con la camicia",
+      "genre": "commedia",
+      "tmdb_id": 25033,
+      "tmdb_title_official": "Nati con la camicia",
+      "tmdb_year_official": 1983,
+      "tmdb_poster_path": "/1YJ9N4lbMelJlMK8ykX2WUAR9M9.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 25033",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Nati con la camicia",
+        "titolo_originale": "The Last Horror Movie",
+        "anno_uscita": 1983,
+        "durata_minuti": 76,
+        "genere": [
+          "Animazione",
+          "Horror",
+          "Thriller"
+        ],
+        "regista": [
+          "Julian Richards"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Kevin Howarth",
+            "personaggio": "Max",
+            "foto_url": "https://image.tmdb.org/t/p/w185/l3LLMhhKP0zkwb6g3LthtPblYWU.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/92996",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mark Stevenson",
+            "personaggio": "The Assistant",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/29420",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Antonia Beamish",
+            "personaggio": "Petra",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/93062",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Christabel Muir",
+            "personaggio": "Sam",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/93063",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Jonathan Coote",
+            "personaggio": "John",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2TmSRki1h0YKHEZOUDnaCLrsjnf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/101920",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rita Davies",
+            "personaggio": "Grandma",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1QCmTGgCljHCKRq4pfxponth6Hb.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/58579",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Joe Hurley",
+            "personaggio": "Ben",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1266950",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Jamie Langthorne",
+            "personaggio": "Nico",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1295747",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "John Berlyne",
+            "personaggio": "Phil",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1295748",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Mandy Gordon",
+            "personaggio": "Sarah",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1295749",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "A serial killer uses a horror video rental to lure his next victim. What begins as a teen slasher transforms into a disturbing journey through the mind of Max Parry, a mild mannered wedding photographer with a taste for human flesh.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/1YJ9N4lbMelJlMK8ykX2WUAR9M9.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 25033
+      }
+    },
+    {
+      "video_id": "B6l4f6uSfHg",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Ricky & Barabba",
+      "genre": "commedia",
+      "tmdb_id": 49583,
+      "tmdb_title_official": "Ricky & Barabba",
+      "tmdb_year_official": 1992,
+      "tmdb_poster_path": "/chLzUOJ2fNwJCU2J4cQIhgBGqj1.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 49583",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Ricky & Barabba",
+        "titolo_originale": "Le dossier 51",
+        "anno_uscita": 1992,
+        "durata_minuti": 108,
+        "genere": [
+          "Animazione",
+          "Crime",
+          "Dramma"
+        ],
+        "regista": [
+          "Michel Deville"
+        ],
+        "cast_principale": [
+          {
+            "nome": "François Marthouret",
+            "personaggio": "Dominique Auphal / 51",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cJSWfaxfFrGeFISkDJ3PVZqdZBe.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/25116",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Roger Planchon",
+            "personaggio": "Esculape 1",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2y1MSLzHxeMfCp0NDKAvHtoWUyk.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/38504",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Patrick Chesnais",
+            "personaggio": "Hadès",
+            "foto_url": "https://image.tmdb.org/t/p/w185/g0eY9xGHUCIZBJj0QfxNnZQcH98.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/7275",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jean Martin",
+            "personaggio": "Vénus",
+            "foto_url": "https://image.tmdb.org/t/p/w185/f7J7ItHt6AHz8z2PQuWpdH0lCHz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/39953",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Daniel Mesguich",
+            "personaggio": "Esculape 4",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jnCW6tn0GFVGdIcyM5HYICwInQ7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3593",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Anna Prucnal",
+            "personaggio": "Sarah Robski",
+            "foto_url": "https://image.tmdb.org/t/p/w185/29CVCVmgt44QkIAcInbIM4TSks5.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/17575",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "László Szabó",
+            "personaggio": "Sarah Robski's contact",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5kGcihh33EjWxZWQCCMywvKrbpC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/38899",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Didier Sauvegrain",
+            "personaggio": "Pylos",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nNa7bKmzeYfDsF2zwPcIo1UsvdZ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/263072",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Uta Taeger",
+            "personaggio": "Esculape 2",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qr6XOdNUJZagCL17gTq5T36jsLH.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/578330",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jenny Clève",
+            "personaggio": "Agent 747, cleaning lady of 51",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7OiUovhKYmCViOPsKNWnP3TsD7O.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/35902",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "La vita di un funzionario francese è spiata da un'imprecisata organizzazione che si avvale dei mezzi più sofisticati per scoprire ogni segreto. Lentamente viene fuori un presente (la moglie lo tradisce e lui non ne fa un dramma) e un passato (bastardo di nascita, stuprato durante la guerra d'Algeria) inquietante: per gli psicanalisti dell'organizzazione l'uomo è un omosessuale represso.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/chLzUOJ2fNwJCU2J4cQIhgBGqj1.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 49583
+      }
+    },
+    {
+      "video_id": "UYvnawTGjb0",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Il ragazzo di campagna",
+      "genre": "commedia",
+      "tmdb_id": 42199,
+      "tmdb_title_official": "Il ragazzo di campagna",
+      "tmdb_year_official": 1984,
+      "tmdb_poster_path": "/bxS0z1Ji4VVWZthMZpooi0Fcviu.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 42199",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Il ragazzo di campagna",
+        "titolo_originale": "Bez znieczulenia",
+        "anno_uscita": 1984,
+        "durata_minuti": 131,
+        "genere": [
+          "Animazione",
+          "Dramma"
+        ],
+        "regista": [
+          "Andrzej Wajda"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Zbigniew Zapasiewicz",
+            "personaggio": "Jerzy Michałowski",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4AuSdfnmOLTYGpRoLfUvRmBZvWG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1405",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ewa Dałkowska",
+            "personaggio": "Ewa Michałowska",
+            "foto_url": "https://image.tmdb.org/t/p/w185/omvnmaSwgD2gTxKXNlTjeABqYp5.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/583448",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Andrzej Seweryn",
+            "personaggio": "Jacek Rościszewski",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uYohJvqAai28Piqa0eEs6zAeFer.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2829",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Krystyna Janda",
+            "personaggio": "Agata",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zx2UuzWg4iaa66vjw09Sk6w9Q31.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2807",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Roman Wilhelmi",
+            "personaggio": "Broński",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7hYxZO4tZs8LRRo23dEHwaODBww.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/209781",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Emilia Krakowska",
+            "personaggio": "Wanda Jakowicz",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5tAYWxrAZen5ep0StFZKMn6mA1I.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/122669",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kazimierz Kaczor",
+            "personaggio": "Editor-in-chief",
+            "foto_url": "https://image.tmdb.org/t/p/w185/opWhgnnnKfZBlxN4HxzYmGHXUyT.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2821",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Magda Teresa Wójcik",
+            "personaggio": "Joanna Cichoń",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uyzMefid573GwalCbn7NnkuVoii.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2818",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jerzy Stuhr",
+            "personaggio": "Jerzy Porębowicz",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xzkvKrdITQm8BzYLF8o0xhG3fdA.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1148",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Iga Mayr",
+            "personaggio": "Anna Łukasik",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1139837",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "A famous Polish journalist presents a problem for the powers-that-be when he displays his full political skill and knowledge on a television show featuring questions and answers on a world conference by a panel of journalists. His enemies take away his privileges when he is away. The shock of being \"unwanted\" parallels a deeper disappointment in his private life: his wife has an affair with a jealous young rival, and after 15 years of marriage and two daughters wants a divorce. She offers no explanations as he tries to untie these problems himself. All the moves he makes are the wrong ones. He takes on drinking heavily with students eager to attend his seminar after discovering the class has been canceled. The journalist, once suave and commanding, is reduced to silence.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/bxS0z1Ji4VVWZthMZpooi0Fcviu.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 42199
+      }
+    },
+    {
+      "video_id": "fUm3hyRvMbo",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Il bisbetico domato",
+      "genre": "commedia",
+      "tmdb_id": 41465,
+      "tmdb_title_official": "Il bisbetico domato",
+      "tmdb_year_official": 1980,
+      "tmdb_poster_path": "/r8Ck8trmA2s6mq4PoMCi2Loa8ws.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 41465",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Il bisbetico domato",
+        "titolo_originale": "Life with Father",
+        "anno_uscita": 1980,
+        "durata_minuti": 116,
+        "genere": [
+          "Animazione",
+          "Commedia",
+          "Famiglia"
+        ],
+        "regista": [
+          "Michael Curtiz"
+        ],
+        "cast_principale": [
+          {
+            "nome": "William Powell",
+            "personaggio": "Clarence Day Sr.",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8DTWs389THkVCTiDFu0x8ekNmUC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/32428",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Irene Dunne",
+            "personaggio": "Vinnie Day",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nyjWr6mGmRUDRiip3k8ajy2s9DL.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/77158",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Elizabeth Taylor",
+            "personaggio": "Mary Skinner",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wYJRf3omoq8TJ1CHUXo1nxWr3ud.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3635",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Edmund Gwenn",
+            "personaggio": "Rev. Dr. Lloyd",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9xUiHCycn0WsxqiqFjq2fI40FpQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/22600",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Zasu Pitts",
+            "personaggio": "Cousin Cora Cartwright",
+            "foto_url": "https://image.tmdb.org/t/p/w185/yzz6JRsLsmciHcsv7lEigYy2cEy.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/34746",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jimmy Lydon",
+            "personaggio": "Clarence Day Jr.",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ibKQRy1SWv4ZE1QIes1NoRxUKUg.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/120052",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Emma Dunn",
+            "personaggio": "Margaret",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gg8SC7cBPYWzGqjYSJ3qWcpy0vI.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/14033",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Moroni Olsen",
+            "personaggio": "Dr. Humphries",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xJ56TNofwpQH3b0UAs8spNq35OR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/18586",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Elisabeth Risdon",
+            "personaggio": "Mrs. Whitehead",
+            "foto_url": "https://image.tmdb.org/t/p/w185/h4n8KEk4IYwugDiEt0MAqX3id53.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/99329",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Derek Scott",
+            "personaggio": "Harlan Day",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/149079",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Una donna dolce e apparentemente remissiva è sposata con un banchiere burbero e autoritario al quale, però, riesce a far fare quello che vuole. Il marito, infatti, è in fondo un brav'uomo che ama teneramente sia la moglie che i suoi quattro figli. Un giorno il poveraccio si lascia scappare di non essere battezzato. La consorte, in men che non si dica, riuscirà a trascinarlo in chiesa.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/r8Ck8trmA2s6mq4PoMCi2Loa8ws.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 41465
+      }
+    },
+    {
+      "video_id": "Jw_dkGTnflY",
+      "is_movie": true,
+      "manual_include": true,
+      "channel": "Commedia",
+      "genre": "commedia",
+      "original_title": "Belli ciao",
+      "tmdb_title_official": "Belli ciao",
+      "tmdb_year_official": 2022,
+      "tmdb_id": 913511,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "VzZTxhTxrgw",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Caccia al tesoro",
+      "genre": "commedia",
+      "tmdb_id": 483104,
+      "tmdb_title_official": "Caccia al tesoro",
+      "tmdb_year_official": 2017,
+      "tmdb_poster_path": "/x0IGQsMzVbsF7noj5cCfEk1GU7s.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 483104",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Caccia al tesoro",
+        "titolo_originale": "A Christmas Prince",
+        "anno_uscita": 2017,
+        "durata_minuti": 92,
+        "genere": [
+          "Animazione",
+          "Romance",
+          "televisione film"
+        ],
+        "regista": [
+          "Alex Zamm"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Rose McIver",
+            "personaggio": "Amber",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7oswXIUIGAZphpZMBhuXoUgOIJi.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/53485",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ben Lamb",
+            "personaggio": "Prince Richard",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mxbN5DgsT1YMFaEo7FZ4uMAJ14b.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1173231",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Alice Krige",
+            "personaggio": "Queen Helena",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jHOknQMjkIqqrm5RjtMCnJfnGXl.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2506",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Honor Kneafsey",
+            "personaggio": "Princess Emily",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xce8nauB4HuvwkqWDlIkJbaBSfw.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1363045",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Theo Devaney",
+            "personaggio": "Count Simon",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zfc8Q26ew39M9d469Q6t1lqjZa3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1366857",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sarah Douglas",
+            "personaggio": "Mrs. Averill",
+            "foto_url": "https://image.tmdb.org/t/p/w185/76YfRJyQodMIBiuO33slvSYEQhS.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/31364",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Emma Louise Saunders",
+            "personaggio": "Baroness Sophia",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xc4mvpIsBcZPKM9Wj8HCYE7awzX.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1911209",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tom Knight",
+            "personaggio": "Prime Minister Denzil",
+            "foto_url": "https://image.tmdb.org/t/p/w185/plzJmmxvO2Bu6FiQPUgNTCItSEd.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/203538",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Daniel Fathers",
+            "personaggio": "Rudy Moore",
+            "foto_url": "https://image.tmdb.org/t/p/w185/b0qxCiBh5h0BSE4Hik4W1GxWrNx.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/133327",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Richard Ashton",
+            "personaggio": "Mr. Little",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vXU9iUlWQ3iniENuebXjjhdtVbQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/179771",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Amber è la giovane redattrice di un magazine che deve seguire la conferenza stampa del principe Richard, prossimo al trono del regno di Aldovia dopo la morte del padre. Il destino fa sì che Amber riesca a intrufolarsi nel palazzo reale, finga di essere la tutrice della giovane principessa, si innamori del principe e scopra qualcosa che il mondo è meglio che non sappia.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/x0IGQsMzVbsF7noj5cCfEk1GU7s.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 483104
+      }
+    },
+    {
+      "video_id": "6WOVWZh-ipU",
+      "is_movie": true,
+      "manual_include": true,
+      "channel": "Commedia",
+      "genre": "commedia",
+      "original_title": "Pierino torna a scuola",
+      "tmdb_title_official": "Pierino torna a scuola",
+      "tmdb_year_official": 1990,
+      "tmdb_id": 58161,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "Ae4f1RYUFK0",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Le avventure di Pinocchio",
+      "genre": "drammatico",
+      "tmdb_id": 42637,
+      "tmdb_title_official": "Le avventure di Pinocchio",
+      "tmdb_year_official": 1972,
+      "tmdb_poster_path": "/qfsRWDAcZJp4RiYN2wToOmwNEcK.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 42637",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Le avventure di Pinocchio",
+        "titolo_originale": "Tagebuch einer Verlorenen",
+        "anno_uscita": 1972,
+        "durata_minuti": 113,
+        "genere": [
+          "Animazione",
+          "Dramma"
+        ],
+        "regista": [
+          "Georg Wilhelm Pabst"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Louise Brooks",
+            "personaggio": "Thymian Henning",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2vpBqhnfFWBdVgoOsdPUEQFNZGA.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/13904",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "André Roanne",
+            "personaggio": "Count Nicolas Osdorff",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9U9IVP3FKIvFDRFqIuHutNeNkTG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/131434",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Josef Rovenský",
+            "personaggio": "Karl Friedrich Henning",
+            "foto_url": "https://image.tmdb.org/t/p/w185/75Fae2V5rO1fzRPAQIOJhn2YGvy.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/131435",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Fritz Rasp",
+            "personaggio": "Meinert",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6NnV7WF489FZqMYSVhm3tFHEQXe.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/78",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Вера Павлова",
+            "personaggio": "Aunt Frida",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xTYRdY9AfpPOi3GoXM45LlZ8C95.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/131436",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Franziska Kinz",
+            "personaggio": "Meta Koch Henning",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3LMksPNG0oXxENLf7vVZ8lPJwK9.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/131437",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Arnold Korff",
+            "personaggio": "Elder Count Osdorff",
+            "foto_url": "https://image.tmdb.org/t/p/w185/droYE1mJ1xgfIDvnYYnbHUEw614.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/51279",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Andrews Engelmann",
+            "personaggio": "The Reformatory's Dean",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9MNdbTpIx8GErdLCzY0QlVnf6IX.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1381514",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Valeska Gert",
+            "personaggio": "The Reformatory Dean's Wife",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oGT8ZrJmLpx8uRaP9cEWuHzNN8w.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5038",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Edith Meinhard",
+            "personaggio": "Erika",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hI3AFopNO1mHffeM5ZXEkkCsRPd.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1542132",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Thymiane, figlia di un farmacista, è violentata dall'assistente del padre e resa incinta. Il bambino nasce ma muore quasi subito. Thymiane viene rinchiusa in una casa di correzione, da cui evade per lavorare in un bordello. Qui conosce un giovane ma dopo la morte di quest'ultimo ne sposa lo zio, diventando una signora per bene. Melodramma sulla complessa carriera di una ragazza che passa attraverso l'inferno della prostituzione per giungere ai fasti della società borghese: il regista Pabst sarcasticamente dipinge i crimini e misfatti di una società in disfacimento, avvalendosi del fascino morboso della bella e dotata Louise Brooks.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/qfsRWDAcZJp4RiYN2wToOmwNEcK.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 42637
+      }
+    },
+    {
+      "video_id": "K2iuqwrJhhY",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Non c'è 2 senza te",
+      "genre": "commedia",
+      "tmdb_id": 349274,
+      "tmdb_title_official": "Non c'è 2 senza te",
+      "tmdb_year_official": 2015,
+      "tmdb_poster_path": "/z6aMdR7SMLTGkcFTR3RU04tWxwK.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 349274",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Non c'è 2 senza te",
+        "titolo_originale": "박봉곤 가출사건",
+        "anno_uscita": 2015,
+        "durata_minuti": 104,
+        "genere": [
+          "Animazione",
+          "Commedia"
+        ],
+        "regista": [
+          "김태균"
+        ],
+        "cast_principale": [
+          {
+            "nome": "심혜진",
+            "personaggio": "Park Bong-gon",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dFZksi2ovgOy43fqZUHgzvi1988.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/117349",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "안성기",
+            "personaggio": "X",
+            "foto_url": "https://image.tmdb.org/t/p/w185/neVI6dF7ygagu055h5OpHUZax14.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/17121",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "여균동",
+            "personaggio": "Choi Hee-jae",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5hlEEQRPNmonWX0rHjAZ3OiN2mX.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/96780",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "추자현",
+            "personaggio": "Hye-soo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iyDFZehw7cbQLZc2MHRxzJdgLZZ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/127849",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "정재영",
+            "personaggio": "Bully",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xeiFPl5GOHemLGGMpvzeiK0Nlpm.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/83682",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "신동환",
+            "personaggio": "Bartender (uncredited)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1991273",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Ryu Jang-ha",
+            "personaggio": "Blackguard (uncredited)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/124391",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "최지우",
+            "personaggio": "Eun-seon",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ysPp0U285rWrCBlo0AfKFbpwoOH.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/62333",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kim Gyeong-beom",
+            "personaggio": "Iron Bag (uncredited)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2145548",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "동방우",
+            "personaggio": "(uncredited)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nFqRLymfCOfdbFk1U930ZVDtSOf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1299218",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Park Bong-Gon is having problems at home with her husband and his temper. She decides to leave and pursue her childhood dream of becoming a singer and begins seeing it through at a club called the Arabian Night. Her husband, upset with her disappearance, enlists a man who specializes in finding runaway housewives...",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/z6aMdR7SMLTGkcFTR3RU04tWxwK.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 349274
+      }
+    },
+    {
+      "video_id": "KlfPxf1T_lU",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Un boss in salotto",
+      "genre": "commedia",
+      "tmdb_id": 244403,
+      "tmdb_title_official": "Un boss in salotto",
+      "tmdb_year_official": 2014,
+      "tmdb_poster_path": "/flFXJ2PQAUje6zLz3S7SiIKwD6J.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 244403",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Un boss in salotto",
+        "titolo_originale": "Rudderless",
+        "anno_uscita": 2014,
+        "durata_minuti": 105,
+        "genere": [
+          "Animazione",
+          "Musica",
+          "Dramma",
+          "Commedia"
+        ],
+        "regista": [
+          "William H. Macy"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Billy Crudup",
+            "personaggio": "Sam Manning",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4kHvUUVFMW8GJTHJtoAiskqhcyO.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/8289",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Anton Yelchin",
+            "personaggio": "Quentin",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uOMWKYOLezo4ETMtrQt7uQBLSBh.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/21028",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Felicity Huffman",
+            "personaggio": "Emily",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jiNWZu8YZqOKRHaxRM4tbvBKyfP.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/7427",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Selena Gomez",
+            "personaggio": "Kate Lucas",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wZ1AhrVZIwj09nMEyjFRGNtvr1c.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/77948",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Miles Heizer",
+            "personaggio": "Josh Manning",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xfIUIS04M6BtuA27047hAhB1y47.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/148096",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Alexandra Lovelace",
+            "personaggio": "Mary Beth",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1680859",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Laurence Fishburne",
+            "personaggio": "Del",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2GbXERENPpl5MmlqOLlPVaVtifD.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2975",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "William H. Macy",
+            "personaggio": "Trill",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hdVEGSrP8qWlJnt0v5vSVcGOjy7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3905",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kate Micucci",
+            "personaggio": "Peaches",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lgmIxZ59bnYflbkWyAfmWi0bUsT.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/132354",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Zoe Graham",
+            "personaggio": "Lizzie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rrpk2zcnopTAmpHzMY1N8CrgTmK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1327013",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Un padre in lutto in una spirale discendente inciampa nella scatola dei nastri e dei testi demo del figlio morto. Scioccato dalla scoperta di questo talento sconosciuto, forma una band nella speranza di trovare qualche catarsi.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/flFXJ2PQAUje6zLz3S7SiIKwD6J.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 244403
+      }
+    },
+    {
+      "video_id": "NcNiS4E-KSc",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Click",
+      "genre": "commedia",
+      "tmdb_id": 9339,
+      "tmdb_title_official": "Click",
+      "tmdb_year_official": 2006,
+      "tmdb_poster_path": "/2I0mZkxW8cddDmRINlxtETYfiSW.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 9339",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Click",
+        "titolo_originale": "Click",
+        "anno_uscita": 2006,
+        "durata_minuti": 107,
+        "genere": [
+          "Animazione",
+          "Commedia",
+          "Dramma",
+          "Fantasy"
+        ],
+        "regista": [
+          "Frank Coraci"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Adam Sandler",
+            "personaggio": "Michael Newman",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iTMnXrPfC1rmom6a9q4hy6YSJWG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/19292",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kate Beckinsale",
+            "personaggio": "Donna Newman",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nUZuC2chd5PVw2tLxePZ6uaLbhx.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3967",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Christopher Walken",
+            "personaggio": "Morty",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ApgDL7nudR9T2GpjCG4vESgymO2.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4690",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "David Hasselhoff",
+            "personaggio": "Ammer",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gRcqYNBUQWFxRoAVRNY7xHzOONP.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/28238",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Henry Winkler",
+            "personaggio": "Ted",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mGlSRA5RDswEDmY8oWEizXliShp.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/31903",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Julie Kavner",
+            "personaggio": "Trudy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/87kSPYlWcHvqOVEkhdqxysiAf6w.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/199",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sean Astin",
+            "personaggio": "Bill",
+            "foto_url": "https://image.tmdb.org/t/p/w185/As3ctGUtBYmG4zj4Ifyrcqd71HP.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1328",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Joseph Castanon",
+            "personaggio": "Ben at 7 years old",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tSb55ZK0ZtxOeyhZwc10whvaz6E.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/202062",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jonah Hill",
+            "personaggio": "Ben at 17 years old",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cymlWttB83MsAGR2EkTgANtjeRH.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/21007",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jake Hoffman",
+            "personaggio": "Ben at 22-30 years old",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9K180Isd28lc3X7Puiu8InPdq4x.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/134235",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Adam Sandler è Michael Newman, un architetto talmente preso dal suo lavoro che finisce per trascurare la moglie Dana (Kate Beckinsale) e i due figli. Un giorno un misterioso individuo di nome Morty (Christopher Walken) gli dona un telecomando universale con il quale può mandare avanti e indietro gli avvenimenti di tutta la sua vita. Con un solo click Michael può tenere sotto controllo la sua carriera e la sua vita.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/2I0mZkxW8cddDmRINlxtETYfiSW.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=ym3w_1Vb0iw",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos"
+        },
+        "tmdb_id_scelto": 9339
+      }
+    },
+    {
+      "video_id": "m8tcQtcIYk8",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Fantozzi",
+      "genre": "commedia",
+      "tmdb_id": 47918,
+      "tmdb_title_official": "Fantozzi",
+      "tmdb_year_official": 1975,
+      "tmdb_poster_path": "/5C2xuoQ9fMUwoS4gjThH0JCeRUZ.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 47918",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Fantozzi",
+        "titolo_originale": "White Rush",
+        "anno_uscita": 1975,
+        "durata_minuti": 87,
+        "genere": [
+          "Animazione",
+          "Azione"
+        ],
+        "regista": [
+          "Mark L. Lester"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Judd Nelson",
+            "personaggio": "Brian Nathanson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7kRf8vE0ZjMuunh8BaD50B3EhS5.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/21624",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Louis Mandylor",
+            "personaggio": "Chick",
+            "foto_url": "https://image.tmdb.org/t/p/w185/skvNBR83wxjbFj6XuLxWAhCZTmh.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/54649",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sandra Vidal",
+            "personaggio": "Solange",
+            "foto_url": "https://image.tmdb.org/t/p/w185/HFs8clHI2hT1SQ34mIlahBzMte.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/139596",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Charlie Schlatter",
+            "personaggio": "Jay Gelb",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tAXK63aGqIP7CqgvxNLEC2KHKvf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/77293",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "James Pickens Jr.",
+            "personaggio": "Denny",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iddDcaysDQ6IVMUjJ97Bv3lTBCu.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/25544",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Deborah Zoe",
+            "personaggio": "Arlene Gelb",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xQPOS0uLvmkULPKsfaR279v5GAr.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/139597",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tricia Helfer",
+            "personaggio": "Eva",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cXwa8yT2Qv7EmCI8yjs5ldvMHmw.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/74423",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Taylor Sheridan",
+            "personaggio": "Tug / Douglas",
+            "foto_url": "https://image.tmdb.org/t/p/w185/enrOQII7bCIf7U0WbdxiuXGfzrs.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1215399",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ivo Cutzarida",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/6xDwQHLTj5xG14hZRG6RFLIpvGE.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/192480",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rafael Jordan",
+            "personaggio": "Junkie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uZg9JlTyFtafAdqvUtv975PQ6Ys.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/105828",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "A group of young tourist couples comes across a drug deal gone bad while on vacation.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/5C2xuoQ9fMUwoS4gjThH0JCeRUZ.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 47918
+      }
+    },
+    {
+      "video_id": "esifKKum4KM",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Superfantozzi",
+      "genre": "commedia",
+      "tmdb_id": 47920,
+      "tmdb_title_official": "Superfantozzi",
+      "tmdb_year_official": 1986,
+      "tmdb_poster_path": "/4SxBZbCEpsnei3iw4z7b6FpzMRz.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 47920",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Superfantozzi",
+        "titolo_originale": "Magnificent Obsession",
+        "anno_uscita": 1986,
+        "durata_minuti": 112,
+        "genere": [
+          "Animazione",
+          "Dramma",
+          "Romance"
+        ],
+        "regista": [
+          "John M. Stahl"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Irene Dunne",
+            "personaggio": "Helen Hudson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nyjWr6mGmRUDRiip3k8ajy2s9DL.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/77158",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Robert Taylor",
+            "personaggio": "Dr. Robert Merrick",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1CDILPhiOQztlvZwsU55kKBspIV.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/82216",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Charles Butterworth",
+            "personaggio": "Tommy Masterson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gf1IZXYGi1Q0ma5LIs3204m1K66.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/90380",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Betty Furness",
+            "personaggio": "Joyce Hudson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dOTEBhoo63jVuctzzeAtDWAjpM1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/139603",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sara Haden",
+            "personaggio": "Mrs. Nancy Ashford",
+            "foto_url": "https://image.tmdb.org/t/p/w185/77NW5jRIn7rxzEMxhR2kjsCCDXg.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/85956",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ralph Morgan",
+            "personaggio": "Randolph",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5By4MqjMaQY7aOx1kninnw5331N.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/103449",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Henry Armetta",
+            "personaggio": "Tony",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9Bvd4g9QaFoMtYm3VYpJeAa9R3I.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/95725",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gilbert Emery",
+            "personaggio": "Doctor Ramsay",
+            "foto_url": "https://image.tmdb.org/t/p/w185/b7x1gNbhJzZ11BdPelPwX7zxUct.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/95757",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Arthur Treacher",
+            "personaggio": "Horace",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oPhvOmBTJxFqRQfkEyyPuKJM5Bu.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5831",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Beryl Mercer",
+            "personaggio": "Mrs. Eden",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vsWop0MRGrjHgwjpt7jerSoeiN1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2018",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Il dottor Hudson e Bobby Merrick, un giovanotto ricco, vengono raccolti mentre stanno affogando in seguito a un incidente e portati nel vicino ospedale. L'unico apparecchio per la respirazione artificiale salva soltanto il giovanotto. Bobby incontra Helen, la vedova del dottor Hudson, e se ne innamora. In seguito a un incidente d'auto Helen perde la vista, ma la riacquisterà qualche anno dopo per merito dello stesso Bobby.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/4SxBZbCEpsnei3iw4z7b6FpzMRz.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 47920
+      }
+    },
+    {
+      "video_id": "3Y2COPP4SY0",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Fantozzi - Il ritorno",
+      "genre": "commedia",
+      "tmdb_id": 47923,
+      "tmdb_title_official": "Fantozzi - Il ritorno",
+      "tmdb_year_official": 1996,
+      "tmdb_poster_path": "/fb5Ic8is0hSupdFGE0ubn89OJ8F.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 47923",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Fantozzi - Il ritorno",
+        "titolo_originale": "The Invisible Wall",
+        "anno_uscita": 1996,
+        "durata_minuti": 72,
+        "genere": [
+          "Animazione",
+          "Crime"
+        ],
+        "regista": [
+          "Eugene Forde"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Don Castle",
+            "personaggio": "Harry Lane",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9EQKABzCRFdNjfk2xENmeaXj18E.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/114400",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Virginia Christine",
+            "personaggio": "Mildred Elsworth",
+            "foto_url": "https://image.tmdb.org/t/p/w185/aVPUIpWumBgMFdWo0R5wCQWZM0N.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/101481",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Richard Gaines",
+            "personaggio": "Richard Elsworth",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qTap65x0jLOgyM0jxC3BPG83TEN.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/14976",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Arthur Space",
+            "personaggio": "Roy Hanford",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1Knee5z0h89xsRWQIdCl1sd6DDf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/34365",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Edward Keane",
+            "personaggio": "Marty Floyd",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4PLA77BDa27cI9gMzOuadJmbt2t.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/120708",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jeff Chandler",
+            "personaggio": "Al Conway, henchman",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7fh0EcV4LX3SxLOFmpSSar5TAjB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/50570",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mary Gordon",
+            "personaggio": "Mrs. Bledsoe",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5jhUhQa0ArqB8p5cr8EwIXNeihx.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2934",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Harry Cheshire",
+            "personaggio": "Eugene Hamilton",
+            "foto_url": "https://image.tmdb.org/t/p/w185/eYW4TZXfi6Z0sEkfs3iSYfMQAej.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/118319",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rita Duncan",
+            "personaggio": "Alice Jamison",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/139609",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Harry Shannon",
+            "personaggio": "Det. Capt. R.W. Davis",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dxa8n4TvxNv0xUX9JXqVw8trZXR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4077",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "A former GI gets his old job back working for a bookie after returning from serving in the military. Unfortunately, he loses the $20,000 he was supposed to deliver to gambling and a con artist. His attempts to get the money back leads to bigger problems including a murder plot.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/fb5Ic8is0hSupdFGE0ubn89OJ8F.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 47923
+      }
+    },
+    {
+      "video_id": "MuvoKAYojqo",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Fantozzi contro tutti",
+      "genre": "commedia",
+      "tmdb_id": 47919,
+      "tmdb_title_official": "Fantozzi contro tutti",
+      "tmdb_year_official": 1980,
+      "tmdb_poster_path": "/3efluWsxyvMMx0ADwVwBZc0qoLU.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 47919",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Fantozzi contro tutti",
+        "titolo_originale": "Lee and Herring Live",
+        "anno_uscita": 1980,
+        "durata_minuti": 60,
+        "genere": [
+          "Animazione",
+          "Commedia"
+        ],
+        "regista": [
+          "Steve Bendelack"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Stewart Lee",
+            "personaggio": "Self",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6MKi736NjqDNMmJ2E9m9NZukEiN.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/94751",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Richard Herring",
+            "personaggio": "Self",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wAJmlNYuo3Pvz6lPY32O3HrXRLh.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/114561",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kevin Eldon",
+            "personaggio": "Simon Quinlank",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1S3ft0f71Hho9QlHUnuyJVHrfKH.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/39185",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Peter Baynham",
+            "personaggio": "Peter",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9PPjG6v2E3fnBxHyd2stvaeDldF.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/6732",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "TV Comedy from radio award-winning writers Stewart Lee and Richard Herring.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/3efluWsxyvMMx0ADwVwBZc0qoLU.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 47919
+      }
+    },
+    {
+      "video_id": "hz9aU1rbE6s",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Fantozzi alla riscossa",
+      "genre": "commedia",
+      "tmdb_id": 47921,
+      "tmdb_title_official": "Fantozzi alla riscossa",
+      "tmdb_year_official": 1990,
+      "tmdb_poster_path": "/a6F2rSvCE1sIkn4ZaYqNWMJhSKX.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 47921",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Fantozzi alla riscossa",
+        "titolo_originale": "Imitation of Life",
+        "anno_uscita": 1990,
+        "durata_minuti": 111,
+        "genere": [
+          "Animazione",
+          "Dramma",
+          "Romance"
+        ],
+        "regista": [
+          "John M. Stahl"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Claudette Colbert",
+            "personaggio": "Beatrice 'Bea' Pullman",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hGXgVxZCMliuHZhVTg2q2UAgrmI.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/30155",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Louise Beavers",
+            "personaggio": "Delilah Johnson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/paY7aYpB9erGe3KetPLZ3P0Yd39.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/89101",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Warren William",
+            "personaggio": "Stephen 'Steve' Archer",
+            "foto_url": "https://image.tmdb.org/t/p/w185/w2M7yW9iUSTric3qppRadXzbf7W.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/76974",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rochelle Hudson",
+            "personaggio": "Jessie Pullman, Age 18",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2Mi0CBL9pvzLnCBTnfekH0JizcM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2777",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ned Sparks",
+            "personaggio": "Elmer Smith",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bRduH9CVoOKfD19dKmlxujvEe4Z.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/30004",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Fredi Washington",
+            "personaggio": "Peola Johnson, Age 19",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3wUddOEBvJYLDTL8l1hvRgbF70I.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1010217",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Juanita Quigley",
+            "personaggio": "Baby Jessie Pullman, Age 3",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uz61UllukgSqMqTezWiyfmYNLzB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1011213",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Alan Hale",
+            "personaggio": "Martin the Furniture Man",
+            "foto_url": "https://image.tmdb.org/t/p/w185/e90MwAMkxjDqr3wOnOhDAjvylW5.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/8729",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Henry Armetta",
+            "personaggio": "The Painter",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9Bvd4g9QaFoMtYm3VYpJeAa9R3I.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/95725",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Wyndham Standing",
+            "personaggio": "Beatrice's Butler Jarvis",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3J3ynqFyS6jkEKKs5TkCPKstfjm.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/540363",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Una vedova bianca e la sua governante nera si arricchiscono con la formula di una farina per frittelle, di cui è depositaria la governante, che, come solo compenso, chiede per sé un funerale in grande stile. La figlia della donna bianca ama il futuro patrigno e quella della donna nera si vergogna della sua stirpe.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/a6F2rSvCE1sIkn4ZaYqNWMJhSKX.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 47921
+      }
+    },
+    {
+      "video_id": "sqmmTBrn8Z8",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Fantozzi va in paradiso",
+      "genre": "commedia",
+      "tmdb_id": 47922,
+      "tmdb_title_official": "Fantozzi va in paradiso",
+      "tmdb_year_official": 1993,
+      "tmdb_poster_path": "/iPIOExn7a2YlyLyC1n48gZUs98R.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 47922",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Fantozzi va in paradiso",
+        "titolo_originale": "Inner Sanctum",
+        "anno_uscita": 1993,
+        "durata_minuti": 62,
+        "genere": [
+          "Animazione",
+          "Mistero",
+          "Thriller",
+          "Crime"
+        ],
+        "regista": [
+          "Lew Landers"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Charles Russell",
+            "personaggio": "Harold Dunlap",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zEtUG9Iq0rna5YORjxLeAb6w2SI.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/121400",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mary Beth Hughes",
+            "personaggio": "Jean Maxwell",
+            "foto_url": "https://image.tmdb.org/t/p/w185/25Hi4J133OcCfrBkrlnZVZDAvGJ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/14655",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Dale Belding",
+            "personaggio": "Mike Bennett",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/139606",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Billy House",
+            "personaggio": "McFee",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3PKcd1citnco6GkXDLboPvoKOeg.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/85737",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Fritz Leiber",
+            "personaggio": "Dr. Valonius",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hWMaGqZ2eMAsGlywuytymjx9uKl.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/103176",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nana Bryant",
+            "personaggio": "Mrs. Mitchell",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9pAqHEbdQt0B7iYebTyxcGMbc45.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/88461",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lee Patrick",
+            "personaggio": "Ruth Bennett",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zlLezqw2Klyw1qt0uxePQtC9NZ6.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5740",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Roscoe Ates",
+            "personaggio": "Willie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jrtu4ej5MLP6Ynl35wPP0bGaroB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1509",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Eddie Parks",
+            "personaggio": "Barney",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gEoOGdX1Gn5ZNHIxzR0DAAq4GSz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/111194",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Eve Miller",
+            "personaggio": "Marie Kembar",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xa0EF08vbJsY1OGNpInyWpeoe7e.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/83622",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "A killer hides out in a small-town boarding house.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/iPIOExn7a2YlyLyC1n48gZUs98R.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 47922
+      }
+    },
+    {
+      "video_id": "-2bt0bR29_I",
+      "is_movie": true,
+      "manual_include": true,
+      "channel": "Commedia",
+      "genre": "commedia",
+      "original_title": "Febbre da cavallo - La mandrakata",
+      "tmdb_title_official": "Febbre da cavallo - La mandrakata",
+      "tmdb_year_official": 2002,
+      "tmdb_id": 42373,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "0HlmpfknJhU",
+      "is_movie": true,
+      "manual_include": true,
+      "channel": "Commedia",
+      "genre": "commedia",
+      "original_title": "Fracchia la belva umana",
+      "tmdb_title_official": "Fracchia la belva umana",
+      "tmdb_year_official": 1981,
+      "tmdb_id": 42276,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "_xD2JPbkJhU",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Giggi il bullo",
+      "genre": "commedia",
+      "tmdb_id": 57749,
+      "tmdb_title_official": "Giggi il bullo",
+      "tmdb_year_official": 1982,
+      "tmdb_poster_path": "/wWWjKwaWJ8pidrCxWeUsvXl00pl.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 57749",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Giggi il bullo",
+        "titolo_originale": "The Clinic",
+        "anno_uscita": 1982,
+        "durata_minuti": 94,
+        "genere": [
+          "Animazione",
+          "Mistero",
+          "Horror",
+          "Thriller",
+          "Crime"
+        ],
+        "regista": [
+          "James Rabbitts"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Andy Whitfield",
+            "personaggio": "Cameron",
+            "foto_url": "https://image.tmdb.org/t/p/w185/yC50iAotrMDY03ha6R5zpHIaZDO.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/61777",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tabrett Bethell",
+            "personaggio": "Beth",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mEvE6urdcPzfTdAJ0aOjXL5ibBf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/221150",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Freya Stafford",
+            "personaggio": "Veronica",
+            "foto_url": "https://image.tmdb.org/t/p/w185/yHisdwlraY7scY5fkYFO5XiXc6F.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/199313",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Clare Bowen",
+            "personaggio": "Ivy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6UG85d4X1FfsTrocmQKdFc4SDge.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/85011",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sophie Lowe",
+            "personaggio": "Allison",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5nco3uflgKK5JGmoLbc0Yna34ZQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/103994",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Boris Brkic",
+            "personaggio": "Hank",
+            "foto_url": "https://image.tmdb.org/t/p/w185/aMDLoE4zWe0K6C3oBunM6tJvLTu.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/152421",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marshall Napier",
+            "personaggio": "Marvin",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1NwqDIMV1IXZ3Z0j9LOcET5X6dn.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/227099",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Elizabeth Alexander",
+            "personaggio": "Ms Shepard",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8Xd6pqvlXNq0upG9hHQJ1xPOOCU.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/125021",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Adrienne Pickering",
+            "personaggio": "Jane Doe",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pvbVipsUBAGy9S6gJx0CL5KDqYl.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/37292",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marcel Bracks",
+            "personaggio": "Duncan",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2645162",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "While traveling across country with her fiancé, Beth wakes alone in an isolated clinic to a mother's worst nightmare. Just how far will she go to save her child?",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/wWWjKwaWJ8pidrCxWeUsvXl00pl.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 57749
+      }
+    },
+    {
+      "video_id": "m-RvzCUrpqI",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Bomber",
+      "genre": "commedia",
+      "tmdb_id": 19898,
+      "tmdb_title_official": "Bomber",
+      "tmdb_year_official": 1982,
+      "tmdb_poster_path": "/nssdk5mmki7bikjIGWIre3l3spJ.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 19898",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Bomber",
+        "titolo_originale": "Pandorum",
+        "anno_uscita": 1982,
+        "durata_minuti": 108,
+        "genere": [
+          "Animazione",
+          "Azione",
+          "Horror",
+          "Mistero",
+          "Fantascienza",
+          "Thriller"
+        ],
+        "regista": [
+          "Christian Alvart"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Ben Foster",
+            "personaggio": "Bower",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9cLAefvsGIEPPdZmjh4btYjCeZy.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/11107",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Dennis Quaid",
+            "personaggio": "Payton",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lMaDAJHzsKH7U3dln2B3kY3rOhE.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/6065",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Cam Gigandet",
+            "personaggio": "Gallo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kdSVRqCR0p8KZTvVkRccBLoim7L.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/55086",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Antje Traue",
+            "personaggio": "Nadia",
+            "foto_url": "https://image.tmdb.org/t/p/w185/enfmTZlaXBoaVL1T5XVNe55WbOp.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/43202",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Cung Le",
+            "personaggio": "Manh",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4L1cbVQXF3MBSQJiJCjBW4sNYqw.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/116637",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Eddie Rouse",
+            "personaggio": "Leland",
+            "foto_url": "https://image.tmdb.org/t/p/w185/r3HEgVyKe4VemiK7h35YBsPbeIP.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/79419",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Norman Reedus",
+            "personaggio": "Shepard",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ozHPdO5jAt7ozzdZUgyRAMNPSDW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4886",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "André Hennicke",
+            "personaggio": "Hunter Leader",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ooLG1YJU6hsc5KNGeHqTkwv0GMe.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1846",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Friederike Kempter",
+            "personaggio": "Evalon",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tP2wx2NxhEPdWNupliCc6Jz4SWF.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/28273",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Niels-Bruno Schmidt",
+            "personaggio": "Insane Officer 'Eden'",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rsb1NiWWDEdFqFgLbgq5CiAOwmB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/46216",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Due astronauti, il tenente Payton e il Caporale Bower si risvegliano nella loro nave spaziale Elysium che è stata lanciata nel 2174 avendo come meta il pianeta Tanis. La Terra è ormai sovrappopolata e le risorse sono minime e fatte oggetto di lotta per la sopravvivenza. Su Tanis sembra sia possibile ricominciare. I due, che avrebbero dovuto far parte di un turno di operatività, si ritrovano però soli nell'immensa astronave. Bower inizia un'esplorazione che lo porta a una terribile scoperta: pochi umani sono sopravvissuti come tali. Gran parte dell'equipaggio e di quella che avrebbe dovuto essere una sorta di Arca di Noè di terrestri si sono trasformati in mostri assetati di sangue.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/nssdk5mmki7bikjIGWIre3l3spJ.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=DeJTEyeBOSQ",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos"
+        },
+        "tmdb_id_scelto": 19898
+      }
+    },
+    {
+      "video_id": "CYEOEbNVF8Y",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Bianco, rosso e Verdone",
+      "genre": "commedia",
+      "tmdb_id": 42198,
+      "tmdb_title_official": "Bianco, rosso e Verdone",
+      "tmdb_year_official": 1981,
+      "tmdb_poster_path": "/9WVolrSXzdehGWEFzgF4KhJmBEI.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 42198",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Bianco, rosso e Verdone",
+        "titolo_originale": "American Hot Wax",
+        "anno_uscita": 1981,
+        "durata_minuti": 91,
+        "genere": [
+          "Animazione",
+          "Dramma",
+          "Storia",
+          "Musica"
+        ],
+        "regista": [
+          "Floyd Mutrux"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Tim McIntire",
+            "personaggio": "Alan Freed",
+            "foto_url": "https://image.tmdb.org/t/p/w185/by3ZgApPcmHVuNur19K5Vw8Z33a.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/39998",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Fran Drescher",
+            "personaggio": "Sheryl",
+            "foto_url": "https://image.tmdb.org/t/p/w185/t5nDXDld8QykgZ3cllrn2OziI38.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/53122",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jay Leno",
+            "personaggio": "Mookie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cplpY6q2VFtR7c1gMHM50wPzdU3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/14991",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Laraine Newman",
+            "personaggio": "Teenage Louise",
+            "foto_url": "https://image.tmdb.org/t/p/w185/c50cGamQWIfDRDgYmHCiuj5Crpx.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/35159",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Carl Weaver",
+            "personaggio": "Member of The Chesterfields",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2666652",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Al Chalk",
+            "personaggio": "Member of The Chesterfields",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5ZsQYwzNH6nxnryu3HoA5ikhwdq.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2274337",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sam Harkness",
+            "personaggio": "Member of The Chesterfields",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2666654",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Arnold McCuller",
+            "personaggio": "Member of The Chesterfields",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iEzYdQVQ1dWcrzJEdg9mkcCNi0Z.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/109805",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jeff Altman",
+            "personaggio": "Lennie Richfield",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rKLop0oowbEMSLZysP21LBFwBIj.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/53595",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Moosie Drier",
+            "personaggio": "Artie Moress",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qgfmFwKc5NbSEsD46ihFOb5QIPj.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1215869",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "This is the story loosely based on Cleveland disc jockey Alan Freed, who introduced rock'n'roll to teenage American radio audiences in the 1950s. Freed was a source of great controversy: criticized by conservatives for corrupting youth with the \"devil's music\"; hated by racists for promoting African American music for white consumption; persecuted by law enforcement officials and finally brought down by the \"payola\" scandals.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/9WVolrSXzdehGWEFzgF4KhJmBEI.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 42198
+      }
+    },
+    {
+      "video_id": "EtXJ01qC34A",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Troppo forte",
+      "genre": "commedia",
+      "tmdb_id": 42201,
+      "tmdb_title_official": "Troppo forte",
+      "tmdb_year_official": 1986,
+      "tmdb_poster_path": "/5CvuALoM50psdrZ1ioRH5FisEKn.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 42201",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Troppo forte",
+        "titolo_originale": "Comes a Horseman",
+        "anno_uscita": 1986,
+        "durata_minuti": 118,
+        "genere": [
+          "Animazione",
+          "Western",
+          "Dramma",
+          "Romance"
+        ],
+        "regista": [
+          "Alan J. Pakula"
+        ],
+        "cast_principale": [
+          {
+            "nome": "James Caan",
+            "personaggio": "Frank 'Buck' Athearn",
+            "foto_url": "https://image.tmdb.org/t/p/w185/z2Lz3rtxZ7aJjzBUkCnExvo8stn.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3085",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jane Fonda",
+            "personaggio": "Ella Connors",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5Yb3nmRWXXZAxNhfhEuOMdfyVNN.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/6352",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jason Robards",
+            "personaggio": "Jacob 'J.W.' Ewing",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9y0HAtWWBkB02gVzh8QDdz6UYZH.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4765",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "George Grizzard",
+            "personaggio": "Neil Atkinson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nGhVTWuoYbYfTnzZqxrWY9F0p6p.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/72056",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Richard Farnsworth",
+            "personaggio": "Dodger",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zwomo8lekrM7dkJ00JmqsslwrIB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5605",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mark Harmon",
+            "personaggio": "Billy Joe Meynert",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jDRXlmBItH9IyXk9UhafpOSBIq7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/19728",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Macon McCalman",
+            "personaggio": "Virgil Hoverton",
+            "foto_url": "https://image.tmdb.org/t/p/w185/sKxQokaOgbyvx2qxzABEHyMpmes.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/152943",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Basil Hoffman",
+            "personaggio": "George Bascomb",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iDAK5OkF0tHs049IB858uQ0NYjX.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/91369",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "James Keach",
+            "personaggio": "Emil Kroegh",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7m1q8jK2fJCYCP8i9ks6e2pQJ6q.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/408",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jim Davis",
+            "personaggio": "Julie Blocker",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hyRy1u64pMK7nWTvHPtrBhTJ3iA.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/30846",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Ella Connors, che ha ereditato dal padre una fattoria e terreni da pascolo, rifiuta le proposte di acquisto di Erwin, il tiranno della zona. Avendo la donna venduto parte dei pascoli a due cowboys reduci di guerra, è contro di essi che Erwin manda i suoi sicari. Però Frank, uno dei cowboy, sopravvive e il suo aiuto sarà determinante nella lotta di Ella contro il dispotico e criminale possidente.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/5CvuALoM50psdrZ1ioRH5FisEKn.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 42201
+      }
+    },
+    {
+      "video_id": "e6WAljBzX-w",
+      "is_movie": true,
+      "manual_include": true,
+      "channel": "Commedia",
+      "genre": "commedia",
+      "original_title": "Pierino contro tutti",
+      "tmdb_title_official": "Pierino contro tutti",
+      "tmdb_year_official": 1981,
+      "tmdb_id": 57750,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "UOGV4JeS2TY",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Occhio malocchio prezzemolo e finocchio",
+      "genre": "commedia",
+      "tmdb_id": 57892,
+      "tmdb_title_official": "Occhio malocchio prezzemolo e finocchio",
+      "tmdb_year_official": 1983,
+      "tmdb_poster_path": "/ipHbJ54NuA8tobUDrEV6odOrYhK.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 57892",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Occhio malocchio prezzemolo e finocchio",
+        "titolo_originale": "Vizontele",
+        "anno_uscita": 1983,
+        "durata_minuti": 110,
+        "genere": [
+          "Animazione",
+          "Commedia",
+          "Dramma"
+        ],
+        "regista": [
+          "Yılmaz Erdoğan",
+          "Ömer Faruk Sorak"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Yılmaz Erdoğan",
+            "personaggio": "Deli Emin",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nl7WulHPoP6bw4phMwp0VuuJgyL.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/99314",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Demet Akbağ",
+            "personaggio": "Siti Ana",
+            "foto_url": "https://image.tmdb.org/t/p/w185/eGuozRn0wfZlzxVBlLigT0yI8Zh.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/59754",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Altan Erkekli",
+            "personaggio": "Başkan Nazmi",
+            "foto_url": "https://image.tmdb.org/t/p/w185/u6Tc6oP3jgkEKBseMIyddXqZWk4.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/106620",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Cem Yılmaz",
+            "personaggio": "Fikri",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4cxNtPTz6GUWPnZHsZaC63IFzJ1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/74376",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Cezmi Baskın",
+            "personaggio": "Latif",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7eAM8mhkj1qbX8LISmwdIhALiZr.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/145331",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Bican Günalan",
+            "personaggio": "Sezgin",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ehQz1rvDYOSwZbqMqNbbyKP0YN.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1458862",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Şebnem Sönmez",
+            "personaggio": "Gülizar",
+            "foto_url": "https://image.tmdb.org/t/p/w185/sM0xuq8xvRGGNnA1FUvNER1yIkZ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/225187",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Salih Kalyon",
+            "personaggio": "Casim",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2yIjjrK8Vnk0Z6moNQnuD242DN8.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/145344",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Şener Kökkaya",
+            "personaggio": "Basri",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8W12xJB3Pq74ZXXlprwZyVudngk.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1195914",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Erdal Tosun",
+            "personaggio": "Şeyhmus",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1HGjDkZojj9MPKNIj8Ol8HuwPU7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/145733",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "La storia si svolge in un piccolo paese (chiamato Hakkari) in Turchia all'inizio degli anni '70. È giunto il momento di portare la tecnologia in quella piccola città. Arriva la prima Televisione (o dai cittadini chiamata Visiontele) e inizia il caos.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/ipHbJ54NuA8tobUDrEV6odOrYhK.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 57892
+      }
+    },
+    {
+      "video_id": "kpbjtQfknSU",
+      "is_movie": true,
+      "manual_include": true,
+      "channel": "Commedia",
+      "genre": "commedia",
+      "original_title": "Fratelli d'Italia",
+      "tmdb_title_official": "Fratelli d'Italia",
+      "tmdb_year_official": 1989,
+      "tmdb_id": 42365,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "BiMLLz8_4ew",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Mia moglie è una strega",
+      "genre": "commedia",
+      "tmdb_id": 42290,
+      "tmdb_title_official": "Mia moglie è una strega",
+      "tmdb_year_official": 1980,
+      "tmdb_poster_path": "/zO2gHN8334H0NG1M8Nxb5hsT7dx.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 42290",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Mia moglie è una strega",
+        "titolo_originale": "Il Pap'occhio",
+        "anno_uscita": 1980,
+        "durata_minuti": 98,
+        "genere": [
+          "Animazione",
+          "Commedia"
+        ],
+        "regista": [
+          "Renzo Arbore"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Roberto Benigni",
+            "personaggio": "self",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ba1Sg02XxCphu6E1dWDMAH1GzeE.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4818",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Luciano De Crescenzo",
+            "personaggio": "God",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4zVmIuK3Q5z1en9rhSLOiOSZJdc.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/28259",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Andy Luotto",
+            "personaggio": "self",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pcRz9G9taeXQgJ3qDJcdLBgbPI9.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/69785",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Isabella Rossellini",
+            "personaggio": "self",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ebcTowZoBZCDxaWd5ZrL2ZR5mQ3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/6588",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Diego Abatantuono",
+            "personaggio": "Don Gabriele",
+            "foto_url": "https://image.tmdb.org/t/p/w185/i7idHOw21i3RNO8IrVKkGlcAyOd.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/55912",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Renzo Arbore",
+            "personaggio": "self",
+            "foto_url": "https://image.tmdb.org/t/p/w185/k7qTm75r86Fzg1P5bLoQKKwFp3H.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/127636",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Manfred Freyberger",
+            "personaggio": "Papa Giovanni Paolo II",
+            "foto_url": "https://image.tmdb.org/t/p/w185/yP099H94m0hZ4bsDhMMUdVj9wrL.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1608792",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mario Marenco",
+            "personaggio": "self",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ipShbv7KzWPd6gHpKDyQqL8I1S7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/127634",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Michael Pergolani",
+            "personaggio": "self",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7in8O9h0CjmSHSsEXEFScK2iDCD.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/91625",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Salvatore Baccaro",
+            "personaggio": "Corista",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4ICceV8wau2FauUwPnZx5JFlsRN.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/30901",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Il Papa convoca Arbore e lo incarica di mettere in scena “Gaudium Magnum”, show musicale per la TV vaticana. Durante le prove le gag si susseguono spudoratamente con sgangherata frenesia finché interviene il Padreterno che manda tutto a catafascio e con una felliniana sfera di ferro precipita tutti nelle viscere della Terra. “Pap'occhio” come occhio del papa, ma anche come pastrocchio, pasticcio, intruglio, e il film di Arbore lo è per programma, ma anche per necessità: la fase del montaggio è stata determinante almeno quanto quella delle riprese. Scritto con L. De Crescenzo, prodotto da M. Orfini. Sequestrato per vilipendio della religione di Stato. Ridistribuito in sala senza esito nel 1998.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/zO2gHN8334H0NG1M8Nxb5hsT7dx.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=XvBjBphvjrc",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos"
+        },
+        "tmdb_id_scelto": 42290
+      }
+    },
+    {
+      "video_id": "wWhM2pxSRE8",
+      "is_movie": true,
+      "manual_include": true,
+      "channel": "Commedia",
+      "genre": "commedia",
+      "original_title": "Camerieri",
+      "tmdb_title_official": "Camerieri",
+      "tmdb_year_official": 1995,
+      "tmdb_id": 42374,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "_IKcANdTUHk",
+      "is_movie": true,
+      "manual_include": true,
+      "channel": "Commedia",
+      "genre": "commedia",
+      "original_title": "Le comiche 2",
+      "tmdb_title_official": "Le comiche 2",
+      "tmdb_year_official": 1991,
+      "tmdb_id": 42376,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "SGHTd_v7g2k",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Continuavano a chiamarlo Trinità",
+      "genre": "commedia",
+      "tmdb_id": 42178,
+      "tmdb_title_official": "Continuavano a chiamarlo Trinità",
+      "tmdb_year_official": 1971,
+      "tmdb_poster_path": "/7cZBebDvzkzFoaSFWeGAkf8xyp7.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 42178",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Continuavano a chiamarlo Trinità",
+        "titolo_originale": "Winter Kills",
+        "anno_uscita": 1971,
+        "durata_minuti": 97,
+        "genere": [
+          "Animazione",
+          "Dramma",
+          "Mistero",
+          "Thriller",
+          "Commedia"
+        ],
+        "regista": [
+          "William Richert"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Jeff Bridges",
+            "personaggio": "Nick Kegan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xms1RAY6q7Lzp7wNeRCB0kzhucn.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1229",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "John Huston",
+            "personaggio": "Pa Kegan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/saIbkr0jPzscRBKNG1suhgd3Yxb.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/6593",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Anthony Perkins",
+            "personaggio": "John Cerruti",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7FipKwmg2woHNvt5ATeXLBirHXs.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/7301",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Eli Wallach",
+            "personaggio": "Joe Diamond",
+            "foto_url": "https://image.tmdb.org/t/p/w185/egLe8r2PwbTx9ocwS1Zu2vsYC9v.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3265",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sterling Hayden",
+            "personaggio": "Z.K. Dawson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dCTe6BsGSp9QTcva2Pz4wbxxYMY.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3088",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Dorothy Malone",
+            "personaggio": "Emma Kegan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nVFJ57R5XZxrxjn0pyfYkKjFeNm.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/10487",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tomas Milian",
+            "personaggio": "Frank Mayo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4kJLJS71fMyiA7lD685pCtZlljR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/21708",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Belinda Bauer",
+            "personaggio": "Yvette Malone",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oVKC7AAYTwz60GPXSUP04i83iW6.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/44049",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ralph Meeker",
+            "personaggio": "Gameboy Baker",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3gxXZRouc813WFmA6zVUl3ciq0P.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/14562",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Toshirō Mifune",
+            "personaggio": "Keith",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3A9PqrtiXHLp8B2JL7m3YvVXrmL.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/7450",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Nick Kegan (Jeff Bridges), il rampollo di una potente famiglia americana, fa del suo meglio per cancellare dai ricordi l'ombra dell'omicidio del fratello maggiore, ex presidente degli Stati Uniti. Mentre lavora in un impianto petrolifero, Nick fa la conoscenza di un distinto gentiluomo, gravemente ammalato, che gli confessa di essere il secondo assassino del fratello. Riaprendo una ferita mai ricucita, Nick viene spinto dalla curiosità a scavare in quello che per tutti è un caso chiuso giungendo a una nuova e inaspettata verità.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/7cZBebDvzkzFoaSFWeGAkf8xyp7.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 42178
+      }
+    },
+    {
+      "video_id": "CT9Bfsk2DIs",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Lo chiamavano Bulldozer",
+      "genre": "commedia",
+      "tmdb_id": 42182,
+      "tmdb_title_official": "Lo chiamavano Bulldozer",
+      "tmdb_year_official": 1978,
+      "tmdb_poster_path": "/hWjGkVOCa36rK0DLTfC9YQhwV9E.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 42182",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Lo chiamavano Bulldozer",
+        "titolo_originale": "Octopus 2: River of Fear",
+        "anno_uscita": 1978,
+        "durata_minuti": 95,
+        "genere": [
+          "Animazione",
+          "Horror",
+          "Azione"
+        ],
+        "regista": [
+          "Yossi Wein"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Michael Reilly Burke",
+            "personaggio": "Nick Hartfeld",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zcvCPaOXtcNbp3yYPA9nU5sNyJq.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/108774",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Meredith Morton",
+            "personaggio": "Rachel Starbird",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kwJ3Uenqn9CoAaxPq65QsWoSfGh.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/127539",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Fredric Lehne",
+            "personaggio": "Walter",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qjtfC2QWLukoNVnDjp8QZF6E6Xz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/9632",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "John Thaddeus",
+            "personaggio": "Tony",
+            "foto_url": "https://image.tmdb.org/t/p/w185/eaGxAxBZtWYZXGZ39iLDmiOXnce.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/127541",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Chris Williams",
+            "personaggio": "Payton / X-Ray",
+            "foto_url": "https://image.tmdb.org/t/p/w185/opLLZdBb1Wk7HmWsxMIkfdiPO36.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1214427",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Stoyan Angelov",
+            "personaggio": "X-Ray",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1318089",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Paul Vincent O'Connor",
+            "personaggio": "Capt. Hensley",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8eL0NWU12O0RR7x1TWgXNlif0PH.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/156889",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Clement Blake",
+            "personaggio": "Mad Dog",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ueUSkeygA6qmgfwQRSsPc2yNDZg.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/54694",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Duncan Fraser",
+            "personaggio": "Mayor",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ckiY9K7fwH5KRuTE3IM5kelwm0c.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/14595",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Violeta Markovska",
+            "personaggio": "Anna Lee",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oO6ueXstv5S0cZai9gFSh1w1YcB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/100237",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Dead bodies are being found in New York harbor. The police have no clues nor suspects until Nick and his colleague realize the killer is a giant octopus. Everybody, especially the police captain, refuses to believe Nick's story, and soon the harbor will be filled with boats for the 4th of July celebrations.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/hWjGkVOCa36rK0DLTfC9YQhwV9E.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 42182
+      }
+    },
+    {
+      "video_id": "5MUmOFRWmzQ",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Uno sceriffo extraterrestre",
+      "genre": "commedia",
+      "tmdb_id": 42184,
+      "tmdb_title_official": "Uno sceriffo extraterrestre",
+      "tmdb_year_official": 1979,
+      "tmdb_poster_path": "/7tMYn0UHfoOIaPAsuVUDlgIBfSh.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 42184",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Uno sceriffo extraterrestre",
+        "titolo_originale": "Iep!",
+        "anno_uscita": 1979,
+        "durata_minuti": 81,
+        "genere": [
+          "Animazione",
+          "Avventura",
+          "Famiglia"
+        ],
+        "regista": [
+          "Rita Horst"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Huub Stapel",
+            "personaggio": "Warre",
+            "foto_url": "https://image.tmdb.org/t/p/w185/Ar41d7m6EA9eHGc7sMYTligjA77.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1854",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ties Dekker",
+            "personaggio": "Bor",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1036432",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Diederik Ebbinge",
+            "personaggio": "Rescuer",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fyhAD7iV7r9IKF3rcuM0ZDr9yjB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/139570",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kenadie Jourdin",
+            "personaggio": "Viegeltje",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1036433",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Stefan de Walle",
+            "personaggio": "Father Loetje",
+            "foto_url": "https://image.tmdb.org/t/p/w185/urE8mkFySX2gDmMLlsjC1zhouIw.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/68182",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Hans Somers",
+            "personaggio": "Reporter",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/79451",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Pieter Tiddens",
+            "personaggio": "Jager",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qyQB8hhOhEHZppBWAoPv20vUMrA.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1763888",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ditha van der Linden",
+            "personaggio": "Bakkers vrouw",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3164784",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Joke Tjalsma",
+            "personaggio": "Tine",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3O3kotHJWnicCBUgX1OzET9MRjb.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1010014",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Madelief Vermeulen",
+            "personaggio": "Loetje",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3973638",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Viegeltje looks like a girl but has wings instead of arms. Bird watcher Warre finds her under brushwood and takes her home. Warre and his wife Tine decide to keep Viegeltje and raise her like an ordinary girl. But Viegeltje isn't an ordinary girl and she flies away. She wants to go to the South with the other birds. It becomes a long and adventurous journey.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/7tMYn0UHfoOIaPAsuVUDlgIBfSh.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 42184
+      }
+    },
+    {
+      "video_id": "F227S49lDpk",
+      "is_movie": true,
+      "manual_include": true,
+      "channel": "Commedia",
+      "genre": "commedia",
+      "original_title": "Chissà perché capitano tutte a me",
+      "tmdb_title_official": "Chissà perché capitano tutte a me",
+      "tmdb_year_official": 1980,
+      "tmdb_id": 42183,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "yx-bQzGBlOI",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Lo chiamavano Trinità",
+      "genre": "commedia",
+      "tmdb_id": 42177,
+      "tmdb_title_official": "Lo chiamavano Trinità",
+      "tmdb_year_official": 1970,
+      "tmdb_poster_path": "/l4ZdidY7gtLC5AUCNVkchrCUwQG.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 42177",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Lo chiamavano Trinità",
+        "titolo_originale": "Un si joli village...",
+        "anno_uscita": 1970,
+        "durata_minuti": 116,
+        "genere": [
+          "Animazione",
+          "Dramma",
+          "Crime"
+        ],
+        "regista": [
+          "Étienne Périer"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Jean Carmet",
+            "personaggio": "Le juge Fernand Noblet",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cDDB1KbKQYF5NiDTnh7Ds4VEama.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/24540",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Victor Lanoux",
+            "personaggio": "Stéphane Bertin",
+            "foto_url": "https://image.tmdb.org/t/p/w185/AuEzBr4wR5tZONg3t8z311AN5Wg.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/25180",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Valérie Mairesse",
+            "personaggio": "Muriel Olivier, l'institutrice",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8CzY5dK1phwzQVgvoxJY4MGjqvi.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/138814",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Michel Robin",
+            "personaggio": "Gaspard, le braconnier",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vjn7TVCPCfzSPmx0ECP5g7tQsbW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/32092",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jacques Richard",
+            "personaggio": "Maurois, le représentant du personnel",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xxJuZ13ED7G77OW1TrcebdBSJEj.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/25069",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gérard Jugnot",
+            "personaggio": "Fréval, le patron du bar",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8fvIsaf0a5e60IvtNddKCcOZXFO.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/21171",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Francis Lemaire",
+            "personaggio": "Maître Demaison, l'avocat de Stéphane",
+            "foto_url": "https://image.tmdb.org/t/p/w185/j6qOGLufxPLyRNS0P7VaoL4yO5F.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/26889",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Anne Bellec",
+            "personaggio": "Nelly, la belle-sœur de Stéphane",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rJdE89UlrJpRlVBklBQ04xtGaQD.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1007733",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Alain Doutey",
+            "personaggio": "Debray, le responsable administratif de la tannerie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/A9eBrdw6lvcOK3pU6Lf7rGutWNi.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/35608",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jean Vigny",
+            "personaggio": "Le Curé Borie",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/24490",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Stéphane Bertin è un uomo ricco e rispettato, proprietario di una conceria nel villaggio di Favières, la sua città natale. Ha una relazione amorosa segreta con Muriel Olivier, una giovane insegnante del villaggio, incinta del figlio di Bertin. Tuttavia, il suo potere viene messo a repentaglio quando, durante una lite domestica, uccide accidentalmente la moglie.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/l4ZdidY7gtLC5AUCNVkchrCUwQG.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 42177
+      }
+    },
+    {
+      "video_id": "hyII3zBWyXc",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Miami Supercops",
+      "genre": "commedia",
+      "tmdb_id": 42186,
+      "tmdb_title_official": "Miami Supercops",
+      "tmdb_year_official": 1985,
+      "tmdb_poster_path": "/9QkvSPZ041POlEdKvMUI6c6lJfs.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 42186",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Miami Supercops",
+        "titolo_originale": "Bluebeard",
+        "anno_uscita": 1985,
+        "durata_minuti": 72,
+        "genere": [
+          "Animazione",
+          "Crime",
+          "Thriller",
+          "Horror"
+        ],
+        "regista": [
+          "Edgar G. Ulmer"
+        ],
+        "cast_principale": [
+          {
+            "nome": "John Carradine",
+            "personaggio": "Gaston Morrell",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hv2AAXNlTHVmGgXn8q7025S0g2b.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/8516",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jean Parker",
+            "personaggio": "Lucille",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ksj01GbanOhoZD5rXk99IVRx9QB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/81798",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nils Asther",
+            "personaggio": "Inspector Lefevre",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wAjR5Yx4S8uqYlUySn6GoDfWeVM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/29036",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ludwig Stössel",
+            "personaggio": "Jean Lamarte",
+            "foto_url": "https://image.tmdb.org/t/p/w185/p6ioKRb3FNRteCC47HnNTGVlNRq.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/31209",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "George Pembroke",
+            "personaggio": "Inspector Renard",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7QmVSkJKMAEc5k0mmb6qrS86Z4c.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/89253",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Teala Loring",
+            "personaggio": "Francine",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rld0pqmAhnHy5UsK7pUi6MhmNRI.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/103937",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sonia Sorel",
+            "personaggio": "Renee",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/6815",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Henry Kolker",
+            "personaggio": "Deschamps",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mZ5QUU0Sm8h5x4YdSO6ekiRGswU.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/80236",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Emmett Lynn",
+            "personaggio": "Soldier",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3FSOuJNMMbkgg7VhbPfasgWNVTC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/96710",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Iris Adrian",
+            "personaggio": "Mimi",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1UUgSM1bjr5V2VcjKyb6TA45glR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/34509",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "A Parigi si susseguono i ritrovamenti da parte della polizia dei cadaveri di giovani donne strangolate e gettate nella Senna. Mentre in città regna la paura per questo assassino seriale chiamato Barbablù, Lucille Lutien assiste con alcune sue amiche a uno spettacolo di burattini e ne rimane affascinata, stringendo amicizia con Gaston Morrell, l'autore dello spettacolo, che si rivela anche un abile pittore.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/9QkvSPZ041POlEdKvMUI6c6lJfs.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 42186
+      }
+    },
+    {
+      "video_id": "oS1DPvFtiWk",
+      "is_movie": true,
+      "manual_include": true,
+      "channel": "Commedia",
+      "genre": "commedia",
+      "original_title": "Io sto con gli ippopotami",
+      "tmdb_title_official": "Io sto con gli ippopotami",
+      "tmdb_year_official": 1979,
+      "tmdb_id": 42181,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "UG08K-PgEpQ",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Poliziotto superpiù",
+      "genre": "commedia",
+      "tmdb_id": 42185,
+      "tmdb_title_official": "Poliziotto superpiù",
+      "tmdb_year_official": 1980,
+      "tmdb_poster_path": "/g3xlaPOkt1vFkJqxA32LnudEqrG.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 42185",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Poliziotto superpiù",
+        "titolo_originale": "Shark Attack",
+        "anno_uscita": 1980,
+        "durata_minuti": 100,
+        "genere": [
+          "Animazione",
+          "Horror",
+          "televisione film"
+        ],
+        "regista": [
+          "Bob Misiorowski"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Casper Van Dien",
+            "personaggio": "Steven McKray",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jxRmw8gJYsJ7IG5n9B0PFzy2nHO.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/27763",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ernie Hudson",
+            "personaggio": "Lawrence Rhodes",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kgAdQA2ItCDVvKXufeDHc6Omiso.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/8874",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Bentley Mitchum",
+            "personaggio": "Dr. Miles Craven",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7gKMXmpo5heq8dDuD3emUzSBl59.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/127544",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jenny McShane",
+            "personaggio": "Corinne Desantis",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1e7WAU39UzMKk011h7BHxR7dzJ1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/42209",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Cordell McQueen",
+            "personaggio": "Marc Desantis",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1053407",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Anton Dekker",
+            "personaggio": "Jan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dz2ORs9WtbQYcLjpvMvwgTa3NMF.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1071687",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tony Caprari",
+            "personaggio": "Mani",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xw4AtIl36pz7ds6AMXrLFfEVLV5.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/120084",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Chris Olley",
+            "personaggio": "Police Chief",
+            "foto_url": "https://image.tmdb.org/t/p/w185/h5uFEMbR6wfgQ27aN5XvlgVWrUD.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1488881",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jacob Makgoba",
+            "personaggio": "Machete Policeman",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1488882",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Lee-Anne Liebenberg",
+            "personaggio": "Woman in the Bikini",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bGARJo81aeNF3MGZ2UFkVgi5VLc.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1352080",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Branchi di squali diabolicamente astuti e feroci seminano morte e terrore nella baia africana di Port Amanzi. Il biologo marino McKray, recatosi sul posto per indagare su quello che sembra a prima vista un fenomeno inspiegabile, scopre, con la collaborazione di Corinne, sorella di un suo amico massacrato in mare, che all'origine della inconsueta aggressività degli animali c'è una potente lobby farmaceutica. Un gruppo di scienziati ha iniziato, infatti, una scellerata sperimentazione genetica per ricavare dalle cellule cerebrali degli squali un farmaco che dovrebbe segnare un decisivo passo in avanti nella lotta contro il cancro e, soprattutto, assicurare ingenti guadagni.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/g3xlaPOkt1vFkJqxA32LnudEqrG.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 42185
+      }
+    },
+    {
+      "video_id": "z_cLstQWZhU",
+      "is_movie": true,
+      "channel": "Commedia",
+      "manual_include": true,
+      "original_title": "Banana Joe",
+      "genre": "commedia",
+      "tmdb_id": 42180,
+      "tmdb_title_official": "Banana Joe",
+      "tmdb_year_official": 1982,
+      "tmdb_poster_path": "/n7wBPs4N8HH7L6r2XDY6QgwwQQh.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 42180",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Banana Joe",
+        "titolo_originale": "劇場版ツバサ・クロニクル 鳥カゴの国の姫君",
+        "anno_uscita": 1982,
+        "durata_minuti": 30,
+        "genere": [
+          "Animazione",
+          "Azione",
+          "Avventura"
+        ],
+        "regista": [
+          "川崎逸朗"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Miyu Irino",
+            "personaggio": "Syaoran (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8qEEhHUObNvGQr4e6eqLu5z4qTz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/19588",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "牧野由依",
+            "personaggio": "Sakura (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zk9AlL7VnzQ5hgOhrHIaDm4Xeyc.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1248915",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Daisuke Namikawa",
+            "personaggio": "Fay (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iw0X8oDutxaBAri3Ifga8nhdUJK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/110665",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tetsu Inada",
+            "personaggio": "Kurogane (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/e8qQL1NKTHP8eOsZmV5LCkdHS9T.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/126704",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "菊地美香",
+            "personaggio": "Mokona (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qhdhwNa3MMLtT7vtUXb339hRUN9.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1251426",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Maaya Sakamoto",
+            "personaggio": "Princess Tomoyo (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hPz2oEQui8a4q9aXdBugQf93ONq.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/9711",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sayaka Ōhara",
+            "personaggio": "Yuko Ichihara (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4WQXLzj0gjYqkYFcTTxAkIwedvr.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/148447",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Il film porta i protagonisti in un altro universo, in cui si ritrovano in una città chiusa dentro una gabbia per uccelli. Questa città, basata su un sistema di acquedotti molto complesso, è governata da un re tiranno, che è lo zio della principessa Tomoyo. Suo zio, grazie a speciali poteri che gli sono stati donati da una piuma di Sakura, riuscì a renderla, e finì per fuggire e rifugiarsi un in piccolo villaggio ad ovest della città. Come nota Kurogane, Tomoyo non è la stessa principessa del regno del Giappone, ma una ragazza di quel mondo. Quando i piani del re furono quasi completati, finì per rapire Tomoyo e usare i suoi poteri per oscurare la gabbia intorno a città, e impedire alla luce di filtrare. Shaoran riuscì a sconfiggere il re, che non era altro che un uccello, il quale grazie ai poteri della piuma, aveva preso le sembianze dello zio di Tomoyo. Per distruggere la gabbia alla città, chiamò Yūko, la strega dimensionale, tramite Mokona.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/n7wBPs4N8HH7L6r2XDY6QgwwQQh.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 42180
+      }
     }
   ]
 }
