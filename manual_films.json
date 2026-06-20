@@ -296,31 +296,146 @@
       "manual_include": true,
       "original_title": "Bobo - Il Settimo Fratellino",
       "genre": "animazione",
-      "tmdb_id": 232839,
+      "tmdb_id": 41097,
       "tmdb_title_official": "Bobo - Il Settimo Fratellino",
       "tmdb_year_official": 1991,
-      "tmdb_poster_path": null,
+      "tmdb_poster_path": "/3gw6Nuf5CsiZBI0syt2PqKsFOko.jpg",
       "tmdb_confidence": "verified",
-      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 232839",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 41097",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
         "titolo_italiano": "Bobo - Il Settimo Fratellino",
-        "titolo_originale": "That Side of a Shadow",
+        "titolo_originale": "A hetedik testvér",
         "anno_uscita": 1991,
-        "durata_minuti": 0,
+        "durata_minuti": 85,
         "genere": [
-          "Animazione"
+          "Animazione",
+          "Avventura",
+          "Famiglia",
+          "Dramma"
         ],
         "regista": [
-          "Ricky Fosheim"
+          "Gémes József",
+          "Jenö Koltai"
         ],
-        "cast_principale": [],
-        "trama": "Two best friends must rob the gas station they work at in order to pay off a bad debt",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": null,
+        "cast_principale": [
+          {
+            "nome": "Csongor Szalay",
+            "personaggio": "Vacak (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1809952",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Simonyi Balázs",
+            "personaggio": "Tasli (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8h4FchufYy1v9fHv0IOQ4ChUSco.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1201866",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Álmos Előd",
+            "personaggio": "Okoska (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3902718",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Halasi Dániel",
+            "personaggio": "Pufi (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5202772",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Szvetlov Balázs",
+            "personaggio": "Málé (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5202774",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Nemes Takách Kata",
+            "personaggio": "Karotta (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5202775",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Mánya Zsófi",
+            "personaggio": "Musz-Musz (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5202776",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Károly Kassai",
+            "personaggio": "Szarka (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3456802",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Iván Verebély",
+            "personaggio": "Nuszipapa (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/t0AG27eAFmXsDcufZjKmEeQvBbr.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1296078",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Andai Györgyi",
+            "personaggio": "Nuszimama (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cvVRULOm74H2Dpe20cOnlyAaE9g.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1146718",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Il cagnolino Bobo in un pomeriggio di pioggia viene abbandonato sull'autostrada dal suo padrone. Per fortuna il cucciolo incontra sei simpatici coniglietti e, superata la diffidenza iniziale, entra a far parte di una nuova famiglia.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/3gw6Nuf5CsiZBI0syt2PqKsFOko.jpg",
         "trailer": null,
-        "tmdb_id_scelto": 232839
+        "tmdb_id_scelto": 41097
       }
     },
     {
@@ -475,12 +590,147 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Rudolph dal naso rosso",
+      "genre": "animazione",
+      "tmdb_id": 33719,
       "tmdb_title_official": "Rudolph dal naso rosso",
       "tmdb_year_official": 1998,
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_poster_path": "/uFxGrCCqtt3i9l8HV3GDFuHwL3j.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 33719",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Rudolph dal naso rosso",
+        "titolo_originale": "Rudolph the Red-Nosed Reindeer: The Movie",
+        "anno_uscita": 1998,
+        "durata_minuti": 92,
+        "genere": [
+          "Animazione",
+          "Famiglia",
+          "Musica"
+        ],
+        "regista": [
+          "William R. Kowalchuk Jr."
+        ],
+        "cast_principale": [
+          {
+            "nome": "Eric Pospisil",
+            "personaggio": "Young Rudolph (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1239271",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Kathleen Barr",
+            "personaggio": "Older Rudolph / Twinkle the Spirte (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/X2aSMT2oxsk1xzSigV8fIqxTtU.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/45923",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "John Goodman",
+            "personaggio": "Santa Claus (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/yyYqoyKHO7hE1zpgEV2XlqYWcNV.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1230",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Whoopi Goldberg",
+            "personaggio": "Stormella (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/f7nOs8pp4rxLQgUaeXu21kMtD9o.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2395",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Debbie Reynolds",
+            "personaggio": "Mrs. Claus / Mitzi / Mrs. Prancer / School Teacher (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9Z9DQqNztKlinANGGgD5dQODtlr.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/8857",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Bob Newhart",
+            "personaggio": "Leonard (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wnhoM8iS6LOZ1qymFMXKYZBbVy8.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/64930",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Eric Idle",
+            "personaggio": "Slyly (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1Vj7Lvrl8OHby7AeOK1Z07JyeMp.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/10713",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Richard Simmons",
+            "personaggio": "Boone (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4an1vRh5iMXGwvj3tqF1AXFhiOn.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/260229",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Matt Hill",
+            "personaggio": "Arrow (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/c9LL79WphPAjDX4J9yHV5ZoANxy.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/27120",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Vanessa Morley",
+            "personaggio": "Zoey (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/neHeLwUAenJ896SksUv8UCeXTcC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/112651",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Nel villaggio di Babbo Natale nasce una piccola renna chiamata Rudolph dai suoi genitori, Lampo e Mitzi; il cucciolo ha un particolare naso rosso e lucente, simile a una lampadina, causa di insulti e di emarginamento da parte delle altre renne. Rudolph dovrà misurarsi con Freccia, suo cugino, che cerca di rompere la sua storia d'amore con Zaira e con la perfida Signora del Ghiaccio, Tormentilla, che, con i suoi poteri magici, stringe il villaggio del Polo Nord in una morsa di gelo per impedire a Babbo Natale di consegnare i regali. Rudolph riuscirà a sconfiggere Tormentilla con i suoi amici e verrà premiato per il suo coraggio entrando a far parte della squadra principale delle renne di Babbo Natale.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/uFxGrCCqtt3i9l8HV3GDFuHwL3j.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 33719
+      }
     },
     {
       "video_id": "kxPvamngfzw",
@@ -912,17 +1162,157 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Aiuto! Sono un pesce",
+      "genre": "animazione",
+      "tmdb_id": 12609,
       "tmdb_title_official": "Aiuto! Sono un pesce",
       "tmdb_year_official": 2000,
-      "tmdb_id": 14622,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/qxK4zahDX5MQeCU9iGnubc8gEcp.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 12609",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 14622,
-        "titolo_italiano": "Aiuto! Sono un pesce"
+        "titolo_italiano": "Aiuto! Sono un pesce",
+        "titolo_originale": "Hjælp, jeg er en fisk",
+        "anno_uscita": 2000,
+        "durata_minuti": 80,
+        "genere": [
+          "Animazione",
+          "Avventura",
+          "Commedia",
+          "Famiglia",
+          "Dramma"
+        ],
+        "regista": [
+          "Michael Hegner",
+          "Stefan Fjeldmark"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Sebastian Jessen",
+            "personaggio": "Svip (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/yWd0O3P3YVieaSYpLmm9IqFPBJg.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/223684",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Pil Neja",
+            "personaggio": "Stella (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2678373",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Morten Kerrn Nielsen",
+            "personaggio": "Plum (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2591187",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Søren Sætter-Lassen",
+            "personaggio": "Professor Mac Krill (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bWe3Kd0Y0zhDYmZxDYnl0oqfzUh.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3407",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nis Bank-Mikkelsen",
+            "personaggio": "Joe (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kdZJBByICg47IUGRQxBLdIIzKV.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/73093",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Dick Kaysø",
+            "personaggio": "Shark (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/u49xDEC5AD8sGMdckl3q9DEgLEC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/73213",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Louise Fribo",
+            "personaggio": "Sasha (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jJX30v65OObWlRika6D7dHDUTDB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1045277",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ulf Pilgaard",
+            "personaggio": "Crab (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/108pcSiyuB6A6qO6ZmOWM3GxxQT.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1024",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Peter Gantzler",
+            "personaggio": "Father (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1oL9VT7YLfaly3BwAcKj5xquoCo.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1181",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Paprika Steen",
+            "personaggio": "Mother (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/c0OSsG2akVhYMOrCd3EYNGY4AuN.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4458",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Stella, Fly e il loro cugino Charles, approfittando dell'assenza dei loro genitori e della distrazione della zia Anna che dovrebbe sorvegliarli, si inoltrano in mezzo all'Oceano per una battuta di pesca. Per caso i tre mocciosi scoprono il laboratorio del professor MacKrill che ha inventato una pozione in grado di trasformare gli esseri umani in pesci. A causa di uno sconsiderato errore i tre bevono la mistura e diventano creature del mare. Non sarà facile per loro tornare bambini.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/qxK4zahDX5MQeCU9iGnubc8gEcp.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=TmutcAzu-iI",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos"
+        },
+        "tmdb_id_scelto": 12609
       }
     },
     {
@@ -1076,12 +1466,147 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Il barbiere del re",
+      "genre": "animazione",
+      "tmdb_id": 220154,
       "tmdb_title_official": "Il barbiere del re",
       "tmdb_year_official": 2002,
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_poster_path": "/raGjmMygerfFhpjv07PlPMVfux6.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 220154",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Il barbiere del re",
+        "titolo_originale": "The King's Beard",
+        "anno_uscita": 2002,
+        "durata_minuti": 73,
+        "genere": [
+          "Animazione",
+          "Famiglia",
+          "Avventura"
+        ],
+        "regista": [
+          "Tony Collingwood"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Jim Broadbent",
+            "personaggio": "The Wizard (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/s7lXYfrsJoGA4vKmyv61SPgABmR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/388",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Maria Darling",
+            "personaggio": "Sophie (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bm0dhjlFA0gtubUtzIHY3tnLVo4.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1425621",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Robin Edwards",
+            "personaggio": "Rufus (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3341906",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Maureen Lipman",
+            "personaggio": "(voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kx26NOAw9GnsHjJIJ4l40YHblJ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/6638",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Peter Egan",
+            "personaggio": "King Cuthbert (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/c1Mq0x2DEQiwzQYXD7AtFUdx7BC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/16480",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Allan Corduner",
+            "personaggio": "(voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9bZTEBUjY02UeooNnghZXxKfiO7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/78018",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jimmy Hibbert",
+            "personaggio": "(voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xTJRiJPVEfLDHBU8RSJVSFka6iQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/141952",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Colin McFarlane",
+            "personaggio": "Jasper (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tCLiWpKooSQJfyC260qNeNYTe9S.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/128386",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kerry Shale",
+            "personaggio": "(voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7IrOqC44j27MtUGjn3UwB2FRFWK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/101034",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Caroline Bernstein",
+            "personaggio": "(voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/179FmQjsCGVOJalxcKv4xATZYiN.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2248683",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Un magico e lontano reame, il regno Riflesso. Un nobile sovrano, Re Leopoldo, che a causa di un malvagio incantesimo è così barbuto da invadere tutto il regno con la sua barba. Tanti sudditi fedeli che, imitando il Re, lasciano crescere barba e capelli. Un barbiere senza speranze: Riccardo, appena giunto in città in cerca di lavoro. Un destino quello dello sfortunato barbiere, che verrà travolto dalla fortuna quando, una notte, entrato a palazzo per tagliare la barba al Re durante il sonno, vivrà la più grande delle avventure.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/raGjmMygerfFhpjv07PlPMVfux6.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 220154
+      }
     },
     {
       "video_id": "Ck2l9Ugeu8c",
@@ -2265,17 +2790,153 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Natale a New York",
+      "genre": "animazione",
+      "tmdb_id": 42435,
       "tmdb_title_official": "Natale a New York",
       "tmdb_year_official": 2006,
-      "tmdb_id": 252503,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/leRNWKJJevN5Hug6Z8KyWM1ZPPz.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 42435",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 252503,
-        "titolo_italiano": "Natale a New York"
+        "titolo_italiano": "Natale a New York",
+        "titolo_originale": "Natale a New York",
+        "anno_uscita": 2006,
+        "durata_minuti": 111,
+        "genere": [
+          "Animazione",
+          "Commedia"
+        ],
+        "regista": [
+          "Neri Parenti"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Christian De Sica",
+            "personaggio": "Camillo 'Lillo' Ferri",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1FwVC0L29NWD92hh99cE4uvyWQ7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/69036",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Claudio Bisio",
+            "personaggio": "Dr. Severino Benci",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cDhzyPQ3446zpRmP523rPFkkl4h.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/55914",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sabrina Ferilli",
+            "personaggio": "Barbara Ricacci",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qb6NEkjxcO9JeApIphcQPevm5SL.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/128236",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Massimo Ghini",
+            "personaggio": "Claudio Ricacci",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iSpdphEZopzvu3816YsiFhhKwRb.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/148251",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Fabio De Luigi",
+            "personaggio": "Filippo Vessato",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9NhWezlcSxu6cYHH5kU4EklfozC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/78535",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Elisabetta Canalis",
+            "personaggio": "Carlotta Ferri",
+            "foto_url": "https://image.tmdb.org/t/p/w185/e6GDRRNcetJnlOezHFO24SqYPrZ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1240781",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Alessandro Siani",
+            "personaggio": "Lello",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ysZS493TskKLQtllPUO3S3Y5Bc8.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/233334",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Paolo Ruffini",
+            "personaggio": "Paolo Benci",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3Z7931gQb1FFMVJ993V6JXCddbF.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/223619",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Francesco Mandelli",
+            "personaggio": "Francesco Benci",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ise00EyAqdGxJxMj1FUQj8BTsJC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/128015",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Fiorenza Marchegiani",
+            "personaggio": "Milena Ferri",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zYQY2csvyenznUW45w7zPnQlDcN.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/251350",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Lillo, ex pianista di piano bar, ha sposato una donna ricchissima che lo lega con un contratto matrimoniale che alla prima infedeltà lo rigetterebbe sul lastrico. Ritrova però un giorno Barbara, una vecchia fiamma molto ‘ruspante’ a sua volta legata con un contratto analogo a un marito che cerca, inutilmente, di renderla più raffinata. Il di lei consorte è, vedi caso, l’amante della figlia di Lillo. Si ritrovano ovviamente tutti negli stessi luoghi in quella cittadina dove tutti conoscono tutti che risponde al nome di New York. La Big Apple è anche luogo delle nozze di un aspirante viceprimario che si trova a cercare di coprire la vita sregolata del figlio e del nipote del suo temibile superiore che li pensa totalmente dediti allo studio.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/leRNWKJJevN5Hug6Z8KyWM1ZPPz.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=gKnQ82w1W2s",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos"
+        },
+        "tmdb_id_scelto": 42435
       }
     },
     {
@@ -2318,17 +2979,149 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Il Vento nei Salici",
+      "genre": "animazione",
+      "tmdb_id": 59178,
       "tmdb_title_official": "Il Vento nei Salici",
       "tmdb_year_official": 1987,
-      "tmdb_id": 250557,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/aeULJxBLJvsFm2dNHAWNMSbykzb.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 59178",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 250557,
-        "titolo_italiano": "Il Vento nei Salici"
+        "titolo_italiano": "Il Vento nei Salici",
+        "titolo_originale": "The Wind in the Willows",
+        "anno_uscita": 1987,
+        "durata_minuti": 74,
+        "genere": [
+          "Animazione",
+          "Famiglia",
+          "Avventura",
+          "Commedia",
+          "televisione film"
+        ],
+        "regista": [
+          "Dennis Abey",
+          "Dave Unwin"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Alan Bennett",
+            "personaggio": "Mole",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2f6juvY5JDxH8Bzvr5lduY3RSRd.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/55477",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Michael Palin",
+            "personaggio": "Rat",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7qCp6M2NxMWpUmO2t6IqHGNlBjz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/383",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Michael Gambon",
+            "personaggio": "Badger",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3jdWkDKf4IODbG4JKTeaC7AzxZH.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5658",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rik Mayall",
+            "personaggio": "Toad",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4y9wG8NbxpLwP1hym26Btg3Htx0.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/14469",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Vanessa Redgrave",
+            "personaggio": "Grandmother / Narrator",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hBsjc7cW1DA0V6APwe3A7ESH3Lv.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/13333",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "James Villiers",
+            "personaggio": "Magistrate (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4Q3T9KYj6fV8CpR9y8BOAAA1UAz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/39066",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Emma Chambers",
+            "personaggio": "Gaoler's Daughter (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fz85d7hEiAbjYov0uT3a59REfHQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/7446",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Judy Cornwell",
+            "personaggio": "Barge Woman (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6jyYOPeE9vXngm8xaQw6p6LPHPE.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/45455",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Enn Reitel",
+            "personaggio": "Otter / Rabbit / Policeman / Gaoler (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/eTLCNbqkj5ZlIGgXenVPMZ3qRYQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/34904",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "David Sinclair",
+            "personaggio": "Clerk / Rabbit / Sergeant (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1803506",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Ambientato lunghe le rive di un fiume, questo cartone animato narra la storia di un gruppo di animali del bosco che con l'arrivo della primavera escono allo scoperto e intessono nuove amicizie. Una banda di personaggi travolgenti che ne combina di tutti i colori. Il più scapicollato di tutti è Tod il rospo che scopre una passione irrefrenabile per le automobili che, naturalmente, non sa guidare. Saranno sempre i suoi amici che lo tireranno fuori dai guai fra avventure e colpi di scena...",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/aeULJxBLJvsFm2dNHAWNMSbykzb.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 59178
       }
     },
     {
@@ -2336,17 +3129,145 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Felix Coniglietto Giramondo",
+      "genre": "animazione",
+      "tmdb_id": 172625,
       "tmdb_title_official": "Felix Coniglietto Giramondo",
       "tmdb_year_official": 2005,
-      "tmdb_id": 35615,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/xemfMSmB5iLxrizZ4aqT8ZOQehu.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 172625",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 35615,
-        "titolo_italiano": "Felix Coniglietto Giramondo"
+        "titolo_italiano": "Felix Coniglietto Giramondo",
+        "titolo_originale": "Felix - Ein Hase auf Weltreise",
+        "anno_uscita": 2005,
+        "durata_minuti": 78,
+        "genere": [
+          "Animazione",
+          "Famiglia"
+        ],
+        "regista": [
+          "Giuseppe Laganà"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Patrick Flecken",
+            "personaggio": "Felix (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1319535",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Lilian Brock",
+            "personaggio": "Sophie\t(voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1381044",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Susanne von Medvey",
+            "personaggio": "Mutter (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7bEYObnLglD2OfwO3bnMrTJdFMN.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1336041",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Michael Schernthaner",
+            "personaggio": "Vater (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1379465",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Tim Schwarzmaier",
+            "personaggio": "Julius (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uADwzxWpYGaBbulTgskWIcjCx9Y.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1381045",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jasper Clemens Walther",
+            "personaggio": "Nicolas\t(voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3454100",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Lara Wurmer",
+            "personaggio": "Lena (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1381046",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Uschi Glas",
+            "personaggio": "Eule (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pLtYUsfQk1HjIpCYud1Ohylz8tE.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/33709",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rick Kavanian",
+            "personaggio": "Poltergeist / Nessie (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/37034",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Ralph Kretschmar",
+            "personaggio": "Kakerlaken\t(voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mp0hw8YDDSLav7JJghWVMliS1dW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1381042",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Dopo essere stato separato dalla sua amica Sophie, Felix intraprende un viaggio pieno di creature mistiche in questo film d'animazione di alta qualità per i vostri bambini e la vostra famiglia.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/xemfMSmB5iLxrizZ4aqT8ZOQehu.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 172625
       }
     },
     {
@@ -3722,17 +4643,154 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Momo alla Conquista del Tempo",
+      "genre": "animazione",
+      "tmdb_id": 24179,
       "tmdb_title_official": "Momo alla Conquista del Tempo",
       "tmdb_year_official": 2001,
-      "tmdb_id": 50998,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/8WuAu9fvvUNPIaIUsLpkurKdC6N.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 24179",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 50998,
-        "titolo_italiano": "Momo alla Conquista del Tempo"
+        "titolo_italiano": "Momo alla Conquista del Tempo",
+        "titolo_originale": "Momo alla conquista del tempo",
+        "anno_uscita": 2001,
+        "durata_minuti": 77,
+        "genere": [
+          "Animazione",
+          "Famiglia",
+          "Fantasy"
+        ],
+        "regista": [
+          "Enzo D'Alò"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Erica Necci",
+            "personaggio": "Momo (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/noClfOhukvlFTOdyA7TbywfNyid.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/587491",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Giancarlo Giannini",
+            "personaggio": "Presidente  (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xsnoThKUjFlhmvXKS4ZqAx1x3zb.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3753",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Diego Abatantuono",
+            "personaggio": "Mastro Hora (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/i7idHOw21i3RNO8IrVKkGlcAyOd.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/55912",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sergio Rubini",
+            "personaggio": "Signore grigio #1 (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gck410u7xOJWI0SjArY6vJb3cGw.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/15915",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Neri Marcorè",
+            "personaggio": "Signore grigio #2  (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4eXP5UbB86Thn20LK3bprhvewVY.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/88474",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Riccardo Rossi",
+            "personaggio": "Osvaldo Fusi (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7pSzh0fcLwM93BWMDszwHnb7xzT.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/122024",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Giulio Renzi Ricci",
+            "personaggio": "Gigi (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1874506",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Gabriele Patriarca",
+            "personaggio": "Bruno (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/A4dK5ubLUIaFpQlYB1dLJkwNRKL.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1481092",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Patrick Donati",
+            "personaggio": "Enzo (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1874513",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Cecilia Minutillo Turtur",
+            "personaggio": "Livia (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1874515",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Momo è una bambina orfana che si ritrova in una cittadina, dove fa amicizia con un anziano signore, Beppo, che le vuole bene come una dolce nipotina, e con Gigi, un bambino che si innamora subito di lei. Momo conosce anche altri compagni di gioco: Enzo, Bruno, Livia e il piccolo Chicco, che le creano una casa in un antico anfiteatro, e la tartaruga Cassiopea che raccoglie per strada. Ma la città è invasa dai Signori Grigi che convincono le persone, come ad esempio l'ingenuo barbiere Osvaldo Fusi, che non gli rimane molto tempo da vivere, con il fine di far risparmiare tutto il tempo dedicato allo svago nella loro speciale \"Banca del tempo\" e poter sopravvivere.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/8WuAu9fvvUNPIaIUsLpkurKdC6N.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=dSoEHOf2xm8",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos"
+        },
+        "tmdb_id_scelto": 24179
       }
     },
     {
@@ -3740,12 +4798,35 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Il Paese degli Animali",
+      "genre": "animazione",
+      "tmdb_id": 313334,
       "tmdb_title_official": "Il Paese degli Animali",
       "tmdb_year_official": 1986,
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_poster_path": "/bHKyGyhurDUL7Jdz4hj5zPL6Phn.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 313334",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Il Paese degli Animali",
+        "titolo_originale": "Animaland",
+        "anno_uscita": 1986,
+        "durata_minuti": 70,
+        "genere": [
+          "Animazione",
+          "Famiglia"
+        ],
+        "regista": [
+          "Bert Felstead"
+        ],
+        "cast_principale": [],
+        "trama": "Una serie di divertenti avventure in compagnia dello scoiattolo Ginger, del gatto Chester, del pappagallo Parrot, del leoncino Zimmy, degli ornitorinchi Digger e Dinkum e di tanti altri amici.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/bHKyGyhurDUL7Jdz4hj5zPL6Phn.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 313334
+      }
     },
     {
       "video_id": "17vL0PfOEgY",
@@ -3899,17 +4980,147 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Bobo 2 - I Piccoli Eroi della Foresta",
+      "genre": "animazione",
+      "tmdb_id": 164563,
       "tmdb_title_official": "Bobo 2 - I Piccoli Eroi della Foresta",
       "tmdb_year_official": 1997,
-      "tmdb_id": 56701,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/4Mn4b938Ob8ZiETIOTBzOapQF9z.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 164563",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 56701,
-        "titolo_italiano": "Bobo 2 - I Piccoli Eroi della Foresta"
+        "titolo_italiano": "Bobo 2 - I Piccoli Eroi della Foresta",
+        "titolo_originale": "Vacak 2. - Az erdő hőse",
+        "anno_uscita": 1997,
+        "durata_minuti": 78,
+        "genere": [
+          "Animazione",
+          "Famiglia",
+          "Musica"
+        ],
+        "regista": [
+          "Jenö Koltai",
+          "Gémes József"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Aaron Bybee",
+            "personaggio": "Tiny (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1146068",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Laura Schultties",
+            "personaggio": "Johanna (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5614441",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Joey Lopez",
+            "personaggio": "J.C. (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5614447",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Andy Soren",
+            "personaggio": "Cody (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5614449",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Christina Schaub",
+            "personaggio": "Rebecca (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5614450",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Sarah Baker",
+            "personaggio": "Mimi (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2595505",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Logan Hall",
+            "personaggio": "Marty (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5614452",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Oly Jeffson",
+            "personaggio": "Boris (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5614456",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Duane Stevens",
+            "personaggio": "Finias (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2759928",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Katie Moyes Williams",
+            "personaggio": "Angie (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5614461",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Bobo e i suoi amichetti hanno appena scoperto che una terribile minaccia incombe su di loro: alcuni cacciatori abusivi stanno cercando di invadere la foresta e hanno gia' catturato il saggio gufo e' arrivato il momento di esprimere tutto il coraggio, l'altruismo e la forza di cui vanno tanto fieri. Ogni individuo e' speciale per le capacita' uniche che ha e per il contributo che puo' dare alla risoluzione dei problemi, ma solo uno splendido lavoro di squadra permettera' ai nostri amici di affrontare il loro nemico.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/4Mn4b938Ob8ZiETIOTBzOapQF9z.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 164563
       }
     },
     {
@@ -4504,17 +5715,154 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "La Storia di Leo",
+      "genre": "animazione",
+      "tmdb_id": 109423,
       "tmdb_title_official": "La Storia di Leo",
       "tmdb_year_official": 1994,
-      "tmdb_id": 246316,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/y9VvnoRoaydtFiGt4srnIb4zF8d.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 109423",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 246316,
-        "titolo_italiano": "La Storia di Leo"
+        "titolo_italiano": "La Storia di Leo",
+        "titolo_originale": "La storia di Leo",
+        "anno_uscita": 1994,
+        "durata_minuti": 77,
+        "genere": [
+          "Animazione",
+          "Commedia",
+          "Famiglia"
+        ],
+        "regista": [
+          "Mario Cambi"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Neri Marcorè",
+            "personaggio": "Leo (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4eXP5UbB86Thn20LK3bprhvewVY.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/88474",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Leo Gullotta",
+            "personaggio": "Cobo (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wn9LQjKRZxrXm6a5zyfrLs71ChM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/119992",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Carlo Conti",
+            "personaggio": "Zanco (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rDIbIkBKAHGqCPaEUBMWodhrfbZ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1622846",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Simona Marchini",
+            "personaggio": "L'Elefantrice (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qQ2X1YJFlU97b9pkxBVjWkqegJA.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/49170",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Elio Pandolfi",
+            "personaggio": "Camea (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8updnF65tDhSCF8J3wRMIIaMfLN.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/938735",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Dario Penne",
+            "personaggio": "Il Tartarugo (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lthkstAyFHCIGK7223geMFbSut9.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1626520",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Emanuela Rossi",
+            "personaggio": "Avoria (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ArjAi7Yea5SRrcxjvNbSPctGb69.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/235532",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Manuel Meli",
+            "personaggio": "Elefantino #1 (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/61no1KKpv0OeBLPnjiPmxDZ8lhy.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3611978",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Alex Polidori",
+            "personaggio": "Elefantino #2 (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zFjbZGIHCLYU8L4OlTcE1zNYl30.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1137539",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Federico Mirra",
+            "personaggio": "Leonardo (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4108723",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "La delicata storia di Leo Azzannaossi, un leone solitario e vegetariano, che per caso aiuta un'elefantessa vedova a mettere al modo due piccoli con le code intrecciate. Il problema dei cuccioli 'diversi' e la solitudine cui sono stati condannati dai loro simili, unisce i due animali adulti e li porta a creare una strana e felicissima famiglia.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/y9VvnoRoaydtFiGt4srnIb4zF8d.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=dMe97zoJCYY",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos"
+        },
+        "tmdb_id_scelto": 109423
       }
     },
     {
