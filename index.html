@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Italia TV — Editor Film</title>
+<style>
+  :root { --bg:#0f0f1a; --card:#1a1a2e; --card2:#22223a; --accent:#ff6b35; --text:#f0f0f5; --muted:#9090b0; --ok:#1b8e5c; --err:#8e1b1b; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--text); }
+  header { background:var(--card); padding:16px 20px; display:flex; align-items:center; gap:12px; position:sticky; top:0; z-index:5; border-bottom:1px solid #2a2a45; }
+  header h1 { font-size:20px; margin:0; flex:1; }
+  .dot { width:10px; height:10px; border-radius:50%; background:var(--accent); }
+  main { max-width:900px; margin:0 auto; padding:20px; }
+  .card { background:var(--card); border:1px solid #2a2a45; border-radius:12px; padding:16px; margin-bottom:16px; }
+  .card h2 { font-size:15px; margin:0 0 12px; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; }
+  label { display:block; font-size:13px; color:var(--muted); margin:10px 0 4px; }
+  input, select { width:100%; padding:10px 12px; background:var(--card2); border:1px solid #33335a; border-radius:8px; color:var(--text); font-size:14px; }
+  input:focus, select:focus { outline:none; border-color:var(--accent); }
+  .row { display:flex; gap:12px; flex-wrap:wrap; }
+  .row > div { flex:1; min-width:140px; }
+  button { padding:10px 16px; border:none; border-radius:8px; background:var(--accent); color:#fff; font-weight:600; font-size:14px; cursor:pointer; }
+  button.sec { background:var(--card2); color:var(--text); border:1px solid #33335a; }
+  button:disabled { opacity:.5; cursor:not-allowed; }
+  button:hover:not(:disabled) { filter:brightness(1.1); }
+  .actions { display:flex; gap:10px; margin-top:14px; align-items:center; flex-wrap:wrap; }
+  .film { display:flex; gap:12px; align-items:center; background:var(--card2); border-radius:10px; padding:10px; margin-bottom:8px; }
+  .film img { width:46px; height:69px; object-fit:cover; border-radius:6px; background:#000; flex-shrink:0; }
+  .film .meta { flex:1; min-width:0; }
+  .film .meta .t { font-weight:600; font-size:14px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .film .meta .s { font-size:12px; color:var(--muted); }
+  .film button { padding:6px 10px; font-size:12px; background:var(--err); }
+  .badge { font-size:11px; padding:2px 6px; border-radius:5px; background:#33335a; color:var(--muted); }
+  #status { font-size:13px; padding:10px 12px; border-radius:8px; margin-top:10px; display:none; white-space:pre-wrap; }
+  #status.ok { display:block; background:rgba(27,142,92,.2); border:1px solid var(--ok); }
+  #status.err { display:block; background:rgba(142,27,27,.2); border:1px solid var(--err); }
+  .count { font-size:13px; color:var(--muted); }
+  .help { font-size:12px; color:var(--muted); margin-top:6px; line-height:1.5; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <span class="dot"></span>
+  <h1>Italia TV — Editor Film</h1>
+  <span class="count" id="count"></span>
+</header>
+<main>
+
+  <div class="card">
+    <h2>1 · Token GitHub</h2>
+    <input id="token" type="password" placeholder="ghp_… (token con permesso 'Contents' su italiatv-channels)">
+    <div class="help">Serve UNA volta per salvare. Crea un token su
+      <a href="https://github.com/settings/tokens?type=beta" target="_blank">github.com/settings/tokens</a>
+      (Fine-grained → repo <b>italiatv-channels</b> → Repository permissions → <b>Contents: Read and write</b>).
+      Viene salvato solo nel tuo browser.</div>
+  </div>
+
+  <div class="card">
+    <h2>2 · Aggiungi un film</h2>
+    <label>Link o ID YouTube *</label>
+    <input id="yt" placeholder="https://youtu.be/XXXXXXXXXXX  oppure  XXXXXXXXXXX">
+    <div class="row">
+      <div>
+        <label>Link o ID TMDB *</label>
+        <input id="tmdb" placeholder="https://themoviedb.org/movie/12345  oppure  12345">
+      </div>
+      <div>
+        <label>Genere</label>
+        <select id="genre">
+          <option value="animazione">Animazione</option>
+          <option value="azione">Azione</option>
+          <option value="commedia">Commedia</option>
+          <option value="thriller">Thriller</option>
+          <option value="horror">Horror</option>
+          <option value="romantico">Romantico</option>
+          <option value="drammatico">Drammatico</option>
+          <option value="fantascienza">Fantascienza</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div><label>Titolo (italiano)</label><input id="title" placeholder="Titolo come deve apparire"></div>
+      <div><label>Anno</label><input id="year" placeholder="2014" inputmode="numeric"></div>
+    </div>
+    <div class="actions">
+      <button id="addBtn">+ Aggiungi alla lista</button>
+      <span class="help" style="margin:0">Poster, cast e trama li recupera l'app da sola dal TMDB ID.</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>3 · Film manuali (<span id="n">0</span>)</h2>
+    <div id="list"></div>
+  </div>
+
+  <div class="card">
+    <div class="actions">
+      <button id="saveBtn">💾 Salva su GitHub</button>
+      <button class="sec" id="reloadBtn">↻ Ricarica</button>
+      <span class="help" style="margin:0">Dopo il salvataggio le TV si aggiornano entro 6 ore.</span>
+    </div>
+    <div id="status"></div>
+  </div>
+
+</main>
+<script>
+const OWNER="ammiratonicola-afk", REPO="italiatv-channels", PATH="manual_films.json";
+const RAW=`https://raw.githubusercontent.com/${OWNER}/${REPO}/main/${PATH}`;
+const API=`https://api.github.com/repos/${OWNER}/${REPO}/contents/${PATH}`;
+let movies=[];
+
+const $=id=>document.getElementById(id);
+const ytId=s=>{ s=(s||"").trim(); const m=s.match(/(?:v=|youtu\.be\/|embed\/|shorts\/)([A-Za-z0-9_-]{11})/); return m?m[1]:(/^[A-Za-z0-9_-]{11}$/.test(s)?s:null); };
+const tmdbId=s=>{ s=(s||"").trim(); const m=s.match(/movie\/(\d+)/); return m?+m[1]:(/^\d+$/.test(s)?+s:null); };
+
+$("token").value = localStorage.getItem("gh_token")||"";
+$("token").addEventListener("change",e=>localStorage.setItem("gh_token",e.target.value.trim()));
+
+function status(msg,ok){ const s=$("status"); s.textContent=msg; s.className=ok?"ok":"err"; }
+function poster(m){ if(m.tmdb_poster_path) return "https://image.tmdb.org/t/p/w185"+m.tmdb_poster_path; if(m.video_id) return `https://i.ytimg.com/vi/${m.video_id}/mqdefault.jpg`; return ""; }
+function title(m){ return m.tmdb_title_official||m.original_title||m.video_id||"(senza titolo)"; }
+
+function render(){
+  $("n").textContent=movies.length; $("count").textContent=movies.length+" film";
+  const L=$("list"); L.innerHTML="";
+  movies.forEach((m,i)=>{
+    const d=document.createElement("div"); d.className="film";
+    d.innerHTML=`<img src="${poster(m)}" onerror="this.style.visibility='hidden'">
+      <div class="meta"><div class="t">${title(m)}</div>
+      <div class="s">${m.tmdb_year_official||m.tmdb_year||"—"} · <span class="badge">${m.genre||"?"}</span> · TMDB ${m.tmdb_id||"—"}</div></div>
+      <button data-i="${i}">Rimuovi</button>`;
+    d.querySelector("button").onclick=()=>{ movies.splice(i,1); render(); };
+    L.appendChild(d);
+  });
+}
+
+async function load(){
+  status("Carico…",true);
+  try{ const r=await fetch(RAW+"?t="+Date.now()); const j=await r.json(); movies=j.movies||[]; render(); status("Caricati "+movies.length+" film.",true); }
+  catch(e){ status("Errore caricamento: "+e.message,false); }
+}
+
+$("addBtn").onclick=()=>{
+  const vid=ytId($("yt").value), tid=tmdbId($("tmdb").value);
+  if(!vid){ status("Link/ID YouTube non valido.",false); return; }
+  if(!tid){ status("Link/ID TMDB non valido.",false); return; }
+  if(movies.some(m=>m.video_id===vid)){ status("Questo video è già nella lista.",false); return; }
+  movies.push({ video_id:vid, is_movie:true, manual_include:true, channel:"Manuale",
+    genre:$("genre").value, tmdb_id:tid,
+    tmdb_title_official:($("title").value.trim()||null),
+    tmdb_year_official:(parseInt($("year").value)||null),
+    tmdb_confidence:"verified" });
+  $("yt").value=$("tmdb").value=$("title").value=$("year").value="";
+  render(); status("Aggiunto. Ricordati di premere 'Salva su GitHub'.",true);
+};
+
+const b64=s=>btoa(Array.from(new TextEncoder().encode(s),b=>String.fromCharCode(b)).join(""));
+
+$("saveBtn").onclick=async()=>{
+  const token=$("token").value.trim();
+  if(!token){ status("Inserisci prima il token GitHub.",false); return; }
+  $("saveBtn").disabled=true; status("Salvataggio…",true);
+  try{
+    const cur=await fetch(API,{headers:{Authorization:"Bearer "+token}});
+    const sha=cur.ok?(await cur.json()).sha:undefined;
+    const body={ message:"Aggiorna film manuali ("+movies.length+")",
+      content:b64(JSON.stringify({generated_at:new Date().toISOString(),movies},null,2)) };
+    if(sha) body.sha=sha;
+    const res=await fetch(API,{method:"PUT",headers:{Authorization:"Bearer "+token,"Content-Type":"application/json"},body:JSON.stringify(body)});
+    if(res.ok){ localStorage.setItem("gh_token",token); status("✓ Salvato! Le TV si aggiornano entro 6h.",true); }
+    else { const e=await res.json(); status("Errore GitHub: "+(e.message||res.status),false); }
+  }catch(e){ status("Errore: "+e.message,false); }
+  $("saveBtn").disabled=false;
+};
+
+$("reloadBtn").onclick=load;
+load();
+</script>
+</body>
+</html>
