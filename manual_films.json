@@ -111,24 +111,183 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Il ritorno del Vento del Nord",
+      "genre": "animazione",
+      "tmdb_id": 468192,
       "tmdb_title_official": "Il ritorno del Vento del Nord",
       "tmdb_year_official": 1993,
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_poster_path": "/6cP0hIurnC3TQTd9i9cnZ44kRdL.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 468192",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Il ritorno del Vento del Nord",
+        "titolo_originale": "El regreso del viento del Norte",
+        "anno_uscita": 1993,
+        "durata_minuti": 77,
+        "genere": [
+          "Animazione",
+          "Fantasy",
+          "Avventura"
+        ],
+        "regista": [
+          "Maite Ruiz de Austri"
+        ],
+        "cast_principale": [],
+        "trama": "Grazie al coraggio dei fratellini Anna e Leo, del piccolo indiano Watuna e delle loro amiche balene il terribile Vento del Nord è stato sconfitto. Tuttavia, anche rinchiuso all'interno del Sacro Vaso, il Vento del Nord non intende rinunciare al suo potere e sotto le sembianze del malvagio Atanasio prepara la vendetta. Si mette così sulle tracce dei tre ragazzi, ma in loro soccorso arriverà\"Acqua\", la signora del mare...",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/6cP0hIurnC3TQTd9i9cnZ44kRdL.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 468192
+      }
     },
     {
       "video_id": "W8cjIuQWGW8",
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Biancaneve - E vissero felici e contenti",
+      "genre": "animazione",
+      "tmdb_id": 44283,
       "tmdb_title_official": "Biancaneve - E vissero felici e contenti",
       "tmdb_year_official": 1989,
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_poster_path": "/fLJmnrstYApVuSIIV2n2d06JwtJ.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 44283",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Biancaneve - E vissero felici e contenti",
+        "titolo_originale": "Happily Ever After",
+        "anno_uscita": 1989,
+        "durata_minuti": 75,
+        "genere": [
+          "Animazione",
+          "Famiglia",
+          "Fantasy"
+        ],
+        "regista": [
+          "John Howley"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Irene Cara",
+            "personaggio": "Snow White (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wfmfmG7Ka2jSu8FejVOAkCFSsUG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/32385",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Malcolm McDowell",
+            "personaggio": "Lord Maliss (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hL8ep4Hqj6izX7IlzE7Bbcfq62w.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/56890",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Dom DeLuise",
+            "personaggio": "The Looking Glass (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3k45LlomavX4f2f3FnjtKhjojuf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/6844",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Carol Channing",
+            "personaggio": "Muddy (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8RGnUi9yE7crUkICvj3EBbX0C4Y.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/97832",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Phyllis Diller",
+            "personaggio": "Mother Nature (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/teELYDRWmPGAVCzH4n4lX17Wa4J.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/89784",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Zsa Zsa Gabor",
+            "personaggio": "Blossom (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fEOaP9mFLHbXMkOPDpzbCYtKieb.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/44715",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Linda Gary",
+            "personaggio": "Critterina / Marina (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6HVYuYlTJ5KsAV5ivXgjxcEocMp.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/586496",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ed Asner",
+            "personaggio": "Scowl the Owl (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/AeVizz1AfAB2TbsfyzgBvqeSR3G.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/68812",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jonathan Harris",
+            "personaggio": "Sunflower (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6UFydJAV96p3h3LLpq8xP4S8sh1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/123037",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sally Kellerman",
+            "personaggio": "Sunburn (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dcErCXrb3DWfC9Hw77EifoIlMSY.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/9805",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Benché siano ormai prossimi al matrimonio, per Biancaneve e il suo principe azzurro i guai non sono ancora finiti. Ora devono infatti fare i conti con Lord Malizia, fratello della Strega Cattiva, che si assegna il compito di proseguire nell'opera di persecuzione della povera fanciulla. Ecco allora che Biancaneve deve di nuovo nascondersi nella foresta dove questa volta trova l'aiuto di sette nanette. Una di queste, particolarmente versata nel combinare guai, sarà determinante per neutralizzare la nuova minaccia.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/fLJmnrstYApVuSIIV2n2d06JwtJ.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 44283
+      }
     },
     {
       "video_id": "oYzThzyU-8M",
@@ -169,12 +328,147 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "La Principessa sul Pisello",
+      "genre": "animazione",
+      "tmdb_id": 14492,
       "tmdb_title_official": "La Principessa sul Pisello",
       "tmdb_year_official": 2002,
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_poster_path": "/26ySDoMdYeTzowVEJFObuWbqosX.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 14492",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "La Principessa sul Pisello",
+        "titolo_originale": "The Princess and the Pea",
+        "anno_uscita": 2002,
+        "durata_minuti": 75,
+        "genere": [
+          "Animazione",
+          "Fantasy",
+          "Famiglia"
+        ],
+        "regista": [
+          "Mark Swan"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Amanda Waving",
+            "personaggio": "Princess Daria (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/151119",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Jonathan Firth",
+            "personaggio": "Prince Rollo (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nQ9H2xRh5uLy047AEeKtTNas9cu.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/44557",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Dan Finnerty",
+            "personaggio": "Prince Rollo - Singing (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/59DYQZOGl4L9db8LF3gEvWxyboJ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/151121",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Steven Webb",
+            "personaggio": "Young Prince Rollo (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xvFTfzx5EYxWrEdAe1B6LJB5EEd.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/151120",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nigel Lambert",
+            "personaggio": "Sebastian the Raven (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/151122",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Lincoln Hoppe",
+            "personaggio": "King Heath (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xcQbushHgrH1oL4kyz0rCKDtvUt.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/146339",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ronan Vibert",
+            "personaggio": "King Laird (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/q8GWsSP36W8VmpwBn0HKWAjX2by.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/20523",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Eve Karpf",
+            "personaggio": "Queen Helsa (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1240300",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Liz May Brice",
+            "personaggio": "Princess Hildegard (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bprABGe5hk9WPGGdOq3jiNRLLWw.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/68224",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Richard Ridings",
+            "personaggio": "King Windham/Button (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/eH3QE45JSgJtw0j14PLcGmEaVOG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/6645",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Dalla fiaba originale di H.C. Andersen.  Tanto tempo fa, un principe voleva sposare una principessa, ma prima di farlo voleva essere certo che avesse davvero il sangue blu, che fosse una vera principessa. Solo una cosa può dimostrarlo, qualcosa che distingue una vera principessa da una fanciulla qualunque...",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/26ySDoMdYeTzowVEJFObuWbqosX.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 14492
+      }
     },
     {
       "video_id": "5R5qcKn6IZ8",
@@ -193,24 +487,279 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Rudolf alla ricerca della felicita",
+      "genre": "animazione",
+      "tmdb_id": 429005,
       "tmdb_title_official": "Rudolf alla ricerca della felicita",
       "tmdb_year_official": 2016,
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_poster_path": "/rCSdsNhep1T0G5YznAbIjgO1aKK.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 429005",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Rudolf alla ricerca della felicita",
+        "titolo_originale": "ルドルフとイッパイアッテナ",
+        "anno_uscita": 2016,
+        "durata_minuti": 89,
+        "genere": [
+          "Animazione",
+          "Commedia",
+          "Avventura",
+          "Famiglia"
+        ],
+        "regista": [
+          "湯山邦彦",
+          "Motonori Sakakibara"
+        ],
+        "cast_principale": [
+          {
+            "nome": "鈴木亮平",
+            "personaggio": "Ippaiattena (Voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dZ2XU1F7F0b9E1Sk6Ml5arlDDml.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1693",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "井上真央",
+            "personaggio": "Rudolf (Voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6PearnCbFJnQx0diGqjRFbIDcYD.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/124401",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Norito Yashima",
+            "personaggio": "Butchy (Voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rmzFIiYklEQlYdPidvkGIRFeJBf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/456935",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nana Mizuki",
+            "personaggio": "Misha (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rQBo7HyjTIqeB7hIofb7uJFhiVs.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/24651",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "佐々木りお",
+            "personaggio": "Rie (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/88H0XfSqkhXsVHbfImirbOhWruM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1404058",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "古田新太",
+            "personaggio": "Devil (Voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qZToOt46sLeoKrFk3KH7cMFlkD5.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/146785",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "毒蝮三太夫",
+            "personaggio": "Dump truck driver (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/460Wofq48QIV2RUB4HTOCDFfNMu.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/571716",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Rudolf, un gatto randagio nero, viene improvvisamente separato dal suo amato maestro. Si sveglia inaspettatamente su un camion a lunga percorrenza che lo porta nella metropoli di Tokyo. Lì, incontra Ippai-attena, un grande capo gatto temuto da tutti in città. Incapace di tornare a casa, Rudolf inizia una vita da randagio con Ippai-attena, ma Ippai-attena non è tutto ciò che sembra essere",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/rCSdsNhep1T0G5YznAbIjgO1aKK.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=RXd9bSOjU-w",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos"
+        },
+        "tmdb_id_scelto": 429005
+      }
     },
     {
       "video_id": "8WcY9oyZ-Ms",
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Winx Club - Il Segreto del Regno Perduto",
+      "genre": "animazione",
+      "tmdb_id": 80797,
       "tmdb_title_official": "Winx Club - Il Segreto del Regno Perduto",
       "tmdb_year_official": 2007,
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_poster_path": "/8vmo5cCReBP2V9aOzqOp2EN0xHm.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 80797",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Winx Club - Il Segreto del Regno Perduto",
+        "titolo_originale": "Winx Club - Il segreto del regno perduto",
+        "anno_uscita": 2007,
+        "durata_minuti": 85,
+        "genere": [
+          "Animazione",
+          "Fantasy",
+          "Famiglia"
+        ],
+        "regista": [
+          "Iginio Straffi"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Letizia Ciampa",
+            "personaggio": "Bloom (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mcnLWujrD4HTEMA699nyoOY0Tm3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/587935",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Perla Liberatori",
+            "personaggio": "Stella (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/e89d987tdIFUEONBCf5m8ug8fWJ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1094814",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ilaria Latini",
+            "personaggio": "Flora (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/61g99tQov6yJoNLN45VxkEMY63L.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1548963",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gemma Donati",
+            "personaggio": "Musa (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qhGITyo17WVrj9tTEBBhFNVz21x.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1548968",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Domitilla D'Amico",
+            "personaggio": "Tecna (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cAlIkeBr1zOVcWuuCbOo26o67DQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1137540",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Laura Lenghi",
+            "personaggio": "Aisha (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5sotJCStCciDVrzxPLFJuhiqRHe.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1548969",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marco Vivio",
+            "personaggio": "Sky (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mtvz5X6fHGI9pgRgoqQNN1crBp6.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/99540",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gianfranco Miranda",
+            "personaggio": "Brandon (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qx3a5MbZwlEXgldPERmXWBI0rJ5.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2282783",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Leonardo Graziano",
+            "personaggio": "Helia (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zeMd8m4WZAanakq1nCixlrKLFy3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2282786",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Emiliano Coltorti",
+            "personaggio": "Riven (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6ZlLam1D3DyTqHUc9z2Glhit956.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/239154",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Winx Club - Il segreto del regno perduto, il film d'animazione tutto italiano che porta sul grande schermo le Winx, le fatine adolescenti dotate di straordinari poteri magici. Accompagnata come sempre da Flora, Stella, Aisha, Musa e Tecna, le sue amiche del Winx Club, Bloom dovra' affrontare la più grande delle sfide: addentrarsi negli abissi della dimensione oscura e combattere il male assoluto per riportare in vita i suoi genitori e svelare finalmente il mistero legato alle sue origini.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/8vmo5cCReBP2V9aOzqOp2EN0xHm.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=wfa01nGESVo",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos"
+        },
+        "tmdb_id_scelto": 80797
+      }
     },
     {
       "video_id": "lI76QzFsycg",
@@ -905,17 +1454,155 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Gladiatori di Roma",
+      "genre": "animazione",
+      "tmdb_id": 133931,
       "tmdb_title_official": "Gladiatori di Roma",
       "tmdb_year_official": 2012,
-      "tmdb_id": 133931,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/uPzHXx21DwzGcem5uuHuAfH2nch.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 133931",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 133931,
-        "titolo_italiano": "Gladiatori di Roma"
+        "titolo_italiano": "Gladiatori di Roma",
+        "titolo_originale": "Zambezia",
+        "anno_uscita": 2012,
+        "durata_minuti": 83,
+        "genere": [
+          "Animazione",
+          "Commedia",
+          "Avventura",
+          "Famiglia"
+        ],
+        "regista": [
+          "Wayne Thornley"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Samuel L. Jackson",
+            "personaggio": "Tendai (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/AiAYAqwpM5xmiFrAIeQvUXDCVvo.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2231",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Abigail Breslin",
+            "personaggio": "Zoe (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1MQMfcb3fuN0lC1egdaOnHcTlm8.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/17140",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Leonard Nimoy",
+            "personaggio": "Sekhuru (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vyo1sOdwEIP8adhts3UpelyiBwn.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1749",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jeremy Suarez",
+            "personaggio": "Kai (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/j8r6JTIS5lZvoajCiaSyF64gGlg.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/61959",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jeff Goldblum",
+            "personaggio": "Ajax (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kcyEPgYtBP5Pm6LLeLGfXKjYovL.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4785",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jenifer Lewis",
+            "personaggio": "Gogo (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/htrTYcoJQQpSYo6BrRehe3h46vo.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/15899",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Noureen DeWulf",
+            "personaggio": "Pavi (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uYWQZfK9kqVIze1KQUeO1Nq3g5w.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/66524",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Richard E. Grant",
+            "personaggio": "Cecil (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/720dpCjuN5cEYFn43GwzZqXtpWv.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/20766",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jamal Mixon",
+            "personaggio": "Ezee (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4spmBpPtqkBcLiyUpxWiAqSOv5r.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/59019",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "David Shaughnessy",
+            "personaggio": "Morton (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pjevZtJQKWwwYGQa2pph409ePP3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/193254",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Sul bordo di una cascata, immersa nel tronco di un enorme albero di baobab si trova una vivace città di uccelli chiamati Zambezia. Famosa per essere la città più sicura in tutta l'Africa, Zambezia è diventata l'area protetta della valle del fiume, dove uccelli d'ogni piuma vivono insieme in armonia e in pace. Kai (un giovane Falcon) vive invece nel deserto insieme al padre che non vuole che lui raggiunga Zambezia per cercare di entrare a far parte del corpo dei coraggiosi Hurricane. C'è un avvenimento del passato che è all'origine di questo divieto e il giovane Kai ne scoprirà la consistenza proprio infrangendolo.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/uPzHXx21DwzGcem5uuHuAfH2nch.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=rKwaGVMp8RM",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos"
+        },
+        "tmdb_id_scelto": 133931
       }
     },
     {
@@ -1383,17 +2070,36 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Fantasia Magica",
+      "genre": "animazione",
+      "tmdb_id": 38580,
       "tmdb_title_official": "Fantasia Magica",
       "tmdb_year_official": 1991,
-      "tmdb_id": 38580,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/x9zoilsifsSXCUPxN6RjQFAbaxE.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 38580",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 38580,
-        "titolo_italiano": "Fantasia Magica"
+        "titolo_italiano": "Fantasia Magica",
+        "titolo_originale": "The Little Matchgirl",
+        "anno_uscita": 1991,
+        "durata_minuti": 6,
+        "genere": [
+          "Animazione",
+          "Dramma",
+          "Famiglia",
+          "Fantasy"
+        ],
+        "regista": [
+          "Roger Allers"
+        ],
+        "cast_principale": [],
+        "trama": "Una povera ragazza vede immagini felici nelle fiamme ardenti dei fiammiferi che lei accende per scaldarsi, mentre sullo sfondo risuona il \"Quartetto per archi n. 2 in re maggiore: Terzo movimento: Notturno (Andante)\" di Alexander Borodin.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/x9zoilsifsSXCUPxN6RjQFAbaxE.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 38580
       }
     },
     {
@@ -1577,17 +2283,34 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Il Segreto di Babbo Natale",
+      "genre": "animazione",
+      "tmdb_id": 163368,
       "tmdb_title_official": "Il Segreto di Babbo Natale",
       "tmdb_year_official": 2013,
-      "tmdb_id": 163368,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/5OpbOQCHrWNi4WwIqL5RUXw7FyL.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 163368",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 163368,
-        "titolo_italiano": "Il Segreto di Babbo Natale"
+        "titolo_italiano": "Il Segreto di Babbo Natale",
+        "titolo_originale": "Similitudes des longueurs et des vitesses",
+        "anno_uscita": 2013,
+        "durata_minuti": 10,
+        "genere": [
+          "Animazione",
+          "Documentario"
+        ],
+        "regista": [
+          "Jean Painlevé"
+        ],
+        "cast_principale": [],
+        "trama": "Jean Painlevé short film examining proportion and its effects on organisms.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/5OpbOQCHrWNi4WwIqL5RUXw7FyL.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 163368
       }
     },
     {
@@ -1667,17 +2390,148 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Casper - Un Fantasmagorico Natale",
+      "genre": "animazione",
+      "tmdb_id": 13491,
       "tmdb_title_official": "Casper - Un Fantasmagorico Natale",
       "tmdb_year_official": 2000,
-      "tmdb_id": 13491,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/1CrflDckso6k3JrsEDRduQWtCl9.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 13491",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 13491,
-        "titolo_italiano": "Casper - Un Fantasmagorico Natale"
+        "titolo_italiano": "Casper - Un Fantasmagorico Natale",
+        "titolo_originale": "Arn: Tempelriddaren",
+        "anno_uscita": 2000,
+        "durata_minuti": 139,
+        "genere": [
+          "Animazione",
+          "Azione",
+          "Avventura",
+          "Dramma",
+          "Romance"
+        ],
+        "regista": [
+          "Peter Flinth"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Joakim Nätterqvist",
+            "personaggio": "Arn Magnusson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mfNcZwKWImFVuqHNXblhVFANySN.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/74927",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sofia Helin",
+            "personaggio": "Cecilia Algotsdotter",
+            "foto_url": "https://image.tmdb.org/t/p/w185/aOzrZ51r9sPAE8sJvQm2LuZ3hYc.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/55885",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Stellan Skarsgård",
+            "personaggio": "Birger Brosa",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mW7xmtGV4y79kQGn0zkKVGDMAmw.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1640",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Michael Nyqvist",
+            "personaggio": "Magnus Folkesson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/d9nGt8MloJwosRbGp10gaeHExcZ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/6283",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mirja Turestedt",
+            "personaggio": "Sigrid",
+            "foto_url": "https://image.tmdb.org/t/p/w185/spqUzBGWTNk1rQ1rXo7LrsmChvD.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/106656",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Morgan Alling",
+            "personaggio": "Eskil Magnusson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tyuJqz3Sbuzw3ZKqSEC3cNIHxiK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/74928",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sven-Bertil Taube",
+            "personaggio": "Bishop Bengt",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lSRHpbj6B1ctuovgrXwnje7gcYm.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/87723",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Bibi Andersson",
+            "personaggio": "Mother Rikissa",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6EGqmWOR3R3jv3IgrEZmCjTAVGv.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/6657",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gustaf Skarsgård",
+            "personaggio": "Knut Eriksson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bfh0yP6Qr55jg9CGTGScXAw8Ftu.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/63764",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Simon Callow",
+            "personaggio": "Father Henry",
+            "foto_url": "https://image.tmdb.org/t/p/w185/no6qlnMrWeUzSt1FjD2Vf9x992e.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4001",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "I genitori del piccolo Arn Magnusson, sopravvissuto per miracolo a una malattia gravissima in tenera età, decidono di esprimere la loro riconoscenza a Dio inviando il bimbo in un monastero. Lì Arn viene istruito all'arte del combattimento da fratello Guilbert, e crescendo diventa un coraggioso cavaliere dell'ordine dei Templari, destinato a difendere la Terra Santa dai musulmani.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/1CrflDckso6k3JrsEDRduQWtCl9.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 13491
       }
     },
     {
@@ -1685,17 +2539,114 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Il Viaggio Fantastico",
+      "genre": "animazione",
+      "tmdb_id": 41384,
       "tmdb_title_official": "Il Viaggio Fantastico",
       "tmdb_year_official": 1992,
-      "tmdb_id": 41384,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/xEsT99Xe75dGd8Pdt0a7EcRN2Oa.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 41384",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 41384,
-        "titolo_italiano": "Il Viaggio Fantastico"
+        "titolo_italiano": "Il Viaggio Fantastico",
+        "titolo_originale": "The Grateful Dead Movie",
+        "anno_uscita": 1992,
+        "durata_minuti": 132,
+        "genere": [
+          "Animazione",
+          "Musica",
+          "Documentario"
+        ],
+        "regista": [
+          "Jerry Garcia",
+          "Leon Gast"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Jerry Garcia",
+            "personaggio": "Self",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6jAKLIekOs6FFcc783PZ1pb8soe.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1442",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Bob Weir",
+            "personaggio": "Self",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4yYZUCBEeptckOHLusV1TEPJDy3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/111978",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Donna Godchaux",
+            "personaggio": "Self",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6yuO2NadLuqAQVYNksnhMVqgl7o.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/126294",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Keith Godchaux",
+            "personaggio": "Self",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/126295",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Bill Kreutzmann",
+            "personaggio": "Self",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zqyqFwa7mU1vASGYNnIAhippzTJ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/126296",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mickey Hart",
+            "personaggio": "Self",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pIZoUuKvlq4V21NAWLHDUfG5YSz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/126297",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Phil Lesh",
+            "personaggio": "Self",
+            "foto_url": "https://image.tmdb.org/t/p/w185/anwnpAKtVpSm0azesfxouyM6N4N.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1450",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "The Grateful Dead performs live at Winterland in San Francisco in October 1974.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/xEsT99Xe75dGd8Pdt0a7EcRN2Oa.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 41384
       }
     },
     {
@@ -1703,17 +2654,147 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Winnie the Pooh - Il Primo Halloween da Elefante",
+      "genre": "animazione",
+      "tmdb_id": 13685,
       "tmdb_title_official": "Winnie the Pooh - Il Primo Halloween da Elefante",
       "tmdb_year_official": 2005,
-      "tmdb_id": 13685,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/1TxqW6Qs47r89tbrZMbfaXXjhMA.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 13685",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 13685,
-        "titolo_italiano": "Winnie the Pooh - Il Primo Halloween da Elefante"
+        "titolo_italiano": "Winnie the Pooh - Il Primo Halloween da Elefante",
+        "titolo_originale": "Bottle Rocket",
+        "anno_uscita": 2005,
+        "durata_minuti": 95,
+        "genere": [
+          "Animazione",
+          "Commedia",
+          "Crime",
+          "Dramma"
+        ],
+        "regista": [
+          "Wes Anderson"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Luke Wilson",
+            "personaggio": "Anthony Adams",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nH1h9dZGSBuWIOyX27HpYyYykvr.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/36422",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Owen Wilson",
+            "personaggio": "Dignan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lFxHIlcywMlYpe6wkW39sfBrqag.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/887",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Robert Musgrave",
+            "personaggio": "Bob Mapplethorpe",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cHU0RBBi8euvpFkvfzVg1zexRAB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/52797",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lumi Cavazos",
+            "personaggio": "Inez",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tYSFZAIZzaQ3klvFga8DWq8olPX.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/74940",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "James Caan",
+            "personaggio": "Mr. Abe Henry",
+            "foto_url": "https://image.tmdb.org/t/p/w185/z2Lz3rtxZ7aJjzBUkCnExvo8stn.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3085",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Andrew Wilson",
+            "personaggio": "John \"Future Man\" Mapplethorpe",
+            "foto_url": "https://image.tmdb.org/t/p/w185/z5e7BqvOaMUzBPDep3bb2Bwv2mB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/71555",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Teddy Wilson",
+            "personaggio": "Hector Mapplethorpe",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2674324",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Donny Caicedo",
+            "personaggio": "Rocky",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2086069",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Ned Dowd",
+            "personaggio": "Dr. Nichols",
+            "foto_url": "https://image.tmdb.org/t/p/w185/l6DltK997GS5SIDBmwRa5ia7iLR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/42006",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jenni Tooley",
+            "personaggio": "Stacy Sinclair",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kRhCVK9CyIVwndAAJYU1KeVv3y5.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/955807",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Uscito da un istituto psichiatrico, Dignan si unisce a uno sbandato di testa fine e a un ricco pappamolla per fare una rapina, seguita da un colpo grosso, organizzato da un ciarliero truffatore, che non riesce altrettanto bene. 1° film di W. Anderson, scritto con O. Wilson, pimpante protagonista in coppia col fratello Luke. Andrew W., un terzo fratello, fa la parte di un amico poco raccomandabile. È una commedia spiritosa in cadenze di balletto ladresco che ha almeno due meriti: il colorito disegno dei personaggi e una efficace descrizione d'ambiente. Nasce da un corto omonimo (1994).",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/1TxqW6Qs47r89tbrZMbfaXXjhMA.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 13685
       }
     },
     {
@@ -1721,17 +2802,59 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Il Mistero delle Uova di Pasqua",
+      "genre": "animazione",
+      "tmdb_id": 24480,
       "tmdb_title_official": "Il Mistero delle Uova di Pasqua",
       "tmdb_year_official": 2004,
-      "tmdb_id": 24480,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/vYqZbfvUjtK34vwjNW2m4VF1lIF.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 24480",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 24480,
-        "titolo_italiano": "Il Mistero delle Uova di Pasqua"
+        "titolo_italiano": "Il Mistero delle Uova di Pasqua",
+        "titolo_originale": "Partly Cloudy",
+        "anno_uscita": 2004,
+        "durata_minuti": 6,
+        "genere": [
+          "Animazione",
+          "Famiglia",
+          "Commedia",
+          "Fantasy"
+        ],
+        "regista": [
+          "Peter Sohn"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Tony Fucile",
+            "personaggio": "(voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vKxLwEaL6qz7cwrT8m02Lye7wZO.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1260745",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lori Richardson",
+            "personaggio": "(voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/225986",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Riprendendo la tradizione che i bambini nascano perché portati dalle cicogne, il cortometraggio racconta la storia della cicogna Peck, addetta alle consegne di un particolare tipo di bambini (umani e animali), ovvero quelli più pericolosi, ad esempio coccodrilli, porcospini, montoni, ecc. A \"fabbricare\" questi bambini sono le nuvole, e in particolare è la nuvola Gus quella che produce i bambini per Peck. Il lavoro però diventa duro per la cicogna, e quando questa prova a spiegarlo a Gus viene fraintesa. Il conflitto che ne è generato si risolverà con il gioco di squadra che i due colleghi e amici capiranno di dover fare.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/vYqZbfvUjtK34vwjNW2m4VF1lIF.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 24480
       }
     },
     {
@@ -2091,17 +3214,146 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Nasolungo Principessa",
+      "genre": "animazione",
+      "tmdb_id": 49797,
       "tmdb_title_official": "Nasolungo Principessa",
       "tmdb_year_official": 2003,
-      "tmdb_id": 49797,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/lHgoRdSSikT7eLNvuiMS2K25iXK.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 49797",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 49797,
-        "titolo_italiano": "Nasolungo Principessa"
+        "titolo_italiano": "Nasolungo Principessa",
+        "titolo_originale": "악마를 보았다",
+        "anno_uscita": 2003,
+        "durata_minuti": 141,
+        "genere": [
+          "Animazione",
+          "Thriller",
+          "Horror"
+        ],
+        "regista": [
+          "김지운"
+        ],
+        "cast_principale": [
+          {
+            "nome": "이병헌",
+            "personaggio": "Kim Soo-hyeon",
+            "foto_url": "https://image.tmdb.org/t/p/w185/j7SUd9Qi8iOxgrQGb3nQyEYcXur.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/25002",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "최민식",
+            "personaggio": "Kyung-chul",
+            "foto_url": "https://image.tmdb.org/t/p/w185/sd7gIA6nEkq6zumkDCfxSE0YSSV.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/64880",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "전국환",
+            "personaggio": "Squad Chief Jang",
+            "foto_url": "https://image.tmdb.org/t/p/w185/buZqD31REGoeg8wTRRyPVGidsfl.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/20264",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "천호진",
+            "personaggio": "Section Chief Oh",
+            "foto_url": "https://image.tmdb.org/t/p/w185/eS5jGpHrBDu3wtHHEfUNkwnZ0uE.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/87090",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "오산하",
+            "personaggio": "Joo-yeon",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tNiSVBP4P1FrAB9sffHOXzIXeQ6.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1340711",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "김윤서",
+            "personaggio": "Se-yeon",
+            "foto_url": "https://image.tmdb.org/t/p/w185/aq1ERSs2lQ5a2DPa4KP2FFTkVP8.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1340712",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "남보라",
+            "personaggio": "Section Chief's Daughter",
+            "foto_url": "https://image.tmdb.org/t/p/w185/62tB8Dp2D7XqkJV5GvGXcX46dca.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/561199",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "이준혁",
+            "personaggio": "NIS Agent",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bgZrYipsty7yTMHEy4cmVmfWJzQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/566372",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "윤채영",
+            "personaggio": "Nurse Han Song-i",
+            "foto_url": "https://image.tmdb.org/t/p/w185/orX7EsZnNY5yOw3KDMX15O6V76r.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1460205",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "최무성",
+            "personaggio": "Tae-joo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gMhYRcJ9HMVcGUWwOGRTAcbDo9y.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/240081",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Dopo aver scoperto che la sua fidanzata è stata brutalmente uccisa, l'agente segreto Dae-Hoon è a pezzi. Con l'aiuto di suo suocero, mette a punto un piano per scovare l'assassino e vendicarsi. Presto riesce a identificarlo e lo massacra, senza però ucciderlo. Vuole continuare a provare il gusto di inseguire la sua preda per servirgli una vendetta ancor più dolorosa e spaventosa.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/lHgoRdSSikT7eLNvuiMS2K25iXK.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 49797
       }
     },
     {
@@ -2109,17 +3361,98 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Vita da Giungla: Alla Riscossa! - Il Film",
+      "genre": "animazione",
+      "tmdb_id": 120438,
       "tmdb_title_official": "Vita da Giungla: Alla Riscossa! - Il Film",
       "tmdb_year_official": 2011,
-      "tmdb_id": 120438,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/uGwVokz7JJsY1PQ8hrM3LI9vCYZ.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 120438",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 120438,
-        "titolo_italiano": "Vita da Giungla: Alla Riscossa! - Il Film"
+        "titolo_italiano": "Vita da Giungla: Alla Riscossa! - Il Film",
+        "titolo_originale": "Parokya ni Edgar: Inuman Sessions Vol. 1",
+        "anno_uscita": 2011,
+        "durata_minuti": 70,
+        "genere": [
+          "Animazione"
+        ],
+        "regista": [],
+        "cast_principale": [
+          {
+            "nome": "Chito Miranda",
+            "personaggio": "lead vocals",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1096174",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Vinci Montaner",
+            "personaggio": "backup vocals",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1096175",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Buwi Meneses",
+            "personaggio": "bass guitar",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1096176",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Dar Semaña",
+            "personaggio": "lead guitar",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1096177",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Gab Chee Kee",
+            "personaggio": "rhythm guitar / vocals",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1096178",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Dindin Moreno",
+            "personaggio": "drums",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1096179",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Parokya ni Edgar's performance recorded live at Unitel Studio A, Makati City.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/uGwVokz7JJsY1PQ8hrM3LI9vCYZ.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 120438
       }
     },
     {
@@ -2127,17 +3460,102 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Cenerentola",
+      "genre": "animazione",
+      "tmdb_id": 279566,
       "tmdb_title_official": "Cenerentola",
       "tmdb_year_official": 1994,
-      "tmdb_id": 279566,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/2anGafEqtEp1eD5zFE4jGPRVL0m.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 279566",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 279566,
-        "titolo_italiano": "Cenerentola"
+        "titolo_italiano": "Cenerentola",
+        "titolo_originale": "Burro",
+        "anno_uscita": 1994,
+        "durata_minuti": 90,
+        "genere": [
+          "Animazione",
+          "Commedia",
+          "Dramma"
+        ],
+        "regista": [
+          "José María Sánchez"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Renato Pozzetto",
+            "personaggio": "Burro",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fFbbVQ1iMF4QqERVjvXYJMwlExx.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/119991",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Elena Sofia Ricci",
+            "personaggio": "Katarina",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6SKKF1MWQXydnPJPQwrRE6WO0oW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/124620",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Margarita Lozano",
+            "personaggio": "Mamma di Burro",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xsSBfAnXd6fFgf2BJPL3fXu5lyI.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/16314",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Victor Cavallo",
+            "personaggio": "Prete",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iwbRCJCVlFkTTrUfkJE01rwzDG0.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/994274",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Pierre Malet",
+            "personaggio": "Attore del film",
+            "foto_url": "https://image.tmdb.org/t/p/w185/30YTrlwRK1xDnRQM7XVYNqoCAeb.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/230534",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Teodoro Corrà",
+            "personaggio": "Mustafà",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dOzlw6PxMn1MBnX01c06L3JuCAp.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/99481",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Burro è il soprannome affibbiato dai compaesani a un ragazzone sempliciotto. Uomo di fatica in un cinema, si innamora di un'attrice vista sullo schermo e la vede in ogni donna che incontra: una volta una contadina devota, un'altra una zingara che non esita ad approfittare della sua ingenua passione. Deluso, cambia mestiere, poi scopre che colui che credeva suo padre in realtà non lo è.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/2anGafEqtEp1eD5zFE4jGPRVL0m.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 279566
       }
     },
     {
@@ -2145,17 +3563,156 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Strange Magic",
+      "genre": "animazione",
+      "tmdb_id": 228161,
       "tmdb_title_official": "Strange Magic",
       "tmdb_year_official": 2015,
-      "tmdb_id": 228161,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/jL5ZTqRWiDEa9B1xqDBf0QxT45v.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 228161",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 228161,
-        "titolo_italiano": "Strange Magic"
+        "titolo_italiano": "Strange Magic",
+        "titolo_originale": "Home",
+        "anno_uscita": 2015,
+        "durata_minuti": 94,
+        "genere": [
+          "Animazione",
+          "Fantasy",
+          "Commedia",
+          "Fantascienza",
+          "Famiglia"
+        ],
+        "regista": [
+          "Tim Johnson"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Jim Parsons",
+            "personaggio": "Oh (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gbFlludUECPpy70K4tZLbOwmoUr.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5374",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rihanna",
+            "personaggio": "Gratuity 'Tip' Tucci (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/piXUA7L0gWQNtnDPXtBe24C9FF6.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/131519",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Steve Martin",
+            "personaggio": "Capitain Smek (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/d0KthX8hVWU9BxTCG1QUO8FURRm.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/67773",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jennifer Lopez",
+            "personaggio": "Lucy Tucci (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iDiicDZ6CMib20QSCQYB55iynEk.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/16866",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Matt Jones",
+            "personaggio": "Kyle (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/x13vFDaJHY1CxNvSPWujYe12bMc.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/191202",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Brian Stepanek",
+            "personaggio": "Gorg Commander / Father / Boov (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oxBgwkiEZtoHE4Uqi7GMwM3sK9x.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/146391",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "April Lawrence",
+            "personaggio": "Boov Announcer (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1364660",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Lisa Stewart",
+            "personaggio": "Boov (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1490591",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Stephen Kearin",
+            "personaggio": "Boov (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/o5AaZCyHXr50P7LE4wR8uuocuAZ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1448984",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "April Winchell",
+            "personaggio": "Boov (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/twx3xkmvRAuHHJp3xUd1sbxTZRS.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/60741",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Dopo che la Terra è stata conquistata, con estrema facilità, dai Boov, una razza aliena in cerca di una nuova casa, tutti gli esseri umani vengono rapidamente spostati mentre i Boov si danno da fare per riorganizzare il pianeta. Ma quando Tip, una ragazza piena di risorse, riesce ad evitare la cattura, finisce per ritrovarsi complice, suo malgrado, di un Boov bandito di nome Oh, un tipo inetto e solitario che vorrebbe solo integrarsi. I due fuggitivi si rendono presto conto che in gioco c'è molto di più dei rapporti intergalattici e si ritrovano così nell'avventura più incredibile della loro vita.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/jL5ZTqRWiDEa9B1xqDBf0QxT45v.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=ct3VY0vf1T0",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos"
+        },
+        "tmdb_id_scelto": 228161
       }
     },
     {
@@ -2193,17 +3750,146 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "La Freccia Azzurra",
+      "genre": "animazione",
+      "tmdb_id": 49811,
       "tmdb_title_official": "La Freccia Azzurra",
       "tmdb_year_official": 1996,
-      "tmdb_id": 49811,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/xLMyhtUAf3hHVY6oYu5SSKIC3a.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 49811",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 49811,
-        "titolo_italiano": "La Freccia Azzurra"
+        "titolo_italiano": "La Freccia Azzurra",
+        "titolo_originale": "St. Ives",
+        "anno_uscita": 1996,
+        "durata_minuti": 90,
+        "genere": [
+          "Animazione",
+          "Dramma",
+          "Romance"
+        ],
+        "regista": [
+          "Harry Hook"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Jean-Marc Barr",
+            "personaggio": "Captain Jacques de Keroual de Saint-Yves",
+            "foto_url": "https://image.tmdb.org/t/p/w185/65aLM2ZvBjJu2JWGSrTGHqXyc8w.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1642",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Miranda Richardson",
+            "personaggio": "Susan Gilchrist",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2IEW3fxqHb4AHBl5xU8JuipJbNK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/8436",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Chris McHallem",
+            "personaggio": "Gautier",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5npjfcDR4HAcio5WqXmWAYoU40I.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/33452",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Richard E. Grant",
+            "personaggio": "Major Farquhar Chevening",
+            "foto_url": "https://image.tmdb.org/t/p/w185/720dpCjuN5cEYFn43GwzZqXtpWv.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/20766",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Anna Friel",
+            "personaggio": "Flora Gilchrist",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uY9ugiMtyvNp8cN7jvNZfin7sud.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/58016",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jason Isaacs",
+            "personaggio": "Alain de Keroual de Saint-Yves",
+            "foto_url": "https://image.tmdb.org/t/p/w185/s6XRFjqUsrDJfDQuXPOoExAYPmb.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/11355",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Michael Gough",
+            "personaggio": "Comte de Saint-Yves",
+            "foto_url": "https://image.tmdb.org/t/p/w185/yoxoYUnySjL0Ccyle91AkPTxXbC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3796",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Cécile Pallas",
+            "personaggio": "Mathilde",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gfigzkshF8U1OZzHMEknHI7HIJv.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/24466",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tim Dutton",
+            "personaggio": "François",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xOUvw3ULpTeAXh4g1QR2gPwIsbT.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/49965",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Vernon Dobtcheff",
+            "personaggio": "Bonnefoy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/o3zjo0Q8BDJQFqHMIIaFbUnckBY.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/649",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "In 1813, Capitaine Jacques St. Ives, a Hussar in the Napoleonic wars, is captured and sent to a Scottish prison camp. He's a swashbuckler, so the prison's commander, Major Farquar Bolingbroke Chevening, asks for lessons in communicating with women. Both men have their eyes on the lovely Flora, who resides with her aunt, the iconoclastic and well-traveled Miss Susan Emily Gilcrist. By chance, living close to the camp is Jacques's grandfather and brother, whom Jacques believes died years before. Jacques decides to escape, find his relatives, and win the hand of Flora; Major Chevening and an unforeseen enemy stand in his way. Can Miss Gilcrist contrive to make everything work out?",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/xLMyhtUAf3hHVY6oYu5SSKIC3a.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 49811
       }
     },
     {
@@ -2229,17 +3915,134 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Remi senza famiglia",
+      "genre": "animazione",
+      "tmdb_id": 417197,
       "tmdb_title_official": "Remi senza famiglia",
       "tmdb_year_official": 1970,
-      "tmdb_id": 417197,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/fsQwIfNQlniKpfY1Lyg5N7CisB3.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 417197",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 417197,
-        "titolo_italiano": "Remi senza famiglia"
+        "titolo_italiano": "Remi senza famiglia",
+        "titolo_originale": "미국의 바람과 불",
+        "anno_uscita": 1970,
+        "durata_minuti": 118,
+        "genere": [
+          "Animazione",
+          "Documentario"
+        ],
+        "regista": [
+          "Kim Kyung-man"
+        ],
+        "cast_principale": [
+          {
+            "nome": "이승만",
+            "personaggio": "Self (archive footage)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ouc6reL1Fbj5EQM3ITOA5FlrSZ4.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2266666",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Dwight D. Eisenhower",
+            "personaggio": "Self (archive footage)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ouTr8dJZrNkuJUkkqEqR7r6mNSa.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/120575",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "박정희",
+            "personaggio": "Self (archive footage)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/s70GgyiPveIKESH4cSLu4uGA0Fe.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2189099",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jimmy Carter",
+            "personaggio": "Self (archive footage)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wkoq1Rw2thX7FcfT6SgL4HZCO86.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/50576",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "전두환",
+            "personaggio": "Self (archive footage)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/x24GW2JZHT4CC3Dml4aGhC6U4Dl.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2266232",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ronald Reagan",
+            "personaggio": "Self (archive footage)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tuB7bNPABSP3MtPKpdttbz2OdSU.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/18802",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "김대중",
+            "personaggio": "Self (archive footage)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pf3YyH04qSHYMp6So0vhcLj6qeW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2266228",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Bill Clinton",
+            "personaggio": "Self (archive footage)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mIgqL0UAEKSl1Ry58wgQYq2sAt6.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/116341",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "George W. Bush",
+            "personaggio": "Self (archive footage)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6u9fUB5p0ugbMrPoQ5GF7baERiA.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/19011",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "USA is something like a religious belief in Korean history since the liberation. A powerful essay film is born with archival footages and a compilation of images of the Korean modern society. The right film for a generation who's losing the knowledge of Korean modern history.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/fsQwIfNQlniKpfY1Lyg5N7CisB3.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 417197
       }
     },
     {
@@ -2247,17 +4050,148 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Doraemon - Nobita e la Grande Avventura in Antartide",
+      "genre": "animazione",
+      "tmdb_id": 452910,
       "tmdb_title_official": "Doraemon - Nobita e la Grande Avventura in Antartide",
       "tmdb_year_official": 2017,
-      "tmdb_id": 452910,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/rl4Snnt1Jo8z0xcuqaYBdj8bsOh.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 452910",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 452910,
-        "titolo_italiano": "Doraemon - Nobita e la Grande Avventura in Antartide"
+        "titolo_italiano": "Doraemon - Nobita e la Grande Avventura in Antartide",
+        "titolo_originale": "悟空傳",
+        "anno_uscita": 2017,
+        "durata_minuti": 130,
+        "genere": [
+          "Animazione",
+          "Fantasy",
+          "Azione",
+          "Avventura",
+          "Famiglia"
+        ],
+        "regista": [
+          "郭子健"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Eddie Peng Yu-Yan",
+            "personaggio": "Wukong",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gIiEFUVbGRwrLKUURxU67ShJ00o.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/126778",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "倪妮",
+            "personaggio": "Azi",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9htVCCREXhXxxa1V5ev386wjD1S.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1006864",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "余文樂",
+            "personaggio": "ErLang",
+            "foto_url": "https://image.tmdb.org/t/p/w185/yZWngh6eSSqZGWIEvGQ0VqW6OnG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/78869",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "歐豪",
+            "personaggio": "Tianpeng",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nHokLSjlWJB3Gwt3zBXUuBPvR77.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1355667",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "鄭爽",
+            "personaggio": "Ayue",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iEvlgRfQQwQAO83MVW4KvoWoDjU.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/576399",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "喬杉",
+            "personaggio": "Juanlian",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zaTccwcq61PWWzWIgqapnpQph00.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1734106",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "俞飞鸿",
+            "personaggio": "Tian Zun",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3c5NjAuakGRkhEM8KWahHJ6Zscf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/39831",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "杨迪",
+            "personaggio": "Ju Ling",
+            "foto_url": "https://image.tmdb.org/t/p/w185/t6egz5PUk6xzLuf4J2U2YQBGOmL.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1427526",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "巴音",
+            "personaggio": "Ling Gu Zi",
+            "foto_url": "https://image.tmdb.org/t/p/w185/f4PwGzY7y4hTUp07BBWuGMH4if1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2168121",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "王德顺",
+            "personaggio": "Pu Ti",
+            "foto_url": "https://image.tmdb.org/t/p/w185/yTmSmUH3CdEhU1zYd3maDg3ipBZ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1129530",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "A giant rebelled against the heavens. It was declared a devil and defeated. The immortal heart evolved into Sun Wukong. The heavens found him, and ravaged his home. He enters the heavenly kingdom, disguised as a human, seeking retribution.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/rl4Snnt1Jo8z0xcuqaYBdj8bsOh.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 452910
       }
     },
     {
@@ -2265,17 +4199,154 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Una Tomba per le Lucciole",
+      "genre": "animazione",
+      "tmdb_id": 12477,
       "tmdb_title_official": "Una Tomba per le Lucciole",
       "tmdb_year_official": 1988,
-      "tmdb_id": 12477,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/kwXG1DSpciHsBvcBojqMqGkU7pe.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 12477",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 12477,
-        "titolo_italiano": "Una Tomba per le Lucciole"
+        "titolo_italiano": "Una Tomba per le Lucciole",
+        "titolo_originale": "火垂るの墓",
+        "anno_uscita": 1988,
+        "durata_minuti": 93,
+        "genere": [
+          "Animazione",
+          "Dramma",
+          "Guerra"
+        ],
+        "regista": [
+          "高畑勲"
+        ],
+        "cast_principale": [
+          {
+            "nome": "辰巳努",
+            "personaggio": "Seita (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/opRQfqXqAcUaqLMNARi78S7KZVa.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/72413",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "白石綾乃",
+            "personaggio": "Setsuko (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ltxZJRUAMsKqnflUKw1zlSjMhcu.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/72414",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "志乃原良子",
+            "personaggio": "Mother (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/yvpARjDfEri1a3nh7OXywzWb1Xn.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/72415",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "山口朱美",
+            "personaggio": "Auntie (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/72416",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Masayo Sakai",
+            "personaggio": "Woman who takes care of Setsuko (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3773484",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Kozo Hashida",
+            "personaggio": "Obayashi Chairman (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3773478",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Kazumi Nozaki",
+            "personaggio": "Cousin (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3773488",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Yoshio Matsuoka",
+            "personaggio": "Gosaku (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3773491",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Masahiro Kanetake",
+            "personaggio": "Aunt's House Guest (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3773492",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Kiyoshi Yanagawa",
+            "personaggio": "Patrolman (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3773494",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Giappone, 21 settembre 1945. Alla stazione di Kobe, il quattordicenne Seita muore di inedia. Il suo spirito ripercorre i tragici eventi degli ultimi quattro mesi: i bombardamenti americani, il cadavere della madre sfigurato dalle ustioni, il padre a difendere la gloria dell'impero nella sua bianca uniforme da ufficiale di marina. E poi l'orgoglio, la fuga, i furti, la fame. Questa notte spaventosa è rischiarata dai flebili bagliori delle lucciole. Ma all'alba non ne rimarrà più nessuna.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/kwXG1DSpciHsBvcBojqMqGkU7pe.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=VkApJzqpQ1c",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos"
+        },
+        "tmdb_id_scelto": 12477
       }
     },
     {
@@ -2283,17 +4354,147 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Doraemon - Nobita e la Nascita del Giappone",
+      "genre": "animazione",
+      "tmdb_id": 387893,
       "tmdb_title_official": "Doraemon - Nobita e la Nascita del Giappone",
       "tmdb_year_official": 2016,
-      "tmdb_id": 387893,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/vvZWjyLxYfq9pg9nytppbUY3miQ.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 387893",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 387893,
-        "titolo_italiano": "Doraemon - Nobita e la Nascita del Giappone"
+        "titolo_italiano": "Doraemon - Nobita e la Nascita del Giappone",
+        "titolo_originale": "Ice Age: The Great Egg-Scapade",
+        "anno_uscita": 2016,
+        "durata_minuti": 26,
+        "genere": [
+          "Animazione",
+          "Commedia",
+          "Famiglia",
+          "televisione film"
+        ],
+        "regista": [
+          "Ricardo Curtis"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Ray Romano",
+            "personaggio": "Manny (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zWT03QvuVYySlrjmHCojKrNYjoC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/15757",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "John Leguizamo",
+            "personaggio": "Sid (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kwYCdxTlDh9zauUCg4mp2XTCQTw.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5723",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Denis Leary",
+            "personaggio": "Diego (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tAOziVWQBnrW9eR442M6g9SQkmA.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5724",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Queen Latifah",
+            "personaggio": "Ellie (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/AeNoPcSWTsl1mOxiyXAKjVnzrwl.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/15758",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Keke Palmer",
+            "personaggio": "Peaches (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/x3eFVQVw4vOCJByLlkBnMMwEnG7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/74688",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Seann William Scott",
+            "personaggio": "Crash (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mKc2YXdh8d4U2jYDwpLWaOY6Jwg.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/57599",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Josh Peck",
+            "personaggio": "Eddie (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qoapD8slSdb550o1JEoepv1SvT0.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/15760",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Seth Green",
+            "personaggio": "Squint (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/l4No5Eu6j0U80hCIkaSn17AOWrj.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/13922",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Blake Anderson",
+            "personaggio": "Clint (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6CAisTFUOPulSKZvDSSptZ6D299.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/521564",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Taraji P. Henson",
+            "personaggio": "Ethel (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jUU2X9mDwJaAniEmJOfvImBS9qb.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/40036",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Scrat, Manny, Sid, Diego e il resto dei tuoi amici preistorici de L'Era Glaciale Ice Age sono tornati in un nuovo divertentissimo cortometraggio! I servizi di uovo-sitteraggio offerti da Sid non potrebbero essere più richiesti, ma quando il vile coniglio pirata Squint ruba le uova, Manny, Diego e il resto della banda partono in un'audace missione di salvataggio che si trasforma nella prima caccia all'uovo al mondo. In più, goditi ancora di più Scrat e la sua ghianda con tonnellate di dietro le quinte di Scrat!",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/vvZWjyLxYfq9pg9nytppbUY3miQ.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 387893
       }
     },
     {
@@ -2319,17 +4520,148 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Pollicina",
+      "genre": "animazione",
+      "tmdb_id": 10837,
       "tmdb_title_official": "Pollicina",
       "tmdb_year_official": 1994,
-      "tmdb_id": 10837,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/9TBleoQaVju8q1vhIZjlVzSPvni.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 10837",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 10837,
-        "titolo_italiano": "Pollicina"
+        "titolo_italiano": "Pollicina",
+        "titolo_originale": "DuckTales: The Movie - Treasure of the Lost Lamp",
+        "anno_uscita": 1994,
+        "durata_minuti": 74,
+        "genere": [
+          "Animazione",
+          "Avventura",
+          "Famiglia",
+          "Commedia",
+          "Fantasy"
+        ],
+        "regista": [
+          "Bob Hathcock"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Alan Young",
+            "personaggio": "Scrooge (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9sMQDRksfRxXysHCSP98S8Z9mf8.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/21874",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Terence McGovern",
+            "personaggio": "Launchpad (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/85ceNcXJd4XE0elNSxzHVCCKwuV.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/162323",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Russi Taylor",
+            "personaggio": "Huey / Dewey / Louie / Webby (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/r79GVF7LyBExJP7cRMob8QQZ6IU.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/6035",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Richard Libertini",
+            "personaggio": "Dijon (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tpkGxVaGzAiY8kWmCWyeV2bjeNB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/20163",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Christopher Lloyd",
+            "personaggio": "Merlock (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nxVjpyb3UrfbPZnEyDNlQVlFAs5.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1062",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "June Foray",
+            "personaggio": "Mrs. Featherby (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6s5sWcOPGtVdbMFtZwkWadArj2I.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/15098",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Chuck McCann",
+            "personaggio": "Duckworth (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/s3qNTQbRHRfbLd2rdtEl0Lmh2va.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/88450",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Joan Gerber",
+            "personaggio": "Mrs. Beakley (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rF8g2ApsFf7qH5SEmhyJQru48JE.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/90301",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rip Taylor",
+            "personaggio": "Genie (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8Dcp66lNJeGlgVCt6eELmv9pLBE.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/37438",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Charlie Adler",
+            "personaggio": "Additional Voices (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hVENHdlEqsX6vhBW4MTpfYEFFQ3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/81178",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Zio Paperone, insieme a Qui, Quo, Qua e Jack McQuack, trova il leggendario tesoro di Collie Baba, nel quale è presente anche una lampada che risveglierà un simpatico genio. Lo stregone Merlock, però, è in agguato...",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/9TBleoQaVju8q1vhIZjlVzSPvni.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 10837
       }
     },
     {
@@ -2337,17 +4669,149 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Hubie all'Inseguimento della Pietra Verde",
+      "genre": "animazione",
+      "tmdb_id": 10437,
       "tmdb_title_official": "Hubie all'Inseguimento della Pietra Verde",
       "tmdb_year_official": 1994,
-      "tmdb_id": 10437,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/8S2t8ZEdJiEzVvsMvodITWdbCLI.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 10437",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 10437,
-        "titolo_italiano": "Hubie all'Inseguimento della Pietra Verde"
+        "titolo_italiano": "Hubie all'Inseguimento della Pietra Verde",
+        "titolo_originale": "The Muppet Christmas Carol",
+        "anno_uscita": 1994,
+        "durata_minuti": 86,
+        "genere": [
+          "Animazione",
+          "Musica",
+          "Commedia",
+          "Famiglia",
+          "Fantasy",
+          "Dramma"
+        ],
+        "regista": [
+          "Brian Henson"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Michael Caine",
+            "personaggio": "Ebenezer Scrooge",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bVZRMlpjTAO2pJK6v90buFgVbSW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3895",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Dave Goelz",
+            "personaggio": "The Great Gonzo as Charles Dickens / Robert Marley / Dr. Bunsen Honeydew / Betina Cratchit / Rat / Zoot (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tBJDwH008IVSeTCB5e2P856NbIv.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/64181",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Steve Whitmire",
+            "personaggio": "Kermit the Frog as Bob Cratchit / Rizzo the Rat / Beaker / Bean Bunny / Belinda Cratchit / Beetle / Lips / Pig Gentleman (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/q1EVmCM1lKjI5OJOCmnvmYPWztp.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/64180",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jerry Nelson",
+            "personaggio": "Tiny Tim Cratchit / Jacob Marley / Ghost of Christmas Present / Lew Zealand / Ma Bear / Mouse / Mr. Applegate / Penguin / Pig Gentleman / Pops / Rat (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/daCTg4kX7AjrWj54qmRH2Po3znW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/68455",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Frank Oz",
+            "personaggio": "Miss Piggy as Emily Cratchit / Fozzie Bear as Fozziewig / Sam the Eagle as Headmaster of Junior High Graduates / Animal / George the Janitor / Horse and Carriage Driver / Vegetable Salesman (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/NmtYrntP8gElfulb4KaEYjbOha.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/7908",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "David Rudman",
+            "personaggio": "Rat / Peter Cratchit / Old Joe / Swedish Chef (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lHk21OS9k5aeACDSYJFBaJgMrCP.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/192632",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Don Austen",
+            "personaggio": "Ghost of Christmas Present (performer) / Ghost of Christmas Yet to Come (performer)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1GiPQD514LlRjAe6VvX8MnVx3xB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/65294",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jessica Fox",
+            "personaggio": "Ghost of Christmas Past (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ryvhaXqwPrO66uwEOMT6AmS4Tb2.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1221466",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Robert Tygner",
+            "personaggio": "Ghost of Christmas Yet to Come (performer) / Ghost of Christmas Past (performer) / Turkey / Additional Muppets (uncredited) (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1806669",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Steven Mackintosh",
+            "personaggio": "Fred, Scrooge's Nephew",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vDA4mmVe0XMnqd6qMyGWI8bUEeC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/978",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Rimasto solo la vigilia di Natale, Scrooge viene visitato da alcuni fantasmi che lo trasportano nel suo passato e nel suo presente e gli mostrano quale sarà il suo futuro – e non è un buon presagio! Ma lungo il suo cammino incontra il povero, semplice ed umile Bob Cratchit (Kermit La Rana) e la sua famiglia, incluso Tiny Tim che insegna a Scrooge il vero significato del Natale. Con le musiche originali e splendidi effetti speciali, questo magnifico film farà trascorrere a tutta la famiglia delle meravigliose vacanze di Natale!",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/8S2t8ZEdJiEzVvsMvodITWdbCLI.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 10437
       }
     },
     {
@@ -2355,17 +4819,46 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "La Gabbianella e il Gatto",
+      "genre": "animazione",
+      "tmdb_id": 45782,
       "tmdb_title_official": "La Gabbianella e il Gatto",
       "tmdb_year_official": 1998,
-      "tmdb_id": 45782,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/fwSlPMTXOn79gtd9PcADCcDSdHf.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 45782",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 45782,
-        "titolo_italiano": "La Gabbianella e il Gatto"
+        "titolo_italiano": "La Gabbianella e il Gatto",
+        "titolo_originale": "Jeff Foxworthy: Totally Committed",
+        "anno_uscita": 1998,
+        "durata_minuti": 56,
+        "genere": [
+          "Animazione",
+          "Commedia"
+        ],
+        "regista": [
+          "Keith Truesdell"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Jeff Foxworthy",
+            "personaggio": "self",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3kJ6uVvDddIrTudxlZIpJ5yg4bN.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/60736",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Comedian Jeff Foxworthy shot to national fame with his hilarious stand-up routine, \"You Know You're a Redneck If ...\" Part outrageous humor, part social commentary, Foxworthy's redneck routines are spot-on send-ups of American Southern culture. In \"Totally Committed,\" originally aired as an HBO special, the comedian gamely tackles the subjects of baldness, marriage, commemorative plates and more.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/fwSlPMTXOn79gtd9PcADCcDSdHf.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 45782
       }
     },
     {
@@ -2373,17 +4866,147 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "La Fattoria degli Animali",
+      "genre": "animazione",
+      "tmdb_id": 11854,
       "tmdb_title_official": "La Fattoria degli Animali",
       "tmdb_year_official": 1954,
-      "tmdb_id": 11854,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/5FmtHHDGPofW5Zjns1EM1D8503c.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 11854",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 11854,
-        "titolo_italiano": "La Fattoria degli Animali"
+        "titolo_italiano": "La Fattoria degli Animali",
+        "titolo_originale": "कुछ कुछ होता है",
+        "anno_uscita": 1954,
+        "durata_minuti": 185,
+        "genere": [
+          "Animazione",
+          "Romance",
+          "Dramma",
+          "Commedia"
+        ],
+        "regista": [
+          "Karan Johar"
+        ],
+        "cast_principale": [
+          {
+            "nome": "शाहरुख़ ख़ान",
+            "personaggio": "Rahul Khanna",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gc3Ul6EtVYKgjBuYAaD8U2qIcSl.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/35742",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kajol",
+            "personaggio": "Anjali Sharma",
+            "foto_url": "https://image.tmdb.org/t/p/w185/h4m0TkDuEMCUNaPrQxMRyFb2AQ7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/55061",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "रानी मुखर्जी",
+            "personaggio": "Tina Malhotra",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6bm1lhrEgGFpOLBjvcOi3aoQmtg.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/35776",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sana Saeed",
+            "personaggio": "Anjali Khanna",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fgBSVHqM4WzwgyBvSmWz2abmwXX.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1846761",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Farida Jalal",
+            "personaggio": "Mrs. Khanna",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tJdqL4BRSAWVFX1W6cmwxFs9IFh.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/146971",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Salman Khan",
+            "personaggio": "Aman Mehra",
+            "foto_url": "https://image.tmdb.org/t/p/w185/n7pKtccmf2jVOz8Qn90q2ThqLge.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/42802",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Johny Lever",
+            "personaggio": "Col. Almeida",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kohAOhKr4HBln8b9P4i1kmMONyi.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/35819",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Archana Puran Singh",
+            "personaggio": "Ms. Briganza",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uc6QJNnT8q0wNnZOZi0QW2hE1wq.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/87304",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Anupam Kher",
+            "personaggio": "Principal Malhotra",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kgU5Ap1Kf9RnicB5DMcXEZqed2f.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/6217",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Reema Lagoo",
+            "personaggio": "Mrs. Sharma",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hQ5r2pPD8T94Dli5oNP6IlwEf1c.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/35750",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Per her mother's last wish, an 8 year old girl sets out to reunite her father with his college best friend who was in love with him.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/5FmtHHDGPofW5Zjns1EM1D8503c.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 11854
       }
     },
     {
@@ -2391,17 +5014,145 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "genre": "animazione",
       "original_title": "Teddy & Annie - I Giocattoli Dimenticati",
+      "genre": "animazione",
+      "tmdb_id": 231643,
       "tmdb_title_official": "Teddy & Annie - I Giocattoli Dimenticati",
       "tmdb_year_official": 1997,
-      "tmdb_id": 231643,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/j59IxcrS9hhvzOUvnzvR6TlzKED.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 231643",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 231643,
-        "titolo_italiano": "Teddy & Annie - I Giocattoli Dimenticati"
+        "titolo_italiano": "Teddy & Annie - I Giocattoli Dimenticati",
+        "titolo_originale": "WCW Spring Stampede 2000",
+        "anno_uscita": 1997,
+        "durata_minuti": 158,
+        "genere": [
+          "Animazione",
+          "Azione"
+        ],
+        "regista": [
+          "Craig Leathers"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Page Falkinburg Jr.",
+            "personaggio": "Diamond Dallas Page",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fuuDFz0VesWZQMvE9h15gvWi9Jr.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/86903",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jeffrey Jarrett",
+            "personaggio": "Himself",
+            "foto_url": "https://image.tmdb.org/t/p/w185/sbepieYzkAqlwQF65Bh9mks2Lc2.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1076694",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Steve Borden",
+            "personaggio": "Sting",
+            "foto_url": "https://image.tmdb.org/t/p/w185/67mv4hYzKPpxp3ycGc4KM3KsrVY.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1108859",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Scott Rechsteiner",
+            "personaggio": "Himself",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4wsNZD9R5A5YTsNC6sOlEhTZdUG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1076796",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jerry Tuite",
+            "personaggio": "The Wall",
+            "foto_url": "https://image.tmdb.org/t/p/w185/n98r5wdXNl3WJLwe0cvpec5GmvW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1219661",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mike Alfonso",
+            "personaggio": "Mike Awesome",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qkqI3GZuk6E44Q4KxugY9NWXvms.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/590957",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ernest Miller",
+            "personaggio": "Himself",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tXNMO0xUR0rrV55VwxQtQ5X0kPY.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1216224",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Booker Huffman, Jr.",
+            "personaggio": "Booker",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5s5s4IWBPs7MjUVPLGpG4HCRUea.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/543599",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Peter Gruner Jr.",
+            "personaggio": "Billy Kidman",
+            "foto_url": "https://image.tmdb.org/t/p/w185/At8qKgoTx2pxu85cd1xihcaQHTu.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1200324",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ian Hodgkinson",
+            "personaggio": "Vampiro",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hP9KAW2QgZPWj39Qjl5CeepIPg3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/980209",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Spring Stampede 2000 features three separate tournaments to crown new World Heavyweight, United States, and Tag Team Champions. Participants include Diamond Dallas Page, Sting, Scott Steiner, Jeff Jarrett, Booker T, Mike Awesome and many more.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/j59IxcrS9hhvzOUvnzvR6TlzKED.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 231643
       }
     }
   ]
