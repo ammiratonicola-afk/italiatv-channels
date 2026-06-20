@@ -79,12 +79,12 @@
           {
             "nome": "Pedro Sempson",
             "personaggio": "Martin",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "foto_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pedro_Sempson.jpg?width=300",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
+              "nome": "Wikidata",
               "url_pagina_origine": "https://www.themoviedb.org/person/118127",
-              "verificata": false
+              "verificata": true
             }
           },
           {
@@ -353,12 +353,12 @@
           {
             "nome": "Álmos Előd",
             "personaggio": "Okoska (voice)",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "foto_url": "https://commons.wikimedia.org/wiki/Special:FilePath/El%C5%91d_%C3%81lmos.jpg?width=300",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
+              "nome": "Wikidata",
               "url_pagina_origine": "https://www.themoviedb.org/person/3902718",
-              "verificata": false
+              "verificata": true
             }
           },
           {
