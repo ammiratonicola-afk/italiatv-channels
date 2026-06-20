@@ -2108,7 +2108,15 @@
         "trama": "A Woodland è ancora pieno inverno, ma Franklin è particolarmente eccitato perché fra qualche settimana nascerà la sua nuova sorellina. Impaziente per l'evento e memore di una favola raccontatagli dalla mamma, il piccolo assume il ruolo di un impavido cavaliere e si reca nei boschi alla ricerca dello spirito della primavera...",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/sPYrytgX0Woc6ADPU4sQHHg5JbQ.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=2DQuVZGSSkA",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'Franklin and the Green Knight: The Movie (2000) - ' (41s)"
+        },
         "tmdb_id_scelto": 139017
       }
     },
@@ -7348,7 +7356,18 @@
       "tmdb_title_official": "7 chili in 7 giorni",
       "tmdb_year_official": 1986,
       "tmdb_id": 35536,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "strict_id_v2": {
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=wJynV-p0og0",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: '7 chili in 7 giorni. Trailer (1986)' (32s)"
+        }
+      }
     },
     {
       "video_id": "CZoa89PvWmo",
@@ -7360,7 +7379,18 @@
       "tmdb_title_official": "Porgi l'altra guancia",
       "tmdb_year_official": 1974,
       "tmdb_id": 11538,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "strict_id_v2": {
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=Y9o3JIQ56K4",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'PORGI L'ALTRA GUANCIA | Trailer italiano' (230s)"
+        }
+      }
     },
     {
       "video_id": "OggcIGr6iMg",
@@ -7518,7 +7548,15 @@
         "trama": "Lancillotto, allevato dalla fata Viviana sul fondo di un lago, arriva giovanissimo alla corte di Re Artù, entrando a far parte dei Cavalieri della Tavola Rotonda. Con loro, partecipa a mirabili imprese. Il suo spirito, il suo eroismo e i suoi ideali lo porteranno a diventare uno dei più brillanti cavalieri alla corte di Re Artù, un modello di valore e lealtà...",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/rqfwdYhDjWjSi67FOOAoDbazZpZ.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=5yte_hrU86A",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 47865
       }
     },
@@ -7609,7 +7647,7 @@
           },
           {
             "nome": "Serge-Henri Valcke",
-            "personaggio": "Mr. Ficks",
+            "personaggio": "Signor Ficks",
             "foto_url": "https://image.tmdb.org/t/p/w185/zRYqWx6JB1Bp5pJAYsnOM9D2TxF.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -7663,10 +7701,18 @@
             }
           }
         ],
-        "trama": "A security agent at an investment bank uncovers espionage that is linked to his girlfriend's murder. He vows to seek revenge on those responsible.",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Un agente di sicurezza di una banca d'investimento scopre un'operazione di spionaggio legata all'omicidio della sua ragazza. Giura di vendicarsi di coloro che sono responsabili.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/9xlhZxbP1LbLD3uZPzbOHjJZ2uY.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=0SFWK_wjniI",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 53000
       }
     },
@@ -7712,7 +7758,7 @@
           },
           {
             "nome": "Mark Stevenson",
-            "personaggio": "The Assistant",
+            "personaggio": "L'Assistente",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
@@ -7810,10 +7856,18 @@
             }
           }
         ],
-        "trama": "A serial killer uses a horror video rental to lure his next victim. What begins as a teen slasher transforms into a disturbing journey through the mind of Max Parry, a mild mannered wedding photographer with a taste for human flesh.",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Un serial killer utilizza un noleggio di video horror per attirare la sua prossima vittima. Quello che inizia come un film slasher per adolescenti si trasforma in un inquietante viaggio nella mente di Max Parry, un fotografo di matrimoni dal carattere tranquillo con un gusto per la carne umana.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/1YJ9N4lbMelJlMK8ykX2WUAR9M9.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=llpcBnUOQhk",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 25033
       }
     },
@@ -7947,7 +8001,7 @@
           },
           {
             "nome": "Jenny Clève",
-            "personaggio": "Agent 747, cleaning lady of 51",
+            "personaggio": "Agente 747, donna delle pulizie di 51",
             "foto_url": "https://image.tmdb.org/t/p/w185/7OiUovhKYmCViOPsKNWnP3TsD7O.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -7960,7 +8014,15 @@
         "trama": "La vita di un funzionario francese è spiata da un'imprecisata organizzazione che si avvale dei mezzi più sofisticati per scoprire ogni segreto. Lentamente viene fuori un presente (la moglie lo tradisce e lui non ne fa un dramma) e un passato (bastardo di nascita, stuprato durante la guerra d'Algeria) inquietante: per gli psicanalisti dell'organizzazione l'uomo è un omosessuale represso.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/chLzUOJ2fNwJCU2J4cQIhgBGqj1.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=NYnj4Uo85DA",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'RICKY & BARABBA | Teaser trailer italiano' (29s)"
+        },
         "tmdb_id_scelto": 49583
       }
     },
@@ -8103,10 +8165,18 @@
             }
           }
         ],
-        "trama": "A famous Polish journalist presents a problem for the powers-that-be when he displays his full political skill and knowledge on a television show featuring questions and answers on a world conference by a panel of journalists. His enemies take away his privileges when he is away. The shock of being \"unwanted\" parallels a deeper disappointment in his private life: his wife has an affair with a jealous young rival, and after 15 years of marriage and two daughters wants a divorce. She offers no explanations as he tries to untie these problems himself. All the moves he makes are the wrong ones. He takes on drinking heavily with students eager to attend his seminar after discovering the class has been canceled. The journalist, once suave and commanding, is reduced to silence.",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Un famoso giornalista polacco presenta un problema per i potenti quando mostra le sue abilità e conoscenze politiche in un programma televisivo di domande e risposte su una conferenza mondiale, partecipando a un panel di giornalisti. I suoi nemici gli tolgono i privilegi mentre lui è assente. Lo shock di sentirsi \"indesiderato\" si accompagna a una delusione più profonda nella sua vita privata: sua moglie ha una relazione con un giovane rivale geloso e, dopo 15 anni di matrimonio e due figlie, desidera il divorzio. Non offre spiegazioni mentre lui cerca di risolvere questi problemi da solo. Tutte le sue mosse si rivelano sbagliate. Inizia a bere pesantemente con studenti ansiosi di partecipare al suo seminario dopo aver scoperto che la lezione è stata cancellata. Il giornalista, un tempo affascinante e carismatico, è ridotto al silenzio.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/bxS0z1Ji4VVWZthMZpooi0Fcviu.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=GM5k7eciWAM",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'IL RAGAZZO DI CAMPAGNA (1984) - con Renato Pozzett' (193s)"
+        },
         "tmdb_id_scelto": 42199
       }
     },
@@ -8229,7 +8299,7 @@
           },
           {
             "nome": "Elisabeth Risdon",
-            "personaggio": "Mrs. Whitehead",
+            "personaggio": "Signora Whitehead",
             "foto_url": "https://image.tmdb.org/t/p/w185/h4n8KEk4IYwugDiEt0MAqX3id53.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -8253,7 +8323,15 @@
         "trama": "Una donna dolce e apparentemente remissiva è sposata con un banchiere burbero e autoritario al quale, però, riesce a far fare quello che vuole. Il marito, infatti, è in fondo un brav'uomo che ama teneramente sia la moglie che i suoi quattro figli. Un giorno il poveraccio si lascia scappare di non essere battezzato. La consorte, in men che non si dica, riuscirà a trascinarlo in chiesa.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/r8Ck8trmA2s6mq4PoMCi2Loa8ws.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=FrbQ0YjSFSI",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 41465
       }
     },
@@ -8267,7 +8345,18 @@
       "tmdb_title_official": "Belli ciao",
       "tmdb_year_official": 2022,
       "tmdb_id": 913511,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "strict_id_v2": {
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=-x-2y7cj8hs",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'BELLI CIAO (2022) Trailer ITA della Commedia con P' (181s)"
+        }
+      }
     },
     {
       "video_id": "VzZTxhTxrgw",
@@ -8322,7 +8411,7 @@
           },
           {
             "nome": "Alice Krige",
-            "personaggio": "Queen Helena",
+            "personaggio": "Regina Elena",
             "foto_url": "https://image.tmdb.org/t/p/w185/jHOknQMjkIqqrm5RjtMCnJfnGXl.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -8355,7 +8444,7 @@
           },
           {
             "nome": "Sarah Douglas",
-            "personaggio": "Mrs. Averill",
+            "personaggio": "Signora Averill",
             "foto_url": "https://image.tmdb.org/t/p/w185/76YfRJyQodMIBiuO33slvSYEQhS.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -8399,7 +8488,7 @@
           },
           {
             "nome": "Richard Ashton",
-            "personaggio": "Mr. Little",
+            "personaggio": "Signor Piccolo",
             "foto_url": "https://image.tmdb.org/t/p/w185/vXU9iUlWQ3iniENuebXjjhdtVbQ.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -8412,7 +8501,15 @@
         "trama": "Amber è la giovane redattrice di un magazine che deve seguire la conferenza stampa del principe Richard, prossimo al trono del regno di Aldovia dopo la morte del padre. Il destino fa sì che Amber riesca a intrufolarsi nel palazzo reale, finga di essere la tutrice della giovane principessa, si innamori del principe e scopra qualcosa che il mondo è meglio che non sappia.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/x0IGQsMzVbsF7noj5cCfEk1GU7s.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=tG4Fbj1B1bY",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 483104
       }
     },
@@ -8535,7 +8632,7 @@
           },
           {
             "nome": "Andrews Engelmann",
-            "personaggio": "The Reformatory's Dean",
+            "personaggio": "Il Decano del Riformatorio",
             "foto_url": "https://image.tmdb.org/t/p/w185/9MNdbTpIx8GErdLCzY0QlVnf6IX.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -8546,7 +8643,7 @@
           },
           {
             "nome": "Valeska Gert",
-            "personaggio": "The Reformatory Dean's Wife",
+            "personaggio": "La Moglie del Preside Riformatorio",
             "foto_url": "https://image.tmdb.org/t/p/w185/oGT8ZrJmLpx8uRaP9cEWuHzNN8w.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -8570,7 +8667,15 @@
         "trama": "Thymiane, figlia di un farmacista, è violentata dall'assistente del padre e resa incinta. Il bambino nasce ma muore quasi subito. Thymiane viene rinchiusa in una casa di correzione, da cui evade per lavorare in un bordello. Qui conosce un giovane ma dopo la morte di quest'ultimo ne sposa lo zio, diventando una signora per bene. Melodramma sulla complessa carriera di una ragazza che passa attraverso l'inferno della prostituzione per giungere ai fasti della società borghese: il regista Pabst sarcasticamente dipinge i crimini e misfatti di una società in disfacimento, avvalendosi del fascino morboso della bella e dotata Louise Brooks.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/qfsRWDAcZJp4RiYN2wToOmwNEcK.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=Y8CVd5pM4AA",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 42637
       }
     },
@@ -8713,10 +8818,18 @@
             }
           }
         ],
-        "trama": "Park Bong-Gon is having problems at home with her husband and his temper. She decides to leave and pursue her childhood dream of becoming a singer and begins seeing it through at a club called the Arabian Night. Her husband, upset with her disappearance, enlists a man who specializes in finding runaway housewives...",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Park Bong-Gon ha problemi a casa con suo marito e il suo temperamento. Decide di andarsene e inseguire il sogno d'infanzia di diventare una cantante, iniziando a esibirsi in un club chiamato Arabian Night. Suo marito, infastidito dalla sua scomparsa, ingaggia un uomo specializzato nel trovare mogli fuggitive...",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/z6aMdR7SMLTGkcFTR3RU04tWxwK.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=JYVmw5oCXlg",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'NON C'È 2 SENZA TE - Trailer ufficiale [HD]' (128s)"
+        },
         "tmdb_id_scelto": 349274
       }
     },
@@ -8864,7 +8977,15 @@
         "trama": "Un padre in lutto in una spirale discendente inciampa nella scatola dei nastri e dei testi demo del figlio morto. Scioccato dalla scoperta di questo talento sconosciuto, forma una band nella speranza di trovare qualche catarsi.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/flFXJ2PQAUje6zLz3S7SiIKwD6J.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=Xq6XgPSgzmA",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 244403
       }
     },
@@ -8977,7 +9098,7 @@
           },
           {
             "nome": "Joseph Castanon",
-            "personaggio": "Ben at 7 years old",
+            "personaggio": "Ben a 7 anni",
             "foto_url": "https://image.tmdb.org/t/p/w185/tSb55ZK0ZtxOeyhZwc10whvaz6E.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -8988,7 +9109,7 @@
           },
           {
             "nome": "Jonah Hill",
-            "personaggio": "Ben at 17 years old",
+            "personaggio": "Ben a 17 anni",
             "foto_url": "https://image.tmdb.org/t/p/w185/cymlWttB83MsAGR2EkTgANtjeRH.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -8999,7 +9120,7 @@
           },
           {
             "nome": "Jake Hoffman",
-            "personaggio": "Ben at 22-30 years old",
+            "personaggio": "Ben",
             "foto_url": "https://image.tmdb.org/t/p/w185/9K180Isd28lc3X7Puiu8InPdq4x.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -9166,7 +9287,15 @@
         "trama": "A group of young tourist couples comes across a drug deal gone bad while on vacation.",
         "trama_tradotta_in_italiano": false,
         "locandina_url": "https://image.tmdb.org/t/p/w500/5C2xuoQ9fMUwoS4gjThH0JCeRUZ.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=QMoGZJLyWlg",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 47918
       }
     },
@@ -9245,7 +9374,7 @@
           },
           {
             "nome": "Sara Haden",
-            "personaggio": "Mrs. Nancy Ashford",
+            "personaggio": "Signora Nancy Ashford",
             "foto_url": "https://image.tmdb.org/t/p/w185/77NW5jRIn7rxzEMxhR2kjsCCDXg.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -9300,7 +9429,7 @@
           },
           {
             "nome": "Beryl Mercer",
-            "personaggio": "Mrs. Eden",
+            "personaggio": "Signora Eden",
             "foto_url": "https://image.tmdb.org/t/p/w185/vsWop0MRGrjHgwjpt7jerSoeiN1.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -9313,7 +9442,15 @@
         "trama": "Il dottor Hudson e Bobby Merrick, un giovanotto ricco, vengono raccolti mentre stanno affogando in seguito a un incidente e portati nel vicino ospedale. L'unico apparecchio per la respirazione artificiale salva soltanto il giovanotto. Bobby incontra Helen, la vedova del dottor Hudson, e se ne innamora. In seguito a un incidente d'auto Helen perde la vista, ma la riacquisterà qualche anno dopo per merito dello stesso Bobby.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/4SxBZbCEpsnei3iw4z7b6FpzMRz.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=7_sHpwnP8pM",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'THE MAGNIFICENT OBSESSION OF MICHAEL REEVES Offici' (234s)"
+        },
         "tmdb_id_scelto": 47920
       }
     },
@@ -9413,7 +9550,7 @@
           },
           {
             "nome": "Mary Gordon",
-            "personaggio": "Mrs. Bledsoe",
+            "personaggio": "Signora Bledsoe",
             "foto_url": "https://image.tmdb.org/t/p/w185/5jhUhQa0ArqB8p5cr8EwIXNeihx.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -9456,10 +9593,18 @@
             }
           }
         ],
-        "trama": "A former GI gets his old job back working for a bookie after returning from serving in the military. Unfortunately, he loses the $20,000 he was supposed to deliver to gambling and a con artist. His attempts to get the money back leads to bigger problems including a murder plot.",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Un ex soldato riottiene il suo vecchio lavoro presso un bookmaker dopo essere tornato dal servizio militare. Sfortunatamente, perde i 20.000 dollari che doveva consegnare al gioco d'azzardo e a un truffatore. I suoi tentativi di recuperare il denaro lo portano a problemi ben più gravi, incluso un complotto di omicidio.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/fb5Ic8is0hSupdFGE0ubn89OJ8F.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=DU49Nx3L3AA",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'The Invisible Wall – Official Book Trailer | Survi' (16s)"
+        },
         "tmdb_id_scelto": 47923
       }
     },
@@ -9539,7 +9684,15 @@
         "trama": "TV Comedy from radio award-winning writers Stewart Lee and Richard Herring.",
         "trama_tradotta_in_italiano": false,
         "locandina_url": "https://image.tmdb.org/t/p/w500/3efluWsxyvMMx0ADwVwBZc0qoLU.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=y8Ht75Lm_uM",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'Fantozzi contro tutti (film 1980) TRAILER ITALIANO' (100s)"
+        },
         "tmdb_id_scelto": 47919
       }
     },
@@ -9651,7 +9804,7 @@
           },
           {
             "nome": "Alan Hale",
-            "personaggio": "Martin the Furniture Man",
+            "personaggio": "Martin il Mobiliere",
             "foto_url": "https://image.tmdb.org/t/p/w185/e90MwAMkxjDqr3wOnOhDAjvylW5.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -9662,7 +9815,7 @@
           },
           {
             "nome": "Henry Armetta",
-            "personaggio": "The Painter",
+            "personaggio": "Il Pittore",
             "foto_url": "https://image.tmdb.org/t/p/w185/9Bvd4g9QaFoMtYm3VYpJeAa9R3I.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -9686,7 +9839,15 @@
         "trama": "Una vedova bianca e la sua governante nera si arricchiscono con la formula di una farina per frittelle, di cui è depositaria la governante, che, come solo compenso, chiede per sé un funerale in grande stile. La figlia della donna bianca ama il futuro patrigno e quella della donna nera si vergogna della sua stirpe.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/a6F2rSvCE1sIkn4ZaYqNWMJhSKX.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=GVMFYDBxZr4",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 47921
       }
     },
@@ -9777,7 +9938,7 @@
           },
           {
             "nome": "Nana Bryant",
-            "personaggio": "Mrs. Mitchell",
+            "personaggio": "Signora Mitchell",
             "foto_url": "https://image.tmdb.org/t/p/w185/9pAqHEbdQt0B7iYebTyxcGMbc45.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -9834,7 +9995,15 @@
         "trama": "A killer hides out in a small-town boarding house.",
         "trama_tradotta_in_italiano": false,
         "locandina_url": "https://image.tmdb.org/t/p/w500/iPIOExn7a2YlyLyC1n48gZUs98R.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=XeGN2qJWmBA",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'The Inner Sanctum - Official Trailer' (157s)"
+        },
         "tmdb_id_scelto": 47922
       }
     },
@@ -9848,7 +10017,18 @@
       "tmdb_title_official": "Febbre da cavallo - La mandrakata",
       "tmdb_year_official": 2002,
       "tmdb_id": 42373,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "strict_id_v2": {
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=2xBV_OWKY7U",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'FEBBRE DA CAVALLO - LA MANDRAKATA - 2002 - Trailer' (94s)"
+        }
+      }
     },
     {
       "video_id": "0HlmpfknJhU",
@@ -9860,7 +10040,18 @@
       "tmdb_title_official": "Fracchia la belva umana",
       "tmdb_year_official": 1981,
       "tmdb_id": 42276,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "strict_id_v2": {
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=LzBa0TC99D8",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'Fracchia, The human Beast (Fracchia la belva umana' (170s)"
+        }
+      }
     },
     {
       "video_id": "_xD2JPbkJhU",
@@ -10004,10 +10195,18 @@
             }
           }
         ],
-        "trama": "While traveling across country with her fiancé, Beth wakes alone in an isolated clinic to a mother's worst nightmare. Just how far will she go to save her child?",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Mentre viaggia attraverso il paese con il suo fidanzato, Beth si risveglia da sola in una clinica isolata, affrontando il peggior incubo di una madre. Fino a che punto sarà disposta ad andare per salvare suo figlio?",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/wWWjKwaWJ8pidrCxWeUsvXl00pl.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=10FFQyN4I9U",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 57749
       }
     },
@@ -10245,7 +10444,7 @@
           },
           {
             "nome": "Carl Weaver",
-            "personaggio": "Member of The Chesterfields",
+            "personaggio": "Membro dei Chesterfields",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
@@ -10256,7 +10455,7 @@
           },
           {
             "nome": "Al Chalk",
-            "personaggio": "Member of The Chesterfields",
+            "personaggio": "Membro dei Chesterfields",
             "foto_url": "https://image.tmdb.org/t/p/w185/5ZsQYwzNH6nxnryu3HoA5ikhwdq.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -10267,7 +10466,7 @@
           },
           {
             "nome": "Sam Harkness",
-            "personaggio": "Member of The Chesterfields",
+            "personaggio": "Membro dei Chesterfields",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
@@ -10278,7 +10477,7 @@
           },
           {
             "nome": "Arnold McCuller",
-            "personaggio": "Member of The Chesterfields",
+            "personaggio": "Membro dei Chesterfields",
             "foto_url": "https://image.tmdb.org/t/p/w185/iEzYdQVQ1dWcrzJEdg9mkcCNi0Z.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -10310,10 +10509,18 @@
             }
           }
         ],
-        "trama": "This is the story loosely based on Cleveland disc jockey Alan Freed, who introduced rock'n'roll to teenage American radio audiences in the 1950s. Freed was a source of great controversy: criticized by conservatives for corrupting youth with the \"devil's music\"; hated by racists for promoting African American music for white consumption; persecuted by law enforcement officials and finally brought down by the \"payola\" scandals.",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Questa è la storia liberamente ispirata al DJ di Cleveland Alan Freed, che negli anni '50 introdusse il rock'n'roll al pubblico radiofonico adolescente americano. Freed fu al centro di grandi polemiche: criticato dai conservatori per aver corrotto i giovani con la \"musica del diavolo\"; odiato dai razzisti per aver promosso la musica afroamericana per il consumo dei bianchi; perseguitato dalle forze dell'ordine e infine travolto dagli scandali legati alla \"payola\".",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/9WVolrSXzdehGWEFzgF4KhJmBEI.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=PfKRjy2OaIE",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'BIANCO, ROSSO E VERDONE | Trailer italiano' (218s)"
+        },
         "tmdb_id_scelto": 42198
       }
     },
@@ -10461,7 +10668,15 @@
         "trama": "Ella Connors, che ha ereditato dal padre una fattoria e terreni da pascolo, rifiuta le proposte di acquisto di Erwin, il tiranno della zona. Avendo la donna venduto parte dei pascoli a due cowboys reduci di guerra, è contro di essi che Erwin manda i suoi sicari. Però Frank, uno dei cowboy, sopravvive e il suo aiuto sarà determinante nella lotta di Ella contro il dispotico e criminale possidente.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/5CvuALoM50psdrZ1ioRH5FisEKn.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=i9mdQJpwIH0",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 42201
       }
     },
@@ -10475,7 +10690,18 @@
       "tmdb_title_official": "Pierino contro tutti",
       "tmdb_year_official": 1981,
       "tmdb_id": 57750,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "strict_id_v2": {
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=L5nTyCYxzkw",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'Pierino Contro Tutti (Trailer Originale)' (213s)"
+        }
+      }
     },
     {
       "video_id": "UOGV4JeS2TY",
@@ -10621,7 +10847,15 @@
         "trama": "La storia si svolge in un piccolo paese (chiamato Hakkari) in Turchia all'inizio degli anni '70. È giunto il momento di portare la tecnologia in quella piccola città. Arriva la prima Televisione (o dai cittadini chiamata Visiontele) e inizia il caos.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/ipHbJ54NuA8tobUDrEV6odOrYhK.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=8CrF4nv6TY0",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'Trailer (IT): Occhio, Malocchio, Prezzemolo E Fino' (201s)"
+        },
         "tmdb_id_scelto": 57892
       }
     },
@@ -10635,7 +10869,18 @@
       "tmdb_title_official": "Fratelli d'Italia",
       "tmdb_year_official": 1989,
       "tmdb_id": 42365,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "strict_id_v2": {
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=ZLbT9wwTqQA",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'Fratelli d'Italia - Trailer Italiano' (316s)"
+        }
+      }
     },
     {
       "video_id": "BiMLLz8_4ew",
@@ -10813,7 +11058,18 @@
       "tmdb_title_official": "Le comiche 2",
       "tmdb_year_official": 1991,
       "tmdb_id": 42376,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "strict_id_v2": {
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=rz8qz8tiPIo",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'LE COMICHE 2 (1991) Trailer Cinematografico' (87s)"
+        }
+      }
     },
     {
       "video_id": "SGHTd_v7g2k",
@@ -10960,7 +11216,15 @@
         "trama": "Nick Kegan (Jeff Bridges), il rampollo di una potente famiglia americana, fa del suo meglio per cancellare dai ricordi l'ombra dell'omicidio del fratello maggiore, ex presidente degli Stati Uniti. Mentre lavora in un impianto petrolifero, Nick fa la conoscenza di un distinto gentiluomo, gravemente ammalato, che gli confessa di essere il secondo assassino del fratello. Riaprendo una ferita mai ricucita, Nick viene spinto dalla curiosità a scavare in quello che per tutti è un caso chiuso giungendo a una nuova e inaspettata verità.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/7cZBebDvzkzFoaSFWeGAkf8xyp7.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=wMCJcLvTKY8",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 42178
       }
     },
@@ -11104,10 +11368,18 @@
             }
           }
         ],
-        "trama": "Dead bodies are being found in New York harbor. The police have no clues nor suspects until Nick and his colleague realize the killer is a giant octopus. Everybody, especially the police captain, refuses to believe Nick's story, and soon the harbor will be filled with boats for the 4th of July celebrations.",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Vengono trovati cadaveri nel porto di New York. La polizia non ha indizi né sospetti fino a quando Nick e il suo collega si rendono conto che l'assassino è un gigantesco polpo. Tutti, in particolare il capitano di polizia, rifiutano di credere alla storia di Nick, e presto il porto sarà affollato di barche per i festeggiamenti del 4 luglio.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/hWjGkVOCa36rK0DLTfC9YQhwV9E.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=avABcK5ePhE",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 42182
       }
     },
@@ -11251,10 +11523,18 @@
             }
           }
         ],
-        "trama": "Viegeltje looks like a girl but has wings instead of arms. Bird watcher Warre finds her under brushwood and takes her home. Warre and his wife Tine decide to keep Viegeltje and raise her like an ordinary girl. But Viegeltje isn't an ordinary girl and she flies away. She wants to go to the South with the other birds. It becomes a long and adventurous journey.",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Viegeltje sembra una ragazza, ma ha le ali al posto delle braccia. L'osservatore di uccelli Warre la trova sotto dei rami e la porta a casa. Warre e sua moglie Tine decidono di tenere Viegeltje e crescerla come una ragazza normale. Ma Viegeltje non è una ragazza normale e vola via. Vuole andare a sud con gli altri uccelli. Inizia così un lungo e avventuroso viaggio.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/7tMYn0UHfoOIaPAsuVUDlgIBfSh.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=NAnR92c7T7g",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'Uno sceriffo extraterrestre… poco extra e molto te' (30s)"
+        },
         "tmdb_id_scelto": 42184
       }
     },
@@ -11268,7 +11548,18 @@
       "tmdb_title_official": "Chissà perché capitano tutte a me",
       "tmdb_year_official": 1980,
       "tmdb_id": 42183,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "strict_id_v2": {
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=wJMhJ_xPOxs",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'Trailer español de El supersheriff (Chissà perché.' (41s)"
+        }
+      }
     },
     {
       "video_id": "yx-bQzGBlOI",
@@ -11413,7 +11704,15 @@
         "trama": "Stéphane Bertin è un uomo ricco e rispettato, proprietario di una conceria nel villaggio di Favières, la sua città natale. Ha una relazione amorosa segreta con Muriel Olivier, una giovane insegnante del villaggio, incinta del figlio di Bertin. Tuttavia, il suo potere viene messo a repentaglio quando, durante una lite domestica, uccide accidentalmente la moglie.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/l4ZdidY7gtLC5AUCNVkchrCUwQG.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=TsgJ_rZIbl4",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 42177
       }
     },
@@ -11561,7 +11860,15 @@
         "trama": "A Parigi si susseguono i ritrovamenti da parte della polizia dei cadaveri di giovani donne strangolate e gettate nella Senna. Mentre in città regna la paura per questo assassino seriale chiamato Barbablù, Lucille Lutien assiste con alcune sue amiche a uno spettacolo di burattini e ne rimane affascinata, stringendo amicizia con Gaston Morrell, l'autore dello spettacolo, che si rivela anche un abile pittore.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/9QkvSPZ041POlEdKvMUI6c6lJfs.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=wKJxRxCUWn0",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 42186
       }
     },
@@ -11575,7 +11882,18 @@
       "tmdb_title_official": "Io sto con gli ippopotami",
       "tmdb_year_official": 1979,
       "tmdb_id": 42181,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "strict_id_v2": {
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=gz0W21RT0-Y",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'Io sto con gli ippopotami (Trailer) Bud Spencer Te' (207s)"
+        }
+      }
     },
     {
       "video_id": "UG08K-PgEpQ",
@@ -11707,7 +12025,7 @@
           },
           {
             "nome": "Lee-Anne Liebenberg",
-            "personaggio": "Woman in the Bikini",
+            "personaggio": "Donna in Bikini",
             "foto_url": "https://image.tmdb.org/t/p/w185/bGARJo81aeNF3MGZ2UFkVgi5VLc.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -11720,7 +12038,15 @@
         "trama": "Branchi di squali diabolicamente astuti e feroci seminano morte e terrore nella baia africana di Port Amanzi. Il biologo marino McKray, recatosi sul posto per indagare su quello che sembra a prima vista un fenomeno inspiegabile, scopre, con la collaborazione di Corinne, sorella di un suo amico massacrato in mare, che all'origine della inconsueta aggressività degli animali c'è una potente lobby farmaceutica. Un gruppo di scienziati ha iniziato, infatti, una scellerata sperimentazione genetica per ricavare dalle cellule cerebrali degli squali un farmaco che dovrebbe segnare un decisivo passo in avanti nella lotta contro il cancro e, soprattutto, assicurare ingenti guadagni.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/g3xlaPOkt1vFkJqxA32LnudEqrG.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=WE86jagCuLU",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'Shark Attack 2 - Official Trailer' (129s)"
+        },
         "tmdb_id_scelto": 42185
       }
     },
@@ -11834,7 +12160,15 @@
         "trama": "Il film porta i protagonisti in un altro universo, in cui si ritrovano in una città chiusa dentro una gabbia per uccelli. Questa città, basata su un sistema di acquedotti molto complesso, è governata da un re tiranno, che è lo zio della principessa Tomoyo. Suo zio, grazie a speciali poteri che gli sono stati donati da una piuma di Sakura, riuscì a renderla, e finì per fuggire e rifugiarsi un in piccolo villaggio ad ovest della città. Come nota Kurogane, Tomoyo non è la stessa principessa del regno del Giappone, ma una ragazza di quel mondo. Quando i piani del re furono quasi completati, finì per rapire Tomoyo e usare i suoi poteri per oscurare la gabbia intorno a città, e impedire alla luce di filtrare. Shaoran riuscì a sconfiggere il re, che non era altro che un uccello, il quale grazie ai poteri della piuma, aveva preso le sembianze dello zio di Tomoyo. Per distruggere la gabbia alla città, chiamò Yūko, la strega dimensionale, tramite Mokona.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/n7wBPs4N8HH7L6r2XDY6QgwwQQh.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=__Rc--dx-m0",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'Banana joe trailer ita' (200s)"
+        },
         "tmdb_id_scelto": 42180
       }
     }
