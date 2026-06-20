@@ -7598,7 +7598,7 @@
           },
           {
             "nome": "Maria Cumani Quasimodo",
-            "personaggio": "Mrs. Gonzaga",
+            "personaggio": "Signora Gonzaga",
             "foto_url": "https://image.tmdb.org/t/p/w185/cgJUNwSCXzSSRc51MTPK8XYf3Qa.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -7843,7 +7843,7 @@
           },
           {
             "nome": "Anna Mazzamauro",
-            "personaggio": "Mrs. Silvani",
+            "personaggio": "Signora Silvani",
             "foto_url": "https://image.tmdb.org/t/p/w185/rZJa0U2kKs7ayeIWbtlC7zo9euE.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -8047,7 +8047,7 @@
           },
           {
             "nome": "Giovanni Cacioppo",
-            "personaggio": "Husband of the woman in labour",
+            "personaggio": "Marito della donna in travaglio",
             "foto_url": "https://image.tmdb.org/t/p/w185/7O3cu8oKmeDEOirXe66REDluij4.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -8313,7 +8313,7 @@
           },
           {
             "nome": "Francesca Reggiani",
-            "personaggio": "Mrs. Morandi",
+            "personaggio": "Signora Morandi",
             "foto_url": "https://image.tmdb.org/t/p/w185/yjkupdiiZ0e5hLgApIIwLQ6Z2a2.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -9324,7 +9324,15 @@
         "trama": "Il falegname Geppetto si costruisce un burattino di legno, a cui dà il nome di Pinocchio. La Fata Turchina, sua protettrice lo trasforma subito in un bambino in carne ed ossa, facendosi promettere che sarà un bambino \"per bene\", ubbidiente e studioso, bastone della vecchiaia del suo genitore. Siccome il bambino, che ha conservato il carattere vivace e ribelle del burattino, ne combina di tutti i colori, la Fata lo fa tornare di legno per punirlo. Le trasformazioni si succederanno più volte e, una volta, Pinocchio diverrà persino somaro. La vicenda termina un poco prima del libro, cioè quando Geppetto e Pinocchio escono dal ventre della Balena: quasi un ritorno alla vita, una presa definitiva di contatto con la realtà.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/9D02hsrYot66bUyaVDBo1bzj3lM.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=qWsiQ2C4qfI",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'Le avventure di Pinocchio (serie tv 1972) TRAILER ' (135s)"
+        },
         "tmdb_id_scelto": 58451
       }
     },
@@ -10088,7 +10096,15 @@
         "trama": "Dalla Creazione all Giudea del tempo di Gesù Cristo, dai tornei medievali alle crociate, dal secolo di Robin Hood alla rivoluzione francese, e poi ancora alla breccia di Porta Pia e alla Prima guerra mondiale, per finire con una partita di calcio tra Italia e Scozia, Fantozzi è volta a volta tremebondo e nudo Adamo, goffo cavaliere, sanculotto rissoso, sfortunato aviatore e tifoso accanito. E' sempre lui il perdente contro il destino cinico e baro: fino a tentare una volta di più la sorte, con Pina, la querula moglie ed una orrenda ragazzina, nell'epoca del tecnologico e del fantascientifico.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/rS6SZB9cIlVT6mxSGH9ZyEuLhhP.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=lcZ65REId0Q",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'Super Fantozzi (1986) Italian Trailer' (127s)"
+        },
         "tmdb_id_scelto": 44268
       }
     },
@@ -10697,7 +10713,15 @@
         "trama": "Cacciato di casa dalla figlia sposata, Fantozzi scopre di avere una settimana di vita. La fedele moglie Pina gli organizza una notte d'amore con la donna dei suoi sogni, la Silvani. Appurato che si trattava di una diagnosi sbagliata, colto da infarto per la gioia, Fantozzi muore, ma in paradiso trova un Buddha che lo condanna a reincarnarsi.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/mcwJGvwToICufgjjXAGcVwmYVtd.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=GznHEnAlPJE",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'Fantozzi in paradiso trailer' (202s)"
+        },
         "tmdb_id_scelto": 41665
       }
     },
@@ -11569,7 +11593,7 @@
           },
           {
             "nome": "Salvatore Aiesi",
-            "personaggio": "1st Man with the Elephants",
+            "personaggio": "Il Primo Uomo con gli Elefanti",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
@@ -11923,7 +11947,15 @@
         "trama": "Due episodi: nel primo un commerciante è convinto di essere vittima del vicino, che crede uno iettatore potentissimo. Si risolverà tutto per il meglio quando interverrà anche un mago. Nel secondo episodio un ciarlatano acquista reali poteri magici grazie a una vecchia fattucchiera. Ma, quando questa morirà, il guitto perderà tutti poteri acquisiti.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/hSixouCxKXgIlIVGubXFEHq73rz.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=8CrF4nv6TY0",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'Trailer (IT): Occhio, Malocchio, Prezzemolo E Fino' (201s)"
+        },
         "tmdb_id_scelto": 55493
       }
     },
@@ -12069,7 +12101,15 @@
         "trama": "Il film è diviso in tre episodi, il cui filo conduttore è un'automobile a noleggio che, nel giro di tre giorni, è usata da tre clienti diversi: Carlo, commesso in un negozio di calzature che scrocca un passaggio in Costa Smeralda spacciandosi per il figlio di un noto industriale; Roberto, noto seduttore del veronese ed impiegato in un'azienda dolciaria che cerca di sedurre e portarsi a letto la bellissima moglie del suo capo; Carlo, tifoso milanista in trasferta a Roma che, suo malgrado, si troverà costretto a dividere la macchina proprio con due ultras romanisti.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/wRI6pxyvy9vfvW3WvrEnxF8Y8y9.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=vKEV2UdOFkQ",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'FRATELLI D'ITALIA (1989) Christian De Sica - Trail' (232s)"
+        },
         "tmdb_id_scelto": 38525
       }
     },
@@ -12517,7 +12557,15 @@
         "trama": "Due stralunati individui usciti da un grande manifesto, dapprima sono infermieri su di una autoambulanza impazzita, poi in divisa da metronotte, danno la caccia ad un ladro penetrato in un grande magazzino, quindi diventano l'uno pilota e l'altro hostess su di un aerotaxi, creando molti guai e precipitando in piena Africa su un fortino di legionari. Qui arruolati i due sono inviati in missione in un campo di indigeni a far danni, per finire nei panni di Babbo Natale nella casa di un giudice, dove una festa infantile si trasforma in catastrofe. Al termine delle avventure, la bizzarra coppia rientra nel manifesto, annunciando ai passanti che le loro avventure non sono finite.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/fIhoGGxL8flbYQPTt7F1xeSxEKh.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=rz8qz8tiPIo",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'LE COMICHE 2 (1991) Trailer Cinematografico' (87s)"
+        },
         "tmdb_id_scelto": 43648
       }
     },
@@ -12819,7 +12867,15 @@
         "trama": "Un ex giocatore professionista di football americano, soprannominato Bulldozer, ritiratosi dopo aver scoperto imbrogli nel mondo dello sport, è costretto a fermarsi nel porto di Livorno per un danno al motore della sua barca. Qui, i militari della vicina base USA di Camp Darby fanno i prepotenti con i ragazzotti del paese, i quali stanno organizzando una squadra di football.Scoperta l'identità di Bulldozer i ragazzi lo convincono ad allenarli, anche perché il pezzo di ricambio per il motore della barca è di proprietà del comando USA ed il comandante, capitano della squadra di football, vuole vendicarsi di Bulldozer che anni addietro gli ha fatto perdere tutti i risparmi che aveva scommesso su una partita, proprio quella che Bulldozer non giocò a causa del suo ritiro.Nonostante le difficoltà, nella partita finale i ragazzi riescono a segnare l'unico punto che gli avrebbe dato la vittoria, non senza l'aiuto determinante di Bulldozer.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/lXhu9uT6j7HvdyAiPcah7VZCS6w.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=gZzr4m8BKd8",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 11144
       }
     },
@@ -12967,7 +13023,15 @@
         "trama": "A Newnan, una cittadina della Georgia, il massiccio sceriffo Scott Hall non crede ai dischi volanti che tutti vedono nei cieli. Così, quando trova un bambino che dice di chiamarsi H7-25 e sostiene di venire dallo spazio non gli crede, ma dopo che questi dimostra poteri non umani comincia a nutrire seri dubbi. Quando poi un comandante di una base militare rapisce due volte il bambino per impossessarsi della sua favolosa arma che comanda a piacimento gli oggetti e le persone, il buon sceriffo interviene per salvarlo a suon di scazzottate.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/bUS6nqwU4uIz4pUfCxTh4kqOG3f.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=fRqCur5l_cc",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 10770
       }
     },
@@ -13068,7 +13132,7 @@
           },
           {
             "nome": "Giancarlo Bastianoni",
-            "personaggio": "One of the Brother's Dynamite / Masked Hooligan / Alien",
+            "personaggio": "Uno dei Fratelli Dinamite / Hooligan Mascherato / Alieno",
             "foto_url": "https://image.tmdb.org/t/p/w185/6Mni0r1tgkSxnkVJHjqCtBvMN0G.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -13101,7 +13165,7 @@
           },
           {
             "nome": "Paolo Figlia",
-            "personaggio": "One of the Brother's Dynamite",
+            "personaggio": "Uno dei Fratelli Dinamite",
             "foto_url": "https://image.tmdb.org/t/p/w185/5LmwVfdZLZQvFLzSMm0SQQHFJ1g.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -13114,7 +13178,15 @@
         "trama": "Il colossale sceriffo ed il suo piccolo aiutante alieno H725 incontrano un gruppo di extraterrestri che intendono colonizzare la Terra dopo essersi mimetizzati da scienziati all'interno di una base segreta dell'esercito.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/hclKvqW4HXN0yQC3bWCoqygxgJr.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=8Uz48rJvAAs",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 11039
       }
     },
@@ -13731,7 +13803,15 @@
         "trama": "Dave Speed (Terence Hill) è un agente di polizia in una cittadina americana. A causa dell'esposizione accidentale alle radiazioni provocate dall'esplosione di un missile acquista dei superpoteri come spostare gli oggetti col pensiero o prevedere i fatti che stanno per accadere, oltre all'indistruttibilità fisica. Tali superpoteri svaniscono però se guarda un qualsiasi oggetto di colore rosso. Tra lo scetticismo del collega più anziano e la diffidenza della fidanzata, non felicissima del cambiamento, cercherà di sgominare una banda di falsari.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/fe27W5Io1BQzjEQ7EZImJRjOzdG.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=bNruMmoqdO8",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 11333
       }
     },
