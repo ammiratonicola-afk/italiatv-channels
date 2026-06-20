@@ -285,7 +285,15 @@
         "trama": "Benché siano ormai prossimi al matrimonio, per Biancaneve e il suo principe azzurro i guai non sono ancora finiti. Ora devono infatti fare i conti con Lord Malizia, fratello della Strega Cattiva, che si assegna il compito di proseguire nell'opera di persecuzione della povera fanciulla. Ecco allora che Biancaneve deve di nuovo nascondersi nella foresta dove questa volta trova l'aiuto di sette nanette. Una di queste, particolarmente versata nel combinare guai, sarà determinante per neutralizzare la nuova minaccia.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/fLJmnrstYApVuSIIV2n2d06JwtJ.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=OpHV7bGbzoI",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'Shrek 4 Official Trailer Italiano E vissero felici' (147s)"
+        },
         "tmdb_id_scelto": 44283
       }
     },
@@ -434,7 +442,15 @@
         "trama": "Il cagnolino Bobo in un pomeriggio di pioggia viene abbandonato sull'autostrada dal suo padrone. Per fortuna il cucciolo incontra sei simpatici coniglietti e, superata la diffidenza iniziale, entra a far parte di una nuova famiglia.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/3gw6Nuf5CsiZBI0syt2PqKsFOko.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=wsln-tf_DS8",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 41097
       }
     },
@@ -581,7 +597,15 @@
         "trama": "Dalla fiaba originale di H.C. Andersen.  Tanto tempo fa, un principe voleva sposare una principessa, ma prima di farlo voleva essere certo che avesse davvero il sangue blu, che fosse una vera principessa. Solo una cosa può dimostrarlo, qualcosa che distingue una vera principessa da una fanciulla qualunque...",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/26ySDoMdYeTzowVEJFObuWbqosX.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=Mcbo3pgd8d8",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 14492
       }
     },
@@ -728,7 +752,15 @@
         "trama": "Nel villaggio di Babbo Natale nasce una piccola renna chiamata Rudolph dai suoi genitori, Lampo e Mitzi; il cucciolo ha un particolare naso rosso e lucente, simile a una lampadina, causa di insulti e di emarginamento da parte delle altre renne. Rudolph dovrà misurarsi con Freccia, suo cugino, che cerca di rompere la sua storia d'amore con Zaira e con la perfida Signora del Ghiaccio, Tormentilla, che, con i suoi poteri magici, stringe il villaggio del Polo Nord in una morsa di gelo per impedire a Babbo Natale di consegnare i regali. Rudolph riuscirà a sconfiggere Tormentilla con i suoi amici e verrà premiato per il suo coraggio entrando a far parte della squadra principale delle renne di Babbo Natale.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/uFxGrCCqtt3i9l8HV3GDFuHwL3j.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=67TPwx6c2_M",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 33719
       }
     },
@@ -1153,7 +1185,15 @@
         "trama": "Nella sua prima parte, il film non segue una fabula specifica; segue piuttosto un intreccio delle vicende dei vari personaggi. Infatti, il film inizia dopo la trasformazione di Pinocchio in bambino. Geppetto, nella sua falegnameria, ricorda quando Pinocchio era ancora di legno ...",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/89w7HubAPprlgzTADfRinO5cpWz.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=b5es5BwCor0",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'bentornato pinocchio trailerFilm.mp4' (106s)"
+        },
         "tmdb_id_scelto": 300032
       }
     },
@@ -1457,7 +1497,15 @@
         "trama": "Babar è un giovane elefante nella grande foresta. Mentre è fuori con sua madre, un cacciatore uccide sua madre e lui fugge per scampare alla stessa sorte. Alla fine si ritrova in una città umana e vive le molte differenze tra la vita in città e quella nella foresta. Trattato come un estraneo, viene accolto da una donna anziana, vestita con abiti eleganti, che gli insegna a scrivere e contare e lo cresce nella cultura umana.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/srD54CdOctl9WWQHgmeWyRU7C0l.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=NkWSffIP3gE",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'Babar: King of the Elephants Trailer' (35s)"
+        },
         "tmdb_id_scelto": 18068
       }
     },
@@ -1604,7 +1652,15 @@
         "trama": "Un magico e lontano reame, il regno Riflesso. Un nobile sovrano, Re Leopoldo, che a causa di un malvagio incantesimo è così barbuto da invadere tutto il regno con la sua barba. Tanti sudditi fedeli che, imitando il Re, lasciano crescere barba e capelli. Un barbiere senza speranze: Riccardo, appena giunto in città in cerca di lavoro. Un destino quello dello sfortunato barbiere, che verrà travolto dalla fortuna quando, una notte, entrato a palazzo per tagliare la barba al Re durante il sonno, vivrà la più grande delle avventure.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/raGjmMygerfFhpjv07PlPMVfux6.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=wWRVvvoGnYA",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'The King's Beard (2002) Trailer' (152s)"
+        },
         "tmdb_id_scelto": 220154
       }
     },
@@ -1754,7 +1810,15 @@
         "trama": "Un asino maltrattato, un segugio inglese sfortunato, una gatta triste e sola e un gallo ruspante \"incompreso\" decidono di formare insieme una banda musica per recaesi a Parigi. Ma (a causa di una svista) finiscono nella città di Brema. Nonostante questo, il successo e la fama arrivano inaspettati e i nostri quattro musicanti diventano star musicali di una potente multinazionale. Ben presto scopriranno però che il loro sponsor altro non è che un malvagio e viscido codardo chiamato Dr.Greed, che vuole sfruttare il successo dei quattro animali per poter allargare il suo corrotto impero commerciale e candidarsi presidente. Ed ecco che le nostre superstar si trasformano in supereroi che riusciranno, non senza combinar guai, a smascherare il malvagio impresario durante un grande concerto in diretta TV.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/5fzqW1J7bzjMXCIBO9gE49Ujudr.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=cj1SbBzYS7g",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'Die furchtlosen Vier - Trailer (1997)' (153s)"
+        },
         "tmdb_id_scelto": 78694
       }
     },
@@ -2344,7 +2408,15 @@
         "trama": "Nel Castello dei Sogni, i minipony festeggiano l'arrivo della primavera. Ma le streghe del Vulcano della Malinconia decidono di distruggere la Valle della Felicità, scatenando lo Smooze, una mostruosa creatura di lava purpurea. Stella Magica, Ombretta, Gustavo e i Batuffoli si accorgono del pericolo ed avvertono gli altri. Schizzo e Stella Polare decidono di andare alla ricerca dell'Arcobaleno di Luce, che essi avevano affidato a Megan nella precedente avventura. Megan e i suoi fratellini Danny e Molly insistono per venire con loro al Castello degli Sogni; ma quando arrivano, il castello è stato sepolto dallo Smooze. Essi vanno allora dal saggio Moochick, che inizia a disegnargli una nuova casa e li dirige alla Valle dei Pony Svolazzanti (Flutter Ponies), gli unici che potranno fermare lo Smooze. Alla fine, le streghe vengono sconfitte, ma il Castello dei Sogni è definitivamente distrutto. Il Moochick, però, crea una nuova casa per i minipony: la Villa del Paradiso.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/rB0nNtMedX30xiymlGxArmh2BQL.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=oAwjSbIEalo",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 25400
       }
     },
@@ -2650,7 +2722,15 @@
         "trama": "Zio Paperone, insieme a Qui, Quo, Qua e Jack McQuack, trova il leggendario tesoro di Collie Baba, nel quale è presente anche una lampada che risveglierà un simpatico genio. Lo stregone Merlock, però, è in agguato...",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/9TBleoQaVju8q1vhIZjlVzSPvni.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=lcpCapjKT9I",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 10837
       }
     },
@@ -2718,7 +2798,15 @@
         "trama": "Il Riddles Magico è un film d'animazione australiano del 1991, diretto e scritto da Yoram Gross. La trama del film presenta elementi di famose fiabe, tra cui Cenerentola, Biancaneve e i sette nani, Cappuccetto Rosso e Pinocchio. Robyn Moore presta la voce a Cindy e ad altri vari personaggi.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/q0kHJ1dg1GDVO6pOZHWNlJpIVQ8.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=ji4gBe9zBLE",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'The Magic Riddle / Вълшебната приказка (1991) trai' (234s)"
+        },
         "tmdb_id_scelto": 144007
       }
     },
@@ -3334,7 +3422,15 @@
         "trama": "Ambientato lunghe le rive di un fiume, questo cartone animato narra la storia di un gruppo di animali del bosco che con l'arrivo della primavera escono allo scoperto e intessono nuove amicizie. Una banda di personaggi travolgenti che ne combina di tutti i colori. Il più scapicollato di tutti è Tod il rospo che scopre una passione irrefrenabile per le automobili che, naturalmente, non sa guidare. Saranno sempre i suoi amici che lo tireranno fuori dai guai fra avventure e colpi di scena...",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/aeULJxBLJvsFm2dNHAWNMSbykzb.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=v75ncrfTK2Y",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'The Wind In The Willows | Official Trailer | Natio' (131s)"
+        },
         "tmdb_id_scelto": 59178
       }
     },
@@ -3480,7 +3576,15 @@
         "trama": "Dopo essere stato separato dalla sua amica Sophie, Felix intraprende un viaggio pieno di creature mistiche in questo film d'animazione di alta qualità per i vostri bambini e la vostra famiglia.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/xemfMSmB5iLxrizZ4aqT8ZOQehu.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=erVaMNwpHKA",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'Felix - Ein Hase auf Weltreise (Trailer)' (91s)"
+        },
         "tmdb_id_scelto": 172625
       }
     },
@@ -3670,7 +3774,15 @@
         "trama": "La Bibbia prende vita in questa deliziosa serie animata. I video di questa serie raccontano la storia degli ebrei da Giuseppe a Mosè e ai Dieci Comandamenti in un cofanetto di quattro dischi. I dischi video sono i seguenti: Disco 1 - Giuseppe e i suoi Fratelli, Disco 2 - Mosè: Principe d'Egitto, Disco 3 - Mosè: L'uscita dall'Egitto e Disco 4 - Mosè e i Dieci Comandamenti.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/4FGoiICr86gU0O10rWXh3umlQkG.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=KBzbyIPWVT4",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'THE TEN COMMANDMENTS | Official Trailer | Paramoun' (102s)"
+        },
         "tmdb_id_scelto": 573578
       }
     },
@@ -3817,7 +3929,15 @@
         "trama": "Kibosh, capo supremo, decide che Casper debba spaventare almeno una persona prima di Natale. Il fantasmino decide quindi di recarsi a Kriss, nel Massachusetts, per far visita alla famiglia Jollimore per completare la sua missione. Ma per lui, che ha un animo gentile, non sarà impresa facile.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/nxxyZQFBAX6Q7leiCJgXmdnxneh.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=xHU8LOzoovI",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 5833
       }
     },
@@ -3965,7 +4085,15 @@
         "trama": "Nel 1492 l'esploratore italiano Cristoforo Colombo compie assieme al tarlo parlante Piky un viaggio per mare con l'intento di circumnavigare il globo dimostrando che la Terra è rotonda. Arriveranno poi in America, dove cercheranno di salvare la principessa delle fate Marilyn dalle grinfie del Signore dello sciame.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/nJSTfotdoVQZGyrj2bLSLG3K3Se.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=FkNj03rRHfE",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'IL VIAGGIO FANTASTICO DI SINBAD (Gordon Hessler, 1' (116s)"
+        },
         "tmdb_id_scelto": 110812
       }
     },
@@ -4112,7 +4240,15 @@
         "trama": "È il primo Halloween di Effy insieme a Ro, Winnie the Pooh e i loro amici nel Bosco dei Cento Acri. Gli amici discutono i loro piani per Halloween e per la prima notte di Effy di \"dolcetto o scherzetto\".",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/4wb7EmJqFQ0TtHNxE6tkRJReE4X.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=9cl837RNQ6U",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'Pooh’s Heffalump Halloween: The Movie Trailer (200' (79s)"
+        },
         "tmdb_id_scelto": 14885
       }
     },
@@ -4258,7 +4394,15 @@
         "trama": "L'idilliaca Egg Town è il luogo in cui si svolge The Easter Egg Adventure, che vede la bellissima località minacciata da alcuni malvagi ladri. Fuggendo con la collezione di uova di Pasqua che la città è riuscita a raccogliere, spetta ad alcuni coraggiosi abitanti recuperarle dai malfattori. Una storia per bambini meravigliosamente commovente, The Easter Egg Adventure è un racconto stagionale che scalda il cuore.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/d7mchnlVhDa1NTHQPsrJrrQ9Jz1.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=BHaLyOs1zqE",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'The Easter Egg Adventure (2004) - Trailer' (79s)"
+        },
         "tmdb_id_scelto": 59923
       }
     },
@@ -4405,7 +4549,15 @@
         "trama": "Gerda e Kai sono due bambini, vicini di casa ed amici per la pelle; però, durante una tempesta di neve, il piccolo Kai viene colpito da una scheggia di ghiaccio che porta in sé una maledizione. Il maleficio, opera della leggendaria e maligna Regina delle nevi, gela il cuore di Kai, rendendolo a tratti cattivo ed insensibile; a peggiorare la situazione, la Regina rapisce il bambino e lo conduce nel suo irraggiungibile palazzo di ghiaccio. Gerda, convinta di poter salvare il suo amichetto, decide di partire per raggiungerlo, pur sapendo che più passa il tempo e più la maledizione si impadronirà di Kai. Ma il viaggio è lungo e tortuoso; per poter arrivare fino alla dimora della Regina, Gerda è costretta a vagare tra luoghi impervi e inospitali, arrivando ad affrontare un ostacolo dietro l'altro, riuscendo però, grazie alla sua forza di volontà e all'aiuto di altre persone, a raggiungere il palazzo di ghiaccio.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/H4PoN4P2wIV7L0myCPmMcZKCU0.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=brehkGE_jzE",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 72214
       }
     },
@@ -4687,7 +4839,15 @@
         "trama": "Felix si reca in visita al museo, dove scopre una macchina del tempo virtuale e insieme a due esibizioni viventi del museo - il piccolo mammut Woolly e la tartaruga Gertrude - vengono trasportati indietro nel tempo all'Età della Pietra. Cercano di tornare a casa, nel presente, e invece i tre personaggi si ritrovano catapultati nell'Antico Egitto. Insieme, dovranno sopravvivere a tante avventure emozionanti, attraverso le pericolose epoche dei Vichinghi, degli Indiani, della bellissima Regina Nefertiti e dei cavalieri medievali, prima di riuscire finalmente a tornare nel presente.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/yL65qIlDX3f6CUTEl1Fv5epiPp.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=XTDjzytqO7E",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'Felix 2 - Der Hase und die verflixte Zeitmaschine ' (97s)"
+        },
         "tmdb_id_scelto": 168875
       }
     },
@@ -4833,7 +4993,15 @@
         "trama": "Una strega malvagia ha bisogno di Jacob, il buon figlio del calzolaio, per portare a compimento i suoi sinistri piani. Quando Jacob rifiuta, la strega gli strappa sette anni di vita e lo trasforma in un nano deforme. Jacob e la principessa uniscono le forze per ritornare alle loro famiglie e fermare il malefico piano della strega. Ci riusciranno?",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/fOru3aBK4M4LPixEQGGfYcYBJoG.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=dgVoSsCfZbQ",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 51349
       }
     },
@@ -5285,7 +5453,15 @@
         "trama": "Goblin, elfi, fate e folletti, danno vita con le loro esilaranti disavventure, scatenate dalla battaglia per una potente porzione, a una folle fiaba ispirata a Sogno di una notte di mezza estate e accompagnata dalle canzoni più famose degli ultimi sessant'anni.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/vjCdrK8gGRFnyuZb1j9BzgN2RaY.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=YSrJiaZnPuU",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 302429
       }
     },
@@ -5778,7 +5954,15 @@
         "trama": "Bobo e i suoi amichetti hanno appena scoperto che una terribile minaccia incombe su di loro: alcuni cacciatori abusivi stanno cercando di invadere la foresta e hanno gia' catturato il saggio gufo e' arrivato il momento di esprimere tutto il coraggio, l'altruismo e la forza di cui vanno tanto fieri. Ogni individuo e' speciale per le capacita' uniche che ha e per il contributo che puo' dare alla risoluzione dei problemi, ma solo uno splendido lavoro di squadra permettera' ai nostri amici di affrontare il loro nemico.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/4Mn4b938Ob8ZiETIOTBzOapQF9z.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=507-xLZ-OPQ",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 164563
       }
     },
@@ -6832,7 +7016,15 @@
         "trama": "Al Polo Sud vivono, come è noto, i pinguini. Anzi, il Polo Sud è la patria dei pinguini. E tra loro c'è un'antica tradizione secondo la quale in un determinato giorno dell'anno ogni pinguino deve regalare alla pinguina di cui è innamorato una pietra. La pinguina, a sua volta, deciderà se assecondare o meno la corte del compagno a seconda del colore della pietra regalata. Il giorno stabilito per la consumazione del rito si avvicina sempre più, e il giovane Hubie ha bene in mente la pinguina alla quale vorrebbe far arrivare il suo dono. Il problema è un'altro: Hubie non ha ancora trovato la pietra con la quale essere sicuro del fatidico \"sì\".",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/izixxVcSGTT1RtGMU5EjJMqphS9.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=OPGRkDfw2mk",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 54648
       }
     },
@@ -7045,7 +7237,15 @@
         "trama": "Il romanzo è un'allegoria del totalitarismo sovietico del periodo staliniano. È ambientato in una fattoria dove gli animali, stanchi dello sfruttamento dell'uomo, si ribellano. Dopo aver cacciato il padrone, gli animali decidono di dividere il risultato del loro lavoro seguendo il principio marxista «da ognuno secondo le proprie capacità, a ognuno secondo i propri bisogni». Il loro sogno utopico[1] verrà poi gettato al vento perché i maiali si impossesseranno della fattoria. Questi, che erano stati gli ideatori della \"rivoluzione\", prendono il controllo della fattoria, diventando sempre più simili all'uomo, finché persino il loro aspetto diventerà antropomorfo. La satira verso gli ideali utopici della Rivoluzione russa è resa ancora più diretta dal fatto che ogni evento ed ogni personaggio descritti nel romanzo rappresentano l'allegoria di un preciso evento o personaggio della realtà storica.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/zcyaKVv9t52LLsmaAubBjDbt92i.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=YGCo5Tva39s",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 11848
       }
     },
