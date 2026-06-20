@@ -45,6 +45,14 @@
   #status.ok { display:block; background:rgba(27,142,92,.2); border:1px solid var(--ok); }
   #status.err { display:block; background:rgba(142,27,27,.2); border:1px solid var(--err); }
   .count { font-size:13px; color:var(--muted); }
+  /* catalogo per genere */
+  .gsec { margin-top:18px; }
+  .gsec h3 { font-size:15px; margin:0 0 10px; color:var(--accent); border-bottom:1px solid #2a2a45; padding-bottom:6px; }
+  .gsec h3 span { color:var(--muted); font-weight:400; font-size:13px; }
+  .gcat { display:grid; grid-template-columns:repeat(auto-fill,minmax(92px,1fr)); gap:8px; }
+  .gfilm { background:var(--card2); border-radius:8px; overflow:hidden; }
+  .gfilm img { width:100%; aspect-ratio:2/3; object-fit:cover; background:#000; display:block; }
+  .gfilm .gt { font-size:10px; padding:4px 4px 6px; line-height:1.25; height:34px; overflow:hidden; }
 </style>
 </head>
 <body>
@@ -106,6 +114,16 @@
   <div class="card">
     <h2>3 · Film manuali (<span id="n">0</span>)</h2>
     <div id="list"></div>
+  </div>
+
+  <div class="card">
+    <h2>4 · Catalogo completo per genere</h2>
+    <div class="actions">
+      <button class="sec" id="catBtn" onclick="showCatalog()">📚 Mostra tutto il catalogo</button>
+      <input id="catSearch" placeholder="Filtra per titolo…" style="max-width:240px;display:none" oninput="renderCatalog()">
+      <span class="help" id="catInfo" style="margin:0"></span>
+    </div>
+    <div id="catalog"></div>
   </div>
 
   <div class="card">
@@ -259,6 +277,44 @@ async function save(){
     else { const e=await res.json(); status("Errore GitHub: "+(e.message||res.status),false); }
   }catch(e){ status("Errore: "+e.message,false); }
   $("saveBtn").disabled=false;
+}
+
+// ── Catalogo completo per genere (catalogo + manuali, sola lettura) ────────
+const CAT_RAW=`https://raw.githubusercontent.com/${OWNER}/${REPO}/main/movies_metadata.json`;
+const GENRE_ORDER=[["","In evidenza"],["azione","Azione"],["commedia","Commedia"],["thriller","Thriller"],
+  ["horror","Horror"],["romantico","Romantico"],["drammatico","Drammatico"],["fantascienza","Fantascienza"],
+  ["animazione","Animazione"],["documentario","Documentari"]];
+let catalogAll=null;
+async function showCatalog(){
+  if(catalogAll){ $("catalog").innerHTML=""; catalogAll=null; $("catBtn").textContent="📚 Mostra tutto il catalogo";
+    $("catSearch").style.display="none"; $("catInfo").textContent=""; return; }
+  $("catBtn").disabled=true; $("catInfo").textContent="Carico il catalogo…";
+  try{
+    const [cat,man]=await Promise.all([
+      fetch(CAT_RAW+"?t="+Date.now()).then(r=>r.json()),
+      fetch(RAW+"?t="+Date.now()).then(r=>r.json())]);
+    catalogAll=[...(cat.movies||[]), ...(man.movies||[])].filter(m=>m.is_movie!==false);
+    $("catBtn").textContent="✖ Nascondi catalogo"; $("catSearch").style.display="block";
+    renderCatalog();
+  }catch(e){ $("catInfo").textContent="Errore: "+e.message; }
+  $("catBtn").disabled=false;
+}
+function renderCatalog(){
+  if(!catalogAll) return;
+  const q=($("catSearch").value||"").toLowerCase().trim();
+  const C=$("catalog"); C.innerHTML=""; let shown=0;
+  GENRE_ORDER.forEach(([key,label])=>{
+    let films=catalogAll.filter(m=>(m.genre||"")===key);
+    if(q) films=films.filter(m=>title(m).toLowerCase().includes(q));
+    if(films.length===0) return;
+    films.sort((a,b)=>title(a).localeCompare(title(b)));
+    shown+=films.length;
+    const sec=document.createElement("div"); sec.className="gsec";
+    let html=`<h3>${label} <span>(${films.length})</span></h3><div class="gcat">`;
+    films.forEach(m=>{ html+=`<div class="gfilm"><img loading="lazy" src="${poster(m)}" onerror="this.style.visibility='hidden'"><div class="gt">${title(m)}</div></div>`; });
+    html+="</div>"; sec.innerHTML=html; C.appendChild(sec);
+  });
+  $("catInfo").textContent=`${shown} film`+(q?` (filtro "${q}")`:"");
 }
 
 $("token").value=localStorage.getItem("gh_token")||"";
