@@ -2628,18 +2628,6 @@
       }
     },
     {
-      "video_id": "sfPoJGBCVys",
-      "is_movie": true,
-      "channel": "Animazione",
-      "manual_include": true,
-      "genre": "animazione",
-      "original_title": "Vola Mio Mini Pony",
-      "tmdb_title_official": "Vola Mio Mini Pony",
-      "tmdb_year_official": 1986,
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
-    },
-    {
       "video_id": "2q7kesxmsAc",
       "is_movie": true,
       "channel": "Animazione",
@@ -3295,17 +3283,31 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
+      "original_title": "Mos? e i Dieci Comandamenti",
       "genre": "animazione",
-      "original_title": "Mose e i Dieci Comandamenti",
-      "tmdb_title_official": "Mose e i Dieci Comandamenti",
+      "tmdb_id": 573578,
+      "tmdb_title_official": "Mos? e i Dieci Comandamenti",
       "tmdb_year_official": 2007,
-      "tmdb_id": 332221,
-      "tmdb_confidence": "no_match",
+      "tmdb_poster_path": "/4FGoiICr86gU0O10rWXh3umlQkG.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 573578",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 332221,
-        "titolo_italiano": "Mose e i Dieci Comandamenti"
+        "titolo_italiano": "Mos? e i Dieci Comandamenti",
+        "titolo_originale": "The Old Testament Bible Stories for Children - Moses and the Ten Commandments",
+        "anno_uscita": 2007,
+        "durata_minuti": 330,
+        "genere": [
+          "Animazione"
+        ],
+        "regista": [],
+        "cast_principale": [],
+        "trama": "The Bible comes alive in this delightful animated series. The videos in this series tell the story of the Jews from Joseph through to Moses and the Ten Commandments in a four disc video set . The video discs are as follows; Disc 1 - Joseph & His Brothers, Disc 2 - Moses: Prince of Egypt, Disc 3 - Moses: The Exodus & Dis 4 - Moses & the 10 Commandments",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/4FGoiICr86gU0O10rWXh3umlQkG.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 573578
       }
     },
     {
