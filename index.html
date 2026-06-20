@@ -157,26 +157,35 @@ async function doSearch(){
   const t=$("title").value.trim(), y=$("year").value.trim();
   if(!ytId($("yt").value)){ status("Inserisci prima un link/ID YouTube valido.",false); return; }
   if(!t){ status("Inserisci un titolo da cercare.",false); return; }
-  status("Cerco su TMDB…",true); selected=null; $("addRow").style.display="none";
+  status("Cerco su TMDB (film + serie TV)…",true); selected=null; $("addRow").style.display="none";
   try{
-    let url=`${TMDB}/search/movie?api_key=${TKEY}&language=it-IT&query=${encodeURIComponent(t)}`;
-    if(y) url+=`&year=${y}`;
-    let res=(await fetch(url).then(r=>r.json())).results||[];
+    const q=encodeURIComponent(t);
+    const norm=(arr,type)=>(arr||[]).map(r=>({_type:type, id:r.id, poster_path:r.poster_path,
+      title:(r.title||r.name||""), year:((r.release_date||r.first_air_date||"").slice(0,4))}));
+    const mUrl=`${TMDB}/search/movie?api_key=${TKEY}&language=it-IT&query=${q}`+(y?`&year=${y}`:"");
+    const tUrl=`${TMDB}/search/tv?api_key=${TKEY}&language=it-IT&query=${q}`+(y?`&first_air_date_year=${y}`:"");
+    let [mv,tv]=await Promise.all([fetch(mUrl).then(r=>r.json()),fetch(tUrl).then(r=>r.json())]);
+    let res=[...norm(mv.results,"movie"), ...norm(tv.results,"tv")];
     if(res.length===0 && y){ // riprova senza anno
-      res=(await fetch(`${TMDB}/search/movie?api_key=${TKEY}&language=it-IT&query=${encodeURIComponent(t)}`).then(r=>r.json())).results||[];
+      const [m2,t2]=await Promise.all([
+        fetch(`${TMDB}/search/movie?api_key=${TKEY}&language=it-IT&query=${q}`).then(r=>r.json()),
+        fetch(`${TMDB}/search/tv?api_key=${TKEY}&language=it-IT&query=${q}`).then(r=>r.json())]);
+      res=[...norm(m2.results,"movie"), ...norm(t2.results,"tv")];
     }
-    results=res.slice(0,8);
+    res.sort((a,b)=>(b.poster_path?1:0)-(a.poster_path?1:0));  // con locandina prima
+    results=res.slice(0,10);
     const R=$("results"); R.innerHTML="";
     if(results.length===0){ status("Nessun risultato. Prova un titolo diverso (anche in inglese).",false); return; }
     results.forEach((r,i)=>{
       const d=document.createElement("div"); d.className="res";
       const img=r.poster_path?IMG+"w185"+r.poster_path:"";
+      const tag=r._type==="tv"?" 📺":"";
       d.innerHTML=`<img src="${img}" onerror="this.style.visibility='hidden'">
-        <div class="rt">${r.title}</div><div class="ry">${(r.release_date||'').slice(0,4)} · #${r.id}</div>`;
+        <div class="rt">${r.title}${tag}</div><div class="ry">${r.year||'—'} · #${r.id}</div>`;
       d.onclick=()=>selectRes(i,d);
       R.appendChild(d);
     });
-    status("Clicca la locandina del film giusto.",true);
+    status("Clicca la locandina giusta (📺 = serie TV).",true);
   }catch(e){ status("Errore ricerca TMDB: "+e.message,false); }
 }
 
@@ -184,31 +193,39 @@ function selectRes(i,el){
   document.querySelectorAll(".res").forEach(x=>x.classList.remove("sel"));
   el.classList.add("sel"); selected=results[i];
   $("addRow").style.display="flex";
-  $("selInfo").textContent=`Selezionato: ${selected.title} (${(selected.release_date||'').slice(0,4)}) — TMDB ${selected.id}`;
+  const kind=selected._type==="tv"?"serie TV":"film";
+  $("selInfo").textContent=`Selezionato: ${selected.title} (${selected.year||'—'}) — ${kind} TMDB ${selected.id}`;
 }
 
-// costruisce il record completo (poster/trama/cast/regista/durata/trailer) come full_record
-async function buildRecord(vid, tid, genre){
-  const it=await fetch(`${TMDB}/movie/${tid}?api_key=${TKEY}&language=it-IT&append_to_response=credits,videos`).then(r=>r.json());
+// costruisce il record completo da un film O da una serie TV (campi diversi)
+async function buildRecord(vid, sel, genre){
+  const isTv=sel._type==="tv";
+  const base=isTv?`${TMDB}/tv/${sel.id}`:`${TMDB}/movie/${sel.id}`;
+  const it=await fetch(`${base}?api_key=${TKEY}&language=it-IT&append_to_response=credits,videos`).then(r=>r.json());
   let ov=it.overview;
-  if(!ov){ const en=await fetch(`${TMDB}/movie/${tid}?api_key=${TKEY}&language=en-US`).then(r=>r.json()); ov=en.overview||""; }
+  if(!ov){ const en=await fetch(`${base}?api_key=${TKEY}&language=en-US`).then(r=>r.json()); ov=en.overview||""; }
   const cast=(it.credits&&it.credits.cast||[]).slice(0,10).map(c=>({nome:c.name,personaggio:c.character||null,
     foto_url:c.profile_path?IMG+"w185"+c.profile_path:null,foto_tipo:c.profile_path?"foto_attore":"nessuna",
     foto_fonte:{nome:"TMDB",url_pagina_origine:`https://www.themoviedb.org/person/${c.id}`,verificata:!!c.profile_path}}));
-  const dirs=(it.credits&&it.credits.crew||[]).filter(c=>c.job==="Director").map(c=>c.name);
+  const dirs=isTv?((it.created_by||[]).map(c=>c.name))
+                 :((it.credits&&it.credits.crew||[]).filter(c=>c.job==="Director").map(c=>c.name));
   const yt=((it.videos&&it.videos.results)||[]).filter(v=>v.site==="YouTube")
     .sort((a,b)=>((b.type==="Trailer")-(a.type==="Trailer"))||((b.official?1:0)-(a.official?1:0)));
   const trailer=yt.length?{url:`https://www.youtube.com/watch?v=${yt[0].key}`,lingua:"it",fonte:"YouTube",canale:null,
     ufficiale:!!yt[0].official,verificato:true,motivo_verifica:"TMDB videos"}:null;
-  const yr=parseInt(($("year").value.trim())||(it.release_date||"").slice(0,4))||null;
-  const titolo=$("title").value.trim()||it.title;
+  const apiDate=(it.release_date||it.first_air_date||"").slice(0,4);
+  const yr=parseInt(($("year").value.trim())||apiDate)||null;
+  const titolo=$("title").value.trim()||it.title||it.name;
+  const runtime=isTv?((it.episode_run_time&&it.episode_run_time[0])||null):(it.runtime||null);
   return { video_id:vid, is_movie:true, manual_include:true, channel:"Manuale", genre,
-    original_title:titolo, tmdb_id:tid, tmdb_title_official:titolo, tmdb_year_official:yr,
+    original_title:titolo, tmdb_id:sel.id, tmdb_title_official:titolo, tmdb_year_official:yr,
     tmdb_poster_path:it.poster_path||null, tmdb_confidence:"verified",
-    strict_id_v2:{ identificato:true, livello_certezza:"alto", titolo_italiano:titolo, titolo_originale:it.original_title,
-      anno_uscita:yr, durata_minuti:it.runtime||null, genere:(it.genres||[]).map(g=>g.name),
+    tmdb_media_type:(isTv?"tv":"movie"),
+    strict_id_v2:{ identificato:true, livello_certezza:"alto", titolo_italiano:titolo,
+      titolo_originale:(it.original_title||it.original_name||null),
+      anno_uscita:yr, durata_minuti:runtime, genere:(it.genres||[]).map(g=>g.name),
       regista:dirs, cast_principale:cast, trama:ov, trama_tradotta_in_italiano:!!it.overview,
-      locandina_url:it.poster_path?IMG+"w500"+it.poster_path:null, trailer, tmdb_id_scelto:tid } };
+      locandina_url:it.poster_path?IMG+"w500"+it.poster_path:null, trailer, tmdb_id_scelto:sel.id } };
 }
 
 async function addSelected(){
@@ -217,7 +234,7 @@ async function addSelected(){
   if(movies.some(m=>m.video_id===vid)){ status("Questo video è già nella lista.",false); return; }
   $("addBtn").disabled=true; status("Recupero metadati TMDB…",true);
   try{
-    const rec=await buildRecord(vid, selected.id, $("genre").value);
+    const rec=await buildRecord(vid, selected, $("genre").value);
     movies.push(rec); render();
     $("yt").value=$("title").value=$("year").value=""; $("results").innerHTML=""; $("addRow").style.display="none"; selected=null;
     status("Aggiunto «"+rec.tmdb_title_official+"». Ricordati di premere 'Salva su GitHub'.",true);
