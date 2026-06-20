@@ -2358,14 +2358,16 @@
       "original_title": "Toto Sapore e la Magica Storia della Pizza",
       "tmdb_title_official": "Toto Sapore e la Magica Storia della Pizza",
       "tmdb_year_official": 2003,
-      "tmdb_id": 121472,
+      "tmdb_id": 71571,
       "tmdb_confidence": "no_match",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "tmdb_id_scelto": 121472,
-        "titolo_italiano": "Toto Sapore e la Magica Storia della Pizza"
-      }
+        "tmdb_id_scelto": 71571,
+        "titolo_italiano": "Toto Sapore e la Magica Storia della Pizza",
+        "locandina_url": "https://image.tmdb.org/t/p/w500/sARJMq4T4ftHxr1oZOhUcbR0pEX.jpg"
+      },
+      "tmdb_poster_path": "/sARJMq4T4ftHxr1oZOhUcbR0pEX.jpg"
     },
     {
       "video_id": "aFcgYP5oNqs",
