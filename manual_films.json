@@ -2597,34 +2597,65 @@
       "manual_include": true,
       "original_title": "Fantasia Magica",
       "genre": "animazione",
-      "tmdb_id": 38580,
+      "tmdb_id": 144007,
       "tmdb_title_official": "Fantasia Magica",
       "tmdb_year_official": 1991,
-      "tmdb_poster_path": "/x9zoilsifsSXCUPxN6RjQFAbaxE.jpg",
+      "tmdb_poster_path": "/q0kHJ1dg1GDVO6pOZHWNlJpIVQ8.jpg",
       "tmdb_confidence": "verified",
-      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 38580",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 144007",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
         "titolo_italiano": "Fantasia Magica",
-        "titolo_originale": "The Little Matchgirl",
+        "titolo_originale": "The Magic Riddle",
         "anno_uscita": 1991,
-        "durata_minuti": 6,
+        "durata_minuti": 93,
         "genere": [
-          "Animazione",
-          "Dramma",
-          "Famiglia",
-          "Fantasy"
+          "Animazione"
         ],
         "regista": [
-          "Roger Allers"
+          "Yoram Gross"
         ],
-        "cast_principale": [],
-        "trama": "Una povera ragazza vede immagini felici nelle fiamme ardenti dei fiammiferi che lei accende per scaldarsi, mentre sullo sfondo risuona il \"Quartetto per archi n. 2 in re maggiore: Terzo movimento: Notturno (Andante)\" di Alexander Borodin.",
-        "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/x9zoilsifsSXCUPxN6RjQFAbaxE.jpg",
+        "cast_principale": [
+          {
+            "nome": "Ross Higgins",
+            "personaggio": "(voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/yGFevWwktcBN6xDduRNhwEKVXWZ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/174436",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Robyn Moore",
+            "personaggio": "Cindy (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/118174",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Keith Scott",
+            "personaggio": "(voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mx2y1ZMXfiGERn0ECHXdVZVKKGI.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/94979",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "The Magic Riddle is a 1991 Australian animated feature film directed and written by Yoram Gross. The film's plot features elements of famous fairytales including Cinderella, Snow White and the Seven Dwarfs, Little Red Riding Hood and Pinocchio. Robyn Moore provides the voice of Cindy and various other characters.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/q0kHJ1dg1GDVO6pOZHWNlJpIVQ8.jpg",
         "trailer": null,
-        "tmdb_id_scelto": 38580
+        "tmdb_id_scelto": 144007
       }
     },
     {
@@ -3317,146 +3348,144 @@
       "manual_include": true,
       "original_title": "Casper - Un Fantasmagorico Natale",
       "genre": "animazione",
-      "tmdb_id": 13491,
+      "tmdb_id": 5833,
       "tmdb_title_official": "Casper - Un Fantasmagorico Natale",
       "tmdb_year_official": 2000,
-      "tmdb_poster_path": "/1CrflDckso6k3JrsEDRduQWtCl9.jpg",
+      "tmdb_poster_path": "/nxxyZQFBAX6Q7leiCJgXmdnxneh.jpg",
       "tmdb_confidence": "verified",
-      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 13491",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 5833",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
         "titolo_italiano": "Casper - Un Fantasmagorico Natale",
-        "titolo_originale": "Arn: Tempelriddaren",
+        "titolo_originale": "Casper's Haunted Christmas",
         "anno_uscita": 2000,
-        "durata_minuti": 139,
+        "durata_minuti": 84,
         "genere": [
           "Animazione",
-          "Azione",
-          "Avventura",
-          "Dramma",
-          "Romance"
+          "Famiglia",
+          "Fantasy"
         ],
         "regista": [
-          "Peter Flinth"
+          "Owen Hurley"
         ],
         "cast_principale": [
           {
-            "nome": "Joakim Nätterqvist",
-            "personaggio": "Arn Magnusson",
-            "foto_url": "https://image.tmdb.org/t/p/w185/mfNcZwKWImFVuqHNXblhVFANySN.jpg",
+            "nome": "David Kaye",
+            "personaggio": "Narrator (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/izxtFSio5twcVA1oJWPvobxpcZj.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/74927",
+              "url_pagina_origine": "https://www.themoviedb.org/person/84490",
               "verificata": true
             }
           },
           {
-            "nome": "Sofia Helin",
-            "personaggio": "Cecilia Algotsdotter",
-            "foto_url": "https://image.tmdb.org/t/p/w185/aOzrZ51r9sPAE8sJvQm2LuZ3hYc.jpg",
+            "nome": "Brendon Ryan Barrett",
+            "personaggio": "Casper (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1Dp2haOZwmp40Zh3Su1op13WErN.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/55885",
+              "url_pagina_origine": "https://www.themoviedb.org/person/45922",
               "verificata": true
             }
           },
           {
-            "nome": "Stellan Skarsgård",
-            "personaggio": "Birger Brosa",
-            "foto_url": "https://image.tmdb.org/t/p/w185/mW7xmtGV4y79kQGn0zkKVGDMAmw.jpg",
+            "nome": "Kathleen Barr",
+            "personaggio": "Carol Jollimor (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/X2aSMT2oxsk1xzSigV8fIqxTtU.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1640",
+              "url_pagina_origine": "https://www.themoviedb.org/person/45923",
               "verificata": true
             }
           },
           {
-            "nome": "Michael Nyqvist",
-            "personaggio": "Magnus Folkesson",
-            "foto_url": "https://image.tmdb.org/t/p/w185/d9nGt8MloJwosRbGp10gaeHExcZ.jpg",
+            "nome": "Ian James Corlett",
+            "personaggio": "Little Kind (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/y0p99omSo8CgHWPjv7qXtAQVyzr.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/6283",
+              "url_pagina_origine": "https://www.themoviedb.org/person/45924",
               "verificata": true
             }
           },
           {
-            "nome": "Mirja Turestedt",
-            "personaggio": "Sigrid",
-            "foto_url": "https://image.tmdb.org/t/p/w185/spqUzBGWTNk1rQ1rXo7LrsmChvD.jpg",
+            "nome": "Graeme Kingston",
+            "personaggio": "Falso (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/phnk0SiKZtYocvejSNufFyVkaMy.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/106656",
+              "url_pagina_origine": "https://www.themoviedb.org/person/45926",
               "verificata": true
             }
           },
           {
-            "nome": "Morgan Alling",
-            "personaggio": "Eskil Magnusson",
-            "foto_url": "https://image.tmdb.org/t/p/w185/tyuJqz3Sbuzw3ZKqSEC3cNIHxiK.jpg",
+            "nome": "Terry Klassen",
+            "personaggio": "Skinkie (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/45927",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Scott McNeil",
+            "personaggio": "Stretch / Noel Jollimore (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rjiHH4krrSdipdSUdSUjvODKJM2.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/74928",
+              "url_pagina_origine": "https://www.themoviedb.org/person/74363",
               "verificata": true
             }
           },
           {
-            "nome": "Sven-Bertil Taube",
-            "personaggio": "Bishop Bengt",
-            "foto_url": "https://image.tmdb.org/t/p/w185/lSRHpbj6B1ctuovgrXwnje7gcYm.jpg",
+            "nome": "Tegan Moss",
+            "personaggio": "Holly Jollimore (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cL5x8rK0L6cMMZbfgrqMKEMtCPj.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/87723",
+              "url_pagina_origine": "https://www.themoviedb.org/person/52291",
               "verificata": true
             }
           },
           {
-            "nome": "Bibi Andersson",
-            "personaggio": "Mother Rikissa",
-            "foto_url": "https://image.tmdb.org/t/p/w185/6EGqmWOR3R3jv3IgrEZmCjTAVGv.jpg",
+            "nome": "Colin Murdock",
+            "personaggio": "Kibosh (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6t5LJdFTW7VSu7UYULs22quJIT.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/6657",
+              "url_pagina_origine": "https://www.themoviedb.org/person/89552",
               "verificata": true
             }
           },
           {
-            "nome": "Gustaf Skarsgård",
-            "personaggio": "Knut Eriksson",
-            "foto_url": "https://image.tmdb.org/t/p/w185/bfh0yP6Qr55jg9CGTGScXAw8Ftu.jpg",
+            "nome": "Tabitha St. Germain",
+            "personaggio": "Poil (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ljFeqt5uanRHqKTuMumd0iMW69b.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/63764",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Simon Callow",
-            "personaggio": "Father Henry",
-            "foto_url": "https://image.tmdb.org/t/p/w185/no6qlnMrWeUzSt1FjD2Vf9x992e.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/4001",
+              "url_pagina_origine": "https://www.themoviedb.org/person/74360",
               "verificata": true
             }
           }
         ],
-        "trama": "I genitori del piccolo Arn Magnusson, sopravvissuto per miracolo a una malattia gravissima in tenera età, decidono di esprimere la loro riconoscenza a Dio inviando il bimbo in un monastero. Lì Arn viene istruito all'arte del combattimento da fratello Guilbert, e crescendo diventa un coraggioso cavaliere dell'ordine dei Templari, destinato a difendere la Terra Santa dai musulmani.",
+        "trama": "Kibosh, capo supremo, decide che Casper debba spaventare almeno una persona prima di Natale. Il fantasmino decide quindi di recarsi a Kriss, nel Massachusetts, per far visita alla famiglia Jollimore per completare la sua missione. Ma per lui, che ha un animo gentile, non sarà impresa facile.",
         "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/1CrflDckso6k3JrsEDRduQWtCl9.jpg",
+        "locandina_url": "https://image.tmdb.org/t/p/w500/nxxyZQFBAX6Q7leiCJgXmdnxneh.jpg",
         "trailer": null,
-        "tmdb_id_scelto": 13491
+        "tmdb_id_scelto": 5833
       }
     },
     {
@@ -3581,145 +3610,144 @@
       "manual_include": true,
       "original_title": "Winnie the Pooh - Il Primo Halloween da Elefante",
       "genre": "animazione",
-      "tmdb_id": 13685,
+      "tmdb_id": 14885,
       "tmdb_title_official": "Winnie the Pooh - Il Primo Halloween da Elefante",
       "tmdb_year_official": 2005,
-      "tmdb_poster_path": "/1TxqW6Qs47r89tbrZMbfaXXjhMA.jpg",
+      "tmdb_poster_path": "/4wb7EmJqFQ0TtHNxE6tkRJReE4X.jpg",
       "tmdb_confidence": "verified",
-      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 13685",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 14885",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
         "titolo_italiano": "Winnie the Pooh - Il Primo Halloween da Elefante",
-        "titolo_originale": "Bottle Rocket",
+        "titolo_originale": "Pooh's Heffalump Halloween Movie",
         "anno_uscita": 2005,
-        "durata_minuti": 95,
+        "durata_minuti": 64,
         "genere": [
           "Animazione",
-          "Commedia",
-          "Crime",
-          "Dramma"
+          "Famiglia"
         ],
         "regista": [
-          "Wes Anderson"
+          "Elliot M. Bour",
+          "Saul Blinkoff"
         ],
         "cast_principale": [
           {
-            "nome": "Luke Wilson",
-            "personaggio": "Anthony Adams",
-            "foto_url": "https://image.tmdb.org/t/p/w185/nH1h9dZGSBuWIOyX27HpYyYykvr.jpg",
+            "nome": "Jimmy Bennett",
+            "personaggio": "Roo (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8ktMwTxDqgyiYKdIB5dWEuX2zG1.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/36422",
+              "url_pagina_origine": "https://www.themoviedb.org/person/6860",
               "verificata": true
             }
           },
           {
-            "nome": "Owen Wilson",
-            "personaggio": "Dignan",
-            "foto_url": "https://image.tmdb.org/t/p/w185/lFxHIlcywMlYpe6wkW39sfBrqag.jpg",
+            "nome": "Peter Cullen",
+            "personaggio": "Eeyore (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9Snf4fBUkk5MrAjqtNtgZRJYJbj.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/887",
+              "url_pagina_origine": "https://www.themoviedb.org/person/19540",
               "verificata": true
             }
           },
           {
-            "nome": "Robert Musgrave",
-            "personaggio": "Bob Mapplethorpe",
-            "foto_url": "https://image.tmdb.org/t/p/w185/cHU0RBBi8euvpFkvfzVg1zexRAB.jpg",
+            "nome": "Jim Cummings",
+            "personaggio": "Pooh/Tigger (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/c0sQPRCM5Ri3F4gVyxPr4AcPmIq.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/52797",
+              "url_pagina_origine": "https://www.themoviedb.org/person/12077",
               "verificata": true
             }
           },
           {
-            "nome": "Lumi Cavazos",
-            "personaggio": "Inez",
-            "foto_url": "https://image.tmdb.org/t/p/w185/tYSFZAIZzaQ3klvFga8DWq8olPX.jpg",
+            "nome": "John Fiedler",
+            "personaggio": "Piglet (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/27sXisLWQJQ49PD40j89miNhL73.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/74940",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5247",
               "verificata": true
             }
           },
           {
-            "nome": "James Caan",
-            "personaggio": "Mr. Abe Henry",
-            "foto_url": "https://image.tmdb.org/t/p/w185/z2Lz3rtxZ7aJjzBUkCnExvo8stn.jpg",
+            "nome": "Ken Sansom",
+            "personaggio": "Rabbit (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2pvv1gFv5V0IlLY6rBz0Y4YLMyc.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/3085",
+              "url_pagina_origine": "https://www.themoviedb.org/person/77482",
               "verificata": true
             }
           },
           {
-            "nome": "Andrew Wilson",
-            "personaggio": "John \"Future Man\" Mapplethorpe",
-            "foto_url": "https://image.tmdb.org/t/p/w185/z5e7BqvOaMUzBPDep3bb2Bwv2mB.jpg",
+            "nome": "Kath Soucie",
+            "personaggio": "Kanga (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jnu2fpQeIgSa9LcoI4pbu3WSm9f.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/71555",
+              "url_pagina_origine": "https://www.themoviedb.org/person/60739",
               "verificata": true
             }
           },
           {
-            "nome": "Teddy Wilson",
-            "personaggio": "Hector Mapplethorpe",
+            "nome": "Kyle Stanger",
+            "personaggio": "Lumpy (voice)",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/2674324",
+              "url_pagina_origine": "https://www.themoviedb.org/person/77484",
               "verificata": false
             }
           },
           {
-            "nome": "Donny Caicedo",
-            "personaggio": "Rocky",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/2086069",
-              "verificata": false
-            }
-          },
-          {
-            "nome": "Ned Dowd",
-            "personaggio": "Dr. Nichols",
-            "foto_url": "https://image.tmdb.org/t/p/w185/l6DltK997GS5SIDBmwRa5ia7iLR.jpg",
+            "nome": "David Ogden Stiers",
+            "personaggio": "Narrator",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cgCTQt3RZVkhkusG77l4HwHEH6A.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/42006",
+              "url_pagina_origine": "https://www.themoviedb.org/person/28010",
               "verificata": true
             }
           },
           {
-            "nome": "Jenni Tooley",
-            "personaggio": "Stacy Sinclair",
-            "foto_url": "https://image.tmdb.org/t/p/w185/kRhCVK9CyIVwndAAJYU1KeVv3y5.jpg",
+            "nome": "Travis Oates",
+            "personaggio": "Additional Voices (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pM1lp3yqGslYdgIOXLIgBGmNrDd.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/955807",
+              "url_pagina_origine": "https://www.themoviedb.org/person/81082",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nikita Hopkins",
+            "personaggio": "Roo (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/923UPZB3B3KYzjRUOrUDOYv5Zrh.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/90453",
               "verificata": true
             }
           }
         ],
-        "trama": "Uscito da un istituto psichiatrico, Dignan si unisce a uno sbandato di testa fine e a un ricco pappamolla per fare una rapina, seguita da un colpo grosso, organizzato da un ciarliero truffatore, che non riesce altrettanto bene. 1° film di W. Anderson, scritto con O. Wilson, pimpante protagonista in coppia col fratello Luke. Andrew W., un terzo fratello, fa la parte di un amico poco raccomandabile. È una commedia spiritosa in cadenze di balletto ladresco che ha almeno due meriti: il colorito disegno dei personaggi e una efficace descrizione d'ambiente. Nasce da un corto omonimo (1994).",
+        "trama": "È il primo Halloween di Effy insieme a Ro, Winnie the Pooh e i loro amici nel Bosco dei Cento Acri. Gli amici discutono i loro piani per Halloween e per la prima notte di Effy di \"dolcetto o scherzetto\".",
         "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/1TxqW6Qs47r89tbrZMbfaXXjhMA.jpg",
+        "locandina_url": "https://image.tmdb.org/t/p/w500/4wb7EmJqFQ0TtHNxE6tkRJReE4X.jpg",
         "trailer": null,
-        "tmdb_id_scelto": 13685
+        "tmdb_id_scelto": 14885
       }
     },
     {
@@ -3729,57 +3757,143 @@
       "manual_include": true,
       "original_title": "Il Mistero delle Uova di Pasqua",
       "genre": "animazione",
-      "tmdb_id": 24480,
+      "tmdb_id": 59923,
       "tmdb_title_official": "Il Mistero delle Uova di Pasqua",
       "tmdb_year_official": 2004,
-      "tmdb_poster_path": "/vYqZbfvUjtK34vwjNW2m4VF1lIF.jpg",
+      "tmdb_poster_path": "/d7mchnlVhDa1NTHQPsrJrrQ9Jz1.jpg",
       "tmdb_confidence": "verified",
-      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 24480",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 59923",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
         "titolo_italiano": "Il Mistero delle Uova di Pasqua",
-        "titolo_originale": "Partly Cloudy",
+        "titolo_originale": "The Easter Egg Adventure",
         "anno_uscita": 2004,
-        "durata_minuti": 6,
+        "durata_minuti": 87,
         "genere": [
           "Animazione",
-          "Famiglia",
-          "Commedia",
-          "Fantasy"
+          "Famiglia"
         ],
         "regista": [
-          "Peter Sohn"
+          "John Michael Williams"
         ],
         "cast_principale": [
           {
-            "nome": "Tony Fucile",
-            "personaggio": "(voice)",
-            "foto_url": "https://image.tmdb.org/t/p/w185/vKxLwEaL6qz7cwrT8m02Lye7wZO.jpg",
+            "nome": "Brooke Shields",
+            "personaggio": "Horrible Harriet Hare (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qpLcTp5D6t0S0TtNK85VOYwDmTL.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1260745",
+              "url_pagina_origine": "https://www.themoviedb.org/person/15110",
               "verificata": true
             }
           },
           {
-            "nome": "Lori Richardson",
-            "personaggio": "(voice)",
+            "nome": "John Michael Williams",
+            "personaggio": "Big Boring Benedict Bunny (voice)",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/225986",
+              "url_pagina_origine": "https://www.themoviedb.org/person/230051",
               "verificata": false
+            }
+          },
+          {
+            "nome": "James Woods",
+            "personaggio": "Grab Takit (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tLH7mpH4KqkWL5VgjueTbewGsfK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4512",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Joe Pantoliano",
+            "personaggio": "Terrible Timothy Takit (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3OHUI3nX4SYGGItDk3xqeIvWtIf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/532",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nancy Kerrigan",
+            "personaggio": "Bernadette Baker / Helen Hen (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/eauzbHTSiKK9eJIcu9DvllkOEqn.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/166931",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sandra Bernhard",
+            "personaggio": "Claralyne Cluck (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3S93MgFQtXH4eO3oCxx1BA13nBj.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3664",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gary Littman",
+            "personaggio": "Good Gracious Grasshopper (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uwaguPPH5yRyhDs6tIsZ7x7hzfM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/230052",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rob Bartlett",
+            "personaggio": "Boss Baker (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/230053",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Becca Lish",
+            "personaggio": "Tiny Tessie (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/182286",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Doug Preis",
+            "personaggio": "Cookey Takit (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mqLj2ZeWwDoTY9s8EbeuNGpYwGV.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/194749",
+              "verificata": true
             }
           }
         ],
-        "trama": "Riprendendo la tradizione che i bambini nascano perché portati dalle cicogne, il cortometraggio racconta la storia della cicogna Peck, addetta alle consegne di un particolare tipo di bambini (umani e animali), ovvero quelli più pericolosi, ad esempio coccodrilli, porcospini, montoni, ecc. A \"fabbricare\" questi bambini sono le nuvole, e in particolare è la nuvola Gus quella che produce i bambini per Peck. Il lavoro però diventa duro per la cicogna, e quando questa prova a spiegarlo a Gus viene fraintesa. Il conflitto che ne è generato si risolverà con il gioco di squadra che i due colleghi e amici capiranno di dover fare.",
-        "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/vYqZbfvUjtK34vwjNW2m4VF1lIF.jpg",
+        "trama": "The idyllic Egg Town is the location for the The Easter Egg Adventure, which sees the beautiful location under threat from some dastardly thieves. Making off with the collection of Easter Egg's the town has managed to collate, it's up to some brave residents to retrieve them from the evil doers. A wonderfully touching children's tale, The Easter Egg Adventure is a heartwarming seasonal story.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/d7mchnlVhDa1NTHQPsrJrrQ9Jz1.jpg",
         "trailer": null,
-        "tmdb_id_scelto": 24480
+        "tmdb_id_scelto": 59923
       }
     },
     {
