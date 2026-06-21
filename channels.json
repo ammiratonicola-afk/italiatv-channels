@@ -1,0 +1,12 @@
+{
+  "note": "Canali YouTube sorgente dei film. Modificabile dall'editor web. catalog_new_uploads.py legge questo file (risolve gli handle in ID) e scrapa i nuovi upload. Lo scraping/import dei film avviene lato PC.",
+  "channels": [
+    { "name": "FFF Seconda Serata",     "id": "UCbHyTxV_6Xz9FUXkGagH4bw" },
+    { "name": "BlueSwan Entertainment", "id": "UCElISJ4xHN50JzFVL8OPSrA" },
+    { "name": "Movies in Action IT",    "id": "UCyzV93S6FKWPNtbxvl2DmJQ" },
+    { "name": "Moviedome IT",           "id": "UC4rMaEpZKmKwQJHtMUi3IaA" },
+    { "name": "Screamtime IT",          "id": "UCavdo7TCQrJRxYt2QMj2Zaw" },
+    { "name": "Film&More",              "id": "UC2DWplnIpAtu9OWgH9-ZVrQ" },
+    { "name": "Winston Media LLC",      "id": "UCObhuo6BTx5RpQISZqgTCwg" }
+  ]
+}

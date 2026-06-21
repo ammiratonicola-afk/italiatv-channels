@@ -144,6 +144,22 @@
   </div>
 
   <div class="card">
+    <h2>5 · Canali film (sorgenti)</h2>
+    <div class="actions">
+      <button class="sec" id="chBtn" onclick="showChannels()">📡 Gestisci canali</button>
+      <button id="saveChBtn" onclick="saveChannels()" style="display:none">💾 Salva canali</button>
+      <span class="help" id="chInfo" style="margin:0"></span>
+    </div>
+    <div class="help" id="chHint" style="display:none;margin-top:6px">Aggiungi un canale YouTube di film (incolla link, @handle o ID <code>UC…</code>). I film vengono importati lato PC: dopo aver salvato, avvisa che hai aggiunto un canale così lancio lo scraping. I film importati appariranno poi nel catalogo sotto il loro canale.</div>
+    <div id="chList" style="display:none;margin-top:10px"></div>
+    <div class="row" id="chAddRow" style="display:none;margin-top:10px">
+      <div><label>Nome canale</label><input id="ch_name" placeholder="Es. Cinema Classico"></div>
+      <div><label>Link / @handle / ID UC…</label><input id="ch_ref" placeholder="https://youtube.com/@… oppure UC…"></div>
+      <div style="max-width:130px;display:flex;align-items:flex-end"><button onclick="addChannel()">+ Aggiungi</button></div>
+    </div>
+  </div>
+
+  <div class="card">
     <div class="actions">
       <button id="saveBtn" onclick="save()">💾 Salva su GitHub</button>
       <button class="sec" onclick="load()">↻ Ricarica</button>
@@ -422,6 +438,59 @@ async function saveCatalog(){
     else{ const e=await res.json().catch(()=>({})); status("Errore GitHub: "+(e.message||res.status),false); }
   }catch(e){ status("Errore: "+e.message,false); }
   $("saveCatBtn").disabled=false;
+}
+
+// ── Gestione canali film (channels.json) ──────────────────────────────────
+const CH_RAW=`https://raw.githubusercontent.com/${OWNER}/${REPO}/main/channels.json`;
+const CH_API=`https://api.github.com/repos/${OWNER}/${REPO}/contents/channels.json`;
+let channelsObj=null;
+async function showChannels(){
+  if(channelsObj){ $("chList").style.display="none"; $("chAddRow").style.display="none"; $("chHint").style.display="none";
+    channelsObj=null; $("chBtn").textContent="📡 Gestisci canali"; $("saveChBtn").style.display="none"; $("chInfo").textContent=""; return; }
+  $("chBtn").disabled=true;
+  try{
+    channelsObj=await fetch(CH_RAW+"?t="+Date.now()).then(r=>r.ok?r.json():{channels:[]}).catch(()=>({channels:[]}));
+    if(!channelsObj.channels) channelsObj.channels=[];
+    $("chBtn").textContent="✖ Chiudi"; $("chList").style.display="block"; $("chAddRow").style.display="flex"; $("chHint").style.display="block";
+    renderChannels();
+  }catch(e){ $("chInfo").textContent="Errore: "+e.message; }
+  $("chBtn").disabled=false;
+}
+function renderChannels(){
+  const L=$("chList"); L.innerHTML="";
+  (channelsObj.channels||[]).forEach((c,i)=>{
+    const d=document.createElement("div"); d.className="film";
+    d.innerHTML=`<div class="meta" style="flex:1"><div class="t">${c.name||"(senza nome)"}</div><div class="s">${c.id||c.handle||c.url||"?"}</div></div><button>Rimuovi</button>`;
+    d.querySelector("button").onclick=()=>{ channelsObj.channels.splice(i,1); renderChannels(); $("saveChBtn").style.display="inline-block"; };
+    L.appendChild(d);
+  });
+  $("chInfo").textContent=(channelsObj.channels||[]).length+" canali";
+}
+function addChannel(){
+  const name=$("ch_name").value.trim(), ref=$("ch_ref").value.trim();
+  if(!name||!ref){ status("Inserisci nome e link/ID del canale.",false); return; }
+  const ent={name};
+  const ucm=ref.match(/(UC[A-Za-z0-9_-]{22})/), hm=ref.match(/@([A-Za-z0-9._-]+)/);
+  if(ucm) ent.id=ucm[1]; else if(hm) ent.handle="@"+hm[1]; else ent.handle=ref;
+  channelsObj.channels.push(ent); renderChannels();
+  $("ch_name").value=$("ch_ref").value="";
+  $("saveChBtn").style.display="inline-block";
+  $("chInfo").textContent="Canale aggiunto — premi 'Salva canali'";
+}
+async function saveChannels(){
+  const token=$("token").value.trim();
+  if(!token){ status("Inserisci prima il token GitHub.",false); return; }
+  $("saveChBtn").disabled=true; status("Salvo i canali…",true);
+  try{
+    const cur=await fetch(CH_API,{headers:{Authorization:"Bearer "+token}});
+    const sha=cur.ok?(await cur.json()).sha:undefined;
+    const body={ message:"Aggiorna lista canali ("+channelsObj.channels.length+")", content:b64(JSON.stringify(channelsObj,null,2)) };
+    if(sha) body.sha=sha;
+    const res=await fetch(CH_API,{method:"PUT",headers:{Authorization:"Bearer "+token,"Content-Type":"application/json"},body:JSON.stringify(body)});
+    if(res.ok){ $("saveChBtn").style.display="none"; status("✓ Canali salvati! Avvisa per lanciare l'import dei film del nuovo canale.",true); }
+    else{ const e=await res.json().catch(()=>({})); status("Errore GitHub: "+(e.message||res.status),false); }
+  }catch(e){ status("Errore: "+e.message,false); }
+  $("saveChBtn").disabled=false;
 }
 
 // ── Modale: modifica QUALSIASI dato del film ──────────────────────────────
