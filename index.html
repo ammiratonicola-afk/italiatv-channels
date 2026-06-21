@@ -67,6 +67,47 @@
   .castrow .cf { flex:1; display:flex; gap:6px; flex-wrap:wrap; }
   .castrow .cf input { flex:1; min-width:90px; padding:6px 8px; font-size:12px; }
   .castrow .cdel { background:var(--err); padding:6px 9px; font-size:12px; flex-shrink:0; }
+
+  /* ── Ottimizzazione smartphone: touch, verticale e orizzontale ── */
+  @media (max-width:680px){
+    main { padding:12px; }
+    header { padding:12px 14px; }
+    header h1 { font-size:17px; }
+    .card { padding:13px; border-radius:10px; }
+    /* font 16px sugli input = niente zoom automatico su iOS al focus */
+    input, select, textarea, button { font-size:16px; }
+    input, select { padding:12px; }
+    button { padding:12px 16px; min-height:46px; }   /* target touch comodo */
+    /* le righe a colonne si impilano in verticale */
+    .row { flex-direction:column; gap:8px; }
+    .row > div { min-width:0 !important; max-width:none !important; }
+    /* filtri catalogo a tutta larghezza */
+    #catChannel, #catSearch { max-width:none !important; width:100%; }
+    /* griglia film: celle più piccole, più colonne adattive */
+    .gcat { grid-template-columns:repeat(auto-fill,minmax(82px,1fr)); gap:7px; }
+    .results, #m_results { grid-template-columns:repeat(auto-fill,minmax(100px,1fr)); }
+    /* modale a tutto schermo, scrollabile */
+    .modal { padding:0; }
+    .mbox { max-width:none; border-radius:0; min-height:100%; padding:14px; }
+    /* cast: ogni attore impilato, campi a tutta larghezza */
+    .castrow .cf { flex-direction:column; }
+    .castrow .cf input { min-width:0; width:100%; font-size:15px; padding:10px; }
+    .castrow img { width:40px; height:54px; }
+    /* lista film: titolo va a capo invece di troncarsi */
+    .film .meta .t { white-space:normal; }
+    .film img { width:42px; height:63px; }
+  }
+  /* telefono in orizzontale (poca altezza): compatta gli elementi verticali */
+  @media (max-height:480px) and (orientation:landscape){
+    .modal { align-items:flex-start; }
+    .mbox { min-height:auto; }
+    #m_poster { width:64px !important; }
+  }
+  /* feedback al tocco (device touch, niente hover) */
+  @media (hover:none){
+    .res:active, .gfilm:active, .film:active { filter:brightness(1.35); }
+    button:active { filter:brightness(0.88); }
+  }
 </style>
 </head>
 <body>
