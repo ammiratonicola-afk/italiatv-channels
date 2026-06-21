@@ -159,6 +159,33 @@ def fetch_all_videos_api(channel_id, api_key, max_pages=60):
     return out
 
 
+def video_info_api(video_ids, api_key):
+    """{video_id: {"dur": sec, "lang": str|None, "desc": str, "title": str}} via videos.list.
+    Serve a: scartare i non-film (durata), tenere solo i film in italiano (lang) e cercare
+    il titolo originale nella descrizione. Batch da 50."""
+    out = {}
+    for i in range(0, len(video_ids), 50):
+        batch = video_ids[i:i + 50]
+        url = ("https://www.googleapis.com/youtube/v3/videos?part=snippet,contentDetails"
+               f"&id={','.join(batch)}&key={api_key}")
+        try:
+            data = json.loads(urlopen(Request(url, headers={"User-Agent": UA}), timeout=20).read().decode("utf-8"))
+        except Exception as e:
+            print(f"  ! info API errore: {e}", file=sys.stderr)
+            continue
+        for it in data.get("items", []):
+            sn = it.get("snippet", {})
+            m = re.match(r"PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?", it.get("contentDetails", {}).get("duration", "") or "")
+            dur = (int(m.group(1) or 0) * 3600 + int(m.group(2) or 0) * 60 + int(m.group(3) or 0)) if m else 0
+            out[it["id"]] = {
+                "dur": dur,
+                "lang": sn.get("defaultAudioLanguage") or sn.get("defaultLanguage"),
+                "desc": sn.get("description", "") or "",
+                "title": sn.get("title", "") or "",
+            }
+    return out
+
+
 def video_durations_api(video_ids, api_key):
     """Ritorna {video_id: durata_secondi} via YouTube Data API videos.list (contentDetails).
     Serve a scartare i video che NON sono film (trailer/clip/short troppo corti). Batch da 50."""

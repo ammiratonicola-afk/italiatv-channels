@@ -28,8 +28,20 @@ cosi' restano tracciati e si possono sistemare a mano con fix_film.py.
 import sys, os, re, json, shutil, datetime
 import urllib.request, urllib.parse
 
-from youtube_scrape import fetch_all_videos, fetch_all_videos_api, video_durations_api
+from youtube_scrape import fetch_all_videos, fetch_all_videos_api, video_info_api
 from add_channel import parse_title, tmdb_match, full_entry, JUNK, UA
+
+
+def title_from_description(desc):
+    """Estrae candidati titolo dalla DESCRIZIONE YouTube: cerca 'Titolo originale: X'
+    / 'Original title: X' (e la prima riga utile). Aiuta a identificare i film il cui
+    titolo del video è clickbait ma la descrizione riporta il titolo vero."""
+    out = []
+    for m in re.finditer(r"(?:titolo\s+originale|original\s+title)\s*[:\-]\s*([^\n(|]+)", desc or "", re.I):
+        t = m.group(1).strip(" .\"'“”")
+        if 2 <= len(t) <= 80:
+            out.append(t)
+    return out
 
 # Se presente la chiave YouTube Data API (env YT_API_KEY), usala: è affidabile da
 # qualsiasi IP (anche GitHub Actions). Altrimenti ripiega sullo scraping InnerTube.
@@ -313,17 +325,28 @@ def main():
             continue
         new = [(v, t) for v, t in vids
                if v not in existing_vids and not any(k in t.lower() for k in JUNK)]
-        # Scarta i video che NON sono film: durata sotto la soglia (trailer/clip/short/episodi).
-        # Se la durata non è nota (API senza chiave) si tiene il video per non perdere film.
+        # Info video (durata + lingua + descrizione) per: scartare i non-film (durata),
+        # tenere solo i film in ITALIANO (lingua), e cercare il titolo nella descrizione.
+        info = {}
         if YT_API_KEY and new:
-            durs = video_durations_api([v for v, _ in new], YT_API_KEY)
+            info = video_info_api([v for v, _ in new], YT_API_KEY)
             min_film = int(os.environ.get("MIN_FILM_SEC", "2400"))   # 40 minuti
-            before = len(new)
-            new = [(v, t) for v, t in new if durs.get(v, min_film) >= min_film]
-            if before - len(new):
-                print(f"[{cname}] scartati {before - len(new)} video non-film (durata < {min_film // 60} min)")
+            kept, drop_short, drop_lang = [], 0, 0
+            for v, t in new:
+                nfo = info.get(v, {})
+                if nfo.get("dur", min_film) < min_film:
+                    drop_short += 1; continue
+                lang = (nfo.get("lang") or "").lower()
+                if lang and not lang.startswith("it"):   # solo film con audio/lingua italiana
+                    drop_lang += 1; continue
+                kept.append((v, t))
+            if drop_short:
+                print(f"[{cname}] scartati {drop_short} video non-film (durata < {min_film // 60} min)")
+            if drop_lang:
+                print(f"[{cname}] scartati {drop_lang} video NON in italiano")
+            new = kept
         if not new:
-            print(f"[{cname}] {len(vids)} video, 0 nuovi (film).")
+            print(f"[{cname}] {len(vids)} video, 0 nuovi (film italiani).")
             continue
         print(f"[{cname}] {len(vids)} video, {len(new)} NUOVI da valutare:")
         tot_new += len(new)
@@ -336,6 +359,9 @@ def main():
                 print(f"    ...tetto {MAX_NEW} raggiunto, mi fermo (continua al prossimo run).")
                 break
             cands, actor, year = parse_title(raw)
+            # #2: aggiungi i titoli trovati nella DESCRIZIONE YouTube (es. "Original title: X")
+            desc_cands = title_from_description((info.get(vid) or {}).get("desc", ""))
+            cands = cands + [c for c in desc_cands if c not in cands]
             best, score = tmdb_match(cands, actor, year) if cands else (None, 0)
             if best:
                 tid = best["id"]
