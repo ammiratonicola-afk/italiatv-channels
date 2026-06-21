@@ -303,6 +303,7 @@ def main():
     seen_tmdb_run = set()
 
     tot_new = tot_added = tot_dupfilm = tot_nomatch = tot_skipped_parts = 0
+    run_added = 0   # film aggiunti in QUESTO run (identificati + no-match) per il tetto
 
     for cid, cname in load_channels().items():
         try:
@@ -318,11 +319,11 @@ def main():
         print(f"[{cname}] {len(vids)} video, {len(new)} NUOVI da valutare:")
         tot_new += len(new)
 
-        if apply and tot_added >= MAX_NEW:
+        if apply and run_added >= MAX_NEW:
             print(f"[{cname}] tetto {MAX_NEW} film/esecuzione raggiunto: il resto al prossimo run.")
             break
         for vid, raw in new:
-            if apply and tot_added >= MAX_NEW:
+            if apply and run_added >= MAX_NEW:
                 print(f"    ...tetto {MAX_NEW} raggiunto, mi fermo (continua al prossimo run).")
                 break
             cands, actor, year = parse_title(raw)
@@ -349,7 +350,7 @@ def main():
                         d["movies"].append(entry)
                         existing_vids.add(vid)
                         seen_tmdb_run.add(tid)
-                        tot_added += 1
+                        tot_added += 1; run_added += 1
                 elif status == "duplicate_merged":
                     tot_dupfilm += 1
                     if apply:
@@ -364,6 +365,7 @@ def main():
             if apply:
                 d["movies"].append(base_entry(vid, raw, cname))
                 existing_vids.add(vid)
+                run_added += 1
 
     print(f"\n=== RIEPILOGO [{mode}] ===")
     print(f" nuovi upload valutati : {tot_new}")
