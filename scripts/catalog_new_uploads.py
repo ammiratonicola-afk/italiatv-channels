@@ -336,8 +336,15 @@ def main():
                 nfo = info.get(v, {})
                 if nfo.get("dur", min_film) < min_film:
                     drop_short += 1; continue
+                # È in italiano? Il campo audio è inaffidabile (gli uploader mettono la
+                # lingua ORIGINALE anche per i film DOPPIATI). Quindi consideriamo italiano
+                # se: audio=it OPPURE titolo/descrizione contengono marcatori italiani
+                # ("italiano"/"in italiano"). Scartiamo solo i film palesemente stranieri
+                # (es. canale inglese tipo Cult Cinema Classics, senza marcatori italiani).
                 lang = (nfo.get("lang") or "").lower()
-                if lang and not lang.startswith("it"):   # solo film con audio/lingua italiana
+                text = (t + " " + (nfo.get("desc") or "")).lower()
+                is_it = lang.startswith("it") or "italian" in text  # "italian" copre "italiano"
+                if not is_it:
                     drop_lang += 1; continue
                 kept.append((v, t))
             if drop_short:
