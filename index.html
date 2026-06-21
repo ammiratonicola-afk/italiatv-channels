@@ -245,6 +245,7 @@
       <div class="actions" style="border-top:1px solid #2a2a45;padding-top:12px;margin-top:14px">
         <button onclick="applyEdit()">✓ Applica modifiche</button>
         <button class="sec" onclick="closeModal()">Annulla</button>
+        <button onclick="deleteFilm()" style="background:var(--err);margin-left:auto">🗑 Elimina film</button>
       </div>
     </div>
   </div>
@@ -664,6 +665,26 @@ function applyEdit(){
   if(catalogAll) renderCatalog();
   closeModal();
   status("Modifica applicata. Salva con « "+(src==="cat"?"Salva genere catalogo":"Salva su GitHub")+" ».",true);
+}
+
+function deleteFilm(){
+  if(!editing) return;
+  const m=editing.m, src=editing.src;
+  if(!confirm("Eliminare «"+title(m)+"» dal catalogo?\nNon sarà più visibile nell'app.")) return;
+  if(src==="man"){
+    const i=movies.findIndex(x=>x.video_id===m.video_id);
+    if(i>=0) movies.splice(i,1);
+    render();
+    status("Film manuale eliminato. Premi « Salva su GitHub » in fondo.",true);
+  } else {
+    // catalogo: nascondi (is_movie=false) così non riappare nemmeno al prossimo import
+    m.is_movie=false; m.reason_not_movie="eliminato dall'editor web";
+    catDirty.add(m.video_id); $("saveCatBtn").style.display="inline-block";
+    status("Film eliminato dal catalogo. Premi « Salva modifiche catalogo ».",true);
+  }
+  // togli dalla vista corrente
+  if(catalogAll){ const j=catalogAll.findIndex(x=>x.m.video_id===m.video_id && x.src===src); if(j>=0) catalogAll.splice(j,1); renderCatalog(); }
+  closeModal();
 }
 
 $("token").value=localStorage.getItem("gh_token")||"";

@@ -26,7 +26,7 @@ in dry-run; con --apply vengono aggiunti come voce base (titolo grezzo, no tmdb)
 cosi' restano tracciati e si possono sistemare a mano con fix_film.py.
 """
 import sys, os, re, json, shutil, datetime
-import urllib.request
+import urllib.request, urllib.parse
 
 from youtube_scrape import fetch_all_videos, fetch_all_videos_api
 from add_channel import parse_title, tmdb_match, full_entry, JUNK, UA
@@ -34,6 +34,10 @@ from add_channel import parse_title, tmdb_match, full_entry, JUNK, UA
 # Se presente la chiave YouTube Data API (env YT_API_KEY), usala: è affidabile da
 # qualsiasi IP (anche GitHub Actions). Altrimenti ripiega sullo scraping InnerTube.
 YT_API_KEY = os.environ.get("YT_API_KEY", "").strip()
+# Tetto di film identificati aggiunti per esecuzione: evita che un canale enorme
+# (es. centinaia di film) faccia girare l'Action all'infinito / sfori i rate-limit TMDB.
+# I restanti vengono importati alle esecuzioni successive (schedule/manuale).
+MAX_NEW = int(os.environ.get("MAX_NEW_PER_RUN", "60"))
 
 
 def get_videos(channel_id):
@@ -64,18 +68,31 @@ CHANNELS = {
 
 
 def resolve_handle(ref):
-    """Risolve un @handle o URL canale -> UC id scaricando la pagina /videos."""
+    """Risolve un @handle o URL canale -> UC id. Prima via YouTube Data API
+    (forHandle, affidabile da qualsiasi IP); fallback allo scraping della pagina."""
     m = re.search(r"(UC[A-Za-z0-9_-]{22})", ref)
     if m:
         return m.group(1)
     h = re.search(r"@([A-Za-z0-9._-]+)", ref)
     handle = h.group(1) if h else ref.lstrip("@").strip()
+    # 1) YouTube Data API (niente scraping → non si blocca dagli IP datacenter)
+    if YT_API_KEY:
+        try:
+            data = json.loads(urllib.request.urlopen(
+                f"https://www.googleapis.com/youtube/v3/channels?part=id&forHandle={urllib.parse.quote(handle)}&key={YT_API_KEY}",
+                timeout=15).read().decode("utf-8"))
+            items = data.get("items", [])
+            if items:
+                return items[0]["id"]
+        except Exception as e:
+            print(f"  ! forHandle API errore ({e}), provo lo scraping")
+    # 2) fallback: scraping pagina canale (può fallire/lento dagli IP cloud)
     try:
         req = urllib.request.Request(
             f"https://www.youtube.com/@{handle}/videos",
             headers={"User-Agent": UA, "Accept-Language": "it-IT,it;q=0.9", "Cookie": "CONSENT=YES+1; SOCS=CAI"},
         )
-        html = urllib.request.urlopen(req, timeout=20).read().decode("utf-8", "replace")
+        html = urllib.request.urlopen(req, timeout=15).read().decode("utf-8", "replace")
         mm = re.search(r'"(?:channelId|browseId|externalId)":"(UC[\w-]{22})"', html)
         return mm.group(1) if mm else None
     except Exception as e:
@@ -301,7 +318,13 @@ def main():
         print(f"[{cname}] {len(vids)} video, {len(new)} NUOVI da valutare:")
         tot_new += len(new)
 
+        if apply and tot_added >= MAX_NEW:
+            print(f"[{cname}] tetto {MAX_NEW} film/esecuzione raggiunto: il resto al prossimo run.")
+            break
         for vid, raw in new:
+            if apply and tot_added >= MAX_NEW:
+                print(f"    ...tetto {MAX_NEW} raggiunto, mi fermo (continua al prossimo run).")
+                break
             cands, actor, year = parse_title(raw)
             best, score = tmdb_match(cands, actor, year) if cands else (None, 0)
             if best:
