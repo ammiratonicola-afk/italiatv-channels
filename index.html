@@ -130,7 +130,7 @@
       <button id="saveCatBtn" onclick="saveCatalog()" style="display:none">💾 Salva modifiche catalogo</button>
       <span class="help" id="catInfo" style="margin:0"></span>
     </div>
-    <div class="help" id="catHint" style="display:none;margin-top:6px"><b>Clicca un film</b> per modificarne qualsiasi dato (titolo, anno, genere, trama, poster) o per <b>ri-identificarlo</b> su TMDB. I film del <b>catalogo</b> si salvano col pulsante verde qui sopra; i film <b>manuali</b> col tasto "Salva su GitHub" in fondo.</div>
+    <div class="help" id="catHint" style="display:none;margin-top:6px"><b>Clicca un film</b> per modificarne qualsiasi dato (titolo, anno, genere, trama, poster, link YouTube, trailer) o per <b>ri-identificarlo</b> su TMDB. I film del <b>catalogo</b> si salvano col pulsante verde qui sopra; i film <b>manuali</b> col tasto "Salva su GitHub" in fondo.</div>
     <div id="catalog"></div>
   </div>
 
@@ -161,6 +161,8 @@
           <label>TMDB ID <span class="help" id="m_type" style="margin:0"></span></label><input id="m_tmdb" readonly style="opacity:.7">
         </div>
       </div>
+      <label>🔗 Link YouTube (riproduzione)</label><input id="m_yt" placeholder="https://youtu.be/XXXXXXXXXXX">
+      <label>🎬 Link trailer (YouTube)</label><input id="m_trailer" placeholder="https://www.youtube.com/watch?v=…  (vuoto = nessun trailer)">
       <label>Trama</label><textarea id="m_plot" rows="4" style="width:100%;padding:10px 12px;background:var(--card2);border:1px solid #33335a;border-radius:8px;color:var(--text);font-size:14px;font-family:inherit"></textarea>
       <label>Poster (path TMDB, es. /abc.jpg)</label><input id="m_posterpath" placeholder="lascia vuoto per nessuno">
       <div class="actions">
@@ -402,6 +404,8 @@ function openEdit(vid, src){
   $("m_type").textContent=m.tmdb_media_type?("("+m.tmdb_media_type+")"):"";
   $("m_plot").value=v2.trama||m.enriched_plot||"";
   $("m_posterpath").value=m.tmdb_poster_path||"";
+  $("m_yt").value=m.video_id?("https://youtu.be/"+m.video_id):"";
+  $("m_trailer").value=(v2.trailer&&v2.trailer.url)||m.trailer_url||"";
   $("m_poster").src=poster(m); $("m_results").innerHTML="";
   $("modal").style.display="flex";
 }
@@ -429,6 +433,7 @@ async function modalSearch(){
           $("m_title").value=rec.tmdb_title_official; $("m_year").value=rec.tmdb_year_official||"";
           $("m_tmdb").value=rec.tmdb_id; $("m_type").textContent="("+(rec.tmdb_media_type||"movie")+")";
           $("m_plot").value=rec.strict_id_v2.trama||""; $("m_posterpath").value=rec.tmdb_poster_path||"";
+          $("m_trailer").value=(rec.strict_id_v2.trailer&&rec.strict_id_v2.trailer.url)||"";
           $("m_poster").src=rec.tmdb_poster_path?IMG+"w300"+rec.tmdb_poster_path:"";
         }catch(e){}
         d.querySelector(".rt").textContent=old;
@@ -455,6 +460,17 @@ function applyEdit(){
   if(yr) m.strict_id_v2.anno_uscita=yr;
   m.strict_id_v2.trama=$("m_plot").value;
   m.strict_id_v2.locandina_url=pp?IMG+"w500"+pp:null;
+  // Link YouTube di riproduzione (cambia il video_id che è la chiave del film)
+  const newVid=ytId($("m_yt").value);
+  if(newVid && newVid!==m.video_id){
+    const oldVid=m.video_id;
+    if(Array.isArray(m.related_video_ids)) m.related_video_ids=m.related_video_ids.map(x=>x===oldVid?newVid:x);
+    m.video_id=newVid;
+  }
+  // Link trailer YouTube
+  const tr=$("m_trailer").value.trim();
+  if(tr){ m.strict_id_v2.trailer=Object.assign({fonte:"YouTube",lingua:"it",ufficiale:false,verificato:true,motivo_verifica:"inserito manualmente"}, m.strict_id_v2.trailer||{}, {url:tr}); }
+  else { m.strict_id_v2.trailer=null; }
   if(src==="cat"){ catDirty.add(m.video_id); $("saveCatBtn").style.display="inline-block"; }
   else { render(); }
   if(catalogAll) renderCatalog();
