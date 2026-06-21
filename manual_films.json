@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T16:51:14.591Z",
+  "generated_at": "2026-06-21T16:53:34.136Z",
   "movies": [
     {
       "video_id": "zYeeo62exh0",
@@ -3799,10 +3799,10 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "original_title": "Casper - Un Fantasmagorico Natale",
+      "original_title": "Casper - Il film",
       "genre": "animazione",
       "tmdb_id": 5833,
-      "tmdb_title_official": "Casper - Un Fantasmagorico Natale",
+      "tmdb_title_official": "Casper - Il film",
       "tmdb_year_official": 2000,
       "tmdb_poster_path": "/nxxyZQFBAX6Q7leiCJgXmdnxneh.jpg",
       "tmdb_confidence": "verified",
@@ -3810,7 +3810,7 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_italiano": "Casper - Un Fantasmagorico Natale",
+        "titolo_italiano": "Casper - Il film",
         "titolo_originale": "Casper's Haunted Christmas",
         "anno_uscita": 2000,
         "durata_minuti": 84,
@@ -3825,12 +3825,12 @@
         "cast_principale": [
           {
             "nome": "David Kaye",
-            "personaggio": "Narratore (voce)",
+            "personaggio": "Narrator (voice)",
             "foto_url": "https://image.tmdb.org/t/p/w185/izxtFSio5twcVA1oJWPvobxpcZj.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/84490",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -3840,8 +3840,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/1Dp2haOZwmp40Zh3Su1op13WErN.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/45922",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -3851,8 +3851,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/X2aSMT2oxsk1xzSigV8fIqxTtU.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/45923",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -3862,8 +3862,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/y0p99omSo8CgHWPjv7qXtAQVyzr.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/45924",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -3873,8 +3873,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/phnk0SiKZtYocvejSNufFyVkaMy.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/45926",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -3884,8 +3884,8 @@
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/45927",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": false
             }
           },
@@ -3895,8 +3895,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/rjiHH4krrSdipdSUdSUjvODKJM2.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/74363",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -3906,8 +3906,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/cL5x8rK0L6cMMZbfgrqMKEMtCPj.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/52291",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -3917,8 +3917,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/6t5LJdFTW7VSu7UYULs22quJIT.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/89552",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -3928,8 +3928,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/ljFeqt5uanRHqKTuMumd0iMW69b.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/74360",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           }
@@ -3937,17 +3937,10 @@
         "trama": "Kibosh, capo supremo, decide che Casper debba spaventare almeno una persona prima di Natale. Il fantasmino decide quindi di recarsi a Kriss, nel Massachusetts, per far visita alla famiglia Jollimore per completare la sua missione. Ma per lui, che ha un animo gentile, non sarà impresa facile.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/nxxyZQFBAX6Q7leiCJgXmdnxneh.jpg",
-        "trailer": {
-          "url": "https://www.youtube.com/watch?v=xHU8LOzoovI",
-          "lingua": "en",
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": true,
-          "motivo_verifica": "TMDB videos (en-US)"
-        },
+        "trailer": null,
         "tmdb_id_scelto": 5833
-      }
+      },
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "zQpn5VoeoN0",
