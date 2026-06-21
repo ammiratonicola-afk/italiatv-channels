@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T06:30:04.231Z",
+  "generated_at": "2026-06-21T06:35:18.327Z",
   "movies": [
     {
       "video_id": "zYeeo62exh0",
@@ -2030,23 +2030,23 @@
           {
             "nome": "Luca Perlman",
             "personaggio": "Bear (voice)",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "foto_url": "https://assets.mycast.io/actor_images/actor-luca-perlman-577924_large.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "manuale",
               "url_pagina_origine": null,
-              "verificata": false
+              "verificata": true
             }
           },
           {
             "nome": "Kyle Fairlie",
             "personaggio": "Rabbit (voice)",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "foto_url": "https://tse3.mm.bing.net/th/id/OIP.kxG-JGQ-pQXr-qxuEPaK6wHaId?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "manuale",
               "url_pagina_origine": null,
-              "verificata": false
+              "verificata": true
             }
           },
           {
@@ -2063,23 +2063,23 @@
           {
             "nome": "Leah Cudmore",
             "personaggio": "Beaver (voice)",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "foto_url": "https://media.gettyimages.com/id/89715379/photo/hollywood-actress-leah-renee-arrives-for-the-dosomething-org-celebrates-the-power-of-youth.jpg?s=612x612&w=gi&k=20&c=EBQqnUOnoiKD-F9cpv0znUCj9GsOIQPmoTxq3WWf4rM=",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "manuale",
               "url_pagina_origine": null,
-              "verificata": false
+              "verificata": true
             }
           },
           {
             "nome": "Richard Newman",
             "personaggio": "Signor Tartaruga",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "foto_url": "https://tse2.mm.bing.net/th/id/OIP.aalkd_fdnJYGcPx5PpstRQHaLH?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "manuale",
               "url_pagina_origine": null,
-              "verificata": false
+              "verificata": true
             }
           },
           {
