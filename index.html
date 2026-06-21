@@ -257,9 +257,10 @@
       <button class="sec" type="button" onclick="addCastRow()" style="margin-top:6px">+ Aggiungi attore</button>
       <div class="actions" style="margin-top:14px">
         <button class="sec" onclick="modalSearch()">🔎 Ri-identifica su TMDB</button>
+        <button class="sec" onclick="searchByActor()">🎭 Per attore</button>
         <button class="sec" onclick="searchImdb()">🎬 Cerca su IMDb</button>
         <button class="sec" onclick="searchWiki()">📖 Cerca su Wikipedia</button>
-        <span class="help" style="margin:0">In ordine: TMDB → IMDb → Wikipedia. Scegli il risultato per ricaricare i metadati.</span>
+        <span class="help" style="margin:0">Per titolo / attore / IMDb / Wikipedia. Scegli il risultato per ricaricare i metadati.</span>
       </div>
       <div class="results" id="m_results"></div>
       <div class="actions" style="border-top:1px solid #2a2a45;padding-top:12px;margin-top:14px">
@@ -877,6 +878,28 @@ async function searchImdb(){
     if(!added){ R.innerHTML="<div class='help'>Trovati su IMDb ma non su TMDB:<br>"+notOnTmdb.join("<br>")+"<br>(l'editor carica i metadati da TMDB.)</div>"; }
     else if(notOnTmdb.length){ const n=document.createElement("div"); n.className="help"; n.style.gridColumn="1/-1"; n.textContent="Altri su IMDb non su TMDB: "+notOnTmdb.join("; "); R.appendChild(n); }
   }catch(e){ R.innerHTML="<div class='help'>Errore IMDb: "+e.message+"</div>"; }
+}
+// Ricerca su TMDB PER ATTORE/REGISTA: trova la persona, poi mostra la sua filmografia.
+async function searchByActor(){
+  const name=prompt("Nome attore o regista da cercare su TMDB:", $("m_original_guess").value.trim()||"");
+  if(!name||!name.trim()) return;
+  const R=$("m_results"); R.innerHTML="<div class='help'>Cerco per attore…</div>";
+  try{
+    const p=await fetch(`${TMDB}/search/person?api_key=${TKEY}&language=it-IT&query=${encodeURIComponent(name.trim())}`).then(r=>r.json());
+    const person=(p.results||[])[0];
+    if(!person){ R.innerHTML="<div class='help'>Nessuna persona trovata per «"+name.trim()+"».</div>"; return; }
+    const cr=await fetch(`${TMDB}/person/${person.id}/combined_credits?api_key=${TKEY}&language=it-IT`).then(r=>r.json());
+    const all=[...(cr.cast||[]),...(cr.crew||[])].filter(c=>c.media_type==="movie"||c.media_type==="tv")
+      .sort((a,b)=>(b.popularity||0)-(a.popularity||0));
+    const seen=new Set(); const uniq=[];
+    all.forEach(f=>{ if(!seen.has(f.id)){ seen.add(f.id); uniq.push(f); } });
+    if(!uniq.length){ R.innerHTML="<div class='help'>Nessun film/serie per "+person.name+".</div>"; return; }
+    R.innerHTML="";
+    const head=document.createElement("div"); head.className="help"; head.style.gridColumn="1/-1";
+    head.textContent=`Filmografia di ${person.name} — clicca il film giusto:`; R.appendChild(head);
+    uniq.slice(0,14).forEach(f=>addResultCard(R, {_type:f.media_type, id:f.id, poster_path:f.poster_path,
+      title:(f.title||f.name||""), year:((f.release_date||f.first_air_date||"").slice(0,4))}));
+  }catch(e){ R.innerHTML="<div class='help'>Errore: "+e.message+"</div>"; }
 }
 // Ultima alternativa: cerca su Wikipedia (IT). Aiuta a trovare il titolo corretto → poi TMDB.
 async function searchWiki(){
