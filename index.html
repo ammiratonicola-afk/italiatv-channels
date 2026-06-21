@@ -497,30 +497,36 @@ async function saveCatalog(){
   if(!token){ status("Inserisci prima il token GitHub.",false); return; }
   if(!catRawObj || catDirty.size===0) return;
   $("saveCatBtn").disabled=true; status("Salvo il catalogo (merge con l'ultima versione)…",true);
+  const CATAPI=`https://api.github.com/repos/${OWNER}/${REPO}/contents/movies_metadata.json`;
+  let ok=false, applied=0, lastErr="";
   try{
-    const CATAPI=`https://api.github.com/repos/${OWNER}/${REPO}/contents/movies_metadata.json`;
-    // 1) scarica l'ULTIMA versione (no-cache): NON sovrascrivere modifiche altrui
-    //    (es. i film importati dall'Action) — applico solo i miei film modificati.
-    const latest=await fetch(CAT_RAW+"?t="+Date.now(),{cache:"no-store"}).then(r=>r.json());
-    const byMine={}; (catRawObj.movies||[]).forEach(m=>byMine[m.video_id]=m);
-    const idx={}; latest.movies.forEach((m,i)=>idx[m.video_id]=i);
-    let applied=0;
-    catDirty.forEach(vid=>{
-      const mine=byMine[vid]; if(!mine) return;
-      if(vid in idx) latest.movies[idx[vid]]=mine;
-      else { latest.movies.push(mine); idx[vid]=latest.movies.length-1; }
-      applied++;
-    });
-    // 2) sha corrente + PUT del risultato merge
-    const cur=await fetch(CATAPI,{headers:{Authorization:"Bearer "+token}});
-    if(!cur.ok){ const e=await cur.json().catch(()=>({})); throw new Error("lettura file: "+(e.message||("HTTP "+cur.status))); }
-    const sha=(await cur.json()).sha;
-    if(!sha) throw new Error("sha non disponibile per movies_metadata.json");
-    const body={ message:`Modifica catalogo da editor web (${applied} film, merge)`, content:b64(JSON.stringify(latest,null,2)), sha:sha };
-    const res=await fetch(CATAPI,{method:"PUT",headers:{Authorization:"Bearer "+token,"Content-Type":"application/json"},body:JSON.stringify(body)});
-    if(res.ok){ catDirty.clear(); catRawObj=latest; $("saveCatBtn").style.display="none"; status(`✓ Catalogo salvato (${applied} film, merge)! Premi 'Aggiorna catalogo ora' in TV.`,true); }
-    else{ const e=await res.json().catch(()=>({})); status("Errore GitHub: "+(e.message||res.status),false); }
-  }catch(e){ status("Errore: "+e.message,false); }
+    // Riprova fino a 5 volte: se nel frattempo arriva un altro commit (es. l'Action),
+    // il PUT dà 409 (sha non valido). Ri-scarico l'ultima versione, ri-applico i miei
+    // film modificati e riprovo → NON perdo le cancellazioni/modifiche per conflitto.
+    for(let attempt=0; attempt<5 && !ok; attempt++){
+      const latest=await fetch(CAT_RAW+"?t="+Date.now(),{cache:"no-store"}).then(r=>r.json());
+      const byMine={}; (catRawObj.movies||[]).forEach(m=>byMine[m.video_id]=m);
+      const idx={}; latest.movies.forEach((m,i)=>idx[m.video_id]=i);
+      applied=0;
+      catDirty.forEach(vid=>{
+        const mine=byMine[vid]; if(!mine) return;
+        if(vid in idx) latest.movies[idx[vid]]=mine;
+        else { latest.movies.push(mine); idx[vid]=latest.movies.length-1; }
+        applied++;
+      });
+      const cur=await fetch(CATAPI,{headers:{Authorization:"Bearer "+token}});
+      if(!cur.ok){ lastErr="lettura file HTTP "+cur.status; break; }
+      const sha=(await cur.json()).sha;
+      if(!sha){ lastErr="sha non disponibile"; break; }
+      const body={ message:`Modifica catalogo da editor web (${applied} film, merge)`, content:b64(JSON.stringify(latest,null,2)), sha:sha };
+      const res=await fetch(CATAPI,{method:"PUT",headers:{Authorization:"Bearer "+token,"Content-Type":"application/json"},body:JSON.stringify(body)});
+      if(res.ok){ ok=true; catRawObj=latest; }
+      else if(res.status===409){ lastErr="conflitto"; status(`Conflitto con un altro salvataggio, riprovo… (${attempt+1})`,true); await new Promise(r=>setTimeout(r,1200)); }
+      else { const e=await res.json().catch(()=>({})); lastErr=e.message||("HTTP "+res.status); break; }
+    }
+  }catch(e){ lastErr=e.message; }
+  if(ok){ catDirty.clear(); $("saveCatBtn").style.display="none"; status(`✓ Catalogo salvato (${applied} film)! Premi 'Aggiorna catalogo ora' in TV.`,true); }
+  else status("Errore salvataggio: "+lastErr,false);
   $("saveCatBtn").disabled=false;
 }
 
