@@ -257,7 +257,9 @@
       <button class="sec" type="button" onclick="addCastRow()" style="margin-top:6px">+ Aggiungi attore</button>
       <div class="actions" style="margin-top:14px">
         <button class="sec" onclick="modalSearch()">🔎 Ri-identifica su TMDB</button>
-        <span class="help" style="margin:0">Cerca e scegli il film giusto → ricarica TUTTI i metadati.</span>
+        <button class="sec" onclick="searchImdb()">🎬 Cerca su IMDb</button>
+        <button class="sec" onclick="searchWiki()">📖 Cerca su Wikipedia</button>
+        <span class="help" style="margin:0">In ordine: TMDB → IMDb → Wikipedia. Scegli il risultato per ricaricare i metadati.</span>
       </div>
       <div class="results" id="m_results"></div>
       <div class="actions" style="border-top:1px solid #2a2a45;padding-top:12px;margin-top:14px">
@@ -281,6 +283,8 @@ const GEMINI_MODEL="gemini-2.0-flash";
 const GEMINI_MODELS=[...new Set([GEMINI_MODEL,"gemini-2.5-flash","gemini-flash-latest","gemini-1.5-flash"].filter(Boolean))];
 // Chiave YouTube Data API (per leggere la descrizione del video). Free, sola lettura.
 const YT_KEY="AIzaSyBVXkYGDCOlpxZ1U196lsmXQZCb-8Mbg18";
+// Chiave OMDb community (cerca su IMDb per titolo, ~1000/giorno).
+const OMDB_KEY="b6003d8a";
 let movies=[], results=[], selected=null;
 
 const $=id=>document.getElementById(id);
@@ -848,6 +852,57 @@ async function tmdbFindByImdb(imdbId){
     aiBox("Trovato via IMDb "+imdbId+": "+sel.title+" — clicca il risultato per applicarlo.", true);
     return true;
   }catch(e){ return false; }
+}
+// Ricerca per TITOLO su IMDb (OMDb), poi risolve ogni risultato su TMDB per avere i metadati.
+async function searchImdb(){
+  const t=($("m_title").value.trim()||$("m_original_guess").value.trim());
+  const R=$("m_results");
+  if(!t){ R.innerHTML="<div class='help'>Inserisci un titolo da cercare.</div>"; return; }
+  R.innerHTML="<div class='help'>Cerco su IMDb…</div>";
+  try{
+    const y=$("m_year").value.trim();
+    const d=await fetch(`https://www.omdbapi.com/?s=${encodeURIComponent(t)}${y?`&y=${y}`:""}&apikey=${OMDB_KEY}`).then(r=>r.json());
+    const hits=(d.Search||[]).filter(x=>/^tt\d+$/.test(x.imdbID||"")).slice(0,8);
+    if(!hits.length){ R.innerHTML="<div class='help'>Nessun risultato su IMDb per «"+t+"».</div>"; return; }
+    R.innerHTML=""; let added=0; const notOnTmdb=[];
+    for(const h of hits){
+      const r=await fetch(`${TMDB}/find/${h.imdbID}?api_key=${TKEY}&language=it-IT&external_source=imdb_id`).then(x=>x.json());
+      const mv=(r.movie_results||[])[0], tv=(r.tv_results||[])[0]; const hit=mv||tv;
+      if(hit){
+        addResultCard(R, {_type:mv?"movie":"tv", id:hit.id, poster_path:hit.poster_path,
+          title:(hit.title||hit.name||h.Title), year:((hit.release_date||hit.first_air_date||"").slice(0,4))||h.Year});
+        added++;
+      } else notOnTmdb.push(`${h.Title} (${h.Year}) — ${h.imdbID}`);
+    }
+    if(!added){ R.innerHTML="<div class='help'>Trovati su IMDb ma non su TMDB:<br>"+notOnTmdb.join("<br>")+"<br>(l'editor carica i metadati da TMDB.)</div>"; }
+    else if(notOnTmdb.length){ const n=document.createElement("div"); n.className="help"; n.style.gridColumn="1/-1"; n.textContent="Altri su IMDb non su TMDB: "+notOnTmdb.join("; "); R.appendChild(n); }
+  }catch(e){ R.innerHTML="<div class='help'>Errore IMDb: "+e.message+"</div>"; }
+}
+// Ultima alternativa: cerca su Wikipedia (IT). Aiuta a trovare il titolo corretto → poi TMDB.
+async function searchWiki(){
+  const t=($("m_title").value.trim()||$("m_original_guess").value.trim());
+  const R=$("m_results");
+  if(!t){ R.innerHTML="<div class='help'>Inserisci un titolo.</div>"; return; }
+  R.innerHTML="<div class='help'>Cerco su Wikipedia…</div>";
+  try{
+    const d=await fetch(`https://it.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(t+" film")}&srlimit=6&format=json&origin=*`).then(r=>r.json());
+    const hits=((d.query||{}).search)||[];
+    if(!hits.length){ R.innerHTML="<div class='help'>Nessun risultato su Wikipedia per «"+t+"».</div>"; return; }
+    R.innerHTML="";
+    const head=document.createElement("div"); head.className="help"; head.style.gridColumn="1/-1";
+    head.textContent="Risultati Wikipedia — clicca un titolo per ri-cercarlo su TMDB:"; R.appendChild(head);
+    hits.forEach(h=>{
+      const cleanTitle=h.title.replace(/\s*\((film|serie televisiva|miniserie)[^)]*\)\s*$/i,"").trim();
+      const ym=h.title.match(/\b(19|20)\d{2}\b/);
+      const c=document.createElement("div"); c.className="res"; c.style.cursor="pointer"; c.style.padding="8px";
+      c.innerHTML=`<div class="rt" style="white-space:normal">📖 ${h.title}</div><div class="ry">${(h.snippet||"").replace(/<[^>]+>/g,"").slice(0,70)}…</div>`;
+      c.onclick=()=>{ $("m_title").value=cleanTitle; if(ym&&!$("m_year").value.trim()) $("m_year").value=ym[0]; aiBox("Da Wikipedia: «"+cleanTitle+"» → cerco su TMDB…", true); modalSearch(); };
+      R.appendChild(c);
+    });
+    const link=document.createElement("div"); link.className="help"; link.style.gridColumn="1/-1";
+    link.innerHTML=`<a href="https://it.wikipedia.org/w/index.php?search=${encodeURIComponent(t)}" target="_blank" rel="noopener">Apri la ricerca completa su Wikipedia ↗</a>`;
+    R.appendChild(link);
+  }catch(e){ R.innerHTML="<div class='help'>Errore Wikipedia: "+e.message+"</div>"; }
 }
 function applyEdit(){
   if(!editing) return;
