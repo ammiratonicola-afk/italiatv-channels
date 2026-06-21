@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T17:03:57.142Z",
+  "generated_at": "2026-06-21T17:26:02.441Z",
   "movies": [
     {
       "video_id": "zYeeo62exh0",
@@ -13968,6 +13968,465 @@
           "motivo_verifica": "TMDB videos"
         },
         "tmdb_id_scelto": 11340
+      }
+    },
+    {
+      "video_id": "2N1wx7moN2Y",
+      "is_movie": true,
+      "manual_include": true,
+      "channel": "Manuale",
+      "genre": "commedia",
+      "original_title": "Honest Thief",
+      "tmdb_id": 553604,
+      "tmdb_title_official": "Honest Thief",
+      "tmdb_year_official": 2020,
+      "tmdb_poster_path": "/8yRyc5Vib9H4BcPlLR7e8rM3eIb.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Honest Thief",
+        "titolo_originale": "Honest Thief",
+        "anno_uscita": 2020,
+        "durata_minuti": 99,
+        "genere": [
+          "Thriller",
+          "Azione",
+          "Crime"
+        ],
+        "regista": [
+          "Mark Williams"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Liam Neeson",
+            "personaggio": "Tom Dolan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/g0iIEyt9ILiKTG0g8K69US5VtLy.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kate Walsh",
+            "personaggio": "Annie Wilkins",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jRg4pmjvI2063YnQ6PJidclOc4L.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jai Courtney",
+            "personaggio": "John Nivens",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6vEaNwbOKov6yzQx15CdtrqfK3L.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jeffrey Donovan",
+            "personaggio": "Sean Meyers",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wlDXfXpu6Uz32LUmbFzU8QPDoQH.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Anthony Ramos",
+            "personaggio": "Ramon Hall",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gCeRfH3aetIpZwKxe8Wl4ZYcQg5.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Robert Patrick",
+            "personaggio": "Samuel Baker",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qRv2Es9rZoloullTbzss3I5j1Mp.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jasmine Cephas Jones",
+            "personaggio": "Beth Hall",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rf4BnsNkCSUNyDnEEr1YmCxzEzB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Devon Diep",
+            "personaggio": "Cute Nurse",
+            "foto_url": "https://image.tmdb.org/t/p/w185/95RC9zknwrJzjBtDl3Pil5UTVFB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Herlin Navarro",
+            "personaggio": "Hotel Housekeeper",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": false
+            }
+          },
+          {
+            "nome": "James Milord",
+            "personaggio": "Delivery Guy",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Tom Carter, ladro meticoloso, ha rubato 9 milioni di dollari da banche di piccole città, riuscendo a mantenere segreta la sua identità. Ma dopo essersi innamorato di Annie, Tom decide di ricominciare da capo ripulendosi dal passato criminale, per poi essere braccato da due spietati e corrotti agenti dell'FBI.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/8yRyc5Vib9H4BcPlLR7e8rM3eIb.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 553604
+      }
+    },
+    {
+      "video_id": "2w3StrAt5Mg",
+      "is_movie": true,
+      "manual_include": true,
+      "channel": "Manuale",
+      "genre": "commedia",
+      "original_title": "Operation Fortune",
+      "tmdb_id": 739405,
+      "tmdb_title_official": "Operation Fortune",
+      "tmdb_year_official": 2023,
+      "tmdb_poster_path": "/u4CstvYG6BzfzP3UfY3c1Z0hz7o.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Operation Fortune",
+        "titolo_originale": "Operation Fortune: Ruse de Guerre",
+        "anno_uscita": 2023,
+        "durata_minuti": 114,
+        "genere": [
+          "Azione",
+          "Commedia",
+          "Thriller",
+          "Avventura"
+        ],
+        "regista": [
+          "Guy Ritchie"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Jason Statham",
+            "personaggio": "Orson Fortune",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pXGSq2UpcDE2NMF8LR56QZf5U1q.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Aubrey Plaza",
+            "personaggio": "Sarah Fidel",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ejtGfjOAvUHBdVc3xTIV1HtJBi9.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Cary Elwes",
+            "personaggio": "Nathan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9UszBdQJ9PmyBydIeIBxlStozhW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Hugh Grant",
+            "personaggio": "Greg Simmonds",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dvV843fOuzsEPXHtFvdzsHpy1rC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Josh Hartnett",
+            "personaggio": "Danny Francesco",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9JS3PeypxTmHVXOnLCMRzJzySxO.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Bugzy Malone",
+            "personaggio": "JJ",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ao3vHgzoeRcbr8R7SHqEAh9bOzB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Eddie Marsan",
+            "personaggio": "Knighton",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9atfOgIxhfOKvv2be8HEp6SzOct.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Peter Ferdinando",
+            "personaggio": "Mike",
+            "foto_url": "https://image.tmdb.org/t/p/w185/guAO6rcuSCahk4v3I6Y9uqSwumj.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nicholas Facey",
+            "personaggio": "John",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wanO06XuxfuALRAs9D5fjOIkMDR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lourdes Faberes",
+            "personaggio": "Emilia",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cCuETSoR6IIVyuyRJcAMiaEZkKs.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "La storia di un agente dell'MI6, reclutato da un'associazione mondiale di controspionaggio per cercare di sventare la vendita di una nuova arma letale, che minaccia di sovvertire l'ordine del pianeta. Affiancato contro i suoi desideri da un esperto in high-tech della CIA, parte per una missione in giro per il mondo per infiltrarsi nella cerchia di un trafficante d'armi miliardario.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/u4CstvYG6BzfzP3UfY3c1Z0hz7o.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos",
+          "url": "https://www.youtube.com/watch?v=8J-oJE00J0Q",
+          "canale": null
+        },
+        "tmdb_id_scelto": 739405
+      }
+    },
+    {
+      "video_id": "DgyVpSX3SYE",
+      "is_movie": true,
+      "manual_include": true,
+      "channel": "Manuale",
+      "genre": "commedia",
+      "original_title": "GLI INCREDIBILI",
+      "tmdb_id": 9806,
+      "tmdb_title_official": "GLI INCREDIBILI",
+      "tmdb_year_official": 2004,
+      "tmdb_poster_path": "/YC2HuIkt6JOyOInuSRnRR9iVLE.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "GLI INCREDIBILI",
+        "titolo_originale": "The Incredibles",
+        "anno_uscita": 2004,
+        "durata_minuti": 115,
+        "genere": [
+          "Azione",
+          "Avventura",
+          "Animazione",
+          "Famiglia"
+        ],
+        "regista": [
+          "Brad Bird"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Craig T. Nelson",
+            "personaggio": "Bob Parr / Mr. Incredible (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rMh8qdexFKmc7mq7oLzsLLvCCjs.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/8977",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Holly Hunter",
+            "personaggio": "Helen Parr / Elastigirl (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oNoFAi0AQXDP68tv7c7t5WjYioy.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/18686",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sarah Vowell",
+            "personaggio": "Violet Parr (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dP1hMYTk2q4voIUxtgmvD81nMty.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/59361",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Spencer Fox",
+            "personaggio": "Dashiell 'Dash' Parr (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vMyWK5qZWEG0GZh4FXCDXx4Jqfm.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/59360",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jason Lee",
+            "personaggio": "Buddy Pine / Syndrome (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3duPl6Ve8RnvcouOaXoMCdJf5ln.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/11662",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Samuel L. Jackson",
+            "personaggio": "Lucius Best / Frozone (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/AiAYAqwpM5xmiFrAIeQvUXDCVvo.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2231",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Elizabeth Peña",
+            "personaggio": "Mirage (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uyUrPmtbwiGFOq8pIfYVQYgmBmK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/7430",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Eli Fucile",
+            "personaggio": "Jack-Jack Parr (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pcNfD0mIB9KrQMaXP0rN82VbiHY.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/59358",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Maeve Andrews",
+            "personaggio": "Jack-Jack Parr (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/59359",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Brad Bird",
+            "personaggio": "Edna 'E' Mode (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zB9Uz0Rs1K9uwHffXRFaBwwSYI.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/7087",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Bob Parr ha rinunciato ai suoi giorni da supereroe per dedicarsi al perito assicurativo e crescere i suoi tre figli con la moglie un tempo eroica in periferia. Ma quando riceve un incarico misterioso, è il momento di tornare a indossare il costume.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/YC2HuIkt6JOyOInuSRnRR9iVLE.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=qN8X-lJONi4",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos"
+        },
+        "tmdb_id_scelto": 9806
       }
     }
   ]
