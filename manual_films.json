@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T17:26:02.441Z",
+  "generated_at": "2026-06-21T17:38:44.609Z",
   "movies": [
     {
       "video_id": "zYeeo62exh0",
@@ -13195,10 +13195,10 @@
       "is_movie": true,
       "channel": "Commedia",
       "manual_include": true,
-      "original_title": "Lo chiamavano Trinità",
+      "original_title": "Lo chiamavano Trinità...",
       "genre": "commedia",
       "tmdb_id": 9394,
-      "tmdb_title_official": "Lo chiamavano Trinità",
+      "tmdb_title_official": "Lo chiamavano Trinità...",
       "tmdb_year_official": 1970,
       "tmdb_poster_path": "/qo5KIMy80sJn8g8T5So3RLABht6.jpg",
       "tmdb_confidence": "verified",
@@ -13206,12 +13206,11 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_italiano": "Lo chiamavano Trinità",
+        "titolo_italiano": "Lo chiamavano Trinità...",
         "titolo_originale": "Lo chiamavano Trinità...",
         "anno_uscita": 1970,
         "durata_minuti": 113,
         "genere": [
-          "Animazione",
           "Azione",
           "Commedia",
           "Western"
@@ -13226,8 +13225,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/vBkWDZh93QRUvg3oh5d96QQZWLn.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/15140",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -13237,8 +13236,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/cVbBoKxRDFOdDKwdpRmxVazDWlE.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/18841",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -13248,8 +13247,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/i5RxP1CZgpEK5FnrMksZo9AJKcu.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/132262",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -13259,8 +13258,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/eQxAEGx3sD4d1ISuh3yNZlqRZzf.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/227037",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -13270,8 +13269,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/xeh0ThNSD0zBIFWVuwDnCs4TUBY.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/32370",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -13281,8 +13280,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/rs0TjbvMtt4A3Hh0IBJItX7JmCy.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/57588",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -13292,8 +13291,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/4Tqi22qSxBdeWGDAOVvfa8pDX8E.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/12497",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -13303,8 +13302,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/5i2kYsADdNOrHsUJq1Rm7kNswvY.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1076431",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -13314,8 +13313,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/2PYdis6wi8mL7mVuoB16IuJiL6Y.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/43240",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -13325,8 +13324,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/whc0Ja2j6uO5yGRNDamrqxyzhfm.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/46546",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           }
@@ -13335,16 +13334,17 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/qo5KIMy80sJn8g8T5So3RLABht6.jpg",
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=5d3mWRYQOOE",
-          "lingua": "it",
           "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": true,
+          "lingua": "it",
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos"
+          "motivo_verifica": "TMDB videos",
+          "url": "https://www.youtube.com/watch?v=5d3mWRYQOOE",
+          "canale": null
         },
         "tmdb_id_scelto": 9394
-      }
+      },
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "hyII3zBWyXc",
@@ -13836,7 +13836,6 @@
         "anno_uscita": 1982,
         "durata_minuti": 96,
         "genere": [
-          "Animazione",
           "Azione",
           "Commedia"
         ],
@@ -13850,8 +13849,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/cVbBoKxRDFOdDKwdpRmxVazDWlE.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/18841",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -13861,8 +13860,8 @@
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/69066",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": false
             }
           },
@@ -13872,8 +13871,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/eJ3Z44g4O9UEf0lmukofQEw7jLr.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/69067",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -13883,8 +13882,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/a6Bms9jyF8drPdhP8vEh3YjCtgi.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/69068",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -13894,8 +13893,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/q3FbIE6fP6cAlT6OgMFknSyZfIe.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/69444",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -13905,8 +13904,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/giiKTzhRkWXxztB1mdXjdn8wZk3.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/39935",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -13916,8 +13915,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/gbcklNBKDoRmALRGoHns4SJuHez.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/41161",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -13927,8 +13926,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/xeh0ThNSD0zBIFWVuwDnCs4TUBY.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/32370",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -13938,8 +13937,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/347gRUcQ55tELUB6KKDaHtANjBG.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/32679",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -13949,8 +13948,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/qOlcCKGGjDGJWXyq62E9oPaWmC1.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/44967",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           }
@@ -13959,23 +13958,24 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/jwGmvZT2TzYQvzyDDnyUC1y8uQ2.jpg",
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=__Rc--dx-m0",
-          "lingua": "it",
           "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": true,
+          "lingua": "it",
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos"
+          "motivo_verifica": "TMDB videos",
+          "url": "https://www.youtube.com/watch?v=__Rc--dx-m0",
+          "canale": null
         },
         "tmdb_id_scelto": 11340
-      }
+      },
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "2N1wx7moN2Y",
       "is_movie": true,
       "manual_include": true,
       "channel": "Manuale",
-      "genre": "commedia",
+      "genre": "thriller",
       "original_title": "Honest Thief",
       "tmdb_id": 553604,
       "tmdb_title_official": "Honest Thief",
@@ -14122,7 +14122,7 @@
       "is_movie": true,
       "manual_include": true,
       "channel": "Manuale",
-      "genre": "commedia",
+      "genre": "thriller",
       "original_title": "Operation Fortune",
       "tmdb_id": 739405,
       "tmdb_title_official": "Operation Fortune",
@@ -14278,10 +14278,10 @@
       "is_movie": true,
       "manual_include": true,
       "channel": "Manuale",
-      "genre": "commedia",
-      "original_title": "GLI INCREDIBILI",
+      "genre": "animazione",
+      "original_title": "Gli Incredibili - Una \"normale\" famiglia di supereroi",
       "tmdb_id": 9806,
-      "tmdb_title_official": "GLI INCREDIBILI",
+      "tmdb_title_official": "Gli Incredibili - Una \"normale\" famiglia di supereroi",
       "tmdb_year_official": 2004,
       "tmdb_poster_path": "/YC2HuIkt6JOyOInuSRnRR9iVLE.jpg",
       "tmdb_confidence": "verified",
@@ -14289,7 +14289,7 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_italiano": "GLI INCREDIBILI",
+        "titolo_italiano": "Gli Incredibili - Una \"normale\" famiglia di supereroi",
         "titolo_originale": "The Incredibles",
         "anno_uscita": 2004,
         "durata_minuti": 115,
@@ -14309,8 +14309,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/rMh8qdexFKmc7mq7oLzsLLvCCjs.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/8977",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -14320,8 +14320,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/oNoFAi0AQXDP68tv7c7t5WjYioy.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/18686",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -14331,8 +14331,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/dP1hMYTk2q4voIUxtgmvD81nMty.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/59361",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -14342,8 +14342,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/vMyWK5qZWEG0GZh4FXCDXx4Jqfm.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/59360",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -14353,8 +14353,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/3duPl6Ve8RnvcouOaXoMCdJf5ln.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/11662",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -14364,8 +14364,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/AiAYAqwpM5xmiFrAIeQvUXDCVvo.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/2231",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -14375,8 +14375,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/uyUrPmtbwiGFOq8pIfYVQYgmBmK.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/7430",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -14386,8 +14386,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/pcNfD0mIB9KrQMaXP0rN82VbiHY.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/59358",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -14397,8 +14397,8 @@
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/59359",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": false
             }
           },
@@ -14408,8 +14408,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/zB9Uz0Rs1K9uwHffXRFaBwwSYI.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/7087",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           }
@@ -14418,13 +14418,13 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/YC2HuIkt6JOyOInuSRnRR9iVLE.jpg",
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=qN8X-lJONi4",
-          "lingua": "it",
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos"
+          "motivo_verifica": "TMDB videos",
+          "url": "https://www.youtube.com/watch?v=qN8X-lJONi4",
+          "canale": null
         },
         "tmdb_id_scelto": 9806
       }
