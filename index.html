@@ -197,7 +197,7 @@
       <button id="saveChBtn" onclick="saveChannels()" style="display:none">💾 Salva canali</button>
       <span class="help" id="chInfo" style="margin:0"></span>
     </div>
-    <div class="help" id="chHint" style="display:none;margin-top:6px">Aggiungi un canale YouTube di film (incolla link, @handle o ID <code>UC…</code>). I film vengono importati lato PC: dopo aver salvato, avvisa che hai aggiunto un canale così lancio lo scraping. I film importati appariranno poi nel catalogo sotto il loro canale.</div>
+    <div class="help" id="chHint" style="display:none;margin-top:6px">Aggiungi un canale YouTube di film (incolla link, @handle o ID <code>UC…</code>) → <b>Salva canali</b>. L'import parte <b>da solo</b> (in cloud): scarta i video non-film e quelli non in italiano, identifica e aggiunge ~60 film per volta (il resto nei giorni successivi). I film appaiono nel catalogo sotto il loro canale. <b>Nota:</b> servono canali con film <b>doppiati/in italiano</b> (i canali in inglese non importano nulla).</div>
     <div id="chList" style="display:none;margin-top:10px"></div>
     <div class="row" id="chAddRow" style="display:none;margin-top:10px">
       <div><label>Nome canale</label><input id="ch_name" placeholder="Es. Cinema Classico"></div>
@@ -570,16 +570,23 @@ function addChannel(){
 async function saveChannels(){
   const token=$("token").value.trim();
   if(!token){ status("Inserisci prima il token GitHub.",false); return; }
+  if(!channelsObj){ return; }
   $("saveChBtn").disabled=true; status("Salvo i canali…",true);
+  let ok=false, lastErr="";
   try{
-    const cur=await fetch(CH_API,{headers:{Authorization:"Bearer "+token}});
-    const sha=cur.ok?(await cur.json()).sha:undefined;
-    const body={ message:"Aggiorna lista canali ("+channelsObj.channels.length+")", content:b64(JSON.stringify(channelsObj,null,2)) };
-    if(sha) body.sha=sha;
-    const res=await fetch(CH_API,{method:"PUT",headers:{Authorization:"Bearer "+token,"Content-Type":"application/json"},body:JSON.stringify(body)});
-    if(res.ok){ $("saveChBtn").style.display="none"; status("✓ Canali salvati! Avvisa per lanciare l'import dei film del nuovo canale.",true); }
-    else{ const e=await res.json().catch(()=>({})); status("Errore GitHub: "+(e.message||res.status),false); }
-  }catch(e){ status("Errore: "+e.message,false); }
+    for(let attempt=0; attempt<5 && !ok; attempt++){
+      const cur=await fetch(CH_API+"?t="+Date.now(),{headers:{Authorization:"Bearer "+token},cache:"no-store"});
+      if(!cur.ok){ const e=await cur.json().catch(()=>({})); lastErr=e.message||("HTTP "+cur.status); break; }
+      const sha=(await cur.json()).sha;
+      const body={ message:"Aggiorna lista canali ("+channelsObj.channels.length+")", content:b64(JSON.stringify(channelsObj,null,2)), sha:sha };
+      const res=await fetch(CH_API,{method:"PUT",headers:{Authorization:"Bearer "+token,"Content-Type":"application/json"},body:JSON.stringify(body)});
+      if(res.ok){ ok=true; }
+      else if(res.status===409){ lastErr="conflitto"; status(`Conflitto, riprovo… (${attempt+1})`,true); await new Promise(r=>setTimeout(r,1000)); }
+      else { const e=await res.json().catch(()=>({})); lastErr=e.message||("HTTP "+res.status); break; }
+    }
+  }catch(e){ lastErr=e.message; }
+  if(ok){ $("saveChBtn").style.display="none"; status("✓ Canali salvati! L'import dei film parte da solo (GitHub Action) e prosegue ogni giorno. I film appaiono man mano nel catalogo.",true); }
+  else status("Errore salvataggio canali: "+lastErr,false);
   $("saveChBtn").disabled=false;
 }
 
