@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T17:48:20.170Z",
+  "generated_at": "2026-06-21T17:48:52.291Z",
   "movies": [
     {
       "video_id": "zYeeo62exh0",
@@ -1360,10 +1360,10 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "original_title": "Babar, il re degli elefanti",
+      "original_title": "Babar - Il re degli elefanti",
       "genre": "animazione",
       "tmdb_id": 18068,
-      "tmdb_title_official": "Babar, il re degli elefanti",
+      "tmdb_title_official": "Babar - Il re degli elefanti",
       "tmdb_year_official": 1999,
       "tmdb_poster_path": "/srD54CdOctl9WWQHgmeWyRU7C0l.jpg",
       "tmdb_confidence": "verified",
@@ -1371,13 +1371,13 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_italiano": "Babar, il re degli elefanti",
+        "titolo_italiano": "Babar - Il re degli elefanti",
         "titolo_originale": "Babar: King of the Elephants",
         "anno_uscita": 1999,
         "durata_minuti": 80,
         "genere": [
-          "Famiglia",
-          "Animazione"
+          "Animazione",
+          "Famiglia"
         ],
         "regista": [
           "Raymond Jafelice"
@@ -1389,8 +1389,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/fhFasn6OCkNJV3LUpTY9ovbvgg2.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/134076",
               "verificata": true
             }
           },
@@ -1400,8 +1400,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/idYHGiGyWcUUrVFm9THGLzTgWHF.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5897",
               "verificata": true
             }
           },
@@ -1411,30 +1411,30 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/14ZS5pXBWYyBhmLS6Oj7RZHSe7t.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/944649",
               "verificata": true
             }
           },
           {
             "nome": "Kristin Fairlie",
-            "personaggio": "Young Babar",
+            "personaggio": "Giovane Babar",
             "foto_url": "https://image.tmdb.org/t/p/w185/oihUbCLxPYcesc0gOwq9E0fOOmx.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/110548",
               "verificata": true
             }
           },
           {
             "nome": "Dan Lett",
-            "personaggio": "King Babar",
+            "personaggio": "Re Babar",
             "foto_url": "https://image.tmdb.org/t/p/w185/johOG5hLcJTIn47TzYYW9FN6TNp.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/180683",
               "verificata": true
             }
           },
@@ -1444,30 +1444,30 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/HMpppR5Jc1YX9YfTUE3jlvJOlf.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/44163",
               "verificata": true
             }
           },
           {
             "nome": "Jennifer Martini",
-            "personaggio": "Young Celeste",
+            "personaggio": "Giovane Celeste",
             "foto_url": "https://image.tmdb.org/t/p/w185/opVxajU165Ctkpv6mChwv1b7zwP.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1239529",
               "verificata": true
             }
           },
           {
             "nome": "Kyle Fairlie",
-            "personaggio": "Young Arthur / Alexander",
+            "personaggio": "Giovane Artù / Alessandro",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/110551",
               "verificata": false
             }
           },
@@ -1477,8 +1477,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/ogiU5ZtrVrO9uWaUWuTfjvekuSv.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/114941",
               "verificata": true
             }
           },
@@ -1488,19 +1488,26 @@
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/990621",
               "verificata": false
             }
           }
         ],
-        "trama": "Babar is a young elephant in the great forest. Whilst out with his mother a hunter kills his mother and he flees to escape the same fate. He eventually finds himself in a human city and experiences the many differences between city and forest life. Treated as an outsider he is taken in by an elderly woman, dressed in fancy suits, taught to write and count and is brought up in human culture.",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Babar è un giovane elefante nella grande foresta. Mentre è fuori con sua madre, un cacciatore uccide sua madre e lui fugge per scampare alla stessa sorte. Alla fine si ritrova in una città umana e vive le molte differenze tra la vita in città e quella nella foresta. Trattato come un estraneo, viene accolto da una donna anziana, vestita con abiti eleganti, che gli insegna a scrivere e contare e lo cresce nella cultura umana.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/srD54CdOctl9WWQHgmeWyRU7C0l.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=NkWSffIP3gE",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'Babar: King of the Elephants Trailer' (35s)"
+        },
         "tmdb_id_scelto": 18068
-      },
-      "tmdb_media_type": "movie"
+      }
     },
     {
       "video_id": "NQ37ITpZMCA",
@@ -2973,7 +2980,7 @@
       "channel": "Animazione",
       "manual_include": true,
       "original_title": "Natale a New York",
-      "genre": "commedia",
+      "genre": "animazione",
       "tmdb_id": 42435,
       "tmdb_title_official": "Natale a New York",
       "tmdb_year_official": 2006,
@@ -2988,6 +2995,7 @@
         "anno_uscita": 2006,
         "durata_minuti": 111,
         "genere": [
+          "Animazione",
           "Commedia"
         ],
         "regista": [
@@ -3000,8 +3008,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/1FwVC0L29NWD92hh99cE4uvyWQ7.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/69036",
               "verificata": true
             }
           },
@@ -3011,8 +3019,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/cDhzyPQ3446zpRmP523rPFkkl4h.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/55914",
               "verificata": true
             }
           },
@@ -3022,8 +3030,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/qb6NEkjxcO9JeApIphcQPevm5SL.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/128236",
               "verificata": true
             }
           },
@@ -3033,8 +3041,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/iSpdphEZopzvu3816YsiFhhKwRb.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/148251",
               "verificata": true
             }
           },
@@ -3044,8 +3052,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/9NhWezlcSxu6cYHH5kU4EklfozC.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/78535",
               "verificata": true
             }
           },
@@ -3055,8 +3063,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/e6GDRRNcetJnlOezHFO24SqYPrZ.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1240781",
               "verificata": true
             }
           },
@@ -3066,8 +3074,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/ysZS493TskKLQtllPUO3S3Y5Bc8.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/233334",
               "verificata": true
             }
           },
@@ -3077,8 +3085,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/3Z7931gQb1FFMVJ993V6JXCddbF.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/223619",
               "verificata": true
             }
           },
@@ -3088,8 +3096,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/ise00EyAqdGxJxMj1FUQj8BTsJC.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/128015",
               "verificata": true
             }
           },
@@ -3099,8 +3107,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/zYQY2csvyenznUW45w7zPnQlDcN.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/251350",
               "verificata": true
             }
           }
@@ -3109,17 +3117,16 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/leRNWKJJevN5Hug6Z8KyWM1ZPPz.jpg",
         "trailer": {
-          "fonte": "YouTube",
-          "lingua": "it",
-          "ufficiale": false,
-          "verificato": true,
-          "motivo_verifica": "TMDB videos",
           "url": "https://www.youtube.com/watch?v=gKnQ82w1W2s",
-          "canale": null
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos"
         },
         "tmdb_id_scelto": 42435
-      },
-      "tmdb_media_type": "movie"
+      }
     },
     {
       "video_id": "nSgW20g3kUo",
@@ -3594,10 +3601,10 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "original_title": "Totò Sapore e la magica storia della pizza",
+      "original_title": "Toto Sapore e la Magica Storia della Pizza",
       "genre": "animazione",
       "tmdb_id": 71571,
-      "tmdb_title_official": "Totò Sapore e la magica storia della pizza",
+      "tmdb_title_official": "Toto Sapore e la Magica Storia della Pizza",
       "tmdb_year_official": 2003,
       "tmdb_poster_path": "/sARJMq4T4ftHxr1oZOhUcbR0pEX.jpg",
       "tmdb_confidence": "verified",
@@ -3605,7 +3612,7 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_italiano": "Totò Sapore e la magica storia della pizza",
+        "titolo_italiano": "Toto Sapore e la Magica Storia della Pizza",
         "titolo_originale": "Totò Sapore e la magica storia della pizza",
         "anno_uscita": 2003,
         "durata_minuti": 79,
@@ -3627,8 +3634,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/m1OSCGV2KsgQWrXjCeEslsQqsBc.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/225141",
               "verificata": true
             }
           },
@@ -3638,8 +3645,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/mtvz5X6fHGI9pgRgoqQNN1crBp6.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/99540",
               "verificata": true
             }
           },
@@ -3649,8 +3656,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/hggXHDBmJwrEkDMf4cCk3ku9OXq.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/235563",
               "verificata": true
             }
           },
@@ -3660,8 +3667,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/zMnui6UA4SSCJLoJjXBemtcZws0.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/936728",
               "verificata": true
             }
           },
@@ -3671,8 +3678,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/vKhuJgkKrE285zmX0u52x2emVZh.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/224945",
               "verificata": true
             }
           },
@@ -3682,8 +3689,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/4ko1zNEzBF4Iw3isV0w2H2DkkWO.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2442438",
               "verificata": true
             }
           },
@@ -3693,8 +3700,8 @@
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2442439",
               "verificata": false
             }
           },
@@ -3704,8 +3711,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/iXspSbOFe7HIDOHGi68hoj4kCsX.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/226527",
               "verificata": true
             }
           },
@@ -3715,8 +3722,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/ezzGsS26qZb6QzTqeoQgrMGb3lw.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/78679",
               "verificata": true
             }
           },
@@ -3726,8 +3733,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/8mNZFxdbQTcmHQn3T4djQXVRbCC.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1679055",
               "verificata": true
             }
           }
@@ -3736,17 +3743,56 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/sARJMq4T4ftHxr1oZOhUcbR0pEX.jpg",
         "trailer": {
-          "fonte": "YouTube",
-          "lingua": "it",
-          "ufficiale": false,
-          "verificato": true,
-          "motivo_verifica": "TMDB videos",
           "url": "https://www.youtube.com/watch?v=Z7BnmjE8y70",
-          "canale": null
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos"
         },
         "tmdb_id_scelto": 71571
-      },
-      "tmdb_media_type": "movie"
+      }
+    },
+    {
+      "video_id": "aFcgYP5oNqs",
+      "is_movie": true,
+      "channel": "Animazione",
+      "manual_include": true,
+      "original_title": "Mos? e i Dieci Comandamenti",
+      "genre": "animazione",
+      "tmdb_id": 573578,
+      "tmdb_title_official": "Mos? e i Dieci Comandamenti",
+      "tmdb_year_official": 2007,
+      "tmdb_poster_path": "/4FGoiICr86gU0O10rWXh3umlQkG.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 573578",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Mos? e i Dieci Comandamenti",
+        "titolo_originale": "The Old Testament Bible Stories for Children - Moses and the Ten Commandments",
+        "anno_uscita": 2007,
+        "durata_minuti": 330,
+        "genere": [
+          "Animazione"
+        ],
+        "regista": [],
+        "cast_principale": [],
+        "trama": "La Bibbia prende vita in questa deliziosa serie animata. I video di questa serie raccontano la storia degli ebrei da Giuseppe a Mosè e ai Dieci Comandamenti in un cofanetto di quattro dischi. I dischi video sono i seguenti: Disco 1 - Giuseppe e i suoi Fratelli, Disco 2 - Mosè: Principe d'Egitto, Disco 3 - Mosè: L'uscita dall'Egitto e Disco 4 - Mosè e i Dieci Comandamenti.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/4FGoiICr86gU0O10rWXh3umlQkG.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=KBzbyIPWVT4",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'THE TEN COMMANDMENTS | Official Trailer | Paramoun' (102s)"
+        },
+        "tmdb_id_scelto": 573578
+      }
     },
     {
       "video_id": "4KPprx5bC_k",
@@ -4064,10 +4110,10 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "original_title": "Il primo Halloween da Efelante",
+      "original_title": "Winnie the Pooh - Il Primo Halloween da Elefante",
       "genre": "animazione",
       "tmdb_id": 14885,
-      "tmdb_title_official": "Il primo Halloween da Efelante",
+      "tmdb_title_official": "Winnie the Pooh - Il Primo Halloween da Elefante",
       "tmdb_year_official": 2005,
       "tmdb_poster_path": "/4wb7EmJqFQ0TtHNxE6tkRJReE4X.jpg",
       "tmdb_confidence": "verified",
@@ -4075,7 +4121,7 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_italiano": "Il primo Halloween da Efelante",
+        "titolo_italiano": "Winnie the Pooh - Il Primo Halloween da Elefante",
         "titolo_originale": "Pooh's Heffalump Halloween Movie",
         "anno_uscita": 2005,
         "durata_minuti": 64,
@@ -4094,8 +4140,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/8ktMwTxDqgyiYKdIB5dWEuX2zG1.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/6860",
               "verificata": true
             }
           },
@@ -4105,8 +4151,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/9Snf4fBUkk5MrAjqtNtgZRJYJbj.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/19540",
               "verificata": true
             }
           },
@@ -4116,8 +4162,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/c0sQPRCM5Ri3F4gVyxPr4AcPmIq.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/12077",
               "verificata": true
             }
           },
@@ -4127,8 +4173,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/27sXisLWQJQ49PD40j89miNhL73.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5247",
               "verificata": true
             }
           },
@@ -4138,8 +4184,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/2pvv1gFv5V0IlLY6rBz0Y4YLMyc.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/77482",
               "verificata": true
             }
           },
@@ -4149,8 +4195,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/jnu2fpQeIgSa9LcoI4pbu3WSm9f.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/60739",
               "verificata": true
             }
           },
@@ -4160,19 +4206,19 @@
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/77484",
               "verificata": false
             }
           },
           {
             "nome": "David Ogden Stiers",
-            "personaggio": "Narrator",
+            "personaggio": "Narratore",
             "foto_url": "https://image.tmdb.org/t/p/w185/cgCTQt3RZVkhkusG77l4HwHEH6A.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/28010",
               "verificata": true
             }
           },
@@ -4182,8 +4228,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/pM1lp3yqGslYdgIOXLIgBGmNrDd.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/81082",
               "verificata": true
             }
           },
@@ -4193,8 +4239,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/923UPZB3B3KYzjRUOrUDOYv5Zrh.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/90453",
               "verificata": true
             }
           }
@@ -4202,10 +4248,17 @@
         "trama": "È il primo Halloween di Effy insieme a Ro, Winnie the Pooh e i loro amici nel Bosco dei Cento Acri. Gli amici discutono i loro piani per Halloween e per la prima notte di Effy di \"dolcetto o scherzetto\".",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/4wb7EmJqFQ0TtHNxE6tkRJReE4X.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=9cl837RNQ6U",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "Ricerca YouTube: 'Pooh’s Heffalump Halloween: The Movie Trailer (200' (79s)"
+        },
         "tmdb_id_scelto": 14885
-      },
-      "tmdb_media_type": "movie"
+      }
     },
     {
       "video_id": "7gn6YGZt-lo",
@@ -4396,8 +4449,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/vTXlgPbeMmzNyVPOuSlsVFPtnaC.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/565325",
               "verificata": true
             }
           },
@@ -4407,8 +4460,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/t9jsZSVbqsmlGWX8dhSpC5iuo8X.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/128297",
               "verificata": true
             }
           },
@@ -4418,8 +4471,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/zxAi9Lwxerx3GCSX7TG5KDIY1yz.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1298480",
               "verificata": true
             }
           },
@@ -4429,8 +4482,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/cQYN1NT6gKH8LNJqNTdAZFOeyoe.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/565309",
               "verificata": true
             }
           },
@@ -4440,8 +4493,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/3Cb8JTcHpaperEMJY95aY2p88us.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1020724",
               "verificata": true
             }
           },
@@ -4451,8 +4504,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/57AStVQT0MTdgKHeHVeWliUpbfa.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/86841",
               "verificata": true
             }
           },
@@ -4462,8 +4515,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/4vZ1ybH9lDDDil8amdmDoujQ9gT.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/128298",
               "verificata": true
             }
           },
@@ -4473,8 +4526,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/4b0ll4Ce1JWIFU2BBRvKMtIPgHM.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/86842",
               "verificata": true
             }
           },
@@ -4484,8 +4537,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/66z99shLbYh6T5hHWaGdcpXOqt.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1624535",
               "verificata": true
             }
           },
@@ -4495,8 +4548,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/2SSX0q5s7Exb2ejWR3Jf14getT.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1298527",
               "verificata": true
             }
           }
@@ -4505,13 +4558,13 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/H4PoN4P2wIV7L0myCPmMcZKCU0.jpg",
         "trailer": {
-          "fonte": "YouTube",
+          "url": "https://www.youtube.com/watch?v=brehkGE_jzE",
           "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
           "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos (en-US)",
-          "url": "https://www.youtube.com/watch?v=brehkGE_jzE",
-          "canale": null
+          "motivo_verifica": "TMDB videos (en-US)"
         },
         "tmdb_id_scelto": 72214
       }
@@ -4811,10 +4864,10 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "original_title": "Nasolungo e la Principessa",
-      "genre": "fantascienza",
+      "original_title": "Nasolungo Principessa",
+      "genre": "animazione",
       "tmdb_id": 51349,
-      "tmdb_title_official": "Nasolungo e la Principessa",
+      "tmdb_title_official": "Nasolungo Principessa",
       "tmdb_year_official": 2003,
       "tmdb_poster_path": "/fOru3aBK4M4LPixEQGGfYcYBJoG.jpg",
       "tmdb_confidence": "verified",
@@ -4822,10 +4875,10 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_italiano": "Nasolungo e la Principessa",
+        "titolo_italiano": "Nasolungo Principessa",
         "titolo_originale": "Карлик Нос",
         "anno_uscita": 2003,
-        "durata_minuti": null,
+        "durata_minuti": 0,
         "genere": [
           "Animazione",
           "Fantasy"
@@ -4836,12 +4889,12 @@
         "cast_principale": [
           {
             "nome": "Albert Asadullin",
-            "personaggio": "Jacob, the Dwarf (voice)",
+            "personaggio": "Giacobbe, il Nano",
             "foto_url": "https://image.tmdb.org/t/p/w185/ek91ubhCwKujwbrqZ64tuJtSdJh.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/143974",
               "verificata": true
             }
           },
@@ -4851,30 +4904,30 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/lUg5y5hOxlUTxmezwhNvBlqNns7.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/119216",
               "verificata": true
             }
           },
           {
             "nome": "Евгения Игумнова",
-            "personaggio": "Princess / The Goose (voice)",
+            "personaggio": "La Principessa / L'Oca (voce)",
             "foto_url": "https://image.tmdb.org/t/p/w185/2vATpJumGLT0SPNG8iwZBGTLWS6.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/143976",
               "verificata": true
             }
           },
           {
             "nome": "Елена Шульман",
-            "personaggio": "Jacob, the Boy (voice)",
+            "personaggio": "Giacobbe, il Ragazzo",
             "foto_url": "https://image.tmdb.org/t/p/w185/v1p7nl5H0rsVKvsZnJbVrht4pLh.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/143975",
               "verificata": true
             }
           },
@@ -4884,30 +4937,30 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/pEZfv6cNGJ5ZLVGsqHYYypAiKqb.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/110036",
               "verificata": true
             }
           },
           {
             "nome": "Иван Краско",
-            "personaggio": "The King (voice)",
+            "personaggio": "Il Re",
             "foto_url": "https://image.tmdb.org/t/p/w185/9Z0I4NDgIvDRqcAB74Ny48zma02.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/110035",
               "verificata": true
             }
           },
           {
             "nome": "Aleksey Gurev",
-            "personaggio": "Bluhm / the potter (voice)",
+            "personaggio": "Bluhm / il vasaio (voce)",
             "foto_url": "https://image.tmdb.org/t/p/w185/kKtbiVXCasx0X4N97wJuO4DtLAF.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/143977",
               "verificata": true
             }
           },
@@ -4917,19 +4970,19 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/wtoFDhxP5Xqvznb5fO1Ajb8390M.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2595391",
               "verificata": true
             }
           },
           {
             "nome": "Виктор Сухоруков",
-            "personaggio": "Angel, the guard (voice)",
+            "personaggio": "Angelo, la guardia (voce)",
             "foto_url": "https://image.tmdb.org/t/p/w185/wkGGfQ1GNRIuAtBWDU0W36DlH3T.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/86940",
               "verificata": true
             }
           },
@@ -4939,8 +4992,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/rXvPKpty9486cVTyr1X9G2la08D.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/110037",
               "verificata": true
             }
           }
@@ -4948,10 +5001,17 @@
         "trama": "Una strega malvagia ha bisogno di Jacob, il buon figlio del calzolaio, per portare a compimento i suoi sinistri piani. Quando Jacob rifiuta, la strega gli strappa sette anni di vita e lo trasforma in un nano deforme. Jacob e la principessa uniscono le forze per ritornare alle loro famiglie e fermare il malefico piano della strega. Ci riusciranno?",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/fOru3aBK4M4LPixEQGGfYcYBJoG.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=dgVoSsCfZbQ",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 51349
-      },
-      "tmdb_media_type": "movie"
+      }
     },
     {
       "video_id": "xSh9lM439Ys",
@@ -5919,10 +5979,10 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "original_title": "Senza famiglia",
+      "original_title": "Remi senza famiglia",
       "genre": "animazione",
       "tmdb_id": 355345,
-      "tmdb_title_official": "Senza famiglia",
+      "tmdb_title_official": "Remi senza famiglia",
       "tmdb_year_official": 1970,
       "tmdb_poster_path": "/8sk9GSor8DKcmpdZRAkcHjw8kLe.jpg",
       "tmdb_confidence": "verified",
@@ -5930,7 +5990,7 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_italiano": "Senza famiglia",
+        "titolo_italiano": "Remi senza famiglia",
         "titolo_originale": "ちびっ子レミと名犬カピ",
         "anno_uscita": 1970,
         "durata_minuti": 80,
@@ -5947,8 +6007,8 @@
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1102520",
               "verificata": false
             }
           },
@@ -5958,8 +6018,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/bfPdwV4TCWJ7jjf16MFNsOndHWB.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/125721",
               "verificata": true
             }
           },
@@ -5969,8 +6029,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/2IOxU4bheBeabmDvIaoQlJ0Dpyz.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1200226",
               "verificata": true
             }
           },
@@ -5980,8 +6040,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/qDMwdYtLjj58ronpF7W0TNcwnSZ.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/91288",
               "verificata": true
             }
           },
@@ -5991,8 +6051,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/qjP8dnWaKLhOrCYnQt7DJvCEfFm.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1078694",
               "verificata": true
             }
           },
@@ -6002,8 +6062,8 @@
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4127107",
               "verificata": false
             }
           },
@@ -6013,8 +6073,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/vqxmSd16mlStOpKDzuup8U3l9LP.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/125285",
               "verificata": true
             }
           },
@@ -6024,8 +6084,8 @@
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4127109",
               "verificata": false
             }
           },
@@ -6035,8 +6095,8 @@
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4127110",
               "verificata": false
             }
           },
@@ -6046,8 +6106,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/5mwIPkudcnoqHsxKmj6miUNeTdI.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/80608",
               "verificata": true
             }
           }
@@ -6057,18 +6117,17 @@
         "locandina_url": "https://image.tmdb.org/t/p/w500/8sk9GSor8DKcmpdZRAkcHjw8kLe.jpg",
         "trailer": null,
         "tmdb_id_scelto": 355345
-      },
-      "tmdb_media_type": "movie"
+      }
     },
     {
       "video_id": "2uup8xDC5_M",
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "original_title": "Doraemon: Il film - Nobita e la grande avventura in Antartide",
-      "genre": "fantascienza",
+      "original_title": "Doraemon - Nobita e la Grande Avventura in Antartide",
+      "genre": "animazione",
       "tmdb_id": 462677,
-      "tmdb_title_official": "Doraemon: Il film - Nobita e la grande avventura in Antartide",
+      "tmdb_title_official": "Doraemon - Nobita e la Grande Avventura in Antartide",
       "tmdb_year_official": 2017,
       "tmdb_poster_path": "/Aph2GknEdGmE5J2NOltCtuj1Ge.jpg",
       "tmdb_confidence": "verified",
@@ -6076,7 +6135,7 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_italiano": "Doraemon: Il film - Nobita e la grande avventura in Antartide",
+        "titolo_italiano": "Doraemon - Nobita e la Grande Avventura in Antartide",
         "titolo_originale": "映画ドラえもん のび太の南極カチコチ大冒険",
         "anno_uscita": 2017,
         "durata_minuti": 101,
@@ -6098,8 +6157,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/sJ4kytbg2XiERgch3k2k82FXK2B.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1241939",
               "verificata": true
             }
           },
@@ -6109,8 +6168,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/zelZQmq65MaiSeDIiqEpZOINIxd.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/932986",
               "verificata": true
             }
           },
@@ -6120,8 +6179,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/sVIBofobg32jmGmL0gjEDVsJdaz.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/9715",
               "verificata": true
             }
           },
@@ -6131,8 +6190,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/jGQC9KkfNMh2wBgizw81GLX2KN2.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/90567",
               "verificata": true
             }
           },
@@ -6142,8 +6201,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/8o24ix4Lk9WduRXFDI6Nmip5Deq.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1142780",
               "verificata": true
             }
           },
@@ -6153,8 +6212,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/yKpXkoOsLWPCO8SGD1vWwj9krov.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/932984",
               "verificata": true
             }
           },
@@ -6164,8 +6223,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/mvKgkuAVVMmjkFWlwVQu8KCa80O.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/77931",
               "verificata": true
             }
           },
@@ -6175,8 +6234,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/iw0X8oDutxaBAri3Ifga8nhdUJK.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/110665",
               "verificata": true
             }
           },
@@ -6186,8 +6245,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/12vPpqoppN12i3Zk313dwQsUQYi.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/553282",
               "verificata": true
             }
           },
@@ -6197,8 +6256,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/xHonhNFpTpz9zCVXLAF7D4OuHLv.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/83928",
               "verificata": true
             }
           }
@@ -6207,27 +6266,26 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/Aph2GknEdGmE5J2NOltCtuj1Ge.jpg",
         "trailer": {
-          "fonte": "YouTube",
-          "lingua": "it",
-          "ufficiale": false,
-          "verificato": true,
-          "motivo_verifica": "TMDB videos",
           "url": "https://www.youtube.com/watch?v=ydwy9HwAfnU",
-          "canale": null
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos"
         },
         "tmdb_id_scelto": 462677
-      },
-      "tmdb_media_type": "movie"
+      }
     },
     {
       "video_id": "fwpzOKQrlNE",
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "original_title": "La tomba delle lucciole",
+      "original_title": "Una Tomba per le Lucciole",
       "genre": "animazione",
       "tmdb_id": 12477,
-      "tmdb_title_official": "La tomba delle lucciole",
+      "tmdb_title_official": "Una Tomba per le Lucciole",
       "tmdb_year_official": 1988,
       "tmdb_poster_path": "/kwXG1DSpciHsBvcBojqMqGkU7pe.jpg",
       "tmdb_confidence": "verified",
@@ -6235,7 +6293,7 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_italiano": "La tomba delle lucciole",
+        "titolo_italiano": "Una Tomba per le Lucciole",
         "titolo_originale": "火垂るの墓",
         "anno_uscita": 1988,
         "durata_minuti": 93,
@@ -6254,8 +6312,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/opRQfqXqAcUaqLMNARi78S7KZVa.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/72413",
               "verificata": true
             }
           },
@@ -6265,8 +6323,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/ltxZJRUAMsKqnflUKw1zlSjMhcu.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/72414",
               "verificata": true
             }
           },
@@ -6276,8 +6334,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/yvpARjDfEri1a3nh7OXywzWb1Xn.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/72415",
               "verificata": true
             }
           },
@@ -6287,19 +6345,19 @@
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/72416",
               "verificata": false
             }
           },
           {
             "nome": "Masayo Sakai",
-            "personaggio": "Woman who takes care of Setsuko (voice)",
+            "personaggio": "Donna che si prende cura di Setsuko (voce)",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3773484",
               "verificata": false
             }
           },
@@ -6309,8 +6367,8 @@
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3773478",
               "verificata": false
             }
           },
@@ -6320,8 +6378,8 @@
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3773488",
               "verificata": false
             }
           },
@@ -6331,8 +6389,8 @@
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3773491",
               "verificata": false
             }
           },
@@ -6342,8 +6400,8 @@
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3773492",
               "verificata": false
             }
           },
@@ -6353,8 +6411,8 @@
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3773494",
               "verificata": false
             }
           }
@@ -6363,17 +6421,16 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/kwXG1DSpciHsBvcBojqMqGkU7pe.jpg",
         "trailer": {
-          "fonte": "YouTube",
+          "url": "https://www.youtube.com/watch?v=VkApJzqpQ1c",
           "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
           "ufficiale": true,
           "verificato": true,
-          "motivo_verifica": "TMDB videos",
-          "url": "https://www.youtube.com/watch?v=VkApJzqpQ1c",
-          "canale": null
+          "motivo_verifica": "TMDB videos"
         },
         "tmdb_id_scelto": 12477
-      },
-      "tmdb_media_type": "movie"
+      }
     },
     {
       "video_id": "A-Z9F31OEWM",
@@ -6692,150 +6749,134 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "original_title": "Thumbelina - Pollicina",
-      "genre": "fantascienza",
-      "tmdb_id": 28032,
-      "tmdb_title_official": "Thumbelina - Pollicina",
+      "original_title": "Pollicina",
+      "genre": "animazione",
+      "tmdb_id": 86646,
+      "tmdb_title_official": "Pollicina",
       "tmdb_year_official": 1994,
-      "tmdb_poster_path": "/oIA5WYanHccY1feyQ7fMBJJrpfX.jpg",
+      "tmdb_poster_path": "/gM5WWnIE3KSJnuh5TyivWqppF4D.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 86646",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_italiano": "Thumbelina - Pollicina",
-        "titolo_originale": "Thumbelina",
+        "titolo_italiano": "Pollicina",
+        "titolo_originale": "世界名作童話 おやゆび姫",
         "anno_uscita": 1994,
-        "durata_minuti": 86,
+        "durata_minuti": 63,
         "genere": [
           "Animazione",
+          "Famiglia",
           "Fantasy",
-          "Romance",
-          "Famiglia"
+          "Romance"
         ],
         "regista": [
-          "Gary Goldman",
-          "Don Bluth"
+          "芹川有吾"
         ],
         "cast_principale": [
           {
-            "nome": "Jodi Benson",
+            "nome": "Kazuko Sugiyama",
             "personaggio": "Thumbelina (voice)",
-            "foto_url": "https://image.tmdb.org/t/p/w185/4mxtuq3mXLZwPKbI7t0KFxf0PRW.jpg",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mJYbhWLVvoK6PtD1fpeGJHA8W83.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/114913",
               "verificata": true
             }
           },
           {
-            "nome": "Gino Conforti",
-            "personaggio": "Jacquimo (voice)",
-            "foto_url": "https://image.tmdb.org/t/p/w185/u1eyPOCnqApU2WmLbAQJZhfygM8.jpg",
+            "nome": "宮城まり子",
+            "personaggio": "Bunbu (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pfc62fHL9Eq0CbvLlilSiVLuoS4.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/278271",
               "verificata": true
             }
           },
           {
-            "nome": "Barbara Cook",
-            "personaggio": "Mother (voice)",
-            "foto_url": "https://image.tmdb.org/t/p/w185/xAHve15jOy0hKr2eBwPENpU7etr.jpg",
+            "nome": "岸田今日子",
+            "personaggio": "Narratore / Gekoo (voce)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/d5raLmrkUXAgJ7kN17Uedwwu4iD.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/94188",
               "verificata": true
             }
           },
           {
-            "nome": "Will Ryan",
-            "personaggio": "Hero / Reverend Rat (voice)",
-            "foto_url": "https://image.tmdb.org/t/p/w185/qRkyGcSju2VmEb7RTBM3Wpa0rvI.jpg",
+            "nome": "Masako Nozawa",
+            "personaggio": "Chumi (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jxbXdejmPoiKnNoQz7Dkb80qC26.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/90496",
               "verificata": true
             }
           },
           {
-            "nome": "June Foray",
-            "personaggio": "Queen Tabitha (voice)",
-            "foto_url": "https://image.tmdb.org/t/p/w185/6s5sWcOPGtVdbMFtZwkWadArj2I.jpg",
+            "nome": "富田耕生",
+            "personaggio": "Mole (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nSGbAVJaUsrvcGujlByBjNH6dje.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/551966",
               "verificata": true
             }
           },
           {
-            "nome": "Kenneth Mars",
-            "personaggio": "King Colbert (voice)",
-            "foto_url": "https://image.tmdb.org/t/p/w185/dhvJ6DlH5n85Q1fN16rJsRJ0KiH.jpg",
+            "nome": "Ichirō Nagai",
+            "personaggio": "Papa Frog (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/d5LuqwoIjMIqKvKmEk5y6AZY1Ww.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/617",
               "verificata": true
             }
           },
           {
-            "nome": "Gary Imhoff",
-            "personaggio": "Prince Cornelius (voice)",
-            "foto_url": "https://image.tmdb.org/t/p/w185/hm3JDtO1CTbC5aHdV94QRmcMI4C.jpg",
+            "nome": "高橋和枝",
+            "personaggio": "Mama Frog (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xN0V0E64BU2xx5nUMro4Z6FhuBS.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1152825",
               "verificata": true
             }
           },
           {
-            "nome": "Joe Lynch",
-            "personaggio": "Grundel (voice)",
-            "foto_url": "https://image.tmdb.org/t/p/w185/vfa8gv3XPZfdg1KglS1uBLQNST9.jpg",
+            "nome": "小原乃梨子",
+            "personaggio": "Prince (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/u5dvWzckBXvZw8Oexn5VN08vW7G.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Charo",
-            "personaggio": "Mrs. Toad (voice)",
-            "foto_url": "https://image.tmdb.org/t/p/w185/U9hXHQCnrYTbnmmPdHfN6k1qh2.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Danny Mann",
-            "personaggio": "Mozo (voice)",
-            "foto_url": "https://image.tmdb.org/t/p/w185/980QYqXIZCMn5Knx0vjROkw9vKo.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1018899",
               "verificata": true
             }
           }
         ],
-        "trama": "Una signora senza marito sogna di avere una bambina. Chiede aiuto a una strega buona, che le dona un chicco d'orzo dicendole di piantarlo in un vaso e innaffiarlo. La donna così fa, e nasce un fiore che schiudendosi dà alla luce una fanciulla già adolescente grande come un pollice, caratteristica che ispira alla madre il nome per la figlia. Pollicina è amata da tutti gli amici animali della fattoria dove vive e dalla madre, ma sogna un giorno di poter trovare l'amore nonostante le piccole dimensioni che avrebbe conservato per tutta la vita.",
+        "trama": "Pollicina vive felice in una fattoria e si innamora di un bellissimo principe elfo. Ma dopo il primo appuntamento la ragazza viene rapita da dei rospi...",
         "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/oIA5WYanHccY1feyQ7fMBJJrpfX.jpg",
-        "trailer": null,
-        "tmdb_id_scelto": 28032
-      },
-      "tmdb_media_type": "movie"
+        "locandina_url": "https://image.tmdb.org/t/p/w500/gM5WWnIE3KSJnuh5TyivWqppF4D.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=lVmDLdsXsbM",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos"
+        },
+        "tmdb_id_scelto": 86646
+      }
     },
     {
       "video_id": "TrXDvsmK5oI",
@@ -7154,10 +7195,10 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "original_title": "La fattoria degli animali",
+      "original_title": "La Fattoria degli Animali",
       "genre": "animazione",
       "tmdb_id": 11848,
-      "tmdb_title_official": "La fattoria degli animali",
+      "tmdb_title_official": "La Fattoria degli Animali",
       "tmdb_year_official": 1954,
       "tmdb_poster_path": "/zcyaKVv9t52LLsmaAubBjDbt92i.jpg",
       "tmdb_confidence": "verified",
@@ -7165,7 +7206,7 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_italiano": "La fattoria degli animali",
+        "titolo_italiano": "La Fattoria degli Animali",
         "titolo_originale": "Animal Farm",
         "anno_uscita": 1954,
         "durata_minuti": 72,
@@ -7180,12 +7221,12 @@
         "cast_principale": [
           {
             "nome": "Gordon Heath",
-            "personaggio": "Narrator (voice)",
+            "personaggio": "Narratore (voce)",
             "foto_url": "https://image.tmdb.org/t/p/w185/c3WfQJxfxc7EEbFPcwebHt9MS3d.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/70718",
               "verificata": true
             }
           },
@@ -7195,8 +7236,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/emSAhipSEjxZfAeymqlWHLvC5rT.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/39952",
               "verificata": true
             }
           }
@@ -7204,38 +7245,45 @@
         "trama": "Il romanzo è un'allegoria del totalitarismo sovietico del periodo staliniano. È ambientato in una fattoria dove gli animali, stanchi dello sfruttamento dell'uomo, si ribellano. Dopo aver cacciato il padrone, gli animali decidono di dividere il risultato del loro lavoro seguendo il principio marxista «da ognuno secondo le proprie capacità, a ognuno secondo i propri bisogni». Il loro sogno utopico[1] verrà poi gettato al vento perché i maiali si impossesseranno della fattoria. Questi, che erano stati gli ideatori della \"rivoluzione\", prendono il controllo della fattoria, diventando sempre più simili all'uomo, finché persino il loro aspetto diventerà antropomorfo. La satira verso gli ideali utopici della Rivoluzione russa è resa ancora più diretta dal fatto che ogni evento ed ogni personaggio descritti nel romanzo rappresentano l'allegoria di un preciso evento o personaggio della realtà storica.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/zcyaKVv9t52LLsmaAubBjDbt92i.jpg",
-        "trailer": null,
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=YGCo5Tva39s",
+          "lingua": "en",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos (en-US)"
+        },
         "tmdb_id_scelto": 11848
-      },
-      "tmdb_media_type": "movie"
+      }
     },
     {
       "video_id": "tFrR8sUu0k4",
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "original_title": "The Forgotten Toys",
+      "original_title": "Teddy & Annie - I Giocattoli Dimenticati",
       "genre": "animazione",
-      "tmdb_id": 14384,
-      "tmdb_title_official": "The Forgotten Toys",
+      "tmdb_id": 179453,
+      "tmdb_title_official": "Teddy & Annie - I Giocattoli Dimenticati",
       "tmdb_year_official": 1997,
-      "tmdb_poster_path": "/fSKueXXlHnNzmnkJuBkgJPfcZjk.jpg",
+      "tmdb_poster_path": "/68z68kGvNORD7HQDWL1rrmbNogb.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 179453",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_italiano": "The Forgotten Toys",
+        "titolo_italiano": "Teddy & Annie - I Giocattoli Dimenticati",
         "titolo_originale": "The Forgotten Toys",
         "anno_uscita": 1997,
-        "durata_minuti": 11,
+        "durata_minuti": 25,
         "genere": [
           "Animazione",
-          "Kids",
-          "Famiglia"
+          "Famiglia",
+          "Fantasy"
         ],
         "regista": [
-          "James Stevenson"
+          "Graham Ralph"
         ],
         "cast_principale": [
           {
@@ -7244,8 +7292,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/qOeE7bVHAsNTbP77Qk6TwrrWHZc.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/382",
               "verificata": true
             }
           },
@@ -7255,41 +7303,48 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/omQvLqkQf9yemMroaj6MJbf37sf.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/34901",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Clement Freud",
+            "personaggio": "Chauncey (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/sTWhfdTxg7yeFYM3niXoYQ7hP6n.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1220521",
               "verificata": true
             }
           },
           {
             "nome": "Andrew Sachs",
-            "personaggio": "Additional Voices (voice)",
+            "personaggio": "Chef / Vecchio (voce)",
             "foto_url": "https://image.tmdb.org/t/p/w185/yBaD13paNIIQwUBNHbmNwwjKUXl.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/47851",
               "verificata": true
-            }
-          },
-          {
-            "nome": "Kate Sachs",
-            "personaggio": "Additional Voices (voice)",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
-            "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
-              "verificata": false
             }
           }
         ],
-        "trama": "The Forgotten Toys is an animated series made by Hibbert Ralph Entertainment, featuring the voices of Joanna Lumley and Bob Hoskins. The voice of Andrew Sachs is also featured. It is a poignant tale of abandoned toys who are searching for a child to love them.",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/fSKueXXlHnNzmnkJuBkgJPfcZjk.jpg",
-        "trailer": null,
-        "tmdb_id_scelto": 14384
-      },
-      "tmdb_media_type": "tv"
+        "trama": "Teddy e Annie sono i teneri protagonisti di questa dolce storia che ha inizio in una gelida notte di Natale. Abbandonati dai loro padroncini perché rimpiazzati da nuovi giocattoli, quest'orsacchiotto di peluche e questa bambola di pezza si incontrano in un bidone della spazzatura e diventano subito amici inseparabili. Tra guai e mille peripezie i nostri piccoli protagonisti incontreranno nuovi amici insieme ai quali vivranno bellissime avventure e tante emozioni... fino all'immancabile lieto fine.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/68z68kGvNORD7HQDWL1rrmbNogb.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=HVO6qCe8QBM",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos"
+        },
+        "tmdb_id_scelto": 179453
+      }
     },
     {
       "video_id": "edDiBI2fQ4g",
