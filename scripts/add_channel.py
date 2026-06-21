@@ -78,6 +78,9 @@ def parse_title(raw):
     seen, out = set(), []
     for c in cand + extra:
         cl = c.lower()
+        # scarta candidati inutili: numeri puri/anni isolati ("2018"), token troppo corti
+        if re.fullmatch(r"(?:19|20)?\d{1,4}", c.strip()):
+            continue
         if len(c) >= 2 and cl not in seen:
             seen.add(cl); out.append(c)
     return out, actor, year

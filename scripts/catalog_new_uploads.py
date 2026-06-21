@@ -224,6 +224,12 @@ def handle_duplicate(d, new_entry, cname, apply):
     if not candidates:
         return "new"
 
+    # Rispetta il lock: i film identificati (locked) non vengono modificati
+    # automaticamente (es. trasformati in riserve). Solo modifiche manuali dall'editor.
+    if any(m.get("locked") for m in candidates):
+        print(f"    [LOCK] TMDB {tid} gia' presente e bloccato: non modifico automaticamente")
+        return "duplicate_skipped_parts"
+
     # Evita di mescolare riserve con miniserie/film in parti: quelle restano picker.
     if any(any("parte" in str(label).lower() for label in (m.get("related_video_labels") or [])) for m in candidates):
         print(f"    [DUP/PARTI] TMDB {tid} gia' in gruppo a parti: non modifico automaticamente")
