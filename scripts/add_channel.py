@@ -36,7 +36,11 @@ def tjson(u):
 
 
 def parse_title(raw):
-    """Estrae il/i titolo/i candidati dal pattern 'ITA - HD - Titolo - genere...'."""
+    """Estrae il/i titolo/i candidati dal pattern 'ITA - HD - Titolo - genere...'.
+    Ritorna (candidati, attore, anno). L'anno (da '(2012)') serve a tmdb_match per
+    disambiguare i match (evita di prendere un film omonimo di un altro anno)."""
+    ym = re.search(r"[\(\[]\s*((?:19|20)\d{2})\s*[\)\]]", raw)
+    year = int(ym.group(1)) if ym else None
     parts = [p.strip() for p in re.split(r"\s+-\s+|\s+\|\s+", raw) if p.strip()]
     actor = None
     cand = []
@@ -55,22 +59,51 @@ def parse_title(raw):
         cand.append(p)
     # rimuovi prefissi ITA/HD residui dal primo token
     cand = [re.sub(r"^(ITA\s*-?\s*HD|HD\s*-?\s*ITA|ITA|HD)\s*[-:]?\s*", "", c, flags=re.I).strip() for c in cand]
-    cand = [c for c in cand if len(c) >= 2]
-    return cand, actor
+    # ── Pulizia formato titolo (causa di molti mismatch) ──────────────────────
+    # Per ogni candidato genera varianti più "pulite" che hanno più chance di
+    # matchare TMDB: senza l'anno "(2012)", senza virgolette/puntini, e con il
+    # solo titolo principale prima dei due punti ("BLOOD DEEP: ..." -> "BLOOD DEEP").
+    extra = []
+    for c in list(cand):
+        c2 = re.sub(r"[\(\[]\s*(?:19|20)\d{2}\s*[\)\]]", "", c)        # togli (anno)/[anno]
+        c2 = c2.strip(" \"'“”«»").rstrip(".·-–").strip()
+        if c2 and c2.lower() != c.lower():
+            extra.append(c2)
+        base = c2 if c2 else c
+        if ":" in base:
+            main = base.split(":")[0].strip(" \"'“”«»")
+            if len(main) >= 3:
+                extra.append(main)
+    # dedup mantenendo l'ordine (i titoli "veri" restano davanti ai derivati)
+    seen, out = set(), []
+    for c in cand + extra:
+        cl = c.lower()
+        if len(c) >= 2 and cl not in seen:
+            seen.add(cl); out.append(c)
+    return out, actor, year
 
 
 def sim(a, b):
     return difflib.SequenceMatcher(None, a.lower(), b.lower()).ratio()
 
 
-def tmdb_match(cands, actor):
+def tmdb_match(cands, actor=None, year=None):
     best, best_s = None, 0.0
     for q in cands:
         for lang in ("it-IT", "en-US"):
-            r = tjson(f"https://api.themoviedb.org/3/search/movie?api_key={KEY}&language={lang}&query={urllib.parse.quote(q)}")
+            url = f"https://api.themoviedb.org/3/search/movie?api_key={KEY}&language={lang}&query={urllib.parse.quote(q)}"
+            if year:
+                url += f"&year={year}"
+            r = tjson(url)
             for res in (r or {}).get("results", [])[:5]:
                 s = max(sim(q, res.get("title", "")), sim(q, res.get("original_title", "")))
                 score = s + (0.1 if res.get("poster_path") else -0.4)
+                # disambigua per anno: bonus se combacia (±1), penalità se lontano (>2)
+                if year:
+                    ry = (res.get("release_date") or "")[:4]
+                    if ry.isdigit():
+                        diff = abs(int(ry) - year)
+                        score += 0.15 if diff <= 1 else (-0.2 if diff > 2 else 0)
                 if score > best_s:
                     best_s, best = score, res
     return (best, best_s) if best_s >= 0.72 else (None, best_s)
@@ -134,9 +167,9 @@ def main():
     for i, (vid, raw) in enumerate(films, 1):
         if vid in existing_vids:
             dup_vid += 1; continue
-        cands, actor = parse_title(raw)
+        cands, actor, year = parse_title(raw)
         if actor: cands = cands + [f"{c}".strip() for c in cands]
-        best, score = tmdb_match(cands, actor) if cands else (None, 0)
+        best, score = tmdb_match(cands, actor, year) if cands else (None, 0)
         if best:
             tid = best["id"]
             if tid in existing_tmdb or tid in seen_tmdb_run:

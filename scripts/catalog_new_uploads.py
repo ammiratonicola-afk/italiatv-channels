@@ -296,8 +296,8 @@ def main():
         tot_new += len(new)
 
         for vid, raw in new:
-            cands, actor = parse_title(raw)
-            best, score = tmdb_match(cands, actor) if cands else (None, 0)
+            cands, actor, year = parse_title(raw)
+            best, score = tmdb_match(cands, actor, year) if cands else (None, 0)
             if best:
                 tid = best["id"]
                 entry = full_entry(vid, tid, raw)
