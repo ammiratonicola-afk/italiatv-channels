@@ -16,7 +16,7 @@
   .card h2 { font-size:15px; margin:0 0 12px; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; }
   label { display:block; font-size:13px; color:var(--muted); margin:10px 0 4px; }
   input, select { width:100%; padding:10px 12px; background:var(--card2); border:1px solid #33335a; border-radius:8px; color:var(--text); font-size:14px; }
-  input:focus, select:focus { outline:none; border-color:var(--accent); }
+  input:focus, select:focus, textarea:focus { outline:none; border-color:var(--accent); }
   .row { display:flex; gap:12px; flex-wrap:wrap; }
   .row > div { flex:1; min-width:130px; }
   button { padding:10px 16px; border:none; border-radius:8px; background:var(--accent); color:#fff; font-weight:600; font-size:14px; cursor:pointer; }
@@ -24,6 +24,12 @@
   button:disabled { opacity:.5; cursor:not-allowed; }
   button:hover:not(:disabled) { filter:brightness(1.1); }
   .actions { display:flex; gap:10px; margin-top:14px; align-items:center; flex-wrap:wrap; }
+  .inline-input { display:flex; gap:8px; align-items:stretch; }
+  .inline-input input { flex:1; min-width:0; }
+  .inline-input button { white-space:nowrap; }
+  .aiout { display:none; margin-top:6px; padding:8px 10px; border:1px solid #33335a; border-radius:8px; background:rgba(255,255,255,.04); color:var(--muted); font-size:12px; line-height:1.45; }
+  .aiout.ok { display:block; border-color:var(--ok); color:var(--text); }
+  .aiout.err { display:block; border-color:var(--err); color:var(--text); }
   .help { font-size:12px; color:var(--muted); line-height:1.5; }
   a { color:var(--accent); }
   /* risultati ricerca TMDB */
@@ -129,6 +135,9 @@
       <a href="https://github.com/settings/tokens?type=beta" target="_blank">github.com/settings/tokens</a>
       (Fine-grained → repo <b>italiatv-channels</b> → Repository permissions → <b>Contents: Read and write</b>).
       Resta salvato solo nel tuo browser.</div>
+    <label>Chiave Gemini API</label>
+    <input id="gemini_key" type="password" placeholder="AIza… (usata solo nel tuo browser per il pulsante Gemini)">
+    <div class="help">Serve per il pulsante accanto al link YouTube nella scheda film. Resta salvata solo nel tuo browser.</div>
   </div>
 
   <div class="card">
@@ -233,7 +242,13 @@
           <label>TMDB ID <span class="help" id="m_type" style="margin:0"></span></label><input id="m_tmdb" readonly style="opacity:.7">
         </div>
       </div>
-      <label>🔗 Link YouTube (riproduzione)</label><input id="m_yt" placeholder="https://youtu.be/XXXXXXXXXXX">
+      <label>🔗 Link YouTube (riproduzione)</label>
+      <div class="inline-input">
+        <input id="m_yt" placeholder="https://youtu.be/XXXXXXXXXXX">
+        <button class="sec" id="m_gemini_btn" type="button" onclick="detectOriginalTitle()">✨ Gemini</button>
+      </div>
+      <div id="m_gemini_out" class="aiout"></div>
+      <label>Titolo originale suggerito</label><input id="m_original_guess" placeholder="Risultato Gemini, utile per cercare su TMDB">
       <label>🎬 Link trailer (YouTube)</label><input id="m_trailer" placeholder="https://www.youtube.com/watch?v=…  (vuoto = nessun trailer)">
       <label>Trama</label><textarea id="m_plot" rows="4" style="width:100%;padding:10px 12px;background:var(--card2);border:1px solid #33335a;border-radius:8px;color:var(--text);font-size:14px;font-family:inherit"></textarea>
       <label>Poster (path TMDB, es. /abc.jpg)</label><input id="m_posterpath" placeholder="lascia vuoto per nessuno">
@@ -260,6 +275,7 @@ const RAW=`https://raw.githubusercontent.com/${OWNER}/${REPO}/main/${PATH}`;
 const API=`https://api.github.com/repos/${OWNER}/${REPO}/contents/${PATH}`;
 const TMDB="https://api.themoviedb.org/3", TKEY="b1d160958cc3d7fddbd7de3caf85b926";
 const IMG="https://image.tmdb.org/t/p/";
+const GEMINI_MODEL="gemini-3.5-flash";
 let movies=[], results=[], selected=null;
 
 const $=id=>document.getElementById(id);
@@ -267,6 +283,48 @@ const ytId=s=>{ s=(s||"").trim(); const m=s.match(/(?:v=|youtu\.be\/|embed\/|sho
 function status(msg,ok){ const s=$("status"); s.textContent=msg; s.className=ok?"ok":"err"; }
 function poster(m){ if(m.tmdb_poster_path) return IMG+"w185"+m.tmdb_poster_path; if(m.video_id) return `https://i.ytimg.com/vi/${m.video_id}/mqdefault.jpg`; return ""; }
 function title(m){ return m.tmdb_title_official||m.original_title||m.video_id||"(senza titolo)"; }
+function aiBox(msg, ok=true){ const b=$("m_gemini_out"); b.textContent=msg; b.className=ok?"aiout ok":"aiout err"; }
+function cleanJsonText(s){
+  s=(s||"").trim().replace(/^```(?:json)?/i,"").replace(/```$/,"").trim();
+  const a=s.indexOf("{"), b=s.lastIndexOf("}");
+  return (a>=0 && b>a)?s.slice(a,b+1):s;
+}
+async function askGeminiOriginalTitle(movie){
+  const key=$("gemini_key").value.trim();
+  if(!key) throw new Error("Inserisci prima la chiave Gemini API nel blocco Token GitHub.");
+  const videoId=ytId($("m_yt").value)||movie.video_id;
+  if(!videoId) throw new Error("Link YouTube non valido.");
+  const ytUrl=`https://www.youtube.com/watch?v=${videoId}`;
+  const prompt=[
+    "Sei un esperto di cinema e metadata. Identifica il titolo originale piu probabile del film partendo dai dati dell'editor.",
+    "Rispondi SOLO con JSON valido, senza markdown, con questi campi:",
+    '{"original_title":"","italian_title":"","year":null,"search_query":"","confidence":"alta|media|bassa","reason":""}',
+    "",
+    `URL YouTube: ${ytUrl}`,
+    `Titolo editor: ${$("m_title").value.trim()||movie.tmdb_title_official||movie.original_title||""}`,
+    `Anno editor: ${$("m_year").value.trim()||movie.tmdb_year_official||""}`,
+    `Genere: ${$("m_genre").value||movie.genre||""}`,
+    `Trama nota: ${($("m_plot").value||movie.enriched_plot||"").slice(0,1200)}`,
+    "Se il titolo YouTube contiene parti promozionali tipo ITA, HD, Film Completo, con attori o genere, ignorale.",
+    "Se non sei sicuro, usa confidence bassa e proponi comunque la query migliore per TMDB/IMDb."
+  ].join("\n");
+  const res=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`,{
+    method:"POST",
+    headers:{"Content-Type":"application/json","x-goog-api-key":key},
+    body:JSON.stringify({
+      contents:[{parts:[{text:prompt}]}],
+      generationConfig:{temperature:0.2,responseMimeType:"application/json"}
+    })
+  });
+  if(!res.ok){
+    const err=await res.text().catch(()=>"");
+    throw new Error(`Gemini HTTP ${res.status}: ${err.slice(0,180)}`);
+  }
+  const data=await res.json();
+  const txt=data?.candidates?.[0]?.content?.parts?.map(p=>p.text||"").join("\n")||"";
+  if(!txt) throw new Error("Gemini non ha restituito testo.");
+  return JSON.parse(cleanJsonText(txt));
+}
 
 function render(){
   $("n").textContent=movies.length; $("count").textContent=movies.length+" film";
@@ -639,12 +697,35 @@ function openEdit(vid, src){
   $("m_plot").value=v2.trama||m.enriched_plot||"";
   $("m_posterpath").value=m.tmdb_poster_path||"";
   $("m_yt").value=m.video_id?("https://youtu.be/"+m.video_id):"";
+  $("m_original_guess").value=v2.titolo_originale||m.original_title||"";
+  $("m_gemini_out").className="aiout"; $("m_gemini_out").textContent="";
   $("m_trailer").value=(v2.trailer&&v2.trailer.url)||m.trailer_url||"";
   renderCast(v2.cast_principale);
   $("m_poster").src=poster(m); $("m_results").innerHTML="";
   $("modal").style.display="flex";
 }
 function closeModal(){ $("modal").style.display="none"; editing=null; pendingFull=null; }
+async function detectOriginalTitle(){
+  if(!editing) return;
+  const btn=$("m_gemini_btn");
+  btn.disabled=true; aiBox("Gemini sta analizzando il film...", true);
+  try{
+    const out=await askGeminiOriginalTitle(editing.m);
+    const original=(out.original_title||"").trim();
+    const italian=(out.italian_title||"").trim();
+    const query=(out.search_query||original||italian||"").trim();
+    if(!query) throw new Error("Nessun titolo riconosciuto.");
+    $("m_original_guess").value=original||query;
+    $("m_title").value=query;
+    if(out.year && !$("m_year").value.trim()) $("m_year").value=out.year;
+    aiBox(`Titolo originale: ${original||"non certo"}\nTitolo italiano: ${italian||"non indicato"}\nQuery usata: ${query}\nConfidenza: ${out.confidence||"n/d"}\n${out.reason||""}`, true);
+    await modalSearch();
+  }catch(e){
+    aiBox("Errore Gemini: "+e.message, false);
+  }finally{
+    btn.disabled=false;
+  }
+}
 // ── Editor cast (nome · personaggio · foto) ───────────────────────────────
 function esc(s){ return (s||"").replace(/"/g,"&quot;"); }
 function renderCast(cast){ $("m_cast").innerHTML=""; (cast||[]).forEach(c=>addCastRow(c)); }
@@ -723,6 +804,8 @@ function applyEdit(){
   const pp=$("m_posterpath").value.trim(); m.tmdb_poster_path=pp||null;
   m.strict_id_v2=m.strict_id_v2||{};
   if(tit) m.strict_id_v2.titolo_italiano=tit;
+  const origGuess=$("m_original_guess").value.trim();
+  if(origGuess){ m.original_title=origGuess; m.strict_id_v2.titolo_originale=origGuess; }
   if(yr) m.strict_id_v2.anno_uscita=yr;
   m.strict_id_v2.trama=$("m_plot").value;
   m.strict_id_v2.locandina_url=pp?IMG+"w500"+pp:null;
@@ -767,6 +850,8 @@ function deleteFilm(){
 
 $("token").value=localStorage.getItem("gh_token")||"";
 $("token").addEventListener("change",e=>localStorage.setItem("gh_token",e.target.value.trim()));
+$("gemini_key").value=localStorage.getItem("gemini_key")||"";
+$("gemini_key").addEventListener("change",e=>localStorage.setItem("gemini_key",e.target.value.trim()));
 load();
 </script>
 </body>
