@@ -400,6 +400,19 @@ async function save(){
 
 // ── Catalogo completo per genere (catalogo + manuali, sola lettura) ────────
 const CAT_RAW=`https://raw.githubusercontent.com/${OWNER}/${REPO}/main/movies_metadata.json`;
+const CAT_API=`https://api.github.com/repos/${OWNER}/${REPO}/contents/movies_metadata.json`;
+// Scarica il catalogo SEMPRE aggiornato: con token usa la Contents API (media type raw,
+// niente cache CDN → vede subito i salvataggi); senza token ripiega sul raw CDN (~5 min lag).
+async function fetchCatalogFresh(){
+  const token=$("token").value.trim();
+  if(token){
+    try{
+      const r=await fetch(CAT_API,{headers:{Authorization:"Bearer "+token,Accept:"application/vnd.github.raw"},cache:"no-store"});
+      if(r.ok) return await r.json();
+    }catch(e){}
+  }
+  return await fetch(CAT_RAW+"?t="+Date.now(),{cache:"no-store"}).then(r=>r.json());
+}
 const GENRE_ORDER=[["","In evidenza"],["azione","Azione"],["commedia","Commedia"],["thriller","Thriller"],
   ["horror","Horror"],["romantico","Romantico"],["drammatico","Drammatico"],["fantascienza","Fantascienza"],
   ["animazione","Animazione"],["documentario","Documentari"]];
@@ -448,7 +461,7 @@ async function showCatalog(){
     $("catToIdWrap").style.display="none"; $("delSelBtn").style.display="none"; $("catInfo").textContent=""; $("saveCatBtn").style.display="none"; $("catHint").style.display="none"; return; }
   $("catBtn").disabled=true; $("catInfo").textContent="Carico il catalogo…";
   try{
-    const cat=await fetch(CAT_RAW+"?t="+Date.now()).then(r=>r.json());
+    const cat=await fetchCatalogFresh();
     catRawObj=cat;
     // catalogo (src 'cat') + film manuali già caricati in `movies` (src 'man', stessi oggetti → editabili)
     catalogAll=[...(cat.movies||[]).map(m=>({m,src:"cat"})), ...movies.map(m=>({m,src:"man"}))]
@@ -514,14 +527,14 @@ async function saveCatalog(){
   if(!token){ status("Inserisci prima il token GitHub.",false); return; }
   if(!catRawObj || catDirty.size===0) return;
   $("saveCatBtn").disabled=true; status("Salvo il catalogo (merge con l'ultima versione)…",true);
-  const CATAPI=`https://api.github.com/repos/${OWNER}/${REPO}/contents/movies_metadata.json`;
+  const CATAPI=CAT_API;
   let ok=false, applied=0, lastErr="";
   try{
     // Riprova fino a 5 volte: se nel frattempo arriva un altro commit (es. l'Action),
-    // il PUT dà 409 (sha non valido). Ri-scarico l'ultima versione, ri-applico i miei
-    // film modificati e riprovo → NON perdo le cancellazioni/modifiche per conflitto.
+    // il PUT dà 409 (sha non valido). Ri-scarico l'ultima versione (fresca, no CDN), ri-applico
+    // i miei film modificati e riprovo → NON perdo le cancellazioni/modifiche per conflitto.
     for(let attempt=0; attempt<5 && !ok; attempt++){
-      const latest=await fetch(CAT_RAW+"?t="+Date.now(),{cache:"no-store"}).then(r=>r.json());
+      const latest=await fetchCatalogFresh();
       const byMine={}; (catRawObj.movies||[]).forEach(m=>byMine[m.video_id]=m);
       const idx={}; latest.movies.forEach((m,i)=>idx[m.video_id]=i);
       applied=0;
