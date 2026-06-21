@@ -103,8 +103,13 @@ def _find_continuation(node):
 
 # ── Fetch ──────────────────────────────────────────────────────────────────────
 
+# Cookie di consenso: senza, YouTube serve il muro del consenso EU (specie agli IP
+# datacenter come quelli di GitHub Actions) e ytInitialData arriva vuoto → 0 video.
+CONSENT_COOKIE = "CONSENT=YES+1; SOCS=CAI"
+
+
 def _http_get(url, headers=None, timeout=15):
-    req = Request(url, headers={**(headers or {}), "User-Agent": UA})
+    req = Request(url, headers={**(headers or {}), "User-Agent": UA, "Cookie": CONSENT_COOKIE})
     return urlopen(req, timeout=timeout).read()
 
 
@@ -116,6 +121,7 @@ def _http_post_json(url, body, headers=None, timeout=20):
         "Accept":       "*/*",
         "Origin":       "https://www.youtube.com",
         "Referer":      "https://www.youtube.com/",
+        "Cookie":       CONSENT_COOKIE,
     }
     if headers: h.update(headers)
     req = Request(url, data=data, headers=h, method="POST")
