@@ -58,6 +58,8 @@
   .gfilm .gt { font-size:10px; padding:4px 4px 4px; line-height:1.25; height:30px; overflow:hidden; }
   .gfilm .gt { cursor:pointer; }
   .gfilm img { cursor:pointer; }
+  .gfilm.toid { outline:2px dashed var(--accent); outline-offset:-2px; position:relative; }
+  .gfilm.toid::after { content:"⚠ da identificare"; position:absolute; top:0; left:0; right:0; background:rgba(255,107,53,.92); color:#fff; font-size:9px; text-align:center; padding:2px; }
   /* modale */
   .modal { position:fixed; inset:0; background:rgba(0,0,0,.7); display:flex; align-items:flex-start; justify-content:center; z-index:50; padding:20px; overflow:auto; }
   .mbox { background:var(--card); border:1px solid #2a2a45; border-radius:12px; padding:18px; max-width:560px; width:100%; margin:auto; }
@@ -177,6 +179,7 @@
       <button class="sec" id="catBtn" onclick="showCatalog()">📚 Mostra tutto il catalogo</button>
       <select id="catChannel" style="max-width:220px;display:none" onchange="renderCatalog()"></select>
       <input id="catSearch" placeholder="Filtra per titolo…" style="max-width:200px;display:none" oninput="renderCatalog()">
+      <label id="catToIdWrap" style="display:none;font-size:13px;color:var(--muted);align-items:center;gap:6px;cursor:pointer"><input type="checkbox" id="catOnlyToId" style="width:auto;margin:0" onchange="renderCatalog()"> ⚠️ solo da identificare</label>
       <button id="saveCatBtn" onclick="saveCatalog()" style="display:none">💾 Salva modifiche catalogo</button>
       <span class="help" id="catInfo" style="margin:0"></span>
     </div>
@@ -404,7 +407,7 @@ function sortChannels(a,b){ return a==="🎬 Film manuali"?1 : b==="🎬 Film ma
 async function showCatalog(){
   if(catalogAll){ $("catalog").innerHTML=""; catalogAll=null; catRawObj=null; catDirty.clear();
     $("catBtn").textContent="📚 Mostra tutto il catalogo"; $("catSearch").style.display="none"; $("catChannel").style.display="none";
-    $("catInfo").textContent=""; $("saveCatBtn").style.display="none"; $("catHint").style.display="none"; return; }
+    $("catToIdWrap").style.display="none"; $("catInfo").textContent=""; $("saveCatBtn").style.display="none"; $("catHint").style.display="none"; return; }
   $("catBtn").disabled=true; $("catInfo").textContent="Carico il catalogo…";
   try{
     const cat=await fetch(CAT_RAW+"?t="+Date.now()).then(r=>r.json());
@@ -416,8 +419,11 @@ async function showCatalog(){
     const chans=[...new Set(catalogAll.map(channelOf))].sort(sortChannels);
     $("catChannel").innerHTML=`<option value="all">Tutti i canali (${catalogAll.length})</option>`+
       chans.map(c=>`<option value="${c}">${c} (${catalogAll.filter(x=>channelOf(x)===c).length})</option>`).join("");
+    const nToId=catalogAll.filter(x=>!x.m.tmdb_poster_path).length;
     $("catBtn").textContent="✖ Nascondi catalogo"; $("catChannel").style.display="block";
     $("catSearch").style.display="block"; $("catHint").style.display="block";
+    $("catToIdWrap").style.display="inline-flex";
+    $("catToIdWrap").lastChild.textContent=` ⚠️ solo da identificare (${nToId})`;
     renderCatalog();
   }catch(e){ $("catInfo").textContent="Errore: "+e.message; }
   $("catBtn").disabled=false;
@@ -426,11 +432,13 @@ function renderCatalog(){
   if(!catalogAll) return;
   const q=($("catSearch").value||"").toLowerCase().trim();
   const chSel=$("catChannel").value||"all";
+  const onlyToId=$("catOnlyToId").checked;
   const C=$("catalog"); C.innerHTML=""; let shown=0;
-  // filtra per titolo + canale
+  // filtra per titolo + canale + (eventuale) solo da identificare
   const items=catalogAll.filter(x=>{
     if(q && !title(x.m).toLowerCase().includes(q)) return false;
     if(chSel!=="all" && channelOf(x)!==chSel) return false;
+    if(onlyToId && x.m.tmdb_poster_path) return false;
     return true;
   });
   // raggruppa per CANALE, poi dentro per GENERE
@@ -449,7 +457,8 @@ function renderCatalog(){
       sec.innerHTML=`<h3>${label} <span>(${g.length})</span></h3>`;
       const grid=document.createElement("div"); grid.className="gcat";
       g.forEach(x=>{ const m=x.m;
-        const d=document.createElement("div"); d.className="gfilm"; d.title="Clicca per modificare";
+        const d=document.createElement("div"); d.className="gfilm"+(m.tmdb_poster_path?"":" toid");
+        d.title=m.tmdb_poster_path?"Clicca per modificare":"Da identificare: clicca → Ri-identifica su TMDB";
         d.innerHTML=`<img loading="lazy" src="${poster(m)}" onerror="this.style.visibility='hidden'"><div class="gt">${title(m)}</div>`;
         d.onclick=()=>openEdit(m.video_id, x.src);
         grid.appendChild(d);
