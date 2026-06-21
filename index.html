@@ -343,8 +343,17 @@ function render(){
 
 async function load(){
   status("Carico…",true);
-  try{ const r=await fetch(RAW+"?t="+Date.now()); const j=await r.json(); movies=j.movies||[]; render(); status("Caricati "+movies.length+" film.",true); }
-  catch(e){ status("Errore caricamento: "+e.message,false); }
+  try{
+    // con token: Contents API (no cache CDN → vede subito i salvataggi); senza: raw CDN
+    const token=$("token").value.trim();
+    let j=null;
+    if(token){
+      const r=await fetch(API,{headers:{Authorization:"Bearer "+token,Accept:"application/vnd.github.raw"},cache:"no-store"});
+      if(r.ok) j=await r.json();
+    }
+    if(!j) j=await fetch(RAW+"?t="+Date.now(),{cache:"no-store"}).then(r=>r.json());
+    movies=j.movies||[]; render(); status("Caricati "+movies.length+" film.",true);
+  }catch(e){ status("Errore caricamento: "+e.message,false); }
 }
 
 // ── Ricerca TMDB per titolo ───────────────────────────────────────────────
@@ -491,7 +500,7 @@ function deriveGenre(tmdbGenres){
   for(const p of GENRE_PRIORITY){ if(keys.has(p)) return p; }
   return "";
 }
-let catalogAll=null, catRawObj=null; const catDirty=new Set(); const catSel=new Set();
+let catalogAll=null, catRawObj=null; const catDirty=new Set(); const catSel=new Set(); const catRenamed={};
 function updateDelSelBtn(){ const b=$("delSelBtn"); if(catSel.size){ b.style.display="inline-block"; b.textContent=`🗑 Elimina selezionati (${catSel.size})`; } else b.style.display="none"; }
 function deleteSelected(){
   if(!catSel.size) return;
@@ -602,6 +611,9 @@ async function saveCatalog(){
         else { latest.movies.push(mine); idx[vid]=latest.movies.length-1; }
         applied++;
       });
+      // film con video_id cambiato: togli la vecchia voce dalla versione remota (no doppioni)
+      const oldVids=new Set(Object.values(catRenamed));
+      if(oldVids.size) latest.movies=latest.movies.filter(m=>!oldVids.has(m.video_id));
       const cur=await fetch(CATAPI,{headers:{Authorization:"Bearer "+token}});
       if(!cur.ok){ lastErr="lettura file HTTP "+cur.status; break; }
       const sha=(await cur.json()).sha;
@@ -613,7 +625,7 @@ async function saveCatalog(){
       else { const e=await res.json().catch(()=>({})); lastErr=e.message||("HTTP "+res.status); break; }
     }
   }catch(e){ lastErr=e.message; }
-  if(ok){ catDirty.clear(); $("saveCatBtn").style.display="none"; status(`✓ Catalogo salvato (${applied} film)! Premi 'Aggiorna catalogo ora' in TV.`,true); }
+  if(ok){ catDirty.clear(); Object.keys(catRenamed).forEach(k=>delete catRenamed[k]); $("saveCatBtn").style.display="none"; status(`✓ Catalogo salvato (${applied} film)! Premi 'Aggiorna catalogo ora' in TV.`,true); }
   else status("Errore salvataggio: "+lastErr,false);
   $("saveCatBtn").disabled=false;
 }
@@ -814,6 +826,7 @@ function applyEdit(){
   const newVid=ytId($("m_yt").value);
   if(newVid && newVid!==m.video_id){
     const oldVid=m.video_id;
+    if(src==="cat") catRenamed[newVid]=oldVid;   // per il merge: togli la vecchia voce ed evita doppioni
     if(Array.isArray(m.related_video_ids)) m.related_video_ids=m.related_video_ids.map(x=>x===oldVid?newVid:x);
     m.video_id=newVid;
   }
