@@ -28,23 +28,35 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Importa nuovi film dai canali
-        working-directory: scripts
+      - name: Importa, committa e pusha (con retry su conflitto)
         env:
           META_PATH: ${{ github.workspace }}/movies_metadata.json
           CHANNELS_JSON: ${{ github.workspace }}/channels.json
           ARCHIVE_DIR: ${{ runner.temp }}/archive
           YT_API_KEY: ${{ secrets.YT_API_KEY }}    # YouTube Data API v3 (lista video affidabile da cloud)
-        run: python catalog_new_uploads.py --apply
-
-      - name: Commit & push se ci sono nuovi film
         run: |
+          cd "$GITHUB_WORKSPACE"
           git config user.name "italiatv-import-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add movies_metadata.json
-          if git diff --cached --quiet; then
-            echo "Nessun nuovo film da importare."
-          else
+          # Ogni tentativo: riallinea all'ultima versione del remoto, ri-esegue l'import
+          # (idempotente: salta i film già presenti) e prova a pushare. Se nel frattempo
+          # arriva un altro commit (editor/altra Action), il push è rifiutato → si riprova
+          # sulla nuova base, così i film importati NON vanno persi per conflitto.
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard origin/main
+            ( cd scripts && python catalog_new_uploads.py --apply )
+            git add movies_metadata.json
+            if git diff --cached --quiet; then
+              echo "Nessun nuovo film da importare."
+              exit 0
+            fi
             git commit -m "Auto-import nuovi film dai canali (GitHub Action)"
-            git push
-          fi
+            if git push; then
+              echo "Push riuscito al tentativo $attempt."
+              exit 0
+            fi
+            echo "Push rifiutato (conflitto), riprovo sull'ultima versione ($attempt)…"
+            sleep 3
+          done
+          echo "Non riuscito dopo 5 tentativi"; exit 1
