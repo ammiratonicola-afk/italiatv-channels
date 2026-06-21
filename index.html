@@ -45,7 +45,10 @@
   #status.ok { display:block; background:rgba(27,142,92,.2); border:1px solid var(--ok); }
   #status.err { display:block; background:rgba(142,27,27,.2); border:1px solid var(--err); }
   .count { font-size:13px; color:var(--muted); }
-  /* catalogo per genere */
+  /* catalogo per canale e genere */
+  .chsec { margin-top:22px; }
+  .chsec > h2.chh { font-size:17px; margin:0 0 4px; color:var(--text); background:var(--card2); border-left:4px solid var(--accent); padding:8px 12px; border-radius:6px; text-transform:none; letter-spacing:0; }
+  .chsec > h2.chh span { color:var(--muted); font-weight:400; font-size:13px; }
   .gsec { margin-top:18px; }
   .gsec h3 { font-size:15px; margin:0 0 10px; color:var(--accent); border-bottom:1px solid #2a2a45; padding-bottom:6px; }
   .gsec h3 span { color:var(--muted); font-weight:400; font-size:13px; }
@@ -128,14 +131,15 @@
   </div>
 
   <div class="card">
-    <h2>4 · Catalogo completo per genere</h2>
+    <h2>4 · Catalogo per canale e genere</h2>
     <div class="actions">
       <button class="sec" id="catBtn" onclick="showCatalog()">📚 Mostra tutto il catalogo</button>
-      <input id="catSearch" placeholder="Filtra per titolo…" style="max-width:240px;display:none" oninput="renderCatalog()">
+      <select id="catChannel" style="max-width:220px;display:none" onchange="renderCatalog()"></select>
+      <input id="catSearch" placeholder="Filtra per titolo…" style="max-width:200px;display:none" oninput="renderCatalog()">
       <button id="saveCatBtn" onclick="saveCatalog()" style="display:none">💾 Salva modifiche catalogo</button>
       <span class="help" id="catInfo" style="margin:0"></span>
     </div>
-    <div class="help" id="catHint" style="display:none;margin-top:6px"><b>Clicca un film</b> per modificarne qualsiasi dato (titolo, anno, genere, trama, poster, link YouTube, trailer) o per <b>ri-identificarlo</b> su TMDB. I film del <b>catalogo</b> si salvano col pulsante verde qui sopra; i film <b>manuali</b> col tasto "Salva su GitHub" in fondo.</div>
+    <div class="help" id="catHint" style="display:none;margin-top:6px">Raggruppato per <b>canale</b> e, dentro ogni canale, per <b>genere</b> (i film manuali sono il canale "🎬 Film manuali"). Usa il menu per filtrare un canale. <b>Clicca un film</b> per modificarne qualsiasi dato o ri-identificarlo. I film del <b>catalogo</b> si salvano col pulsante verde; i <b>manuali</b> col tasto "Salva su GitHub" in fondo.</div>
     <div id="catalog"></div>
   </div>
 
@@ -337,9 +341,12 @@ const GENRE_ORDER=[["","In evidenza"],["azione","Azione"],["commedia","Commedia"
   ["animazione","Animazione"],["documentario","Documentari"]];
 let catalogAll=null, catRawObj=null; const catDirty=new Set();
 const GOPTS=GENRE_ORDER.map(([k,l])=>`<option value="${k}">${l}</option>`).join("");
+// canale di un film: i manuali sono un canale a sé
+function channelOf(x){ return x.src==="man" ? "🎬 Film manuali" : (x.m.channel||"Senza canale"); }
+function sortChannels(a,b){ return a==="🎬 Film manuali"?1 : b==="🎬 Film manuali"?-1 : a.localeCompare(b); }
 async function showCatalog(){
   if(catalogAll){ $("catalog").innerHTML=""; catalogAll=null; catRawObj=null; catDirty.clear();
-    $("catBtn").textContent="📚 Mostra tutto il catalogo"; $("catSearch").style.display="none";
+    $("catBtn").textContent="📚 Mostra tutto il catalogo"; $("catSearch").style.display="none"; $("catChannel").style.display="none";
     $("catInfo").textContent=""; $("saveCatBtn").style.display="none"; $("catHint").style.display="none"; return; }
   $("catBtn").disabled=true; $("catInfo").textContent="Carico il catalogo…";
   try{
@@ -348,7 +355,12 @@ async function showCatalog(){
     // catalogo (src 'cat') + film manuali già caricati in `movies` (src 'man', stessi oggetti → editabili)
     catalogAll=[...(cat.movies||[]).map(m=>({m,src:"cat"})), ...movies.map(m=>({m,src:"man"}))]
       .filter(x=>x.m.is_movie!==false);
-    $("catBtn").textContent="✖ Nascondi catalogo"; $("catSearch").style.display="block"; $("catHint").style.display="block";
+    // popola filtro canali (con conteggi)
+    const chans=[...new Set(catalogAll.map(channelOf))].sort(sortChannels);
+    $("catChannel").innerHTML=`<option value="all">Tutti i canali (${catalogAll.length})</option>`+
+      chans.map(c=>`<option value="${c}">${c} (${catalogAll.filter(x=>channelOf(x)===c).length})</option>`).join("");
+    $("catBtn").textContent="✖ Nascondi catalogo"; $("catChannel").style.display="block";
+    $("catSearch").style.display="block"; $("catHint").style.display="block";
     renderCatalog();
   }catch(e){ $("catInfo").textContent="Errore: "+e.message; }
   $("catBtn").disabled=false;
@@ -356,25 +368,40 @@ async function showCatalog(){
 function renderCatalog(){
   if(!catalogAll) return;
   const q=($("catSearch").value||"").toLowerCase().trim();
+  const chSel=$("catChannel").value||"all";
   const C=$("catalog"); C.innerHTML=""; let shown=0;
-  GENRE_ORDER.forEach(([key,label])=>{
-    let items=catalogAll.filter(x=>(x.m.genre||"")===key);
-    if(q) items=items.filter(x=>title(x.m).toLowerCase().includes(q));
-    if(items.length===0) return;
-    items.sort((a,b)=>title(a.m).localeCompare(title(b.m)));
-    shown+=items.length;
-    const sec=document.createElement("div"); sec.className="gsec";
-    sec.innerHTML=`<h3>${label} <span>(${items.length})</span></h3>`;
-    const grid=document.createElement("div"); grid.className="gcat";
-    items.forEach(x=>{ const m=x.m;
-      const d=document.createElement("div"); d.className="gfilm"; d.title="Clicca per modificare";
-      d.innerHTML=`<img loading="lazy" src="${poster(m)}" onerror="this.style.visibility='hidden'"><div class="gt">${title(m)}</div>`;
-      d.onclick=()=>openEdit(m.video_id, x.src);
-      grid.appendChild(d);
-    });
-    sec.appendChild(grid); C.appendChild(sec);
+  // filtra per titolo + canale
+  const items=catalogAll.filter(x=>{
+    if(q && !title(x.m).toLowerCase().includes(q)) return false;
+    if(chSel!=="all" && channelOf(x)!==chSel) return false;
+    return true;
   });
-  $("catInfo").textContent=`${shown} film`+(q?` (filtro "${q}")`:"");
+  // raggruppa per CANALE, poi dentro per GENERE
+  const byCh={};
+  items.forEach(x=>{ const c=channelOf(x); (byCh[c]=byCh[c]||[]).push(x); });
+  Object.keys(byCh).sort(sortChannels).forEach(ch=>{
+    const chFilms=byCh[ch];
+    const chsec=document.createElement("div"); chsec.className="chsec";
+    chsec.innerHTML=`<h2 class="chh">${ch} <span>(${chFilms.length} film)</span></h2>`;
+    GENRE_ORDER.forEach(([key,label])=>{
+      const g=chFilms.filter(x=>(x.m.genre||"")===key);
+      if(!g.length) return;
+      g.sort((a,b)=>title(a.m).localeCompare(title(b.m)));
+      shown+=g.length;
+      const sec=document.createElement("div"); sec.className="gsec";
+      sec.innerHTML=`<h3>${label} <span>(${g.length})</span></h3>`;
+      const grid=document.createElement("div"); grid.className="gcat";
+      g.forEach(x=>{ const m=x.m;
+        const d=document.createElement("div"); d.className="gfilm"; d.title="Clicca per modificare";
+        d.innerHTML=`<img loading="lazy" src="${poster(m)}" onerror="this.style.visibility='hidden'"><div class="gt">${title(m)}</div>`;
+        d.onclick=()=>openEdit(m.video_id, x.src);
+        grid.appendChild(d);
+      });
+      sec.appendChild(grid); chsec.appendChild(sec);
+    });
+    C.appendChild(chsec);
+  });
+  $("catInfo").textContent=`${shown} film`+(chSel!=="all"?` · ${chSel}`:"")+(q?` · "${q}"`:"");
 }
 async function saveCatalog(){
   const token=$("token").value.trim();
