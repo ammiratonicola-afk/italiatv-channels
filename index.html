@@ -374,14 +374,17 @@ async function saveCatalog(){
   if(!catRawObj || catDirty.size===0) return;
   $("saveCatBtn").disabled=true; status("Salvo il catalogo (file grande, qualche secondo)…",true);
   try{
-    const tree=await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/git/trees/main`,{headers:{Authorization:"Bearer "+token}}).then(r=>r.json());
-    const node=(tree.tree||[]).find(t=>t.path==="movies_metadata.json");
-    if(!node) throw new Error("movies_metadata.json non trovato");
-    const body={ message:`Modifica dati catalogo da editor web (${catDirty.size} film)`, content:b64(JSON.stringify(catRawObj,null,2)), sha:node.sha };
-    const res=await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/movies_metadata.json`,
-      {method:"PUT",headers:{Authorization:"Bearer "+token,"Content-Type":"application/json"},body:JSON.stringify(body)});
-    if(res.ok){ catDirty.clear(); $("saveCatBtn").style.display="none"; status("✓ Catalogo salvato! Le TV si aggiornano entro 6h.",true); }
-    else{ const e=await res.json(); status("Errore GitHub: "+(e.message||res.status),false); }
+    const CATAPI=`https://api.github.com/repos/${OWNER}/${REPO}/contents/movies_metadata.json`;
+    // sha del file via Contents API (stesso metodo del salvataggio manuale: funziona anche
+    // sui file >1MB, restituisce lo sha con content vuoto). Più affidabile della Trees API.
+    const cur=await fetch(CATAPI,{headers:{Authorization:"Bearer "+token}});
+    if(!cur.ok){ const e=await cur.json().catch(()=>({})); throw new Error("lettura file: "+(e.message||("HTTP "+cur.status))); }
+    const sha=(await cur.json()).sha;
+    if(!sha) throw new Error("sha non disponibile per movies_metadata.json");
+    const body={ message:`Modifica dati catalogo da editor web (${catDirty.size} film)`, content:b64(JSON.stringify(catRawObj,null,2)), sha:sha };
+    const res=await fetch(CATAPI,{method:"PUT",headers:{Authorization:"Bearer "+token,"Content-Type":"application/json"},body:JSON.stringify(body)});
+    if(res.ok){ catDirty.clear(); $("saveCatBtn").style.display="none"; status("✓ Catalogo salvato! Premi 'Aggiorna catalogo ora' in TV (o attendi fino a 6h).",true); }
+    else{ const e=await res.json().catch(()=>({})); status("Errore GitHub: "+(e.message||res.status),false); }
   }catch(e){ status("Errore: "+e.message,false); }
   $("saveCatBtn").disabled=false;
 }
