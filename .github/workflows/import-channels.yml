@@ -1,0 +1,49 @@
+name: Import film dai canali
+
+# Automazione: quando l'editor web salva channels.json (o ogni giorno, o a mano),
+# scrapa i canali YouTube, identifica i NUOVI upload su TMDB e li aggiunge al
+# catalogo movies_metadata.json. Lo scraping/identificazione gira in cloud (no PC).
+on:
+  push:
+    paths:
+      - channels.json
+  schedule:
+    - cron: '0 4 * * *'    # ogni giorno alle 04:00 UTC
+  workflow_dispatch:        # avvio manuale dalla tab Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: import-channels
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Importa nuovi film dai canali
+        working-directory: scripts
+        env:
+          META_PATH: ${{ github.workspace }}/movies_metadata.json
+          CHANNELS_JSON: ${{ github.workspace }}/channels.json
+          ARCHIVE_DIR: ${{ runner.temp }}/archive
+        run: python catalog_new_uploads.py --apply
+
+      - name: Commit & push se ci sono nuovi film
+        run: |
+          git config user.name "italiatv-import-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add movies_metadata.json
+          if git diff --cached --quiet; then
+            echo "Nessun nuovo film da importare."
+          else
+            git commit -m "Auto-import nuovi film dai canali (GitHub Action)"
+            git push
+          fi
