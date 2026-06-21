@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T06:22:27.065Z",
+  "generated_at": "2026-06-21T06:30:04.231Z",
   "movies": [
     {
       "video_id": "zYeeo62exh0",
@@ -2011,20 +2011,20 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/fMIRF0rPO7orxBSAAVhjJ5TAmBS.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/199586",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
           {
             "nome": "Olivia Garratt",
             "personaggio": "Goose (voice)",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "foto_url": "https://static.wikia.nocookie.net/franklin/images/b/bb/Olivia_Garratt_(real_one).jpeg/revision/latest?cb=20251031131817",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1353552",
-              "verificata": false
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
             }
           },
           {
@@ -2033,8 +2033,8 @@
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1706854",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": false
             }
           },
@@ -2044,8 +2044,8 @@
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/110551",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": false
             }
           },
@@ -2055,8 +2055,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/74FAdD9Pz0NZIBEJUqZMnEZjHFg.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/141460",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -2066,8 +2066,8 @@
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/3600564",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": false
             }
           },
@@ -2077,8 +2077,8 @@
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/46995",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": false
             }
           },
@@ -2088,8 +2088,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/x5CChTIxXWpBrXJExJ5RLFnjHQ5.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1226510",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -2099,8 +2099,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/cM9uhNoWtNBfjVpmESoL0HJf9UX.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1128538",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           }
@@ -2109,13 +2109,13 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/sPYrytgX0Woc6ADPU4sQHHg5JbQ.jpg",
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=2DQuVZGSSkA",
-          "lingua": "it",
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "Ricerca YouTube: 'Franklin and the Green Knight: The Movie (2000) - ' (41s)"
+          "motivo_verifica": "Ricerca YouTube: 'Franklin and the Green Knight: The Movie (2000) - ' (41s)",
+          "url": "https://www.youtube.com/watch?v=2DQuVZGSSkA",
+          "canale": null
         },
         "tmdb_id_scelto": 139017
       }
