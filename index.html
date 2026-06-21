@@ -275,7 +275,12 @@ const RAW=`https://raw.githubusercontent.com/${OWNER}/${REPO}/main/${PATH}`;
 const API=`https://api.github.com/repos/${OWNER}/${REPO}/contents/${PATH}`;
 const TMDB="https://api.themoviedb.org/3", TKEY="b1d160958cc3d7fddbd7de3caf85b926";
 const IMG="https://image.tmdb.org/t/p/";
-const GEMINI_MODEL="gemini-3.5-flash";
+// Modello Gemini: 2.0-flash = il più economico e veloce, ottimo per estrarre un titolo
+// da un testo (la descrizione YouTube). Fallback ad altri Flash se non disponibile (404).
+const GEMINI_MODEL="gemini-2.0-flash";
+const GEMINI_MODELS=[...new Set([GEMINI_MODEL,"gemini-2.5-flash","gemini-flash-latest","gemini-1.5-flash"].filter(Boolean))];
+// Chiave YouTube Data API (per leggere la descrizione del video). Free, sola lettura.
+const YT_KEY="AIzaSyBVXkYGDCOlpxZ1U196lsmXQZCb-8Mbg18";
 let movies=[], results=[], selected=null;
 
 const $=id=>document.getElementById(id);
@@ -289,41 +294,58 @@ function cleanJsonText(s){
   const a=s.indexOf("{"), b=s.lastIndexOf("}");
   return (a>=0 && b>a)?s.slice(a,b+1):s;
 }
+async function ytDescription(videoId){
+  try{
+    const r=await fetch(`https://www.googleapis.com/youtube/v3/videos?part=snippet&id=${videoId}&key=${YT_KEY}`);
+    if(!r.ok) return {title:"",desc:""};
+    const d=await r.json(); const sn=(d.items&&d.items[0]&&d.items[0].snippet)||{};
+    return {title:sn.title||"", desc:sn.description||""};
+  }catch(e){ return {title:"",desc:""}; }
+}
 async function askGeminiOriginalTitle(movie){
   const key=$("gemini_key").value.trim();
   if(!key) throw new Error("Inserisci prima la chiave Gemini API nel blocco Token GitHub.");
   const videoId=ytId($("m_yt").value)||movie.video_id;
   if(!videoId) throw new Error("Link YouTube non valido.");
-  const ytUrl=`https://www.youtube.com/watch?v=${videoId}`;
+  // Economico+performante: leggo la DESCRIZIONE del video (lì spesso c'è "Titolo originale: X")
+  // e la do a un modello Flash come TESTO (niente analisi del video intero = costo bassissimo).
+  const yt=await ytDescription(videoId);
   const prompt=[
-    "Sei un esperto di cinema e metadata. Identifica il titolo originale piu probabile del film partendo dai dati dell'editor.",
-    "Rispondi SOLO con JSON valido, senza markdown, con questi campi:",
-    '{"original_title":"","italian_title":"","year":null,"search_query":"","confidence":"alta|media|bassa","reason":""}',
+    "Sei un esperto di cinema. Identifica DI QUALE FILM si tratta e restituiscine il titolo.",
+    "Usa SOPRATTUTTO la DESCRIZIONE YouTube qui sotto: spesso contiene il titolo originale",
+    "(es. 'Titolo originale: ...' / 'Original title: ...'), l'anno e il cast. Ignora le parti",
+    "promozionali del titolo del video (ITA, HD, Film Completo, nomi attori, genere).",
+    "Rispondi SOLO con JSON valido (no markdown):",
+    '{"original_title":"","italian_title":"","year":null,"search_query":"","imdb_id":"","confidence":"alta|media|bassa","reason":""}',
+    "search_query = il titolo migliore da cercare su TMDB (preferisci l'italiano se il film è uscito in Italia).",
+    "imdb_id = l'ID IMDb del film se lo conosci (formato tt0000000), altrimenti stringa vuota.",
     "",
-    `URL YouTube: ${ytUrl}`,
-    `Titolo editor: ${$("m_title").value.trim()||movie.tmdb_title_official||movie.original_title||""}`,
-    `Anno editor: ${$("m_year").value.trim()||movie.tmdb_year_official||""}`,
+    `Titolo video YouTube: ${yt.title||$("m_title").value.trim()||""}`,
+    `DESCRIZIONE YouTube:\n${(yt.desc||"(non disponibile)").slice(0,3000)}`,
+    `Anno noto: ${$("m_year").value.trim()||movie.tmdb_year_official||""}`,
     `Genere: ${$("m_genre").value||movie.genre||""}`,
-    `Trama nota: ${($("m_plot").value||movie.enriched_plot||"").slice(0,1200)}`,
-    "Se il titolo YouTube contiene parti promozionali tipo ITA, HD, Film Completo, con attori o genere, ignorale.",
-    "Se non sei sicuro, usa confidence bassa e proponi comunque la query migliore per TMDB/IMDb."
+    `Trama nota: ${($("m_plot").value||movie.enriched_plot||"").slice(0,700)}`,
+    "Se non sei sicuro usa confidence bassa ma proponi comunque la query migliore."
   ].join("\n");
-  const res=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`,{
-    method:"POST",
-    headers:{"Content-Type":"application/json","x-goog-api-key":key},
-    body:JSON.stringify({
-      contents:[{parts:[{text:prompt}]}],
-      generationConfig:{temperature:0.2,responseMimeType:"application/json"}
-    })
-  });
-  if(!res.ok){
-    const err=await res.text().catch(()=>"");
-    throw new Error(`Gemini HTTP ${res.status}: ${err.slice(0,180)}`);
+  const body=JSON.stringify({ contents:[{parts:[{text:prompt}]}], generationConfig:{temperature:0.1,responseMimeType:"application/json"} });
+  let lastErr="";
+  for(const model of GEMINI_MODELS){
+    try{
+      const res=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,{
+        method:"POST", headers:{"Content-Type":"application/json","x-goog-api-key":key}, body});
+      if(res.ok){
+        const data=await res.json();
+        const txt=(((data.candidates||[])[0]||{}).content||{}).parts?.map(p=>p.text||"").join("\n")||"";
+        if(txt) return JSON.parse(cleanJsonText(txt));
+        lastErr="risposta vuota ("+model+")";
+      } else {
+        const err=await res.text().catch(()=>"");
+        lastErr=`${model}: HTTP ${res.status} ${err.slice(0,140)}`;
+        if(res.status!==404) break;   // 404 = modello inesistente → prova il prossimo; altri errori → stop
+      }
+    }catch(e){ lastErr=e.message; }
   }
-  const data=await res.json();
-  const txt=data?.candidates?.[0]?.content?.parts?.map(p=>p.text||"").join("\n")||"";
-  if(!txt) throw new Error("Gemini non ha restituito testo.");
-  return JSON.parse(cleanJsonText(txt));
+  throw new Error(lastErr||"Gemini non ha risposto.");
 }
 
 function render(){
@@ -732,6 +754,12 @@ async function detectOriginalTitle(){
     if(out.year && !$("m_year").value.trim()) $("m_year").value=out.year;
     aiBox(`Titolo originale: ${original||"non certo"}\nTitolo italiano: ${italian||"non indicato"}\nQuery usata: ${query}\nConfidenza: ${out.confidence||"n/d"}\n${out.reason||""}`, true);
     await modalSearch();
+    // Fallback IMDb: se la ricerca per titolo su TMDB non trova nulla, prova con l'IMDb id
+    if(!$("m_results").querySelector(".res") && /^tt\d+$/.test((out.imdb_id||"").trim())){
+      aiBox("Niente su TMDB per titolo — provo con l'IMDb id "+out.imdb_id+"…", true);
+      const ok=await tmdbFindByImdb(out.imdb_id.trim());
+      if(!ok) aiBox("Nessun risultato neanche via IMDb ("+out.imdb_id+"). Prova a cercare a mano.", false);
+    }
   }catch(e){
     aiBox("Errore Gemini: "+e.message, false);
   }finally{
@@ -779,26 +807,43 @@ async function modalSearch(){
     let res=[...norm(mv.results,"movie"),...norm(tv.results,"tv")].sort((a,b)=>(b.poster_path?1:0)-(a.poster_path?1:0)).slice(0,8);
     R.innerHTML="";
     if(!res.length){ R.innerHTML="<div class='help'>Nessun risultato.</div>"; return; }
-    res.forEach(r=>{ const d=document.createElement("div"); d.className="res";
-      d.innerHTML=`<img src="${r.poster_path?IMG+'w185'+r.poster_path:''}" onerror="this.style.visibility='hidden'"><div class="rt">${r.title}${r._type==='tv'?' 📺':''}</div><div class="ry">${r.year||'—'} · #${r.id}</div>`;
-      d.onclick=async()=>{ R.querySelectorAll(".res").forEach(e=>e.classList.remove("sel")); d.classList.add("sel");
-        const old=d.querySelector(".rt").textContent; d.querySelector(".rt").textContent="caricamento…";
-        try{
-          const rec=await buildRecord(editing.m.video_id, r, $("m_genre").value);
-          pendingFull=rec;
-          $("m_title").value=rec.tmdb_title_official; $("m_year").value=rec.tmdb_year_official||"";
-          $("m_tmdb").value=rec.tmdb_id; $("m_type").textContent="("+(rec.tmdb_media_type||"movie")+")";
-          $("m_plot").value=rec.strict_id_v2.trama||""; $("m_posterpath").value=rec.tmdb_poster_path||"";
-          $("m_trailer").value=(rec.strict_id_v2.trailer&&rec.strict_id_v2.trailer.url)||"";
-          // genere ricavato automaticamente dai generi TMDB del film scelto
-          const dg=deriveGenre(rec.strict_id_v2.genere); if(dg) $("m_genre").value=dg;
-          renderCast(rec.strict_id_v2.cast_principale);
-          $("m_poster").src=rec.tmdb_poster_path?IMG+"w300"+rec.tmdb_poster_path:"";
-        }catch(e){}
-        d.querySelector(".rt").textContent=old;
-      };
-      R.appendChild(d); });
+    res.forEach(r=>addResultCard(R,r));
   }catch(e){ R.innerHTML="<div class='help'>Errore: "+e.message+"</div>"; }
+}
+// crea una card-risultato cliccabile (TMDB) → al click ricarica i metadati del film scelto
+function addResultCard(R, r){
+  const d=document.createElement("div"); d.className="res";
+  d.innerHTML=`<img src="${r.poster_path?IMG+'w185'+r.poster_path:''}" onerror="this.style.visibility='hidden'"><div class="rt">${r.title}${r._type==='tv'?' 📺':''}</div><div class="ry">${r.year||'—'} · #${r.id}</div>`;
+  d.onclick=async()=>{ R.querySelectorAll(".res").forEach(e=>e.classList.remove("sel")); d.classList.add("sel");
+    const old=d.querySelector(".rt").textContent; d.querySelector(".rt").textContent="caricamento…";
+    try{
+      const rec=await buildRecord(editing.m.video_id, r, $("m_genre").value);
+      pendingFull=rec;
+      $("m_title").value=rec.tmdb_title_official; $("m_year").value=rec.tmdb_year_official||"";
+      $("m_tmdb").value=rec.tmdb_id; $("m_type").textContent="("+(rec.tmdb_media_type||"movie")+")";
+      $("m_plot").value=rec.strict_id_v2.trama||""; $("m_posterpath").value=rec.tmdb_poster_path||"";
+      $("m_trailer").value=(rec.strict_id_v2.trailer&&rec.strict_id_v2.trailer.url)||"";
+      const dg=deriveGenre(rec.strict_id_v2.genere); if(dg) $("m_genre").value=dg;
+      renderCast(rec.strict_id_v2.cast_principale);
+      $("m_poster").src=rec.tmdb_poster_path?IMG+"w300"+rec.tmdb_poster_path:"";
+    }catch(e){}
+    d.querySelector(".rt").textContent=old;
+  };
+  R.appendChild(d);
+}
+// Fallback IMDb: trova il film su TMDB tramite l'IMDb id (TMDB /find), poi mostra il risultato.
+async function tmdbFindByImdb(imdbId){
+  try{
+    const r=await fetch(`${TMDB}/find/${imdbId}?api_key=${TKEY}&language=it-IT&external_source=imdb_id`).then(x=>x.json());
+    const mv=(r.movie_results||[])[0], tv=(r.tv_results||[])[0];
+    const hit=mv||tv; if(!hit) return false;
+    const sel={_type:mv?"movie":"tv", id:hit.id, poster_path:hit.poster_path,
+      title:(hit.title||hit.name||""), year:((hit.release_date||hit.first_air_date||"").slice(0,4))};
+    const R=$("m_results"); R.innerHTML="";
+    addResultCard(R, sel);
+    aiBox("Trovato via IMDb "+imdbId+": "+sel.title+" — clicca il risultato per applicarlo.", true);
+    return true;
+  }catch(e){ return false; }
 }
 function applyEdit(){
   if(!editing) return;
