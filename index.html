@@ -53,7 +53,9 @@
   .gsec h3 { font-size:15px; margin:0 0 10px; color:var(--accent); border-bottom:1px solid #2a2a45; padding-bottom:6px; }
   .gsec h3 span { color:var(--muted); font-weight:400; font-size:13px; }
   .gcat { display:grid; grid-template-columns:repeat(auto-fill,minmax(92px,1fr)); gap:8px; }
-  .gfilm { background:var(--card2); border-radius:8px; overflow:hidden; }
+  .gfilm { background:var(--card2); border-radius:8px; overflow:hidden; position:relative; }
+  .gfilm .gcb { position:absolute; top:3px; left:3px; width:22px; height:22px; z-index:3; cursor:pointer; accent-color:var(--accent); }
+  .gfilm.sel { outline:3px solid var(--accent); outline-offset:-3px; }
   .gfilm img { width:100%; aspect-ratio:2/3; object-fit:cover; background:#000; display:block; }
   .gfilm .gt { font-size:10px; padding:4px 4px 4px; line-height:1.25; height:30px; overflow:hidden; }
   .gfilm .gt { cursor:pointer; }
@@ -180,6 +182,7 @@
       <select id="catChannel" style="max-width:220px;display:none" onchange="renderCatalog()"></select>
       <input id="catSearch" placeholder="Filtra per titolo…" style="max-width:200px;display:none" oninput="renderCatalog()">
       <label id="catToIdWrap" style="display:none;font-size:13px;color:var(--muted);align-items:center;gap:6px;cursor:pointer"><input type="checkbox" id="catOnlyToId" style="width:auto;margin:0" onchange="renderCatalog()"> ⚠️ solo da identificare</label>
+      <button id="delSelBtn" onclick="deleteSelected()" style="display:none;background:var(--err)">🗑 Elimina selezionati</button>
       <button id="saveCatBtn" onclick="saveCatalog()" style="display:none">💾 Salva modifiche catalogo</button>
       <span class="help" id="catInfo" style="margin:0"></span>
     </div>
@@ -400,15 +403,32 @@ const CAT_RAW=`https://raw.githubusercontent.com/${OWNER}/${REPO}/main/movies_me
 const GENRE_ORDER=[["","In evidenza"],["azione","Azione"],["commedia","Commedia"],["thriller","Thriller"],
   ["horror","Horror"],["romantico","Romantico"],["drammatico","Drammatico"],["fantascienza","Fantascienza"],
   ["animazione","Animazione"],["documentario","Documentari"]];
-let catalogAll=null, catRawObj=null; const catDirty=new Set();
+let catalogAll=null, catRawObj=null; const catDirty=new Set(); const catSel=new Set();
+function updateDelSelBtn(){ const b=$("delSelBtn"); if(catSel.size){ b.style.display="inline-block"; b.textContent=`🗑 Elimina selezionati (${catSel.size})`; } else b.style.display="none"; }
+function deleteSelected(){
+  if(!catSel.size) return;
+  if(!confirm(`Eliminare i ${catSel.size} film selezionati dal catalogo?\nNon saranno più visibili nell'app.`)) return;
+  let ncat=0,nman=0;
+  catSel.forEach(key=>{
+    const [src,vid]=[key.slice(0,3), key.slice(4)];
+    if(src==="man"){ const i=movies.findIndex(z=>z.video_id===vid); if(i>=0) movies.splice(i,1); nman++; }
+    else { const m=(catRawObj&&catRawObj.movies||[]).find(z=>z.video_id===vid); if(m){ m.is_movie=false; m.reason_not_movie="eliminato dall'editor (selezione)"; catDirty.add(vid); ncat++; } }
+    const j=catalogAll.findIndex(y=>(y.src+"|"+y.m.video_id)===key); if(j>=0) catalogAll.splice(j,1);
+  });
+  catSel.clear(); updateDelSelBtn();
+  if(ncat) $("saveCatBtn").style.display="inline-block";
+  if(nman) render();
+  renderCatalog();
+  status(`Eliminati ${ncat+nman} film (${ncat} catalogo, ${nman} manuali). Salva: catalogo col pulsante verde, manuali con 'Salva su GitHub'.`,true);
+}
 const GOPTS=GENRE_ORDER.map(([k,l])=>`<option value="${k}">${l}</option>`).join("");
 // canale di un film: i manuali sono un canale a sé
 function channelOf(x){ return x.src==="man" ? "🎬 Film manuali" : (x.m.channel||"Senza canale"); }
 function sortChannels(a,b){ return a==="🎬 Film manuali"?1 : b==="🎬 Film manuali"?-1 : a.localeCompare(b); }
 async function showCatalog(){
-  if(catalogAll){ $("catalog").innerHTML=""; catalogAll=null; catRawObj=null; catDirty.clear();
+  if(catalogAll){ $("catalog").innerHTML=""; catalogAll=null; catRawObj=null; catDirty.clear(); catSel.clear();
     $("catBtn").textContent="📚 Mostra tutto il catalogo"; $("catSearch").style.display="none"; $("catChannel").style.display="none";
-    $("catToIdWrap").style.display="none"; $("catInfo").textContent=""; $("saveCatBtn").style.display="none"; $("catHint").style.display="none"; return; }
+    $("catToIdWrap").style.display="none"; $("delSelBtn").style.display="none"; $("catInfo").textContent=""; $("saveCatBtn").style.display="none"; $("catHint").style.display="none"; return; }
   $("catBtn").disabled=true; $("catInfo").textContent="Carico il catalogo…";
   try{
     const cat=await fetch(CAT_RAW+"?t="+Date.now()).then(r=>r.json());
@@ -457,10 +477,12 @@ function renderCatalog(){
       const sec=document.createElement("div"); sec.className="gsec";
       sec.innerHTML=`<h3>${label} <span>(${g.length})</span></h3>`;
       const grid=document.createElement("div"); grid.className="gcat";
-      g.forEach(x=>{ const m=x.m;
-        const d=document.createElement("div"); d.className="gfilm"+(m.tmdb_poster_path?"":" toid");
-        d.title=m.tmdb_poster_path?"Clicca per modificare":"Da identificare: clicca → Ri-identifica su TMDB";
-        d.innerHTML=`<img loading="lazy" src="${poster(m)}" onerror="this.style.visibility='hidden'"><div class="gt">${title(m)}</div>`;
+      g.forEach(x=>{ const m=x.m; const key=x.src+"|"+m.video_id;
+        const d=document.createElement("div"); d.className="gfilm"+(m.tmdb_poster_path?"":" toid")+(catSel.has(key)?" sel":"");
+        d.title=m.tmdb_poster_path?"Clicca per modificare (checkbox per selezionare)":"Da identificare: clicca → Ri-identifica";
+        d.innerHTML=`<input type="checkbox" class="gcb"${catSel.has(key)?" checked":""}><img loading="lazy" src="${poster(m)}" onerror="this.style.visibility='hidden'"><div class="gt">${title(m)}</div>`;
+        const cb=d.querySelector(".gcb");
+        cb.onclick=e=>{ e.stopPropagation(); if(cb.checked) catSel.add(key); else catSel.delete(key); d.classList.toggle("sel",cb.checked); updateDelSelBtn(); };
         d.onclick=()=>openEdit(m.video_id, x.src);
         grid.appendChild(d);
       });
@@ -474,18 +496,29 @@ async function saveCatalog(){
   const token=$("token").value.trim();
   if(!token){ status("Inserisci prima il token GitHub.",false); return; }
   if(!catRawObj || catDirty.size===0) return;
-  $("saveCatBtn").disabled=true; status("Salvo il catalogo (file grande, qualche secondo)…",true);
+  $("saveCatBtn").disabled=true; status("Salvo il catalogo (merge con l'ultima versione)…",true);
   try{
     const CATAPI=`https://api.github.com/repos/${OWNER}/${REPO}/contents/movies_metadata.json`;
-    // sha del file via Contents API (stesso metodo del salvataggio manuale: funziona anche
-    // sui file >1MB, restituisce lo sha con content vuoto). Più affidabile della Trees API.
+    // 1) scarica l'ULTIMA versione (no-cache): NON sovrascrivere modifiche altrui
+    //    (es. i film importati dall'Action) — applico solo i miei film modificati.
+    const latest=await fetch(CAT_RAW+"?t="+Date.now(),{cache:"no-store"}).then(r=>r.json());
+    const byMine={}; (catRawObj.movies||[]).forEach(m=>byMine[m.video_id]=m);
+    const idx={}; latest.movies.forEach((m,i)=>idx[m.video_id]=i);
+    let applied=0;
+    catDirty.forEach(vid=>{
+      const mine=byMine[vid]; if(!mine) return;
+      if(vid in idx) latest.movies[idx[vid]]=mine;
+      else { latest.movies.push(mine); idx[vid]=latest.movies.length-1; }
+      applied++;
+    });
+    // 2) sha corrente + PUT del risultato merge
     const cur=await fetch(CATAPI,{headers:{Authorization:"Bearer "+token}});
     if(!cur.ok){ const e=await cur.json().catch(()=>({})); throw new Error("lettura file: "+(e.message||("HTTP "+cur.status))); }
     const sha=(await cur.json()).sha;
     if(!sha) throw new Error("sha non disponibile per movies_metadata.json");
-    const body={ message:`Modifica dati catalogo da editor web (${catDirty.size} film)`, content:b64(JSON.stringify(catRawObj,null,2)), sha:sha };
+    const body={ message:`Modifica catalogo da editor web (${applied} film, merge)`, content:b64(JSON.stringify(latest,null,2)), sha:sha };
     const res=await fetch(CATAPI,{method:"PUT",headers:{Authorization:"Bearer "+token,"Content-Type":"application/json"},body:JSON.stringify(body)});
-    if(res.ok){ catDirty.clear(); $("saveCatBtn").style.display="none"; status("✓ Catalogo salvato! Premi 'Aggiorna catalogo ora' in TV (o attendi fino a 6h).",true); }
+    if(res.ok){ catDirty.clear(); catRawObj=latest; $("saveCatBtn").style.display="none"; status(`✓ Catalogo salvato (${applied} film, merge)! Premi 'Aggiorna catalogo ora' in TV.`,true); }
     else{ const e=await res.json().catch(()=>({})); status("Errore GitHub: "+(e.message||res.status),false); }
   }catch(e){ status("Errore: "+e.message,false); }
   $("saveCatBtn").disabled=false;

@@ -159,6 +159,27 @@ def fetch_all_videos_api(channel_id, api_key, max_pages=60):
     return out
 
 
+def video_durations_api(video_ids, api_key):
+    """Ritorna {video_id: durata_secondi} via YouTube Data API videos.list (contentDetails).
+    Serve a scartare i video che NON sono film (trailer/clip/short troppo corti). Batch da 50."""
+    out = {}
+    for i in range(0, len(video_ids), 50):
+        batch = video_ids[i:i + 50]
+        url = ("https://www.googleapis.com/youtube/v3/videos?part=contentDetails"
+               f"&id={','.join(batch)}&key={api_key}")
+        try:
+            data = json.loads(urlopen(Request(url, headers={"User-Agent": UA}), timeout=20).read().decode("utf-8"))
+        except Exception as e:
+            print(f"  ! durations API errore: {e}", file=sys.stderr)
+            continue
+        for it in data.get("items", []):
+            m = re.match(r"PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?", it.get("contentDetails", {}).get("duration", "") or "")
+            if m:
+                h, mi, s = (int(x) if x else 0 for x in m.groups())
+                out[it["id"]] = h * 3600 + mi * 60 + s
+    return out
+
+
 def fetch_all_videos(channel_id, verbose=False, max_pages=50):
     """Restituisce TUTTI i (video_id, title) del canale seguendo le continuation.
 

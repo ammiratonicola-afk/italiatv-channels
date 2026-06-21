@@ -28,7 +28,7 @@ cosi' restano tracciati e si possono sistemare a mano con fix_film.py.
 import sys, os, re, json, shutil, datetime
 import urllib.request, urllib.parse
 
-from youtube_scrape import fetch_all_videos, fetch_all_videos_api
+from youtube_scrape import fetch_all_videos, fetch_all_videos_api, video_durations_api
 from add_channel import parse_title, tmdb_match, full_entry, JUNK, UA
 
 # Se presente la chiave YouTube Data API (env YT_API_KEY), usala: è affidabile da
@@ -313,8 +313,17 @@ def main():
             continue
         new = [(v, t) for v, t in vids
                if v not in existing_vids and not any(k in t.lower() for k in JUNK)]
+        # Scarta i video che NON sono film: durata sotto la soglia (trailer/clip/short/episodi).
+        # Se la durata non è nota (API senza chiave) si tiene il video per non perdere film.
+        if YT_API_KEY and new:
+            durs = video_durations_api([v for v, _ in new], YT_API_KEY)
+            min_film = int(os.environ.get("MIN_FILM_SEC", "2400"))   # 40 minuti
+            before = len(new)
+            new = [(v, t) for v, t in new if durs.get(v, min_film) >= min_film]
+            if before - len(new):
+                print(f"[{cname}] scartati {before - len(new)} video non-film (durata < {min_film // 60} min)")
         if not new:
-            print(f"[{cname}] {len(vids)} video, 0 nuovi.")
+            print(f"[{cname}] {len(vids)} video, 0 nuovi (film).")
             continue
         print(f"[{cname}] {len(vids)} video, {len(new)} NUOVI da valutare:")
         tot_new += len(new)
