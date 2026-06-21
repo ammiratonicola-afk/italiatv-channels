@@ -59,6 +59,11 @@
   .modal { position:fixed; inset:0; background:rgba(0,0,0,.7); display:flex; align-items:flex-start; justify-content:center; z-index:50; padding:20px; overflow:auto; }
   .mbox { background:var(--card); border:1px solid #2a2a45; border-radius:12px; padding:18px; max-width:560px; width:100%; margin:auto; }
   .mbox label { margin-top:8px; }
+  .castrow { display:flex; gap:8px; align-items:center; margin-bottom:6px; }
+  .castrow img { width:34px; height:46px; object-fit:cover; border-radius:5px; background:#000; flex-shrink:0; }
+  .castrow .cf { flex:1; display:flex; gap:6px; flex-wrap:wrap; }
+  .castrow .cf input { flex:1; min-width:90px; padding:6px 8px; font-size:12px; }
+  .castrow .cdel { background:var(--err); padding:6px 9px; font-size:12px; flex-shrink:0; }
 </style>
 </head>
 <body>
@@ -165,7 +170,10 @@
       <label>🎬 Link trailer (YouTube)</label><input id="m_trailer" placeholder="https://www.youtube.com/watch?v=…  (vuoto = nessun trailer)">
       <label>Trama</label><textarea id="m_plot" rows="4" style="width:100%;padding:10px 12px;background:var(--card2);border:1px solid #33335a;border-radius:8px;color:var(--text);font-size:14px;font-family:inherit"></textarea>
       <label>Poster (path TMDB, es. /abc.jpg)</label><input id="m_posterpath" placeholder="lascia vuoto per nessuno">
-      <div class="actions">
+      <label>🎭 Cast (nome · personaggio · foto)</label>
+      <div id="m_cast"></div>
+      <button class="sec" type="button" onclick="addCastRow()" style="margin-top:6px">+ Aggiungi attore</button>
+      <div class="actions" style="margin-top:14px">
         <button class="sec" onclick="modalSearch()">🔎 Ri-identifica su TMDB</button>
         <span class="help" style="margin:0">Cerca e scegli il film giusto → ricarica TUTTI i metadati.</span>
       </div>
@@ -409,10 +417,39 @@ function openEdit(vid, src){
   $("m_posterpath").value=m.tmdb_poster_path||"";
   $("m_yt").value=m.video_id?("https://youtu.be/"+m.video_id):"";
   $("m_trailer").value=(v2.trailer&&v2.trailer.url)||m.trailer_url||"";
+  renderCast(v2.cast_principale);
   $("m_poster").src=poster(m); $("m_results").innerHTML="";
   $("modal").style.display="flex";
 }
 function closeModal(){ $("modal").style.display="none"; editing=null; pendingFull=null; }
+// ── Editor cast (nome · personaggio · foto) ───────────────────────────────
+function esc(s){ return (s||"").replace(/"/g,"&quot;"); }
+function renderCast(cast){ $("m_cast").innerHTML=""; (cast||[]).forEach(c=>addCastRow(c)); }
+function addCastRow(c){
+  c=c||{}; const foto=c.foto_url||"";
+  const row=document.createElement("div"); row.className="castrow";
+  row.innerHTML=`<img src="${esc(foto)}" onerror="this.style.visibility='hidden'">
+    <div class="cf">
+      <input class="c_nome" placeholder="Nome attore" value="${esc(c.nome)}">
+      <input class="c_pers" placeholder="Personaggio" value="${esc(c.personaggio)}">
+      <input class="c_foto" placeholder="URL foto" value="${esc(foto)}">
+    </div>
+    <button class="cdel" type="button" title="Rimuovi">✕</button>`;
+  row.querySelector(".cdel").onclick=()=>row.remove();
+  row.querySelector(".c_foto").oninput=e=>{ const img=row.querySelector("img"); img.src=e.target.value; img.style.visibility=e.target.value?"visible":"hidden"; };
+  $("m_cast").appendChild(row);
+}
+function collectCast(){
+  return Array.from($("m_cast").querySelectorAll(".castrow")).map(r=>{
+    const nome=r.querySelector(".c_nome").value.trim();
+    const pers=r.querySelector(".c_pers").value.trim();
+    const foto=r.querySelector(".c_foto").value.trim();
+    if(!nome) return null;
+    return { nome, personaggio:pers||null, foto_url:foto||null,
+      foto_tipo: foto?"foto_attore":"nessuna",
+      foto_fonte:{ nome:"manuale", url_pagina_origine:null, verificata:!!foto } };
+  }).filter(Boolean);
+}
 async function modalSearch(){
   const t=$("m_title").value.trim(), y=$("m_year").value.trim();
   if(!t){ return; }
@@ -437,6 +474,7 @@ async function modalSearch(){
           $("m_tmdb").value=rec.tmdb_id; $("m_type").textContent="("+(rec.tmdb_media_type||"movie")+")";
           $("m_plot").value=rec.strict_id_v2.trama||""; $("m_posterpath").value=rec.tmdb_poster_path||"";
           $("m_trailer").value=(rec.strict_id_v2.trailer&&rec.strict_id_v2.trailer.url)||"";
+          renderCast(rec.strict_id_v2.cast_principale);
           $("m_poster").src=rec.tmdb_poster_path?IMG+"w300"+rec.tmdb_poster_path:"";
         }catch(e){}
         d.querySelector(".rt").textContent=old;
@@ -463,6 +501,7 @@ function applyEdit(){
   if(yr) m.strict_id_v2.anno_uscita=yr;
   m.strict_id_v2.trama=$("m_plot").value;
   m.strict_id_v2.locandina_url=pp?IMG+"w500"+pp:null;
+  m.strict_id_v2.cast_principale=collectCast();
   // Link YouTube di riproduzione (cambia il video_id che è la chiave del film)
   const newVid=ytId($("m_yt").value);
   if(newVid && newVid!==m.video_id){
