@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T17:48:52.291Z",
+  "generated_at": "2026-06-21T17:51:55.212Z",
   "movies": [
     {
       "video_id": "zYeeo62exh0",
@@ -13975,7 +13975,7 @@
       "is_movie": true,
       "manual_include": true,
       "channel": "Manuale",
-      "genre": "commedia",
+      "genre": "thriller",
       "original_title": "Honest Thief",
       "tmdb_id": 553604,
       "tmdb_title_official": "Honest Thief",
@@ -14122,7 +14122,7 @@
       "is_movie": true,
       "manual_include": true,
       "channel": "Manuale",
-      "genre": "commedia",
+      "genre": "thriller",
       "original_title": "Operation Fortune",
       "tmdb_id": 739405,
       "tmdb_title_official": "Operation Fortune",
