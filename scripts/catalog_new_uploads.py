@@ -28,8 +28,23 @@ cosi' restano tracciati e si possono sistemare a mano con fix_film.py.
 import sys, os, re, json, shutil, datetime
 import urllib.request
 
-from youtube_scrape import fetch_all_videos
+from youtube_scrape import fetch_all_videos, fetch_all_videos_api
 from add_channel import parse_title, tmdb_match, full_entry, JUNK, UA
+
+# Se presente la chiave YouTube Data API (env YT_API_KEY), usala: è affidabile da
+# qualsiasi IP (anche GitHub Actions). Altrimenti ripiega sullo scraping InnerTube.
+YT_API_KEY = os.environ.get("YT_API_KEY", "").strip()
+
+
+def get_videos(channel_id):
+    if YT_API_KEY:
+        try:
+            vids = fetch_all_videos_api(channel_id, YT_API_KEY)
+            if vids:
+                return vids
+        except Exception as e:
+            print(f"  ! YT API fallita ({e}), ripiego sullo scraping")
+    return fetch_all_videos(channel_id)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 # Path override via env (per la GitHub Action che lavora sui file alla radice del repo)
@@ -268,7 +283,7 @@ def main():
 
     for cid, cname in load_channels().items():
         try:
-            vids = fetch_all_videos(cid)
+            vids = get_videos(cid)
         except Exception as e:
             print(f"[{cname}] scrape FALLITO: {e}")
             continue

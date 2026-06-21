@@ -128,6 +128,37 @@ def _http_post_json(url, body, headers=None, timeout=20):
     return urlopen(req, timeout=timeout).read()
 
 
+def fetch_all_videos_api(channel_id, api_key, max_pages=60):
+    """Lista TUTTI i (video_id, title) di un canale via YouTube Data API v3.
+    Affidabile da QUALSIASI IP (anche datacenter/GitHub Actions), niente scraping.
+    Usa la playlist 'uploads' del canale (UU + id) + playlistItems.list paginato.
+    Quota: 1 unità per pagina da 50 video (~10/canale) → trascurabile sui 10.000/giorno."""
+    uploads = "UU" + channel_id[2:]
+    out, seen, token, page = [], set(), None, 0
+    while page < max_pages:
+        page += 1
+        url = ("https://www.googleapis.com/youtube/v3/playlistItems"
+               f"?part=snippet&maxResults=50&playlistId={uploads}&key={api_key}")
+        if token:
+            url += f"&pageToken={token}"
+        try:
+            data = json.loads(urlopen(Request(url, headers={"User-Agent": UA}), timeout=20).read().decode("utf-8"))
+        except Exception as e:
+            print(f"  ! YT Data API errore: {e}", file=sys.stderr)
+            break
+        for it in data.get("items", []):
+            sn = it.get("snippet", {})
+            vid = (sn.get("resourceId") or {}).get("videoId")
+            title = (sn.get("title") or "").strip()
+            if vid and title and title not in ("Private video", "Deleted video") and vid not in seen:
+                seen.add(vid)
+                out.append((vid, title))
+        token = data.get("nextPageToken")
+        if not token:
+            break
+    return out
+
+
 def fetch_all_videos(channel_id, verbose=False, max_pages=50):
     """Restituisce TUTTI i (video_id, title) del canale seguendo le continuation.
 

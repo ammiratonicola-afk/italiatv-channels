@@ -34,6 +34,7 @@ jobs:
           META_PATH: ${{ github.workspace }}/movies_metadata.json
           CHANNELS_JSON: ${{ github.workspace }}/channels.json
           ARCHIVE_DIR: ${{ runner.temp }}/archive
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}    # YouTube Data API v3 (lista video affidabile da cloud)
         run: python catalog_new_uploads.py --apply
 
       - name: Commit & push se ci sono nuovi film
