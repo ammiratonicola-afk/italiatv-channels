@@ -239,7 +239,11 @@
             <div style="max-width:110px"><label>Anno</label><input id="m_year" inputmode="numeric"></div>
             <div><label>Genere</label><select id="m_genre"></select></div>
           </div>
-          <label>TMDB ID <span class="help" id="m_type" style="margin:0"></span></label><input id="m_tmdb" readonly style="opacity:.7">
+          <label>TMDB ID <span class="help" id="m_type" style="margin:0"></span></label>
+          <div class="inline-input">
+            <input id="m_tmdb" inputmode="numeric" placeholder="es. 27205 — invio per caricare" onkeydown="if(event.key==='Enter'){event.preventDefault();loadByTmdbId();}">
+            <button class="sec" type="button" onclick="loadByTmdbId()">Carica ID</button>
+          </div>
         </div>
       </div>
       <label>🔗 Link YouTube (riproduzione)</label>
@@ -878,6 +882,23 @@ async function searchImdb(){
     if(!added){ R.innerHTML="<div class='help'>Trovati su IMDb ma non su TMDB:<br>"+notOnTmdb.join("<br>")+"<br>(l'editor carica i metadati da TMDB.)</div>"; }
     else if(notOnTmdb.length){ const n=document.createElement("div"); n.className="help"; n.style.gridColumn="1/-1"; n.textContent="Altri su IMDb non su TMDB: "+notOnTmdb.join("; "); R.appendChild(n); }
   }catch(e){ R.innerHTML="<div class='help'>Errore IMDb: "+e.message+"</div>"; }
+}
+// Carica un film/serie DIRETTAMENTE dall'ID TMDB digitato → ricarica subito tutti i metadati.
+async function loadByTmdbId(){
+  const id=parseInt(($("m_tmdb").value||"").trim());
+  const R=$("m_results");
+  if(!id){ R.innerHTML="<div class='help'>Inserisci un ID TMDB numerico.</div>"; return; }
+  R.innerHTML="<div class='help'>Carico da TMDB ID "+id+"…</div>";
+  try{
+    let sel=null;
+    for(const type of ["movie","tv"]){
+      const r=await fetch(`${TMDB}/${type}/${id}?api_key=${TKEY}&language=it-IT`);
+      if(r.ok){ const d=await r.json(); if(d&&d.id){ sel={_type:type,id:d.id,poster_path:d.poster_path,title:(d.title||d.name||""),year:((d.release_date||d.first_air_date||"").slice(0,4))}; break; } }
+    }
+    if(!sel){ R.innerHTML="<div class='help'>Nessun film/serie con ID "+id+" su TMDB.</div>"; return; }
+    R.innerHTML=""; addResultCard(R, sel);
+    const card=R.querySelector(".res"); if(card) card.click();   // carica subito i metadati
+  }catch(e){ R.innerHTML="<div class='help'>Errore: "+e.message+"</div>"; }
 }
 // Ricerca su TMDB PER ATTORE/REGISTA: trova la persona, poi mostra la sua filmografia.
 async function searchByActor(){
