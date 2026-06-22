@@ -138,6 +138,14 @@
     <label>Chiave Gemini API</label>
     <input id="gemini_key" type="password" placeholder="AIza… (usata solo nel tuo browser per il pulsante Gemini)">
     <div class="help">Serve per il pulsante accanto al link YouTube nella scheda film. Resta salvata solo nel tuo browser.</div>
+
+    <label style="margin-top:14px">🔐 Sincronizza le chiavi tra browser/dispositivi</label>
+    <div class="inline-input">
+      <input id="keys_pass" type="password" placeholder="Password per cifrare/decifrare le chiavi">
+      <button class="sec" type="button" onclick="saveKeysEncrypted()">🔒 Salva cifrate</button>
+      <button class="sec" type="button" onclick="loadKeysEncrypted()">🔓 Carica</button>
+    </div>
+    <div class="help">Le chiavi vengono salvate <b>cifrate</b> (AES‑GCM) nel repo: su un altro browser inserisci la <b>stessa password</b> e premi <b>Carica</b>. ⚠️ Usa una password <b>forte</b> (protegge il token GitHub).</div>
   </div>
 
   <div class="card">
@@ -1009,6 +1017,53 @@ function deleteFilm(){
   closeModal();
 }
 
+// ── Sincronizzazione chiavi cifrate tra browser (AES-GCM + PBKDF2) ─────────
+const KEYS_FILE="keys.enc.json";
+function _b64e(buf){ return btoa(String.fromCharCode.apply(null, new Uint8Array(buf))); }
+function _b64d(s){ return Uint8Array.from(atob(s), c=>c.charCodeAt(0)); }
+async function _deriveKey(pass, salt){
+  const base=await crypto.subtle.importKey("raw", new TextEncoder().encode(pass), "PBKDF2", false, ["deriveKey"]);
+  return crypto.subtle.deriveKey({ name:"PBKDF2", salt, iterations:250000, hash:"SHA-256" },
+    base, { name:"AES-GCM", length:256 }, false, ["encrypt","decrypt"]);
+}
+async function saveKeysEncrypted(){
+  const token=$("token").value.trim(), pass=$("keys_pass").value;
+  if(!token){ status("Serve il token GitHub per salvare le chiavi nel cloud.",false); return; }
+  if(!pass || pass.length<6){ status("Imposta una password di almeno 6 caratteri.",false); return; }
+  try{
+    const salt=crypto.getRandomValues(new Uint8Array(16)), iv=crypto.getRandomValues(new Uint8Array(12));
+    const key=await _deriveKey(pass, salt);
+    const plain=JSON.stringify({ gh_token:token, gemini_key:$("gemini_key").value.trim() });
+    const ct=await crypto.subtle.encrypt({ name:"AES-GCM", iv }, key, new TextEncoder().encode(plain));
+    const payload={ v:1, salt:_b64e(salt), iv:_b64e(iv), data:_b64e(ct) };
+    const api=`https://api.github.com/repos/${OWNER}/${REPO}/contents/${KEYS_FILE}`;
+    const cur=await fetch(api+"?t="+Date.now(),{headers:{Authorization:"Bearer "+token},cache:"no-store"});
+    const sha=cur.ok?(await cur.json()).sha:undefined;
+    const body={ message:"Aggiorna chiavi cifrate", content:b64(JSON.stringify(payload,null,2)) };
+    if(sha) body.sha=sha;
+    const res=await fetch(api,{method:"PUT",headers:{Authorization:"Bearer "+token,"Content-Type":"application/json"},body:JSON.stringify(body)});
+    if(res.ok) status("✓ Chiavi cifrate salvate nel cloud. Su un altro browser: inserisci la stessa password e premi 'Carica'.",true);
+    else { const e=await res.json().catch(()=>({})); status("Errore salvataggio: "+(e.message||res.status),false); }
+  }catch(e){ status("Errore cifratura: "+e.message,false); }
+}
+async function loadKeysEncrypted(){
+  const pass=$("keys_pass").value;
+  if(!pass){ status("Inserisci la password per decifrare le chiavi.",false); return; }
+  try{
+    const raw=`https://raw.githubusercontent.com/${OWNER}/${REPO}/main/${KEYS_FILE}?t=`+Date.now();
+    const r=await fetch(raw,{cache:"no-store"});
+    if(!r.ok){ status("Nessuna chiave cifrata nel cloud: salvala prima da un browser dove le hai.",false); return; }
+    const p=await r.json();
+    const key=await _deriveKey(pass, _b64d(p.salt));
+    let dec;
+    try{ dec=await crypto.subtle.decrypt({ name:"AES-GCM", iv:_b64d(p.iv) }, key, _b64d(p.data)); }
+    catch(_){ status("Password errata: impossibile decifrare.",false); return; }
+    const obj=JSON.parse(new TextDecoder().decode(dec));
+    if(obj.gh_token){ $("token").value=obj.gh_token; localStorage.setItem("gh_token",obj.gh_token); }
+    if(obj.gemini_key){ $("gemini_key").value=obj.gemini_key; localStorage.setItem("gemini_key",obj.gemini_key); }
+    status("✓ Chiavi caricate e decifrate in questo browser.",true);
+  }catch(e){ status("Errore: "+e.message,false); }
+}
 // Le chiavi (token GitHub + chiave Gemini) si salvano nel browser e si ripristinano da sole:
 // salvataggio a OGNI carattere (input) + su incolla/blur, così non vanno mai reinserite.
 function persistKey(id, storeKey){
