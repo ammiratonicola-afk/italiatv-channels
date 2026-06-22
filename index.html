@@ -142,6 +142,9 @@
     <label>Chiave Gemini API</label>
     <input id="gemini_key" type="password" placeholder="AIza… (usata solo nel tuo browser per il pulsante Gemini)">
     <div class="help">Serve per il pulsante accanto al link YouTube nella scheda film. Resta salvata solo nel tuo browser.</div>
+    <label>Chiave OpenAI API <span class="help" style="margin:0">(facoltativa — fallback se Gemini esaurisce la quota)</span></label>
+    <input id="openai_key" type="password" placeholder="sk-… (usata in automatico solo se Gemini dà errore 429)">
+    <div class="help">Se Gemini è esaurito (errore 429), l'editor riprova con OpenAI (<code>gpt-4o-mini</code>). Resta salvata solo nel tuo browser.</div>
 
     <label style="margin-top:14px">🔐 Sincronizza le chiavi tra browser/dispositivi</label>
     <div class="inline-input">
@@ -330,7 +333,7 @@ async function ytDescription(videoId){
 }
 async function askGeminiOriginalTitle(movie){
   const key=$("gemini_key").value.trim();
-  if(!key) throw new Error("Inserisci prima la chiave Gemini API nel blocco Token GitHub.");
+  if(!key && !$("openai_key").value.trim()) throw new Error("Inserisci la chiave Gemini (o OpenAI) nel blocco Token GitHub.");
   const videoId=ytId($("m_yt").value)||movie.video_id;
   if(!videoId) throw new Error("Link YouTube non valido.");
   // Economico+performante: leggo la DESCRIZIONE del video (lì spesso c'è "Titolo originale: X")
@@ -374,7 +377,10 @@ async function askGeminiOriginalTitle(movie){
       }
     }catch(e){ lastErr=e.message; }
   }
-  if(quotaHit) throw new Error("Quota Gemini esaurita su tutti i modelli (piano free). Riprova tra qualche minuto, oppure attiva il billing sulla console Google AI Studio.");
+  // Fallback automatico su OpenAI (se configurato) quando Gemini è esaurito o ha fallito
+  const oa=await openaiChat(prompt, true);
+  if(oa){ try{ return JSON.parse(cleanJsonText(oa)); }catch(_){} }
+  if(quotaHit) throw new Error("Quota Gemini esaurita (piano free). Aggiungi una chiave OpenAI per il fallback automatico, riprova tra qualche minuto, o attiva il billing.");
   throw new Error(lastErr||"Gemini non ha risposto.");
 }
 
@@ -455,18 +461,34 @@ function selectRes(i,el){
 
 // ── Traduzione trame in italiano (regola fissa: le trame devono essere SEMPRE in italiano) ──
 // Chiamata Gemini testuale generica (con fallback modello). null se manca la chiave o fallisce.
-async function geminiText(prompt){
-  const key=$("gemini_key").value.trim(); if(!key) return null;
-  const body=JSON.stringify({ contents:[{parts:[{text:prompt}]}], generationConfig:{temperature:0.2} });
-  for(const model of GEMINI_MODELS){
-    try{
-      const res=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,{
-        method:"POST", headers:{"Content-Type":"application/json","x-goog-api-key":key}, body});
-      if(res.ok){ const d=await res.json(); const t=(((d.candidates||[])[0]||{}).content||{}).parts?.map(p=>p.text||"").join("").trim(); if(t) return t; }
-      else if(res.status!==404 && res.status!==429) break;
-    }catch(e){}
+// Fallback OpenAI (ChatGPT) — usato quando Gemini esaurisce la quota (429).
+async function openaiChat(prompt, jsonMode){
+  const key=$("openai_key").value.trim(); if(!key) return null;
+  const body={ model:"gpt-4o-mini", temperature:0.1, messages:[{role:"user",content:prompt}] };
+  if(jsonMode) body.response_format={type:"json_object"};
+  try{
+    const res=await fetch("https://api.openai.com/v1/chat/completions",{
+      method:"POST", headers:{"Content-Type":"application/json","Authorization":"Bearer "+key}, body:JSON.stringify(body)});
+    if(!res.ok) return null;
+    const d=await res.json();
+    return ((((d.choices||[])[0]||{}).message)||{}).content || null;
+  }catch(e){ return null; }
+}
+async function geminiText(prompt, jsonMode){
+  const key=$("gemini_key").value.trim();
+  if(key){
+    const gen = jsonMode ? {temperature:0.2,responseMimeType:"application/json"} : {temperature:0.2};
+    const body=JSON.stringify({ contents:[{parts:[{text:prompt}]}], generationConfig:gen });
+    for(const model of GEMINI_MODELS){
+      try{
+        const res=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,{
+          method:"POST", headers:{"Content-Type":"application/json","x-goog-api-key":key}, body});
+        if(res.ok){ const d=await res.json(); const t=(((d.candidates||[])[0]||{}).content||{}).parts?.map(p=>p.text||"").join("").trim(); if(t) return t; }
+        else if(res.status!==404 && res.status!==429) break;  // errore non recuperabile → prova OpenAI
+      }catch(e){}
+    }
   }
-  return null;
+  return await openaiChat(prompt, jsonMode);  // fallback automatico (null se manca la chiave OpenAI)
 }
 async function translateToItalian(text){
   if(!text) return text;
@@ -484,7 +506,7 @@ function isProbablyItalian(t){
 async function translatePlot(){
   const cur=$("m_plot").value.trim();
   if(!cur){ status("Nessuna trama da tradurre.",false); return; }
-  if(!$("gemini_key").value.trim()){ status("Serve la chiave Gemini per tradurre.",false); return; }
+  if(!$("gemini_key").value.trim() && !$("openai_key").value.trim()){ status("Serve la chiave Gemini o OpenAI per tradurre.",false); return; }
   status("Traduco la trama in italiano…",true);
   const t=await translateToItalian(cur);
   if(t && t!==cur){ $("m_plot").value=t; status("✓ Trama tradotta in italiano.",true); }
@@ -1221,7 +1243,7 @@ async function saveKeysEncrypted(){
   try{
     const salt=crypto.getRandomValues(new Uint8Array(16)), iv=crypto.getRandomValues(new Uint8Array(12));
     const key=await _deriveKey(pass, salt);
-    const plain=JSON.stringify({ gh_token:token, gemini_key:$("gemini_key").value.trim() });
+    const plain=JSON.stringify({ gh_token:token, gemini_key:$("gemini_key").value.trim(), openai_key:$("openai_key").value.trim() });
     const ct=await crypto.subtle.encrypt({ name:"AES-GCM", iv }, key, new TextEncoder().encode(plain));
     const payload={ v:1, salt:_b64e(salt), iv:_b64e(iv), data:_b64e(ct) };
     const api=`https://api.github.com/repos/${OWNER}/${REPO}/contents/${KEYS_FILE}`;
@@ -1249,6 +1271,7 @@ async function loadKeysEncrypted(){
     const obj=JSON.parse(new TextDecoder().decode(dec));
     if(obj.gh_token){ $("token").value=obj.gh_token; localStorage.setItem("gh_token",obj.gh_token); }
     if(obj.gemini_key){ $("gemini_key").value=obj.gemini_key; localStorage.setItem("gemini_key",obj.gemini_key); }
+    if(obj.openai_key){ $("openai_key").value=obj.openai_key; localStorage.setItem("openai_key",obj.openai_key); }
     status("✓ Chiavi caricate e decifrate in questo browser.",true);
   }catch(e){ status("Errore: "+e.message,false); }
 }
@@ -1262,6 +1285,7 @@ function persistKey(id, storeKey){
 }
 persistKey("token","gh_token");
 persistKey("gemini_key","gemini_key");
+persistKey("openai_key","openai_key");
 load();
 </script>
 </body>
