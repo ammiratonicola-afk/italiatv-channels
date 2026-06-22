@@ -1009,10 +1009,16 @@ function deleteFilm(){
   closeModal();
 }
 
-$("token").value=localStorage.getItem("gh_token")||"";
-$("token").addEventListener("change",e=>localStorage.setItem("gh_token",e.target.value.trim()));
-$("gemini_key").value=localStorage.getItem("gemini_key")||"";
-$("gemini_key").addEventListener("change",e=>localStorage.setItem("gemini_key",e.target.value.trim()));
+// Le chiavi (token GitHub + chiave Gemini) si salvano nel browser e si ripristinano da sole:
+// salvataggio a OGNI carattere (input) + su incolla/blur, così non vanno mai reinserite.
+function persistKey(id, storeKey){
+  const el=$(id); if(!el) return;
+  el.value=localStorage.getItem(storeKey)||"";
+  const save=()=>localStorage.setItem(storeKey, el.value.trim());
+  ["input","change","paste"].forEach(ev=>el.addEventListener(ev, ()=>setTimeout(save,0)));
+}
+persistKey("token","gh_token");
+persistKey("gemini_key","gemini_key");
 load();
 </script>
 </body>
