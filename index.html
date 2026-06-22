@@ -268,7 +268,10 @@
       <div id="m_gemini_out" class="aiout"></div>
       <label>Titolo originale suggerito</label><input id="m_original_guess" placeholder="Risultato Gemini, utile per cercare su TMDB">
       <label>🎬 Link trailer (YouTube)</label><input id="m_trailer" placeholder="https://www.youtube.com/watch?v=…  (vuoto = nessun trailer)">
-      <label>Trama</label><textarea id="m_plot" rows="4" style="width:100%;padding:10px 12px;background:var(--card2);border:1px solid #33335a;border-radius:8px;color:var(--text);font-size:14px;font-family:inherit"></textarea>
+      <label style="display:flex;align-items:center;gap:8px">Trama
+        <button class="sec" type="button" onclick="translatePlot()" style="padding:4px 10px;font-size:12px;margin-left:auto">🌐 Traduci in italiano</button>
+      </label>
+      <textarea id="m_plot" rows="4" style="width:100%;padding:10px 12px;background:var(--card2);border:1px solid #33335a;border-radius:8px;color:var(--text);font-size:14px;font-family:inherit"></textarea>
       <label>Poster (path TMDB, es. /abc.jpg)</label><input id="m_posterpath" placeholder="lascia vuoto per nessuno">
       <label>🎭 Cast (nome · personaggio · foto)</label>
       <div id="m_cast"></div>
@@ -450,13 +453,54 @@ function selectRes(i,el){
   $("selInfo").textContent=`Selezionato: ${selected.title} (${selected.year||'—'}) — ${kind} TMDB ${selected.id}`;
 }
 
+// ── Traduzione trame in italiano (regola fissa: le trame devono essere SEMPRE in italiano) ──
+// Chiamata Gemini testuale generica (con fallback modello). null se manca la chiave o fallisce.
+async function geminiText(prompt){
+  const key=$("gemini_key").value.trim(); if(!key) return null;
+  const body=JSON.stringify({ contents:[{parts:[{text:prompt}]}], generationConfig:{temperature:0.2} });
+  for(const model of GEMINI_MODELS){
+    try{
+      const res=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,{
+        method:"POST", headers:{"Content-Type":"application/json","x-goog-api-key":key}, body});
+      if(res.ok){ const d=await res.json(); const t=(((d.candidates||[])[0]||{}).content||{}).parts?.map(p=>p.text||"").join("").trim(); if(t) return t; }
+      else if(res.status!==404 && res.status!==429) break;
+    }catch(e){}
+  }
+  return null;
+}
+async function translateToItalian(text){
+  if(!text) return text;
+  const out=await geminiText("Traduci in ITALIANO naturale e scorrevole questa trama di film. Rispondi SOLO con la traduzione, senza virgolette, premesse o note:\n\n"+text);
+  return out||text;
+}
+// euristica: la trama è probabilmente italiana? (conta parole funzione italiane vs inglesi)
+function isProbablyItalian(t){
+  t=" "+(t||"").toLowerCase()+" ";
+  const it=(t.match(/ (di|che|il|la|le|un|una|con|per|si|del|della|nel|sono|come|dopo|quando|gli|dei|suo|sua) /g)||[]).length;
+  const en=(t.match(/ (the|and|of|to|in|is|with|his|her|they|when|after|from|this|that|was|are|on|by) /g)||[]).length;
+  return it>=en;
+}
+// pulsante manuale nella scheda: traduce la trama corrente in italiano
+async function translatePlot(){
+  const cur=$("m_plot").value.trim();
+  if(!cur){ status("Nessuna trama da tradurre.",false); return; }
+  if(!$("gemini_key").value.trim()){ status("Serve la chiave Gemini per tradurre.",false); return; }
+  status("Traduco la trama in italiano…",true);
+  const t=await translateToItalian(cur);
+  if(t && t!==cur){ $("m_plot").value=t; status("✓ Trama tradotta in italiano.",true); }
+  else status("Trama già in italiano o traduzione non riuscita.",false);
+}
+
 // costruisce il record completo da un film O da una serie TV (campi diversi)
 async function buildRecord(vid, sel, genre, titleOv, yearOv){
   const isTv=sel._type==="tv";
   const base=isTv?`${TMDB}/tv/${sel.id}`:`${TMDB}/movie/${sel.id}`;
   const it=await fetch(`${base}?api_key=${TKEY}&language=it-IT&append_to_response=credits,videos`).then(r=>r.json());
-  let ov=it.overview;
-  if(!ov){ const en=await fetch(`${base}?api_key=${TKEY}&language=en-US`).then(r=>r.json()); ov=en.overview||""; }
+  let ov=it.overview, ovIta=!!it.overview;
+  if(!ov){ // TMDB non ha la trama in italiano → prendi l'inglese e TRADUCILA (Gemini, se disponibile)
+    const en=await fetch(`${base}?api_key=${TKEY}&language=en-US`).then(r=>r.json()); ov=en.overview||"";
+    if(ov){ const tr=await translateToItalian(ov); if(tr && tr!==ov){ ov=tr; ovIta=true; } }
+  }
   const cast=(it.credits&&it.credits.cast||[]).slice(0,10).map(c=>({nome:c.name,personaggio:c.character||null,
     foto_url:c.profile_path?IMG+"w185"+c.profile_path:null,foto_tipo:c.profile_path?"foto_attore":"nessuna",
     foto_fonte:{nome:"TMDB",url_pagina_origine:`https://www.themoviedb.org/person/${c.id}`,verificata:!!c.profile_path}}));
@@ -477,7 +521,7 @@ async function buildRecord(vid, sel, genre, titleOv, yearOv){
     strict_id_v2:{ identificato:true, livello_certezza:"alto", titolo_italiano:titolo,
       titolo_originale:(it.original_title||it.original_name||null),
       anno_uscita:yr, durata_minuti:runtime, genere:(it.genres||[]).map(g=>g.name),
-      regista:dirs, cast_principale:cast, trama:ov, trama_tradotta_in_italiano:!!it.overview,
+      regista:dirs, cast_principale:cast, trama:ov, trama_tradotta_in_italiano:ovIta,
       locandina_url:it.poster_path?IMG+"w500"+it.poster_path:null, trailer, tmdb_id_scelto:sel.id } };
 }
 
@@ -716,6 +760,7 @@ async function runDiagnostics(){
   const noPoster=catalogAll.filter(x=>!x.m.tmdb_poster_path);
   const noPlot=catalogAll.filter(x=>!(((x.m.strict_id_v2||{}).trama)||x.m.enriched_plot));
   const noCast=catalogAll.filter(x=>!(((x.m.strict_id_v2||{}).cast_principale||[]).length));
+  const nonItalianPlot=catalogAll.filter(x=>{ const p=((x.m.strict_id_v2||{}).trama)||x.m.enriched_plot; return p && !isProbablyItalian(p); });
   // controllo YouTube a batch (disponibilità + blocco IT + durata)
   geoBlockedSet.clear(); unavailableSet.clear(); const shortDur=[];
   const ids=catalogAll.map(x=>x.m.video_id);
@@ -736,7 +781,7 @@ async function runDiagnostics(){
     $("catInfo").textContent=`Diagnostica… ${Math.min(i+50,ids.length)}/${ids.length}`;
   }
   diagResults={
-    noPoster, noPlot, noCast, shortDur,
+    noPoster, noPlot, noCast, nonItalianPlot, shortDur,
     geoBlocked: catalogAll.filter(x=>geoBlockedSet.has(x.m.video_id)),
     unavailable: catalogAll.filter(x=>unavailableSet.has(x.m.video_id)),
   };
@@ -747,6 +792,7 @@ const DIAG_CATS=[
   ["noPoster","⚠️ Da identificare (senza locandina)"],
   ["noPlot","Senza trama"],
   ["noCast","Senza cast"],
+  ["nonItalianPlot","🌐 Trama non in italiano"],
   ["geoBlocked","🌍 Geo-bloccati in Italia (partono via proxy)"],
   ["unavailable","🚫 Video non disponibili su YouTube"],
   ["shortDur","⏱️ Durata < 40 min (forse non film)"],
