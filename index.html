@@ -733,7 +733,7 @@ function deriveGenre(tmdbGenres){
   for(const p of GENRE_PRIORITY){ if(keys.has(p)) return p; }
   return "";
 }
-let catalogAll=null, catRawObj=null; const catDirty=new Set(); const catSel=new Set(); const catRenamed={}; let dupMode=false;
+let catalogAll=null, catRawObj=null; const catDirty=new Set(); const catSel=new Set(); const catRenamed={};
 // stato per i badge (popolati dalla diagnostica YouTube): geo-bloccati e non disponibili
 const geoBlockedSet=new Set(), unavailableSet=new Set(), shortDurSet=new Set(); let diagResults=null; let diagCatOpen=null;
 // Ricalcola i conteggi diagnostica: le categorie LOCALI (poster/trama/cast/lingua) si rifanno
@@ -756,7 +756,6 @@ function recomputeDiag(){
 // Ri-renderizza la vista catalogo ATTIVA (diagnostica > doppioni > catalogo) senza sovrascriverla.
 function refreshCatView(){
   if(diagResults){ recomputeDiag(); if(diagCatOpen!=null) showDiagCat(diagCatOpen); else renderDiagnostics(); }
-  else if(dupMode) renderDuplicates();
   else if(catalogAll) renderCatalog();
 }
 // Card film riutilizzabile (catalogo, doppioni, diagnostica): checkbox + badge stato + clic-modifica.
@@ -800,7 +799,6 @@ function sortChannels(a,b){ return a==="🎬 Film manuali"?1 : b==="🎬 Film ma
 async function showCatalog(){
   if(catalogAll){ $("catalog").innerHTML=""; catalogAll=null; catRawObj=null; catDirty.clear(); catSel.clear();
     $("catBtn").textContent="📚 Mostra tutto il catalogo"; $("catSearch").style.display="none"; $("catChannel").style.display="none";
-    dupMode=false;
     diagResults=null; diagCatOpen=null; $("diagBtn").textContent="🩺 Diagnostica"; geoBlockedSet.clear(); unavailableSet.clear();
     $("catToIdWrap").style.display="none"; $("delSelBtn").style.display="none"; $("catInfo").textContent=""; $("saveCatBtn").style.display="none"; $("catHint").style.display="none"; return; }
   $("catBtn").disabled=true; $("catInfo").textContent="Carico il catalogo…";
@@ -872,20 +870,6 @@ function findDupGroups(){
   Object.keys(byTmdb).forEach(t=>{ if(byTmdb[t].length>1){ groups.push({label:title(byTmdb[t][0].m)+" — TMDB "+t, items:byTmdb[t] }); } });
   return groups;
 }
-function renderDuplicates(){
-  const C=$("catalog"); C.innerHTML="";
-  const groups=findDupGroups();
-  if(!groups.length){ C.innerHTML="<div class='help' style='padding:12px'>✓ Nessun doppione: nessun film con lo stesso TMDB ID o lo stesso video.</div>"; $("catInfo").textContent="0 doppioni"; return; }
-  let copies=0;
-  groups.forEach(grp=>{
-    const sec=document.createElement("div"); sec.className="chsec";
-    sec.innerHTML=`<h2 class="chh">${grp.label} <span>(${grp.items.length} copie — tienine una, elimina le altre)</span></h2>`;
-    const grid=document.createElement("div"); grid.className="gcat";
-    grp.items.forEach(x=>{ copies++; grid.appendChild(catCard(x, channelOf(x))); });
-    sec.appendChild(grid); C.appendChild(sec);
-  });
-  $("catInfo").textContent=`${groups.length} gruppi di doppioni · ${copies} copie totali`;
-}
 // ── Diagnostica catalogo: locandina/trama/cast mancanti + disponibilità/geo-blocco YouTube ──
 function parseDuration(iso){
   const m=(iso||"").match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/); if(!m) return 0;
@@ -925,7 +909,7 @@ async function runDiagnostics(){
     $("catInfo").textContent=`Diagnostica… ${Math.min(i+50,ids.length)}/${ids.length}`;
   }
   recomputeDiag();   // calcola tutte le categorie (locali + YouTube)
-  $("diagBtn").disabled=false; $("diagBtn").textContent="✖ Chiudi diagnostica"; dupMode=false;
+  $("diagBtn").disabled=false; $("diagBtn").textContent="✖ Chiudi diagnostica";
   renderDiagnostics();
 }
 const DIAG_CATS=[
