@@ -785,7 +785,7 @@ function deriveGenre(tmdbGenres){
 }
 let catalogAll=null, catRawObj=null; const catDirty=new Set(); const catSel=new Set(); const catRenamed={};
 // stato per i badge (popolati dalla diagnostica YouTube): geo-bloccati e non disponibili
-const geoBlockedSet=new Set(), unavailableSet=new Set(), shortDurSet=new Set(); let diagResults=null; let diagCatOpen=null;
+const geoBlockedSet=new Set(), unavailableSet=new Set(), shortDurSet=new Set(), ageRestrictedSet=new Set(); let diagResults=null; let diagCatOpen=null;
 // Ricalcola i conteggi diagnostica: le categorie LOCALI (poster/trama/cast/lingua) si rifanno
 // al volo da catalogAll; quelle da YouTube (geo/disponibilità/durata) riusano i Set dell'ultima
 // scansione (niente nuove chiamate API a ogni modifica).
@@ -801,6 +801,7 @@ function recomputeDiag(){
     shortDur: catalogAll.filter(x=>{ const dm=(x.m.strict_id_v2||{}).durata_minuti; return dm ? (dm<40) : shortDurSet.has(x.m.video_id); }),
     duplicates: (()=>{ const s=new Set(); findDupGroups().forEach(g=>g.items.forEach(x=>s.add(x))); return [...s]; })(),
     geoBlocked: catalogAll.filter(x=>geoBlockedSet.has(x.m.video_id)),
+    ageRestricted: catalogAll.filter(x=>ageRestrictedSet.has(x.m.video_id)),
     unavailable: catalogAll.filter(x=>unavailableSet.has(x.m.video_id)),
   };
 }
@@ -850,7 +851,7 @@ function sortChannels(a,b){ return a==="🎬 Film manuali"?1 : b==="🎬 Film ma
 async function showCatalog(){
   if(catalogAll){ $("catalog").innerHTML=""; catalogAll=null; catRawObj=null; catDirty.clear(); catSel.clear();
     $("catBtn").textContent="📚 Mostra tutto il catalogo"; $("catSearch").style.display="none"; $("catChannel").style.display="none";
-    diagResults=null; diagCatOpen=null; $("diagBtn").textContent="🩺 Diagnostica"; geoBlockedSet.clear(); unavailableSet.clear();
+    diagResults=null; diagCatOpen=null; $("diagBtn").textContent="🩺 Diagnostica"; geoBlockedSet.clear(); unavailableSet.clear(); ageRestrictedSet.clear();
     $("delSelBtn").style.display="none"; $("catInfo").textContent=""; $("saveCatBtn").style.display="none"; $("catHint").style.display="none"; return; }
   $("catBtn").disabled=true; $("catInfo").textContent="Carico il catalogo…";
   try{
@@ -972,7 +973,7 @@ async function runDiagnostics(){
   }
   $("diagBtn").disabled=true;
   // controllo YouTube a batch (disponibilità + blocco IT + durata)
-  geoBlockedSet.clear(); unavailableSet.clear(); shortDurSet.clear();
+  geoBlockedSet.clear(); unavailableSet.clear(); shortDurSet.clear(); ageRestrictedSet.clear();
   const ids=catalogAll.map(x=>x.m.video_id);
   for(let i=0;i<ids.length;i+=50){
     const batch=ids.slice(i,i+50);
@@ -983,6 +984,7 @@ async function runDiagnostics(){
         got.add(it.id);
         const rr=(it.contentDetails||{}).regionRestriction||{};
         if((rr.blocked||[]).includes("IT")||(rr.allowed&&!rr.allowed.includes("IT"))) geoBlockedSet.add(it.id);
+        if((((it.contentDetails||{}).contentRating)||{}).ytRating==="ytAgeRestricted") ageRestrictedSet.add(it.id);
         const dur=parseDuration((it.contentDetails||{}).duration);
         if(dur>0 && dur<2400) shortDurSet.add(it.id);
       });
@@ -1003,6 +1005,7 @@ const DIAG_CATS=[
   ["duplicates","🔁 Doppioni (stesso TMDB / stesso video)"],
   ["nonItalianPlot","🌐 Trama non in italiano"],
   ["geoBlocked","🌍 Geo-bloccati in Italia (partono via proxy)"],
+  ["ageRestricted","🔞 Restrizione d'età (non si riproducono senza login YouTube)"],
   ["unavailable","🚫 Video non disponibili su YouTube"],
   ["shortDur","⏱️ Durata < 40 min (forse non film)"],
 ];
