@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T05:14:25.354Z",
+  "generated_at": "2026-06-22T05:19:31.840Z",
   "movies": [
     {
       "video_id": "zYeeo62exh0",
@@ -14877,6 +14877,454 @@
           "canale": null
         },
         "tmdb_id_scelto": 38286
+      }
+    },
+    {
+      "video_id": "KKFveUhnRso",
+      "is_movie": true,
+      "manual_include": true,
+      "channel": "Manuale",
+      "genre": "thriller",
+      "original_title": "Parker",
+      "tmdb_id": 119283,
+      "tmdb_title_official": "Parker",
+      "tmdb_year_official": 2013,
+      "tmdb_poster_path": "/9nDxUZmrQPtrdLxSkMJkVIytILr.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Parker",
+        "titolo_originale": "Parker",
+        "anno_uscita": 2013,
+        "durata_minuti": 118,
+        "genere": [
+          "Azione",
+          "Crime"
+        ],
+        "regista": [
+          "Taylor Hackford"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Jason Statham",
+            "personaggio": "Parker",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pXGSq2UpcDE2NMF8LR56QZf5U1q.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jennifer Lopez",
+            "personaggio": "Leslie Rodgers",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iDiicDZ6CMib20QSCQYB55iynEk.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Michael Chiklis",
+            "personaggio": "Melander",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pAkKjbzxP6Z6Y5zAGpwmWQo1iji.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Wendell Pierce",
+            "personaggio": "Carlson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/r6yKahL6Z8l9aUX5qvWxTmWl8Nm.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Clifton Collins Jr.",
+            "personaggio": "Ross",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iUQGHVSAA48q1QMnj7hnBFVq3jK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Bobby Cannavale",
+            "personaggio": "Jake Fernandez",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wlp20ggyNI7x0xGUtTjC2Xl2XmD.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Patti LuPone",
+            "personaggio": "Ascension",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mbNAKaSYSTGeigxeFwUQfvoUXW0.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Carlos Carrasco",
+            "personaggio": "Norte",
+            "foto_url": "https://image.tmdb.org/t/p/w185/a9SwtLdCPYu8TRdnieWsUrUsilG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Micah A. Hauptman",
+            "personaggio": "August Hardwicke",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gOFfdRDtlz9XBlD6skGJzhhj3Id.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Emma Booth",
+            "personaggio": "Claire",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9mxCaOgYPeXN2DtbjaKHIreiZNS.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Parker è un esperto di pianificazione e di esecuzione di furti apparentemente impossibili. Audace, meticoloso e spietato, Parker ha un codice d’onore: non rubare mai ai bisognosi, uccidere solo se è necessario, vendicarsi sempre con i nemici. Quando la sua ultima rapina ha risvolti mortali a causa della disattenzione di un membro della squadra, Parker rifiuta di unirsi al boss Melander e alla sua banda per il loro prossimo grande colpo. Non disposti ad accettare un no i criminali aggrediscono Parker, lasciandolo apparentemente morto sul ciglio di una strada deserta.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/9nDxUZmrQPtrdLxSkMJkVIytILr.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos",
+          "url": "https://www.youtube.com/watch?v=iP7Got9-4-k",
+          "canale": null
+        },
+        "tmdb_id_scelto": 119283
+      }
+    },
+    {
+      "video_id": "B7Vg9PgPLEo",
+      "is_movie": true,
+      "manual_include": true,
+      "channel": "Manuale",
+      "genre": "thriller",
+      "original_title": "22 минуты",
+      "tmdb_id": 271234,
+      "tmdb_title_official": "22 Minuti",
+      "tmdb_year_official": 2014,
+      "tmdb_poster_path": "/2s7napczdXfq1CulqAZzEU6LQOj.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "22 Minuti",
+        "titolo_originale": "22 минуты",
+        "anno_uscita": 2014,
+        "durata_minuti": 120,
+        "genere": [
+          "Crime",
+          "Azione"
+        ],
+        "regista": [
+          "Василий Сериков"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Vladimir Blagoy",
+            "personaggio": "Vitalik, radioman",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Владислав Дёмин",
+            "personaggio": "Mogila, Chief ensign RN",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7lXTGui5xltW26ED4aDWCPi4ydu.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Александр Галибин",
+            "personaggio": "Decalin, Captain of tanker \"Yamal\"",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3PmUkAbskqVaBf6YA0pv5sLuy5u.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Пётр Королёв",
+            "personaggio": "Tanker mechanic",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jQB1SP7bGeAbKGJLvmHLkan7BsC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Екатерина Маликова",
+            "personaggio": "Olga Gurova",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6FLR2sZc2T9AtiqQ22oNVO1MOOp.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Максим Пешков",
+            "personaggio": "Spetsnaz from \"Admiral Shaposhnikov\"",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Денис Никифоров",
+            "personaggio": "Tarasov, captain of the Marine Corps",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dC6nWSUKDFPFCM0MtvXE8CIwyTL.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Виктор Сухоруков",
+            "personaggio": "Ukolov, Captain 1st rank RN",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wkGGfQ1GNRIuAtBWDU0W36DlH3T.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Макар Запорожский",
+            "personaggio": "Sanya Yezhov",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5jd58NUNodDJTGfsf9x3SUyF0Lb.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Геннадий Горбачёв",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/mCPqGg0Pb7gvZ2hxSt9okWD9PHk.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "5 maggio 2010, golfo di Aden. Una petroliera russa viene presa d'assalto dai pirati somali. L'equipaggio, composto da 23 marinai, si rifugia nella sala di comando e lancia un ultimo messaggio di soccorso. Una nave da guerra presente nello stesso corridoio marittimo riceve il segnale di emergenza e invia la sua squadra di soldati per una missione di salvataggio. Per portare a termine l'operazione, i soldati hanno a disposizione solo 22 minuti",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/2s7napczdXfq1CulqAZzEU6LQOj.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 271234
+      }
+    },
+    {
+      "video_id": "-ArEcSr-If8",
+      "is_movie": true,
+      "manual_include": true,
+      "channel": "Manuale",
+      "genre": "thriller",
+      "original_title": "Payback",
+      "tmdb_id": 2112,
+      "tmdb_title_official": "Payback - La rivincita di Porter",
+      "tmdb_year_official": 1999,
+      "tmdb_poster_path": "/6erwfqyRdeZ5hk7fm7zN2BHG8NH.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Payback - La rivincita di Porter",
+        "titolo_originale": "Payback",
+        "anno_uscita": 1999,
+        "durata_minuti": 100,
+        "genere": [
+          "Azione",
+          "Dramma",
+          "Crime",
+          "Thriller"
+        ],
+        "regista": [
+          "Brian Helgeland"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Mel Gibson",
+            "personaggio": "Porter",
+            "foto_url": "https://image.tmdb.org/t/p/w185/yk7t6dXTxThonouyBLI7Sjd1xzG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gregg Henry",
+            "personaggio": "Val Resnick",
+            "foto_url": "https://image.tmdb.org/t/p/w185/j17nuAFulrbYP34g4Qw8SZRDNUo.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Maria Bello",
+            "personaggio": "Rosie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/it1f5mxiGIWO0DzTBfwtLTjphZb.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "David Paymer",
+            "personaggio": "Arthur Stegman",
+            "foto_url": "https://image.tmdb.org/t/p/w185/owoOdDFgXpls1OFKwmQ104Nkl5.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Bill Duke",
+            "personaggio": "Det. Hicks",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hZrYPwer5PeK77OEILkNWHVb3ss.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Deborah Kara Unger",
+            "personaggio": "Mrs. Lynn Porter",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kPhYhisjduJ9ztFSwYQ6Ke6qeJy.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "John Glover",
+            "personaggio": "Phil",
+            "foto_url": "https://image.tmdb.org/t/p/w185/aPmq20MXqFALrUxaaJoC2Xonumo.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "William Devane",
+            "personaggio": "Carter",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wCfPYMkAOCXM4RF1Pg6VhtKR50U.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lucy Liu",
+            "personaggio": "Pearl",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9nbtjqsx3De7hO2XDtrBQ7M9VCH.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kris Kristofferson",
+            "personaggio": "Bronson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/efD2Uu8QYBN7ZWSFa79mm3Pkk4L.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Porter e Val sono due ladri, molto amici tra loro che rubano 130 mila dollari ad un gruppo di malviventi cinesi. Al momento di dividere il bottino, Val, con la complicità della moglie di Porter, Lynn (attirata con l'inganno), si prende tutti i soldi mentre la moglie spara al marito, convinta di ucciderlo. Porter, però, guarisce e ha una sola idea: riprendere la sua parte di soldi e uccidere Val. Quando torna a casa, ritrova la moglie Lynn oramai abbandonata da Val e distrutta e la notte stessa muore per una dose di eroina. Da qui parte la caccia a Val, che nel frattempo è entrato a far parte di una potentissima organizzazione criminale, detta l'\"Organizzazione\"; lo farà con l'aiuto di Rosie, prostituta d'alto bordo e causa del tradimento della moglie. La sua ricerca si tramuta in una escalation continua: l'Organizzazione protegge i propri associati e per riavere quei soldi Porter si ritrova a sfidare l'intero sistema, polizia e mafia cinese inclusi.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/6erwfqyRdeZ5hk7fm7zN2BHG8NH.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 2112
       }
     }
   ]
