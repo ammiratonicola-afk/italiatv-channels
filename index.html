@@ -181,7 +181,6 @@
       <button class="sec" id="diagBtn" onclick="runDiagnostics()">🩺 Diagnostica</button>
       <select id="catChannel" style="max-width:220px;display:none" onchange="renderCatalog()"></select>
       <input id="catSearch" placeholder="Filtra per titolo…" style="max-width:200px;display:none" oninput="renderCatalog()">
-      <label id="catToIdWrap" style="display:none;font-size:13px;color:var(--muted);align-items:center;gap:6px;cursor:pointer"><input type="checkbox" id="catOnlyToId" style="width:auto;margin:0" onchange="renderCatalog()"> ⚠️ solo da identificare</label>
       <button id="delSelBtn" onclick="deleteSelected()" style="display:none;background:var(--err)">🗑 Elimina selezionati</button>
       <button id="saveCatBtn" onclick="saveCatalog()" style="display:none">💾 Salva modifiche catalogo</button>
       <span class="help" id="catInfo" style="margin:0"></span>
@@ -852,7 +851,7 @@ async function showCatalog(){
   if(catalogAll){ $("catalog").innerHTML=""; catalogAll=null; catRawObj=null; catDirty.clear(); catSel.clear();
     $("catBtn").textContent="📚 Mostra tutto il catalogo"; $("catSearch").style.display="none"; $("catChannel").style.display="none";
     diagResults=null; diagCatOpen=null; $("diagBtn").textContent="🩺 Diagnostica"; geoBlockedSet.clear(); unavailableSet.clear();
-    $("catToIdWrap").style.display="none"; $("delSelBtn").style.display="none"; $("catInfo").textContent=""; $("saveCatBtn").style.display="none"; $("catHint").style.display="none"; return; }
+    $("delSelBtn").style.display="none"; $("catInfo").textContent=""; $("saveCatBtn").style.display="none"; $("catHint").style.display="none"; return; }
   $("catBtn").disabled=true; $("catInfo").textContent="Carico il catalogo…";
   try{
     const cat=await fetchCatalogFresh();
@@ -864,11 +863,8 @@ async function showCatalog(){
     const chans=[...new Set(catalogAll.map(channelOf))].sort(sortChannels);
     $("catChannel").innerHTML=`<option value="all">Tutti i canali (${catalogAll.length})</option>`+
       chans.map(c=>`<option value="${c}">${c} (${catalogAll.filter(x=>channelOf(x)===c).length})</option>`).join("");
-    const nToId=catalogAll.filter(x=>!x.m.tmdb_poster_path).length;
     $("catBtn").textContent="✖ Nascondi catalogo"; $("catChannel").style.display="block";
     $("catSearch").style.display="block"; $("catHint").style.display="block";
-    $("catToIdWrap").style.display="inline-flex";
-    $("catToIdWrap").lastChild.textContent=` ⚠️ solo da identificare (${nToId})`;
     renderCatalog();
   }catch(e){ $("catInfo").textContent="Errore: "+e.message; }
   $("catBtn").disabled=false;
@@ -877,13 +873,11 @@ function renderCatalog(){
   if(!catalogAll) return;
   const q=($("catSearch").value||"").toLowerCase().trim();
   const chSel=$("catChannel").value||"all";
-  const onlyToId=$("catOnlyToId").checked;
   const C=$("catalog"); C.innerHTML=""; let shown=0;
-  // filtra per titolo + canale + (eventuale) solo da identificare
+  // filtra per titolo + canale (i "da identificare" sono nella Diagnostica)
   const items=catalogAll.filter(x=>{
     if(q && !title(x.m).toLowerCase().includes(q)) return false;
     if(chSel!=="all" && channelOf(x)!==chSel) return false;
-    if(onlyToId && x.m.tmdb_poster_path) return false;
     return true;
   });
   // raggruppa per CANALE, poi dentro per GENERE
