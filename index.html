@@ -196,6 +196,7 @@
     <h2>4 · Catalogo per canale e genere</h2>
     <div class="actions">
       <button class="sec" id="catBtn" onclick="showCatalog()">📚 Mostra tutto il catalogo</button>
+      <button class="sec" id="dupBtn" onclick="showDuplicates()">🔁 Trova doppioni</button>
       <select id="catChannel" style="max-width:220px;display:none" onchange="renderCatalog()"></select>
       <input id="catSearch" placeholder="Filtra per titolo…" style="max-width:200px;display:none" oninput="renderCatalog()">
       <label id="catToIdWrap" style="display:none;font-size:13px;color:var(--muted);align-items:center;gap:6px;cursor:pointer"><input type="checkbox" id="catOnlyToId" style="width:auto;margin:0" onchange="renderCatalog()"> ⚠️ solo da identificare</label>
@@ -543,7 +544,7 @@ function deriveGenre(tmdbGenres){
   for(const p of GENRE_PRIORITY){ if(keys.has(p)) return p; }
   return "";
 }
-let catalogAll=null, catRawObj=null; const catDirty=new Set(); const catSel=new Set(); const catRenamed={};
+let catalogAll=null, catRawObj=null; const catDirty=new Set(); const catSel=new Set(); const catRenamed={}; let dupMode=false;
 function updateDelSelBtn(){ const b=$("delSelBtn"); if(catSel.size){ b.style.display="inline-block"; b.textContent=`🗑 Elimina selezionati (${catSel.size})`; } else b.style.display="none"; }
 function deleteSelected(){
   if(!catSel.size) return;
@@ -558,7 +559,7 @@ function deleteSelected(){
   catSel.clear(); updateDelSelBtn();
   if(ncat) $("saveCatBtn").style.display="inline-block";
   if(nman) render();
-  renderCatalog();
+  if(dupMode) renderDuplicates(); else renderCatalog();
   status(`Eliminati ${ncat+nman} film (${ncat} catalogo, ${nman} manuali). Salva: catalogo col pulsante verde, manuali con 'Salva su GitHub'.`,true);
 }
 const GOPTS=GENRE_ORDER.map(([k,l])=>`<option value="${k}">${l}</option>`).join("");
@@ -568,6 +569,7 @@ function sortChannels(a,b){ return a==="🎬 Film manuali"?1 : b==="🎬 Film ma
 async function showCatalog(){
   if(catalogAll){ $("catalog").innerHTML=""; catalogAll=null; catRawObj=null; catDirty.clear(); catSel.clear();
     $("catBtn").textContent="📚 Mostra tutto il catalogo"; $("catSearch").style.display="none"; $("catChannel").style.display="none";
+    dupMode=false; $("dupBtn").textContent="🔁 Trova doppioni";
     $("catToIdWrap").style.display="none"; $("delSelBtn").style.display="none"; $("catInfo").textContent=""; $("saveCatBtn").style.display="none"; $("catHint").style.display="none"; return; }
   $("catBtn").disabled=true; $("catInfo").textContent="Carico il catalogo…";
   try{
@@ -631,6 +633,57 @@ function renderCatalog(){
     C.appendChild(chsec);
   });
   $("catInfo").textContent=`${shown} film`+(chSel!=="all"?` · ${chSel}`:"")+(q?` · "${q}"`:"");
+}
+// ── Controllo doppioni: stesso TMDB ID (stesso film) o stesso video_id (copia esatta) ──
+async function showDuplicates(){
+  if(!catalogAll){
+    $("dupBtn").disabled=true; $("catInfo").textContent="Carico il catalogo…";
+    try{
+      const cat=await fetchCatalogFresh(); catRawObj=cat;
+      catalogAll=[...(cat.movies||[]).map(m=>({m,src:"cat"})), ...movies.map(m=>({m,src:"man"}))].filter(x=>x.m.is_movie!==false);
+    }catch(e){ $("catInfo").textContent="Errore: "+e.message; $("dupBtn").disabled=false; return; }
+    $("dupBtn").disabled=false;
+  }
+  dupMode=!dupMode;
+  $("dupBtn").textContent=dupMode?"✖ Chiudi doppioni":"🔁 Trova doppioni";
+  if(dupMode){ $("delSelBtn").style.display="none"; renderDuplicates(); }
+  else if($("catBtn").textContent.startsWith("✖")) renderCatalog();   // catalogo aperto → torna alla vista normale
+  else { $("catalog").innerHTML=""; $("catInfo").textContent=""; }
+}
+function findDupGroups(){
+  const byTmdb={}, byVid={};
+  catalogAll.forEach(x=>{
+    const t=x.m.tmdb_id; if(t) (byTmdb[t]=byTmdb[t]||[]).push(x);
+    (byVid[x.m.video_id]=byVid[x.m.video_id]||[]).push(x);
+  });
+  const groups=[]; const seen=new Set();
+  // 1) stesso video_id = copia esatta (più grave)
+  Object.keys(byVid).forEach(v=>{ if(byVid[v].length>1){ groups.push({label:"⚠ Stesso video — "+v, items:byVid[v]}); byVid[v].forEach(x=>seen.add(x)); } });
+  // 2) stesso TMDB ID = stesso film (anche da canali diversi)
+  Object.keys(byTmdb).forEach(t=>{ if(byTmdb[t].length>1){ groups.push({label:title(byTmdb[t][0].m)+" — TMDB "+t, items:byTmdb[t] }); } });
+  return groups;
+}
+function renderDuplicates(){
+  const C=$("catalog"); C.innerHTML="";
+  const groups=findDupGroups();
+  if(!groups.length){ C.innerHTML="<div class='help' style='padding:12px'>✓ Nessun doppione: nessun film con lo stesso TMDB ID o lo stesso video.</div>"; $("catInfo").textContent="0 doppioni"; return; }
+  let copies=0;
+  groups.forEach(grp=>{
+    const sec=document.createElement("div"); sec.className="chsec";
+    sec.innerHTML=`<h2 class="chh">${grp.label} <span>(${grp.items.length} copie — tienine una, elimina le altre)</span></h2>`;
+    const grid=document.createElement("div"); grid.className="gcat";
+    grp.items.forEach(x=>{ const m=x.m; const key=x.src+"|"+m.video_id; copies++;
+      const d=document.createElement("div"); d.className="gfilm"+(catSel.has(key)?" sel":"");
+      d.title="Checkbox per selezionare ed eliminare · clic per modificare";
+      d.innerHTML=`<input type="checkbox" class="gcb"${catSel.has(key)?" checked":""}><img loading="lazy" src="${poster(m)}" onerror="this.style.visibility='hidden'"><div class="gt">${channelOf(x)}<br>${title(m)}</div>`;
+      const cb=d.querySelector(".gcb");
+      cb.onclick=e=>{ e.stopPropagation(); if(cb.checked) catSel.add(key); else catSel.delete(key); d.classList.toggle("sel",cb.checked); updateDelSelBtn(); };
+      d.onclick=()=>openEdit(m.video_id, x.src);
+      grid.appendChild(d);
+    });
+    sec.appendChild(grid); C.appendChild(sec);
+  });
+  $("catInfo").textContent=`${groups.length} gruppi di doppioni · ${copies} copie totali`;
 }
 async function saveCatalog(){
   const token=$("token").value.trim();
