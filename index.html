@@ -61,7 +61,11 @@
   .gcat { display:grid; grid-template-columns:repeat(auto-fill,minmax(92px,1fr)); gap:8px; }
   .gfilm { background:var(--card2); border-radius:8px; overflow:hidden; position:relative; }
   .gfilm .gcb { position:absolute; top:3px; left:3px; width:22px; height:22px; z-index:3; cursor:pointer; accent-color:var(--accent); }
+  .gfilm .gbadge { position:absolute; top:2px; right:4px; z-index:3; font-size:13px; line-height:1; text-shadow:0 1px 2px #000; }
   .gfilm.sel { outline:3px solid var(--accent); outline-offset:-3px; }
+  .diagrow { padding:8px 2px; border-bottom:1px solid #2a2a45; display:flex; align-items:center; gap:10px; }
+  .diagrow b { min-width:38px; text-align:right; color:var(--accent); }
+  .diagrow a { margin-left:auto; }
   .gfilm img { width:100%; aspect-ratio:2/3; object-fit:cover; background:#000; display:block; }
   .gfilm .gt { font-size:10px; padding:4px 4px 4px; line-height:1.25; height:30px; overflow:hidden; }
   .gfilm .gt { cursor:pointer; }
@@ -197,6 +201,7 @@
     <div class="actions">
       <button class="sec" id="catBtn" onclick="showCatalog()">📚 Mostra tutto il catalogo</button>
       <button class="sec" id="dupBtn" onclick="showDuplicates()">🔁 Trova doppioni</button>
+      <button class="sec" id="diagBtn" onclick="runDiagnostics()">🩺 Diagnostica</button>
       <select id="catChannel" style="max-width:220px;display:none" onchange="renderCatalog()"></select>
       <input id="catSearch" placeholder="Filtra per titolo…" style="max-width:200px;display:none" oninput="renderCatalog()">
       <label id="catToIdWrap" style="display:none;font-size:13px;color:var(--muted);align-items:center;gap:6px;cursor:pointer"><input type="checkbox" id="catOnlyToId" style="width:auto;margin:0" onchange="renderCatalog()"> ⚠️ solo da identificare</label>
@@ -545,6 +550,25 @@ function deriveGenre(tmdbGenres){
   return "";
 }
 let catalogAll=null, catRawObj=null; const catDirty=new Set(); const catSel=new Set(); const catRenamed={}; let dupMode=false;
+// stato per i badge (popolati dalla diagnostica YouTube): geo-bloccati e non disponibili
+const geoBlockedSet=new Set(), unavailableSet=new Set(); let diagResults=null;
+// Card film riutilizzabile (catalogo, doppioni, diagnostica): checkbox + badge stato + clic-modifica.
+function catCard(x, extraLabel){
+  const m=x.m, key=x.src+"|"+m.video_id;
+  const badge = unavailableSet.has(m.video_id) ? "🚫" : geoBlockedSet.has(m.video_id) ? "🌍"
+              : (m.tmdb_id && m.tmdb_poster_path) ? "🔒" : "";
+  const btitle = unavailableSet.has(m.video_id) ? "Video non disponibile su YouTube"
+              : geoBlockedSet.has(m.video_id) ? "Bloccato in Italia (parte via proxy)"
+              : badge ? "Identificato (bloccato dalle modifiche automatiche)" : "";
+  const lbl = extraLabel ? `${extraLabel}<br>${title(m)}` : title(m);
+  const d=document.createElement("div"); d.className="gfilm"+(m.tmdb_poster_path?"":" toid")+(catSel.has(key)?" sel":"");
+  d.title=m.tmdb_poster_path?"Clicca per modificare · checkbox per selezionare":"Da identificare: clicca → Ri-identifica";
+  d.innerHTML=`<input type="checkbox" class="gcb"${catSel.has(key)?" checked":""}>${badge?`<div class="gbadge" title="${btitle}">${badge}</div>`:""}<img loading="lazy" src="${poster(m)}" onerror="this.style.visibility='hidden'"><div class="gt">${lbl}</div>`;
+  const cb=d.querySelector(".gcb");
+  cb.onclick=e=>{ e.stopPropagation(); if(cb.checked) catSel.add(key); else catSel.delete(key); d.classList.toggle("sel",cb.checked); updateDelSelBtn(); };
+  d.onclick=()=>openEdit(m.video_id, x.src);
+  return d;
+}
 function updateDelSelBtn(){ const b=$("delSelBtn"); if(catSel.size){ b.style.display="inline-block"; b.textContent=`🗑 Elimina selezionati (${catSel.size})`; } else b.style.display="none"; }
 function deleteSelected(){
   if(!catSel.size) return;
@@ -570,6 +594,7 @@ async function showCatalog(){
   if(catalogAll){ $("catalog").innerHTML=""; catalogAll=null; catRawObj=null; catDirty.clear(); catSel.clear();
     $("catBtn").textContent="📚 Mostra tutto il catalogo"; $("catSearch").style.display="none"; $("catChannel").style.display="none";
     dupMode=false; $("dupBtn").textContent="🔁 Trova doppioni";
+    diagResults=null; $("diagBtn").textContent="🩺 Diagnostica"; geoBlockedSet.clear(); unavailableSet.clear();
     $("catToIdWrap").style.display="none"; $("delSelBtn").style.display="none"; $("catInfo").textContent=""; $("saveCatBtn").style.display="none"; $("catHint").style.display="none"; return; }
   $("catBtn").disabled=true; $("catInfo").textContent="Carico il catalogo…";
   try{
@@ -619,15 +644,7 @@ function renderCatalog(){
       const sec=document.createElement("div"); sec.className="gsec";
       sec.innerHTML=`<h3>${label} <span>(${g.length})</span></h3>`;
       const grid=document.createElement("div"); grid.className="gcat";
-      g.forEach(x=>{ const m=x.m; const key=x.src+"|"+m.video_id;
-        const d=document.createElement("div"); d.className="gfilm"+(m.tmdb_poster_path?"":" toid")+(catSel.has(key)?" sel":"");
-        d.title=m.tmdb_poster_path?"Clicca per modificare (checkbox per selezionare)":"Da identificare: clicca → Ri-identifica";
-        d.innerHTML=`<input type="checkbox" class="gcb"${catSel.has(key)?" checked":""}><img loading="lazy" src="${poster(m)}" onerror="this.style.visibility='hidden'"><div class="gt">${title(m)}</div>`;
-        const cb=d.querySelector(".gcb");
-        cb.onclick=e=>{ e.stopPropagation(); if(cb.checked) catSel.add(key); else catSel.delete(key); d.classList.toggle("sel",cb.checked); updateDelSelBtn(); };
-        d.onclick=()=>openEdit(m.video_id, x.src);
-        grid.appendChild(d);
-      });
+      g.forEach(x=>grid.appendChild(catCard(x)));
       sec.appendChild(grid); chsec.appendChild(sec);
     });
     C.appendChild(chsec);
@@ -672,18 +689,90 @@ function renderDuplicates(){
     const sec=document.createElement("div"); sec.className="chsec";
     sec.innerHTML=`<h2 class="chh">${grp.label} <span>(${grp.items.length} copie — tienine una, elimina le altre)</span></h2>`;
     const grid=document.createElement("div"); grid.className="gcat";
-    grp.items.forEach(x=>{ const m=x.m; const key=x.src+"|"+m.video_id; copies++;
-      const d=document.createElement("div"); d.className="gfilm"+(catSel.has(key)?" sel":"");
-      d.title="Checkbox per selezionare ed eliminare · clic per modificare";
-      d.innerHTML=`<input type="checkbox" class="gcb"${catSel.has(key)?" checked":""}><img loading="lazy" src="${poster(m)}" onerror="this.style.visibility='hidden'"><div class="gt">${channelOf(x)}<br>${title(m)}</div>`;
-      const cb=d.querySelector(".gcb");
-      cb.onclick=e=>{ e.stopPropagation(); if(cb.checked) catSel.add(key); else catSel.delete(key); d.classList.toggle("sel",cb.checked); updateDelSelBtn(); };
-      d.onclick=()=>openEdit(m.video_id, x.src);
-      grid.appendChild(d);
-    });
+    grp.items.forEach(x=>{ copies++; grid.appendChild(catCard(x, channelOf(x))); });
     sec.appendChild(grid); C.appendChild(sec);
   });
   $("catInfo").textContent=`${groups.length} gruppi di doppioni · ${copies} copie totali`;
+}
+// ── Diagnostica catalogo: locandina/trama/cast mancanti + disponibilità/geo-blocco YouTube ──
+function parseDuration(iso){
+  const m=(iso||"").match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/); if(!m) return 0;
+  return (parseInt(m[1]||0)*3600)+(parseInt(m[2]||0)*60)+parseInt(m[3]||0);
+}
+async function runDiagnostics(){
+  if($("diagBtn").textContent.startsWith("✖")){   // già aperta → chiudi
+    $("diagBtn").textContent="🩺 Diagnostica"; diagResults=null;
+    if($("catBtn").textContent.startsWith("✖")) renderCatalog(); else { $("catalog").innerHTML=""; $("catInfo").textContent=""; }
+    return;
+  }
+  if(!catalogAll){
+    $("diagBtn").disabled=true; $("catInfo").textContent="Carico il catalogo…";
+    try{
+      const cat=await fetchCatalogFresh(); catRawObj=cat;
+      catalogAll=[...(cat.movies||[]).map(m=>({m,src:"cat"})), ...movies.map(m=>({m,src:"man"}))].filter(x=>x.m.is_movie!==false);
+    }catch(e){ $("catInfo").textContent="Errore: "+e.message; $("diagBtn").disabled=false; return; }
+  }
+  $("diagBtn").disabled=true;
+  const noPoster=catalogAll.filter(x=>!x.m.tmdb_poster_path);
+  const noPlot=catalogAll.filter(x=>!(((x.m.strict_id_v2||{}).trama)||x.m.enriched_plot));
+  const noCast=catalogAll.filter(x=>!(((x.m.strict_id_v2||{}).cast_principale||[]).length));
+  // controllo YouTube a batch (disponibilità + blocco IT + durata)
+  geoBlockedSet.clear(); unavailableSet.clear(); const shortDur=[];
+  const ids=catalogAll.map(x=>x.m.video_id);
+  for(let i=0;i<ids.length;i+=50){
+    const batch=ids.slice(i,i+50);
+    try{
+      const d=await fetch(`https://www.googleapis.com/youtube/v3/videos?part=status,contentDetails&id=${batch.join(",")}&key=${YT_KEY}`).then(r=>r.json());
+      const got=new Set();
+      (d.items||[]).forEach(it=>{
+        got.add(it.id);
+        const rr=(it.contentDetails||{}).regionRestriction||{};
+        if((rr.blocked||[]).includes("IT")||(rr.allowed&&!rr.allowed.includes("IT"))) geoBlockedSet.add(it.id);
+        const dur=parseDuration((it.contentDetails||{}).duration);
+        if(dur>0 && dur<2400){ const x=catalogAll.find(y=>y.m.video_id===it.id); if(x) shortDur.push(x); }
+      });
+      batch.forEach(v=>{ if(!got.has(v)) unavailableSet.add(v); });
+    }catch(e){}
+    $("catInfo").textContent=`Diagnostica… ${Math.min(i+50,ids.length)}/${ids.length}`;
+  }
+  diagResults={
+    noPoster, noPlot, noCast, shortDur,
+    geoBlocked: catalogAll.filter(x=>geoBlockedSet.has(x.m.video_id)),
+    unavailable: catalogAll.filter(x=>unavailableSet.has(x.m.video_id)),
+  };
+  $("diagBtn").disabled=false; $("diagBtn").textContent="✖ Chiudi diagnostica"; dupMode=false;
+  renderDiagnostics();
+}
+const DIAG_CATS=[
+  ["noPoster","⚠️ Da identificare (senza locandina)"],
+  ["noPlot","Senza trama"],
+  ["noCast","Senza cast"],
+  ["geoBlocked","🌍 Geo-bloccati in Italia (partono via proxy)"],
+  ["unavailable","🚫 Video non disponibili su YouTube"],
+  ["shortDur","⏱️ Durata < 40 min (forse non film)"],
+];
+function renderDiagnostics(){
+  if(!diagResults) return;
+  const C=$("catalog"); C.innerHTML="";
+  const box=document.createElement("div"); box.className="chsec";
+  let html="<h2 class='chh'>🩺 Diagnostica catalogo</h2><div style='padding:4px 2px'>";
+  DIAG_CATS.forEach(([k,label],i)=>{
+    const n=diagResults[k].length;
+    html+=`<div class="diagrow"><b>${n}</b><span>${label}</span>${n?`<a href="#" onclick="showDiagCat(${i});return false">vedi ›</a>`:"<span style='margin-left:auto;color:var(--ok)'>✓</span>"}</div>`;
+  });
+  html+="</div>";
+  box.innerHTML=html; C.appendChild(box);
+  $("catInfo").textContent=`Diagnostica completata su ${catalogAll.length} film`;
+}
+function showDiagCat(i){
+  const key=DIAG_CATS[i][0], items=diagResults[key]||[];
+  const C=$("catalog"); C.innerHTML="";
+  const sec=document.createElement("div"); sec.className="gsec";
+  sec.innerHTML=`<h3>${DIAG_CATS[i][1]} (${items.length}) — <a href="#" onclick="renderDiagnostics();return false">‹ torna alla diagnostica</a></h3>`;
+  const grid=document.createElement("div"); grid.className="gcat";
+  items.forEach(x=>grid.appendChild(catCard(x, channelOf(x))));
+  sec.appendChild(grid); C.appendChild(sec);
+  $("catInfo").textContent=`${items.length} film · ${DIAG_CATS[i][1]}`;
 }
 async function saveCatalog(){
   const token=$("token").value.trim();
