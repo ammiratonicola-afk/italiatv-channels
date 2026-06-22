@@ -528,39 +528,64 @@ async function translatePlot(){
   else status("Trama già in italiano o traduzione non riuscita.",false);
 }
 
-// ── Ricerca trailer via AI: YouTube (ITALIANO prima, poi altre lingue), filtro durata, AI
-//    ORDINA i candidati corti (migliore→peggiore). Ritorna la LISTA ordinata [{id,t,lingua}]. ──
-async function searchTrailerCands(title, year){
+// Trailer UFFICIALI da TMDB (per tmdb_id): la fonte più affidabile (it preferito, ufficiale preferito).
+async function tmdbTrailers(tmdbId, mediaType){
+  if(!tmdbId) return [];
+  const type=(mediaType==="tv")?"tv":"movie";
+  const seen=new Set(), out=[];
+  for(const lang of ["it-IT","en-US",""]){
+    try{
+      const d=await fetch(`${TMDB}/${type}/${tmdbId}/videos?api_key=${TKEY}`+(lang?`&language=${lang}`:"")).then(r=>r.json());
+      (d.results||[]).forEach(v=>{
+        if(v.site==="YouTube" && /Trailer|Teaser/i.test(v.type||"") && v.key && !seen.has(v.key)){
+          seen.add(v.key);
+          out.push({ id:v.key, t:(v.name||"Trailer")+(v.iso_639_1==="it"?" [IT]":""), ch:"TMDB ufficiale",
+                     lingua:(v.iso_639_1==="it")?"it":"altra", official:!!v.official, tmdb:true });
+        }
+      });
+    }catch(e){}
+  }
+  out.sort((a,b)=> ((b.lingua==="it"?2:0)+(b.official?1:0)) - ((a.lingua==="it"?2:0)+(a.official?1:0)) );
+  return out;
+}
+// ── Ricerca trailer via AI: 1) trailer UFFICIALI TMDB; 2) ricerca YouTube (italiano prima,
+//    filtro durata); 3) l'AI ORDINA tutto preferendo italiano + ufficiale. Lista [{id,t,lingua}]. ──
+async function searchTrailerCands(title, year, tmdbId, mediaType){
   const y=(year||"").toString().trim();
   const seen=new Set(); let cands=[];
+  // 1) TMDB ufficiali (primari)
+  (await tmdbTrailers(tmdbId, mediaType)).forEach(c=>{ if(!seen.has(c.id)){ seen.add(c.id); cands.push(c); } });
+  // 2) ricerca YouTube per altri candidati
+  let yt=[];
   const addFrom=async(q)=>{
     try{
       const d=await fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=8&q=${encodeURIComponent(q)}&key=${YT_KEY}`).then(r=>r.json());
-      (d.items||[]).forEach(it=>{ const id=it.id&&it.id.videoId; if(id && !seen.has(id)){ seen.add(id); cands.push({id, t:it.snippet.title, ch:it.snippet.channelTitle}); } });
+      (d.items||[]).forEach(it=>{ const id=it.id&&it.id.videoId; if(id && !seen.has(id)){ seen.add(id); yt.push({id, t:it.snippet.title, ch:it.snippet.channelTitle, lingua:"altra"}); } });
     }catch(e){}
   };
-  await addFrom(`${title} ${y} trailer italiano`);
-  if(cands.length<5) await addFrom(`${title} trailer ita`);
-  if(cands.length<5) await addFrom(`${title} ${y} official trailer`);
+  await addFrom(`${title} ${y} trailer ufficiale italiano`);
+  if(yt.length<5) await addFrom(`${title} trailer ita`);
+  if(yt.length<5) await addFrom(`${title} ${y} official trailer`);
+  // FILTRO DURATA sui risultati YouTube (i TMDB sono già trailer): 8s–7min, scarta i film interi
+  if(yt.length){
+    try{
+      const dd=await fetch(`https://www.googleapis.com/youtube/v3/videos?part=contentDetails&id=${yt.map(c=>c.id).join(",")}&key=${YT_KEY}`).then(r=>r.json());
+      const dur={}; (dd.items||[]).forEach(it=>{ dur[it.id]=parseDuration((it.contentDetails||{}).duration); });
+      yt=yt.filter(c=>{ const s=dur[c.id]||0; return s>=8 && s<=420; });
+    }catch(e){}
+  }
+  cands=cands.concat(yt);
   if(!cands.length) return [];
-  // FILTRO DURATA: un trailer è CORTO (8s–6min) → scarta i FILM INTERI.
-  try{
-    const dd=await fetch(`https://www.googleapis.com/youtube/v3/videos?part=contentDetails&id=${cands.map(c=>c.id).join(",")}&key=${YT_KEY}`).then(r=>r.json());
-    const dur={}; (dd.items||[]).forEach(it=>{ dur[it.id]=parseDuration((it.contentDetails||{}).duration); });
-    cands=cands.filter(c=>{ const s=dur[c.id]||0; return s>=8 && s<=360; });
-  }catch(e){}
-  if(!cands.length) return [];
-  // AI: ORDINA i candidati dal migliore (preferendo ITALIANO) al peggiore
-  const list=cands.map((c,i)=>`${i}. "${c.t}" — canale: ${c.ch} — id:${c.id}`).join("\n");
-  const prompt=`Film: "${title}" (${y||"?"}). Video YouTube BREVI candidati come TRAILER:\n${list}\n\nOrdina dal MIGLIOR trailer al peggiore (preferisci l'ITALIANO doppiato/sottotitolato, poi altre lingue). Escludi recensioni, reaction, fan-made, clip singole. Rispondi SOLO con JSON: {"ids":["<videoId migliore>","<secondo>",...],"lingua":"it|altra"}`;
+  // 3) AI: ordina tutto (preferendo italiano + ufficiale TMDB)
+  const listTxt=cands.map((c,i)=>`${i}. "${c.t}" — fonte: ${c.ch}${c.tmdb?" (TMDB UFFICIALE)":""} — id:${c.id}`).join("\n");
+  const prompt=`Film: "${title}" (${y||"?"}). Candidati TRAILER (alcuni sono UFFICIALI da TMDB):\n${listTxt}\n\nOrdina dal MIGLIORE al peggiore. Criteri in ordine: 1) è DAVVERO il trailer di QUESTO film; 2) preferisci l'ITALIANO (doppiato/sottotitolato); 3) preferisci gli UFFICIALI (TMDB). Escludi recensioni, reaction, fan-made, clip/scene, film interi. Rispondi SOLO con JSON: {"ids":["<id migliore>","<secondo>",...]}`;
   let order=null;
   const ai=(await openaiChat(prompt,true))||(await geminiText(prompt,true));
   if(ai){ try{ order=JSON.parse(cleanJsonText(ai)); }catch(_){} }
   const ranked=[];
   if(order&&Array.isArray(order.ids)) order.ids.forEach(id=>{ const c=cands.find(x=>x.id===id); if(c && !ranked.includes(c)) ranked.push(c); });
-  cands.forEach(c=>{ if(!ranked.includes(c)) ranked.push(c); });   // eventuali non classificati in coda
-  const lingua=(order&&order.lingua==="it")?"it":"altra";
-  return ranked.map(c=>({ id:c.id, t:c.t, lingua }));
+  cands.forEach(c=>{ if(!ranked.includes(c)) ranked.push(c); });   // non classificati in coda
+  return ranked.map(c=>({ id:c.id, t:c.t, lingua:c.lingua||"altra" }));
 }
 // per la modale, con coda "cerca un altro"
 let trailerPick={ key:"", queue:[] };
@@ -576,7 +601,9 @@ async function findTrailer(){
     return;
   }
   $("m_trailer_btn").disabled=true; status("Cerco il trailer (AI)…",true);
-  const res=await searchTrailerCands(t, y);
+  const tid=parseInt(($("m_tmdb").value||"").trim())||null;
+  const mtype=$("m_type").textContent.includes("tv")?"tv":"movie";
+  const res=await searchTrailerCands(t, y, tid, mtype);
   $("m_trailer_btn").disabled=false;
   if(!res.length){ trailerPick={key:"",queue:[]}; status("Nessun trailer trovato su YouTube.",false); return; }
   trailerPick={ key, queue:res.slice(1) };
@@ -584,8 +611,8 @@ async function findTrailer(){
   status(`✓ Trailer ${res[0].lingua==="it"?"in italiano":"trovato"}: "${res[0].t}". Se è sbagliato, riclicca "🔎 Cerca trailer" per il prossimo.`,true);
 }
 // per la ricerca in blocco (findAllTrailers)
-async function searchTrailerFor(title, year){
-  const c=await searchTrailerCands(title, year);
+async function searchTrailerFor(title, year, tmdbId, mediaType){
+  const c=await searchTrailerCands(title, year, tmdbId, mediaType);
   return c.length ? { url:`https://www.youtube.com/watch?v=${c[0].id}`, title:c[0].t, lingua:c[0].lingua } : null;
 }
 // ── Anteprima trailer nel modale ──
@@ -615,7 +642,7 @@ async function findAllTrailers(){
   for(let k=0;k<items.length;k++){
     const x=items[k], m=x.m;
     status(`Cerco trailer… ${k+1}/${items.length} (✓ ${done})`,true);
-    const tr=await searchTrailerFor(title(m), m.tmdb_year_official||"");
+    const tr=await searchTrailerFor(title(m), m.tmdb_year_official||"", m.tmdb_id, m.tmdb_media_type);
     if(tr){
       m.strict_id_v2=m.strict_id_v2||{};
       m.strict_id_v2.trailer={url:tr.url, fonte:"YouTube", lingua:tr.lingua, ufficiale:false, verificato:false, motivo_verifica:"ricerca AI"};
