@@ -270,7 +270,10 @@
       </div>
       <div id="m_gemini_out" class="aiout"></div>
       <label>Titolo originale suggerito</label><input id="m_original_guess" placeholder="Risultato Gemini, utile per cercare su TMDB">
-      <label>🎬 Link trailer (YouTube)</label><input id="m_trailer" placeholder="https://www.youtube.com/watch?v=…  (vuoto = nessun trailer)">
+      <label style="display:flex;align-items:center;gap:8px">🎬 Link trailer (YouTube)
+        <button class="sec" type="button" onclick="findTrailer()" style="padding:4px 10px;font-size:12px;margin-left:auto">🔎 Cerca trailer (AI)</button>
+      </label>
+      <input id="m_trailer" placeholder="https://www.youtube.com/watch?v=…  (vuoto = nessun trailer)">
       <label style="display:flex;align-items:center;gap:8px">Trama
         <button class="sec" type="button" onclick="translatePlot()" style="padding:4px 10px;font-size:12px;margin-left:auto">🌐 Traduci in italiano</button>
       </label>
@@ -514,6 +517,62 @@ async function translatePlot(){
   const t=await translateToItalian(cur);
   if(t && t!==cur){ $("m_plot").value=t; status("✓ Trama tradotta in italiano.",true); }
   else status("Trama già in italiano o traduzione non riuscita.",false);
+}
+
+// ── Ricerca trailer via AI: cerca su YouTube (prima in ITALIANO, poi altre lingue) e
+//    l'AI sceglie il vero trailer del film. Ritorna {url,title,lingua} o null. ──
+async function searchTrailerFor(title, year){
+  const y=(year||"").toString().trim();
+  const seen=new Set(); let cands=[];
+  const addFrom=async(q)=>{
+    try{
+      const d=await fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=6&q=${encodeURIComponent(q)}&key=${YT_KEY}`).then(r=>r.json());
+      (d.items||[]).forEach(it=>{ const id=it.id&&it.id.videoId; if(id && !seen.has(id)){ seen.add(id); cands.push({id, t:it.snippet.title, ch:it.snippet.channelTitle}); } });
+    }catch(e){}
+  };
+  // 1) ITALIANO prima
+  await addFrom(`${title} ${y} trailer italiano`);
+  if(cands.length<3) await addFrom(`${title} trailer ita`);
+  // 2) altre lingue se poche opzioni italiane
+  if(cands.length<3) await addFrom(`${title} ${y} official trailer`);
+  if(!cands.length) return null;
+  const list=cands.map((c,i)=>`${i}. "${c.t}" — canale: ${c.ch} — id:${c.id}`).join("\n");
+  const prompt=`Film: "${title}" (${y||"?"}). Video YouTube candidati come TRAILER:\n${list}\n\nScegli il VERO trailer di QUESTO film, PREFERENDO l'ITALIANO (doppiato o sottotitolato in italiano), poi le altre lingue. Escludi recensioni, reaction, fan-made, film interi, clip/scene. Rispondi SOLO con JSON: {"id":"<videoId scelto, vuoto se nessuno valido>","lingua":"it|altra"}`;
+  let pick=null;
+  const ai=(await openaiChat(prompt,true))||(await geminiText(prompt,true));
+  if(ai){ try{ pick=JSON.parse(cleanJsonText(ai)); }catch(_){} }
+  const chosen=(pick&&pick.id&&cands.find(c=>c.id===pick.id)) || cands.find(c=>/trailer/i.test(c.t)) || cands[0];
+  return chosen ? { url:`https://www.youtube.com/watch?v=${chosen.id}`, title:chosen.t, lingua:(pick&&pick.lingua==="it")?"it":"altra" } : null;
+}
+async function findTrailer(){
+  const t=$("m_title").value.trim(), y=$("m_year").value.trim();
+  if(!t){ status("Inserisci prima il titolo del film.",false); return; }
+  status("Cerco il trailer (AI)…",true);
+  const tr=await searchTrailerFor(t, y);
+  if(tr){ $("m_trailer").value=tr.url; status(`✓ Trailer ${tr.lingua==="it"?"in italiano":"trovato"}: "${tr.title}". Controlla e salva.`,true); }
+  else status("Nessun trailer trovato su YouTube.",false);
+}
+// Cerca il trailer (AI) per TUTTI i film senza trailer (con tetto per non bruciare la quota YouTube).
+async function findAllTrailers(){
+  const all=((diagResults&&diagResults.noTrailer)||[]);
+  const items=all.slice(0,20);
+  if(!items.length){ status("Nessun film senza trailer.",false); return; }
+  if(!confirm(`Cercare il trailer (AI) per ${items.length} film${all.length>20?` (primi 20 di ${all.length})`:""}? Usa la ricerca YouTube (quota).`)) return;
+  let done=0, none=0, nman=0;
+  for(let k=0;k<items.length;k++){
+    const x=items[k], m=x.m;
+    status(`Cerco trailer… ${k+1}/${items.length} (✓ ${done})`,true);
+    const tr=await searchTrailerFor(title(m), m.tmdb_year_official||"");
+    if(tr){
+      m.strict_id_v2=m.strict_id_v2||{};
+      m.strict_id_v2.trailer={url:tr.url, fonte:"YouTube", lingua:tr.lingua, ufficiale:false, verificato:false, motivo_verifica:"ricerca AI"};
+      if(x.src==="cat"){ catDirty.add(m.video_id); $("saveCatBtn").style.display="inline-block"; } else nman++;
+      done++;
+    } else none++;
+  }
+  if(nman) render();
+  status(`✓ Trovati ${done} trailer${none?` · ${none} senza risultato`:""}. Salva: catalogo col pulsante verde${nman?", manuali con 'Salva su GitHub'":""}.`,done>0);
+  recomputeDiag(); showDiagCat(DIAG_CATS.findIndex(c=>c[0]==="noTrailer"));
 }
 
 // costruisce il record completo da un film O da una serie TV (campi diversi)
@@ -856,7 +915,11 @@ function showDiagCat(i){
   const key=DIAG_CATS[i][0], items=diagResults[key]||[];
   const C=$("catalog"); C.innerHTML="";
   const sec=document.createElement("div"); sec.className="gsec";
-  const bulk = (key==="nonItalianPlot" && items.length) ? ` <button class="sec" onclick="translateAllPlots()" style="padding:4px 10px;font-size:12px">🌐 Traduci tutte in italiano</button>` : "";
+  let bulk="";
+  if(items.length){
+    if(key==="nonItalianPlot") bulk=` <button class="sec" onclick="translateAllPlots()" style="padding:4px 10px;font-size:12px">🌐 Traduci tutte in italiano</button>`;
+    else if(key==="noTrailer") bulk=` <button class="sec" onclick="findAllTrailers()" style="padding:4px 10px;font-size:12px">🔎 Cerca trailer a tutte</button>`;
+  }
   sec.innerHTML=`<h3>${DIAG_CATS[i][1]} (${items.length}) — <a href="#" onclick="renderDiagnostics();return false">‹ torna alla diagnostica</a>${bulk}</h3>`;
   const grid=document.createElement("div"); grid.className="gcat";
   items.forEach(x=>grid.appendChild(catCard(x, channelOf(x))));
