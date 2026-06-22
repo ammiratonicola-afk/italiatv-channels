@@ -10,6 +10,8 @@
   body { margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--text); }
   header { background:var(--card); padding:16px 20px; display:flex; align-items:center; gap:12px; position:sticky; top:0; z-index:5; border-bottom:1px solid #2a2a45; }
   header h1 { font-size:20px; margin:0; flex:1; }
+  .gear { background:transparent; border:none; color:var(--text); font-size:22px; line-height:1; cursor:pointer; padding:6px 8px; border-radius:8px; }
+  .gear:hover { background:var(--card2); }
   .dot { width:10px; height:10px; border-radius:50%; background:var(--accent); }
   main { max-width:920px; margin:0 auto; padding:20px; }
   .card { background:var(--card); border:1px solid #2a2a45; border-radius:12px; padding:16px; margin-bottom:16px; }
@@ -129,34 +131,12 @@
   <span class="dot"></span>
   <h1>Italia TV — Editor Film</h1>
   <span class="count" id="count"></span>
+  <button class="gear" id="gearBtn" onclick="openSettings()" title="Impostazioni (token e chiavi API)">⚙️</button>
 </header>
 <main>
 
   <div class="card">
-    <h2>1 · Token GitHub</h2>
-    <input id="token" type="password" placeholder="ghp_… (token con permesso 'Contents' su italiatv-channels)">
-    <div class="help">Serve UNA volta per salvare. Crea un token su
-      <a href="https://github.com/settings/tokens?type=beta" target="_blank">github.com/settings/tokens</a>
-      (Fine-grained → repo <b>italiatv-channels</b> → Repository permissions → <b>Contents: Read and write</b>).
-      Resta salvato solo nel tuo browser.</div>
-    <label>Chiave Gemini API</label>
-    <input id="gemini_key" type="password" placeholder="AIza… (usata solo nel tuo browser per il pulsante Gemini)">
-    <div class="help">Serve per il pulsante accanto al link YouTube nella scheda film. Resta salvata solo nel tuo browser.</div>
-    <label>Chiave OpenAI API <span class="help" style="margin:0">(facoltativa — fallback se Gemini esaurisce la quota)</span></label>
-    <input id="openai_key" type="password" placeholder="sk-… (usata in automatico solo se Gemini dà errore 429)">
-    <div class="help">Se Gemini è esaurito (errore 429), l'editor riprova con OpenAI (<code>gpt-4o-mini</code>). Resta salvata solo nel tuo browser.</div>
-
-    <label style="margin-top:14px">🔐 Sincronizza le chiavi tra browser/dispositivi</label>
-    <div class="inline-input">
-      <input id="keys_pass" type="password" placeholder="Password per cifrare/decifrare le chiavi">
-      <button class="sec" type="button" onclick="saveKeysEncrypted()">🔒 Salva cifrate</button>
-      <button class="sec" type="button" onclick="loadKeysEncrypted()">🔓 Carica</button>
-    </div>
-    <div class="help">Le chiavi vengono salvate <b>cifrate</b> (AES‑GCM) nel repo: su un altro browser inserisci la <b>stessa password</b> e premi <b>Carica</b>. ⚠️ Usa una password <b>forte</b> (protegge il token GitHub).</div>
-  </div>
-
-  <div class="card">
-    <h2>2 · Aggiungi un film</h2>
+    <h2>1 · Aggiungi un film</h2>
     <label>Link o ID YouTube *</label>
     <input id="yt" placeholder="https://youtu.be/XXXXXXXXXXX  oppure  XXXXXXXXXXX">
     <div class="row">
@@ -195,12 +175,12 @@
   </div>
 
   <div class="card">
-    <h2>3 · Film manuali (<span id="n">0</span>)</h2>
+    <h2>2 · Film manuali (<span id="n">0</span>)</h2>
     <div id="list"></div>
   </div>
 
   <div class="card">
-    <h2>4 · Catalogo per canale e genere</h2>
+    <h2>3 · Catalogo per canale e genere</h2>
     <div class="actions">
       <button class="sec" id="catBtn" onclick="showCatalog()">📚 Mostra tutto il catalogo</button>
       <button class="sec" id="dupBtn" onclick="showDuplicates()">🔁 Trova doppioni</button>
@@ -239,6 +219,43 @@
       <span class="help" style="margin:0">Dopo il salvataggio le TV si aggiornano entro 6 ore.</span>
     </div>
     <div id="status"></div>
+  </div>
+
+  <!-- Modale Impostazioni (token + chiavi API + sincronizzazione) -->
+  <div id="settings" class="modal" style="display:none">
+    <div class="mbox">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+        <h2 style="flex:1;margin:0">⚙️ Impostazioni</h2>
+        <button class="sec" onclick="closeSettings()">✕</button>
+      </div>
+
+      <label>Token GitHub</label>
+      <input id="token" type="password" placeholder="ghp_… (permesso 'Contents' su italiatv-channels)">
+      <div class="help">Serve per salvare le modifiche. Crea un token su
+        <a href="https://github.com/settings/tokens?type=beta" target="_blank">github.com/settings/tokens</a>
+        (Fine-grained → repo <b>italiatv-channels</b> → Repository permissions → <b>Contents: Read and write</b>).</div>
+
+      <label style="margin-top:12px">Chiave Gemini API</label>
+      <input id="gemini_key" type="password" placeholder="AIza… (per i pulsanti AI nella scheda film)">
+      <div class="help">Usata per l'estrazione titolo e la traduzione trame.</div>
+
+      <label style="margin-top:12px">Chiave OpenAI API <span class="help" style="margin:0">(facoltativa)</span></label>
+      <input id="openai_key" type="password" placeholder="sk-… (ChatGPT: traduzioni + fallback se Gemini dà 429)">
+      <div class="help">Usata per le traduzioni (primaria) e come fallback automatico se Gemini esaurisce la quota.</div>
+
+      <label style="margin-top:16px">🔐 Sincronizza le chiavi tra browser/dispositivi</label>
+      <div class="inline-input">
+        <input id="keys_pass" type="password" placeholder="Password per cifrare/decifrare">
+        <button class="sec" type="button" onclick="saveKeysEncrypted()">🔒 Salva cifrate</button>
+        <button class="sec" type="button" onclick="loadKeysEncrypted()">🔓 Carica</button>
+      </div>
+      <div class="help">Le chiavi vengono salvate <b>cifrate</b> (AES‑GCM) nel repo: su un altro browser inserisci la <b>stessa password</b> e premi <b>Carica</b>. ⚠️ Usa una password <b>forte</b> (protegge il token GitHub). Sul singolo browser restano comunque salvate da sole.</div>
+
+      <div id="settings_status" class="help" style="margin-top:10px"></div>
+      <div class="actions" style="border-top:1px solid #2a2a45;padding-top:12px;margin-top:14px">
+        <button onclick="closeSettings()">✓ Fatto</button>
+      </div>
+    </div>
   </div>
 
   <!-- Modale modifica film -->
@@ -318,7 +335,8 @@ let movies=[], results=[], selected=null;
 
 const $=id=>document.getElementById(id);
 const ytId=s=>{ s=(s||"").trim(); const m=s.match(/(?:v=|youtu\.be\/|embed\/|shorts\/)([A-Za-z0-9_-]{11})/); return m?m[1]:(/^[A-Za-z0-9_-]{11}$/.test(s)?s:null); };
-function status(msg,ok){ const s=$("status"); s.textContent=msg; s.className=ok?"ok":"err"; }
+function status(msg,ok){ const s=$("status"); if(s){ s.textContent=msg; s.className=ok?"ok":"err"; }
+  const ss=$("settings_status"); if(ss){ ss.textContent=msg; ss.style.color=ok?"var(--ok)":"var(--err)"; } }
 function poster(m){ if(m.tmdb_poster_path) return IMG+"w185"+m.tmdb_poster_path; if(m.video_id) return `https://i.ytimg.com/vi/${m.video_id}/mqdefault.jpg`; return ""; }
 function title(m){ return m.tmdb_title_official||m.original_title||m.video_id||"(senza titolo)"; }
 function aiBox(msg, ok=true){ const b=$("m_gemini_out"); b.textContent=msg; b.className=ok?"aiout ok":"aiout err"; }
@@ -1123,6 +1141,33 @@ function openEdit(vid, src){
   $("modal").style.display="flex";
 }
 function closeModal(){ $("modal").style.display="none"; editing=null; pendingFull=null; }
+let settingsUnlocked=false;
+// Le Impostazioni sono protette dalla password con cui hai cifrato le chiavi: per aprirle
+// la si verifica decifrando keys.enc.json. Password giusta → sblocca + carica le chiavi.
+// Se non esiste ancora un file cifrato (primo setup), l'accesso è libero.
+async function openSettings(){
+  if(settingsUnlocked){ $("settings").style.display="flex"; return; }
+  let payload=null;
+  try{
+    const r=await fetch(`https://raw.githubusercontent.com/${OWNER}/${REPO}/main/${KEYS_FILE}?t=`+Date.now(),{cache:"no-store"});
+    if(r.ok) payload=await r.json();
+  }catch(e){}
+  if(!payload){ settingsUnlocked=true; $("settings").style.display="flex"; return; }   // primo setup: nessuna password ancora
+  const pass=prompt("🔒 Password per accedere alle Impostazioni:");
+  if(pass==null) return;
+  try{
+    const key=await _deriveKey(pass, _b64d(payload.salt));
+    const dec=await crypto.subtle.decrypt({ name:"AES-GCM", iv:_b64d(payload.iv) }, key, _b64d(payload.data));
+    const obj=JSON.parse(new TextDecoder().decode(dec));
+    // password corretta → carica le chiavi e sblocca
+    if(obj.gh_token){ $("token").value=obj.gh_token; localStorage.setItem("gh_token",obj.gh_token); }
+    if(obj.gemini_key){ $("gemini_key").value=obj.gemini_key; localStorage.setItem("gemini_key",obj.gemini_key); }
+    if(obj.openai_key){ $("openai_key").value=obj.openai_key; localStorage.setItem("openai_key",obj.openai_key); }
+    $("keys_pass").value=pass; settingsUnlocked=true;
+    $("settings").style.display="flex"; status("✓ Impostazioni sbloccate, chiavi caricate.",true);
+  }catch(e){ alert("Password errata."); }
+}
+function closeSettings(){ $("settings").style.display="none"; }
 async function detectOriginalTitle(){
   if(!editing) return;
   const btn=$("m_gemini_btn");
