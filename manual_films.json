@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T05:07:55.547Z",
+  "generated_at": "2026-06-22T05:09:05.269Z",
   "movies": [
     {
       "video_id": "zYeeo62exh0",
@@ -14420,6 +14420,162 @@
           "canale": null
         },
         "tmdb_id_scelto": 9806
+      }
+    },
+    {
+      "video_id": "-aXNN46j7Qc",
+      "is_movie": true,
+      "manual_include": true,
+      "channel": "Manuale",
+      "genre": "commedia",
+      "original_title": "Chiedimi se sono felice",
+      "tmdb_id": 50531,
+      "tmdb_title_official": "Chiedimi se sono felice",
+      "tmdb_year_official": 2000,
+      "tmdb_poster_path": "/gzDYw3sUQ18gJSlLvJ5YqWlXfZr.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Chiedimi se sono felice",
+        "titolo_originale": "Chiedimi se sono felice",
+        "anno_uscita": 2000,
+        "durata_minuti": 100,
+        "genere": [
+          "Commedia"
+        ],
+        "regista": [
+          "Giovanni Storti",
+          "Aldo Baglio",
+          "Giacomo Poretti",
+          "Massimo Venier"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Aldo Baglio",
+            "personaggio": "Aldo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uMbVlHKaEHdZI94ISGPjB138gvA.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/120019",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Giovanni Storti",
+            "personaggio": "Giovanni",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qbE8gq3aN7Ouf0NfU7fAUFiorIC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/120020",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Giacomo Poretti",
+            "personaggio": "Giacomo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/d5No2ooCX78hqVvSvLenXN15La0.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/120025",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marina Massironi",
+            "personaggio": "Marina",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ekKgiwlhYTJwVPtmgtZxQY4BgjG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/7543",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Silvana Fallisi",
+            "personaggio": "Silvana",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4RvhyNKg9IymAow8st18lKWtyGR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1321064",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Antonio Catania",
+            "personaggio": "Antonio",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uzf5R5JcxFY8eJg17pLfWXD7tGC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/7542",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Giuseppe Battiston",
+            "personaggio": "Beppe, the thief",
+            "foto_url": "https://image.tmdb.org/t/p/w185/22btW2Wybe7CKcI53EcB2uv43sS.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/7541",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Paola Cortellesi",
+            "personaggio": "Dalia",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6saUVpvd5WASLoWokWErTp5VviY.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/133214",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Augusto Zucchi",
+            "personaggio": "Chief salesperson at the department store",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uhtCBbxg3odH3Ix60GzHXeknpzp.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/119355",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Daniela Cristofori",
+            "personaggio": "Daniela",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gHzKlIzQkk6mOJ7umz7Aww08hjC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1486001",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Aldo, Giovanni e Giacomo, tre grandi amici, sbarcano il lunario lavorando rispettivamente come comparsa nelle opere liriche, statua vivente ai Grandi Magazzini, doppiatore di ruoli irrelevanti. Ma sono anche tre aspiranti attori di teatro con un sogno nel cassetto: mettere in scena una loro particolare versione di \"Cyrano de Bergerac\".",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/gzDYw3sUQ18gJSlLvJ5YqWlXfZr.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=NcsqPY9vXLw",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos"
+        },
+        "tmdb_id_scelto": 50531
       }
     }
   ]
