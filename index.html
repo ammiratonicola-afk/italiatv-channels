@@ -617,7 +617,13 @@ function deriveGenre(tmdbGenres){
 }
 let catalogAll=null, catRawObj=null; const catDirty=new Set(); const catSel=new Set(); const catRenamed={}; let dupMode=false;
 // stato per i badge (popolati dalla diagnostica YouTube): geo-bloccati e non disponibili
-const geoBlockedSet=new Set(), unavailableSet=new Set(); let diagResults=null;
+const geoBlockedSet=new Set(), unavailableSet=new Set(); let diagResults=null; let diagCatOpen=null;
+// Ri-renderizza la vista catalogo ATTIVA (diagnostica > doppioni > catalogo) senza sovrascriverla.
+function refreshCatView(){
+  if(diagResults){ if(diagCatOpen!=null) showDiagCat(diagCatOpen); else renderDiagnostics(); }
+  else if(dupMode) renderDuplicates();
+  else if(catalogAll) renderCatalog();
+}
 // Card film riutilizzabile (catalogo, doppioni, diagnostica): checkbox + badge stato + clic-modifica.
 function catCard(x, extraLabel){
   const m=x.m, key=x.src+"|"+m.video_id;
@@ -649,7 +655,7 @@ function deleteSelected(){
   catSel.clear(); updateDelSelBtn();
   if(ncat) $("saveCatBtn").style.display="inline-block";
   if(nman) render();
-  if(dupMode) renderDuplicates(); else renderCatalog();
+  refreshCatView();
   status(`Eliminati ${ncat+nman} film (${ncat} catalogo, ${nman} manuali). Salva: catalogo col pulsante verde, manuali con 'Salva su GitHub'.`,true);
 }
 const GOPTS=GENRE_ORDER.map(([k,l])=>`<option value="${k}">${l}</option>`).join("");
@@ -660,7 +666,7 @@ async function showCatalog(){
   if(catalogAll){ $("catalog").innerHTML=""; catalogAll=null; catRawObj=null; catDirty.clear(); catSel.clear();
     $("catBtn").textContent="📚 Mostra tutto il catalogo"; $("catSearch").style.display="none"; $("catChannel").style.display="none";
     dupMode=false; $("dupBtn").textContent="🔁 Trova doppioni";
-    diagResults=null; $("diagBtn").textContent="🩺 Diagnostica"; geoBlockedSet.clear(); unavailableSet.clear();
+    diagResults=null; diagCatOpen=null; $("diagBtn").textContent="🩺 Diagnostica"; geoBlockedSet.clear(); unavailableSet.clear();
     $("catToIdWrap").style.display="none"; $("delSelBtn").style.display="none"; $("catInfo").textContent=""; $("saveCatBtn").style.display="none"; $("catHint").style.display="none"; return; }
   $("catBtn").disabled=true; $("catInfo").textContent="Carico il catalogo…";
   try{
@@ -767,7 +773,7 @@ function parseDuration(iso){
 }
 async function runDiagnostics(){
   if($("diagBtn").textContent.startsWith("✖")){   // già aperta → chiudi
-    $("diagBtn").textContent="🩺 Diagnostica"; diagResults=null;
+    $("diagBtn").textContent="🩺 Diagnostica"; diagResults=null; diagCatOpen=null;
     if($("catBtn").textContent.startsWith("✖")) renderCatalog(); else { $("catalog").innerHTML=""; $("catInfo").textContent=""; }
     return;
   }
@@ -821,6 +827,7 @@ const DIAG_CATS=[
 ];
 function renderDiagnostics(){
   if(!diagResults) return;
+  diagCatOpen=null;
   const C=$("catalog"); C.innerHTML="";
   const box=document.createElement("div"); box.className="chsec";
   let html="<h2 class='chh'>🩺 Diagnostica catalogo</h2><div style='padding:4px 2px'>";
@@ -833,6 +840,7 @@ function renderDiagnostics(){
   $("catInfo").textContent=`Diagnostica completata su ${catalogAll.length} film`;
 }
 function showDiagCat(i){
+  diagCatOpen=i;
   const key=DIAG_CATS[i][0], items=diagResults[key]||[];
   const C=$("catalog"); C.innerHTML="";
   const sec=document.createElement("div"); sec.className="gsec";
@@ -1202,7 +1210,7 @@ function applyEdit(){
   else { m.strict_id_v2.trailer=null; }
   if(src==="cat"){ catDirty.add(m.video_id); $("saveCatBtn").style.display="inline-block"; }
   else { render(); }
-  if(catalogAll) renderCatalog();
+  refreshCatView();
   closeModal();
   status("Modifica applicata. Salva con « "+(src==="cat"?"Salva genere catalogo":"Salva su GitHub")+" ».",true);
 }
