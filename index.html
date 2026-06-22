@@ -183,7 +183,6 @@
     <h2>3 · Catalogo per canale e genere</h2>
     <div class="actions">
       <button class="sec" id="catBtn" onclick="showCatalog()">📚 Mostra tutto il catalogo</button>
-      <button class="sec" id="dupBtn" onclick="showDuplicates()">🔁 Trova doppioni</button>
       <button class="sec" id="diagBtn" onclick="runDiagnostics()">🩺 Diagnostica</button>
       <select id="catChannel" style="max-width:220px;display:none" onchange="renderCatalog()"></select>
       <input id="catSearch" placeholder="Filtra per titolo…" style="max-width:200px;display:none" oninput="renderCatalog()">
@@ -749,6 +748,7 @@ function recomputeDiag(){
     noTrailer: catalogAll.filter(x=>{ const tr=(x.m.strict_id_v2||{}).trailer; return !(tr && tr.url) && !x.m.trailer_url; }),
     nonItalianPlot: catalogAll.filter(x=>{ const p=((x.m.strict_id_v2||{}).trama)||x.m.enriched_plot; return p && !isProbablyItalian(p); }),
     shortDur: catalogAll.filter(x=>shortDurSet.has(x.m.video_id)),
+    duplicates: (()=>{ const s=new Set(); findDupGroups().forEach(g=>g.items.forEach(x=>s.add(x))); return [...s]; })(),
     geoBlocked: catalogAll.filter(x=>geoBlockedSet.has(x.m.video_id)),
     unavailable: catalogAll.filter(x=>unavailableSet.has(x.m.video_id)),
   };
@@ -800,7 +800,7 @@ function sortChannels(a,b){ return a==="🎬 Film manuali"?1 : b==="🎬 Film ma
 async function showCatalog(){
   if(catalogAll){ $("catalog").innerHTML=""; catalogAll=null; catRawObj=null; catDirty.clear(); catSel.clear();
     $("catBtn").textContent="📚 Mostra tutto il catalogo"; $("catSearch").style.display="none"; $("catChannel").style.display="none";
-    dupMode=false; $("dupBtn").textContent="🔁 Trova doppioni";
+    dupMode=false;
     diagResults=null; diagCatOpen=null; $("diagBtn").textContent="🩺 Diagnostica"; geoBlockedSet.clear(); unavailableSet.clear();
     $("catToIdWrap").style.display="none"; $("delSelBtn").style.display="none"; $("catInfo").textContent=""; $("saveCatBtn").style.display="none"; $("catHint").style.display="none"; return; }
   $("catBtn").disabled=true; $("catInfo").textContent="Carico il catalogo…";
@@ -858,22 +858,7 @@ function renderCatalog(){
   });
   $("catInfo").textContent=`${shown} film`+(chSel!=="all"?` · ${chSel}`:"")+(q?` · "${q}"`:"");
 }
-// ── Controllo doppioni: stesso TMDB ID (stesso film) o stesso video_id (copia esatta) ──
-async function showDuplicates(){
-  if(!catalogAll){
-    $("dupBtn").disabled=true; $("catInfo").textContent="Carico il catalogo…";
-    try{
-      const cat=await fetchCatalogFresh(); catRawObj=cat;
-      catalogAll=[...(cat.movies||[]).map(m=>({m,src:"cat"})), ...movies.map(m=>({m,src:"man"}))].filter(x=>x.m.is_movie!==false);
-    }catch(e){ $("catInfo").textContent="Errore: "+e.message; $("dupBtn").disabled=false; return; }
-    $("dupBtn").disabled=false;
-  }
-  dupMode=!dupMode;
-  $("dupBtn").textContent=dupMode?"✖ Chiudi doppioni":"🔁 Trova doppioni";
-  if(dupMode){ $("delSelBtn").style.display="none"; renderDuplicates(); }
-  else if($("catBtn").textContent.startsWith("✖")) renderCatalog();   // catalogo aperto → torna alla vista normale
-  else { $("catalog").innerHTML=""; $("catInfo").textContent=""; }
-}
+// ── Doppioni (integrati nella Diagnostica): stesso TMDB ID o stesso video_id ──
 function findDupGroups(){
   const byTmdb={}, byVid={};
   catalogAll.forEach(x=>{
@@ -948,6 +933,7 @@ const DIAG_CATS=[
   ["noPlot","Senza trama"],
   ["noCast","Senza cast"],
   ["noTrailer","🎬 Senza trailer"],
+  ["duplicates","🔁 Doppioni (stesso TMDB / stesso video)"],
   ["nonItalianPlot","🌐 Trama non in italiano"],
   ["geoBlocked","🌍 Geo-bloccati in Italia (partono via proxy)"],
   ["unavailable","🚫 Video non disponibili su YouTube"],
@@ -971,6 +957,22 @@ function showDiagCat(i){
   diagCatOpen=i;
   const key=DIAG_CATS[i][0], items=diagResults[key]||[];
   const C=$("catalog"); C.innerHTML="";
+  // DOPPIONI: vista RAGGRUPPATA (per stesso TMDB / stesso video), non lista piatta
+  if(key==="duplicates"){
+    const groups=findDupGroups();
+    const head=document.createElement("div"); head.className="gsec";
+    head.innerHTML=`<h3>${DIAG_CATS[i][1]} — ${groups.length} gruppi · <a href="#" onclick="renderDiagnostics();return false">‹ torna alla diagnostica</a></h3>`;
+    C.appendChild(head);
+    groups.forEach(grp=>{
+      const s=document.createElement("div"); s.className="chsec";
+      s.innerHTML=`<h2 class="chh">${grp.label} <span>(${grp.items.length} copie — tienine una, elimina le altre)</span></h2>`;
+      const g=document.createElement("div"); g.className="gcat";
+      grp.items.forEach(x=>g.appendChild(catCard(x, channelOf(x))));
+      s.appendChild(g); C.appendChild(s);
+    });
+    $("catInfo").textContent=`${groups.length} gruppi di doppioni`;
+    return;
+  }
   const sec=document.createElement("div"); sec.className="gsec";
   let bulk="";
   if(items.length){
