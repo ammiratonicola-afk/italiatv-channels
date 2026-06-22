@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T05:19:31.840Z",
+  "generated_at": "2026-06-22T05:22:02.953Z",
   "movies": [
     {
       "video_id": "zYeeo62exh0",
@@ -15325,6 +15325,161 @@
         "locandina_url": "https://image.tmdb.org/t/p/w500/6erwfqyRdeZ5hk7fm7zN2BHG8NH.jpg",
         "trailer": null,
         "tmdb_id_scelto": 2112
+      }
+    },
+    {
+      "video_id": "l4-kP-0UyA0",
+      "is_movie": true,
+      "manual_include": true,
+      "channel": "Manuale",
+      "genre": "fantascienza",
+      "original_title": "RoboCop",
+      "tmdb_id": 97020,
+      "tmdb_title_official": "RoboCop",
+      "tmdb_year_official": 2014,
+      "tmdb_poster_path": "/hkKHENPMCu8D500RLaQjl2qoPvL.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "RoboCop",
+        "titolo_originale": "RoboCop",
+        "anno_uscita": 2014,
+        "durata_minuti": 118,
+        "genere": [
+          "Azione",
+          "Fantascienza",
+          "Thriller"
+        ],
+        "regista": [
+          "José Padilha"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Joel Kinnaman",
+            "personaggio": "Alex Murphy / RoboCop",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cVfYzTyQdJ4xtxKPZe7IcW3BJN4.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gary Oldman",
+            "personaggio": "Dr. Dennett Norton",
+            "foto_url": "https://image.tmdb.org/t/p/w185/yhaSM5habNNI1Tf4ALRwRk3VvSZ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Michael Keaton",
+            "personaggio": "Raymond Sellars",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tYSja1KByFnZ4Hkp3stPqkKHnNL.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Abbie Cornish",
+            "personaggio": "Clara Murphy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/AgIA8uPnwySIbqaPjr5jEXwZbS.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jackie Earle Haley",
+            "personaggio": "Rick Mattox",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xDPeiyklN8f9Ilowsti4lGVbioj.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Michael Kenneth Williams",
+            "personaggio": "Jack Lewis",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mafEXtGlT1qYjGmZtbjo7Ep5qK3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jennifer Ehle",
+            "personaggio": "Liz Kline",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rmHaDj5xQu3ZPoI5XWgA5BZj3zH.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jay Baruchel",
+            "personaggio": "Tom Pope",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1GYJeQzPcY9Pfmc3FFsBwClkCv7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marianne Jean-Baptiste",
+            "personaggio": "Chief Karen Dean",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bJ6p32cswcp0xvqiZC7S5tiwa2K.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Samuel L. Jackson",
+            "personaggio": "Pat Novak",
+            "foto_url": "https://image.tmdb.org/t/p/w185/AiAYAqwpM5xmiFrAIeQvUXDCVvo.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "RoboCop è ambientato nel 2028, anno in cui la multinazionale conglomerata OmniCorp è leader nell’industria robotica. All’estero, i droni da essa prodotti, vengono impiegati dalle forze militari da anni, ma sono stati vietati come tutori della legge all’interno dei confini americani. Ora la OmniCorp vorrebbe impiegare questa controversa tecnologia anche sul fronte interno, considerando questa opportunità un’occasione d’oro.  Quando Alex Murphy (Joel Kinnaman) – marito affettuoso, padre, e buon poliziotto, facendo del suo meglio per arginare l’ondata di criminalità e corruzione a Detroit – resta gravemente ferito, la OmniCorp intravede un’occasione unica per creare un poliziotto ibrido, in parte uomo ed in parte robot. La OmniCorp immagina un futuro in cui ogni città avrà il suo RoboCop, con conseguenti ricavi miliardari per i propri azionisti; ma alla OmniCorp stanno dimenticando una cosa fondamentale: che c’è pur sempre un uomo all’interno della macchina.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/hkKHENPMCu8D500RLaQjl2qoPvL.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos",
+          "url": "https://www.youtube.com/watch?v=LA7BaVdQfyI",
+          "canale": null
+        },
+        "tmdb_id_scelto": 97020
       }
     }
   ]
