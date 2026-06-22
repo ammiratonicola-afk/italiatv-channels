@@ -150,17 +150,7 @@
       </div>
       <div style="max-width:170px">
         <label>Genere</label>
-        <select id="genre">
-          <option value="commedia">Commedia</option>
-          <option value="azione">Azione</option>
-          <option value="thriller">Thriller</option>
-          <option value="horror">Horror</option>
-          <option value="romantico">Romantico</option>
-          <option value="drammatico">Drammatico</option>
-          <option value="fantascienza">Fantascienza</option>
-          <option value="animazione">Animazione</option>
-          <option value="documentario">Documentari</option>
-        </select>
+        <select id="genre"></select>
       </div>
     </div>
     <div class="actions">
@@ -763,20 +753,30 @@ async function fetchCatalogFresh(){
   }
   return await fetch(CAT_RAW+"?t="+Date.now(),{cache:"no-store"}).then(r=>r.json());
 }
-const GENRE_ORDER=[["","In evidenza"],["azione","Azione"],["commedia","Commedia"],["thriller","Thriller"],
-  ["horror","Horror"],["romantico","Romantico"],["drammatico","Drammatico"],["fantascienza","Fantascienza"],
-  ["animazione","Animazione"],["documentario","Documentari"]];
+const GENRE_ORDER=[["","In evidenza"],["azione","Azione"],["avventura","Avventura"],["commedia","Commedia"],
+  ["thriller","Thriller"],["poliziesco","Poliziesco"],["horror","Horror"],["fantascienza","Fantascienza"],
+  ["fantasy","Fantasy"],["romantico","Romantico"],["drammatico","Drammatico"],["guerra","Guerra"],
+  ["western","Western"],["storico","Storico"],["famiglia","Famiglia"],["animazione","Animazione"],
+  ["documentario","Documentari"]];
 // Mappa generi TMDB (it-IT + en) → categoria app, + priorità (come MovieLoader/verify_genres).
 // Serve a ricavare il genere automaticamente quando si Ri-identifica un film su TMDB.
-const TMDB_GENRE_MAP={azione:"azione",action:"azione",avventura:"azione",adventure:"azione",guerra:"azione",war:"azione",
+const TMDB_GENRE_MAP={
+  azione:"azione",action:"azione",
+  avventura:"avventura",adventure:"avventura",
   commedia:"commedia",comedy:"commedia",
-  thriller:"thriller",crime:"thriller",crimine:"thriller",mystery:"thriller",mistero:"thriller",suspense:"thriller",giallo:"thriller",poliziesco:"thriller",
+  thriller:"thriller",mystery:"thriller",mistero:"thriller",suspense:"thriller",giallo:"thriller",
+  crime:"poliziesco",crimine:"poliziesco",poliziesco:"poliziesco",
   horror:"horror",soprannaturale:"horror",
   romance:"romantico",romantico:"romantico",romantica:"romantico",sentimentale:"romantico",romanzo:"romantico",
-  drama:"drammatico",dramma:"drammatico",drammatico:"drammatico",biografia:"drammatico",biografico:"drammatico","storia vera":"drammatico",
-  "science fiction":"fantascienza",fantascienza:"fantascienza","sci-fi":"fantascienza",fantasy:"fantascienza",fantastico:"fantascienza",
+  drama:"drammatico",dramma:"drammatico",drammatico:"drammatico",biografia:"drammatico",biografico:"drammatico","storia vera":"drammatico",musica:"drammatico",music:"drammatico",
+  "science fiction":"fantascienza",fantascienza:"fantascienza","sci-fi":"fantascienza","fantascienza ":"fantascienza",
+  fantasy:"fantasy",fantastico:"fantasy",
+  guerra:"guerra",war:"guerra",
+  western:"western",
+  storia:"storico",history:"storico",storico:"storico",
+  famiglia:"famiglia",family:"famiglia",
   animation:"animazione",animazione:"animazione",documentary:"documentario",documentario:"documentario"};
-const GENRE_PRIORITY=["documentario","horror","fantascienza","animazione","thriller","romantico","commedia","azione","drammatico"];
+const GENRE_PRIORITY=["documentario","animazione","horror","western","fantasy","fantascienza","guerra","poliziesco","thriller","storico","romantico","commedia","avventura","azione","famiglia","drammatico"];
 function deriveGenre(tmdbGenres){
   const keys=new Set();
   (tmdbGenres||[]).forEach(g=>{ const k=TMDB_GENRE_MAP[(g||"").toLowerCase().trim()]; if(k) keys.add(k); });
@@ -1601,6 +1601,7 @@ function persistKey(id, storeKey){
 persistKey("token","gh_token");
 persistKey("gemini_key","gemini_key");
 persistKey("openai_key","openai_key");
+$("genre").innerHTML=GENRE_ORDER.filter(([k])=>k).map(([k,l])=>`<option value="${k}">${l}</option>`).join("");
 load();
 </script>
 </body>
