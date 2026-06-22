@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T05:10:15.265Z",
+  "generated_at": "2026-06-22T05:11:57.507Z",
   "movies": [
     {
       "video_id": "zYeeo62exh0",
@@ -14721,6 +14721,162 @@
         "locandina_url": "https://image.tmdb.org/t/p/w500/9pfmKsjxgWSGflGuVDXXZn46hDp.jpg",
         "trailer": null,
         "tmdb_id_scelto": 38537
+      }
+    },
+    {
+      "video_id": "-YlknZ2CoUU",
+      "is_movie": true,
+      "manual_include": true,
+      "channel": "Manuale",
+      "genre": "commedia",
+      "original_title": "Tre uomini e una gamba",
+      "tmdb_id": 38286,
+      "tmdb_title_official": "Tre uomini e una gamba",
+      "tmdb_year_official": 1997,
+      "tmdb_poster_path": "/qCw7fAZnA7DloKwvzdseWRYi19K.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Tre uomini e una gamba",
+        "titolo_originale": "Tre uomini e una gamba",
+        "anno_uscita": 1997,
+        "durata_minuti": 98,
+        "genere": [
+          "Commedia"
+        ],
+        "regista": [
+          "Aldo Baglio",
+          "Giacomo Poretti",
+          "Massimo Venier",
+          "Giovanni Storti"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Aldo Baglio",
+            "personaggio": "Aldo / Al / Ajeje Brazorf / Dracula",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uMbVlHKaEHdZI94ISGPjB138gvA.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Giovanni Storti",
+            "personaggio": "Giovanni / John / Controllore tram / Gino",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qbE8gq3aN7Ouf0NfU7fAUFiorIC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Giacomo Poretti",
+            "personaggio": "Giacomo / Jack / Passeggero tram / Michele",
+            "foto_url": "https://image.tmdb.org/t/p/w185/d5No2ooCX78hqVvSvLenXN15La0.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marina Massironi",
+            "personaggio": "Chiara / Giusy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ekKgiwlhYTJwVPtmgtZxQY4BgjG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Carlo Croccolo",
+            "personaggio": "Eros Cecconi",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gAJqurOEvLz4fK8jFBPusxYIULu.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Maria Pia Casilio",
+            "personaggio": "Sig.ra Cecconi",
+            "foto_url": "https://image.tmdb.org/t/p/w185/m8Da1gcaIzCqJ1quTt64HiWacrF.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Luciana Littizzetto",
+            "personaggio": "Giuliana Cecconi",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5ImXcQfARJUUp6dSP8kBiuKIOKr.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gaetano Amato",
+            "personaggio": "Contrabbandiere",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kFGAiPZfJUiQfwofdmDHLgiV9nf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Margherita Antonelli",
+            "personaggio": null,
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Saturno Brioschi",
+            "personaggio": "Padre bimbo stazione di servizio",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "I tre amici Aldo, Giovanni e Giacomo si mettono in viaggio verso il sud Italia per il matrimonio di uno di loro con la futura moglie. Durante il tragitto il terzetto affronta varie peripezie, tra le quali l'incontro con una ragazza di cui Giovanni si innamora e il trasporto di una gamba di legno al suocero.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/qCw7fAZnA7DloKwvzdseWRYi19K.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos",
+          "url": "https://www.youtube.com/watch?v=mODmZ_uNY4I",
+          "canale": null
+        },
+        "tmdb_id_scelto": 38286
       }
     }
   ]
