@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T07:54:06.440Z",
+  "generated_at": "2026-06-22T09:29:17.564Z",
   "movies": [
     {
       "video_id": "zYeeo62exh0",
@@ -9598,14 +9598,14 @@
       }
     },
     {
-      "video_id": "NcNiS4E-KSc",
+      "video_id": "0W1Tn9-d-GM",
       "is_movie": true,
       "channel": "Commedia",
       "manual_include": true,
       "original_title": "Click",
-      "genre": "commedia",
+      "genre": "fantascienza",
       "tmdb_id": 9339,
-      "tmdb_title_official": "Click",
+      "tmdb_title_official": "Cambia la tua vita con un click",
       "tmdb_year_official": 2006,
       "tmdb_poster_path": "/2I0mZkxW8cddDmRINlxtETYfiSW.jpg",
       "tmdb_confidence": "verified",
@@ -9613,12 +9613,11 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_italiano": "Click",
+        "titolo_italiano": "Cambia la tua vita con un click",
         "titolo_originale": "Click",
         "anno_uscita": 2006,
         "durata_minuti": 107,
         "genere": [
-          "Animazione",
           "Commedia",
           "Dramma",
           "Fantasy"
@@ -9633,8 +9632,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/iTMnXrPfC1rmom6a9q4hy6YSJWG.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/19292",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -9644,8 +9643,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/nUZuC2chd5PVw2tLxePZ6uaLbhx.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/3967",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -9655,8 +9654,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/ApgDL7nudR9T2GpjCG4vESgymO2.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/4690",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -9666,8 +9665,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/gRcqYNBUQWFxRoAVRNY7xHzOONP.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/28238",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -9677,8 +9676,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/mGlSRA5RDswEDmY8oWEizXliShp.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/31903",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -9688,8 +9687,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/87kSPYlWcHvqOVEkhdqxysiAf6w.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/199",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -9699,41 +9698,41 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/As3ctGUtBYmG4zj4Ifyrcqd71HP.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1328",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
           {
             "nome": "Joseph Castanon",
-            "personaggio": "Ben a 7 anni",
+            "personaggio": "Ben at 7 years old",
             "foto_url": "https://image.tmdb.org/t/p/w185/tSb55ZK0ZtxOeyhZwc10whvaz6E.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/202062",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
           {
             "nome": "Jonah Hill",
-            "personaggio": "Ben a 17 anni",
+            "personaggio": "Ben at 17 years old",
             "foto_url": "https://image.tmdb.org/t/p/w185/cymlWttB83MsAGR2EkTgANtjeRH.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/21007",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
           {
             "nome": "Jake Hoffman",
-            "personaggio": "Ben",
+            "personaggio": "Ben at 22-30 years old",
             "foto_url": "https://image.tmdb.org/t/p/w185/9K180Isd28lc3X7Puiu8InPdq4x.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/134235",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           }
@@ -9742,16 +9741,17 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/2I0mZkxW8cddDmRINlxtETYfiSW.jpg",
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=ym3w_1Vb0iw",
-          "lingua": "it",
           "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": true,
+          "lingua": "it",
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos"
+          "motivo_verifica": "TMDB videos",
+          "url": "https://www.youtube.com/watch?v=2xTvGmh7RoI",
+          "canale": null
         },
         "tmdb_id_scelto": 9339
-      }
+      },
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "m8tcQtcIYk8",
@@ -10833,7 +10833,7 @@
       }
     },
     {
-      "video_id": "0HlmpfknJhU",
+      "video_id": "0HlmpMMfp3k",
       "is_movie": true,
       "channel": "Commedia",
       "manual_include": true,
@@ -10866,8 +10866,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/teLgBlbIGoToECSfwwkjaehPUPr.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/27433",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -10877,8 +10877,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/j7ZOhttsQ6SeDS2c5hgxEOjlRrp.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/80230",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -10888,8 +10888,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/rZJa0U2kKs7ayeIWbtlC7zo9euE.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/31614",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -10899,8 +10899,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/8HPNYzMcLgIBaf2BYlovYjnBcOp.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/106346",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -10910,8 +10910,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/qFixq8McPG8E3JN7hN6G8FWEjGa.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/69037",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -10921,8 +10921,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/43nxfPafMrZd7kQGs7deANr2SRr.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/31429",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -10932,8 +10932,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/uP1o6CXdMYRepcUSI9QVRKcmATx.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/129635",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -10943,8 +10943,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/1ERsGnzl4VEy5jc6lH10t8MDxaE.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/120117",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -10954,8 +10954,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/z40zxQzj5w7HiQAbKJRDSK0Gjbb.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/535459",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -10965,8 +10965,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/2VlHxeDjn4JZMiA388kJzrioI6q.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/306471",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           }
@@ -10975,13 +10975,13 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/rLFWMIvydFQsxShVWQeTxyp0Coq.jpg",
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=QvK7JnugmFA",
-          "lingua": "it",
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": true,
           "verificato": true,
-          "motivo_verifica": "TMDB videos"
+          "motivo_verifica": "TMDB videos",
+          "url": "https://www.youtube.com/watch?v=8kgcCUXSOXA",
+          "canale": null
         },
         "tmdb_id_scelto": 41610
       }
@@ -14224,162 +14224,6 @@
           "canale": null
         },
         "tmdb_id_scelto": 739405
-      }
-    },
-    {
-      "video_id": "DgyVpSX3SYE",
-      "is_movie": true,
-      "manual_include": true,
-      "channel": "Manuale",
-      "genre": "animazione",
-      "original_title": "Gli Incredibili - Una \"normale\" famiglia di supereroi",
-      "tmdb_id": 9806,
-      "tmdb_title_official": "Gli Incredibili - Una \"normale\" famiglia di supereroi",
-      "tmdb_year_official": 2004,
-      "tmdb_poster_path": "/YC2HuIkt6JOyOInuSRnRR9iVLE.jpg",
-      "tmdb_confidence": "verified",
-      "tmdb_media_type": "movie",
-      "strict_id_v2": {
-        "identificato": true,
-        "livello_certezza": "alto",
-        "titolo_italiano": "Gli Incredibili - Una \"normale\" famiglia di supereroi",
-        "titolo_originale": "The Incredibles",
-        "anno_uscita": 2004,
-        "durata_minuti": 115,
-        "genere": [
-          "Azione",
-          "Avventura",
-          "Animazione",
-          "Famiglia"
-        ],
-        "regista": [
-          "Brad Bird"
-        ],
-        "cast_principale": [
-          {
-            "nome": "Craig T. Nelson",
-            "personaggio": "Bob Parr / Mr. Incredible (voice)",
-            "foto_url": "https://image.tmdb.org/t/p/w185/rMh8qdexFKmc7mq7oLzsLLvCCjs.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Holly Hunter",
-            "personaggio": "Helen Parr / Elastigirl (voice)",
-            "foto_url": "https://image.tmdb.org/t/p/w185/oNoFAi0AQXDP68tv7c7t5WjYioy.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Sarah Vowell",
-            "personaggio": "Violet Parr (voice)",
-            "foto_url": "https://image.tmdb.org/t/p/w185/dP1hMYTk2q4voIUxtgmvD81nMty.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Spencer Fox",
-            "personaggio": "Dashiell 'Dash' Parr (voice)",
-            "foto_url": "https://image.tmdb.org/t/p/w185/vMyWK5qZWEG0GZh4FXCDXx4Jqfm.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Jason Lee",
-            "personaggio": "Buddy Pine / Syndrome (voice)",
-            "foto_url": "https://image.tmdb.org/t/p/w185/3duPl6Ve8RnvcouOaXoMCdJf5ln.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Samuel L. Jackson",
-            "personaggio": "Lucius Best / Frozone (voice)",
-            "foto_url": "https://image.tmdb.org/t/p/w185/AiAYAqwpM5xmiFrAIeQvUXDCVvo.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Elizabeth Peña",
-            "personaggio": "Mirage (voice)",
-            "foto_url": "https://image.tmdb.org/t/p/w185/uyUrPmtbwiGFOq8pIfYVQYgmBmK.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Eli Fucile",
-            "personaggio": "Jack-Jack Parr (voice)",
-            "foto_url": "https://image.tmdb.org/t/p/w185/pcNfD0mIB9KrQMaXP0rN82VbiHY.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Maeve Andrews",
-            "personaggio": "Jack-Jack Parr (voice)",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
-            "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
-              "verificata": false
-            }
-          },
-          {
-            "nome": "Brad Bird",
-            "personaggio": "Edna 'E' Mode (voice)",
-            "foto_url": "https://image.tmdb.org/t/p/w185/zB9Uz0Rs1K9uwHffXRFaBwwSYI.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
-              "verificata": true
-            }
-          }
-        ],
-        "trama": "Bob Parr ha rinunciato ai suoi giorni da supereroe per dedicarsi al perito assicurativo e crescere i suoi tre figli con la moglie un tempo eroica in periferia. Ma quando riceve un incarico misterioso, è il momento di tornare a indossare il costume.",
-        "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/YC2HuIkt6JOyOInuSRnRR9iVLE.jpg",
-        "trailer": {
-          "fonte": "YouTube",
-          "lingua": "it",
-          "ufficiale": false,
-          "verificato": true,
-          "motivo_verifica": "TMDB videos",
-          "url": "https://www.youtube.com/watch?v=qN8X-lJONi4",
-          "canale": null
-        },
-        "tmdb_id_scelto": 9806
       }
     },
     {
