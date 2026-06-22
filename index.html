@@ -746,6 +746,7 @@ function recomputeDiag(){
     noPlot: catalogAll.filter(x=>!(((x.m.strict_id_v2||{}).trama)||x.m.enriched_plot)),
     noCast: catalogAll.filter(x=>!(((x.m.strict_id_v2||{}).cast_principale||[]).length)),
     noTrailer: catalogAll.filter(x=>{ const tr=(x.m.strict_id_v2||{}).trailer; return !(tr && tr.url) && !x.m.trailer_url; }),
+    noDuration: catalogAll.filter(x=>x.m.tmdb_id && !((x.m.strict_id_v2||{}).durata_minuti)),
     nonItalianPlot: catalogAll.filter(x=>{ const p=((x.m.strict_id_v2||{}).trama)||x.m.enriched_plot; return p && !isProbablyItalian(p); }),
     shortDur: catalogAll.filter(x=>shortDurSet.has(x.m.video_id)),
     duplicates: (()=>{ const s=new Set(); findDupGroups().forEach(g=>g.items.forEach(x=>s.add(x))); return [...s]; })(),
@@ -953,6 +954,7 @@ const DIAG_CATS=[
   ["noPlot","Senza trama"],
   ["noCast","Senza cast"],
   ["noTrailer","🎬 Senza trailer"],
+  ["noDuration","⏱️ Senza durata (estraibile da TMDB)"],
   ["duplicates","🔁 Doppioni (stesso TMDB / stesso video)"],
   ["nonItalianPlot","🌐 Trama non in italiano"],
   ["geoBlocked","🌍 Geo-bloccati in Italia (partono via proxy)"],
@@ -998,12 +1000,42 @@ function showDiagCat(i){
   if(items.length){
     if(key==="nonItalianPlot") bulk=` <button class="sec" onclick="translateAllPlots()" style="padding:4px 10px;font-size:12px">🌐 Traduci tutte in italiano</button>`;
     else if(key==="noTrailer") bulk=` <button class="sec" onclick="findAllTrailers()" style="padding:4px 10px;font-size:12px">🔎 Cerca trailer a tutte</button>`;
+    else if(key==="noDuration") bulk=` <button class="sec" onclick="fillDurationsFromTmdb()" style="padding:4px 10px;font-size:12px">⏱️ Estrai durata da TMDB</button>`;
   }
   sec.innerHTML=`<h3>${DIAG_CATS[i][1]} (${items.length}) — <a href="#" onclick="renderDiagnostics();return false">‹ torna alla diagnostica</a>${bulk}</h3>`;
   const grid=document.createElement("div"); grid.className="gcat";
   items.forEach(x=>grid.appendChild(catCard(x, channelOf(x))));
   sec.appendChild(grid); C.appendChild(sec);
   $("catInfo").textContent=`${items.length} film · ${DIAG_CATS[i][1]}`;
+}
+// Estrae la DURATA da TMDB (runtime) per tutti i film che ce l'hanno mancante (con tmdb_id).
+async function fillDurationsFromTmdb(){
+  const items=((diagResults&&diagResults.noDuration)||[]).slice();
+  if(!items.length){ status("Nessun film senza durata (con TMDB id).",false); return; }
+  if(!confirm(`Estrarre la durata da TMDB per ${items.length} film?`)) return;
+  let done=0, fail=0, nman=0;
+  for(let k=0;k<items.length;k++){
+    const x=items[k], m=x.m;
+    status(`Durata… ${k+1}/${items.length} (✓ ${done})`,true);
+    let runtime=null;
+    const order = (m.tmdb_media_type==="tv") ? ["tv","movie"] : ["movie","tv"];
+    for(const type of order){
+      try{
+        const d=await fetch(`${TMDB}/${type}/${m.tmdb_id}?api_key=${TKEY}&language=it-IT`).then(r=>r.ok?r.json():null);
+        if(d){ runtime = (type==="tv") ? ((d.episode_run_time||[])[0]||null) : (d.runtime||null); }
+      }catch(e){}
+      if(runtime) break;
+    }
+    if(runtime && runtime>0){
+      m.strict_id_v2=m.strict_id_v2||{}; m.strict_id_v2.durata_minuti=runtime;
+      if(x.src==="cat"){ catDirty.add(m.video_id); $("saveCatBtn").style.display="inline-block"; } else nman++;
+      done++;
+    } else fail++;
+    await new Promise(r=>setTimeout(r,120));
+  }
+  if(nman) render();
+  status(`✓ Durata estratta per ${done} film${fail?` · ${fail} senza runtime su TMDB`:""}. Salva: catalogo col pulsante verde${nman?", manuali con 'Salva su GitHub'":""}.`,done>0);
+  recomputeDiag(); showDiagCat(DIAG_CATS.findIndex(c=>c[0]==="noDuration"));
 }
 // Traduce in italiano TUTTE le trame non italiane individuate dalla diagnostica.
 async function translateAllPlots(){
