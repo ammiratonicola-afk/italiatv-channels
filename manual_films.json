@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T05:24:25.600Z",
+  "generated_at": "2026-06-22T05:27:29.690Z",
   "movies": [
     {
       "video_id": "zYeeo62exh0",
@@ -3752,46 +3752,6 @@
           "motivo_verifica": "TMDB videos"
         },
         "tmdb_id_scelto": 71571
-      }
-    },
-    {
-      "video_id": "aFcgYP5oNqs",
-      "is_movie": true,
-      "channel": "Animazione",
-      "manual_include": true,
-      "original_title": "Mos? e i Dieci Comandamenti",
-      "genre": "animazione",
-      "tmdb_id": 573578,
-      "tmdb_title_official": "Mos? e i Dieci Comandamenti",
-      "tmdb_year_official": 2007,
-      "tmdb_poster_path": "/4FGoiICr86gU0O10rWXh3umlQkG.jpg",
-      "tmdb_confidence": "verified",
-      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 573578",
-      "strict_id_v2": {
-        "identificato": true,
-        "livello_certezza": "alto",
-        "titolo_italiano": "Mos? e i Dieci Comandamenti",
-        "titolo_originale": "The Old Testament Bible Stories for Children - Moses and the Ten Commandments",
-        "anno_uscita": 2007,
-        "durata_minuti": 330,
-        "genere": [
-          "Animazione"
-        ],
-        "regista": [],
-        "cast_principale": [],
-        "trama": "La Bibbia prende vita in questa deliziosa serie animata. I video di questa serie raccontano la storia degli ebrei da Giuseppe a Mosè e ai Dieci Comandamenti in un cofanetto di quattro dischi. I dischi video sono i seguenti: Disco 1 - Giuseppe e i suoi Fratelli, Disco 2 - Mosè: Principe d'Egitto, Disco 3 - Mosè: L'uscita dall'Egitto e Disco 4 - Mosè e i Dieci Comandamenti.",
-        "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/4FGoiICr86gU0O10rWXh3umlQkG.jpg",
-        "trailer": {
-          "url": "https://www.youtube.com/watch?v=KBzbyIPWVT4",
-          "lingua": "it",
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": true,
-          "verificato": true,
-          "motivo_verifica": "Ricerca YouTube: 'THE TEN COMMANDMENTS | Official Trailer | Paramoun' (102s)"
-        },
-        "tmdb_id_scelto": 573578
       }
     },
     {
@@ -15480,6 +15440,151 @@
           "canale": null
         },
         "tmdb_id_scelto": 97020
+      }
+    },
+    {
+      "video_id": "iOwz68PEuR4",
+      "is_movie": true,
+      "manual_include": true,
+      "channel": "Manuale",
+      "genre": "commedia",
+      "original_title": "Amore a prima vista",
+      "tmdb_id": 59044,
+      "tmdb_title_official": "Amore a prima vista",
+      "tmdb_year_official": 1999,
+      "tmdb_poster_path": "/A7g7SWqVFe5ak0oCqL3sF4hnkC7.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Amore a prima vista",
+        "titolo_originale": "Amore a prima vista",
+        "anno_uscita": 1999,
+        "durata_minuti": 85,
+        "genere": [
+          "Commedia"
+        ],
+        "regista": [
+          "Vincenzo Salemme"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Vincenzo Salemme",
+            "personaggio": "Bruno",
+            "foto_url": "https://image.tmdb.org/t/p/w185/st2lywcYUAuz4VhJ8LqLV4g6TDd.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Maurizio Casagrande",
+            "personaggio": "Fortunato Cipolletta",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ZOP0XzKfLIVvJy2uUckykQC8OP.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Biagio Izzo",
+            "personaggio": "Samuele Sandokan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tWdLTzbn895Yq8yiTNyW6FKVYYx.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Carlo Buccirosso",
+            "personaggio": "Peppino Batman",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vQnJHfVTfvyhBDMj4asfW6afEvi.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nando Paone",
+            "personaggio": "Signor Centocelle",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lUjUffdd1U96r3fGwRHnELoCe8c.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mandala Tayde",
+            "personaggio": "Roberta",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iLYYnEj4gmvqEE3F8a5jxtvBpQg.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tosca D'Aquino",
+            "personaggio": "Nina",
+            "foto_url": "https://image.tmdb.org/t/p/w185/g5zZ6P7mrAxLcmnx8PI8QF0ksQF.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Linda Moretti",
+            "personaggio": "Donna Carmela",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4RXo3cS27IP6jYj464OU9M89ITM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Antonio Casagrande",
+            "personaggio": "Natale",
+            "foto_url": "https://image.tmdb.org/t/p/w185/y3hQeKK40ADORUOV0j36tYxt79A.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Francesca Antonelli",
+            "personaggio": "Ombretta",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gXDCv3z0F0HxHuFZC7VEXOGtO3r.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Bruno è un piccolo delinquente napoletano: subisce un trapianto di cornea e si scopre innamorato del carabiniere Cipolletta. Forse, perché le cornee ricevute sono quelle della moglie del carabiniere, morta in un incidente stradale.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/A7g7SWqVFe5ak0oCqL3sF4hnkC7.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 59044
       }
     }
   ]
