@@ -751,7 +751,7 @@ function recomputeDiag(){
     noTrailer: catalogAll.filter(x=>{ const tr=(x.m.strict_id_v2||{}).trailer; return !(tr && tr.url) && !x.m.trailer_url; }),
     noDuration: catalogAll.filter(x=>x.m.tmdb_id && !((x.m.strict_id_v2||{}).durata_minuti)),
     nonItalianPlot: catalogAll.filter(x=>{ const p=((x.m.strict_id_v2||{}).trama)||x.m.enriched_plot; return p && !isProbablyItalian(p); }),
-    shortDur: catalogAll.filter(x=>shortDurSet.has(x.m.video_id)),
+    shortDur: catalogAll.filter(x=>{ const dm=(x.m.strict_id_v2||{}).durata_minuti; return dm ? (dm<40) : shortDurSet.has(x.m.video_id); }),
     duplicates: (()=>{ const s=new Set(); findDupGroups().forEach(g=>g.items.forEach(x=>s.add(x))); return [...s]; })(),
     geoBlocked: catalogAll.filter(x=>geoBlockedSet.has(x.m.video_id)),
     unavailable: catalogAll.filter(x=>unavailableSet.has(x.m.video_id)),
