@@ -284,9 +284,10 @@
       </div>
       <label>🔗 Link YouTube (riproduzione)</label>
       <div class="inline-input">
-        <input id="m_yt" placeholder="https://youtu.be/XXXXXXXXXXX">
+        <input id="m_yt" placeholder="https://youtu.be/XXXXXXXXXXX" oninput="previewFilmFromInput()">
         <button class="sec" id="m_gemini_btn" type="button" onclick="detectOriginalTitle()">✨ Gemini</button>
       </div>
+      <div id="m_yt_prev" style="display:none;margin-top:6px"></div>
       <div id="m_gemini_out" class="aiout"></div>
       <label>Titolo originale suggerito</label><input id="m_original_guess" placeholder="Risultato Gemini, utile per cercare su TMDB">
       <label style="display:flex;align-items:center;gap:8px">🎬 Link trailer (YouTube)
@@ -610,6 +611,12 @@ function previewTrailerFromInput(){
   const id=ytId($("m_trailer").value);
   if(id){ $("m_trailer_prev").innerHTML=ytEmbed(id); $("m_trailer_prev").style.display="block"; }
   else { $("m_trailer_prev").style.display="none"; $("m_trailer_prev").innerHTML=""; }
+}
+// Anteprima del FILM (video YouTube di riproduzione) nel modale, come per il trailer.
+function previewFilmFromInput(){
+  const id=ytId($("m_yt").value);
+  if(id){ $("m_yt_prev").innerHTML=ytEmbed(id); $("m_yt_prev").style.display="block"; }
+  else { $("m_yt_prev").style.display="none"; $("m_yt_prev").innerHTML=""; }
 }
 // Cerca il trailer (AI) per TUTTI i film senza trailer (con tetto per non bruciare la quota YouTube).
 async function findAllTrailers(){
@@ -1206,6 +1213,7 @@ function openEdit(vid, src){
   $("m_yt").value=m.video_id?("https://youtu.be/"+m.video_id):"";
   $("m_original_guess").value=v2.titolo_originale||m.original_title||"";
   $("m_gemini_out").className="aiout"; $("m_gemini_out").textContent="";
+  previewFilmFromInput();   // anteprima del film (video di riproduzione)
   $("m_trailer").value=(v2.trailer&&v2.trailer.url)||m.trailer_url||"";
   trailerPick={key:"",queue:[]}; previewTrailerFromInput();   // anteprima del trailer esistente
   renderCast(v2.cast_principale);
