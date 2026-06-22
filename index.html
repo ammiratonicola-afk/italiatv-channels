@@ -269,7 +269,10 @@
         <div style="flex:1;min-width:160px">
           <label>Titolo</label><input id="m_title">
           <div class="row">
-            <div style="max-width:110px"><label>Anno</label><input id="m_year" inputmode="numeric"></div>
+            <div style="max-width:90px"><label>Anno</label><input id="m_year" inputmode="numeric"></div>
+            <div style="max-width:120px"><label>Durata (min)</label>
+              <div class="inline-input"><input id="m_duration" inputmode="numeric" placeholder="es. 105"><button class="sec" type="button" title="Prendi da TMDB" onclick="fetchDurationTmdb()" style="padding:0 9px">⏱️</button></div>
+            </div>
             <div><label>Genere</label><select id="m_genre"></select></div>
           </div>
           <label>TMDB ID <span class="help" id="m_type" style="margin:0"></span></label>
@@ -1008,6 +1011,20 @@ function showDiagCat(i){
   sec.appendChild(grid); C.appendChild(sec);
   $("catInfo").textContent=`${items.length} film · ${DIAG_CATS[i][1]}`;
 }
+// Prende la durata da TMDB per il film aperto nel modale (usa l'ID TMDB del campo).
+async function fetchDurationTmdb(){
+  const id=parseInt(($("m_tmdb").value||"").trim());
+  if(!id){ status("Serve l'ID TMDB per prendere la durata.",false); return; }
+  const order=($("m_type").textContent.includes("tv"))?["tv","movie"]:["movie","tv"];
+  for(const type of order){
+    try{
+      const d=await fetch(`${TMDB}/${type}/${id}?api_key=${TKEY}&language=it-IT`).then(r=>r.ok?r.json():null);
+      const rt=d?((type==="tv")?((d.episode_run_time||[])[0]||null):(d.runtime||null)):null;
+      if(rt && rt>0){ $("m_duration").value=rt; status(`Durata da TMDB: ${rt} min.`,true); return; }
+    }catch(e){}
+  }
+  status("Durata non disponibile su TMDB per questo ID.",false);
+}
 // Estrae la DURATA da TMDB (runtime) per tutti i film che ce l'hanno mancante (con tmdb_id).
 async function fillDurationsFromTmdb(){
   const items=((diagResults&&diagResults.noDuration)||[]).slice();
@@ -1180,6 +1197,7 @@ function openEdit(vid, src){
   const v2=m.strict_id_v2||{};
   $("m_title").value=m.tmdb_title_official||m.original_title||"";
   $("m_year").value=m.tmdb_year_official||v2.anno_uscita||"";
+  $("m_duration").value=v2.durata_minuti||"";
   $("m_genre").innerHTML=genreOptions(m.genre);
   $("m_tmdb").value=m.tmdb_id||"";
   $("m_type").textContent=m.tmdb_media_type?("("+m.tmdb_media_type+")"):"";
@@ -1303,6 +1321,7 @@ function addResultCard(R, r){
       const rec=await buildRecord(editing.m.video_id, r, $("m_genre").value);
       pendingFull=rec;
       $("m_title").value=rec.tmdb_title_official; $("m_year").value=rec.tmdb_year_official||"";
+      $("m_duration").value=(rec.strict_id_v2&&rec.strict_id_v2.durata_minuti)||"";
       $("m_tmdb").value=rec.tmdb_id; $("m_type").textContent="("+(rec.tmdb_media_type||"movie")+")";
       $("m_plot").value=rec.strict_id_v2.trama||""; $("m_posterpath").value=rec.tmdb_poster_path||"";
       $("m_trailer").value=(rec.strict_id_v2.trailer&&rec.strict_id_v2.trailer.url)||""; trailerPick={key:"",queue:[]}; previewTrailerFromInput();
@@ -1437,6 +1456,7 @@ function applyEdit(){
   const origGuess=$("m_original_guess").value.trim();
   if(origGuess){ m.original_title=origGuess; m.strict_id_v2.titolo_originale=origGuess; }
   if(yr) m.strict_id_v2.anno_uscita=yr;
+  const dur=parseInt($("m_duration").value)||null; m.strict_id_v2.durata_minuti=dur;
   m.strict_id_v2.trama=$("m_plot").value;
   m.strict_id_v2.locandina_url=pp?IMG+"w500"+pp:null;
   m.strict_id_v2.cast_principale=collectCast();
