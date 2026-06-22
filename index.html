@@ -556,7 +556,7 @@ async function tmdbImdbId(tmdbId, mediaType){
 }
 // ── Ricerca trailer via AI: 1) trailer UFFICIALI TMDB; 2) ricerca YouTube (italiano prima,
 //    filtro durata); 3) l'AI ORDINA tutto preferendo italiano + ufficiale. Lista [{id,t,lingua}]. ──
-async function searchTrailerCands(title, year, tmdbId, mediaType, originalTitle){
+async function searchTrailerCands(title, year, tmdbId, mediaType, originalTitle, actors){
   const y=(year||"").toString().trim();
   const seen=new Set(); let cands=[];
   // 1) TMDB ufficiali (primari)
@@ -574,6 +574,11 @@ async function searchTrailerCands(title, year, tmdbId, mediaType, originalTitle)
   if(yt.length<6) for(const ti of titles) await addFrom(`${ti} trailer ita`);
   if(yt.length<6) await addFrom(`${title} ${y} official trailer`);
   if(yt.length<4) await addFrom(`${(originalTitle||title)} ${y} teaser trailer`);
+  // se YouTube trova POCO, incrocia col nome dell'ATTORE (utile per titoli generici/clickbait)
+  const acts=(actors||[]).filter(a=>a&&a.trim()).slice(0,2);
+  if(yt.length<3 && acts.length){
+    for(const a of acts){ for(const ti of titles){ await addFrom(`${ti} ${a} trailer`); } if(yt.length>=4) break; }
+  }
   // FILTRO DURATA sui risultati YouTube (i TMDB sono già trailer): 8s–7min, scarta i film interi
   if(yt.length){
     try{
@@ -612,7 +617,8 @@ async function findTrailer(){
   const tid=parseInt(($("m_tmdb").value||"").trim())||null;
   const mtype=$("m_type").textContent.includes("tv")?"tv":"movie";
   const orig=$("m_original_guess").value.trim()||((editing&&editing.m.original_title)||"");
-  const res=await searchTrailerCands(t, y, tid, mtype, orig);
+  const acts=collectCast().slice(0,2).map(c=>c.nome);   // incrocio con l'attore se YouTube trova poco
+  const res=await searchTrailerCands(t, y, tid, mtype, orig, acts);
   $("m_trailer_btn").disabled=false;
   if(res.length){
     trailerPick={ key, queue:res.slice(1) };
@@ -631,8 +637,8 @@ async function findTrailer(){
   }
 }
 // per la ricerca in blocco (findAllTrailers)
-async function searchTrailerFor(title, year, tmdbId, mediaType){
-  const c=await searchTrailerCands(title, year, tmdbId, mediaType);
+async function searchTrailerFor(title, year, tmdbId, mediaType, originalTitle, actors){
+  const c=await searchTrailerCands(title, year, tmdbId, mediaType, originalTitle, actors);
   return c.length ? { url:`https://www.youtube.com/watch?v=${c[0].id}`, title:c[0].t, lingua:c[0].lingua } : null;
 }
 // ── Anteprima trailer nel modale ──
@@ -662,7 +668,7 @@ async function findAllTrailers(){
   for(let k=0;k<items.length;k++){
     const x=items[k], m=x.m;
     status(`Cerco trailer… ${k+1}/${items.length} (✓ ${done})`,true);
-    const tr=await searchTrailerFor(title(m), m.tmdb_year_official||"", m.tmdb_id, m.tmdb_media_type);
+    const tr=await searchTrailerFor(title(m), m.tmdb_year_official||"", m.tmdb_id, m.tmdb_media_type, m.original_title, ((m.strict_id_v2||{}).cast_principale||[]).slice(0,2).map(c=>c.nome));
     if(tr){
       m.strict_id_v2=m.strict_id_v2||{};
       m.strict_id_v2.trailer={url:tr.url, fonte:"YouTube", lingua:tr.lingua, ufficiale:false, verificato:false, motivo_verifica:"ricerca AI"};
