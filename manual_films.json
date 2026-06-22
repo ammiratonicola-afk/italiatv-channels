@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T10:39:42.925Z",
+  "generated_at": "2026-06-22T10:46:45.984Z",
   "movies": [
     {
       "video_id": "zYeeo62exh0",
@@ -4817,10 +4817,10 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "original_title": "Nasolungo Principessa",
+      "original_title": "Карлик Нос",
       "genre": "animazione",
       "tmdb_id": 51349,
-      "tmdb_title_official": "Nasolungo Principessa",
+      "tmdb_title_official": "Nasolungo e la Principessa",
       "tmdb_year_official": 2003,
       "tmdb_poster_path": "/fOru3aBK4M4LPixEQGGfYcYBJoG.jpg",
       "tmdb_confidence": "verified",
@@ -4828,10 +4828,10 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_italiano": "Nasolungo Principessa",
+        "titolo_italiano": "Nasolungo e la Principessa",
         "titolo_originale": "Карлик Нос",
         "anno_uscita": 2003,
-        "durata_minuti": 0,
+        "durata_minuti": 785,
         "genere": [
           "Animazione",
           "Fantasy"
@@ -4842,12 +4842,12 @@
         "cast_principale": [
           {
             "nome": "Albert Asadullin",
-            "personaggio": "Giacobbe, il Nano",
+            "personaggio": "Jacob, the Dwarf (voice)",
             "foto_url": "https://image.tmdb.org/t/p/w185/ek91ubhCwKujwbrqZ64tuJtSdJh.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/143974",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -4857,30 +4857,30 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/lUg5y5hOxlUTxmezwhNvBlqNns7.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/119216",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
           {
             "nome": "Евгения Игумнова",
-            "personaggio": "La Principessa / L'Oca (voce)",
+            "personaggio": "Princess / The Goose (voice)",
             "foto_url": "https://image.tmdb.org/t/p/w185/2vATpJumGLT0SPNG8iwZBGTLWS6.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/143976",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
           {
             "nome": "Елена Шульман",
-            "personaggio": "Giacobbe, il Ragazzo",
+            "personaggio": "Jacob, the Boy (voice)",
             "foto_url": "https://image.tmdb.org/t/p/w185/v1p7nl5H0rsVKvsZnJbVrht4pLh.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/143975",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -4890,30 +4890,30 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/pEZfv6cNGJ5ZLVGsqHYYypAiKqb.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/110036",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
           {
             "nome": "Иван Краско",
-            "personaggio": "Il Re",
+            "personaggio": "The King (voice)",
             "foto_url": "https://image.tmdb.org/t/p/w185/9Z0I4NDgIvDRqcAB74Ny48zma02.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/110035",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
           {
             "nome": "Aleksey Gurev",
-            "personaggio": "Bluhm / il vasaio (voce)",
+            "personaggio": "Bluhm / the potter (voice)",
             "foto_url": "https://image.tmdb.org/t/p/w185/kKtbiVXCasx0X4N97wJuO4DtLAF.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/143977",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -4923,19 +4923,19 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/wtoFDhxP5Xqvznb5fO1Ajb8390M.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/2595391",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
           {
             "nome": "Виктор Сухоруков",
-            "personaggio": "Angelo, la guardia (voce)",
+            "personaggio": "Angel, the guard (voice)",
             "foto_url": "https://image.tmdb.org/t/p/w185/wkGGfQ1GNRIuAtBWDU0W36DlH3T.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/86940",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -4945,8 +4945,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/rXvPKpty9486cVTyr1X9G2la08D.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/110037",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           }
@@ -4954,17 +4954,10 @@
         "trama": "Una strega malvagia ha bisogno di Jacob, il buon figlio del calzolaio, per portare a compimento i suoi sinistri piani. Quando Jacob rifiuta, la strega gli strappa sette anni di vita e lo trasforma in un nano deforme. Jacob e la principessa uniscono le forze per ritornare alle loro famiglie e fermare il malefico piano della strega. Ci riusciranno?",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/fOru3aBK4M4LPixEQGGfYcYBJoG.jpg",
-        "trailer": {
-          "url": "https://www.youtube.com/watch?v=dgVoSsCfZbQ",
-          "lingua": "en",
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": true,
-          "verificato": true,
-          "motivo_verifica": "TMDB videos (en-US)"
-        },
+        "trailer": null,
         "tmdb_id_scelto": 51349
-      }
+      },
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "xSh9lM439Ys",
