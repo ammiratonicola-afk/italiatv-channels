@@ -175,12 +175,7 @@
   </div>
 
   <div class="card">
-    <h2>2 · Film manuali (<span id="n">0</span>)</h2>
-    <div id="list"></div>
-  </div>
-
-  <div class="card">
-    <h2>3 · Catalogo per canale e genere</h2>
+    <h2>2 · Catalogo per canale e genere</h2>
     <div class="actions">
       <button class="sec" id="catBtn" onclick="showCatalog()">📚 Mostra tutto il catalogo</button>
       <button class="sec" id="diagBtn" onclick="runDiagnostics()">🩺 Diagnostica</button>
@@ -409,19 +404,11 @@ async function askGeminiOriginalTitle(movie){
   throw new Error(lastErr||"Gemini non ha risposto.");
 }
 
+// I film manuali NON hanno più una lista separata in cima: si vedono nel Catalogo come
+// il canale "🎬 Film manuali". render() aggiorna solo il contatore (lista rimossa);
+// le viste catalogo/diagnostica le aggiornano i chiamanti via refreshCatView.
 function render(){
-  $("n").textContent=movies.length; $("count").textContent=movies.length+" film";
-  const L=$("list"); L.innerHTML="";
-  movies.forEach((m,i)=>{
-    const d=document.createElement("div"); d.className="film";
-    d.innerHTML=`<img src="${poster(m)}" onerror="this.style.visibility='hidden'">
-      <div class="meta" style="cursor:pointer" title="Clicca per modificare"><div class="t">${title(m)}</div>
-      <div class="s">${m.tmdb_year_official||"—"} · <span class="badge">${m.genre||"?"}</span> · TMDB ${m.tmdb_id||"—"}</div></div>
-      <button>Rimuovi</button>`;
-    d.querySelector(".meta").onclick=()=>openEdit(m.video_id,"man");
-    d.querySelector("button").onclick=()=>{ movies.splice(i,1); render(); };
-    L.appendChild(d);
-  });
+  const c=$("count"); if(c) c.textContent=movies.length+" film manuali";
 }
 
 async function load(){
@@ -683,6 +670,7 @@ async function addSelected(){
   try{
     const rec=await buildRecord(vid, selected, $("genre").value, $("title").value, $("year").value);
     movies.push(rec); render();
+    if(catalogAll){ catalogAll.push({m:rec,src:"man"}); refreshCatView(); }   // appare subito nel canale "🎬 Film manuali"
     $("yt").value=$("title").value=$("year").value=""; $("results").innerHTML=""; $("addRow").style.display="none"; selected=null;
     status("Aggiunto «"+rec.tmdb_title_official+"». Ricordati di premere 'Salva su GitHub'.",true);
   }catch(e){ status("Errore: "+e.message,false); }
