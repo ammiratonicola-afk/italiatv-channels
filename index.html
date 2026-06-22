@@ -617,10 +617,25 @@ function deriveGenre(tmdbGenres){
 }
 let catalogAll=null, catRawObj=null; const catDirty=new Set(); const catSel=new Set(); const catRenamed={}; let dupMode=false;
 // stato per i badge (popolati dalla diagnostica YouTube): geo-bloccati e non disponibili
-const geoBlockedSet=new Set(), unavailableSet=new Set(); let diagResults=null; let diagCatOpen=null;
+const geoBlockedSet=new Set(), unavailableSet=new Set(), shortDurSet=new Set(); let diagResults=null; let diagCatOpen=null;
+// Ricalcola i conteggi diagnostica: le categorie LOCALI (poster/trama/cast/lingua) si rifanno
+// al volo da catalogAll; quelle da YouTube (geo/disponibilità/durata) riusano i Set dell'ultima
+// scansione (niente nuove chiamate API a ogni modifica).
+function recomputeDiag(){
+  if(!catalogAll) return;
+  diagResults={
+    noPoster: catalogAll.filter(x=>!x.m.tmdb_poster_path),
+    noPlot: catalogAll.filter(x=>!(((x.m.strict_id_v2||{}).trama)||x.m.enriched_plot)),
+    noCast: catalogAll.filter(x=>!(((x.m.strict_id_v2||{}).cast_principale||[]).length)),
+    nonItalianPlot: catalogAll.filter(x=>{ const p=((x.m.strict_id_v2||{}).trama)||x.m.enriched_plot; return p && !isProbablyItalian(p); }),
+    shortDur: catalogAll.filter(x=>shortDurSet.has(x.m.video_id)),
+    geoBlocked: catalogAll.filter(x=>geoBlockedSet.has(x.m.video_id)),
+    unavailable: catalogAll.filter(x=>unavailableSet.has(x.m.video_id)),
+  };
+}
 // Ri-renderizza la vista catalogo ATTIVA (diagnostica > doppioni > catalogo) senza sovrascriverla.
 function refreshCatView(){
-  if(diagResults){ if(diagCatOpen!=null) showDiagCat(diagCatOpen); else renderDiagnostics(); }
+  if(diagResults){ recomputeDiag(); if(diagCatOpen!=null) showDiagCat(diagCatOpen); else renderDiagnostics(); }
   else if(dupMode) renderDuplicates();
   else if(catalogAll) renderCatalog();
 }
@@ -785,12 +800,8 @@ async function runDiagnostics(){
     }catch(e){ $("catInfo").textContent="Errore: "+e.message; $("diagBtn").disabled=false; return; }
   }
   $("diagBtn").disabled=true;
-  const noPoster=catalogAll.filter(x=>!x.m.tmdb_poster_path);
-  const noPlot=catalogAll.filter(x=>!(((x.m.strict_id_v2||{}).trama)||x.m.enriched_plot));
-  const noCast=catalogAll.filter(x=>!(((x.m.strict_id_v2||{}).cast_principale||[]).length));
-  const nonItalianPlot=catalogAll.filter(x=>{ const p=((x.m.strict_id_v2||{}).trama)||x.m.enriched_plot; return p && !isProbablyItalian(p); });
   // controllo YouTube a batch (disponibilità + blocco IT + durata)
-  geoBlockedSet.clear(); unavailableSet.clear(); const shortDur=[];
+  geoBlockedSet.clear(); unavailableSet.clear(); shortDurSet.clear();
   const ids=catalogAll.map(x=>x.m.video_id);
   for(let i=0;i<ids.length;i+=50){
     const batch=ids.slice(i,i+50);
@@ -802,17 +813,13 @@ async function runDiagnostics(){
         const rr=(it.contentDetails||{}).regionRestriction||{};
         if((rr.blocked||[]).includes("IT")||(rr.allowed&&!rr.allowed.includes("IT"))) geoBlockedSet.add(it.id);
         const dur=parseDuration((it.contentDetails||{}).duration);
-        if(dur>0 && dur<2400){ const x=catalogAll.find(y=>y.m.video_id===it.id); if(x) shortDur.push(x); }
+        if(dur>0 && dur<2400) shortDurSet.add(it.id);
       });
       batch.forEach(v=>{ if(!got.has(v)) unavailableSet.add(v); });
     }catch(e){}
     $("catInfo").textContent=`Diagnostica… ${Math.min(i+50,ids.length)}/${ids.length}`;
   }
-  diagResults={
-    noPoster, noPlot, noCast, nonItalianPlot, shortDur,
-    geoBlocked: catalogAll.filter(x=>geoBlockedSet.has(x.m.video_id)),
-    unavailable: catalogAll.filter(x=>unavailableSet.has(x.m.video_id)),
-  };
+  recomputeDiag();   // calcola tutte le categorie (locali + YouTube)
   $("diagBtn").disabled=false; $("diagBtn").textContent="✖ Chiudi diagnostica"; dupMode=false;
   renderDiagnostics();
 }
@@ -844,11 +851,34 @@ function showDiagCat(i){
   const key=DIAG_CATS[i][0], items=diagResults[key]||[];
   const C=$("catalog"); C.innerHTML="";
   const sec=document.createElement("div"); sec.className="gsec";
-  sec.innerHTML=`<h3>${DIAG_CATS[i][1]} (${items.length}) — <a href="#" onclick="renderDiagnostics();return false">‹ torna alla diagnostica</a></h3>`;
+  const bulk = (key==="nonItalianPlot" && items.length) ? ` <button class="sec" onclick="translateAllPlots()" style="padding:4px 10px;font-size:12px">🌐 Traduci tutte in italiano</button>` : "";
+  sec.innerHTML=`<h3>${DIAG_CATS[i][1]} (${items.length}) — <a href="#" onclick="renderDiagnostics();return false">‹ torna alla diagnostica</a>${bulk}</h3>`;
   const grid=document.createElement("div"); grid.className="gcat";
   items.forEach(x=>grid.appendChild(catCard(x, channelOf(x))));
   sec.appendChild(grid); C.appendChild(sec);
   $("catInfo").textContent=`${items.length} film · ${DIAG_CATS[i][1]}`;
+}
+// Traduce in italiano TUTTE le trame non italiane individuate dalla diagnostica.
+async function translateAllPlots(){
+  const items=((diagResults&&diagResults.nonItalianPlot)||[]).slice();
+  if(!items.length){ status("Nessuna trama da tradurre.",false); return; }
+  if(!$("gemini_key").value.trim() && !$("openai_key").value.trim()){ status("Serve la chiave Gemini o OpenAI per tradurre.",false); return; }
+  if(!confirm(`Tradurre in italiano ${items.length} trame? Userà Gemini (o OpenAI se esaurito).`)) return;
+  let done=0, fail=0, nman=0;
+  for(const x of items){
+    const m=x.m, cur=((m.strict_id_v2||{}).trama)||m.enriched_plot||"";
+    if(!cur){ continue; }
+    status(`Traduco… ${done+fail+1}/${items.length}`,true);
+    const t=await translateToItalian(cur);
+    if(t && t!==cur && isProbablyItalian(t)){
+      m.strict_id_v2=m.strict_id_v2||{}; m.strict_id_v2.trama=t; m.strict_id_v2.trama_tradotta_in_italiano=true;
+      if(x.src==="cat"){ catDirty.add(m.video_id); $("saveCatBtn").style.display="inline-block"; } else nman++;
+      done++;
+    } else fail++;
+  }
+  if(nman) render();
+  status(`✓ Tradotte ${done} trame${fail?` (${fail} non riuscite/già italiane)`:""}. Salva: catalogo col pulsante verde${nman?", manuali con 'Salva su GitHub'":""}.`,true);
+  recomputeDiag(); showDiagCat(DIAG_CATS.findIndex(c=>c[0]==="nonItalianPlot"));
 }
 async function saveCatalog(){
   const token=$("token").value.trim();
