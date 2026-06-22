@@ -870,6 +870,42 @@ function findDupGroups(){
   Object.keys(byTmdb).forEach(t=>{ if(byTmdb[t].length>1){ groups.push({label:title(byTmdb[t][0].m)+" — TMDB "+t, items:byTmdb[t] }); } });
   return groups;
 }
+// punteggio "qualità" di una copia: più alto = copia migliore da tenere
+function scoreFilm(m){
+  const v2=m.strict_id_v2||{}; let s=0;
+  if(m.tmdb_poster_path) s+=8;
+  if(m.tmdb_confidence==="verified") s+=2;
+  if(v2.trama||m.enriched_plot) s+=2;
+  if((v2.cast_principale||[]).length) s+=2;
+  if((v2.trailer&&v2.trailer.url)||m.trailer_url) s+=1;
+  return s;
+}
+// BONIFICA DOPPIONI in un colpo: per ogni gruppo (stesso TMDB ID) tiene la copia migliore,
+// elimina le altre (catalogo → is_movie=false; manuali → rimossi).
+function cleanAllDuplicates(){
+  if(!catalogAll) return;
+  const byTmdb={};
+  catalogAll.forEach(x=>{ const t=x.m.tmdb_id; if(t) (byTmdb[t]=byTmdb[t]||[]).push(x); });
+  const toDelete=[];
+  Object.values(byTmdb).forEach(grp=>{
+    if(grp.length<2) return;
+    grp.sort((a,b)=>scoreFilm(b.m)-scoreFilm(a.m));   // migliore in cima
+    grp.slice(1).forEach(x=>toDelete.push(x));         // tieni grp[0], elimina il resto
+  });
+  if(!toDelete.length){ status("Nessun doppione (stesso TMDB) da bonificare.",false); return; }
+  if(!confirm(`Bonificare ${toDelete.length} copie doppie? Per ogni film resta la copia MIGLIORE (poster/trama/cast/trailer), le altre vengono eliminate.`)) return;
+  let ncat=0,nman=0;
+  toDelete.forEach(x=>{
+    const m=x.m;
+    if(x.src==="man"){ const i=movies.findIndex(z=>z.video_id===m.video_id); if(i>=0) movies.splice(i,1); nman++; }
+    else { const cm=(catRawObj&&catRawObj.movies||[]).find(z=>z.video_id===m.video_id); if(cm){ cm.is_movie=false; cm.reason_not_movie="doppione bonificato dall'editor"; catDirty.add(m.video_id); ncat++; } }
+    const j=catalogAll.findIndex(y=>y.m.video_id===m.video_id && y.src===x.src); if(j>=0) catalogAll.splice(j,1);
+  });
+  if(ncat) $("saveCatBtn").style.display="inline-block";
+  if(nman) render();
+  status(`✓ Bonificati ${ncat+nman} doppioni (tenuta la copia migliore di ogni film). Salva: catalogo col pulsante verde${nman?", manuali con 'Salva su GitHub'":""}.`,true);
+  recomputeDiag(); showDiagCat(DIAG_CATS.findIndex(c=>c[0]==="duplicates"));
+}
 // ── Diagnostica catalogo: locandina/trama/cast mancanti + disponibilità/geo-blocco YouTube ──
 function parseDuration(iso){
   const m=(iso||"").match(/PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?/); if(!m) return 0;
@@ -945,7 +981,7 @@ function showDiagCat(i){
   if(key==="duplicates"){
     const groups=findDupGroups();
     const head=document.createElement("div"); head.className="gsec";
-    head.innerHTML=`<h3>${DIAG_CATS[i][1]} — ${groups.length} gruppi · <a href="#" onclick="renderDiagnostics();return false">‹ torna alla diagnostica</a></h3>`;
+    head.innerHTML=`<h3>${DIAG_CATS[i][1]} — ${groups.length} gruppi · <a href="#" onclick="renderDiagnostics();return false">‹ torna alla diagnostica</a>${groups.length?` <button class="sec" onclick="cleanAllDuplicates()" style="padding:4px 10px;font-size:12px">🧹 Bonifica tutti (tieni la migliore)</button>`:""}</h3>`;
     C.appendChild(head);
     groups.forEach(grp=>{
       const s=document.createElement("div"); s.className="chsec";
