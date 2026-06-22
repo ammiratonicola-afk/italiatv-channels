@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T10:31:32.300Z",
+  "generated_at": "2026-06-22T10:39:42.925Z",
   "movies": [
     {
       "video_id": "zYeeo62exh0",
@@ -7215,28 +7215,28 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "original_title": "Teddy & Annie - I Giocattoli Dimenticati",
+      "original_title": "Teddy & Annie: The Forgotten Toys",
       "genre": "animazione",
-      "tmdb_id": 179453,
-      "tmdb_title_official": "Teddy & Annie - I Giocattoli Dimenticati",
+      "tmdb_id": 14384,
+      "tmdb_title_official": "The Forgotten Toys",
       "tmdb_year_official": 1997,
-      "tmdb_poster_path": "/68z68kGvNORD7HQDWL1rrmbNogb.jpg",
+      "tmdb_poster_path": "/fSKueXXlHnNzmnkJuBkgJPfcZjk.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 179453",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_italiano": "Teddy & Annie - I Giocattoli Dimenticati",
-        "titolo_originale": "The Forgotten Toys",
+        "titolo_italiano": "The Forgotten Toys",
+        "titolo_originale": "Teddy & Annie: The Forgotten Toys",
         "anno_uscita": 1997,
-        "durata_minuti": 25,
+        "durata_minuti": 11,
         "genere": [
           "Animazione",
-          "Famiglia",
-          "Fantasy"
+          "Kids",
+          "Famiglia"
         ],
         "regista": [
-          "Graham Ralph"
+          "James Stevenson"
         ],
         "cast_principale": [
           {
@@ -7245,8 +7245,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/qOeE7bVHAsNTbP77Qk6TwrrWHZc.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/382",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
@@ -7256,48 +7256,48 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/omQvLqkQf9yemMroaj6MJbf37sf.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/34901",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Clement Freud",
-            "personaggio": "Chauncey (voice)",
-            "foto_url": "https://image.tmdb.org/t/p/w185/sTWhfdTxg7yeFYM3niXoYQ7hP6n.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1220521",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
           {
             "nome": "Andrew Sachs",
-            "personaggio": "Chef / Vecchio (voce)",
+            "personaggio": "Additional Voices (voice)",
             "foto_url": "https://image.tmdb.org/t/p/w185/yBaD13paNIIQwUBNHbmNwwjKUXl.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/47851",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
+            }
+          },
+          {
+            "nome": "Kate Sachs",
+            "personaggio": "Additional Voices (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": false
             }
           }
         ],
-        "trama": "Teddy e Annie sono i teneri protagonisti di questa dolce storia che ha inizio in una gelida notte di Natale. Abbandonati dai loro padroncini perché rimpiazzati da nuovi giocattoli, quest'orsacchiotto di peluche e questa bambola di pezza si incontrano in un bidone della spazzatura e diventano subito amici inseparabili. Tra guai e mille peripezie i nostri piccoli protagonisti incontreranno nuovi amici insieme ai quali vivranno bellissime avventure e tante emozioni... fino all'immancabile lieto fine.",
+        "trama": "I Giocattoli Dimenticati è una serie animata realizzata da Hibbert Ralph Entertainment, con le voci di Joanna Lumley e Bob Hoskins. È presente anche la voce di Andrew Sachs. È una storia toccante di giocattoli abbandonati che cercano un bambino da amare.",
         "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/68z68kGvNORD7HQDWL1rrmbNogb.jpg",
+        "locandina_url": "https://image.tmdb.org/t/p/w500/fSKueXXlHnNzmnkJuBkgJPfcZjk.jpg",
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=HVO6qCe8QBM",
-          "lingua": "it",
           "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": true,
+          "lingua": "it",
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos"
+          "motivo_verifica": "inserito manualmente",
+          "url": "https://youtu.be/HVO6qCe8QBM"
         },
-        "tmdb_id_scelto": 179453
-      }
+        "tmdb_id_scelto": 14384
+      },
+      "tmdb_media_type": "tv"
     },
     {
       "video_id": "edDiBI2fQ4g",
