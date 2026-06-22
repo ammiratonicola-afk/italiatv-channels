@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T05:09:05.269Z",
+  "generated_at": "2026-06-22T05:10:15.265Z",
   "movies": [
     {
       "video_id": "zYeeo62exh0",
@@ -14576,6 +14576,151 @@
           "motivo_verifica": "TMDB videos"
         },
         "tmdb_id_scelto": 50531
+      }
+    },
+    {
+      "video_id": "LM2Bj-gJyeo",
+      "is_movie": true,
+      "manual_include": true,
+      "channel": "Manuale",
+      "genre": "commedia",
+      "original_title": "Nati stanchi",
+      "tmdb_id": 38537,
+      "tmdb_title_official": "Nati stanchi",
+      "tmdb_year_official": 2002,
+      "tmdb_poster_path": "/9pfmKsjxgWSGflGuVDXXZn46hDp.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Nati stanchi",
+        "titolo_originale": "Nati stanchi",
+        "anno_uscita": 2002,
+        "durata_minuti": 80,
+        "genere": [
+          "Commedia"
+        ],
+        "regista": [
+          "Dominick Tambasco"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Salvatore Ficarra",
+            "personaggio": "Salvo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/h3q5f3pg5d6JeSxxz5hxaLTJcR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Valentino Picone",
+            "personaggio": "Valentino",
+            "foto_url": "https://image.tmdb.org/t/p/w185/700JeA0KaBBQaO5FthyjQyjsLJa.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Stefania Bonafede",
+            "personaggio": "Loredana",
+            "foto_url": "https://image.tmdb.org/t/p/w185/l5i3r6cnTwelLnDtoTCMBPPV7SA.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marica Coco",
+            "personaggio": "Sandra",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1N439bxS6jFN9TLFBlph7tyY2ur.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Luigi Maria Burruano",
+            "personaggio": "Don Ciccio Milazzo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3kDUllVREGWbWIz5eQHm2DWNvSv.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gilberto Idonea",
+            "personaggio": "padre di Valentino",
+            "foto_url": "https://image.tmdb.org/t/p/w185/Z3VSGptmLjo7fkYT3mek2b9pk9.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Costantino Carrozza",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/qqUWVD66anDULIJOBFqa96c3yRB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Dario D'Ambrosi",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/4ZYZdYTHUxtTiIkzVo2nIh2TdKd.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gino Carista",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/rejwcgJ0X8yxhj7ZjFZ8KQqBH69.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marcello Mordino",
+            "personaggio": null,
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "In Sicilia due ragazzi, come quasi tutti i loro conterranei, non hanno lavoro. L'intenzione (fasulla) sarebbe quella di procurarsene uno, ma la pigrizia è tanta. Per salvare la faccia occorre però almeno partecipare a concorsi e selezioni; il modo di farsi bocciare poi lo si trova sempre...",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/9pfmKsjxgWSGflGuVDXXZn46hDp.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 38537
       }
     }
   ]
