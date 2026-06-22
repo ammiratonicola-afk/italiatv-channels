@@ -526,18 +526,25 @@ async function searchTrailerFor(title, year){
   const seen=new Set(); let cands=[];
   const addFrom=async(q)=>{
     try{
-      const d=await fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=6&q=${encodeURIComponent(q)}&key=${YT_KEY}`).then(r=>r.json());
+      const d=await fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&type=video&maxResults=8&q=${encodeURIComponent(q)}&key=${YT_KEY}`).then(r=>r.json());
       (d.items||[]).forEach(it=>{ const id=it.id&&it.id.videoId; if(id && !seen.has(id)){ seen.add(id); cands.push({id, t:it.snippet.title, ch:it.snippet.channelTitle}); } });
     }catch(e){}
   };
   // 1) ITALIANO prima
   await addFrom(`${title} ${y} trailer italiano`);
-  if(cands.length<3) await addFrom(`${title} trailer ita`);
+  if(cands.length<4) await addFrom(`${title} trailer ita`);
   // 2) altre lingue se poche opzioni italiane
-  if(cands.length<3) await addFrom(`${title} ${y} official trailer`);
+  if(cands.length<4) await addFrom(`${title} ${y} official trailer`);
   if(!cands.length) return null;
+  // FILTRO DURATA: un trailer è CORTO. Scarta i FILM INTERI e i video lunghi (8s–6min).
+  try{
+    const dd=await fetch(`https://www.googleapis.com/youtube/v3/videos?part=contentDetails&id=${cands.map(c=>c.id).join(",")}&key=${YT_KEY}`).then(r=>r.json());
+    const dur={}; (dd.items||[]).forEach(it=>{ dur[it.id]=parseDuration((it.contentDetails||{}).duration); });
+    cands=cands.filter(c=>{ const s=dur[c.id]||0; return s>=8 && s<=360; });
+  }catch(e){}
+  if(!cands.length) return null;   // niente di abbastanza corto = nessun vero trailer (evita i film interi)
   const list=cands.map((c,i)=>`${i}. "${c.t}" — canale: ${c.ch} — id:${c.id}`).join("\n");
-  const prompt=`Film: "${title}" (${y||"?"}). Video YouTube candidati come TRAILER:\n${list}\n\nScegli il VERO trailer di QUESTO film, PREFERENDO l'ITALIANO (doppiato o sottotitolato in italiano), poi le altre lingue. Escludi recensioni, reaction, fan-made, film interi, clip/scene. Rispondi SOLO con JSON: {"id":"<videoId scelto, vuoto se nessuno valido>","lingua":"it|altra"}`;
+  const prompt=`Film: "${title}" (${y||"?"}). Video YouTube BREVI candidati come TRAILER:\n${list}\n\nScegli il VERO trailer di QUESTO film, PREFERENDO l'ITALIANO (doppiato o sottotitolato in italiano), poi le altre lingue. Escludi recensioni, reaction, fan-made, clip/scene singole. Rispondi SOLO con JSON: {"id":"<videoId scelto, vuoto se nessuno valido>","lingua":"it|altra"}`;
   let pick=null;
   const ai=(await openaiChat(prompt,true))||(await geminiText(prompt,true));
   if(ai){ try{ pick=JSON.parse(cleanJsonText(ai)); }catch(_){} }
