@@ -1105,5 +1105,109 @@
     "color": "#FF00695C",
     "streamUrl": "https://64b16f23efbee.streamlock.net/rete8sport/rete8sport/playlist.m3u8",
     "streamType": "HLS"
+  },
+  {
+    "id": 138,
+    "name": "Pluto TV Film Romantici",
+    "category": "Cinema",
+    "color": "#FF1A237E",
+    "streamUrl": "https://jmp2.uk/plu-608aa4a4cc92820007b663af.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 139,
+    "name": "Pluto TV Film Storici",
+    "category": "Cinema",
+    "color": "#FF1A237E",
+    "streamUrl": "https://jmp2.uk/plu-68750875759366af05a151ce.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 140,
+    "name": "Pluto TV Horror",
+    "category": "Cinema",
+    "color": "#FF1A237E",
+    "streamUrl": "https://jmp2.uk/plu-61c09e3ac210ed0007606620.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 141,
+    "name": "Pluto TV Sci-Fi",
+    "category": "Cinema",
+    "color": "#FF1A237E",
+    "streamUrl": "https://jmp2.uk/plu-61728bb9ee3773000840c1fa.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 142,
+    "name": "Pluto TV Western",
+    "category": "Cinema",
+    "color": "#FF1A237E",
+    "streamUrl": "https://jmp2.uk/plu-62e7fb67478a5b0007e6c50c.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 143,
+    "name": "Pluto TV Azione Cult",
+    "category": "Cinema",
+    "color": "#FF1A237E",
+    "streamUrl": "https://jmp2.uk/plu-6994800c470389f33df8e090.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 144,
+    "name": "Pluto TV Anime",
+    "category": "Cinema",
+    "color": "#FF1A237E",
+    "streamUrl": "https://jmp2.uk/plu-65b90daed77d450008a43345.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 145,
+    "name": "Pluto TV Totò",
+    "category": "Cinema",
+    "color": "#FF1A237E",
+    "streamUrl": "https://jmp2.uk/plu-65253f9881f942000833ccd5.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 146,
+    "name": "Pluto TV Alberto Sordi",
+    "category": "Cinema",
+    "color": "#FF1A237E",
+    "streamUrl": "https://jmp2.uk/plu-661f8f01801af800083d9d81.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 147,
+    "name": "Pluto TV Dive Italiane",
+    "category": "Cinema",
+    "color": "#FF1A237E",
+    "streamUrl": "https://jmp2.uk/plu-6875080e3484d607323641f8.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 148,
+    "name": "Pluto TV Serie",
+    "category": "Cinema",
+    "color": "#FF1A237E",
+    "streamUrl": "https://jmp2.uk/plu-60b9ff2722bfa400072676ef.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 149,
+    "name": "Pluto TV Serie Crime",
+    "category": "Cinema",
+    "color": "#FF1A237E",
+    "streamUrl": "https://jmp2.uk/plu-608aa777b907770007e5d05d.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 150,
+    "name": "Pluto TV Serie Sci-Fi",
+    "category": "Cinema",
+    "color": "#FF1A237E",
+    "streamUrl": "https://jmp2.uk/plu-67ed14aaf7c5d70b9089c3bf.m3u8",
+    "streamType": "HLS"
   }
 ]
