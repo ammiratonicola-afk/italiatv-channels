@@ -502,15 +502,6 @@
     "logoUrl": "https://i.imgur.com/emLNC0U.png"
   },
   {
-    "id": 101,
-    "name": "Discovery Turbo",
-    "category": "Discovery",
-    "color": "#FF4A148C",
-    "streamUrl": "https://www.discoveryplus.com/it/channel/motor-trend",
-    "streamType": "WEB",
-    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/motor-trend-it.png"
-  },
-  {
     "id": 39,
     "name": "Radio Italia TV",
     "category": "Musica",
