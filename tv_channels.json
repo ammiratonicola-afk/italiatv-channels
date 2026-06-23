@@ -296,7 +296,7 @@
   {
     "id": 69,
     "name": "Radio Montecarlo TV",
-    "category": "Musica",
+    "category": "Radio",
     "color": "#FF880E4F",
     "streamUrl": "https://live02-seg.msr.cdn.mediaset.net/live/ch-bb/bb-clr.isml/index.m3u8",
     "streamType": "HLS",
@@ -324,8 +324,8 @@
   {
     "id": 33,
     "name": "SuperTennis",
-    "category": "Sport",
-    "color": "#FF00695C",
+    "category": "Altri",
+    "color": "#FF252545",
     "streamUrl": "https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8",
     "streamType": "HLS",
     "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/super-tennis-it.png"
@@ -333,8 +333,8 @@
   {
     "id": 34,
     "name": "SportItalia",
-    "category": "Sport",
-    "color": "#FF00695C",
+    "category": "Altri",
+    "color": "#FF252545",
     "streamUrl": "https://distribution.sportitalialive.it/sportitalia/sihd_abr/playlist.m3u8",
     "streamType": "HLS",
     "logoUrl": "https://sportitalia.s3.eu-west-par.io.cloud.ovh.net/wp-content/uploads/2024/02/logo-sportitalia.png"
@@ -342,8 +342,8 @@
   {
     "id": 49,
     "name": "Sportitalia SoloCalcio",
-    "category": "Sport",
-    "color": "#FF00695C",
+    "category": "Altri",
+    "color": "#FF252545",
     "streamUrl": "https://distribution.sportitalialive.it/sportitalia/sisolocalcio_abr/playlist.m3u8",
     "streamType": "HLS",
     "logoUrl": "https://sportitalia.s3.eu-west-par.io.cloud.ovh.net/wp-content/uploads/2024/02/logo-sportitalia.png"
@@ -351,8 +351,8 @@
   {
     "id": 50,
     "name": "ACI Sport TV",
-    "category": "Sport",
-    "color": "#FF00695C",
+    "category": "Altri",
+    "color": "#FF252545",
     "streamUrl": "https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8",
     "streamType": "HLS",
     "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/aci-sport-tv-it.png"
@@ -504,7 +504,7 @@
   {
     "id": 39,
     "name": "Radio Italia TV",
-    "category": "Musica",
+    "category": "Radio",
     "color": "#FF880E4F",
     "streamUrl": "https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8",
     "streamType": "HLS",
@@ -513,7 +513,7 @@
   {
     "id": 40,
     "name": "Deejay TV",
-    "category": "Musica",
+    "category": "Radio",
     "color": "#FF880E4F",
     "streamUrl": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8",
     "streamType": "HLS",
@@ -522,7 +522,7 @@
   {
     "id": 41,
     "name": "Radio 105 TV",
-    "category": "Musica",
+    "category": "Radio",
     "color": "#FF880E4F",
     "streamUrl": "https://live02-seg.msr.cdn.mediaset.net/live/ch-ec/ec-clr.isml/index.m3u8",
     "streamType": "HLS",
@@ -531,7 +531,7 @@
   {
     "id": 42,
     "name": "Virgin Radio TV",
-    "category": "Musica",
+    "category": "Radio",
     "color": "#FF880E4F",
     "streamUrl": "https://live02-seg.msr.cdn.mediaset.net/live/ch-ew/ew-clr.isml/index.m3u8",
     "streamType": "HLS",
@@ -540,7 +540,7 @@
   {
     "id": 43,
     "name": "RTL 102.5",
-    "category": "Musica",
+    "category": "Radio",
     "color": "#FF880E4F",
     "streamUrl": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_video.m3u8",
     "streamType": "HLS",
@@ -549,7 +549,7 @@
   {
     "id": 44,
     "name": "R101 TV",
-    "category": "Musica",
+    "category": "Radio",
     "color": "#FF880E4F",
     "streamUrl": "https://live02-seg.msr.cdn.mediaset.net/live/ch-er/er-clr.isml/index.m3u8",
     "streamType": "HLS",
@@ -558,7 +558,7 @@
   {
     "id": 51,
     "name": "m2o TV",
-    "category": "Musica",
+    "category": "Radio",
     "color": "#FF880E4F",
     "streamUrl": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/playlist.m3u8",
     "streamType": "HLS",
@@ -567,7 +567,7 @@
   {
     "id": 52,
     "name": "Kiss Kiss TV",
-    "category": "Musica",
+    "category": "Radio",
     "color": "#FF880E4F",
     "streamUrl": "https://58f12ffd2447a.streamlock.net/KKMulti/livestream/playlist.m3u8",
     "streamType": "HLS",
@@ -576,7 +576,7 @@
   {
     "id": 64,
     "name": "Radio Freccia TV",
-    "category": "Musica",
+    "category": "Radio",
     "color": "#FF880E4F",
     "streamUrl": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/playlist_video.m3u8",
     "streamType": "HLS",
@@ -585,7 +585,7 @@
   {
     "id": 65,
     "name": "Radio Zeta TV",
-    "category": "Musica",
+    "category": "Radio",
     "color": "#FF880E4F",
     "streamUrl": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/playlist_video.m3u8",
     "streamType": "HLS",
@@ -594,7 +594,7 @@
   {
     "id": 66,
     "name": "Radio Capital TV",
-    "category": "Musica",
+    "category": "Radio",
     "color": "#FF880E4F",
     "streamUrl": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S35394734/Z6U2wGoDYANk/playlist.m3u8",
     "streamType": "HLS",
@@ -603,7 +603,7 @@
   {
     "id": 67,
     "name": "RDS Social TV",
-    "category": "Musica",
+    "category": "Radio",
     "color": "#FF880E4F",
     "streamUrl": "https://stream.rdstv.radio/out/v1/ec85f72b87f04555aa41d616d5be41dc/index.m3u8",
     "streamType": "HLS",
@@ -612,8 +612,8 @@
   {
     "id": 21,
     "name": "TV8",
-    "category": "Altri",
-    "color": "#FF252545",
+    "category": "Sky",
+    "color": "#FF0A4DA0",
     "streamUrl": "https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556",
     "streamType": "HLS",
     "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/tv8-it.png"
@@ -621,8 +621,8 @@
   {
     "id": 23,
     "name": "Sky TG24",
-    "category": "Altri",
-    "color": "#FF252545",
+    "category": "Sky",
+    "color": "#FF0A4DA0",
     "streamUrl": "https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556",
     "streamType": "HLS",
     "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-tg24-it.png"
@@ -630,8 +630,8 @@
   {
     "id": 26,
     "name": "Cielo TV",
-    "category": "Altri",
-    "color": "#FF252545",
+    "category": "Sky",
+    "color": "#FF0A4DA0",
     "streamUrl": "https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11219/cieloweb/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556",
     "streamType": "HLS",
     "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cielo-it.png"
@@ -763,8 +763,8 @@
   {
     "id": 81,
     "name": "Mayday: Disastro Aereo",
-    "category": "Discovery",
-    "color": "#FF4A148C",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://pluto.tv/live-tv/mayday-disastro-aereo-it",
     "streamType": "WEB",
     "logoUrl": "https://images.pluto.tv/channels/690cb9140d121b44ad925ac9/colorLogoPNG_1762957819953.png"
@@ -772,8 +772,8 @@
   {
     "id": 82,
     "name": "Wicked Tuna",
-    "category": "Discovery",
-    "color": "#FF4A148C",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://pluto.tv/live-tv/wicked-tuna-it",
     "streamType": "WEB",
     "logoUrl": "https://images.pluto.tv/channels/67c832cc9b53325ee16fb899/colorLogoPNG.png"
@@ -781,8 +781,8 @@
   {
     "id": 83,
     "name": "Space Live",
-    "category": "Discovery",
-    "color": "#FF4A148C",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://pluto.tv/live-tv/space-live-ptv1",
     "streamType": "WEB",
     "logoUrl": "https://images.pluto.tv/channels/69b1489b5828e7c242d83064/colorLogoPNG_1775118441487.png"
@@ -790,8 +790,8 @@
   {
     "id": 84,
     "name": "Naturescape",
-    "category": "Discovery",
-    "color": "#FF4A148C",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://pluto.tv/live-tv/naturescape-it",
     "streamType": "WEB",
     "logoUrl": "https://images.pluto.tv/channels/610a9ebe8c2ac2000734776e/colorLogoPNG.png"
@@ -799,8 +799,8 @@
   {
     "id": 85,
     "name": "Pluto TV Documentari",
-    "category": "Discovery",
-    "color": "#FF4A148C",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://pluto.tv/live-tv/pluto-tv-documentari-it",
     "streamType": "WEB",
     "logoUrl": "https://images.pluto.tv/channels/608aa8a5709d6b0007b132fe/colorLogoPNG.png"
@@ -808,8 +808,8 @@
   {
     "id": 86,
     "name": "Pluto TV Natura",
-    "category": "Discovery",
-    "color": "#FF4A148C",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://pluto.tv/live-tv/pluto-tv-natura-it",
     "streamType": "WEB",
     "logoUrl": "https://images.pluto.tv/channels/60802b37709d6b0007b0c549/colorLogoPNG_1773147389391.png"
@@ -817,8 +817,8 @@
   {
     "id": 87,
     "name": "Pluto TV Storia",
-    "category": "Discovery",
-    "color": "#FF4A148C",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://pluto.tv/live-tv/pluto-tv-storia-it",
     "streamType": "WEB",
     "logoUrl": "https://images.pluto.tv/channels/65253fdf3fd33c00080214a3/colorLogoPNG_1773147329671.png"
@@ -826,8 +826,8 @@
   {
     "id": 88,
     "name": "Inter 24/7",
-    "category": "Sport",
-    "color": "#FF00695C",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://pluto.tv/live-tv/inter-247-it",
     "streamType": "WEB",
     "logoUrl": "https://images.pluto.tv/channels/691c5bef3a369d8f40192e71/colorLogoPNG_1775046814007.png"
@@ -835,8 +835,8 @@
   {
     "id": 89,
     "name": "FIFA+",
-    "category": "Sport",
-    "color": "#FF00695C",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://pluto.tv/live-tv/fifa-it",
     "streamType": "WEB",
     "logoUrl": "https://images.pluto.tv/channels/660bfc4424e1d000085b5f93/colorLogoPNG_1750064819565.png"
@@ -844,8 +844,8 @@
   {
     "id": 90,
     "name": "Rally TV",
-    "category": "Sport",
-    "color": "#FF00695C",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://pluto.tv/live-tv/rally-tv",
     "streamType": "WEB",
     "logoUrl": "https://images.pluto.tv/channels/696e0fe49ba4ac18057433ac/colorLogoPNG_1770893941495.png"
@@ -853,8 +853,8 @@
   {
     "id": 91,
     "name": "Automoto",
-    "category": "Sport",
-    "color": "#FF00695C",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://pluto.tv/live-tv/automoto",
     "streamType": "WEB",
     "logoUrl": "https://images.pluto.tv/channels/6971fc6dca441014e4600f2c/colorLogoPNG_1773155503349.png"
@@ -862,8 +862,8 @@
   {
     "id": 92,
     "name": "Pluto TV Film",
-    "category": "Cinema",
-    "color": "#FF1A237E",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://pluto.tv/live-tv/pluto-tv-film-it",
     "streamType": "WEB",
     "logoUrl": "https://images.pluto.tv/channels/608aa17fb9f4490007e6419a/colorLogoPNG_1733013735186.png"
@@ -871,8 +871,8 @@
   {
     "id": 93,
     "name": "Pluto TV Film Azione",
-    "category": "Cinema",
-    "color": "#FF1A237E",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://pluto.tv/live-tv/pluto-tv-film-azione-it",
     "streamType": "WEB",
     "logoUrl": "https://images.pluto.tv/channels/608aa20a2e7f270007c4878d/colorLogoPNG.png"
@@ -880,8 +880,8 @@
   {
     "id": 94,
     "name": "Pluto TV Film Commedia",
-    "category": "Cinema",
-    "color": "#FF1A237E",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://pluto.tv/live-tv/pluto-tv-film-commedia-it",
     "streamType": "WEB",
     "logoUrl": "https://images.pluto.tv/channels/608aa512d67fd900072323db/colorLogoPNG.png"
@@ -889,8 +889,8 @@
   {
     "id": 95,
     "name": "Pluto TV Film Thriller",
-    "category": "Cinema",
-    "color": "#FF1A237E",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://pluto.tv/live-tv/pluto-tv-film-thriller-it",
     "streamType": "WEB",
     "logoUrl": "https://images.pluto.tv/channels/608aa5e995132a00075f7005/colorLogoPNG.png"
@@ -898,8 +898,8 @@
   {
     "id": 96,
     "name": "Pluto TV Cinema Italiano",
-    "category": "Cinema",
-    "color": "#FF1A237E",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://pluto.tv/live-tv/pluto-tv-cinema-italiano-it",
     "streamType": "WEB",
     "logoUrl": "https://images.pluto.tv/channels/608aa7d8359b270007861489/colorLogoPNG.png"
@@ -907,8 +907,8 @@
   {
     "id": 97,
     "name": "South Park",
-    "category": "Altri",
-    "color": "#FF252545",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://pluto.tv/live-tv/south-park-it",
     "streamType": "WEB",
     "logoUrl": "https://images.pluto.tv/channels/62bc1f502b70e3000706298e/colorLogoPNG.png"
@@ -916,8 +916,8 @@
   {
     "id": 98,
     "name": "CNN Headlines",
-    "category": "Altri",
-    "color": "#FF252545",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://pluto.tv/live-tv/cnn-headlines-it",
     "streamType": "WEB",
     "logoUrl": "https://images.pluto.tv/channels/66c45ba803e3b20008d8c294/colorLogoPNG_1775159849441.png"
@@ -925,8 +925,8 @@
   {
     "id": 115,
     "name": "CG Entertainment",
-    "category": "Cinema",
-    "color": "#FF1A237E",
+    "category": "Altri",
+    "color": "#FF252545",
     "streamUrl": "https://cgentertainment-cgtv-1-it.samsung.wurl.tv/playlist.m3u8",
     "streamType": "HLS"
   },
@@ -1005,208 +1005,208 @@
   {
     "id": 121,
     "name": "San Marino RTV Sport",
-    "category": "Sport",
-    "color": "#FF00695C",
+    "category": "Altri",
+    "color": "#FF252545",
     "streamUrl": "https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/smil:ch-02.smil/master.m3u8",
     "streamType": "HLS"
   },
   {
     "id": 126,
     "name": "Pluto TV Sport",
-    "category": "Sport",
-    "color": "#FF00695C",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-608030eff4b6f70007e1684c.m3u8",
     "streamType": "HLS"
   },
   {
     "id": 127,
     "name": "Pluto TV Cinema Orientale",
-    "category": "Cinema",
-    "color": "#FF1A237E",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-6786235bd648bf0008c2780a.m3u8",
     "streamType": "HLS"
   },
   {
     "id": 128,
     "name": "Rakuten Top Movies",
-    "category": "Cinema",
-    "color": "#FF1A237E",
+    "category": "Rakuten",
+    "color": "#FFBF0000",
     "streamUrl": "https://d4a4999341764c67a67e9ec9eb3790ab.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5984/master.m3u8",
     "streamType": "HLS"
   },
   {
     "id": 129,
     "name": "Rakuten Action Movies",
-    "category": "Cinema",
-    "color": "#FF1A237E",
+    "category": "Rakuten",
+    "color": "#FFBF0000",
     "streamUrl": "https://87f2e2e5e7624e3bad85da1ca2ed31a7.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6067/master.m3u8",
     "streamType": "HLS"
   },
   {
     "id": 130,
     "name": "Rakuten Comedy Movies",
-    "category": "Cinema",
-    "color": "#FF1A237E",
+    "category": "Rakuten",
+    "color": "#FFBF0000",
     "streamUrl": "https://b8bc6c4b9be64bd6aeb3b92aa8521ed4.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6184/master.m3u8",
     "streamType": "HLS"
   },
   {
     "id": 131,
     "name": "Rakuten Drama Movies",
-    "category": "Cinema",
-    "color": "#FF1A237E",
+    "category": "Rakuten",
+    "color": "#FFBF0000",
     "streamUrl": "https://f84e0b1628464fab846160df957f269e.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6094/master.m3u8",
     "streamType": "HLS"
   },
   {
     "id": 132,
     "name": "Rakuten Family Movies",
-    "category": "Cinema",
-    "color": "#FF1A237E",
+    "category": "Rakuten",
+    "color": "#FFBF0000",
     "streamUrl": "https://3315fc3e7276420f895e19cf807dbee1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6215/master.m3u8",
     "streamType": "HLS"
   },
   {
     "id": 133,
     "name": "Pluto TV Teen",
-    "category": "Altri",
-    "color": "#FF252545",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-63eb573ba99571000897135b.m3u8",
     "streamType": "HLS"
   },
   {
     "id": 134,
     "name": "Super! iCarly",
-    "category": "Altri",
-    "color": "#FF252545",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-609401db8cf51c00084b592e.m3u8",
     "streamType": "HLS"
   },
   {
     "id": 135,
     "name": "Super! SpongeBob",
-    "category": "Altri",
-    "color": "#FF252545",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-6093f9281db477000759fce0.m3u8",
     "streamType": "HLS"
   },
   {
     "id": 136,
     "name": "Sportitalia Plus",
-    "category": "Sport",
-    "color": "#FF00695C",
+    "category": "Altri",
+    "color": "#FF252545",
     "streamUrl": "https://sportsitalia-samsungitaly.amagi.tv/playlist.m3u8",
     "streamType": "HLS"
   },
   {
     "id": 137,
     "name": "Rete 8 Sport",
-    "category": "Sport",
-    "color": "#FF00695C",
+    "category": "Altri",
+    "color": "#FF252545",
     "streamUrl": "https://64b16f23efbee.streamlock.net/rete8sport/rete8sport/playlist.m3u8",
     "streamType": "HLS"
   },
   {
     "id": 138,
     "name": "Pluto TV Film Romantici",
-    "category": "Cinema",
-    "color": "#FF1A237E",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-608aa4a4cc92820007b663af.m3u8",
     "streamType": "HLS"
   },
   {
     "id": 139,
     "name": "Pluto TV Film Storici",
-    "category": "Cinema",
-    "color": "#FF1A237E",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-68750875759366af05a151ce.m3u8",
     "streamType": "HLS"
   },
   {
     "id": 140,
     "name": "Pluto TV Horror",
-    "category": "Cinema",
-    "color": "#FF1A237E",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-61c09e3ac210ed0007606620.m3u8",
     "streamType": "HLS"
   },
   {
     "id": 141,
     "name": "Pluto TV Sci-Fi",
-    "category": "Cinema",
-    "color": "#FF1A237E",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-61728bb9ee3773000840c1fa.m3u8",
     "streamType": "HLS"
   },
   {
     "id": 142,
     "name": "Pluto TV Western",
-    "category": "Cinema",
-    "color": "#FF1A237E",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-62e7fb67478a5b0007e6c50c.m3u8",
     "streamType": "HLS"
   },
   {
     "id": 143,
     "name": "Pluto TV Azione Cult",
-    "category": "Cinema",
-    "color": "#FF1A237E",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-6994800c470389f33df8e090.m3u8",
     "streamType": "HLS"
   },
   {
     "id": 144,
     "name": "Pluto TV Anime",
-    "category": "Cinema",
-    "color": "#FF1A237E",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-65b90daed77d450008a43345.m3u8",
     "streamType": "HLS"
   },
   {
     "id": 145,
     "name": "Pluto TV Totò",
-    "category": "Cinema",
-    "color": "#FF1A237E",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-65253f9881f942000833ccd5.m3u8",
     "streamType": "HLS"
   },
   {
     "id": 146,
     "name": "Pluto TV Alberto Sordi",
-    "category": "Cinema",
-    "color": "#FF1A237E",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-661f8f01801af800083d9d81.m3u8",
     "streamType": "HLS"
   },
   {
     "id": 147,
     "name": "Pluto TV Dive Italiane",
-    "category": "Cinema",
-    "color": "#FF1A237E",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-6875080e3484d607323641f8.m3u8",
     "streamType": "HLS"
   },
   {
     "id": 148,
     "name": "Pluto TV Serie",
-    "category": "Cinema",
-    "color": "#FF1A237E",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-60b9ff2722bfa400072676ef.m3u8",
     "streamType": "HLS"
   },
   {
     "id": 149,
     "name": "Pluto TV Serie Crime",
-    "category": "Cinema",
-    "color": "#FF1A237E",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-608aa777b907770007e5d05d.m3u8",
     "streamType": "HLS"
   },
   {
     "id": 150,
     "name": "Pluto TV Serie Sci-Fi",
-    "category": "Cinema",
-    "color": "#FF1A237E",
+    "category": "Pluto TV",
+    "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-67ed14aaf7c5d70b9089c3bf.m3u8",
     "streamType": "HLS"
   }
