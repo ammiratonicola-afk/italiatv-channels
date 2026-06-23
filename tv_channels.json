@@ -1,0 +1,974 @@
+[
+  {
+    "id": 1,
+    "name": "RAI 1",
+    "category": "RAI",
+    "color": "#FF003399",
+    "streamUrl": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?output=7&forceUserAgent=raiplayappletv&cont=2606803",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-1-it.png"
+  },
+  {
+    "id": 2,
+    "name": "RAI 2",
+    "category": "RAI",
+    "color": "#FF003399",
+    "streamUrl": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?output=7&forceUserAgent=raiplayappletv&cont=308718",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-2-it.png"
+  },
+  {
+    "id": 3,
+    "name": "RAI 3",
+    "category": "RAI",
+    "color": "#FF003399",
+    "streamUrl": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?output=7&forceUserAgent=raiplayappletv&cont=308709",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-3-it.png"
+  },
+  {
+    "id": 4,
+    "name": "RAI 4",
+    "category": "RAI",
+    "color": "#FF003399",
+    "streamUrl": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?output=7&forceUserAgent=raiplayappletv&cont=746966",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-4-it.png"
+  },
+  {
+    "id": 5,
+    "name": "RAI 5",
+    "category": "RAI",
+    "color": "#FF003399",
+    "streamUrl": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?output=7&forceUserAgent=raiplayappletv&cont=395276",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-5-it.png"
+  },
+  {
+    "id": 6,
+    "name": "RAI Movie",
+    "category": "RAI",
+    "color": "#FF003399",
+    "streamUrl": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?output=7&forceUserAgent=raiplayappletv&cont=747002",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-movie-it.png"
+  },
+  {
+    "id": 7,
+    "name": "RAI News 24",
+    "category": "RAI",
+    "color": "#FF003399",
+    "streamUrl": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?output=7&forceUserAgent=raiplayappletv&cont=1",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-news-24-it.png"
+  },
+  {
+    "id": 8,
+    "name": "RAI Sport",
+    "category": "RAI",
+    "color": "#FF003399",
+    "streamUrl": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?output=7&forceUserAgent=raiplayappletv&cont=358025",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-sport-it.png"
+  },
+  {
+    "id": 9,
+    "name": "RAI Gulp",
+    "category": "RAI",
+    "color": "#FF003399",
+    "streamUrl": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?output=7&forceUserAgent=raiplayappletv&cont=746953",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-gulp-it.png"
+  },
+  {
+    "id": 10,
+    "name": "RAI Yoyo",
+    "category": "RAI",
+    "color": "#FF003399",
+    "streamUrl": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?output=7&forceUserAgent=raiplayappletv&cont=746899",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-yoyo-it.png"
+  },
+  {
+    "id": 27,
+    "name": "RAI Premium",
+    "category": "RAI",
+    "color": "#FF003399",
+    "streamUrl": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?output=7&forceUserAgent=raiplayappletv&cont=746992",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-premium-it.png"
+  },
+  {
+    "id": 28,
+    "name": "RAI Storia",
+    "category": "RAI",
+    "color": "#FF003399",
+    "streamUrl": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?output=7&forceUserAgent=raiplayappletv&cont=746990",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-storia-it.png"
+  },
+  {
+    "id": 29,
+    "name": "RAI Scuola",
+    "category": "RAI",
+    "color": "#FF003399",
+    "streamUrl": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?output=7&forceUserAgent=raiplayappletv&cont=747011",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-scuola-it.png"
+  },
+  {
+    "id": 110,
+    "name": "RAI 4K",
+    "category": "RAI",
+    "color": "#FF003399",
+    "streamUrl": "https://raievent10-elem-live.akamaized.net/hls/live/619189/raievent10/raievent10/playlist.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://i.imgur.com/5gkt9DD.png"
+  },
+  {
+    "id": 13,
+    "name": "Rete 4",
+    "category": "Mediaset",
+    "color": "#FFCC0000",
+    "streamUrl": "https://live02-seg.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/index.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://img-prod-api2.mediasetplay.mediaset.it/api/images/cu/v3/aHR0cHM6Ly9zdGF0aWMyLm1lZGlhc2V0cGxheS5tZWRpYXNldC5pdC9tYW0vMjAyMS8wMy8zMC8xNzE0NDY0MTktMGZiY2Q4YjAtYWE5My00M2FkLTkxMjItMTFlYWI5MThhNjkyLnBuZw/editorial_image_channel_logo/400/400",
+    "fallbackUrl": "https://live02-seg.msr.cdn.mediaset.net/live/ch-r4/r4-clr.isml/index.m3u8"
+  },
+  {
+    "id": 11,
+    "name": "Canale 5",
+    "category": "Mediaset",
+    "color": "#FFCC0000",
+    "streamUrl": "https://live02-seg.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://img-prod-api2.mediasetplay.mediaset.it/api/images/cu/v3/aHR0cHM6Ly9zdGF0aWMyLm1lZGlhc2V0cGxheS5tZWRpYXNldC5pdC9tYW0vMjAyMS8wMy8zMC8xNjU0NTkzNTgtNmFlNGJkYWQtMDhkYS00YjQyLTg2MjgtZTQ5MTU2YTBhZjdlLnBuZw/editorial_image_channel_logo/400/400",
+    "fallbackUrl": "https://live02-seg.msr.cdn.mediaset.net/live/ch-c5/c5-clr.isml/index.m3u8"
+  },
+  {
+    "id": 12,
+    "name": "Italia 1",
+    "category": "Mediaset",
+    "color": "#FFCC0000",
+    "streamUrl": "https://live02-seg.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/index.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://img-prod-api2.mediasetplay.mediaset.it/api/images/cu/v3/aHR0cHM6Ly9zdGF0aWMyLm1lZGlhc2V0cGxheS5tZWRpYXNldC5pdC9tYW0vMjAyMS8wMy8zMC8xNjUwMjI4ODctMTMzMzY2M2QtYzRjMi00MTE1LWE3ZDAtMTNjYzE2ZWVlNmM4LnBuZw/editorial_image_channel_logo/400/400",
+    "fallbackUrl": "https://live02-seg.msr.cdn.mediaset.net/live/ch-i1/i1-clr.isml/index.m3u8"
+  },
+  {
+    "id": 14,
+    "name": "Canale 20",
+    "category": "Mediaset",
+    "color": "#FFCC0000",
+    "streamUrl": "https://live02-seg.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/index.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://img-prod-api2.mediasetplay.mediaset.it/api/images/cu/v3/aHR0cHM6Ly9zdGF0aWMyLm1lZGlhc2V0cGxheS5tZWRpYXNldC5pdC9tYW0vMjAyMi8wNS8wOS8xNDEzMzg4ODMtOGNjNGVmY2ItODU4ZC00NWIyLWFjNjYtMTE3NTgzNDZkNzQ1LnBuZw/editorial_image_channel_logo/400/400",
+    "fallbackUrl": "https://live02-seg.msr.cdn.mediaset.net/live/ch-lb/lb-clr.isml/index.m3u8"
+  },
+  {
+    "id": 15,
+    "name": "Iris",
+    "category": "Mediaset",
+    "color": "#FFCC0000",
+    "streamUrl": "https://live02-seg.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/index.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://img-prod-api2.mediasetplay.mediaset.it/api/images/cu/v3/aHR0cHM6Ly9zdGF0aWMyLm1lZGlhc2V0cGxheS5tZWRpYXNldC5pdC9tYW0vMjAyMS8wMy8zMC8xNzIwMTMwODAtNmZhMmYyN2EtMmExZi00M2U5LTg2ZDAtZWJlMjRlMDkzZmZlLnBuZw/editorial_image_channel_logo/400/400",
+    "fallbackUrl": "https://live02-seg.msr.cdn.mediaset.net/live/ch-ki/ki-clr.isml/index.m3u8"
+  },
+  {
+    "id": 16,
+    "name": "La5",
+    "category": "Mediaset",
+    "color": "#FFCC0000",
+    "streamUrl": "https://live02-seg.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/index.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://img-prod-api2.mediasetplay.mediaset.it/api/images/cu/v3/aHR0cHM6Ly9zdGF0aWMyLm1lZGlhc2V0cGxheS5tZWRpYXNldC5pdC9tYW0vMjAyMS8wMy8zMC8xNzA2MjYyODItZDhmZWYxNTktNWVkYy00OWNiLWE0NjMtMTQ4OWQ0NGQ2NjM5LnBuZw/editorial_image_channel_logo/400/400",
+    "fallbackUrl": "https://live02-seg.msr.cdn.mediaset.net/live/ch-ka/ka-clr.isml/index.m3u8"
+  },
+  {
+    "id": 17,
+    "name": "Mediaset Extra",
+    "category": "Mediaset",
+    "color": "#FFCC0000",
+    "streamUrl": "https://live02-seg.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/index.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://img-prod-api2.mediasetplay.mediaset.it/api/images/cu/v3/aHR0cHM6Ly9zdGF0aWMyLm1lZGlhc2V0cGxheS5tZWRpYXNldC5pdC9tYW0vMjAyMS8wMy8zMC8xNzExNTI0NTUtY2Q5NGViYzEtNmZmNi00NjhiLTk4N2ItODdmNmIzZTQxMzI1LnBuZw/editorial_image_channel_logo/400/400",
+    "fallbackUrl": "https://live02-seg.msr.cdn.mediaset.net/live/ch-kq/kq-clr.isml/index.m3u8"
+  },
+  {
+    "id": 18,
+    "name": "TGCom24",
+    "category": "Mediaset",
+    "color": "#FFCC0000",
+    "streamUrl": "https://live02-seg.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/index.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://img-prod-api2.mediasetplay.mediaset.it/api/images/cu/v3/aHR0cHM6Ly9zdGF0aWMyLm1lZGlhc2V0cGxheS5tZWRpYXNldC5pdC9tYW0vMjAyMS8wMy8zMC8xNzI3MTgwNTUtMWFjZTRhMzItMmRlZC00NWJkLWI1NDUtYTAyNjkxZGI1MGU4LnBuZw/editorial_image_channel_logo/400/400",
+    "fallbackUrl": "https://live02-seg.msr.cdn.mediaset.net/live/ch-kf/kf-clr.isml/index.m3u8"
+  },
+  {
+    "id": 30,
+    "name": "Italia 2",
+    "category": "Mediaset",
+    "color": "#FFCC0000",
+    "streamUrl": "https://live02-seg.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/index.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://img-prod-api2.mediasetplay.mediaset.it/api/images/cu/v3/aHR0cHM6Ly9zdGF0aWMyLm1lZGlhc2V0cGxheS5tZWRpYXNldC5pdC9tYW0vMjAyMS8wMy8zMC8xNzA1MTk0ODgtMDJkNTBkNjUtY2M1Zi00MzJlLWFjZjUtODMyODhjM2E5M2FlLnBuZw/editorial_image_channel_logo/400/400",
+    "fallbackUrl": "https://live02-seg.msr.cdn.mediaset.net/live/ch-i2/i2-clr.isml/index.m3u8"
+  },
+  {
+    "id": 31,
+    "name": "Boing",
+    "category": "Mediaset",
+    "color": "#FFCC0000",
+    "streamUrl": "https://live02-seg.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/index.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://img-prod-api2.mediasetplay.mediaset.it/api/images/cu/v3/aHR0cHM6Ly9zdGF0aWMyLm1lZGlhc2V0cGxheS5tZWRpYXNldC5pdC9tYW0vMjAyMS8wMy8zMC8xNzIyMTg3OTItYWY1Y2VzYTItMDI1My00MTVlLTgzMGQtNGMzMjg2MzI4ZmYyLnBuZw/editorial_image_channel_logo/400/400",
+    "fallbackUrl": "https://live02-seg.msr.cdn.mediaset.net/live/ch-kb/kb-clr.isml/index.m3u8"
+  },
+  {
+    "id": 32,
+    "name": "Cartoonito",
+    "category": "Mediaset",
+    "color": "#FFCC0000",
+    "streamUrl": "https://live02-seg.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/index.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://img-prod-api2.mediasetplay.mediaset.it/api/images/cu/v3/aHR0cHM6Ly9zdGF0aWMyLm1lZGlhc2V0cGxheS5tZWRpYXNldC5pdC9tYW0vMjAyMi8wNi8xNS8xMzExNDc2NTUtZWFlNjEyNjAtZTUyMy00NmZiLWJhNTEtYmIwMjc3ZTNiMDZiLnBuZw/editorial_image_channel_logo/400/400",
+    "fallbackUrl": "https://live02-seg.msr.cdn.mediaset.net/live/ch-la/la-clr.isml/index.m3u8"
+  },
+  {
+    "id": 111,
+    "name": "BeJoy Kids",
+    "category": "Altri",
+    "color": "#FF252545",
+    "streamUrl": "https://64b16f23efbee.streamlock.net/bejoy/bejoy/playlist.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://i.imgur.com/zuR9Go5.png"
+  },
+  {
+    "id": 58,
+    "name": "Cine34",
+    "category": "Mediaset",
+    "color": "#FFCC0000",
+    "streamUrl": "https://live02-seg.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/index.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cine34-it.png",
+    "fallbackUrl": "https://live02-seg.msr.cdn.mediaset.net/live/ch-b6/b6-clr.isml/index.m3u8"
+  },
+  {
+    "id": 59,
+    "name": "Top Crime",
+    "category": "Mediaset",
+    "color": "#FFCC0000",
+    "streamUrl": "https://live02-seg.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/index.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/top-crime-it.png",
+    "fallbackUrl": "https://live02-seg.msr.cdn.mediaset.net/live/ch-lt/lt-clr.isml/index.m3u8"
+  },
+  {
+    "id": 60,
+    "name": "27 TwentySeven",
+    "category": "Mediaset",
+    "color": "#FFCC0000",
+    "streamUrl": "https://live02-seg.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/index.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/twentyseven.png",
+    "fallbackUrl": "https://live02-seg.msr.cdn.mediaset.net/live/ch-ts/ts-clr.isml/index.m3u8"
+  },
+  {
+    "id": 61,
+    "name": "Super!",
+    "category": "Mediaset",
+    "color": "#FFCC0000",
+    "streamUrl": "https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/playlist.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/super-it.png"
+  },
+  {
+    "id": 68,
+    "name": "Focus",
+    "category": "Mediaset",
+    "color": "#FFCC0000",
+    "streamUrl": "https://live02-seg.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/index.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/focus-it.png",
+    "fallbackUrl": "https://live02-seg.msr.cdn.mediaset.net/live/ch-fu/fu-clr.isml/index.m3u8"
+  },
+  {
+    "id": 69,
+    "name": "Radio Montecarlo TV",
+    "category": "Musica",
+    "color": "#FF880E4F",
+    "streamUrl": "https://live02-seg.msr.cdn.mediaset.net/live/ch-bb/bb-clr.isml/index.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/radiomontecarlotv.png"
+  },
+  {
+    "id": 19,
+    "name": "La7",
+    "category": "LA7",
+    "color": "#FF006633",
+    "streamUrl": "https://d1chghleocc9sm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-evfku205gqrtf/Live.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la7-it.png"
+  },
+  {
+    "id": 20,
+    "name": "La7 Cinema",
+    "category": "LA7",
+    "color": "#FF006633",
+    "streamUrl": "https://d15umi5iaezxgx.cloudfront.net/LA7D/DRM/DASH/Live.mpd",
+    "streamType": "HLS",
+    "logoUrl": "https://i.imgur.com/khPweok.png",
+    "drmLicenseUrl": "https://la7.prod.conax.cloud/widevine/license"
+  },
+  {
+    "id": 33,
+    "name": "SuperTennis",
+    "category": "Sport",
+    "color": "#FF00695C",
+    "streamUrl": "https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/super-tennis-it.png"
+  },
+  {
+    "id": 34,
+    "name": "SportItalia",
+    "category": "Sport",
+    "color": "#FF00695C",
+    "streamUrl": "https://distribution.sportitalialive.it/sportitalia/sihd_abr/playlist.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://sportitalia.s3.eu-west-par.io.cloud.ovh.net/wp-content/uploads/2024/02/logo-sportitalia.png"
+  },
+  {
+    "id": 49,
+    "name": "Sportitalia SoloCalcio",
+    "category": "Sport",
+    "color": "#FF00695C",
+    "streamUrl": "https://distribution.sportitalialive.it/sportitalia/sisolocalcio_abr/playlist.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://sportitalia.s3.eu-west-par.io.cloud.ovh.net/wp-content/uploads/2024/02/logo-sportitalia.png"
+  },
+  {
+    "id": 50,
+    "name": "ACI Sport TV",
+    "category": "Sport",
+    "color": "#FF00695C",
+    "streamUrl": "https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/aci-sport-tv-it.png"
+  },
+  {
+    "id": 24,
+    "name": "BBC Earth",
+    "category": "Discovery",
+    "color": "#FF4A148C",
+    "streamUrl": "https://amg00793-amg00793c23-samsung-it-4780.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcearthitaly-samsungit/playlist.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3200002L5_20260505T035958SQUARE.png"
+  },
+  {
+    "id": 25,
+    "name": "Hell's Kitchen",
+    "category": "Discovery",
+    "color": "#FF4A148C",
+    "streamUrl": "https://amg00654-itv-amg00654c29-samsung-it-5491.playouts.now.amagi.tv/playlist/amg00654-itvstudiosfast-hellskitchenitaly-samsungit/playlist.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3900003FE_20250211T014001SQUARE.png"
+  },
+  {
+    "id": 35,
+    "name": "BBC Series",
+    "category": "Discovery",
+    "color": "#FF4A148C",
+    "streamUrl": "https://amg00793-amg00793c29-samsung-it-4958.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcdramaitalysamsungit-samsungit/playlist.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2900001B5_20250916T003606SQUARE.png"
+  },
+  {
+    "id": 36,
+    "name": "Top Gear",
+    "category": "Discovery",
+    "color": "#FF4A148C",
+    "streamUrl": "https://amg00793-amg00793c12-samsung-it-4051.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-topgearitalysamsungit-samsungit/playlist.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2400001AE_20241022T043908SQUARE.png"
+  },
+  {
+    "id": 37,
+    "name": "Motor1",
+    "category": "Discovery",
+    "color": "#FF4A148C",
+    "streamUrl": "https://amg00614-amg00614c1-amgplt0007.playout.now3.amagi.tv/playlist/amg00614-amg00614c1-amgplt0007/playlist.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3000282Q_20260407T040326SQUARE.png"
+  },
+  {
+    "id": 38,
+    "name": "True Crime",
+    "category": "Discovery",
+    "color": "#FF4A148C",
+    "streamUrl": "https://5951fa57b1f9493fb4c5ba84566340cc.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung-it_SeriallyCrime/playlist.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD1000006RD_20250624T021752SQUARE.png"
+  },
+  {
+    "id": 48,
+    "name": "Masha e Orso",
+    "category": "Discovery",
+    "color": "#FF4A148C",
+    "streamUrl": "https://amg01954-amg01954c4-samsung-it-10210.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01954-animaccordltd-mashaeorso-samsungit/playlist.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3800010K1_20260120T044614SQUARE.png"
+  },
+  {
+    "id": 54,
+    "name": "DMAX",
+    "category": "Discovery",
+    "color": "#FF4A148C",
+    "streamUrl": "https://www.dmax.it/live-streaming-dmax",
+    "streamType": "WEB",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/dmax.png"
+  },
+  {
+    "id": 55,
+    "name": "NOVE",
+    "category": "Discovery",
+    "color": "#FF4A148C",
+    "streamUrl": "https://www.nove.tv/live-streaming-nove",
+    "streamType": "WEB",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/nove-it.png"
+  },
+  {
+    "id": 56,
+    "name": "Real Time",
+    "category": "Discovery",
+    "color": "#FF4A148C",
+    "streamUrl": "https://www.realtime.it/live-streaming-real-time",
+    "streamType": "WEB",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/real-time-it.png"
+  },
+  {
+    "id": 57,
+    "name": "Giallo",
+    "category": "Discovery",
+    "color": "#FF4A148C",
+    "streamUrl": "https://www.giallotv.it/live-streaming-giallo",
+    "streamType": "WEB",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/giallo-it.png"
+  },
+  {
+    "id": 70,
+    "name": "K2",
+    "category": "Discovery",
+    "color": "#FF4A148C",
+    "streamUrl": "https://www.discoveryplus.com/it/channel/k2",
+    "streamType": "WEB",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/k2-it.png"
+  },
+  {
+    "id": 71,
+    "name": "Frisbee",
+    "category": "Discovery",
+    "color": "#FF4A148C",
+    "streamUrl": "https://www.frisbee.it/live-streaming-frisbee",
+    "streamType": "WEB",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/frisbee-it.png"
+  },
+  {
+    "id": 73,
+    "name": "Food Network",
+    "category": "Discovery",
+    "color": "#FF4A148C",
+    "streamUrl": "https://www.foodnetwork.it/live-streaming-food-network",
+    "streamType": "WEB",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/foodnetwork.png"
+  },
+  {
+    "id": 74,
+    "name": "Discovery Channel",
+    "category": "Discovery",
+    "color": "#FF4A148C",
+    "streamUrl": "https://www.discoveryplus.com/it/channel/discovery-channel",
+    "streamType": "WEB",
+    "logoUrl": "https://i.imgur.com/5IxIFJ0.png"
+  },
+  {
+    "id": 75,
+    "name": "HGTV",
+    "category": "Discovery",
+    "color": "#FF4A148C",
+    "streamUrl": "https://www.discoveryplus.com/it/channel/hgtv",
+    "streamType": "WEB",
+    "logoUrl": "https://i.imgur.com/emLNC0U.png"
+  },
+  {
+    "id": 101,
+    "name": "Discovery Turbo",
+    "category": "Discovery",
+    "color": "#FF4A148C",
+    "streamUrl": "https://www.discoveryplus.com/it/channel/motor-trend",
+    "streamType": "WEB",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/motor-trend-it.png"
+  },
+  {
+    "id": 39,
+    "name": "Radio Italia TV",
+    "category": "Musica",
+    "color": "#FF880E4F",
+    "streamUrl": "https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/radio-italia-it.png"
+  },
+  {
+    "id": 40,
+    "name": "Deejay TV",
+    "category": "Musica",
+    "color": "#FF880E4F",
+    "streamUrl": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/deejay-tv-it.png"
+  },
+  {
+    "id": 41,
+    "name": "Radio 105 TV",
+    "category": "Musica",
+    "color": "#FF880E4F",
+    "streamUrl": "https://live02-seg.msr.cdn.mediaset.net/live/ch-ec/ec-clr.isml/index.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://static2.mediasetplay.mediaset.it/mam/2021/03/30/172940883-5a20c129-c0c3-468d-a054-0fe52a97defe.png"
+  },
+  {
+    "id": 42,
+    "name": "Virgin Radio TV",
+    "category": "Musica",
+    "color": "#FF880E4F",
+    "streamUrl": "https://live02-seg.msr.cdn.mediaset.net/live/ch-ew/ew-clr.isml/index.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://www.virginradio.it/wp-content/uploads/2025/03/cropped-logo_colored.png"
+  },
+  {
+    "id": 43,
+    "name": "RTL 102.5",
+    "category": "Musica",
+    "color": "#FF880E4F",
+    "streamUrl": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_video.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rtl-1025-it.png"
+  },
+  {
+    "id": 44,
+    "name": "R101 TV",
+    "category": "Musica",
+    "color": "#FF880E4F",
+    "streamUrl": "https://live02-seg.msr.cdn.mediaset.net/live/ch-er/er-clr.isml/index.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/r101-tv-it.png"
+  },
+  {
+    "id": 51,
+    "name": "m2o TV",
+    "category": "Musica",
+    "color": "#FF880E4F",
+    "streamUrl": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/playlist.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/radiom2otv.png"
+  },
+  {
+    "id": 52,
+    "name": "Kiss Kiss TV",
+    "category": "Musica",
+    "color": "#FF880E4F",
+    "streamUrl": "https://58f12ffd2447a.streamlock.net/KKMulti/livestream/playlist.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/radio-kiss-kiss-tv-it.png"
+  },
+  {
+    "id": 64,
+    "name": "Radio Freccia TV",
+    "category": "Musica",
+    "color": "#FF880E4F",
+    "streamUrl": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/playlist_video.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/radiofrecciatv.png"
+  },
+  {
+    "id": 65,
+    "name": "Radio Zeta TV",
+    "category": "Musica",
+    "color": "#FF880E4F",
+    "streamUrl": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/playlist_video.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/radiozetatv.png"
+  },
+  {
+    "id": 66,
+    "name": "Radio Capital TV",
+    "category": "Musica",
+    "color": "#FF880E4F",
+    "streamUrl": "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S35394734/Z6U2wGoDYANk/playlist.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/radiocapitaltv.png"
+  },
+  {
+    "id": 67,
+    "name": "RDS Social TV",
+    "category": "Musica",
+    "color": "#FF880E4F",
+    "streamUrl": "https://stream.rdstv.radio/out/v1/ec85f72b87f04555aa41d616d5be41dc/index.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rds-it.png"
+  },
+  {
+    "id": 21,
+    "name": "TV8",
+    "category": "Altri",
+    "color": "#FF252545",
+    "streamUrl": "https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/tv8-it.png"
+  },
+  {
+    "id": 23,
+    "name": "Sky TG24",
+    "category": "Altri",
+    "color": "#FF252545",
+    "streamUrl": "https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-tg24-it.png"
+  },
+  {
+    "id": 26,
+    "name": "Cielo TV",
+    "category": "Altri",
+    "color": "#FF252545",
+    "streamUrl": "https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11219/cieloweb/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/cielo-it.png"
+  },
+  {
+    "id": 45,
+    "name": "TV2000",
+    "category": "Altri",
+    "color": "#FF252545",
+    "streamUrl": "https://hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/tv2000.png"
+  },
+  {
+    "id": 53,
+    "name": "QVC Italia",
+    "category": "Altri",
+    "color": "#FF252545",
+    "streamUrl": "https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://cdn.jsdelivr.net/gh/Tundrak/IPTV-Italia/logos/qvc.png"
+  },
+  {
+    "id": 63,
+    "name": "Class CNBC",
+    "category": "Altri",
+    "color": "#FF252545",
+    "streamUrl": "https://amg14891-amg14891c5-amgplt0020.playout.now3.amagi.tv/playlist.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/class-cnbc-it.png"
+  },
+  {
+    "id": 78,
+    "name": "Il Sole 24 Ore TV",
+    "category": "Altri",
+    "color": "#FF252545",
+    "streamUrl": "https://ilsole24ore-radiovisual.akamaized.net/hls/live/2035302/persidera/master.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 79,
+    "name": "Senato TV",
+    "category": "Altri",
+    "color": "#FF252545",
+    "streamUrl": "https://senato-live.morescreens.com/SENATO_1_001/playlist.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 80,
+    "name": "Camera dei Deputati",
+    "category": "Altri",
+    "color": "#FF252545",
+    "streamUrl": "https://video-ar.radioradicale.it/diretta/camera2/playlist.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/camera-dei-deputati-it.png"
+  },
+  {
+    "id": 102,
+    "name": "Telenorba",
+    "category": "Regionali",
+    "color": "#FF1565C0",
+    "streamUrl": "https://live-telenorba.cdn.netrw.it/telenorba/hls/ccr/telenorba/master.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://www.sportnetwork.it/wp-content/uploads/2021/11/telenorba-big.png"
+  },
+  {
+    "id": 103,
+    "name": "TG Norba 24",
+    "category": "Regionali",
+    "color": "#FF1565C0",
+    "streamUrl": "https://live-telenorba.cdn.netrw.it/telenorba/hls/ccr/tgnorba/master.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/tg-norba-24-it.png"
+  },
+  {
+    "id": 104,
+    "name": "Radio Norba TV",
+    "category": "Regionali",
+    "color": "#FF1565C0",
+    "streamUrl": "https://stream12.xdevel.com/video0s975885-2349/stream/playlist_dvr.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/radio-norba-tv-it.png"
+  },
+  {
+    "id": 105,
+    "name": "Antenna Sud",
+    "category": "Regionali",
+    "color": "#FF1565C0",
+    "streamUrl": "https://live-antennasud.cdn.netrw.it/antennasud/hls/ccr/antennasud/master.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://i.imgur.com/b8y6ImZ.png"
+  },
+  {
+    "id": 106,
+    "name": "TeleRama",
+    "category": "Regionali",
+    "color": "#FF1565C0",
+    "streamUrl": "https://58d921499d3d3.streamlock.net/TeleRama/livestream/playlist.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://www.tvdream.net/img/telerama-cover.jpg"
+  },
+  {
+    "id": 107,
+    "name": "TeleRegione",
+    "category": "Regionali",
+    "color": "#FF1565C0",
+    "streamUrl": "https://streaming.softwarecreation.it/TR118/TR118/playlist.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://www.teleregionecolor.com/wp-content/uploads/2019/09/TELEREGIONE_LOGO.png"
+  },
+  {
+    "id": 108,
+    "name": "Canale 7",
+    "category": "Regionali",
+    "color": "#FF1565C0",
+    "streamUrl": "http://wms.shared.streamshow.it/canale7/canale7/playlist.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Canale_7.png"
+  },
+  {
+    "id": 109,
+    "name": "Padre Pio TV",
+    "category": "Regionali",
+    "color": "#FF1565C0",
+    "streamUrl": "https://600f07e114306.streamlock.net/PadrePioTV/livestream/playlist.m3u8",
+    "streamType": "HLS",
+    "logoUrl": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/padre-pio-tv-it.png"
+  },
+  {
+    "id": 81,
+    "name": "Mayday: Disastro Aereo",
+    "category": "Discovery",
+    "color": "#FF4A148C",
+    "streamUrl": "https://pluto.tv/live-tv/mayday-disastro-aereo-it",
+    "streamType": "WEB",
+    "logoUrl": "https://images.pluto.tv/channels/690cb9140d121b44ad925ac9/colorLogoPNG_1762957819953.png"
+  },
+  {
+    "id": 82,
+    "name": "Wicked Tuna",
+    "category": "Discovery",
+    "color": "#FF4A148C",
+    "streamUrl": "https://pluto.tv/live-tv/wicked-tuna-it",
+    "streamType": "WEB",
+    "logoUrl": "https://images.pluto.tv/channels/67c832cc9b53325ee16fb899/colorLogoPNG.png"
+  },
+  {
+    "id": 83,
+    "name": "Space Live",
+    "category": "Discovery",
+    "color": "#FF4A148C",
+    "streamUrl": "https://pluto.tv/live-tv/space-live-ptv1",
+    "streamType": "WEB",
+    "logoUrl": "https://images.pluto.tv/channels/69b1489b5828e7c242d83064/colorLogoPNG_1775118441487.png"
+  },
+  {
+    "id": 84,
+    "name": "Naturescape",
+    "category": "Discovery",
+    "color": "#FF4A148C",
+    "streamUrl": "https://pluto.tv/live-tv/naturescape-it",
+    "streamType": "WEB",
+    "logoUrl": "https://images.pluto.tv/channels/610a9ebe8c2ac2000734776e/colorLogoPNG.png"
+  },
+  {
+    "id": 85,
+    "name": "Pluto TV Documentari",
+    "category": "Discovery",
+    "color": "#FF4A148C",
+    "streamUrl": "https://pluto.tv/live-tv/pluto-tv-documentari-it",
+    "streamType": "WEB",
+    "logoUrl": "https://images.pluto.tv/channels/608aa8a5709d6b0007b132fe/colorLogoPNG.png"
+  },
+  {
+    "id": 86,
+    "name": "Pluto TV Natura",
+    "category": "Discovery",
+    "color": "#FF4A148C",
+    "streamUrl": "https://pluto.tv/live-tv/pluto-tv-natura-it",
+    "streamType": "WEB",
+    "logoUrl": "https://images.pluto.tv/channels/60802b37709d6b0007b0c549/colorLogoPNG_1773147389391.png"
+  },
+  {
+    "id": 87,
+    "name": "Pluto TV Storia",
+    "category": "Discovery",
+    "color": "#FF4A148C",
+    "streamUrl": "https://pluto.tv/live-tv/pluto-tv-storia-it",
+    "streamType": "WEB",
+    "logoUrl": "https://images.pluto.tv/channels/65253fdf3fd33c00080214a3/colorLogoPNG_1773147329671.png"
+  },
+  {
+    "id": 88,
+    "name": "Inter 24/7",
+    "category": "Sport",
+    "color": "#FF00695C",
+    "streamUrl": "https://pluto.tv/live-tv/inter-247-it",
+    "streamType": "WEB",
+    "logoUrl": "https://images.pluto.tv/channels/691c5bef3a369d8f40192e71/colorLogoPNG_1775046814007.png"
+  },
+  {
+    "id": 89,
+    "name": "FIFA+",
+    "category": "Sport",
+    "color": "#FF00695C",
+    "streamUrl": "https://pluto.tv/live-tv/fifa-it",
+    "streamType": "WEB",
+    "logoUrl": "https://images.pluto.tv/channels/660bfc4424e1d000085b5f93/colorLogoPNG_1750064819565.png"
+  },
+  {
+    "id": 90,
+    "name": "Rally TV",
+    "category": "Sport",
+    "color": "#FF00695C",
+    "streamUrl": "https://pluto.tv/live-tv/rally-tv",
+    "streamType": "WEB",
+    "logoUrl": "https://images.pluto.tv/channels/696e0fe49ba4ac18057433ac/colorLogoPNG_1770893941495.png"
+  },
+  {
+    "id": 91,
+    "name": "Automoto",
+    "category": "Sport",
+    "color": "#FF00695C",
+    "streamUrl": "https://pluto.tv/live-tv/automoto",
+    "streamType": "WEB",
+    "logoUrl": "https://images.pluto.tv/channels/6971fc6dca441014e4600f2c/colorLogoPNG_1773155503349.png"
+  },
+  {
+    "id": 92,
+    "name": "Pluto TV Film",
+    "category": "Cinema",
+    "color": "#FF1A237E",
+    "streamUrl": "https://pluto.tv/live-tv/pluto-tv-film-it",
+    "streamType": "WEB",
+    "logoUrl": "https://images.pluto.tv/channels/608aa17fb9f4490007e6419a/colorLogoPNG_1733013735186.png"
+  },
+  {
+    "id": 93,
+    "name": "Pluto TV Film Azione",
+    "category": "Cinema",
+    "color": "#FF1A237E",
+    "streamUrl": "https://pluto.tv/live-tv/pluto-tv-film-azione-it",
+    "streamType": "WEB",
+    "logoUrl": "https://images.pluto.tv/channels/608aa20a2e7f270007c4878d/colorLogoPNG.png"
+  },
+  {
+    "id": 94,
+    "name": "Pluto TV Film Commedia",
+    "category": "Cinema",
+    "color": "#FF1A237E",
+    "streamUrl": "https://pluto.tv/live-tv/pluto-tv-film-commedia-it",
+    "streamType": "WEB",
+    "logoUrl": "https://images.pluto.tv/channels/608aa512d67fd900072323db/colorLogoPNG.png"
+  },
+  {
+    "id": 95,
+    "name": "Pluto TV Film Thriller",
+    "category": "Cinema",
+    "color": "#FF1A237E",
+    "streamUrl": "https://pluto.tv/live-tv/pluto-tv-film-thriller-it",
+    "streamType": "WEB",
+    "logoUrl": "https://images.pluto.tv/channels/608aa5e995132a00075f7005/colorLogoPNG.png"
+  },
+  {
+    "id": 96,
+    "name": "Pluto TV Cinema Italiano",
+    "category": "Cinema",
+    "color": "#FF1A237E",
+    "streamUrl": "https://pluto.tv/live-tv/pluto-tv-cinema-italiano-it",
+    "streamType": "WEB",
+    "logoUrl": "https://images.pluto.tv/channels/608aa7d8359b270007861489/colorLogoPNG.png"
+  },
+  {
+    "id": 97,
+    "name": "South Park",
+    "category": "Altri",
+    "color": "#FF252545",
+    "streamUrl": "https://pluto.tv/live-tv/south-park-it",
+    "streamType": "WEB",
+    "logoUrl": "https://images.pluto.tv/channels/62bc1f502b70e3000706298e/colorLogoPNG.png"
+  },
+  {
+    "id": 98,
+    "name": "CNN Headlines",
+    "category": "Altri",
+    "color": "#FF252545",
+    "streamUrl": "https://pluto.tv/live-tv/cnn-headlines-it",
+    "streamType": "WEB",
+    "logoUrl": "https://images.pluto.tv/channels/66c45ba803e3b20008d8c294/colorLogoPNG_1775159849441.png"
+  },
+  {
+    "id": 115,
+    "name": "CG Entertainment",
+    "category": "Cinema",
+    "color": "#FF1A237E",
+    "streamUrl": "https://cgentertainment-cgtv-1-it.samsung.wurl.tv/playlist.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 116,
+    "name": "Gold TV",
+    "category": "Altri",
+    "color": "#FF252545",
+    "streamUrl": "https://streaming.softwarecreation.it/GoldTv/GoldTv/playlist.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 117,
+    "name": "Gold TV Sat",
+    "category": "Altri",
+    "color": "#FF252545",
+    "streamUrl": "https://streaming.softwarecreation.it/GoldTvSat/GoldTvSat/playlist.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 118,
+    "name": "Donna TV",
+    "category": "Altri",
+    "color": "#FF252545",
+    "streamUrl": "https://streaming.softwarecreation.it/DonnaTv/DonnaTv/playlist.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 119,
+    "name": "ST Europe Channel",
+    "category": "Altri",
+    "color": "#FF252545",
+    "streamUrl": "https://5f22d76e220e1.streamlock.net/steuropetv/steuropetv/playlist.m3u8",
+    "streamType": "HLS"
+  }
+]
