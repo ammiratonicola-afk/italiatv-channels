@@ -669,7 +669,8 @@
     "category": "Altri",
     "color": "#FF252545",
     "streamUrl": "https://ilsole24ore-radiovisual.akamaized.net/hls/live/2035302/persidera/master.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://i.imgur.com/NTqrdWW.png"
   },
   {
     "id": 79,
@@ -677,7 +678,8 @@
     "category": "Altri",
     "color": "#FF252545",
     "streamUrl": "https://senato-live.morescreens.com/SENATO_1_001/playlist.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://i.imgur.com/FoQoNZW.png"
   },
   {
     "id": 80,
@@ -928,7 +930,8 @@
     "category": "Altri",
     "color": "#FF252545",
     "streamUrl": "https://cgentertainment-cgtv-1-it.samsung.wurl.tv/playlist.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://i.imgur.com/XeWzy7e.png"
   },
   {
     "id": 116,
@@ -936,7 +939,8 @@
     "category": "Altri",
     "color": "#FF252545",
     "streamUrl": "https://streaming.softwarecreation.it/GoldTv/GoldTv/playlist.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://i.imgur.com/3rVi4kD.png"
   },
   {
     "id": 117,
@@ -944,7 +948,8 @@
     "category": "Altri",
     "color": "#FF252545",
     "streamUrl": "https://streaming.softwarecreation.it/GoldTvSat/GoldTvSat/playlist.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://i.imgur.com/3rVi4kD.png"
   },
   {
     "id": 118,
@@ -952,7 +957,8 @@
     "category": "Altri",
     "color": "#FF252545",
     "streamUrl": "https://streaming.softwarecreation.it/DonnaTv/DonnaTv/playlist.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://i.imgur.com/Aa1Abme.png"
   },
   {
     "id": 119,
@@ -960,7 +966,8 @@
     "category": "Altri",
     "color": "#FF252545",
     "streamUrl": "https://5f22d76e220e1.streamlock.net/steuropetv/steuropetv/playlist.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://i.imgur.com/QpPgSfr.png"
   },
   {
     "id": 120,
@@ -968,7 +975,8 @@
     "category": "Altri",
     "color": "#FF252545",
     "streamUrl": "https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/smil:ch-01.smil/chunklist.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://i.imgur.com/ZJSWusT.png"
   },
   {
     "id": 123,
@@ -976,7 +984,8 @@
     "category": "Altri",
     "color": "#FF252545",
     "streamUrl": "https://5f204aff97bee.streamlock.net/GR_tv/livestream/playlist.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://i.imgur.com/TMtvCLL.jpg"
   },
   {
     "id": 124,
@@ -984,7 +993,8 @@
     "category": "Altri",
     "color": "#FF252545",
     "streamUrl": "https://router.xdevel.com/video0s975363-69/stream/playlist.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://i.imgur.com/9F1sVjZ.png"
   },
   {
     "id": 125,
@@ -992,7 +1002,8 @@
     "category": "Altri",
     "color": "#FF252545",
     "streamUrl": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/playlist.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://i.imgur.com/02vCECa.png"
   },
   {
     "id": 122,
@@ -1000,7 +1011,8 @@
     "category": "Regionali",
     "color": "#FF1565C0",
     "streamUrl": "https://64b16f23efbee.streamlock.net/telenova/telenova/playlist.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://i.imgur.com/x41IkJK.png"
   },
   {
     "id": 121,
@@ -1008,7 +1020,8 @@
     "category": "Altri",
     "color": "#FF252545",
     "streamUrl": "https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/smil:ch-02.smil/master.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://i.imgur.com/PGm944g.png"
   },
   {
     "id": 126,
@@ -1016,7 +1029,8 @@
     "category": "Pluto TV",
     "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-608030eff4b6f70007e1684c.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://images.pluto.tv/channels/608030eff4b6f70007e1684c/colorLogoPNG.png"
   },
   {
     "id": 127,
@@ -1024,7 +1038,8 @@
     "category": "Pluto TV",
     "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-6786235bd648bf0008c2780a.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://images.pluto.tv/channels/6786235bd648bf0008c2780a/colorLogoPNG.png"
   },
   {
     "id": 128,
@@ -1032,7 +1047,8 @@
     "category": "Rakuten",
     "color": "#FFBF0000",
     "streamUrl": "https://d4a4999341764c67a67e9ec9eb3790ab.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5984/master.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://i.imgur.com/Meew6eX.png"
   },
   {
     "id": 129,
@@ -1040,7 +1056,8 @@
     "category": "Rakuten",
     "color": "#FFBF0000",
     "streamUrl": "https://87f2e2e5e7624e3bad85da1ca2ed31a7.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6067/master.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://i.imgur.com/Meew6eX.png"
   },
   {
     "id": 130,
@@ -1048,7 +1065,8 @@
     "category": "Rakuten",
     "color": "#FFBF0000",
     "streamUrl": "https://b8bc6c4b9be64bd6aeb3b92aa8521ed4.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6184/master.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://i.imgur.com/Meew6eX.png"
   },
   {
     "id": 131,
@@ -1056,7 +1074,8 @@
     "category": "Rakuten",
     "color": "#FFBF0000",
     "streamUrl": "https://f84e0b1628464fab846160df957f269e.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6094/master.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://i.imgur.com/Meew6eX.png"
   },
   {
     "id": 132,
@@ -1064,7 +1083,8 @@
     "category": "Rakuten",
     "color": "#FFBF0000",
     "streamUrl": "https://3315fc3e7276420f895e19cf807dbee1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6215/master.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://i.imgur.com/Meew6eX.png"
   },
   {
     "id": 133,
@@ -1072,7 +1092,8 @@
     "category": "Pluto TV",
     "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-63eb573ba99571000897135b.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://images.pluto.tv/channels/63eb573ba99571000897135b/colorLogoPNG.png"
   },
   {
     "id": 134,
@@ -1080,7 +1101,8 @@
     "category": "Pluto TV",
     "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-609401db8cf51c00084b592e.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://images.pluto.tv/channels/609401db8cf51c00084b592e/colorLogoPNG.png"
   },
   {
     "id": 135,
@@ -1088,7 +1110,8 @@
     "category": "Pluto TV",
     "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-6093f9281db477000759fce0.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://images.pluto.tv/channels/6093f9281db477000759fce0/colorLogoPNG.png"
   },
   {
     "id": 136,
@@ -1096,7 +1119,8 @@
     "category": "Altri",
     "color": "#FF252545",
     "streamUrl": "https://sportsitalia-samsungitaly.amagi.tv/playlist.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://i.imgur.com/hu56Ya5.png"
   },
   {
     "id": 137,
@@ -1104,7 +1128,8 @@
     "category": "Altri",
     "color": "#FF252545",
     "streamUrl": "https://64b16f23efbee.streamlock.net/rete8sport/rete8sport/playlist.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://i.imgur.com/uUAjWlF.png"
   },
   {
     "id": 138,
@@ -1112,7 +1137,8 @@
     "category": "Pluto TV",
     "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-608aa4a4cc92820007b663af.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://images.pluto.tv/channels/608aa4a4cc92820007b663af/colorLogoPNG.png"
   },
   {
     "id": 139,
@@ -1120,7 +1146,8 @@
     "category": "Pluto TV",
     "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-68750875759366af05a151ce.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://images.pluto.tv/channels/68750875759366af05a151ce/colorLogoPNG.png"
   },
   {
     "id": 140,
@@ -1128,7 +1155,8 @@
     "category": "Pluto TV",
     "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-61c09e3ac210ed0007606620.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://images.pluto.tv/channels/61c09e3ac210ed0007606620/colorLogoPNG.png"
   },
   {
     "id": 141,
@@ -1136,7 +1164,8 @@
     "category": "Pluto TV",
     "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-61728bb9ee3773000840c1fa.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://images.pluto.tv/channels/61728bb9ee3773000840c1fa/colorLogoPNG.png"
   },
   {
     "id": 142,
@@ -1144,7 +1173,8 @@
     "category": "Pluto TV",
     "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-62e7fb67478a5b0007e6c50c.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://images.pluto.tv/channels/62e7fb67478a5b0007e6c50c/colorLogoPNG.png"
   },
   {
     "id": 143,
@@ -1152,7 +1182,8 @@
     "category": "Pluto TV",
     "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-6994800c470389f33df8e090.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://images.pluto.tv/channels/6994800c470389f33df8e090/colorLogoPNG.png"
   },
   {
     "id": 144,
@@ -1160,7 +1191,8 @@
     "category": "Pluto TV",
     "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-65b90daed77d450008a43345.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://images.pluto.tv/channels/65b90daed77d450008a43345/colorLogoPNG.png"
   },
   {
     "id": 145,
@@ -1168,7 +1200,8 @@
     "category": "Pluto TV",
     "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-65253f9881f942000833ccd5.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://images.pluto.tv/channels/65253f9881f942000833ccd5/colorLogoPNG.png"
   },
   {
     "id": 146,
@@ -1176,7 +1209,8 @@
     "category": "Pluto TV",
     "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-661f8f01801af800083d9d81.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://images.pluto.tv/channels/661f8f01801af800083d9d81/colorLogoPNG.png"
   },
   {
     "id": 147,
@@ -1184,7 +1218,8 @@
     "category": "Pluto TV",
     "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-6875080e3484d607323641f8.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://images.pluto.tv/channels/6875080e3484d607323641f8/colorLogoPNG.png"
   },
   {
     "id": 148,
@@ -1192,7 +1227,8 @@
     "category": "Pluto TV",
     "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-60b9ff2722bfa400072676ef.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://images.pluto.tv/channels/60b9ff2722bfa400072676ef/colorLogoPNG.png"
   },
   {
     "id": 149,
@@ -1200,7 +1236,8 @@
     "category": "Pluto TV",
     "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-608aa777b907770007e5d05d.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://images.pluto.tv/channels/608aa777b907770007e5d05d/colorLogoPNG.png"
   },
   {
     "id": 150,
@@ -1208,6 +1245,7 @@
     "category": "Pluto TV",
     "color": "#FF2A2A7A",
     "streamUrl": "https://jmp2.uk/plu-67ed14aaf7c5d70b9089c3bf.m3u8",
-    "streamType": "HLS"
+    "streamType": "HLS",
+    "logoUrl": "https://images.pluto.tv/channels/67ed14aaf7c5d70b9089c3bf/colorLogoPNG.png"
   }
 ]
