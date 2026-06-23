@@ -961,5 +961,109 @@
     "color": "#FF252545",
     "streamUrl": "https://5f22d76e220e1.streamlock.net/steuropetv/steuropetv/playlist.m3u8",
     "streamType": "HLS"
+  },
+  {
+    "id": 120,
+    "name": "San Marino RTV",
+    "category": "Altri",
+    "color": "#FF252545",
+    "streamUrl": "https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/smil:ch-01.smil/chunklist.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 123,
+    "name": "Giornale Radio TV",
+    "category": "Altri",
+    "color": "#FF252545",
+    "streamUrl": "https://5f204aff97bee.streamlock.net/GR_tv/livestream/playlist.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 124,
+    "name": "Cusano Italia TV",
+    "category": "Altri",
+    "color": "#FF252545",
+    "streamUrl": "https://router.xdevel.com/video0s975363-69/stream/playlist.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 125,
+    "name": "LaC News 24",
+    "category": "Altri",
+    "color": "#FF252545",
+    "streamUrl": "https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/playlist.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 122,
+    "name": "Telenova",
+    "category": "Regionali",
+    "color": "#FF1565C0",
+    "streamUrl": "https://64b16f23efbee.streamlock.net/telenova/telenova/playlist.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 121,
+    "name": "San Marino RTV Sport",
+    "category": "Sport",
+    "color": "#FF00695C",
+    "streamUrl": "https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/smil:ch-02.smil/master.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 126,
+    "name": "Pluto TV Sport",
+    "category": "Sport",
+    "color": "#FF00695C",
+    "streamUrl": "https://jmp2.uk/plu-608030eff4b6f70007e1684c.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 127,
+    "name": "Pluto TV Cinema Orientale",
+    "category": "Cinema",
+    "color": "#FF1A237E",
+    "streamUrl": "https://jmp2.uk/plu-6786235bd648bf0008c2780a.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 128,
+    "name": "Rakuten Top Movies",
+    "category": "Cinema",
+    "color": "#FF1A237E",
+    "streamUrl": "https://d4a4999341764c67a67e9ec9eb3790ab.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5984/master.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 129,
+    "name": "Rakuten Action Movies",
+    "category": "Cinema",
+    "color": "#FF1A237E",
+    "streamUrl": "https://87f2e2e5e7624e3bad85da1ca2ed31a7.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6067/master.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 130,
+    "name": "Rakuten Comedy Movies",
+    "category": "Cinema",
+    "color": "#FF1A237E",
+    "streamUrl": "https://b8bc6c4b9be64bd6aeb3b92aa8521ed4.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6184/master.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 131,
+    "name": "Rakuten Drama Movies",
+    "category": "Cinema",
+    "color": "#FF1A237E",
+    "streamUrl": "https://f84e0b1628464fab846160df957f269e.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6094/master.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 132,
+    "name": "Rakuten Family Movies",
+    "category": "Cinema",
+    "color": "#FF1A237E",
+    "streamUrl": "https://3315fc3e7276420f895e19cf807dbee1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6215/master.m3u8",
+    "streamType": "HLS"
   }
 ]
