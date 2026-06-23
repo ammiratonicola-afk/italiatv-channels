@@ -783,7 +783,7 @@ function deriveGenre(tmdbGenres){
   for(const p of GENRE_PRIORITY){ if(keys.has(p)) return p; }
   return "";
 }
-let catalogAll=null, catRawObj=null; const catDirty=new Set(); const catSel=new Set(); const catRenamed={};
+let catalogAll=null, catRawObj=null, catalogRenderSeq=0; const catDirty=new Set(); const catSel=new Set(); const catRenamed={};
 // stato per i badge (popolati dalla diagnostica YouTube): geo-bloccati e non disponibili
 const geoBlockedSet=new Set(), unavailableSet=new Set(), shortDurSet=new Set(), ageRestrictedSet=new Set(); let diagResults=null; let diagCatOpen=null;
 // Ricalcola i conteggi diagnostica: le categorie LOCALI (poster/trama/cast/lingua) si rifanno
@@ -849,7 +849,7 @@ const GOPTS=GENRE_ORDER.map(([k,l])=>`<option value="${k}">${l}</option>`).join(
 function channelOf(x){ return x.src==="man" ? "🎬 Film manuali" : (x.m.channel||"Senza canale"); }
 function sortChannels(a,b){ return a==="🎬 Film manuali"?1 : b==="🎬 Film manuali"?-1 : a.localeCompare(b); }
 async function showCatalog(){
-  if(catalogAll){ $("catalog").innerHTML=""; catalogAll=null; catRawObj=null; catDirty.clear(); catSel.clear();
+  if(catalogAll){ catalogRenderSeq++; $("catalog").innerHTML=""; catalogAll=null; catRawObj=null; catDirty.clear(); catSel.clear();
     $("catBtn").textContent="📚 Mostra tutto il catalogo"; $("catSearch").style.display="none"; $("catChannel").style.display="none";
     diagResults=null; diagCatOpen=null; $("diagBtn").textContent="🩺 Diagnostica"; geoBlockedSet.clear(); unavailableSet.clear(); ageRestrictedSet.clear();
     $("delSelBtn").style.display="none"; $("catInfo").textContent=""; $("saveCatBtn").style.display="none"; $("catHint").style.display="none"; return; }
@@ -866,12 +866,14 @@ async function showCatalog(){
       chans.map(c=>`<option value="${c}">${c} (${catalogAll.filter(x=>channelOf(x)===c).length})</option>`).join("");
     $("catBtn").textContent="✖ Nascondi catalogo"; $("catChannel").style.display="block";
     $("catSearch").style.display="block"; $("catHint").style.display="block";
-    renderCatalog();
+    $("catBtn").disabled=false;
+    await renderCatalog();
   }catch(e){ $("catInfo").textContent="Errore: "+e.message; }
   $("catBtn").disabled=false;
 }
-function renderCatalog(){
+async function renderCatalog(){
   if(!catalogAll) return;
+  const seq=++catalogRenderSeq;
   const q=($("catSearch").value||"").toLowerCase().trim();
   const chSel=$("catChannel").value||"all";
   const C=$("catalog"); C.innerHTML=""; let shown=0;
@@ -884,23 +886,40 @@ function renderCatalog(){
   // raggruppa per CANALE, poi dentro per GENERE
   const byCh={};
   items.forEach(x=>{ const c=channelOf(x); (byCh[c]=byCh[c]||[]).push(x); });
-  Object.keys(byCh).sort(sortChannels).forEach(ch=>{
+  const channels=Object.keys(byCh).sort(sortChannels);
+  $("catInfo").textContent=`Preparo ${items.length} film...`;
+  if(!items.length){ $("catInfo").textContent="0 film"; return; }
+  for(const ch of channels){
+    if(seq!==catalogRenderSeq) return;
     const chFilms=byCh[ch];
     const chsec=document.createElement("div"); chsec.className="chsec";
     chsec.innerHTML=`<h2 class="chh">${ch} <span>(${chFilms.length} film)</span></h2>`;
-    GENRE_ORDER.forEach(([key,label])=>{
+    for(const [key,label] of GENRE_ORDER){
+      if(seq!==catalogRenderSeq) return;
       const g=chFilms.filter(x=>(x.m.genre||"")===key);
-      if(!g.length) return;
+      if(!g.length) continue;
       g.sort((a,b)=>title(a.m).localeCompare(title(b.m)));
-      shown+=g.length;
       const sec=document.createElement("div"); sec.className="gsec";
       sec.innerHTML=`<h3>${label} <span>(${g.length})</span></h3>`;
       const grid=document.createElement("div"); grid.className="gcat";
-      g.forEach(x=>grid.appendChild(catCard(x)));
+      let batch=0;
+      for(const x of g){
+        if(seq!==catalogRenderSeq) return;
+        grid.appendChild(catCard(x));
+        shown++;
+        batch++;
+        if(batch>=80){
+          batch=0;
+          $("catInfo").textContent=`${shown}/${items.length} film`;
+          await new Promise(r=>setTimeout(r,0));
+        }
+      }
       sec.appendChild(grid); chsec.appendChild(sec);
-    });
+    }
     C.appendChild(chsec);
-  });
+    $("catInfo").textContent=`${shown}/${items.length} film`+(chSel!=="all"?` · ${chSel}`:"")+(q?` · "${q}"`:"");
+    await new Promise(r=>setTimeout(r,0));
+  }
   $("catInfo").textContent=`${shown} film`+(chSel!=="all"?` · ${chSel}`:"")+(q?` · "${q}"`:"");
 }
 // ── Doppioni (integrati nella Diagnostica): stesso TMDB ID o stesso video_id ──
