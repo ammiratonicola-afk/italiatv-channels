@@ -744,6 +744,11 @@ function mergeManualMovies(latestObj){
 async function save(){
   const token=$("token").value.trim();
   if(!token){ status("Inserisci prima il token GitHub.",false); return; }
+  if(catDirty.size){
+    status("Ci sono modifiche al catalogo: le salvo prima...",true);
+    const catalogOk=await saveCatalog();
+    if(!catalogOk) return;
+  }
   $("saveBtn").disabled=true; status("Salvataggio…",true);
   try{
     let ok=false, lastErr="";
@@ -1184,8 +1189,8 @@ async function translateAllPlots(){
 }
 async function saveCatalog(){
   const token=$("token").value.trim();
-  if(!token){ status("Inserisci prima il token GitHub.",false); return; }
-  if(!catRawObj || catDirty.size===0) return;
+  if(!token){ status("Inserisci prima il token GitHub.",false); return false; }
+  if(!catRawObj || catDirty.size===0) return true;
   $("saveCatBtn").disabled=true; status("Salvo il catalogo (merge con l'ultima versione)…",true);
   const CATAPI=CAT_API;
   let ok=false, applied=0, lastErr="";
@@ -1221,6 +1226,7 @@ async function saveCatalog(){
   if(ok){ catDirty.clear(); Object.keys(catRenamed).forEach(k=>delete catRenamed[k]); $("saveCatBtn").style.display="none"; status(`Catalogo salvato (${applied} film)! L'app lo aggiorna alla prossima apertura della sezione Film.`,true); }
   else status("Errore salvataggio: "+lastErr,false);
   $("saveCatBtn").disabled=false;
+  return ok;
 }
 
 // ── Gestione canali film (channels.json) ──────────────────────────────────
