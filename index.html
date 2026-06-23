@@ -318,7 +318,7 @@ const GEMINI_MODELS=[...new Set([GEMINI_MODEL,"gemini-2.5-flash","gemini-flash-l
 const YT_KEY="AIzaSyBVXkYGDCOlpxZ1U196lsmXQZCb-8Mbg18";
 // Chiave OMDb community (cerca su IMDb per titolo, ~1000/giorno).
 const OMDB_KEY="b6003d8a";
-let movies=[], results=[], selected=null;
+let movies=[], results=[], selected=null, manualBaseIds=new Set();
 
 const $=id=>document.getElementById(id);
 const ytId=s=>{ s=(s||"").trim(); const m=s.match(/(?:v=|youtu\.be\/|embed\/|shorts\/)([A-Za-z0-9_-]{11})/); return m?m[1]:(/^[A-Za-z0-9_-]{11}$/.test(s)?s:null); };
@@ -411,7 +411,9 @@ async function load(){
       if(r.ok) j=await r.json();
     }
     if(!j) j=await fetch(RAW+"?t="+Date.now(),{cache:"no-store"}).then(r=>r.json());
-    movies=j.movies||[]; render(); status("Caricati "+movies.length+" film.",true);
+    movies=j.movies||[];
+    manualBaseIds=new Set(movies.map(m=>m.video_id).filter(Boolean));
+    render(); status("Caricati "+movies.length+" film.",true);
   }catch(e){ status("Errore caricamento: "+e.message,false); }
 }
 
@@ -721,19 +723,52 @@ async function addSelected(){
 
 // ── Salvataggio su GitHub ─────────────────────────────────────────────────
 const b64=s=>btoa(Array.from(new TextEncoder().encode(s),b=>String.fromCharCode(b)).join(""));
+const fromB64=s=>new TextDecoder().decode(Uint8Array.from(atob((s||"").replace(/\s/g,"")),c=>c.charCodeAt(0)));
+function mergeManualMovies(latestObj){
+  const latest=Array.isArray(latestObj.movies)?latestObj.movies:[];
+  const local=new Map(movies.filter(m=>m.video_id).map(m=>[m.video_id,m]));
+  const merged=[], seen=new Set();
+  latest.forEach(m=>{
+    const id=m.video_id; if(!id) return;
+    if(manualBaseIds.has(id)){
+      // Presente all'apertura: se ora manca localmente, l'utente lo ha eliminato o rinominato.
+      if(local.has(id)){ merged.push(local.get(id)); seen.add(id); }
+    } else {
+      // Aggiunto da un'altra sessione dopo il nostro load: conservalo.
+      const keep=local.get(id)||m; merged.push(keep); seen.add(id);
+    }
+  });
+  movies.forEach(m=>{ const id=m.video_id; if(id && !seen.has(id)){ merged.push(m); seen.add(id); } });
+  return {...latestObj, movies:merged};
+}
 async function save(){
   const token=$("token").value.trim();
   if(!token){ status("Inserisci prima il token GitHub.",false); return; }
   $("saveBtn").disabled=true; status("Salvataggio…",true);
   try{
-    const cur=await fetch(API,{headers:{Authorization:"Bearer "+token}});
-    const sha=cur.ok?(await cur.json()).sha:undefined;
-    const body={ message:"Aggiorna film manuali ("+movies.length+")",
-      content:b64(JSON.stringify({generated_at:new Date().toISOString(),movies},null,2)) };
-    if(sha) body.sha=sha;
-    const res=await fetch(API,{method:"PUT",headers:{Authorization:"Bearer "+token,"Content-Type":"application/json"},body:JSON.stringify(body)});
-    if(res.ok){ localStorage.setItem("gh_token",token); status("✓ Salvato! Le TV si aggiornano entro 6h.",true); }
-    else { const e=await res.json(); status("Errore GitHub: "+(e.message||res.status),false); }
+    let ok=false, lastErr="";
+    for(let attempt=0; attempt<5 && !ok; attempt++){
+      const cur=await fetch(API+"?t="+Date.now(),{headers:{Authorization:"Bearer "+token},cache:"no-store"});
+      if(!cur.ok) throw new Error("lettura file: HTTP "+cur.status);
+      const remote=await cur.json();
+      const latest=remote.content ? JSON.parse(fromB64(remote.content)) : {movies:[]};
+      const merged=mergeManualMovies({...latest, generated_at:new Date().toISOString()});
+      const body={ message:"Aggiorna film manuali ("+merged.movies.length+")",
+        content:b64(JSON.stringify(merged,null,2)), sha:remote.sha };
+      const res=await fetch(API,{method:"PUT",headers:{Authorization:"Bearer "+token,"Content-Type":"application/json"},body:JSON.stringify(body)});
+      if(res.ok){
+        ok=true; movies=merged.movies; manualBaseIds=new Set(movies.map(m=>m.video_id).filter(Boolean)); render();
+      } else if(res.status===409){
+        lastErr="conflitto"; status(`Conflitto con un altro salvataggio, riprovo... (${attempt+1})`,true); await new Promise(r=>setTimeout(r,1200));
+      } else {
+        const e=await res.json().catch(()=>({})); throw new Error(e.message||("HTTP "+res.status));
+      }
+    }
+    if(!ok) throw new Error(lastErr||"salvataggio non riuscito");
+    localStorage.setItem("gh_token",token);
+    status("Salvato! L'app aggiorna il catalogo alla prossima apertura della sezione Film.",true);
+    $("saveBtn").disabled=false;
+    return;
   }catch(e){ status("Errore: "+e.message,false); }
   $("saveBtn").disabled=false;
 }
@@ -1183,7 +1218,7 @@ async function saveCatalog(){
       else { const e=await res.json().catch(()=>({})); lastErr=e.message||("HTTP "+res.status); break; }
     }
   }catch(e){ lastErr=e.message; }
-  if(ok){ catDirty.clear(); Object.keys(catRenamed).forEach(k=>delete catRenamed[k]); $("saveCatBtn").style.display="none"; status(`✓ Catalogo salvato (${applied} film)! Premi 'Aggiorna catalogo ora' in TV.`,true); }
+  if(ok){ catDirty.clear(); Object.keys(catRenamed).forEach(k=>delete catRenamed[k]); $("saveCatBtn").style.display="none"; status(`Catalogo salvato (${applied} film)! L'app lo aggiorna alla prossima apertura della sezione Film.`,true); }
   else status("Errore salvataggio: "+lastErr,false);
   $("saveCatBtn").disabled=false;
 }
