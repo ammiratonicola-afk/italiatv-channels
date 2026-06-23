@@ -1065,5 +1065,45 @@
     "color": "#FF1A237E",
     "streamUrl": "https://3315fc3e7276420f895e19cf807dbee1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6215/master.m3u8",
     "streamType": "HLS"
+  },
+  {
+    "id": 133,
+    "name": "Pluto TV Teen",
+    "category": "Altri",
+    "color": "#FF252545",
+    "streamUrl": "https://jmp2.uk/plu-63eb573ba99571000897135b.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 134,
+    "name": "Super! iCarly",
+    "category": "Altri",
+    "color": "#FF252545",
+    "streamUrl": "https://jmp2.uk/plu-609401db8cf51c00084b592e.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 135,
+    "name": "Super! SpongeBob",
+    "category": "Altri",
+    "color": "#FF252545",
+    "streamUrl": "https://jmp2.uk/plu-6093f9281db477000759fce0.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 136,
+    "name": "Sportitalia Plus",
+    "category": "Sport",
+    "color": "#FF00695C",
+    "streamUrl": "https://sportsitalia-samsungitaly.amagi.tv/playlist.m3u8",
+    "streamType": "HLS"
+  },
+  {
+    "id": 137,
+    "name": "Rete 8 Sport",
+    "category": "Sport",
+    "color": "#FF00695C",
+    "streamUrl": "https://64b16f23efbee.streamlock.net/rete8sport/rete8sport/playlist.m3u8",
+    "streamType": "HLS"
   }
 ]
