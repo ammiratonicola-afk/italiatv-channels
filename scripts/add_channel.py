@@ -156,11 +156,17 @@ def full_entry(vid, tid, raw):
     }
 
 
+def deleted_by_editor(m):
+    reason = str(m.get("reason_not_movie") or "").lower()
+    return m.get("is_movie") is False and "eliminat" in reason and "editor" in reason
+
+
 def main():
     ch = sys.argv[1] if len(sys.argv) > 1 else "UC2DWplnIpAtu9OWgH9-ZVrQ"
     d = json.load(open(META, encoding="utf-8"))
     existing_vids = {m["video_id"] for m in d["movies"]}
     existing_tmdb = {m.get("tmdb_id") for m in d["movies"] if m.get("is_movie") is not False and m.get("tmdb_id")}
+    blocked_tmdb = {m.get("tmdb_id") for m in d["movies"] if deleted_by_editor(m) and m.get("tmdb_id")}
     vids = fetch_all_videos(ch)
     films = [(v, t) for v, t in vids if not any(k in t.lower() for k in JUNK)]
     print(f"Video totali: {len(vids)} | film candidati: {len(films)}")
@@ -175,6 +181,10 @@ def main():
         best, score = tmdb_match(cands, actor, year) if cands else (None, 0)
         if best:
             tid = best["id"]
+            if tid in blocked_tmdb:
+                dup_film += 1
+                print(f"  [BLOCK] {raw[:45]} = TMDB {tid} eliminato dall'editor")
+                continue
             if tid in existing_tmdb or tid in seen_tmdb_run:
                 dup_film += 1
                 print(f"  [DUP film] {raw[:45]} = TMDB {tid} gia' presente")
