@@ -109,4 +109,112 @@
   <programme start="20260630210000 +0200" stop="20260630213000 +0200" channel="LaCNews24"><title lang="it">Varietek</title></programme>
   <programme start="20260630230000 +0200" stop="20260630233000 +0200" channel="LaCNews24"><title lang="it">PNRR Lo scippo al Sud</title></programme>
   <programme start="20260630233000 +0200" stop="20260701000000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Sera</title></programme>
+  <programme start="20260701013000 +0200" stop="20260701020000 +0200" channel="LaCNews24"><title lang="it">Sorridi sei in Calabria</title></programme>
+  <programme start="20260701020000 +0200" stop="20260701023000 +0200" channel="LaCNews24"><title lang="it">Storie di vita</title></programme>
+  <programme start="20260701023000 +0200" stop="20260701070000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Settimanale</title></programme>
+  <programme start="20260701070000 +0200" stop="20260701083000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Mattina</title></programme>
+  <programme start="20260701083000 +0200" stop="20260701090000 +0200" channel="LaCNews24"><title lang="it">Buona Agricoltura</title></programme>
+  <programme start="20260701090000 +0200" stop="20260701100000 +0200" channel="LaCNews24"><title lang="it">Santa Messa</title></programme>
+  <programme start="20260701130000 +0200" stop="20260701140000 +0200" channel="LaCNews24"><title lang="it">Il Matrimonio Perfetto</title></programme>
+  <programme start="20260701140000 +0200" stop="20260701143000 +0200" channel="LaCNews24"><title lang="it">Pasqualino Marajà</title></programme>
+  <programme start="20260701143000 +0200" stop="20260701150000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Giorno</title></programme>
+  <programme start="20260701173000 +0200" stop="20260701174500 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Pomeriggio</title></programme>
+  <programme start="20260701193000 +0200" stop="20260701203000 +0200" channel="LaCNews24"><title lang="it">Il Matrimonio Perfetto</title></programme>
+  <programme start="20260701203000 +0200" stop="20260701210000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Sera</title></programme>
+  <programme start="20260701210000 +0200" stop="20260701213000 +0200" channel="LaCNews24"><title lang="it">La Terra della Sole</title></programme>
+  <programme start="20260701233000 +0200" stop="20260702000000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Sera</title></programme>
+  <programme start="20260701000000 +0200" stop="20260701003000 +0200" channel="LaCNews24"><title lang="it">Storie di vita</title></programme>
+  <programme start="20260702023000 +0200" stop="20260702070000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Settimanale</title></programme>
+  <programme start="20260702070000 +0200" stop="20260702083000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Mattina</title></programme>
+  <programme start="20260702083000 +0200" stop="20260702090000 +0200" channel="LaCNews24"><title lang="it">Buona Agricoltura</title></programme>
+  <programme start="20260702130000 +0200" stop="20260702140000 +0200" channel="LaCNews24"><title lang="it">Il Matrimonio Perfetto</title></programme>
+  <programme start="20260702140000 +0200" stop="20260702143000 +0200" channel="LaCNews24"><title lang="it">Pasqualino Marajà</title></programme>
+  <programme start="20260702143000 +0200" stop="20260702150000 +0200" channel="LaCNews24"><title lang="it">LaCNews24 Edizione Giorno</title></programme>
+  <programme start="20260702150000 +0200" stop="20260702153000 +0200" channel="LaCNews24"><title lang="it">Permette Signora</title></programme>
+  <programme start="20260702150000 +0200" stop="20260702160000 +0200" channel="LaCNews24"><title lang="it">La Terra del Sole</title></programme>
+  <programme start="20260702160000 +0200" stop="20260702163000 +0200" channel="LaCNews24"><title lang="it">LaC Salute</title></programme>
+  <programme start="20260702173000 +0200" stop="20260702174500 +0200" channel="LaCNews24"><title lang="it">LaC news24 Edizione Pomeriggio</title></programme>
+  <programme start="20260702193000 +0200" stop="20260702203000 +0200" channel="LaCNews24"><title lang="it">Il Matrimonio Perfetto</title></programme>
+  <programme start="20260702203000 +0200" stop="20260702210000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Sera</title></programme>
+  <programme start="20260702230000 +0200" stop="20260702233000 +0200" channel="LaCNews24"><title lang="it">Sa di Calabria</title></programme>
+  <programme start="20260702233000 +0200" stop="20260703000000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Sera</title></programme>
+  <programme start="20260702020000 +0200" stop="20260702023000 +0200" channel="LaCNews24"><title lang="it">Sorridi sei in Calabria</title></programme>
+  <programme start="20260702023000 +0200" stop="20260702070000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Settimanale</title></programme>
+  <programme start="20260702070000 +0200" stop="20260702083000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Mattina</title></programme>
+  <programme start="20260702120000 +0200" stop="20260702123000 +0200" channel="LaCNews24"><title lang="it">Cook Academy</title></programme>
+  <programme start="20260702123000 +0200" stop="20260702130000 +0200" channel="LaCNews24"><title lang="it">A casa di zia Wanda</title></programme>
+  <programme start="20260702130000 +0200" stop="20260702140000 +0200" channel="LaCNews24"><title lang="it">Il Matrimonio Perfetto</title></programme>
+  <programme start="20260702140000 +0200" stop="20260702143000 +0200" channel="LaCNews24"><title lang="it">Pasqualino Marajà</title></programme>
+  <programme start="20260702143000 +0200" stop="20260702150000 +0200" channel="LaCNews24"><title lang="it">LaCNews24 Edizione Giorno</title></programme>
+  <programme start="20260702150000 +0200" stop="20260702153000 +0200" channel="LaCNews24"><title lang="it">Permette Signora</title></programme>
+  <programme start="20260702153000 +0200" stop="20260702160000 +0200" channel="LaCNews24"><title lang="it">Sa di Calabria</title></programme>
+  <programme start="20260702160000 +0200" stop="20260702163000 +0200" channel="LaCNews24"><title lang="it">LaC Salute</title></programme>
+  <programme start="20260702173000 +0200" stop="20260702174500 +0200" channel="LaCNews24"><title lang="it">LaC news24 Edizione Pomeriggio</title></programme>
+  <programme start="20260702193000 +0200" stop="20260702203000 +0200" channel="LaCNews24"><title lang="it">Il Matrimonio Perfetto</title></programme>
+  <programme start="20260702203000 +0200" stop="20260702210000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Sera</title></programme>
+  <programme start="20260702210000 +0200" stop="20260702213000 +0200" channel="LaCNews24"><title lang="it">Varietek</title></programme>
+  <programme start="20260702233000 +0200" stop="20260703000000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Sera</title></programme>
+  <programme start="20260704020000 +0200" stop="20260704023000 +0200" channel="LaCNews24"><title lang="it">Sorridi sei in Calabria</title></programme>
+  <programme start="20260704023000 +0200" stop="20260704070000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Settimanale</title></programme>
+  <programme start="20260704070000 +0200" stop="20260704083000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Mattina</title></programme>
+  <programme start="20260704120000 +0200" stop="20260704123000 +0200" channel="LaCNews24"><title lang="it">Cook Academy</title></programme>
+  <programme start="20260704123000 +0200" stop="20260704130000 +0200" channel="LaCNews24"><title lang="it">A casa di zia Wanda</title></programme>
+  <programme start="20260704130000 +0200" stop="20260704140000 +0200" channel="LaCNews24"><title lang="it">Il Matrimonio Perfetto</title></programme>
+  <programme start="20260704140000 +0200" stop="20260704143000 +0200" channel="LaCNews24"><title lang="it">Sa di Calabria</title></programme>
+  <programme start="20260704143000 +0200" stop="20260704150000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Giorno</title></programme>
+  <programme start="20260704150000 +0200" stop="20260704153000 +0200" channel="LaCNews24"><title lang="it">LaC Salute</title></programme>
+  <programme start="20260704153000 +0200" stop="20260704160000 +0200" channel="LaCNews24"><title lang="it">Permette Signora</title></programme>
+  <programme start="20260704160000 +0200" stop="20260704163000 +0200" channel="LaCNews24"><title lang="it">LaC Storie</title></programme>
+  <programme start="20260704173000 +0200" stop="20260704174500 +0200" channel="LaCNews24"><title lang="it">LaC news24 Edizione Pomeriggio</title></programme>
+  <programme start="20260704193000 +0200" stop="20260704203000 +0200" channel="LaCNews24"><title lang="it">Il Matrimonio Perfetto</title></programme>
+  <programme start="20260704203000 +0200" stop="20260704210000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Sera</title></programme>
+  <programme start="20260704210000 +0200" stop="20260704213000 +0200" channel="LaCNews24"><title lang="it">Storie di vita</title></programme>
+  <programme start="20260704233000 +0200" stop="20260705000000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Sera</title></programme>
+  <programme start="20260704000000 +0200" stop="20260704003000 +0200" channel="LaCNews24"><title lang="it">Il Matrimonio Perfetto</title></programme>
+  <programme start="20260705003000 +0200" stop="20260705010000 +0200" channel="LaCNews24"><title lang="it">Il matrimonio perfetto</title></programme>
+  <programme start="20260705023000 +0200" stop="20260705070000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Settimanale</title></programme>
+  <programme start="20260705070000 +0200" stop="20260705083000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Mattina</title></programme>
+  <programme start="20260705083000 +0200" stop="20260705090000 +0200" channel="LaCNews24"><title lang="it">Buona Agricoltura</title></programme>
+  <programme start="20260705090000 +0200" stop="20260705100000 +0200" channel="LaCNews24"><title lang="it">Santa Messa</title></programme>
+  <programme start="20260705120000 +0200" stop="20260705123000 +0200" channel="LaCNews24"><title lang="it">Buona Agricoltura</title></programme>
+  <programme start="20260705123000 +0200" stop="20260705130000 +0200" channel="LaCNews24"><title lang="it">A casa di zia Wanda</title></programme>
+  <programme start="20260705130000 +0200" stop="20260705133000 +0200" channel="LaCNews24"><title lang="it">Storie di vita</title></programme>
+  <programme start="20260705133000 +0200" stop="20260705140000 +0200" channel="LaCNews24"><title lang="it">Sorridi sei in Calabria</title></programme>
+  <programme start="20260705140000 +0200" stop="20260705143000 +0200" channel="LaCNews24"><title lang="it">Pasqualino Marajà</title></programme>
+  <programme start="20260705143000 +0200" stop="20260705150000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Giorno</title></programme>
+  <programme start="20260705150000 +0200" stop="20260705153000 +0200" channel="LaCNews24"><title lang="it">Cantamu e Sonamu</title></programme>
+  <programme start="20260705153000 +0200" stop="20260705160000 +0200" channel="LaCNews24"><title lang="it">Permette Signora</title></programme>
+  <programme start="20260705173000 +0200" stop="20260705174500 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Pomeriggio</title></programme>
+  <programme start="20260705200000 +0200" stop="20260705203000 +0200" channel="LaCNews24"><title lang="it">A casa di zia Wanda</title></programme>
+  <programme start="20260705203000 +0200" stop="20260705210000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Sera</title></programme>
+  <programme start="20260705233000 +0200" stop="20260706000000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Sera</title></programme>
+  <programme start="20260706020000 +0200" stop="20260706023000 +0200" channel="LaCNews24"><title lang="it">Sorridi sei in Calabria</title></programme>
+  <programme start="20260706023000 +0200" stop="20260706070000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Settimanale</title></programme>
+  <programme start="20260706070000 +0200" stop="20260706083000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Mattina</title></programme>
+  <programme start="20260706083000 +0200" stop="20260706090000 +0200" channel="LaCNews24"><title lang="it">Buona Agricoltura</title></programme>
+  <programme start="20260706120000 +0200" stop="20260706123000 +0200" channel="LaCNews24"><title lang="it">Buona Agricoltura</title></programme>
+  <programme start="20260706123000 +0200" stop="20260706130000 +0200" channel="LaCNews24"><title lang="it">A casa di zia Wanda</title></programme>
+  <programme start="20260706130000 +0200" stop="20260706140000 +0200" channel="LaCNews24"><title lang="it">Il Matrimonio Perfetto</title></programme>
+  <programme start="20260706140000 +0200" stop="20260706143000 +0200" channel="LaCNews24"><title lang="it">Pasqualino Marajà</title></programme>
+  <programme start="20260706143000 +0200" stop="20260706150000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Giorno</title></programme>
+  <programme start="20260706150000 +0200" stop="20260706163000 +0200" channel="LaCNews24"><title lang="it">Tutti i gol</title></programme>
+  <programme start="20260706173000 +0200" stop="20260706174500 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Pomeriggio</title></programme>
+  <programme start="20260706193000 +0200" stop="20260706203000 +0200" channel="LaCNews24"><title lang="it">Il Matrimonio Perfetto</title></programme>
+  <programme start="20260706203000 +0200" stop="20260706210000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Sera</title></programme>
+  <programme start="20260706210000 +0200" stop="20260706213000 +0200" channel="LaCNews24"><title lang="it">Varietek</title></programme>
+  <programme start="20260706233000 +0200" stop="20260707000000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Sera</title></programme>
+  <programme start="20260707023000 +0200" stop="20260707070000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Settimanale</title></programme>
+  <programme start="20260707070000 +0200" stop="20260707083000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Mattina</title></programme>
+  <programme start="20260707083000 +0200" stop="20260707090000 +0200" channel="LaCNews24"><title lang="it">Buona Agricoltura</title></programme>
+  <programme start="20260707130000 +0200" stop="20260707140000 +0200" channel="LaCNews24"><title lang="it">Il Matrimonio Perfetto</title></programme>
+  <programme start="20260707140000 +0200" stop="20260707143000 +0200" channel="LaCNews24"><title lang="it">Pasqualino Marajà</title></programme>
+  <programme start="20260707143000 +0200" stop="20260707150000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Giorno</title></programme>
+  <programme start="20260707150000 +0200" stop="20260707160000 +0200" channel="LaCNews24"><title lang="it">Zona D, Calabria dilettanti</title></programme>
+  <programme start="20260707160000 +0200" stop="20260707163000 +0200" channel="LaCNews24"><title lang="it">Sorridi sei in Calabria</title></programme>
+  <programme start="20260707173000 +0200" stop="20260707174500 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Pomeriggio</title></programme>
+  <programme start="20260707193000 +0200" stop="20260707203000 +0200" channel="LaCNews24"><title lang="it">Il Matrimonio Perfetto</title></programme>
+  <programme start="20260707203000 +0200" stop="20260707210000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Sera</title></programme>
+  <programme start="20260707210000 +0200" stop="20260707213000 +0200" channel="LaCNews24"><title lang="it">Varietek</title></programme>
+  <programme start="20260707230000 +0200" stop="20260707233000 +0200" channel="LaCNews24"><title lang="it">PNRR Lo scippo al Sud</title></programme>
+  <programme start="20260707233000 +0200" stop="20260708000000 +0200" channel="LaCNews24"><title lang="it">LaC News24 Edizione Sera</title></programme>
 </tv>
