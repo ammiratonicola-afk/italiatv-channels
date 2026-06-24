@@ -878,6 +878,8 @@ function markFilmDeleted(x, reason){
   if(!cm) return null;
   cm.is_movie=false;
   cm.reason_not_movie=reason;
+  cm.deleted_by_editor=true;
+  cm.deleted_at=new Date().toISOString();
   catDirty.add(m.video_id);
   return "cat";
 }
