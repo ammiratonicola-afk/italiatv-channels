@@ -264,6 +264,11 @@
             <input id="m_tmdb" inputmode="numeric" placeholder="es. 27205 — invio per caricare" onkeydown="if(event.key==='Enter'){event.preventDefault();loadByTmdbId();}">
             <button class="sec" type="button" onclick="loadByTmdbId()">Carica ID</button>
           </div>
+          <label>IMDb ID / link</label>
+          <div class="inline-input">
+            <input id="m_imdb" placeholder="es. tt0377309 oppure link IMDb" onkeydown="if(event.key==='Enter'){event.preventDefault();loadByImdbId();}">
+            <button class="sec" type="button" onclick="loadByImdbId()">Carica IMDb</button>
+          </div>
         </div>
       </div>
       <label>🔗 Link YouTube (riproduzione)</label>
@@ -676,7 +681,7 @@ async function findAllTrailers(){
 async function buildRecord(vid, sel, genre, titleOv, yearOv){
   const isTv=sel._type==="tv";
   const base=isTv?`${TMDB}/tv/${sel.id}`:`${TMDB}/movie/${sel.id}`;
-  const it=await fetch(`${base}?api_key=${TKEY}&language=it-IT&append_to_response=credits,videos`).then(r=>r.json());
+  const it=await fetch(`${base}?api_key=${TKEY}&language=it-IT&append_to_response=credits,videos,external_ids`).then(r=>r.json());
   let ov=it.overview, ovIta=!!it.overview;
   if(!ov){ // TMDB non ha la trama in italiano → prendi l'inglese e TRADUCILA (Gemini, se disponibile)
     const en=await fetch(`${base}?api_key=${TKEY}&language=en-US`).then(r=>r.json()); ov=en.overview||"";
@@ -695,6 +700,7 @@ async function buildRecord(vid, sel, genre, titleOv, yearOv){
   const yr=parseInt((yearOv||"").trim()||apiDate)||null;
   const titolo=(titleOv||"").trim()||it.title||it.name;
   const runtime=isTv?((it.episode_run_time&&it.episode_run_time[0])||null):(it.runtime||null);
+  const imdbId=parseImdbId((it.external_ids&&it.external_ids.imdb_id)||sel.imdb_id);
   return { video_id:vid, is_movie:true, manual_include:true, channel:"Manuale", genre,
     original_title:titolo, tmdb_id:sel.id, tmdb_title_official:titolo, tmdb_year_official:yr,
     tmdb_poster_path:it.poster_path||null, tmdb_confidence:"verified",
@@ -703,7 +709,8 @@ async function buildRecord(vid, sel, genre, titleOv, yearOv){
       titolo_originale:(it.original_title||it.original_name||null),
       anno_uscita:yr, durata_minuti:runtime, genere:(it.genres||[]).map(g=>g.name),
       regista:dirs, cast_principale:cast, trama:ov, trama_tradotta_in_italiano:ovIta,
-      locandina_url:it.poster_path?IMG+"w500"+it.poster_path:null, trailer, tmdb_id_scelto:sel.id } };
+      locandina_url:it.poster_path?IMG+"w500"+it.poster_path:null, trailer, tmdb_id_scelto:sel.id,
+      imdb_id_scelto:imdbId||null } };
 }
 
 async function addSelected(){
@@ -1305,6 +1312,7 @@ function openEdit(vid, src){
   $("m_duration").value=v2.durata_minuti||"";
   $("m_genre").innerHTML=genreOptions(m.genre);
   $("m_tmdb").value=m.tmdb_id||"";
+  $("m_imdb").value=v2.imdb_id_scelto||m.imdb_id||"";
   $("m_type").textContent=m.tmdb_media_type?("("+m.tmdb_media_type+")"):"";
   $("m_plot").value=v2.trama||m.enriched_plot||"";
   $("m_posterpath").value=m.tmdb_poster_path||"";
@@ -1432,6 +1440,7 @@ function addResultCard(R, r){
       $("m_plot").value=rec.strict_id_v2.trama||""; $("m_posterpath").value=rec.tmdb_poster_path||"";
       $("m_trailer").value=(rec.strict_id_v2.trailer&&rec.strict_id_v2.trailer.url)||""; trailerPick={key:"",queue:[]}; previewTrailerFromInput();
       const dg=deriveGenre(rec.strict_id_v2.genere); if(dg) $("m_genre").value=dg;
+      if(rec.strict_id_v2&&rec.strict_id_v2.imdb_id_scelto) $("m_imdb").value=rec.strict_id_v2.imdb_id_scelto;
       renderCast(rec.strict_id_v2.cast_principale);
       $("m_poster").src=rec.tmdb_poster_path?IMG+"w300"+rec.tmdb_poster_path:"";
     }catch(e){}
@@ -1440,18 +1449,32 @@ function addResultCard(R, r){
   R.appendChild(d);
 }
 // Fallback IMDb: trova il film su TMDB tramite l'IMDb id (TMDB /find), poi mostra il risultato.
+function parseImdbId(value){
+  const m=String(value||"").match(/tt\d{6,10}/i);
+  return m?m[0].toLowerCase():"";
+}
 async function tmdbFindByImdb(imdbId){
   try{
     const r=await fetch(`${TMDB}/find/${imdbId}?api_key=${TKEY}&language=it-IT&external_source=imdb_id`).then(x=>x.json());
     const mv=(r.movie_results||[])[0], tv=(r.tv_results||[])[0];
     const hit=mv||tv; if(!hit) return false;
     const sel={_type:mv?"movie":"tv", id:hit.id, poster_path:hit.poster_path,
-      title:(hit.title||hit.name||""), year:((hit.release_date||hit.first_air_date||"").slice(0,4))};
+      title:(hit.title||hit.name||""), year:((hit.release_date||hit.first_air_date||"").slice(0,4)), imdb_id:imdbId};
     const R=$("m_results"); R.innerHTML="";
     addResultCard(R, sel);
     aiBox("Trovato via IMDb "+imdbId+": "+sel.title+" — clicca il risultato per applicarlo.", true);
     return true;
   }catch(e){ return false; }
+}
+async function loadByImdbId(){
+  const imdbId=parseImdbId($("m_imdb").value);
+  const R=$("m_results");
+  if(!imdbId){ R.innerHTML="<div class='help'>Inserisci un ID IMDb valido, es. tt0377309.</div>"; return; }
+  $("m_imdb").value=imdbId;
+  R.innerHTML="<div class='help'>Carico da IMDb ID "+imdbId+"…</div>";
+  const ok=await tmdbFindByImdb(imdbId);
+  if(!ok){ R.innerHTML="<div class='help'>Nessun film/serie trovato su TMDB per IMDb "+imdbId+".</div>"; return; }
+  const card=R.querySelector(".res"); if(card) card.click();
 }
 // Ricerca per TITOLO su IMDb (OMDb), poi risolve ogni risultato su TMDB per avere i metadati.
 async function searchImdb(){
@@ -1558,6 +1581,7 @@ function applyEdit(){
   const tid=parseInt($("m_tmdb").value)||null; if(tid) m.tmdb_id=tid;
   const pp=$("m_posterpath").value.trim(); m.tmdb_poster_path=pp||null;
   m.strict_id_v2=m.strict_id_v2||{};
+  const imdbId=parseImdbId($("m_imdb").value); if(imdbId) m.strict_id_v2.imdb_id_scelto=imdbId;
   if(tit) m.strict_id_v2.titolo_italiano=tit;
   const origGuess=$("m_original_guess").value.trim();
   if(origGuess){ m.original_title=origGuess; m.strict_id_v2.titolo_originale=origGuess; }
@@ -1669,3 +1693,4 @@ load();
 </script>
 </body>
 </html>
+
