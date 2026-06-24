@@ -769,7 +769,7 @@ async function save(){
         content:b64(JSON.stringify(merged,null,2)), sha:remote.sha };
       const res=await fetch(API,{method:"PUT",headers:{Authorization:"Bearer "+token,"Content-Type":"application/json"},body:JSON.stringify(body)});
       if(res.ok){
-        ok=true; movies=merged.movies; manualBaseIds=new Set(movies.map(m=>m.video_id).filter(Boolean)); render();
+        ok=true; movies=merged.movies; manualBaseIds=new Set(movies.map(m=>m.video_id).filter(Boolean)); render(); syncCatalogViewWithRaw(); refreshCatView();
       } else if(res.status===409){
         lastErr="conflitto"; status(`Conflitto con un altro salvataggio, riprovo... (${attempt+1})`,true); await new Promise(r=>setTimeout(r,1200));
       } else {
@@ -885,6 +885,26 @@ function removeFromCatalogAll(key){
   if(!catalogAll) return;
   const j=catalogAll.findIndex(y=>catKey(y)===key);
   if(j>=0) catalogAll.splice(j,1);
+}
+function syncCatalogViewWithRaw(){
+  if(!catalogAll) return;
+  const byRaw={};
+  const byManual={};
+  (catRawObj&&catRawObj.movies||[]).forEach(m=>{ if(m&&m.is_movie!==false) byRaw[m.video_id]=m; });
+  (movies||[]).forEach(m=>{ if(m&&m.is_movie!==false) byManual[m.video_id]=m; });
+  catalogAll=catalogAll.map(x=>{
+    if(x.src==="cat"){
+      if(!catRawObj) return x;
+      const fresh=byRaw[x.m.video_id];
+      return fresh?{m:fresh,src:"cat"}:null;
+    }
+    if(x.src==="man"){
+      const fresh=byManual[x.m.video_id];
+      return fresh?{m:fresh,src:"man"}:null;
+    }
+    return x;
+  }).filter(Boolean);
+  pruneCatSelection();
 }
 function catCard(x, extraLabel){
   const m=x.m, key=catKey(x);
@@ -1258,12 +1278,12 @@ async function saveCatalog(){
       if(!sha){ lastErr="sha non disponibile"; break; }
       const body={ message:`Modifica catalogo da editor web (${applied} film, merge)`, content:b64(JSON.stringify(latest,null,2)), sha:sha };
       const res=await fetch(CATAPI,{method:"PUT",headers:{Authorization:"Bearer "+token,"Content-Type":"application/json"},body:JSON.stringify(body)});
-      if(res.ok){ ok=true; catRawObj=latest; }
+      if(res.ok){ ok=true; catRawObj=latest; syncCatalogViewWithRaw(); }
       else if(res.status===409){ lastErr="conflitto"; status(`Conflitto con un altro salvataggio, riprovo… (${attempt+1})`,true); await new Promise(r=>setTimeout(r,1200)); }
       else { const e=await res.json().catch(()=>({})); lastErr=e.message||("HTTP "+res.status); break; }
     }
   }catch(e){ lastErr=e.message; }
-  if(ok){ catDirty.clear(); Object.keys(catRenamed).forEach(k=>delete catRenamed[k]); $("saveCatBtn").style.display="none"; status(`Catalogo salvato (${applied} film)! L'app lo aggiorna alla prossima apertura della sezione Film.`,true); }
+  if(ok){ catDirty.clear(); Object.keys(catRenamed).forEach(k=>delete catRenamed[k]); $("saveCatBtn").style.display="none"; refreshCatView(); status(`Catalogo salvato (${applied} film)! L'app lo aggiorna alla prossima apertura della sezione Film.`,true); }
   else status("Errore salvataggio: "+lastErr,false);
   $("saveCatBtn").disabled=false;
   return ok;
@@ -1333,7 +1353,11 @@ async function saveChannels(){
 let editing=null, pendingFull=null;
 function genreOptions(sel){ return GENRE_ORDER.map(([k,l])=>`<option value="${k}"${k===(sel||"")?" selected":""}>${l}</option>`).join(""); }
 function findFilm(vid,src){
-  if(src==="cat") return (catRawObj&&catRawObj.movies||[]).find(z=>z.video_id===vid);
+  if(src==="cat"){
+    const visible=catalogAll&&catalogAll.find(x=>x.src==="cat"&&x.m.video_id===vid);
+    if(visible) return visible.m;
+    return (catRawObj&&catRawObj.movies||[]).find(z=>z.video_id===vid);
+  }
   return movies.find(z=>z.video_id===vid);
 }
 function openEdit(vid, src){
