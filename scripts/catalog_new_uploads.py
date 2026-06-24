@@ -144,7 +144,10 @@ def active(m):
 
 def deleted_by_editor(m):
     reason = str(m.get("reason_not_movie") or "").lower()
-    return m.get("is_movie") is False and "eliminat" in reason and "editor" in reason
+    return m.get("is_movie") is False and (
+        m.get("deleted_by_editor") is True
+        or ("eliminat" in reason and "editor" in reason)
+    )
 
 
 def deleted_tmdb_ids(d):
