@@ -142,6 +142,19 @@ def active(m):
     return m.get("is_movie") is not False
 
 
+def deleted_by_editor(m):
+    reason = str(m.get("reason_not_movie") or "").lower()
+    return m.get("is_movie") is False and "eliminat" in reason and "editor" in reason
+
+
+def deleted_tmdb_ids(d):
+    return {
+        m.get("tmdb_id")
+        for m in d["movies"]
+        if deleted_by_editor(m) and m.get("tmdb_id")
+    }
+
+
 def yt_watch_info(video_id):
     if video_id in QUALITY_CACHE:
         return QUALITY_CACHE[video_id]
@@ -312,9 +325,10 @@ def main():
 
     d = json.load(open(META, encoding="utf-8"))
     existing_vids = {m["video_id"] for m in d["movies"]}
+    blocked_tmdb = deleted_tmdb_ids(d)
     seen_tmdb_run = set()
 
-    tot_new = tot_added = tot_dupfilm = tot_nomatch = tot_skipped_parts = 0
+    tot_new = tot_added = tot_dupfilm = tot_nomatch = tot_skipped_parts = tot_blocked_deleted = 0
     run_added = 0   # film aggiunti in QUESTO run (identificati + no-match) per il tetto
 
     for cid, cname in load_channels().items():
@@ -372,6 +386,10 @@ def main():
             best, score = tmdb_match(cands, actor, year) if cands else (None, 0)
             if best:
                 tid = best["id"]
+                if tid in blocked_tmdb:
+                    tot_blocked_deleted += 1
+                    print(f"    [BLOCK] TMDB {tid} eliminato dall'editor: non lo reinserisco")
+                    continue
                 entry = full_entry(vid, tid, raw)
                 if not entry:
                     print(f"    [?] TMDB {tid} ma full_entry fallita: {raw[:50]}")
@@ -414,6 +432,7 @@ def main():
     print(f" aggiunti nuovi film   : {tot_added if apply else '(dry: vedi [+])'}")
     print(f" doppioni gestiti      : {tot_dupfilm}")
     print(f" gruppi a parti saltati: {tot_skipped_parts}")
+    print(f" bloccati eliminati    : {tot_blocked_deleted}")
     print(f" senza match           : {tot_nomatch}")
 
     if apply and (tot_added or tot_dupfilm or tot_nomatch):
