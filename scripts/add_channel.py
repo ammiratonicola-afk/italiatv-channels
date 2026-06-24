@@ -1,4 +1,4 @@
-﻿"""
+"""
 add_channel.py <channel_id> - aggiunge i FILM di un canale YouTube al metadata.
 - scarica tutti i video (paginazione), filtra non-film (unboxing/trailer/news),
 - per ogni film: parsing titolo -> match TMDB -> popola poster/cast/trama/trailer,
@@ -158,7 +158,10 @@ def full_entry(vid, tid, raw):
 
 def deleted_by_editor(m):
     reason = str(m.get("reason_not_movie") or "").lower()
-    return m.get("is_movie") is False and "eliminat" in reason and "editor" in reason
+    return m.get("is_movie") is False and (
+        m.get("deleted_by_editor") is True
+        or ("eliminat" in reason and "editor" in reason)
+    )
 
 
 def main():
