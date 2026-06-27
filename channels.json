@@ -54,8 +54,8 @@
       "handle": "@FilmCompletiAzione"
     },
     {
-      "name": "Tango Cinema Channel",
-      "handle": "@TangoCinemaChannel-xm8dd"
+      "name": "Cinema FilmIsNow",
+      "handle": "@CinemaFilmIsNow"
     }
   ]
 }
