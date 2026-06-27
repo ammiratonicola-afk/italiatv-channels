@@ -214,6 +214,9 @@
 
       <label>Token GitHub</label>
       <input id="token" type="text" placeholder="ghp_… (permesso 'Contents' su italiatv-channels)">
+      <div style="display:flex;gap:8px;margin-top:8px">
+        <button class="sec" type="button" onclick="verifyGithubToken()">Verifica token</button>
+      </div>
       <div class="help">Serve per salvare le modifiche. Crea un token su
         <a href="https://github.com/settings/tokens?type=beta" target="_blank">github.com/settings/tokens</a>
         (Fine-grained → repo <b>italiatv-channels</b> → Repository permissions → <b>Contents: Read and write</b>).</div>
@@ -763,7 +766,7 @@ async function save(){
     let ok=false, lastErr="";
     for(let attempt=0; attempt<5 && !ok; attempt++){
       const cur=await fetch(API+"?t="+Date.now(),{headers:{Authorization:"Bearer "+token},cache:"no-store"});
-      if(!cur.ok) throw new Error("lettura file: HTTP "+cur.status);
+      if(!cur.ok) throw new Error(githubAuthError(cur.status,"Lettura film manuali"));
       const remote=await cur.json();
       const latest=remote.content ? JSON.parse(fromB64(remote.content)) : {movies:[]};
       const merged=mergeManualMovies({...latest, generated_at:new Date().toISOString()});
@@ -775,7 +778,7 @@ async function save(){
       } else if(res.status===409){
         lastErr="conflitto"; status(`Conflitto con un altro salvataggio, riprovo... (${attempt+1})`,true); await new Promise(r=>setTimeout(r,1200));
       } else {
-        const e=await res.json().catch(()=>({})); throw new Error(e.message||("HTTP "+res.status));
+        const e=await res.json().catch(()=>({})); throw new Error((res.status===401||res.status===403)?githubAuthError(res.status,"Scrittura film manuali"):(e.message||("HTTP "+res.status)));
       }
     }
     if(!ok) throw new Error(lastErr||"salvataggio non riuscito");
@@ -790,6 +793,20 @@ async function save(){
 // ── Catalogo completo per genere (catalogo + manuali, sola lettura) ────────
 const CAT_RAW=`https://raw.githubusercontent.com/${OWNER}/${REPO}/main/movies_metadata.json`;
 const CAT_API=`https://api.github.com/repos/${OWNER}/${REPO}/contents/movies_metadata.json`;
+function githubAuthError(statusCode, action){
+  if(statusCode===401) return `${action}: token GitHub non valido, scaduto o non caricato. Apri Impostazioni, incolla/carica il token corretto e premi Verifica token.`;
+  if(statusCode===403) return `${action}: token GitHub senza permesso sufficiente. Serve Repository permissions -> Contents: Read and write sul repo italiatv-channels.`;
+  return `${action}: HTTP ${statusCode}`;
+}
+async function verifyGithubToken(){
+  const token=$("token").value.trim();
+  if(!token){ status("Token GitHub mancante: apri Impostazioni e incolla/carica il token.",false); return false; }
+  try{
+    const r=await fetch(CAT_API+"?t="+Date.now(),{headers:{Authorization:"Bearer "+token,Accept:"application/vnd.github+json"},cache:"no-store"});
+    if(r.ok){ localStorage.setItem("gh_token",token); status("Token GitHub valido: lettura catalogo OK. Puoi salvare.",true); return true; }
+    status(githubAuthError(r.status,"Verifica token"),false); return false;
+  }catch(e){ status("Verifica token fallita: "+e.message,false); return false; }
+}
 // Scarica il catalogo SEMPRE aggiornato: con token usa la Contents API (media type raw,
 // niente cache CDN → vede subito i salvataggi); senza token ripiega sul raw CDN (~5 min lag).
 async function fetchCatalogFresh(){
@@ -1342,14 +1359,14 @@ async function saveCatalog(){
       const oldVids=new Set(Object.values(catRenamed));
       if(oldVids.size) latest.movies=latest.movies.filter(m=>!oldVids.has(m.video_id));
       const cur=await fetch(CATAPI,{headers:{Authorization:"Bearer "+token}});
-      if(!cur.ok){ lastErr="lettura file HTTP "+cur.status; break; }
+      if(!cur.ok){ lastErr=githubAuthError(cur.status,"Lettura catalogo"); break; }
       const sha=(await cur.json()).sha;
       if(!sha){ lastErr="sha non disponibile"; break; }
       const body={ message:`Modifica catalogo da editor web (${applied} film, merge)`, content:b64(JSON.stringify(latest,null,2)), sha:sha };
       const res=await fetch(CATAPI,{method:"PUT",headers:{Authorization:"Bearer "+token,"Content-Type":"application/json"},body:JSON.stringify(body)});
       if(res.ok){ ok=true; catRawObj=latest; syncCatalogViewWithRaw(); }
       else if(res.status===409){ lastErr="conflitto"; status(`Conflitto con un altro salvataggio, riprovo… (${attempt+1})`,true); await new Promise(r=>setTimeout(r,1200)); }
-      else { const e=await res.json().catch(()=>({})); lastErr=e.message||("HTTP "+res.status); break; }
+      else { const e=await res.json().catch(()=>({})); lastErr=(res.status===401||res.status===403)?githubAuthError(res.status,"Scrittura catalogo"):(e.message||("HTTP "+res.status)); break; }
     }
   }catch(e){ lastErr=e.message; }
   if(ok){ catDirty.clear(); Object.keys(catRenamed).forEach(k=>delete catRenamed[k]); $("saveCatBtn").style.display="none"; refreshCatView(); status(`Catalogo salvato (${applied} film)! L'app lo aggiorna alla prossima apertura della sezione Film.`,true); }
@@ -1404,13 +1421,13 @@ async function saveChannels(){
   try{
     for(let attempt=0; attempt<5 && !ok; attempt++){
       const cur=await fetch(CH_API+"?t="+Date.now(),{headers:{Authorization:"Bearer "+token},cache:"no-store"});
-      if(!cur.ok){ const e=await cur.json().catch(()=>({})); lastErr=e.message||("HTTP "+cur.status); break; }
+      if(!cur.ok){ const e=await cur.json().catch(()=>({})); lastErr=(cur.status===401||cur.status===403)?githubAuthError(cur.status,"Lettura canali"):(e.message||("HTTP "+cur.status)); break; }
       const sha=(await cur.json()).sha;
       const body={ message:"Aggiorna lista canali ("+channelsObj.channels.length+")", content:b64(JSON.stringify(channelsObj,null,2)), sha:sha };
       const res=await fetch(CH_API,{method:"PUT",headers:{Authorization:"Bearer "+token,"Content-Type":"application/json"},body:JSON.stringify(body)});
       if(res.ok){ ok=true; }
       else if(res.status===409){ lastErr="conflitto"; status(`Conflitto, riprovo… (${attempt+1})`,true); await new Promise(r=>setTimeout(r,1000)); }
-      else { const e=await res.json().catch(()=>({})); lastErr=e.message||("HTTP "+res.status); break; }
+      else { const e=await res.json().catch(()=>({})); lastErr=(res.status===401||res.status===403)?githubAuthError(res.status,"Scrittura canali"):(e.message||("HTTP "+res.status)); break; }
     }
   }catch(e){ lastErr=e.message; }
   if(ok){ $("saveChBtn").style.display="none"; status("✓ Canali salvati! L'import dei film parte da solo (GitHub Action) e prosegue ogni giorno. I film appaiono man mano nel catalogo.",true); }
