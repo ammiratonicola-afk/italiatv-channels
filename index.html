@@ -289,7 +289,9 @@
       </label>
       <textarea id="m_plot" rows="4" style="width:100%;padding:10px 12px;background:var(--card2);border:1px solid #33335a;border-radius:8px;color:var(--text);font-size:14px;font-family:inherit"></textarea>
       <label>Poster (path TMDB, es. /abc.jpg)</label><input id="m_posterpath" placeholder="lascia vuoto per nessuno">
-      <label>🎭 Cast (nome · personaggio · foto)</label>
+      <label style="display:flex;align-items:center;gap:8px">🎭 Cast (nome · personaggio · foto)
+        <button class="sec" type="button" id="m_cast_ai_btn" onclick="fillMissingCastPhotosAi()" style="padding:4px 10px;font-size:12px;margin-left:auto">✨ Foto mancanti (AI)</button>
+      </label>
       <div id="m_cast"></div>
       <button class="sec" type="button" onclick="addCastRow()" style="margin-top:6px">+ Aggiungi attore</button>
       <div class="actions" style="margin-top:14px">
@@ -1521,6 +1523,68 @@ function addCastRow(c){
   row.querySelector(".cdel").onclick=()=>row.remove();
   row.querySelector(".c_foto").oninput=e=>{ const img=row.querySelector("img"); img.src=e.target.value; img.style.visibility=e.target.value?"visible":"hidden"; };
   $("m_cast").appendChild(row);
+}
+async function tmdbPersonImagePath(personId){
+  try{
+    const d=await fetch(`${TMDB}/person/${personId}/images?api_key=${TKEY}`).then(r=>r.json());
+    const p=((d.profiles||[]).sort((a,b)=>(b.vote_count||0)-(a.vote_count||0))[0]||{}).file_path;
+    return p||null;
+  }catch(e){ return null; }
+}
+async function findCastPhotoWithAi(nome, personaggio){
+  const q=(nome||"").trim();
+  if(!q) return null;
+  const d=await fetch(`${TMDB}/search/person?api_key=${TKEY}&language=it-IT&query=${encodeURIComponent(q)}`).then(r=>r.json()).catch(()=>({results:[]}));
+  const cands=(d.results||[]).slice(0,8).map(p=>({
+    id:p.id, name:p.name, original_name:p.original_name, department:p.known_for_department,
+    popularity:p.popularity||0, profile_path:p.profile_path||null,
+    known_for:(p.known_for||[]).slice(0,4).map(k=>({title:k.title||k.name||"", year:((k.release_date||k.first_air_date||"").slice(0,4)), type:k.media_type||""}))
+  }));
+  if(!cands.length) return null;
+  const filmTitle=$("m_title").value.trim()||((editing&&editing.m&&title(editing.m))||"");
+  const year=$("m_year").value.trim();
+  const list=cands.map((c,i)=>`${i}. id=${c.id}; nome="${c.name}"; reparto=${c.department||""}; pop=${Math.round(c.popularity||0)}; foto=${c.profile_path?"si":"no"}; noto_per=${c.known_for.map(k=>`${k.title} ${k.year}`.trim()).join(" | ")}`).join("\n");
+  const prompt=`Devi scegliere quale persona TMDB corrisponde a un attore del cast di un film.\nFilm: "${filmTitle}" (${year||"anno non indicato"})\nAttore: "${q}"${personaggio?`\nPersonaggio: "${personaggio}"`:""}\n\nCandidati TMDB:\n${list}\n\nScegli il candidato corretto solo se sei ragionevolmente sicuro. Preferisci nomi uguali/quasi uguali e filmografia coerente. Non inventare dati. Rispondi SOLO con JSON valido:\n{"id":123,"confidence":"alta|media|bassa","reason":"breve motivo"}\nUsa {"id":null,"confidence":"bassa","reason":"incerto"} se non sei sicuro.`;
+  const ai=(await openaiChat(prompt,true))||(await geminiText(prompt,true));
+  let pick=null;
+  if(ai){ try{ pick=JSON.parse(cleanJsonText(ai)); }catch(e){} }
+  const pickedId=pick&&pick.id!=null?parseInt(pick.id):null;
+  const confidence=String((pick&&pick.confidence)||"").toLowerCase();
+  const cand=cands.find(c=>c.id===pickedId);
+  if(!cand || confidence==="bassa") return null;
+  const path=cand.profile_path || await tmdbPersonImagePath(cand.id);
+  if(!path) return null;
+  return { url:IMG+"w185"+path, name:cand.name, reason:(pick&&pick.reason)||"" };
+}
+async function fillMissingCastPhotosAi(){
+  if(!$("gemini_key").value.trim() && !$("openai_key").value.trim()){
+    status("Serve la chiave Gemini o OpenAI nelle Impostazioni per trovare le foto del cast.",false);
+    return;
+  }
+  const rows=Array.from($("m_cast").querySelectorAll(".castrow")).filter(r=>{
+    const nome=r.querySelector(".c_nome").value.trim();
+    const foto=r.querySelector(".c_foto").value.trim();
+    return nome && !foto;
+  });
+  if(!rows.length){ status("Nessuna foto del cast mancante da completare.",false); return; }
+  const btn=$("m_cast_ai_btn"); btn.disabled=true;
+  let done=0, miss=0;
+  for(let i=0;i<rows.length;i++){
+    const r=rows[i];
+    const nome=r.querySelector(".c_nome").value.trim();
+    const pers=r.querySelector(".c_pers").value.trim();
+    status(`Cerco foto cast ${i+1}/${rows.length}: ${nome}...`,true);
+    const found=await findCastPhotoWithAi(nome,pers);
+    if(found&&found.url){
+      const input=r.querySelector(".c_foto");
+      input.value=found.url;
+      input.dispatchEvent(new Event("input",{bubbles:true}));
+      done++;
+    } else miss++;
+    await new Promise(res=>setTimeout(res,120));
+  }
+  btn.disabled=false;
+  status(`Foto cast completate: ${done}${miss?` · non trovate: ${miss}`:""}. Premi Applica modifiche e poi salva il catalogo.`,done>0);
 }
 function collectCast(){
   return Array.from($("m_cast").querySelectorAll(".castrow")).map(r=>{
