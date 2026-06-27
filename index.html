@@ -213,22 +213,22 @@
       </div>
 
       <label>Token GitHub</label>
-      <input id="token" type="password" placeholder="ghp_… (permesso 'Contents' su italiatv-channels)">
+      <input id="token" type="text" placeholder="ghp_… (permesso 'Contents' su italiatv-channels)">
       <div class="help">Serve per salvare le modifiche. Crea un token su
         <a href="https://github.com/settings/tokens?type=beta" target="_blank">github.com/settings/tokens</a>
         (Fine-grained → repo <b>italiatv-channels</b> → Repository permissions → <b>Contents: Read and write</b>).</div>
 
       <label style="margin-top:12px">Chiave Gemini API</label>
-      <input id="gemini_key" type="password" placeholder="AIza… (per i pulsanti AI nella scheda film)">
+      <input id="gemini_key" type="text" placeholder="AIza… (per i pulsanti AI nella scheda film)">
       <div class="help">Usata per l'estrazione titolo e la traduzione trame.</div>
 
       <label style="margin-top:12px">Chiave OpenAI API <span class="help" style="margin:0">(facoltativa)</span></label>
-      <input id="openai_key" type="password" placeholder="sk-… (ChatGPT: traduzioni + fallback se Gemini dà 429)">
+      <input id="openai_key" type="text" placeholder="sk-… (ChatGPT: traduzioni + fallback se Gemini dà 429)">
       <div class="help">Usata per le traduzioni (primaria) e come fallback automatico se Gemini esaurisce la quota.</div>
 
       <label style="margin-top:16px">🔐 Sincronizza le chiavi tra browser/dispositivi</label>
       <div class="inline-input">
-        <input id="keys_pass" type="password" placeholder="Password per cifrare/decifrare">
+        <input id="keys_pass" type="text" placeholder="Password per cifrare/decifrare">
         <button class="sec" type="button" onclick="saveKeysEncrypted()">🔒 Salva cifrate</button>
         <button class="sec" type="button" onclick="loadKeysEncrypted()">🔓 Carica</button>
       </div>
