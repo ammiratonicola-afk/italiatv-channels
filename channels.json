@@ -52,6 +52,10 @@
     {
       "name": "Film&Clips Azione",
       "handle": "@FilmCompletiAzione"
+    },
+    {
+      "name": "Tango Cinema Channel",
+      "handle": "@TangoCinemaChannel-xm8dd"
     }
   ]
 }
