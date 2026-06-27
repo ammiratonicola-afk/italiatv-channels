@@ -1669,6 +1669,20 @@ async function openverseImageCandidates(nome, filmTitle){
   }
   return out;
 }
+async function imdbImageCandidates(nome, filmTitle, year){
+  const q=normText(nome).replace(/\s+/g,"_");
+  if(!q) return [];
+  const first=q[0]||"a";
+  const d=await fetchJsonSafe(`https://v3.sg.media-imdb.com/suggestion/${first}/${encodeURIComponent(q)}.json`);
+  return (d&&d.d||[]).filter(x=>String(x.id||"").startsWith("nm")).slice(0,10).map((x,i)=>{
+    const known=[...(x.v||[])].map(v=>`${v.l||""} ${v.s||""}`.trim()).join(" | ");
+    const ctx=[x.s||"", known].filter(Boolean).join("; ");
+    const img=x.i&&x.i.imageUrl;
+    return {key:`imdb-${x.id}`, source:"IMDb", title:x.l||nome, image:img||null,
+      page:`https://www.imdb.com/name/${x.id}/`, context:compactText(ctx,600),
+      score:28+filmMatchScore(x.l,nome)+filmMatchScore(ctx,filmTitle)+(year&&ctx.includes(year)?6:0)+(img?10:0)+(10-i)};
+  });
+}
 async function tmdbPersonCandidates(nome, filmTitle, year){
   const d=await fetchJsonSafe(`${TMDB}/search/person?api_key=${TKEY}&language=it-IT&query=${encodeURIComponent(nome)}`) || {results:[]};
   const people=(d.results||[]).slice(0,8);
@@ -1702,8 +1716,9 @@ async function findCastPhotoWithAi(nome, personaggio){
   if(!q) return null;
   const filmTitle=$("m_title").value.trim()||((editing&&editing.m&&title(editing.m))||"");
   const year=$("m_year").value.trim();
-  const [tmdb,wikiIt,wikiEn,wikiFr,wikiEs,wikiDe,wdata,commons,openverse]=await Promise.all([
+  const [tmdb,imdb,wikiIt,wikiEn,wikiFr,wikiEs,wikiDe,wdata,commons,openverse]=await Promise.all([
     tmdbPersonCandidates(q,filmTitle,year),
+    imdbImageCandidates(q,filmTitle,year),
     wikiImageCandidates("it",q,filmTitle),
     wikiImageCandidates("en",q,filmTitle),
     wikiImageCandidates("fr",q,filmTitle),
@@ -1713,10 +1728,10 @@ async function findCastPhotoWithAi(nome, personaggio){
     commonsSearchImageCandidates(q,filmTitle),
     openverseImageCandidates(q,filmTitle)
   ]);
-  const cands=dedupeCandidates([...tmdb,...wikiIt,...wikiEn,...wikiFr,...wikiEs,...wikiDe,...wdata,...commons,...openverse],38);
+  const cands=dedupeCandidates([...tmdb,...imdb,...wikiIt,...wikiEn,...wikiFr,...wikiEs,...wikiDe,...wdata,...commons,...openverse],42);
   if(!cands.length) return null;
   const list=cands.map((c,i)=>`${i}. score=${Math.round(c.score||0)}; fonte=${c.source}; titolo="${c.title}"; foto=${c.image?"si":"no"}; pagina=${c.page||""}; contesto=${compactText(c.context,520)}`).join("\n");
-  const prompt=`Devi scegliere quale risultato web contiene la foto corretta di un attore.\nLa ricerca e' incrociata: nome attore + nome film, poi allargata a fonti aperte.\nFilm: "${filmTitle}" (${year||"anno non indicato"})\nAttore: "${q}"${personaggio?`\nPersonaggio nel film: "${personaggio}"`:""}\n\nCandidati da TMDB, Wikipedia multilingua, Wikidata, Wikimedia Commons, categorie Commons e Openverse:\n${list}\n\nScegli il candidato corretto solo se sei ragionevolmente sicuro che il risultato rappresenti l'attore richiesto. Dai peso a: nome uguale, filmografia/contesto compatibile col film, pagina biografica dell'attore, presenza foto. Non scegliere pagine del film, personaggi, copertine, loghi o omonimi non attori. Rispondi SOLO con JSON valido:\n{"index":0,"confidence":"alta|media|bassa","reason":"breve motivo"}\nUsa {"index":null,"confidence":"bassa","reason":"incerto"} se non sei sicuro.`;
+  const prompt=`Devi scegliere quale risultato web contiene la foto corretta di un attore.\nLa ricerca e' incrociata: nome attore + nome film, poi allargata a fonti aperte.\nFilm: "${filmTitle}" (${year||"anno non indicato"})\nAttore: "${q}"${personaggio?`\nPersonaggio nel film: "${personaggio}"`:""}\n\nCandidati da TMDB, IMDb, Wikipedia multilingua, Wikidata, Wikimedia Commons, categorie Commons e Openverse:\n${list}\n\nScegli il candidato corretto solo se sei ragionevolmente sicuro che il risultato rappresenti l'attore richiesto. Dai peso a: nome uguale, filmografia/contesto compatibile col film, pagina biografica dell'attore, presenza foto. Non scegliere pagine del film, personaggi, copertine, loghi o omonimi non attori. Rispondi SOLO con JSON valido:\n{"index":0,"confidence":"alta|media|bassa","reason":"breve motivo"}\nUsa {"index":null,"confidence":"bassa","reason":"incerto"} se non sei sicuro.`;
   const ai=(await openaiChat(prompt,true))||(await geminiText(prompt,true));
   let pick=null;
   if(ai){ try{ pick=JSON.parse(cleanJsonText(ai)); }catch(e){} }
