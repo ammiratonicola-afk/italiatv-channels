@@ -56,6 +56,10 @@
     {
       "name": "Cinema FilmIsNow",
       "handle": "@CinemaFilmIsNow"
+    },
+    {
+      "name": "Cinema T.M.",
+      "handle": "@AlbyT.M"
     }
   ]
 }
