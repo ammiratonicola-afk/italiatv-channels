@@ -1531,30 +1531,84 @@ async function tmdbPersonImagePath(personId){
     return p||null;
   }catch(e){ return null; }
 }
+function commonsFileUrl(file){
+  return file ? `https://commons.wikimedia.org/wiki/Special:Redirect/file/${encodeURIComponent(file)}?width=185` : null;
+}
+async function wikiImageCandidates(lang, nome, filmTitle){
+  const out=[];
+  const queries=[`${nome} ${filmTitle}`.trim(), `${nome} attore`, `${nome} actor`];
+  for(const q of queries){
+    try{
+      const url=`https://${lang}.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(q)}&gsrlimit=6&prop=pageimages|extracts|info&inprop=url&piprop=original|thumbnail&pithumbsize=500&exintro=1&explaintext=1&format=json&origin=*`;
+      const d=await fetch(url).then(r=>r.json());
+      Object.values((d.query&&d.query.pages)||{}).forEach(p=>{
+        const img=(p.original&&p.original.source)||(p.thumbnail&&p.thumbnail.source)||null;
+        if(!img) return;
+        const key=`wiki-${lang}-${p.pageid}`;
+        if(out.some(x=>x.key===key)) return;
+        out.push({key, source:`Wikipedia ${lang.toUpperCase()}`, title:p.title||"", image:img,
+          page:p.fullurl||"", context:(p.extract||"").slice(0,700)});
+      });
+    }catch(e){}
+  }
+  return out;
+}
+async function wikidataImageCandidates(nome){
+  try{
+    const s=await fetch(`https://www.wikidata.org/w/api.php?action=wbsearchentities&search=${encodeURIComponent(nome)}&language=it&uselang=it&limit=8&format=json&origin=*`).then(r=>r.json());
+    const ids=(s.search||[]).map(x=>x.id).filter(Boolean);
+    if(!ids.length) return [];
+    const d=await fetch(`https://www.wikidata.org/w/api.php?action=wbgetentities&ids=${ids.join("|")}&props=claims|labels|descriptions|sitelinks&languages=it|en&format=json&origin=*`).then(r=>r.json());
+    return Object.values(d.entities||{}).map(e=>{
+      const file=((((e.claims||{}).P18||[])[0]||{}).mainsnak||{}).datavalue?.value;
+      if(!file) return null;
+      const label=(e.labels&&((e.labels.it&&e.labels.it.value)||(e.labels.en&&e.labels.en.value)))||e.id;
+      const desc=(e.descriptions&&((e.descriptions.it&&e.descriptions.it.value)||(e.descriptions.en&&e.descriptions.en.value)))||"";
+      const sitelink=((e.sitelinks||{}).itwiki||(e.sitelinks||{}).enwiki||{}).url||`https://www.wikidata.org/wiki/${e.id}`;
+      return {key:`wikidata-${e.id}`, source:"Wikidata/Commons", title:label, image:commonsFileUrl(file), page:sitelink, context:desc};
+    }).filter(Boolean);
+  }catch(e){ return []; }
+}
 async function findCastPhotoWithAi(nome, personaggio){
   const q=(nome||"").trim();
   if(!q) return null;
+  const filmTitle=$("m_title").value.trim()||((editing&&editing.m&&title(editing.m))||"");
+  const year=$("m_year").value.trim();
   const d=await fetch(`${TMDB}/search/person?api_key=${TKEY}&language=it-IT&query=${encodeURIComponent(q)}`).then(r=>r.json()).catch(()=>({results:[]}));
-  const cands=(d.results||[]).slice(0,8).map(p=>({
-    id:p.id, name:p.name, original_name:p.original_name, department:p.known_for_department,
+  const tmdb=(d.results||[]).slice(0,8).map(p=>({
+    key:`tmdb-${p.id}`, source:"TMDB", id:p.id, title:p.name, image:p.profile_path?IMG+"w185"+p.profile_path:null,
+    page:`https://www.themoviedb.org/person/${p.id}`, context:[
+      `nome originale: ${p.original_name||p.name||""}`,
+      `reparto: ${p.known_for_department||""}`,
+      `popolarita: ${Math.round(p.popularity||0)}`,
+      `noto per: ${(p.known_for||[]).slice(0,5).map(k=>`${k.title||k.name||""} ${((k.release_date||k.first_air_date||"").slice(0,4))}`.trim()).join(" | ")}`
+    ].join("; "),
     popularity:p.popularity||0, profile_path:p.profile_path||null,
     known_for:(p.known_for||[]).slice(0,4).map(k=>({title:k.title||k.name||"", year:((k.release_date||k.first_air_date||"").slice(0,4)), type:k.media_type||""}))
   }));
+  const [wikiIt,wikiEn,wdata]=await Promise.all([
+    wikiImageCandidates("it",q,filmTitle),
+    wikiImageCandidates("en",q,filmTitle),
+    wikidataImageCandidates(q)
+  ]);
+  const cands=[...tmdb,...wikiIt,...wikiEn,...wdata].filter((c,i,a)=>c&&a.findIndex(x=>x.key===c.key)===i).slice(0,22);
   if(!cands.length) return null;
-  const filmTitle=$("m_title").value.trim()||((editing&&editing.m&&title(editing.m))||"");
-  const year=$("m_year").value.trim();
-  const list=cands.map((c,i)=>`${i}. id=${c.id}; nome="${c.name}"; reparto=${c.department||""}; pop=${Math.round(c.popularity||0)}; foto=${c.profile_path?"si":"no"}; noto_per=${c.known_for.map(k=>`${k.title} ${k.year}`.trim()).join(" | ")}`).join("\n");
-  const prompt=`Devi scegliere quale persona TMDB corrisponde a un attore del cast di un film.\nFilm: "${filmTitle}" (${year||"anno non indicato"})\nAttore: "${q}"${personaggio?`\nPersonaggio: "${personaggio}"`:""}\n\nCandidati TMDB:\n${list}\n\nScegli il candidato corretto solo se sei ragionevolmente sicuro. Preferisci nomi uguali/quasi uguali e filmografia coerente. Non inventare dati. Rispondi SOLO con JSON valido:\n{"id":123,"confidence":"alta|media|bassa","reason":"breve motivo"}\nUsa {"id":null,"confidence":"bassa","reason":"incerto"} se non sei sicuro.`;
+  const list=cands.map((c,i)=>`${i}. fonte=${c.source}; titolo="${c.title}"; foto=${c.image?"si":"no"}; pagina=${c.page||""}; contesto=${String(c.context||"").replace(/\s+/g," ").slice(0,500)}`).join("\n");
+  const prompt=`Devi scegliere quale risultato web contiene la foto corretta di un attore.\nLa ricerca e' incrociata: nome attore + nome film.\nFilm: "${filmTitle}" (${year||"anno non indicato"})\nAttore: "${q}"${personaggio?`\nPersonaggio nel film: "${personaggio}"`:""}\n\nCandidati da TMDB/Wikipedia/Wikidata/Commons:\n${list}\n\nScegli il candidato corretto solo se sei ragionevolmente sicuro che il risultato rappresenti l'attore richiesto. Dai peso a: nome uguale, filmografia/contesto compatibile col film, pagina biografica dell'attore, presenza foto. Non scegliere pagine del film, personaggi o omonimi non attori. Rispondi SOLO con JSON valido:\n{"index":0,"confidence":"alta|media|bassa","reason":"breve motivo"}\nUsa {"index":null,"confidence":"bassa","reason":"incerto"} se non sei sicuro.`;
   const ai=(await openaiChat(prompt,true))||(await geminiText(prompt,true));
   let pick=null;
   if(ai){ try{ pick=JSON.parse(cleanJsonText(ai)); }catch(e){} }
-  const pickedId=pick&&pick.id!=null?parseInt(pick.id):null;
+  const idx=pick&&pick.index!=null?parseInt(pick.index):null;
   const confidence=String((pick&&pick.confidence)||"").toLowerCase();
-  const cand=cands.find(c=>c.id===pickedId);
+  const cand=Number.isInteger(idx)?cands[idx]:null;
   if(!cand || confidence==="bassa") return null;
-  const path=cand.profile_path || await tmdbPersonImagePath(cand.id);
-  if(!path) return null;
-  return { url:IMG+"w185"+path, name:cand.name, reason:(pick&&pick.reason)||"" };
+  let url=cand.image;
+  if(!url && cand.source==="TMDB" && cand.id){
+    const path=await tmdbPersonImagePath(cand.id);
+    if(path) url=IMG+"w185"+path;
+  }
+  if(!url) return null;
+  return { url, name:cand.title, source:cand.source, page:cand.page, reason:(pick&&pick.reason)||"" };
 }
 async function fillMissingCastPhotosAi(){
   if(!$("gemini_key").value.trim() && !$("openai_key").value.trim()){
