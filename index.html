@@ -1808,6 +1808,27 @@ async function searchWiki(){
     R.appendChild(link);
   }catch(e){ R.innerHTML="<div class='help'>Errore Wikipedia: "+e.message+"</div>"; }
 }
+
+function markEditorVerified(m, reason){
+  if(!m) return;
+  const now=new Date().toISOString();
+  m.locked=true;
+  m.editor_locked=true;
+  m.editor_verified=true;
+  m.editor_locked_at=now;
+  m.editor_updated_at=now;
+  m.editor_lock_reason=reason||"modifica manuale editor";
+  m.strict_id_v2=m.strict_id_v2||{};
+  m.strict_id_v2.verificato_editor=true;
+  m.strict_id_v2.verificato_editor_at=now;
+  m.strict_id_v2.identificato=true;
+  if(!m.strict_id_v2.livello_certezza || m.strict_id_v2.livello_certezza==="basso"){
+    m.strict_id_v2.livello_certezza="alto";
+  }
+  if(m.tmdb_id && !m.strict_id_v2.tmdb_id_scelto) m.strict_id_v2.tmdb_id_scelto=m.tmdb_id;
+  if(m.tmdb_id) m.tmdb_confidence="verified";
+}
+
 function applyEdit(){
   if(!editing) return;
   const m=editing.m, src=editing.src;
@@ -1844,6 +1865,7 @@ function applyEdit(){
   const tr=$("m_trailer").value.trim();
   if(tr){ m.strict_id_v2.trailer=Object.assign({fonte:"YouTube",lingua:"it",ufficiale:false,verificato:true,motivo_verifica:"inserito manualmente"}, m.strict_id_v2.trailer||{}, {url:tr}); }
   else { m.strict_id_v2.trailer=null; }
+  markEditorVerified(m, pendingFull ? "ri-identificazione manuale editor" : "modifica manuale editor");
   if(src==="cat"){ catDirty.add(m.video_id); $("saveCatBtn").style.display="inline-block"; }
   else { render(); }
   refreshCatView();
