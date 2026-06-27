@@ -1521,7 +1521,11 @@ function addCastRow(c){
     </div>
     <button class="cdel" type="button" title="Rimuovi">✕</button>`;
   row.querySelector(".cdel").onclick=()=>row.remove();
-  row.querySelector(".c_foto").oninput=e=>{ const img=row.querySelector("img"); img.src=e.target.value; img.style.visibility=e.target.value?"visible":"hidden"; };
+  const input=row.querySelector(".c_foto");
+  const fonte=c.foto_fonte||{};
+  if(fonte.nome) input.dataset.photoSource=fonte.nome;
+  if(fonte.url_pagina_origine) input.dataset.photoPage=fonte.url_pagina_origine;
+  input.oninput=e=>{ const img=row.querySelector("img"); img.src=e.target.value; img.style.visibility=e.target.value?"visible":"hidden"; if(e.isTrusted){ delete input.dataset.photoSource; delete input.dataset.photoPage; } };
   $("m_cast").appendChild(row);
 }
 async function tmdbPersonImagePath(personId){
@@ -1534,9 +1538,64 @@ async function tmdbPersonImagePath(personId){
 function commonsFileUrl(file){
   return file ? `https://commons.wikimedia.org/wiki/Special:Redirect/file/${encodeURIComponent(file)}?width=185` : null;
 }
+function compactText(s,n=700){ return String(s||"").replace(/<[^>]+>/g," ").replace(/\s+/g," ").trim().slice(0,n); }
+function normText(s){ return String(s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g," ").trim(); }
+async function fetchJsonSafe(url){
+  try{ const r=await fetch(url,{cache:"no-store"}); return r.ok?await r.json():null; }
+  catch(e){ return null; }
+}
+function dedupeCandidates(items, max=38){
+  const seen=new Set(), out=[];
+  for(const c of items){
+    if(!c) continue;
+    const key=(c.key||`${c.source}|${c.title}|${c.image||""}|${c.page||""}`).toLowerCase();
+    if(seen.has(key)) continue;
+    seen.add(key); out.push(c);
+  }
+  return out.sort((a,b)=>(b.score||0)-(a.score||0)).slice(0,max);
+}
+function filmMatchScore(titleValue, filmTitle){
+  const a=normText(titleValue), b=normText(filmTitle);
+  if(!a||!b) return 0;
+  if(a===b) return 30;
+  if(a.includes(b)||b.includes(a)) return 18;
+  return 0;
+}
+function commonsPageToCandidate(p, source, baseScore=0){
+  const info=(p.imageinfo||[])[0]||{};
+  const meta=info.extmetadata||{};
+  const img=info.thumburl||info.url||null;
+  if(!img) return null;
+  const title=(p.title||"").replace(/^File:/i,"");
+  const desc=compactText((meta.ImageDescription&&meta.ImageDescription.value)||(meta.ObjectName&&meta.ObjectName.value)||(meta.Credit&&meta.Credit.value)||"");
+  return {key:`commons-${p.pageid||title}`, source, title, image:img,
+    page:info.descriptionurl||`https://commons.wikimedia.org/wiki/${encodeURIComponent(p.title||"")}`,
+    context:desc, score:baseScore+8};
+}
+async function commonsSearchImageCandidates(nome, filmTitle){
+  const out=[];
+  const queries=[`"${nome}" "${filmTitle}"`, `${nome} ${filmTitle}`, `"${nome}" actor`, `"${nome}" actress`, nome]
+    .filter((q,i,a)=>q.trim()&&a.indexOf(q)===i);
+  for(const q of queries){
+    const url=`https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrnamespace=6&gsrsearch=${encodeURIComponent(q)}&gsrlimit=8&prop=imageinfo&iiprop=url|mime|extmetadata&iiurlwidth=500&format=json&origin=*`;
+    const d=await fetchJsonSafe(url);
+    Object.values((d&&d.query&&d.query.pages)||{}).forEach(p=>{
+      const c=commonsPageToCandidate(p,"Wikimedia Commons", q.includes(filmTitle)?12:4);
+      if(c) out.push(c);
+    });
+  }
+  return out;
+}
+async function commonsCategoryImageCandidates(categoryName, nome){
+  if(!categoryName) return [];
+  const url=`https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmtitle=${encodeURIComponent("Category:"+categoryName)}&gcmnamespace=6&gcmlimit=10&prop=imageinfo&iiprop=url|mime|extmetadata&iiurlwidth=500&format=json&origin=*`;
+  const d=await fetchJsonSafe(url);
+  return Object.values((d&&d.query&&d.query.pages)||{}).map(p=>commonsPageToCandidate(p,"Commons category",18+filmMatchScore(p.title,nome))).filter(Boolean);
+}
 async function wikiImageCandidates(lang, nome, filmTitle){
   const out=[];
-  const queries=[`${nome} ${filmTitle}`.trim(), `${nome} attore`, `${nome} actor`];
+  const actorWord=lang==="it"?"attore":lang==="fr"?"acteur":lang==="es"?"actor":lang==="de"?"schauspieler":"actor";
+  const queries=[`${nome} ${filmTitle}`.trim(), `${nome} ${actorWord}`, `${nome} actor`, nome];
   for(const q of queries){
     try{
       const url=`https://${lang}.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(q)}&gsrlimit=6&prop=pageimages|extracts|info&inprop=url&piprop=original|thumbnail&pithumbsize=500&exintro=1&explaintext=1&format=json&origin=*`;
@@ -1547,54 +1606,100 @@ async function wikiImageCandidates(lang, nome, filmTitle){
         const key=`wiki-${lang}-${p.pageid}`;
         if(out.some(x=>x.key===key)) return;
         out.push({key, source:`Wikipedia ${lang.toUpperCase()}`, title:p.title||"", image:img,
-          page:p.fullurl||"", context:(p.extract||"").slice(0,700)});
+          page:p.fullurl||"", context:compactText(p.extract,700),
+          score:15+filmMatchScore(p.title,nome)+filmMatchScore(p.extract,filmTitle)});
       });
     }catch(e){}
   }
   return out;
 }
-async function wikidataImageCandidates(nome){
+async function wikidataImageCandidates(nome, filmTitle){
   try{
-    const s=await fetch(`https://www.wikidata.org/w/api.php?action=wbsearchentities&search=${encodeURIComponent(nome)}&language=it&uselang=it&limit=8&format=json&origin=*`).then(r=>r.json());
-    const ids=(s.search||[]).map(x=>x.id).filter(Boolean);
+    const ids=[];
+    for(const lang of ["it","en","fr","es","de"]){
+      for(const q of [nome, `${nome} ${filmTitle}`.trim()]){
+        const s=await fetchJsonSafe(`https://www.wikidata.org/w/api.php?action=wbsearchentities&search=${encodeURIComponent(q)}&language=${lang}&uselang=${lang}&limit=6&format=json&origin=*`);
+        (s&&s.search||[]).forEach(x=>{ if(x.id&&!ids.includes(x.id)) ids.push(x.id); });
+      }
+    }
     if(!ids.length) return [];
-    const d=await fetch(`https://www.wikidata.org/w/api.php?action=wbgetentities&ids=${ids.join("|")}&props=claims|labels|descriptions|sitelinks&languages=it|en&format=json&origin=*`).then(r=>r.json());
-    return Object.values(d.entities||{}).map(e=>{
+    const d=await fetchJsonSafe(`https://www.wikidata.org/w/api.php?action=wbgetentities&ids=${ids.slice(0,30).join("|")}&props=claims|labels|descriptions|sitelinks&languages=it|en|fr|es|de&format=json&origin=*`);
+    const direct=Object.values((d&&d.entities)||{}).map(e=>{
       const file=((((e.claims||{}).P18||[])[0]||{}).mainsnak||{}).datavalue?.value;
       if(!file) return null;
       const label=(e.labels&&((e.labels.it&&e.labels.it.value)||(e.labels.en&&e.labels.en.value)))||e.id;
       const desc=(e.descriptions&&((e.descriptions.it&&e.descriptions.it.value)||(e.descriptions.en&&e.descriptions.en.value)))||"";
       const sitelink=((e.sitelinks||{}).itwiki||(e.sitelinks||{}).enwiki||{}).url||`https://www.wikidata.org/wiki/${e.id}`;
-      return {key:`wikidata-${e.id}`, source:"Wikidata/Commons", title:label, image:commonsFileUrl(file), page:sitelink, context:desc};
+      return {key:`wikidata-${e.id}`, source:"Wikidata/Commons", title:label, image:commonsFileUrl(file), page:sitelink,
+        context:desc, score:22+filmMatchScore(label,nome)+filmMatchScore(desc,"attore actor actress")};
     }).filter(Boolean);
+    const cats=Object.values((d&&d.entities)||{}).map(e=>((((e.claims||{}).P373||[])[0]||{}).mainsnak||{}).datavalue?.value).filter(Boolean).slice(0,5);
+    const catCands=(await Promise.all(cats.map(c=>commonsCategoryImageCandidates(c,nome)))).flat();
+    return [...direct,...catCands];
   }catch(e){ return []; }
+}
+async function openverseImageCandidates(nome, filmTitle){
+  const out=[];
+  const queries=[`"${nome}" "${filmTitle}"`, `${nome} ${filmTitle}`, `"${nome}" actor`, `"${nome}" actress`, nome];
+  for(const q of queries){
+    const d=await fetchJsonSafe(`https://api.openverse.engineering/v1/images/?q=${encodeURIComponent(q)}&page_size=8`);
+    (d&&d.results||[]).forEach((r,i)=>{
+      const img=r.url||r.thumbnail||null; if(!img) return;
+      out.push({key:`openverse-${r.id||img}`, source:`Openverse/${r.source||"web"}`, title:r.title||nome, image:img,
+        page:r.foreign_landing_url||r.url||"", context:compactText([r.creator,r.license,r.source,(r.tags||[]).map(t=>t.name||t).join(" ")].join("; "),500),
+        score:(q.includes(filmTitle)?10:2)+(8-i)});
+    });
+  }
+  return out;
+}
+async function tmdbPersonCandidates(nome, filmTitle, year){
+  const d=await fetchJsonSafe(`${TMDB}/search/person?api_key=${TKEY}&language=it-IT&query=${encodeURIComponent(nome)}`) || {results:[]};
+  const people=(d.results||[]).slice(0,8);
+  return Promise.all(people.map(async p=>{
+    const [imgPath,credits]=await Promise.all([
+      tmdbPersonImagePath(p.id),
+      fetchJsonSafe(`${TMDB}/person/${p.id}/combined_credits?api_key=${TKEY}&language=it-IT`)
+    ]);
+    const all=[...((credits&&credits.cast)||[]),...((credits&&credits.crew)||[])].filter(x=>x.media_type==="movie"||x.media_type==="tv");
+    const known=[...(p.known_for||[]),...all].slice(0,24).map(k=>({title:k.title||k.name||"", year:((k.release_date||k.first_air_date||"").slice(0,4)), type:k.media_type||""}));
+    const filmScore=Math.max(0,...known.map(k=>filmMatchScore(k.title,filmTitle)+(year&&k.year===year?8:0)));
+    return {
+      key:`tmdb-${p.id}`, source:"TMDB", id:p.id, title:p.name,
+      image:p.profile_path?IMG+"w185"+p.profile_path:(imgPath?IMG+"w185"+imgPath:null),
+      page:`https://www.themoviedb.org/person/${p.id}`,
+      context:[
+        `nome originale: ${p.original_name||p.name||""}`,
+        `reparto: ${p.known_for_department||""}`,
+        `popolarita: ${Math.round(p.popularity||0)}`,
+        `film compatibili: ${known.filter(k=>filmMatchScore(k.title,filmTitle)>0).map(k=>`${k.title} ${k.year}`.trim()).slice(0,4).join(" | ")}`,
+        `noto per: ${known.slice(0,8).map(k=>`${k.title} ${k.year}`.trim()).join(" | ")}`
+      ].join("; "),
+      popularity:p.popularity||0,
+      score:30+filmScore+(p.profile_path||imgPath?10:0)+(p.popularity||0)/5,
+      known_for:known.slice(0,8)
+    };
+  }));
 }
 async function findCastPhotoWithAi(nome, personaggio){
   const q=(nome||"").trim();
   if(!q) return null;
   const filmTitle=$("m_title").value.trim()||((editing&&editing.m&&title(editing.m))||"");
   const year=$("m_year").value.trim();
-  const d=await fetch(`${TMDB}/search/person?api_key=${TKEY}&language=it-IT&query=${encodeURIComponent(q)}`).then(r=>r.json()).catch(()=>({results:[]}));
-  const tmdb=(d.results||[]).slice(0,8).map(p=>({
-    key:`tmdb-${p.id}`, source:"TMDB", id:p.id, title:p.name, image:p.profile_path?IMG+"w185"+p.profile_path:null,
-    page:`https://www.themoviedb.org/person/${p.id}`, context:[
-      `nome originale: ${p.original_name||p.name||""}`,
-      `reparto: ${p.known_for_department||""}`,
-      `popolarita: ${Math.round(p.popularity||0)}`,
-      `noto per: ${(p.known_for||[]).slice(0,5).map(k=>`${k.title||k.name||""} ${((k.release_date||k.first_air_date||"").slice(0,4))}`.trim()).join(" | ")}`
-    ].join("; "),
-    popularity:p.popularity||0, profile_path:p.profile_path||null,
-    known_for:(p.known_for||[]).slice(0,4).map(k=>({title:k.title||k.name||"", year:((k.release_date||k.first_air_date||"").slice(0,4)), type:k.media_type||""}))
-  }));
-  const [wikiIt,wikiEn,wdata]=await Promise.all([
+  const [tmdb,wikiIt,wikiEn,wikiFr,wikiEs,wikiDe,wdata,commons,openverse]=await Promise.all([
+    tmdbPersonCandidates(q,filmTitle,year),
     wikiImageCandidates("it",q,filmTitle),
     wikiImageCandidates("en",q,filmTitle),
-    wikidataImageCandidates(q)
+    wikiImageCandidates("fr",q,filmTitle),
+    wikiImageCandidates("es",q,filmTitle),
+    wikiImageCandidates("de",q,filmTitle),
+    wikidataImageCandidates(q,filmTitle),
+    commonsSearchImageCandidates(q,filmTitle),
+    openverseImageCandidates(q,filmTitle)
   ]);
-  const cands=[...tmdb,...wikiIt,...wikiEn,...wdata].filter((c,i,a)=>c&&a.findIndex(x=>x.key===c.key)===i).slice(0,22);
+  const cands=dedupeCandidates([...tmdb,...wikiIt,...wikiEn,...wikiFr,...wikiEs,...wikiDe,...wdata,...commons,...openverse],38);
   if(!cands.length) return null;
-  const list=cands.map((c,i)=>`${i}. fonte=${c.source}; titolo="${c.title}"; foto=${c.image?"si":"no"}; pagina=${c.page||""}; contesto=${String(c.context||"").replace(/\s+/g," ").slice(0,500)}`).join("\n");
-  const prompt=`Devi scegliere quale risultato web contiene la foto corretta di un attore.\nLa ricerca e' incrociata: nome attore + nome film.\nFilm: "${filmTitle}" (${year||"anno non indicato"})\nAttore: "${q}"${personaggio?`\nPersonaggio nel film: "${personaggio}"`:""}\n\nCandidati da TMDB/Wikipedia/Wikidata/Commons:\n${list}\n\nScegli il candidato corretto solo se sei ragionevolmente sicuro che il risultato rappresenti l'attore richiesto. Dai peso a: nome uguale, filmografia/contesto compatibile col film, pagina biografica dell'attore, presenza foto. Non scegliere pagine del film, personaggi o omonimi non attori. Rispondi SOLO con JSON valido:\n{"index":0,"confidence":"alta|media|bassa","reason":"breve motivo"}\nUsa {"index":null,"confidence":"bassa","reason":"incerto"} se non sei sicuro.`;
+  const list=cands.map((c,i)=>`${i}. score=${Math.round(c.score||0)}; fonte=${c.source}; titolo="${c.title}"; foto=${c.image?"si":"no"}; pagina=${c.page||""}; contesto=${compactText(c.context,520)}`).join("\n");
+  const prompt=`Devi scegliere quale risultato web contiene la foto corretta di un attore.\nLa ricerca e' incrociata: nome attore + nome film, poi allargata a fonti aperte.\nFilm: "${filmTitle}" (${year||"anno non indicato"})\nAttore: "${q}"${personaggio?`\nPersonaggio nel film: "${personaggio}"`:""}\n\nCandidati da TMDB, Wikipedia multilingua, Wikidata, Wikimedia Commons, categorie Commons e Openverse:\n${list}\n\nScegli il candidato corretto solo se sei ragionevolmente sicuro che il risultato rappresenti l'attore richiesto. Dai peso a: nome uguale, filmografia/contesto compatibile col film, pagina biografica dell'attore, presenza foto. Non scegliere pagine del film, personaggi, copertine, loghi o omonimi non attori. Rispondi SOLO con JSON valido:\n{"index":0,"confidence":"alta|media|bassa","reason":"breve motivo"}\nUsa {"index":null,"confidence":"bassa","reason":"incerto"} se non sei sicuro.`;
   const ai=(await openaiChat(prompt,true))||(await geminiText(prompt,true));
   let pick=null;
   if(ai){ try{ pick=JSON.parse(cleanJsonText(ai)); }catch(e){} }
@@ -1633,6 +1738,8 @@ async function fillMissingCastPhotosAi(){
       const input=r.querySelector(".c_foto");
       input.value=found.url;
       input.dispatchEvent(new Event("input",{bubbles:true}));
+      input.dataset.photoSource=found.source||"AI";
+      input.dataset.photoPage=found.page||found.url;
       done++;
     } else miss++;
     await new Promise(res=>setTimeout(res,120));
@@ -1644,11 +1751,12 @@ function collectCast(){
   return Array.from($("m_cast").querySelectorAll(".castrow")).map(r=>{
     const nome=r.querySelector(".c_nome").value.trim();
     const pers=r.querySelector(".c_pers").value.trim();
-    const foto=r.querySelector(".c_foto").value.trim();
+    const fotoInput=r.querySelector(".c_foto");
+    const foto=fotoInput.value.trim();
     if(!nome) return null;
     return { nome, personaggio:pers||null, foto_url:foto||null,
       foto_tipo: foto?"foto_attore":"nessuna",
-      foto_fonte:{ nome:"manuale", url_pagina_origine:null, verificata:!!foto } };
+      foto_fonte:{ nome:fotoInput.dataset.photoSource||"manuale", url_pagina_origine:fotoInput.dataset.photoPage||null, verificata:!!foto } };
   }).filter(Boolean);
 }
 async function modalSearch(){
