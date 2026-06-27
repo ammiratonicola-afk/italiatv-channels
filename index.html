@@ -833,6 +833,45 @@ function deriveGenre(tmdbGenres){
 let catalogAll=null, catRawObj=null, catalogRenderSeq=0; const catDirty=new Set(); const catSel=new Set(); const catRenamed={};
 // stato per i badge (popolati dalla diagnostica YouTube): geo-bloccati e non disponibili
 const geoBlockedSet=new Set(), unavailableSet=new Set(), shortDurSet=new Set(), ageRestrictedSet=new Set(); let diagResults=null; let diagCatOpen=null;
+const SUB_ITA_MARKERS=[
+  "sottotitoli in italiano","sottotitoli italiani","sottotitoli ita","sottotitolato in italiano",
+  "sottotitolata in italiano","sottotitolati in italiano","sottotitoli italiano",
+  "sub ita","sub-ita","sub. ita","subtitoli ita","vostit","v.o.s.t. it",
+  "film coreano completo","film completo coreano","korean movie","k-drama"
+];
+const DUB_ITA_MARKERS=[
+  "doppiato in italiano","doppiaggio italiano","audio italiano","film completo in italiano",
+  "in italiano hd","in italiano 4k","lingua italiana","versione italiana"
+];
+const FOREIGN_SUB_HINTS=[
+  "coreano","korean","cinese","chinese","giapponese","japanese","turco","turkish",
+  "indiano","hindi","thai","tailandese","russo","russian"
+];
+function htmlEsc(s){ return String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c])); }
+function flatDiagText(v){
+  if(v==null) return "";
+  if(Array.isArray(v)) return v.map(flatDiagText).join(" ");
+  if(typeof v==="object") return Object.values(v).map(flatDiagText).join(" ");
+  return String(v);
+}
+function subItaBlob(m){
+  const v2=m.strict_id_v2||{}, strict=m.strict_id||{};
+  return [
+    m.original_title,m.tmdb_title,m.tmdb_title_official,m.quality_notes,m.reason_not_movie,m.final_qa_issue,
+    m.final_qa_quality,v2,strict
+  ].map(flatDiagText).filter(Boolean).join(" ").toLowerCase();
+}
+function hasAnyMarker(text, markers){ return markers.some(x=>text.includes(x)); }
+function subItaReason(m){
+  const blob=subItaBlob(m);
+  const hasSub=hasAnyMarker(blob,SUB_ITA_MARKERS) || /sottotitol[ioae]*\s+(in\s+)?italian[oaie]/.test(blob);
+  const hasForeign=hasAnyMarker(blob,FOREIGN_SUB_HINTS);
+  const hasDub=hasAnyMarker(blob,DUB_ITA_MARKERS);
+  if(hasSub && !hasDub) return "marker sottotitoli/sub-ITA senza conferma audio italiano";
+  if(hasForeign && blob.includes("sottotitol") && !hasDub) return "film estero con indicazione sottotitoli, senza conferma doppiaggio";
+  return "";
+}
+function isSubItaCandidate(x){ return !!(x && x.m && subItaReason(x.m)); }
 // Ricalcola i conteggi diagnostica: le categorie LOCALI (poster/trama/cast/lingua) si rifanno
 // al volo da catalogAll; quelle da YouTube (geo/disponibilità/durata) riusano i Set dell'ultima
 // scansione (niente nuove chiamate API a ogni modifica).
@@ -845,6 +884,7 @@ function recomputeDiag(){
     noTrailer: catalogAll.filter(x=>{ const tr=(x.m.strict_id_v2||{}).trailer; return !(tr && tr.url) && !x.m.trailer_url; }),
     noDuration: catalogAll.filter(x=>x.m.tmdb_id && !((x.m.strict_id_v2||{}).durata_minuti)),
     nonItalianPlot: catalogAll.filter(x=>{ const p=((x.m.strict_id_v2||{}).trama)||x.m.enriched_plot; return p && !isProbablyItalian(p); }),
+    subItaOnly: catalogAll.filter(isSubItaCandidate),
     shortDur: catalogAll.filter(x=>{ const dm=(x.m.strict_id_v2||{}).durata_minuti; return dm ? (dm<40) : shortDurSet.has(x.m.video_id); }),
     duplicates: (()=>{ const s=new Set(); findDupGroups().forEach(g=>g.items.forEach(x=>s.add(x))); return [...s]; })(),
     geoBlocked: catalogAll.filter(x=>geoBlockedSet.has(x.m.video_id)),
@@ -880,6 +920,7 @@ function markFilmDeleted(x, reason){
   cm.reason_not_movie=reason;
   cm.deleted_by_editor=true;
   cm.deleted_at=new Date().toISOString();
+  if((reason||"").toLowerCase().includes("sub-ita")) cm.subita_diagnostic_removed_at=new Date().toISOString();
   catDirty.add(m.video_id);
   return "cat";
 }
@@ -1125,6 +1166,7 @@ const DIAG_CATS=[
   ["noDuration","⏱️ Senza durata (estraibile da TMDB)"],
   ["duplicates","🔁 Doppioni (stesso TMDB / stesso video)"],
   ["nonItalianPlot","🌐 Trama non in italiano"],
+  ["subItaOnly","🎧 Non in italiano / solo sottotitoli"],
   ["geoBlocked","🌍 Geo-bloccati in Italia (partono via proxy)"],
   ["ageRestricted","🔞 Restrizione d'età (non si riproducono senza login YouTube)"],
   ["unavailable","🚫 Video non disponibili su YouTube"],
@@ -1168,14 +1210,37 @@ function showDiagCat(i){
   let bulk="";
   if(items.length){
     if(key==="nonItalianPlot") bulk=` <button class="sec" onclick="translateAllPlots()" style="padding:4px 10px;font-size:12px">🌐 Traduci tutte in italiano</button>`;
+    else if(key==="subItaOnly") bulk=` <button class="sec" onclick="deleteSubItaCandidates()" style="padding:4px 10px;font-size:12px">🗑 Elimina tutti questi film</button>`;
     else if(key==="noTrailer") bulk=` <button class="sec" onclick="findAllTrailers()" style="padding:4px 10px;font-size:12px">🔎 Cerca trailer a tutte</button>`;
     else if(key==="noDuration") bulk=` <button class="sec" onclick="fillDurationsFromTmdb()" style="padding:4px 10px;font-size:12px">⏱️ Estrai durata da TMDB</button>`;
   }
   sec.innerHTML=`<h3>${DIAG_CATS[i][1]} (${items.length}) — <a href="#" onclick="renderDiagnostics();return false">‹ torna alla diagnostica</a>${bulk}</h3>`;
   const grid=document.createElement("div"); grid.className="gcat";
-  items.forEach(x=>grid.appendChild(catCard(x, channelOf(x))));
+  items.forEach(x=>{
+    const label=key==="subItaOnly" ? `${channelOf(x)}<br><small>${htmlEsc(subItaReason(x.m))}</small>` : channelOf(x);
+    grid.appendChild(catCard(x, label));
+  });
   sec.appendChild(grid); C.appendChild(sec);
   $("catInfo").textContent=`${items.length} film · ${DIAG_CATS[i][1]}`;
+}
+function deleteSubItaCandidates(){
+  const items=((diagResults&&diagResults.subItaOnly)||[]).slice();
+  if(!items.length){ status("Nessun film non in italiano / sub-ITA da eliminare.",false); return; }
+  if(!confirm(`Eliminare ${items.length} film segnalati come non in italiano / solo sottotitoli?\nNon saranno più visibili nell'app dopo il salvataggio.`)) return;
+  let ncat=0,nman=0;
+  items.forEach(x=>{
+    const key=catKey(x);
+    const res=markFilmDeleted(x, "sub-ita: audio non italiano / solo sottotitoli italiani");
+    if(res==="cat") ncat++;
+    else if(res==="man") nman++;
+    removeFromCatalogAll(key);
+    catSel.delete(key);
+  });
+  if(ncat) $("saveCatBtn").style.display="inline-block";
+  if(nman) render();
+  updateDelSelBtn();
+  status(`Eliminati ${ncat+nman} film non in italiano / sub-ITA. Salva: catalogo col pulsante verde${nman?", manuali con 'Salva su GitHub'":""}.`,true);
+  recomputeDiag(); showDiagCat(DIAG_CATS.findIndex(c=>c[0]==="subItaOnly"));
 }
 // Prende la durata da TMDB per il film aperto nel modale (usa l'ID TMDB del campo).
 async function fetchDurationTmdb(){
