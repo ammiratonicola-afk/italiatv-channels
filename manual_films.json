@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T15:59:32.727Z",
+  "generated_at": "2026-06-28T20:22:11.530Z",
   "movies": [
     {
       "video_id": "zYeeo62exh0",
@@ -3759,8 +3759,8 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "original_title": "Casper - Il film",
-      "genre": "fantascienza",
+      "original_title": "Casper's Haunted Christmas",
+      "genre": "animazione",
       "tmdb_id": 5833,
       "tmdb_title_official": "Casper - Il film",
       "tmdb_year_official": 2000,
@@ -3789,8 +3789,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/izxtFSio5twcVA1oJWPvobxpcZj.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/84490",
               "verificata": true
             }
           },
@@ -3800,8 +3800,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/1Dp2haOZwmp40Zh3Su1op13WErN.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/45922",
               "verificata": true
             }
           },
@@ -3811,8 +3811,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/X2aSMT2oxsk1xzSigV8fIqxTtU.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/45923",
               "verificata": true
             }
           },
@@ -3822,8 +3822,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/y0p99omSo8CgHWPjv7qXtAQVyzr.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/45924",
               "verificata": true
             }
           },
@@ -3833,8 +3833,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/phnk0SiKZtYocvejSNufFyVkaMy.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/45926",
               "verificata": true
             }
           },
@@ -3844,8 +3844,8 @@
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/45927",
               "verificata": false
             }
           },
@@ -3855,8 +3855,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/rjiHH4krrSdipdSUdSUjvODKJM2.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/74363",
               "verificata": true
             }
           },
@@ -3866,8 +3866,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/cL5x8rK0L6cMMZbfgrqMKEMtCPj.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/52291",
               "verificata": true
             }
           },
@@ -3877,8 +3877,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/6t5LJdFTW7VSu7UYULs22quJIT.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/89552",
               "verificata": true
             }
           },
@@ -3888,8 +3888,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/ljFeqt5uanRHqKTuMumd0iMW69b.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/74360",
               "verificata": true
             }
           }
@@ -3898,9 +3898,18 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/nxxyZQFBAX6Q7leiCJgXmdnxneh.jpg",
         "trailer": null,
-        "tmdb_id_scelto": 5833
+        "tmdb_id_scelto": 5833,
+        "imdb_id_scelto": "tt0284946",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-06-28T20:19:16.551Z"
       },
-      "tmdb_media_type": "movie"
+      "tmdb_media_type": "movie",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-06-28T20:19:16.551Z",
+      "editor_updated_at": "2026-06-28T20:19:16.551Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "zQpn5VoeoN0",
@@ -7313,7 +7322,6 @@
         "anno_uscita": 1986,
         "durata_minuti": 112,
         "genere": [
-          "Animazione",
           "Commedia"
         ],
         "regista": [
@@ -7439,12 +7447,22 @@
           "lingua": "it",
           "fonte": "YouTube",
           "canale": null,
-          "ufficiale": true,
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos"
+          "motivo_verifica": "trailer YouTube"
         },
-        "tmdb_id_scelto": 43211
-      }
+        "tmdb_id_scelto": 43211,
+        "imdb_id_scelto": "tt0091925",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-06-28T20:21:20.098Z"
+      },
+      "tmdb_media_type": "movie",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-06-28T20:21:20.098Z",
+      "editor_updated_at": "2026-06-28T20:21:20.098Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "OggcIGr6iMg",
@@ -8056,7 +8074,7 @@
       "is_movie": true,
       "channel": "Commedia",
       "manual_include": true,
-      "original_title": "Ricky & Barabba",
+      "original_title": "Ricky e Barabba",
       "genre": "commedia",
       "tmdb_id": 42438,
       "tmdb_title_official": "Ricky & Barabba",
@@ -8072,7 +8090,6 @@
         "anno_uscita": 1992,
         "durata_minuti": 83,
         "genere": [
-          "Animazione",
           "Commedia"
         ],
         "regista": [
@@ -8103,7 +8120,7 @@
           },
           {
             "nome": "Francesca Reggiani",
-            "personaggio": "Signora Morandi",
+            "personaggio": "Mrs. Morandi",
             "foto_url": "https://image.tmdb.org/t/p/w185/yjkupdiiZ0e5hLgApIIwLQ6Z2a2.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -8198,12 +8215,22 @@
           "lingua": "it",
           "fonte": "YouTube",
           "canale": null,
-          "ufficiale": true,
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos"
+          "motivo_verifica": "trailer YouTube"
         },
-        "tmdb_id_scelto": 42438
-      }
+        "tmdb_id_scelto": 42438,
+        "imdb_id_scelto": "tt0107958",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-06-28T20:20:43.574Z"
+      },
+      "tmdb_media_type": "movie",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-06-28T20:20:43.574Z",
+      "editor_updated_at": "2026-06-28T20:20:43.574Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "UYvnawTGjb0",
@@ -8226,7 +8253,6 @@
         "anno_uscita": 1984,
         "durata_minuti": 92,
         "genere": [
-          "Animazione",
           "Commedia"
         ],
         "regista": [
@@ -8353,12 +8379,22 @@
           "lingua": "it",
           "fonte": "YouTube",
           "canale": null,
-          "ufficiale": true,
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos"
+          "motivo_verifica": "trailer YouTube"
         },
-        "tmdb_id_scelto": 38285
-      }
+        "tmdb_id_scelto": 38285,
+        "imdb_id_scelto": "tt0087971",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-06-28T20:21:02.810Z"
+      },
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-06-28T20:21:02.810Z",
+      "editor_updated_at": "2026-06-28T20:21:02.810Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "fUm3hyRvMbo",
@@ -8536,7 +8572,6 @@
         "anno_uscita": 2022,
         "durata_minuti": 87,
         "genere": [
-          "Animazione",
           "Commedia"
         ],
         "regista": [
@@ -8662,12 +8697,22 @@
           "lingua": "it",
           "fonte": "YouTube",
           "canale": null,
-          "ufficiale": true,
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos"
+          "motivo_verifica": "trailer YouTube"
         },
-        "tmdb_id_scelto": 773820
-      }
+        "tmdb_id_scelto": 773820,
+        "imdb_id_scelto": "tt16751976",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-06-28T20:19:03.307Z"
+      },
+      "tmdb_media_type": "movie",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-06-28T20:19:03.307Z",
+      "editor_updated_at": "2026-06-28T20:19:03.307Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "VzZTxhTxrgw",
@@ -9162,7 +9207,6 @@
         "anno_uscita": 2015,
         "durata_minuti": 95,
         "genere": [
-          "Animazione",
           "Commedia"
         ],
         "regista": [
@@ -9288,12 +9332,22 @@
           "lingua": "it",
           "fonte": "YouTube",
           "canale": null,
-          "ufficiale": true,
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos"
+          "motivo_verifica": "trailer YouTube"
         },
-        "tmdb_id_scelto": 323659
-      }
+        "tmdb_id_scelto": 323659,
+        "imdb_id_scelto": "tt3835904",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-06-28T20:21:56.918Z"
+      },
+      "tmdb_media_type": "movie",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-06-28T20:21:56.918Z",
+      "editor_updated_at": "2026-06-28T20:21:56.918Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "KlfPxf1T_lU",
@@ -12861,10 +12915,10 @@
       "is_movie": true,
       "channel": "Commedia",
       "manual_include": true,
-      "original_title": "Lo chiamavano Trinità",
-      "genre": "commedia",
+      "original_title": "Lo chiamavano Trinità...",
+      "genre": "western",
       "tmdb_id": 9394,
-      "tmdb_title_official": "Lo chiamavano Trinità",
+      "tmdb_title_official": "Lo chiamavano Trinità...",
       "tmdb_year_official": 1970,
       "tmdb_poster_path": "/qo5KIMy80sJn8g8T5So3RLABht6.jpg",
       "tmdb_confidence": "verified",
@@ -12872,12 +12926,11 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_italiano": "Lo chiamavano Trinità",
+        "titolo_italiano": "Lo chiamavano Trinità...",
         "titolo_originale": "Lo chiamavano Trinità...",
         "anno_uscita": 1970,
         "durata_minuti": 113,
         "genere": [
-          "Animazione",
           "Azione",
           "Commedia",
           "Western"
@@ -13005,12 +13058,22 @@
           "lingua": "it",
           "fonte": "YouTube",
           "canale": null,
-          "ufficiale": true,
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos"
+          "motivo_verifica": "trailer YouTube"
         },
-        "tmdb_id_scelto": 9394
-      }
+        "tmdb_id_scelto": 9394,
+        "imdb_id_scelto": "tt0067355",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-06-28T20:22:08.487Z"
+      },
+      "tmdb_media_type": "movie",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-06-28T20:22:08.487Z",
+      "editor_updated_at": "2026-06-28T20:22:08.487Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "hyII3zBWyXc",
