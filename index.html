@@ -1646,9 +1646,14 @@ function commonsFileUrl(file){
 }
 function compactText(s,n=700){ return String(s||"").replace(/<[^>]+>/g," ").replace(/\s+/g," ").trim().slice(0,n); }
 function normText(s){ return String(s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g," ").trim(); }
-async function fetchJsonSafe(url){
-  try{ const r=await fetch(url,{cache:"no-store"}); return r.ok?await r.json():null; }
-  catch(e){ return null; }
+async function fetchJsonSafe(url, timeoutMs=8000){
+  const ctrl=new AbortController();
+  const timer=setTimeout(()=>ctrl.abort(),timeoutMs);
+  try{
+    const r=await fetch(url,{cache:"no-store",signal:ctrl.signal});
+    return r.ok?await r.json():null;
+  }catch(e){ return null; }
+  finally{ clearTimeout(timer); }
 }
 function dedupeCandidates(items, max=38){
   const seen=new Set(), out=[];
@@ -1665,6 +1670,16 @@ function filmMatchScore(titleValue, filmTitle){
   if(!a||!b) return 0;
   if(a===b) return 30;
   if(a.includes(b)||b.includes(a)) return 18;
+  return 0;
+}
+function actorNameScore(candidateName, wantedName){
+  const a=normText(candidateName), b=normText(wantedName);
+  if(!a||!b) return 0;
+  if(a===b) return 35;
+  const aw=a.split(" "), bw=b.split(" ");
+  const common=bw.filter(x=>aw.includes(x)).length;
+  if(common>=Math.min(2,bw.length)) return 22;
+  if(common===1 && bw.length===1) return 14;
   return 0;
 }
 function commonsPageToCandidate(p, source, baseScore=0){
@@ -1705,7 +1720,7 @@ async function wikiImageCandidates(lang, nome, filmTitle){
   for(const q of queries){
     try{
       const url=`https://${lang}.wikipedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(q)}&gsrlimit=6&prop=pageimages|extracts|info&inprop=url&piprop=original|thumbnail&pithumbsize=500&exintro=1&explaintext=1&format=json&origin=*`;
-      const d=await fetch(url).then(r=>r.json());
+      const d=await fetchJsonSafe(url);
       Object.values((d.query&&d.query.pages)||{}).forEach(p=>{
         const img=(p.original&&p.original.source)||(p.thumbnail&&p.thumbnail.source)||null;
         if(!img) return;
@@ -1769,8 +1784,30 @@ async function imdbImageCandidates(nome, filmTitle, year){
     const img=x.i&&x.i.imageUrl;
     return {key:`imdb-${x.id}`, source:"IMDb", title:x.l||nome, image:img||null,
       page:`https://www.imdb.com/name/${x.id}/`, context:compactText(ctx,600),
-      score:28+filmMatchScore(x.l,nome)+filmMatchScore(ctx,filmTitle)+(year&&ctx.includes(year)?6:0)+(img?10:0)+(10-i)};
+      score:28+actorNameScore(x.l,nome)+filmMatchScore(ctx,filmTitle)+(year&&ctx.includes(year)?6:0)+(img?10:0)+(10-i)};
   });
+}
+async function tvmazeImageCandidates(nome, filmTitle, year){
+  const d=await fetchJsonSafe(`https://api.tvmaze.com/search/people?q=${encodeURIComponent(nome)}`);
+  const people=(d||[]).map(x=>x.person).filter(Boolean).slice(0,8);
+  return Promise.all(people.map(async (p,i)=>{
+    const credits=await fetchJsonSafe(`https://api.tvmaze.com/people/${p.id}/castcredits?embed=show`);
+    const shows=(credits||[]).map(c=>c._embedded&&c._embedded.show).filter(Boolean).slice(0,18);
+    const known=shows.map(s=>({title:s.name||"", year:(s.premiered||"").slice(0,4), type:s.type||""}));
+    const ctx=[
+      `nome: ${p.name||""}`,
+      `paese: ${p.country&&p.country.name||""}`,
+      `genere: ${p.gender||""}`,
+      `nascita: ${p.birthday||""}`,
+      `noto per: ${known.slice(0,10).map(k=>`${k.title} ${k.year}`.trim()).join(" | ")}`
+    ].join("; ");
+    const filmScore=Math.max(0,...known.map(k=>filmMatchScore(k.title,filmTitle)+(year&&k.year===year?8:0)));
+    const img=(p.image&&((p.image.medium)||(p.image.original)))||null;
+    return {key:`tvmaze-${p.id}`, source:"TVMaze", title:p.name||nome, image:img,
+      page:p.url||`https://www.tvmaze.com/people/${p.id}`,
+      context:compactText(ctx,700),
+      score:20+actorNameScore(p.name,nome)+filmScore+(img?10:0)+(8-i)};
+  }));
 }
 async function tmdbPersonCandidates(nome, filmTitle, year){
   const d=await fetchJsonSafe(`${TMDB}/search/person?api_key=${TKEY}&language=it-IT&query=${encodeURIComponent(nome)}`) || {results:[]};
@@ -1795,7 +1832,7 @@ async function tmdbPersonCandidates(nome, filmTitle, year){
         `noto per: ${known.slice(0,8).map(k=>`${k.title} ${k.year}`.trim()).join(" | ")}`
       ].join("; "),
       popularity:p.popularity||0,
-      score:30+filmScore+(p.profile_path||imgPath?10:0)+(p.popularity||0)/5,
+      score:30+actorNameScore(p.name,nome)+filmScore+(p.profile_path||imgPath?10:0)+(p.popularity||0)/5,
       known_for:known.slice(0,8)
     };
   }));
@@ -1805,9 +1842,10 @@ async function findCastPhotoWithAi(nome, personaggio){
   if(!q) return null;
   const filmTitle=$("m_title").value.trim()||((editing&&editing.m&&title(editing.m))||"");
   const year=$("m_year").value.trim();
-  const [tmdb,imdb,wikiIt,wikiEn,wikiFr,wikiEs,wikiDe,wdata,commons,openverse]=await Promise.all([
+  const [tmdb,imdb,tvmaze,wikiIt,wikiEn,wikiFr,wikiEs,wikiDe,wdata,commons,openverse]=await Promise.all([
     tmdbPersonCandidates(q,filmTitle,year),
     imdbImageCandidates(q,filmTitle,year),
+    tvmazeImageCandidates(q,filmTitle,year),
     wikiImageCandidates("it",q,filmTitle),
     wikiImageCandidates("en",q,filmTitle),
     wikiImageCandidates("fr",q,filmTitle),
@@ -1817,10 +1855,17 @@ async function findCastPhotoWithAi(nome, personaggio){
     commonsSearchImageCandidates(q,filmTitle),
     openverseImageCandidates(q,filmTitle)
   ]);
-  const cands=dedupeCandidates([...tmdb,...imdb,...wikiIt,...wikiEn,...wikiFr,...wikiEs,...wikiDe,...wdata,...commons,...openverse],42);
+  const cands=dedupeCandidates([...tmdb,...imdb,...tvmaze,...wikiIt,...wikiEn,...wikiFr,...wikiEs,...wikiDe,...wdata,...commons,...openverse],48);
   if(!cands.length) return null;
   const list=cands.map((c,i)=>`${i}. score=${Math.round(c.score||0)}; fonte=${c.source}; titolo="${c.title}"; foto=${c.image?"si":"no"}; pagina=${c.page||""}; contesto=${compactText(c.context,520)}`).join("\n");
-  const prompt=`Devi scegliere quale risultato web contiene la foto corretta di un attore.\nLa ricerca e' incrociata: nome attore + nome film, poi allargata a fonti aperte.\nFilm: "${filmTitle}" (${year||"anno non indicato"})\nAttore: "${q}"${personaggio?`\nPersonaggio nel film: "${personaggio}"`:""}\n\nCandidati da TMDB, IMDb, Wikipedia multilingua, Wikidata, Wikimedia Commons, categorie Commons e Openverse:\n${list}\n\nScegli il candidato corretto solo se sei ragionevolmente sicuro che il risultato rappresenti l'attore richiesto. Dai peso a: nome uguale, filmografia/contesto compatibile col film, pagina biografica dell'attore, presenza foto. Non scegliere pagine del film, personaggi, copertine, loghi o omonimi non attori. Rispondi SOLO con JSON valido:\n{"index":0,"confidence":"alta|media|bassa","reason":"breve motivo"}\nUsa {"index":null,"confidence":"bassa","reason":"incerto"} se non sei sicuro.`;
+  const prompt=`Devi scegliere quale risultato web contiene la foto corretta di un attore.\nLa ricerca e' incrociata: nome attore + nome film, poi allargata a fonti aperte.\nFilm: "${filmTitle}" (${year||"anno non indicato"})\nAttore: "${q}"${personaggio?`\nPersonaggio nel film: "${personaggio}"`:""}\n\nCandidati da TMDB, IMDb, TVMaze, Wikipedia multilingua, Wikidata, Wikimedia Commons, categorie Commons e Openverse:\n${list}\n\nRegole severe:
+- scegli solo pagine/person record dell'attore, non pagina film, personaggio, poster, copertina o logo;
+- il nome deve coincidere o essere una variante evidente;
+- se il film/anno/personaggio appare nella filmografia o nel contesto, aumenta la fiducia;
+- TMDB/IMDb/TVMaze/Wikidata con profilo biografico sono preferibili a immagini generiche;
+- se ci sono omonimi o il contesto non basta, rispondi index:null;
+- meglio lasciare la foto vuota che salvare il volto sbagliato.
+Rispondi SOLO con JSON valido:\n{"index":0,"confidence":"alta|media|bassa","reason":"breve motivo"}\nUsa {"index":null,"confidence":"bassa","reason":"incerto"} se non sei sicuro.`;
   const ai=(await openaiChat(prompt,true))||(await geminiText(prompt,true));
   let pick=null;
   if(ai){ try{ pick=JSON.parse(cleanJsonText(ai)); }catch(e){} }
