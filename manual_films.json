@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T05:19:52.401Z",
+  "generated_at": "2026-06-28T06:12:35.847Z",
   "movies": [
     {
       "video_id": "zYeeo62exh0",
@@ -13641,7 +13641,7 @@
       "is_movie": true,
       "manual_include": true,
       "channel": "Manuale",
-      "genre": "thriller",
+      "genre": "poliziesco",
       "original_title": "Honest Thief",
       "tmdb_id": 553604,
       "tmdb_title_official": "Honest Thief",
@@ -13671,8 +13671,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/g0iIEyt9ILiKTG0g8K69US5VtLy.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3896",
               "verificata": true
             }
           },
@@ -13682,8 +13682,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/jRg4pmjvI2063YnQ6PJidclOc4L.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/61114",
               "verificata": true
             }
           },
@@ -13693,8 +13693,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/6vEaNwbOKov6yzQx15CdtrqfK3L.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/224181",
               "verificata": true
             }
           },
@@ -13704,8 +13704,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/wlDXfXpu6Uz32LUmbFzU8QPDoQH.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/52886",
               "verificata": true
             }
           },
@@ -13715,8 +13715,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/gCeRfH3aetIpZwKxe8Wl4ZYcQg5.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1560244",
               "verificata": true
             }
           },
@@ -13726,8 +13726,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/qRv2Es9rZoloullTbzss3I5j1Mp.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/418",
               "verificata": true
             }
           },
@@ -13737,8 +13737,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/rf4BnsNkCSUNyDnEEr1YmCxzEzB.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1291890",
               "verificata": true
             }
           },
@@ -13748,8 +13748,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/95RC9zknwrJzjBtDl3Pil5UTVFB.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2049531",
               "verificata": true
             }
           },
@@ -13759,8 +13759,8 @@
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2924475",
               "verificata": false
             }
           },
@@ -13770,8 +13770,8 @@
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4376370",
               "verificata": false
             }
           }
@@ -13779,9 +13779,25 @@
         "trama": "Tom Carter, ladro meticoloso, ha rubato 9 milioni di dollari da banche di piccole città, riuscendo a mantenere segreta la sua identità. Ma dopo essersi innamorato di Annie, Tom decide di ricominciare da capo ripulendosi dal passato criminale, per poi essere braccato da due spietati e corrotti agenti dell'FBI.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/8yRyc5Vib9H4BcPlLR7e8rM3eIb.jpg",
-        "trailer": null,
-        "tmdb_id_scelto": 553604
-      }
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=5Mvu5c6ws0w"
+        },
+        "tmdb_id_scelto": 553604,
+        "imdb_id_scelto": "tt1838556",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-06-28T06:12:31.984Z"
+      },
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-06-28T06:12:31.984Z",
+      "editor_updated_at": "2026-06-28T06:12:31.984Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "2w3StrAt5Mg",
@@ -14716,7 +14732,7 @@
       "is_movie": true,
       "manual_include": true,
       "channel": "Manuale",
-      "genre": "thriller",
+      "genre": "poliziesco",
       "original_title": "Payback",
       "tmdb_id": 2112,
       "tmdb_title_official": "Payback - La rivincita di Porter",
@@ -14744,11 +14760,11 @@
           {
             "nome": "Mel Gibson",
             "personaggio": "Porter",
-            "foto_url": "https://image.tmdb.org/t/p/w185/yk7t6dXTxThonouyBLI7Sjd1xzG.jpg",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jnqHMaOslt8cef2atSmOpGRvNla.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2461",
               "verificata": true
             }
           },
@@ -14758,8 +14774,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/j17nuAFulrbYP34g4Qw8SZRDNUo.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2518",
               "verificata": true
             }
           },
@@ -14769,8 +14785,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/it1f5mxiGIWO0DzTBfwtLTjphZb.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/49",
               "verificata": true
             }
           },
@@ -14780,8 +14796,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/owoOdDFgXpls1OFKwmQ104Nkl5.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/19839",
               "verificata": true
             }
           },
@@ -14791,8 +14807,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/hZrYPwer5PeK77OEILkNWHVb3ss.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1103",
               "verificata": true
             }
           },
@@ -14802,8 +14818,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/kPhYhisjduJ9ztFSwYQ6Ke6qeJy.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/13549",
               "verificata": true
             }
           },
@@ -14813,8 +14829,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/aPmq20MXqFALrUxaaJoC2Xonumo.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5589",
               "verificata": true
             }
           },
@@ -14824,8 +14840,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/wCfPYMkAOCXM4RF1Pg6VhtKR50U.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/21416",
               "verificata": true
             }
           },
@@ -14835,8 +14851,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/9nbtjqsx3De7hO2XDtrBQ7M9VCH.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/140",
               "verificata": true
             }
           },
@@ -14846,8 +14862,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/efD2Uu8QYBN7ZWSFa79mm3Pkk4L.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/10823",
               "verificata": true
             }
           }
@@ -14855,9 +14871,25 @@
         "trama": "Porter e Val sono due ladri, molto amici tra loro che rubano 130 mila dollari ad un gruppo di malviventi cinesi. Al momento di dividere il bottino, Val, con la complicità della moglie di Porter, Lynn (attirata con l'inganno), si prende tutti i soldi mentre la moglie spara al marito, convinta di ucciderlo. Porter, però, guarisce e ha una sola idea: riprendere la sua parte di soldi e uccidere Val. Quando torna a casa, ritrova la moglie Lynn oramai abbandonata da Val e distrutta e la notte stessa muore per una dose di eroina. Da qui parte la caccia a Val, che nel frattempo è entrato a far parte di una potentissima organizzazione criminale, detta l'\"Organizzazione\"; lo farà con l'aiuto di Rosie, prostituta d'alto bordo e causa del tradimento della moglie. La sua ricerca si tramuta in una escalation continua: l'Organizzazione protegge i propri associati e per riavere quei soldi Porter si ritrova a sfidare l'intero sistema, polizia e mafia cinese inclusi.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/6erwfqyRdeZ5hk7fm7zN2BHG8NH.jpg",
-        "trailer": null,
-        "tmdb_id_scelto": 2112
-      }
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=GpRr6SqYNB4"
+        },
+        "tmdb_id_scelto": 2112,
+        "imdb_id_scelto": "tt0120784",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-06-28T06:12:13.709Z"
+      },
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-06-28T06:12:13.709Z",
+      "editor_updated_at": "2026-06-28T06:12:13.709Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "l4-kP-0UyA0",
