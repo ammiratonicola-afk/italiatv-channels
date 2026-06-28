@@ -332,7 +332,7 @@ let movies=[], results=[], selected=null, manualBaseIds=new Set();
 
 const $=id=>document.getElementById(id);
 const ytId=s=>{ s=(s||"").trim(); const m=s.match(/(?:v=|youtu\.be\/|embed\/|shorts\/)([A-Za-z0-9_-]{11})/); return m?m[1]:(/^[A-Za-z0-9_-]{11}$/.test(s)?s:null); };
-function status(msg,ok){ const s=$("status"); if(s){ s.textContent=msg; s.className=ok?"ok":"err"; }
+function status(msg,ok){ const s=$("status"); if(s){ s.textContent=msg||""; s.className=ok?"ok":"err"; s.style.display=msg?"block":"none"; }
   const ss=$("settings_status"); if(ss){ ss.textContent=msg; ss.style.color=ok?"var(--ok)":"var(--err)"; } }
 function poster(m){ if(m.tmdb_poster_path) return IMG+"w185"+m.tmdb_poster_path; if(m.video_id) return `https://i.ytimg.com/vi/${m.video_id}/mqdefault.jpg`; return ""; }
 function title(m){ return m.tmdb_title_official||m.original_title||m.video_id||"(senza titolo)"; }
@@ -423,7 +423,7 @@ async function load(){
     if(!j) j=await fetch(RAW+"?t="+Date.now(),{cache:"no-store"}).then(r=>r.json());
     movies=j.movies||[];
     manualBaseIds=new Set(movies.map(m=>m.video_id).filter(Boolean));
-    render(); status("Caricati "+movies.length+" film.",true);
+    render(); status("",true);
   }catch(e){ status("Errore caricamento: "+e.message,false); }
 }
 
