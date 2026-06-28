@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T04:47:14.757Z",
+  "generated_at": "2026-06-28T05:19:52.401Z",
   "movies": [
     {
       "video_id": "zYeeo62exh0",
@@ -8965,9 +8965,24 @@
         "trama": "Ormai quasi maggiorenne e disoccupato, Pierino decide di tornare a scuola per prendere la licenza elementare. Tuttavia il suo rendimento scolastico continua ad essere scarso tanto da indurre la nonna a giocarsi i voti della pagella alla schedina del Totocalcio. La nonna grazie ai voti di Pierino riuscirà a vincere la lotteria utilizzando la vincita per rinnovare l’osteria, senza dare nessun soldo al nipote che si vendicherà chiudendo tutta la sua famiglia nei bagni dell’osteria…",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/poG89L5EuTABykSHEcBrvp0W9qZ.jpg",
-        "trailer": null,
-        "tmdb_id_scelto": 103134
-      }
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=PJ_-qxrZKTA"
+        },
+        "tmdb_id_scelto": 103134,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-06-28T05:19:35.570Z"
+      },
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-06-28T05:19:35.570Z",
+      "editor_updated_at": "2026-06-28T05:19:35.570Z",
+      "editor_lock_reason": "modifica manuale editor"
     },
     {
       "video_id": "Ae4f1RYUFK0",
@@ -12047,9 +12062,24 @@
         "trama": "L'anziano proprietario Loppi sta per vendere il fatiscente ristorante Eden - una rotonda sul mare - ad Azzaro junior, mobiliere rampante e gaglioffo che fa coincidere il giorno dell'acquisto con le nozze d'oro del degno padre, che ha la \"delicatezza\" di invitare alla cerimonia anche l'amante, con grande frustrazione della moglie. Azzaro jr. lascia al personale in servizio la possibilità, se il banchetto sarà impeccabile, di mantenere il posto. Tutti i camerieri decidono di impegnasi a fondo: il maitre Loris Bianchi, che rivanga un passato tanto favoloso quanto improbabile su navi di lusso ed hotel esclusivi con incontri celebri, e fa da \"insegnante\" all'ingenuo nipote Riccardo; l'ex gigolò e calciatore Mario Tangaro, separato con un figlio, con un amichetta di colore che fa la vita e con la passione per le corse dei levrieri; Agostino Rondine, ex campione di fisarmonica frustrato; il cuoco Germano, tanto bacchettone quanto permaloso, che schiavizza il suo aiuto filippino Felipe.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/ihe1T33JgVUwswlJqe1XUrikZ7S.jpg",
-        "trailer": null,
-        "tmdb_id_scelto": 77226
-      }
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=PVPC_8NVXzc"
+        },
+        "tmdb_id_scelto": 77226,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-06-28T05:19:25.198Z"
+      },
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-06-28T05:19:25.198Z",
+      "editor_updated_at": "2026-06-28T05:19:25.198Z",
+      "editor_lock_reason": "modifica manuale editor"
     },
     {
       "video_id": "_IKcANdTUHk",
@@ -14203,12 +14233,27 @@
             }
           }
         ],
-        "trama": "In Sicilia due ragazzi, come quasi tutti i loro conterranei, non hanno lavoro. L'intenzione (fasulla) sarebbe quella di procurarsene uno, ma la pigrizia è tanta. Per salvare la faccia occorre però almeno partecipare a concorsi e selezioni; il modo di farsi bocciare poi lo si trova sempre...",
+        "trama": "In Sicilia due ragazzi, come quasi tutti i loro conterranei, sono disoccupati. L'intenzione (fittizia) sarebbe quella di cercare un lavoro, ma la pigrizia è tanta. Tuttavia, per salvare la faccia, è necessario almeno partecipare a concorsi e selezioni; il modo per farsi bocciare si trova sempre...",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/9pfmKsjxgWSGflGuVDXXZn46hDp.jpg",
-        "trailer": null,
-        "tmdb_id_scelto": 38537
-      }
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=5SJaLVgtRZU"
+        },
+        "tmdb_id_scelto": 38537,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-06-28T05:19:15.911Z"
+      },
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-06-28T05:19:15.911Z",
+      "editor_updated_at": "2026-06-28T05:19:15.911Z",
+      "editor_lock_reason": "modifica manuale editor"
     },
     {
       "video_id": "-YlknZ2CoUU",
@@ -15110,9 +15155,24 @@
         "trama": "Bruno è un piccolo delinquente napoletano: subisce un trapianto di cornea e si scopre innamorato del carabiniere Cipolletta. Forse, perché le cornee ricevute sono quelle della moglie del carabiniere, morta in un incidente stradale.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/A7g7SWqVFe5ak0oCqL3sF4hnkC7.jpg",
-        "trailer": null,
-        "tmdb_id_scelto": 59044
-      }
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=MuGpmwbAths"
+        },
+        "tmdb_id_scelto": 59044,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-06-28T05:19:05.315Z"
+      },
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-06-28T05:19:05.315Z",
+      "editor_updated_at": "2026-06-28T05:19:05.315Z",
+      "editor_lock_reason": "modifica manuale editor"
     },
     {
       "video_id": "q_l1RwNGvhc",
