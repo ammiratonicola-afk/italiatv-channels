@@ -849,6 +849,30 @@ function deriveGenre(tmdbGenres){
   for(const p of GENRE_PRIORITY){ if(keys.has(p)) return p; }
   return "";
 }
+function genreLabel(key){
+  const hit=GENRE_ORDER.find(([k])=>k===(key||""));
+  return hit?hit[1]:(key||"non impostato");
+}
+function extractedGenreForMovie(m){ return deriveGenre(((m||{}).strict_id_v2||{}).genere||[]); }
+function genreFillReason(m){
+  if(!m) return "";
+  const saved=(m.genre||"").trim();
+  const derived=extractedGenreForMovie(m);
+  if(!derived) return "";
+  if(!saved) return `genere editor mancante; estratto: ${genreLabel(derived)}`;
+  if(!GENRE_ORDER.some(([k])=>k===saved)) return `genere editor non valido (${saved}); estratto: ${genreLabel(derived)}`;
+  return "";
+}
+function genreMismatchReason(m){
+  if(!m) return "";
+  const saved=(m.genre||"").trim();
+  const derived=extractedGenreForMovie(m);
+  if(!saved || !derived || !GENRE_ORDER.some(([k])=>k===saved)) return "";
+  if(saved!==derived) return `editor: ${genreLabel(saved)}; estratto: ${genreLabel(derived)}`;
+  return "";
+}
+function isGenreFillNeeded(x){ return !!(x&&x.m&&genreFillReason(x.m)); }
+function isGenreMismatch(x){ return !!(x&&x.m&&genreMismatchReason(x.m)); }
 let catalogAll=null, catRawObj=null, catalogRenderSeq=0; const catDirty=new Set(); const catSel=new Set(); const catRenamed={};
 // stato per i badge (popolati dalla diagnostica YouTube): geo-bloccati e non disponibili
 const geoBlockedSet=new Set(), unavailableSet=new Set(), shortDurSet=new Set(), ageRestrictedSet=new Set(); let diagResults=null; let diagCatOpen=null;
@@ -903,6 +927,8 @@ function recomputeDiag(){
     noTrailer: catalogAll.filter(x=>{ const tr=(x.m.strict_id_v2||{}).trailer; return !(tr && tr.url) && !x.m.trailer_url; }),
     noDuration: catalogAll.filter(x=>x.m.tmdb_id && !((x.m.strict_id_v2||{}).durata_minuti)),
     nonItalianPlot: catalogAll.filter(x=>{ const p=((x.m.strict_id_v2||{}).trama)||x.m.enriched_plot; return p && !isProbablyItalian(p); }),
+    genreFill: catalogAll.filter(isGenreFillNeeded),
+    genreMismatch: catalogAll.filter(isGenreMismatch),
     subItaOnly: catalogAll.filter(isSubItaCandidate),
     shortDur: catalogAll.filter(x=>{ const dm=(x.m.strict_id_v2||{}).durata_minuti; return dm ? (dm<40) : shortDurSet.has(x.m.video_id); }),
     duplicates: (()=>{ const s=new Set(); findDupGroups().forEach(g=>g.items.forEach(x=>s.add(x))); return [...s]; })(),
@@ -1185,6 +1211,8 @@ const DIAG_CATS=[
   ["noDuration","⏱️ Senza durata (estraibile da TMDB)"],
   ["duplicates","🔁 Doppioni (stesso TMDB / stesso video)"],
   ["nonItalianPlot","🌐 Trama non in italiano"],
+  ["genreFill","Generi mancanti/non validi (estraibili)"],
+  ["genreMismatch","Generi non coerenti editor/estrazione"],
   ["subItaOnly","🎧 Non in italiano / solo sottotitoli"],
   ["geoBlocked","🌍 Geo-bloccati in Italia (partono via proxy)"],
   ["ageRestricted","🔞 Restrizione d'età (non si riproducono senza login YouTube)"],
@@ -1232,15 +1260,33 @@ function showDiagCat(i){
     else if(key==="subItaOnly") bulk=` <button class="sec" onclick="deleteSubItaCandidates()" style="padding:4px 10px;font-size:12px">🗑 Elimina tutti questi film</button>`;
     else if(key==="noTrailer") bulk=` <button class="sec" onclick="findAllTrailers()" style="padding:4px 10px;font-size:12px">🔎 Cerca trailer a tutte</button>`;
     else if(key==="noDuration") bulk=` <button class="sec" onclick="fillDurationsFromTmdb()" style="padding:4px 10px;font-size:12px">⏱️ Estrai durata da TMDB</button>`;
+    else if(key==="genreFill") bulk=` <button class="sec" onclick="fillMissingGenres()" style="padding:4px 10px;font-size:12px">Compila generi mancanti</button>`;
   }
   sec.innerHTML=`<h3>${DIAG_CATS[i][1]} (${items.length}) — <a href="#" onclick="renderDiagnostics();return false">‹ torna alla diagnostica</a>${bulk}</h3>`;
   const grid=document.createElement("div"); grid.className="gcat";
   items.forEach(x=>{
-    const label=key==="subItaOnly" ? `${channelOf(x)}<br><small>${htmlEsc(subItaReason(x.m))}</small>` : channelOf(x);
+    const label=key==="subItaOnly" ? `${channelOf(x)}<br><small>${htmlEsc(subItaReason(x.m))}</small>` : key==="genreFill" ? `${channelOf(x)}<br><small>${htmlEsc(genreFillReason(x.m))}</small>` : key==="genreMismatch" ? `${channelOf(x)}<br><small>${htmlEsc(genreMismatchReason(x.m))}</small>` : channelOf(x);
     grid.appendChild(catCard(x, label));
   });
   sec.appendChild(grid); C.appendChild(sec);
   $("catInfo").textContent=`${items.length} film · ${DIAG_CATS[i][1]}`;
+}
+function fillMissingGenres(){
+  const items=((diagResults&&diagResults.genreFill)||[]).slice();
+  if(!items.length){ status("Nessun genere mancante/non valido da compilare.", true); return; }
+  if(!confirm(`Compilare ${items.length} generi mancanti/non validi usando il genere estratto dai metadati?`)) return;
+  let ncat=0,nman=0;
+  items.forEach(x=>{
+    const g=extractedGenreForMovie(x.m); if(!g) return;
+    x.m.genre=g;
+    markEditorVerified(x.m, "genere compilato dalla diagnostica editor");
+    if(x.src==="cat"){ catDirty.add(x.m.video_id); ncat++; }
+    else nman++;
+  });
+  if(ncat) $("saveCatBtn").style.display="inline-block";
+  if(nman) render();
+  recomputeDiag(); showDiagCat(DIAG_CATS.findIndex(c=>c[0]==="genreFill"));
+  status(`Compilati ${ncat+nman} generi mancanti/non validi. Salva le modifiche per pubblicarle.`, true);
 }
 function deleteSubItaCandidates(){
   const items=((diagResults&&diagResults.subItaOnly)||[]).slice();
