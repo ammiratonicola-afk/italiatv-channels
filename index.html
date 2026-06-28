@@ -282,10 +282,10 @@
       <div id="m_yt_prev" style="display:none;margin-top:6px"></div>
       <div id="m_gemini_out" class="aiout"></div>
       <label>Titolo originale suggerito</label><input id="m_original_guess" placeholder="Risultato Gemini, utile per cercare su TMDB">
-      <label style="display:flex;align-items:center;gap:8px">🎬 Link trailer (YouTube)
+      <label style="display:flex;align-items:center;gap:8px">🎬 Link trailer (YouTube / IMDb)
         <button class="sec" type="button" id="m_trailer_btn" onclick="findTrailer()" style="padding:4px 10px;font-size:12px;margin-left:auto">🔎 Cerca trailer (AI)</button>
       </label>
-      <input id="m_trailer" placeholder="https://www.youtube.com/watch?v=…  (vuoto = nessun trailer)" oninput="previewTrailerFromInput()">
+      <input id="m_trailer" placeholder="YouTube oppure https://www.imdb.com/title/tt.../videogallery/content_type-trailer" oninput="previewTrailerFromInput()">
       <div id="m_trailer_prev" style="display:none;margin-top:6px"></div>
       <label style="display:flex;align-items:center;gap:8px">Trama
         <button class="sec" type="button" onclick="translatePlot()" style="padding:4px 10px;font-size:12px;margin-left:auto">🌐 Traduci in italiano</button>
@@ -555,6 +555,41 @@ async function tmdbImdbId(tmdbId, mediaType){
   const type=(mediaType==="tv")?"tv":"movie";
   try{ const d=await fetch(`${TMDB}/${type}/${tmdbId}/external_ids?api_key=${TKEY}`).then(r=>r.json()); return d.imdb_id||null; }catch(e){ return null; }
 }
+function imdbTrailerUrl(imdbId){
+  return imdbId ? `https://www.imdb.com/title/${imdbId}/videogallery/content_type-trailer` : "";
+}
+function isImdbTrailerUrl(url){
+  return /imdb\.com\/(title\/tt\d+\/videogallery|video\/)/i.test(String(url||""));
+}
+function trailerMetaForUrl(url, lingua){
+  if(ytId(url)) return {fonte:"YouTube", lingua:lingua||"it", ufficiale:false, verificato:true, motivo_verifica:"trailer YouTube"};
+  if(isImdbTrailerUrl(url)) return {fonte:"IMDb", lingua:lingua||"altra", ufficiale:true, verificato:true, motivo_verifica:"videogallery trailer IMDb"};
+  return {fonte:"manuale", lingua:lingua||"altra", ufficiale:false, verificato:true, motivo_verifica:"link trailer inserito manualmente"};
+}
+function imdbTrailerCard(url){
+  return `<div style="border:1px solid #3b3b63;border-radius:8px;padding:10px;background:#19192b">
+    <a href="${url}" target="_blank" rel="noopener">🎬 Apri trailer su IMDb ↗</a>
+    <div class="help" style="margin-top:4px">Fallback ufficiale: IMDb contiene la videogallery trailer del film quando YouTube/TMDB non danno risultati affidabili.</div>
+  </div>`;
+}
+function setImdbTrailerFallback(imdbId){
+  const url=imdbTrailerUrl(imdbId);
+  if(!url) return;
+  $("m_trailer").value=url;
+  $("m_trailer_prev").innerHTML=imdbTrailerCard(url);
+  $("m_trailer_prev").style.display="block";
+  status("✓ Trailer IMDb impostato come fallback.",true);
+}
+function appendImdbTrailerLink(imdbId){
+  const url=imdbTrailerUrl(imdbId);
+  if(!url) return;
+  if(!$("m_trailer_prev").innerHTML){ $("m_trailer_prev").style.display="block"; }
+  $("m_trailer_prev").insertAdjacentHTML("beforeend",
+    `<div style="margin-top:6px;display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+      <a href="${url}" target="_blank" rel="noopener">🎬 Trailer IMDb ↗</a>
+      <button class="sec" type="button" onclick="setImdbTrailerFallback('${imdbId}')" style="padding:4px 10px;font-size:12px">Usa IMDb</button>
+    </div>`);
+}
 // ── Ricerca trailer via AI: 1) trailer UFFICIALI TMDB; 2) ricerca YouTube (italiano prima,
 //    filtro durata); 3) l'AI ORDINA tutto preferendo italiano + ufficiale. Lista [{id,t,lingua}]. ──
 async function searchTrailerCands(title, year, tmdbId, mediaType, originalTitle, actors){
@@ -627,20 +662,26 @@ async function findTrailer(){
     status(`✓ Trailer ${res[0].lingua==="it"?"in italiano":"trovato"}: "${res[0].t}". Riclicca "🔎 Cerca trailer" per il prossimo.`,true);
   } else {
     trailerPick={key:"",queue:[]};
-    status("Nessun trailer su YouTube/TMDB. Prova il link IMDb qui sotto.",false);
   }
-  // Fonte aggiuntiva: link alla videogallery TRAILER di IMDb (se il film ha un IMDb id)
+  // Fonte aggiuntiva: videogallery TRAILER di IMDb (se il film ha un IMDb id)
   const imdb=await tmdbImdbId(tid, mtype);
   if(imdb){
-    if(!$("m_trailer_prev").innerHTML){ $("m_trailer_prev").style.display="block"; }
-    $("m_trailer_prev").insertAdjacentHTML("beforeend",
-      `<div style="margin-top:6px"><a href="https://www.imdb.com/title/${imdb}/videogallery/content_type-trailer" target="_blank" rel="noopener">🎬 Cerca/guarda i trailer su IMDb ↗</a></div>`);
+    if(!res.length){
+      setImdbTrailerFallback(imdb);
+      status("Nessun trailer YouTube/TMDB affidabile: impostato fallback IMDb.",true);
+    } else {
+      appendImdbTrailerLink(imdb);
+    }
+  } else if(!res.length){
+    status("Nessun trailer su YouTube/TMDB e nessun IMDb ID disponibile.",false);
   }
 }
 // per la ricerca in blocco (findAllTrailers)
 async function searchTrailerFor(title, year, tmdbId, mediaType, originalTitle, actors){
   const c=await searchTrailerCands(title, year, tmdbId, mediaType, originalTitle, actors);
-  return c.length ? { url:`https://www.youtube.com/watch?v=${c[0].id}`, title:c[0].t, lingua:c[0].lingua } : null;
+  if(c.length) return { url:`https://www.youtube.com/watch?v=${c[0].id}`, title:c[0].t, lingua:c[0].lingua, fonte:"YouTube" };
+  const imdb=await tmdbImdbId(tmdbId, mediaType);
+  return imdb ? { url:imdbTrailerUrl(imdb), title:"IMDb videogallery trailer", lingua:"altra", fonte:"IMDb" } : null;
 }
 // ── Anteprima trailer nel modale ──
 function ytEmbed(id){ return `<iframe width="100%" height="190" src="https://www.youtube.com/embed/${id}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;border:1px solid #33335a"></iframe>`; }
@@ -649,8 +690,10 @@ function setTrailerPreview(id){
   $("m_trailer_prev").innerHTML=ytEmbed(id); $("m_trailer_prev").style.display="block";
 }
 function previewTrailerFromInput(){
-  const id=ytId($("m_trailer").value);
+  const url=$("m_trailer").value.trim();
+  const id=ytId(url);
   if(id){ $("m_trailer_prev").innerHTML=ytEmbed(id); $("m_trailer_prev").style.display="block"; }
+  else if(isImdbTrailerUrl(url)){ $("m_trailer_prev").innerHTML=imdbTrailerCard(url); $("m_trailer_prev").style.display="block"; }
   else { $("m_trailer_prev").style.display="none"; $("m_trailer_prev").innerHTML=""; }
 }
 // Anteprima del FILM (video YouTube di riproduzione) nel modale, come per il trailer.
@@ -672,7 +715,7 @@ async function findAllTrailers(){
     const tr=await searchTrailerFor(title(m), m.tmdb_year_official||"", m.tmdb_id, m.tmdb_media_type, m.original_title, ((m.strict_id_v2||{}).cast_principale||[]).slice(0,2).map(c=>c.nome));
     if(tr){
       m.strict_id_v2=m.strict_id_v2||{};
-      m.strict_id_v2.trailer={url:tr.url, fonte:"YouTube", lingua:tr.lingua, ufficiale:false, verificato:false, motivo_verifica:"ricerca AI"};
+      m.strict_id_v2.trailer=Object.assign({}, trailerMetaForUrl(tr.url,tr.lingua), {url:tr.url, canale:tr.title||null, verificato:false, motivo_verifica:tr.fonte==="IMDb"?"fallback IMDb da TMDB external_ids":"ricerca AI"});
       if(x.src==="cat"){ catDirty.add(m.video_id); $("saveCatBtn").style.display="inline-block"; } else nman++;
       done++;
     } else none++;
@@ -2047,9 +2090,9 @@ function applyEdit(){
     if(Array.isArray(m.related_video_ids)) m.related_video_ids=m.related_video_ids.map(x=>x===oldVid?newVid:x);
     m.video_id=newVid;
   }
-  // Link trailer YouTube
+  // Link trailer YouTube / IMDb
   const tr=$("m_trailer").value.trim();
-  if(tr){ m.strict_id_v2.trailer=Object.assign({fonte:"YouTube",lingua:"it",ufficiale:false,verificato:true,motivo_verifica:"inserito manualmente"}, m.strict_id_v2.trailer||{}, {url:tr}); }
+  if(tr){ m.strict_id_v2.trailer=Object.assign({}, m.strict_id_v2.trailer||{}, trailerMetaForUrl(tr), {url:tr}); }
   else { m.strict_id_v2.trailer=null; }
   markEditorVerified(m, pendingFull ? "ri-identificazione manuale editor" : "modifica manuale editor");
   if(src==="cat"){ catDirty.add(m.video_id); $("saveCatBtn").style.display="inline-block"; }
