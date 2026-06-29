@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T05:02:11.007Z",
+  "generated_at": "2026-06-29T05:32:09.011Z",
   "movies": [
     {
       "video_id": "zYeeo62exh0",
@@ -111,11 +111,11 @@
       "is_movie": true,
       "channel": "Animazione",
       "manual_include": true,
-      "original_title": "Il ritorno del Vento del Nord",
+      "original_title": "El regreso del viento del norte",
       "genre": "animazione",
       "tmdb_id": 468192,
       "tmdb_title_official": "Il ritorno del Vento del Nord",
-      "tmdb_year_official": 1993,
+      "tmdb_year_official": 1994,
       "tmdb_poster_path": "/6cP0hIurnC3TQTd9i9cnZ44kRdL.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 468192",
@@ -123,8 +123,8 @@
         "identificato": true,
         "livello_certezza": "alto",
         "titolo_italiano": "Il ritorno del Vento del Nord",
-        "titolo_originale": "El regreso del viento del Norte",
-        "anno_uscita": 1993,
+        "titolo_originale": "El regreso del viento del norte",
+        "anno_uscita": 1994,
         "durata_minuti": 77,
         "genere": [
           "Animazione",
@@ -139,8 +139,18 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/6cP0hIurnC3TQTd9i9cnZ44kRdL.jpg",
         "trailer": null,
-        "tmdb_id_scelto": 468192
-      }
+        "tmdb_id_scelto": 468192,
+        "imdb_id_scelto": "tt0156945",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-06-29T05:31:55.469Z"
+      },
+      "tmdb_media_type": "movie",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-06-29T05:31:55.469Z",
+      "editor_updated_at": "2026-06-29T05:31:55.469Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "W8cjIuQWGW8",
