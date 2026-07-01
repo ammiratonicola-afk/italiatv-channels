@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T07:24:46.515Z",
+  "generated_at": "2026-07-01T07:25:39.484Z",
   "movies": [
     {
       "video_id": "zYeeo62exh0",
@@ -13402,161 +13402,6 @@
       }
     },
     {
-      "video_id": "z_cLstQWZhU",
-      "is_movie": true,
-      "channel": "Commedia",
-      "manual_include": true,
-      "original_title": "Banana Joe",
-      "genre": "commedia",
-      "tmdb_id": 11340,
-      "tmdb_title_official": "Banana Joe",
-      "tmdb_year_official": 1982,
-      "tmdb_poster_path": "/jwGmvZT2TzYQvzyDDnyUC1y8uQ2.jpg",
-      "tmdb_confidence": "verified",
-      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 11340",
-      "strict_id_v2": {
-        "identificato": true,
-        "livello_certezza": "alto",
-        "titolo_italiano": "Banana Joe",
-        "titolo_originale": "Banana Joe",
-        "anno_uscita": 1982,
-        "durata_minuti": 96,
-        "genere": [
-          "Animazione",
-          "Azione",
-          "Commedia"
-        ],
-        "regista": [
-          "Steno"
-        ],
-        "cast_principale": [
-          {
-            "nome": "Bud Spencer",
-            "personaggio": "Banana Joe",
-            "foto_url": "https://image.tmdb.org/t/p/w185/cVbBoKxRDFOdDKwdpRmxVazDWlE.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/18841",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Marina Langner",
-            "personaggio": "Dorianne",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/69066",
-              "verificata": false
-            }
-          },
-          {
-            "nome": "Mario Scarpetta",
-            "personaggio": "Juan Villas",
-            "foto_url": "https://image.tmdb.org/t/p/w185/eJ3Z44g4O9UEf0lmukofQEw7jLr.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/69067",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Gianfranco Barra",
-            "personaggio": "Torcillo",
-            "foto_url": "https://image.tmdb.org/t/p/w185/a6Bms9jyF8drPdhP8vEh3YjCtgi.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/69068",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Enzo Garinei",
-            "personaggio": "Moreno",
-            "foto_url": "https://image.tmdb.org/t/p/w185/q3FbIE6fP6cAlT6OgMFknSyZfIe.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/69444",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Gunther Philipp",
-            "personaggio": "Tailor",
-            "foto_url": "https://image.tmdb.org/t/p/w185/giiKTzhRkWXxztB1mdXjdn8wZk3.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/39935",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Giorgio Bracardi",
-            "personaggio": "Marquíno",
-            "foto_url": "https://image.tmdb.org/t/p/w185/gbcklNBKDoRmALRGoHns4SJuHez.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/41161",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Gisela Hahn",
-            "personaggio": "Advertising Announcer",
-            "foto_url": "https://image.tmdb.org/t/p/w185/xeh0ThNSD0zBIFWVuwDnCs4TUBY.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/32370",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Nello Pazzafini",
-            "personaggio": "Torcillo's Truck Driver",
-            "foto_url": "https://image.tmdb.org/t/p/w185/347gRUcQ55tELUB6KKDaHtANjBG.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/32679",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Carlo Reali",
-            "personaggio": "Police Captain",
-            "foto_url": "https://image.tmdb.org/t/p/w185/qOlcCKGGjDGJWXyq62E9oPaWmC1.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/44967",
-              "verificata": true
-            }
-          }
-        ],
-        "trama": "Banana Joe, adulto ingenuo e orfano di una emigrata zingara bianca, vive ad Amantido, un piccolo villaggio della Colombia. Joe è un gigante dal cuore d'oro che commercia banane lungo il fiume scambiandole con altri beni di prima necessità destinati ai nativi indios di Amantido, che l'hanno cresciuto come uno di loro. Gli affari procedono bene fino a quando il boss mafioso colombiano di San Cristóbal, il señor Torsillo, decide di controllare il commercio della frutta progettando anche di costruire un casinò illegale nel villaggio, sfruttando anche i bambini indios.",
-        "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/jwGmvZT2TzYQvzyDDnyUC1y8uQ2.jpg",
-        "trailer": {
-          "url": "https://www.youtube.com/watch?v=__Rc--dx-m0",
-          "lingua": "it",
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": true,
-          "verificato": true,
-          "motivo_verifica": "TMDB videos"
-        },
-        "tmdb_id_scelto": 11340
-      }
-    },
-    {
       "video_id": "2N1wx7moN2Y",
       "is_movie": true,
       "manual_include": true,
@@ -14348,166 +14193,12 @@
       }
     },
     {
-      "video_id": "KKFveUhnRso",
-      "is_movie": true,
-      "manual_include": true,
-      "channel": "Manuale",
-      "genre": "thriller",
-      "original_title": "Parker",
-      "tmdb_id": 119283,
-      "tmdb_title_official": "Parker",
-      "tmdb_year_official": 2013,
-      "tmdb_poster_path": "/9nDxUZmrQPtrdLxSkMJkVIytILr.jpg",
-      "tmdb_confidence": "verified",
-      "tmdb_media_type": "movie",
-      "strict_id_v2": {
-        "identificato": true,
-        "livello_certezza": "alto",
-        "titolo_italiano": "Parker",
-        "titolo_originale": "Parker",
-        "anno_uscita": 2013,
-        "durata_minuti": 118,
-        "genere": [
-          "Azione",
-          "Crime"
-        ],
-        "regista": [
-          "Taylor Hackford"
-        ],
-        "cast_principale": [
-          {
-            "nome": "Jason Statham",
-            "personaggio": "Parker",
-            "foto_url": "https://image.tmdb.org/t/p/w185/pXGSq2UpcDE2NMF8LR56QZf5U1q.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Jennifer Lopez",
-            "personaggio": "Leslie Rodgers",
-            "foto_url": "https://image.tmdb.org/t/p/w185/iDiicDZ6CMib20QSCQYB55iynEk.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Michael Chiklis",
-            "personaggio": "Melander",
-            "foto_url": "https://image.tmdb.org/t/p/w185/pAkKjbzxP6Z6Y5zAGpwmWQo1iji.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Wendell Pierce",
-            "personaggio": "Carlson",
-            "foto_url": "https://image.tmdb.org/t/p/w185/r6yKahL6Z8l9aUX5qvWxTmWl8Nm.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Clifton Collins Jr.",
-            "personaggio": "Ross",
-            "foto_url": "https://image.tmdb.org/t/p/w185/iUQGHVSAA48q1QMnj7hnBFVq3jK.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Bobby Cannavale",
-            "personaggio": "Jake Fernandez",
-            "foto_url": "https://image.tmdb.org/t/p/w185/wlp20ggyNI7x0xGUtTjC2Xl2XmD.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Patti LuPone",
-            "personaggio": "Ascension",
-            "foto_url": "https://image.tmdb.org/t/p/w185/mbNAKaSYSTGeigxeFwUQfvoUXW0.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Carlos Carrasco",
-            "personaggio": "Norte",
-            "foto_url": "https://image.tmdb.org/t/p/w185/a9SwtLdCPYu8TRdnieWsUrUsilG.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Micah A. Hauptman",
-            "personaggio": "August Hardwicke",
-            "foto_url": "https://image.tmdb.org/t/p/w185/gOFfdRDtlz9XBlD6skGJzhhj3Id.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Emma Booth",
-            "personaggio": "Claire",
-            "foto_url": "https://image.tmdb.org/t/p/w185/9mxCaOgYPeXN2DtbjaKHIreiZNS.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
-              "verificata": true
-            }
-          }
-        ],
-        "trama": "Parker è un esperto di pianificazione e di esecuzione di furti apparentemente impossibili. Audace, meticoloso e spietato, Parker ha un codice d’onore: non rubare mai ai bisognosi, uccidere solo se è necessario, vendicarsi sempre con i nemici. Quando la sua ultima rapina ha risvolti mortali a causa della disattenzione di un membro della squadra, Parker rifiuta di unirsi al boss Melander e alla sua banda per il loro prossimo grande colpo. Non disposti ad accettare un no i criminali aggrediscono Parker, lasciandolo apparentemente morto sul ciglio di una strada deserta.",
-        "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/9nDxUZmrQPtrdLxSkMJkVIytILr.jpg",
-        "trailer": {
-          "fonte": "YouTube",
-          "lingua": "it",
-          "ufficiale": false,
-          "verificato": true,
-          "motivo_verifica": "TMDB videos",
-          "url": "https://www.youtube.com/watch?v=iP7Got9-4-k",
-          "canale": null
-        },
-        "tmdb_id_scelto": 119283
-      }
-    },
-    {
       "video_id": "B7Vg9PgPLEo",
       "is_movie": true,
       "manual_include": true,
       "channel": "Manuale",
-      "genre": "thriller",
-      "original_title": "22 минуты",
+      "genre": "poliziesco",
+      "original_title": "22 Minuty",
       "tmdb_id": 271234,
       "tmdb_title_official": "22 Minuti",
       "tmdb_year_official": 2014,
@@ -14518,7 +14209,7 @@
         "identificato": true,
         "livello_certezza": "alto",
         "titolo_italiano": "22 Minuti",
-        "titolo_originale": "22 минуты",
+        "titolo_originale": "22 Minuty",
         "anno_uscita": 2014,
         "durata_minuti": 120,
         "genere": [
@@ -14535,8 +14226,8 @@
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1322769",
               "verificata": false
             }
           },
@@ -14546,8 +14237,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/7lXTGui5xltW26ED4aDWCPi4ydu.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1322770",
               "verificata": true
             }
           },
@@ -14557,8 +14248,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/3PmUkAbskqVaBf6YA0pv5sLuy5u.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/235682",
               "verificata": true
             }
           },
@@ -14568,8 +14259,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/jQB1SP7bGeAbKGJLvmHLkan7BsC.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1322775",
               "verificata": true
             }
           },
@@ -14579,8 +14270,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/6FLR2sZc2T9AtiqQ22oNVO1MOOp.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1322777",
               "verificata": true
             }
           },
@@ -14590,8 +14281,8 @@
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1322779",
               "verificata": false
             }
           },
@@ -14601,8 +14292,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/dC6nWSUKDFPFCM0MtvXE8CIwyTL.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/224281",
               "verificata": true
             }
           },
@@ -14612,8 +14303,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/wkGGfQ1GNRIuAtBWDU0W36DlH3T.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/86940",
               "verificata": true
             }
           },
@@ -14623,8 +14314,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/5jd58NUNodDJTGfsf9x3SUyF0Lb.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1329979",
               "verificata": true
             }
           },
@@ -14634,8 +14325,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/mCPqGg0Pb7gvZ2hxSt9okWD9PHk.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2020893",
               "verificata": true
             }
           }
@@ -14643,9 +14334,25 @@
         "trama": "5 maggio 2010, golfo di Aden. Una petroliera russa viene presa d'assalto dai pirati somali. L'equipaggio, composto da 23 marinai, si rifugia nella sala di comando e lancia un ultimo messaggio di soccorso. Una nave da guerra presente nello stesso corridoio marittimo riceve il segnale di emergenza e invia la sua squadra di soldati per una missione di salvataggio. Per portare a termine l'operazione, i soldati hanno a disposizione solo 22 minuti",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/2s7napczdXfq1CulqAZzEU6LQOj.jpg",
-        "trailer": null,
-        "tmdb_id_scelto": 271234
-      }
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=MNBvfVGT5oQ"
+        },
+        "tmdb_id_scelto": 271234,
+        "imdb_id_scelto": "tt2856896",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-01T07:25:19.726Z"
+      },
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-01T07:25:19.726Z",
+      "editor_updated_at": "2026-07-01T07:25:19.726Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "-ArEcSr-If8",
