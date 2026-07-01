@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T07:15:46.945Z",
+  "generated_at": "2026-07-01T07:24:46.515Z",
   "movies": [
     {
       "video_id": "zYeeo62exh0",
@@ -9045,7 +9045,7 @@
       "channel": "Commedia",
       "manual_include": true,
       "original_title": "Le avventure di Pinocchio",
-      "genre": "drammatico",
+      "genre": "fantasy",
       "tmdb_id": 58451,
       "tmdb_title_official": "Le avventure di Pinocchio",
       "tmdb_year_official": 1972,
@@ -9060,7 +9060,6 @@
         "anno_uscita": 1972,
         "durata_minuti": 135,
         "genere": [
-          "Animazione",
           "Fantasy",
           "Dramma",
           "Famiglia",
@@ -9184,17 +9183,19 @@
         "trama": "Il falegname Geppetto si costruisce un burattino di legno, a cui dà il nome di Pinocchio. La Fata Turchina, sua protettrice lo trasforma subito in un bambino in carne ed ossa, facendosi promettere che sarà un bambino \"per bene\", ubbidiente e studioso, bastone della vecchiaia del suo genitore. Siccome il bambino, che ha conservato il carattere vivace e ribelle del burattino, ne combina di tutti i colori, la Fata lo fa tornare di legno per punirlo. Le trasformazioni si succederanno più volte e, una volta, Pinocchio diverrà persino somaro. La vicenda termina un poco prima del libro, cioè quando Geppetto e Pinocchio escono dal ventre della Balena: quasi un ritorno alla vita, una presa definitiva di contatto con la realtà.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/9D02hsrYot66bUyaVDBo1bzj3lM.jpg",
-        "trailer": {
-          "url": "https://www.youtube.com/watch?v=qWsiQ2C4qfI",
-          "lingua": "it",
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": true,
-          "motivo_verifica": "Ricerca YouTube: 'Le avventure di Pinocchio (serie tv 1972) TRAILER ' (135s)"
-        },
-        "tmdb_id_scelto": 58451
-      }
+        "trailer": null,
+        "tmdb_id_scelto": 58451,
+        "imdb_id_scelto": "tt0068243",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-01T07:24:09.338Z"
+      },
+      "tmdb_media_type": "movie",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-01T07:24:09.338Z",
+      "editor_updated_at": "2026-07-01T07:24:09.338Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "K2iuqwrJhhY",
@@ -9358,160 +9359,6 @@
       "editor_locked_at": "2026-06-28T20:21:56.918Z",
       "editor_updated_at": "2026-06-28T20:21:56.918Z",
       "editor_lock_reason": "ri-identificazione manuale editor"
-    },
-    {
-      "video_id": "KlfPxf1T_lU",
-      "is_movie": true,
-      "channel": "Commedia",
-      "manual_include": true,
-      "original_title": "Un boss in salotto",
-      "genre": "commedia",
-      "tmdb_id": 247218,
-      "tmdb_title_official": "Un boss in salotto",
-      "tmdb_year_official": 2014,
-      "tmdb_poster_path": "/2bBb7H7LMycRYb3omVbzlEoxihR.jpg",
-      "tmdb_confidence": "verified",
-      "tmdb_reasoning": "Lista animazione curata (add_animation.py) TMDB 247218",
-      "strict_id_v2": {
-        "identificato": true,
-        "livello_certezza": "alto",
-        "titolo_italiano": "Un boss in salotto",
-        "titolo_originale": "Un boss in salotto",
-        "anno_uscita": 2014,
-        "durata_minuti": 97,
-        "genere": [
-          "Animazione",
-          "Commedia"
-        ],
-        "regista": [
-          "Luca Miniero"
-        ],
-        "cast_principale": [
-          {
-            "nome": "Paola Cortellesi",
-            "personaggio": "Cristina D'Avola/Carmela Cimmaruta",
-            "foto_url": "https://image.tmdb.org/t/p/w185/6saUVpvd5WASLoWokWErTp5VviY.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/133214",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Rocco Papaleo",
-            "personaggio": "Ciro Cimmaruta",
-            "foto_url": "https://image.tmdb.org/t/p/w185/6JjYDmBgn5T0Uw87l1zAwTr5o88.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/120135",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Luca Argentero",
-            "personaggio": "Michele Coso",
-            "foto_url": "https://image.tmdb.org/t/p/w185/m0vXuiMCBxSmDOfYuM1oFGI4qrv.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/88469",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Angela Finocchiaro",
-            "personaggio": "Doriana Manetti",
-            "foto_url": "https://image.tmdb.org/t/p/w185/4ZgMeXRcZOBDwDLmucIB9gUkslP.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/59640",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Ale",
-            "personaggio": "Carlo Manetti",
-            "foto_url": "https://image.tmdb.org/t/p/w185/9QIsxsF9ga2B4tP9C6gssS6WJ51.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/225298",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Franz",
-            "personaggio": "Preside",
-            "foto_url": "https://image.tmdb.org/t/p/w185/yhFVdTV6ovGBbXlUhvHjDzvg13I.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/225299",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Massimo De Lorenzo",
-            "personaggio": "L'Ispettore",
-            "foto_url": "https://image.tmdb.org/t/p/w185/coFLDs22kQr81MphsePilpLADoe.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/129649",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Lavinia De' Cocci",
-            "personaggio": "Fortuna Coso",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1944911",
-              "verificata": false
-            }
-          },
-          {
-            "nome": "Saul Nanni",
-            "personaggio": "Vittorio Coso",
-            "foto_url": "https://image.tmdb.org/t/p/w185/1m9s0e8tz5W7pqyOlvD3X5S1ZXP.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1794470",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Marco Marzocca",
-            "personaggio": "Poliziotto",
-            "foto_url": "https://image.tmdb.org/t/p/w185/tk51cw85ucwNTP7g6zsWuVDvy6y.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/140107",
-              "verificata": true
-            }
-          }
-        ],
-        "trama": "Cristina vive in un piccolo centro del Nord dove si è costruita una famiglia e una vita perfetta. Quando un giorno viene convocata in Questura, scopre che suo fratello Ciro è implicato in un processo di camorra e ha chiesto di poter trascorrere gli arresti domiciliari da lei. Cristina accetta suo malgrado, e da quel momento l'ordinatissima routine famigliare viene letteralmente sconvolta dall'inarrestabile zio Ciro, un tipo molto poco abituato alle buone maniere.",
-        "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/2bBb7H7LMycRYb3omVbzlEoxihR.jpg",
-        "trailer": {
-          "url": "https://www.youtube.com/watch?v=vmmCy9Wzbpc",
-          "lingua": "it",
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": true,
-          "verificato": true,
-          "motivo_verifica": "TMDB videos"
-        },
-        "tmdb_id_scelto": 247218
-      }
     },
     {
       "video_id": "0W1Tn9-d-GM",
@@ -15278,138 +15125,6 @@
       "editor_locked_at": "2026-06-28T05:19:05.315Z",
       "editor_updated_at": "2026-06-28T05:19:05.315Z",
       "editor_lock_reason": "modifica manuale editor"
-    },
-    {
-      "video_id": "q_l1RwNGvhc",
-      "is_movie": true,
-      "manual_include": true,
-      "channel": "Manuale",
-      "genre": "azione",
-      "original_title": "Lavoreremo da grandi",
-      "tmdb_id": 1493021,
-      "tmdb_title_official": "Lavoreremo da grandi",
-      "tmdb_year_official": 2026,
-      "tmdb_poster_path": "/73rycpKhykMonuXJxigc0LHMlVu.jpg",
-      "tmdb_confidence": "verified",
-      "tmdb_media_type": "movie",
-      "strict_id_v2": {
-        "identificato": true,
-        "livello_certezza": "alto",
-        "titolo_italiano": "Lavoreremo da grandi",
-        "titolo_originale": "Lavoreremo da grandi",
-        "anno_uscita": 2026,
-        "durata_minuti": 91,
-        "genere": [
-          "Commedia"
-        ],
-        "regista": [
-          "Antonio Albanese"
-        ],
-        "cast_principale": [
-          {
-            "nome": "Antonio Albanese",
-            "personaggio": "Umberto",
-            "foto_url": "https://image.tmdb.org/t/p/w185/mPBvCc0sR4OKEtq1KHzOLeuL6Tw.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/73864",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Giuseppe Battiston",
-            "personaggio": "Beppe",
-            "foto_url": "https://image.tmdb.org/t/p/w185/22btW2Wybe7CKcI53EcB2uv43sS.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/7541",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Nicola Rignanese",
-            "personaggio": "Gigi",
-            "foto_url": "https://image.tmdb.org/t/p/w185/1iBBkL2TBh2gRzTmVsUmAIJDnNT.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1026959",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Niccolò Ferrero",
-            "personaggio": "Toni",
-            "foto_url": "https://image.tmdb.org/t/p/w185/huyGnwQQhQhBnYXEuuRHwK0EnVK.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/3127542",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Alessandro Egger",
-            "personaggio": "Mario Mario",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/4257419",
-              "verificata": false
-            }
-          },
-          {
-            "nome": "Chiara Pazzaglia",
-            "personaggio": "Moglie Mathias",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/2652385",
-              "verificata": false
-            }
-          },
-          {
-            "nome": "Claudia Stecher",
-            "personaggio": "Giulia",
-            "foto_url": "https://image.tmdb.org/t/p/w185/ArmKhyIjBqs89e0r31tzPqF181B.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/2592481",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Francesco Brandi",
-            "personaggio": "Mathias",
-            "foto_url": "https://image.tmdb.org/t/p/w185/wCcw38ZRYPA2ci3D4NRqUhPEljT.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/124761",
-              "verificata": true
-            }
-          }
-        ],
-        "trama": "Tre amici, Beppe, Umberto e Gigi, attendono l’arrivo del giovane Toni per festeggiare la sua ritrovata libertà. Dopo una serata ad alto tasso alcolico nel bar del paese, l’auto sulla quale stanno per tornare a casa colpisce qualcosa. O meglio, qualcuno. Dando inizio ad una serie di inesorabili scelte sbagliate, i quattro fuggono e si rifugiano a casa di Umberto. Sarà una lunga notte di colpi di scena, situazioni paradossali e ridicole, incontri e scontri tra i protagonisti e altre figure improbabili che popolano quella interminabile giornata. Fino alla più inimmaginabile delle soluzioni, che arriverà alle prime luci dell’alba.",
-        "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/73rycpKhykMonuXJxigc0LHMlVu.jpg",
-        "trailer": {
-          "url": "https://www.youtube.com/watch?v=RkUKy3C5EhU",
-          "lingua": "it",
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": true,
-          "verificato": true,
-          "motivo_verifica": "TMDB videos"
-        },
-        "tmdb_id_scelto": 1493021,
-        "imdb_id_scelto": "tt37331792"
-      }
     }
   ]
 }
