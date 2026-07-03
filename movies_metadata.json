@@ -278584,7 +278584,7 @@
     },
     {
       "video_id": "hyKwVle6RLk",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Dr. Giggles (1992) | Film Completo HD | Larry Drake & Holly Marie Combs",
       "channel": "TVItalia",
       "tmdb_id": 37527,
@@ -278736,7 +278736,10 @@
         "tmdb_id_scelto": 37527
       },
       "vote_average": 5.537,
-      "vote_count": 177
+      "vote_count": 177,
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T05:32:30.112Z"
     },
     {
       "video_id": "_T5ZqZNHTVE",
@@ -305729,7 +305732,7 @@
     },
     {
       "video_id": "wLP0VhS1w4c",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Sometimes the Good Kill",
       "channel": "TVItalia",
       "tmdb_id": 467895,
@@ -305889,7 +305892,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-03T05:27:27.503Z",
       "editor_updated_at": "2026-07-03T05:27:27.503Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T05:32:30.112Z"
     },
     {
       "video_id": "F8kgsi4HhsE",
