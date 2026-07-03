@@ -264617,11 +264617,18 @@
         "trama": "Argentina: 1969: Il maggiore Molina è stato inviato a un avamposto militare nella Patagonia meridionale per indagare sul brutale omicidio del soldato Lito. Le dure condizioni climatiche della Patagonia riflettono il modo rigido e crudele con cui il colonnello Hellman e i suoi ufficiali dirigono la guarnigione. Gradualmente emerge che Lito era stato drogato da un compagno, Reppeto, e quindi non era in grado di partecipare a un inaspettato esercizio militare notturno. Per la sua \"disobbedienza\", Lito è stato picchiato a morte. Molina cerca giustizia, aiutato dalla famiglia della vittima e dal sacerdote del villaggio. Tuttavia, è costretto ad abbandonare il caso quando le forze militari prendono il potere a Buenos Aires. Anni dopo, con la democrazia finalmente ripristinata in Argentina, il caso verrà riaperto causando l'abolizione del servizio militare e del sistema di giustizia militare.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/dwb4Uq02UculjEBenfPYqNhotDM.jpg",
-        "trailer": null,
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=pDxD84Nxyo8"
+        },
         "tmdb_id_scelto": 105411,
         "imdb_id_scelto": "tt0176501",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-03T05:31:05.046Z"
+        "verificato_editor_at": "2026-07-03T05:31:41.406Z"
       },
       "locked": true,
       "locked_at": "2026-06-27T08:53:30Z",
@@ -264632,9 +264639,9 @@
       "genre": "drammatico",
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-03T05:31:05.046Z",
-      "editor_updated_at": "2026-07-03T05:31:05.046Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_locked_at": "2026-07-03T05:31:41.406Z",
+      "editor_updated_at": "2026-07-03T05:31:41.406Z",
+      "editor_lock_reason": "modifica manuale editor"
     },
     {
       "video_id": "ELhK0D4R5gA",
