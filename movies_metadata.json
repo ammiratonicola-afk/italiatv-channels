@@ -309386,10 +309386,165 @@
     {
       "video_id": "lCTsv2Emv1k",
       "is_movie": true,
-      "original_title": "Le avventure di Wuba (2015): Fantasy Animato Cinese che Ti Farà Innamorare",
+      "original_title": "Monster Hunt",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 497984,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/1IxJqSYV1TEaKKC06zRBnej2nGm.jpg",
+      "tmdb_title_official": "Le avventure di Wuba -  Il piccolo principe Zucchino",
+      "tmdb_year_official": 2018,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Le avventure di Wuba -  Il piccolo principe Zucchino",
+        "titolo_originale": "Monster Hunt",
+        "anno_uscita": 2018,
+        "durata_minuti": 110,
+        "genere": [
+          "Avventura",
+          "Commedia",
+          "Fantasy"
+        ],
+        "regista": [
+          "許誠毅"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Tony Leung Chiu-wai",
+            "personaggio": "Tu Sigu",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nQbSQAws5BdakPEB5MtiqWVeaMV.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1337",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "白百何",
+            "personaggio": "Huo Xiaolan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gjUTy2jto3azhygdvNjfMLVioz5.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/588057",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "井柏然",
+            "personaggio": "Song Tianyin",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vsXA4vbmlYDUmAAUuLBYQUUcMcF.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1094210",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "李宇春",
+            "personaggio": "Zhu Jinzhen",
+            "foto_url": "https://image.tmdb.org/t/p/w185/b1i6gMeiH0RV6757glfS2HXnZFz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/106578",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "楊祐寧",
+            "personaggio": "Yun Qing",
+            "foto_url": "https://image.tmdb.org/t/p/w185/d0C8Dp9itcFV4Q8bLRISguGJmPR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/96958",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "董成鹏",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/rR2zPhvqwx0aZuLPOJrFuqOjcBE.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1292116",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "吳君如",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/4x5DKG7EFjYxOa9RfV0YkKyheEG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/88495",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "曾志偉",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/vrPBadugqlMkfNIYzLZbP4sEF1j.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/26724",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "黄磊",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/kXHwAAvQnYY4g2mDyLaUr8Crb6z.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/74946",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "柳岩",
+            "personaggio": "美女高手",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qxDI2pxE2tV1SZoG7yfOsVG5ujg.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1185787",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "In un mondo fantastico, dove umani e mostri si trovano a convivere, il tenero e piccolo mostriciattolo Wuba, nato per diventare re, è l'unica speranza per porre fine a una guerra civile nata tra i mostri. Ma il perfido sovrano dei mostri ha messo una taglia su Wuba, promettendo una ricompensa molto generosa per chi riesce a catturarlo. Per sfuggire ai cacciatori di mostri, Wuba si troverà ad affrontare un viaggio avventuroso pieno di azione, divertimento e sorprese inaspettate. Ad aiutarlo ci saranno non solo tanti nuovi amici, ma anche i suoi genitori umani.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/1IxJqSYV1TEaKKC06zRBnej2nGm.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=F_-TXf2M3jE",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube"
+        },
+        "tmdb_id_scelto": 497984,
+        "imdb_id_scelto": "tt6170484",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-03T04:49:37.663Z"
+      },
+      "genre": "fantasy",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-03T04:49:37.663Z",
+      "editor_updated_at": "2026-07-03T04:49:37.663Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "S-R2Eug3Zo8",
@@ -309604,11 +309759,14 @@
     },
     {
       "video_id": "d2mBY7cDs7U",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "L'allenamento più folle di sempre: L'ultimo combattimento di Bruce Lee | Film Completo",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor web",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T04:48:55.593Z"
     },
     {
       "video_id": "bC0k_g1Gmkg",
