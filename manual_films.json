@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T15:25:20.967Z",
+  "generated_at": "2026-07-03T04:34:17.702Z",
   "movies": [
     {
       "video_id": "zYeeo62exh0",
@@ -9359,7 +9359,7 @@
       "channel": "Commedia",
       "manual_include": true,
       "original_title": "Click",
-      "genre": "fantascienza",
+      "genre": "fantasy",
       "tmdb_id": 9339,
       "tmdb_title_official": "Cambia la tua vita con un click",
       "tmdb_year_official": 2006,
@@ -9388,19 +9388,19 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/iTMnXrPfC1rmom6a9q4hy6YSJWG.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/19292",
               "verificata": true
             }
           },
           {
             "nome": "Kate Beckinsale",
             "personaggio": "Donna Newman",
-            "foto_url": "https://image.tmdb.org/t/p/w185/nUZuC2chd5PVw2tLxePZ6uaLbhx.jpg",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lveqQgmEzW6ak5unOQi4md677kM.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3967",
               "verificata": true
             }
           },
@@ -9410,8 +9410,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/ApgDL7nudR9T2GpjCG4vESgymO2.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4690",
               "verificata": true
             }
           },
@@ -9421,8 +9421,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/gRcqYNBUQWFxRoAVRNY7xHzOONP.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/28238",
               "verificata": true
             }
           },
@@ -9432,8 +9432,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/mGlSRA5RDswEDmY8oWEizXliShp.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/31903",
               "verificata": true
             }
           },
@@ -9443,8 +9443,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/87kSPYlWcHvqOVEkhdqxysiAf6w.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/199",
               "verificata": true
             }
           },
@@ -9454,8 +9454,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/As3ctGUtBYmG4zj4Ifyrcqd71HP.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1328",
               "verificata": true
             }
           },
@@ -9465,8 +9465,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/tSb55ZK0ZtxOeyhZwc10whvaz6E.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/202062",
               "verificata": true
             }
           },
@@ -9476,8 +9476,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/cymlWttB83MsAGR2EkTgANtjeRH.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/21007",
               "verificata": true
             }
           },
@@ -9487,8 +9487,8 @@
             "foto_url": "https://image.tmdb.org/t/p/w185/9K180Isd28lc3X7Puiu8InPdq4x.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "manuale",
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/134235",
               "verificata": true
             }
           }
@@ -9497,17 +9497,26 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/2I0mZkxW8cddDmRINlxtETYfiSW.jpg",
         "trailer": {
-          "fonte": "YouTube",
+          "url": "https://www.youtube.com/watch?v=ym3w_1Vb0iw",
           "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
           "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos",
-          "url": "https://www.youtube.com/watch?v=2xTvGmh7RoI",
-          "canale": null
+          "motivo_verifica": "trailer YouTube"
         },
-        "tmdb_id_scelto": 9339
+        "tmdb_id_scelto": 9339,
+        "imdb_id_scelto": "tt0389860",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-03T04:32:07.353Z"
       },
-      "tmdb_media_type": "movie"
+      "tmdb_media_type": "movie",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-03T04:32:07.353Z",
+      "editor_updated_at": "2026-07-03T04:32:07.353Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "m8tcQtcIYk8",
@@ -11660,7 +11669,7 @@
       "channel": "Commedia",
       "manual_include": true,
       "original_title": "Mia moglie è una strega",
-      "genre": "commedia",
+      "genre": "fantasy",
       "tmdb_id": 58706,
       "tmdb_title_official": "Mia moglie è una strega",
       "tmdb_year_official": 1980,
@@ -11802,12 +11811,22 @@
           "lingua": "it",
           "fonte": "YouTube",
           "canale": null,
-          "ufficiale": true,
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos"
+          "motivo_verifica": "trailer YouTube"
         },
-        "tmdb_id_scelto": 58706
-      }
+        "tmdb_id_scelto": 58706,
+        "imdb_id_scelto": "tt0082743",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-03T04:34:14.940Z"
+      },
+      "tmdb_media_type": "movie",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-03T04:34:14.940Z",
+      "editor_updated_at": "2026-07-03T04:34:14.940Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "wWhM2pxSRE8",
@@ -12127,10 +12146,10 @@
       "is_movie": true,
       "channel": "Commedia",
       "manual_include": true,
-      "original_title": "Continuavano a chiamarlo Trinità",
-      "genre": "commedia",
+      "original_title": "...continuavano a chiamarlo Trinità",
+      "genre": "western",
       "tmdb_id": 11829,
-      "tmdb_title_official": "Continuavano a chiamarlo Trinità",
+      "tmdb_title_official": "...continuavano a chiamarlo Trinità",
       "tmdb_year_official": 1971,
       "tmdb_poster_path": "/v8TRduqnI4e22YzXITKss51Difv.jpg",
       "tmdb_confidence": "verified",
@@ -12138,7 +12157,7 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_italiano": "Continuavano a chiamarlo Trinità",
+        "titolo_italiano": "...continuavano a chiamarlo Trinità",
         "titolo_originale": "...continuavano a chiamarlo Trinità",
         "anno_uscita": 1971,
         "durata_minuti": 127,
@@ -12269,12 +12288,22 @@
           "lingua": "it",
           "fonte": "YouTube",
           "canale": null,
-          "ufficiale": true,
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos"
+          "motivo_verifica": "trailer YouTube"
         },
-        "tmdb_id_scelto": 11829
-      }
+        "tmdb_id_scelto": 11829,
+        "imdb_id_scelto": "tt0068154",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-03T04:33:54.280Z"
+      },
+      "tmdb_media_type": "movie",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-03T04:33:54.280Z",
+      "editor_updated_at": "2026-07-03T04:33:54.280Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "CT9Bfsk2DIs",
@@ -12435,10 +12464,10 @@
       "is_movie": true,
       "channel": "Commedia",
       "manual_include": true,
-      "original_title": "Uno sceriffo extraterrestre",
-      "genre": "commedia",
+      "original_title": "Uno sceriffo extraterrestre... poco extra e molto terrestre",
+      "genre": "fantascienza",
       "tmdb_id": 10770,
-      "tmdb_title_official": "Uno sceriffo extraterrestre",
+      "tmdb_title_official": "Uno sceriffo extraterrestre... poco extra e molto terrestre",
       "tmdb_year_official": 1979,
       "tmdb_poster_path": "/bUS6nqwU4uIz4pUfCxTh4kqOG3f.jpg",
       "tmdb_confidence": "verified",
@@ -12446,7 +12475,7 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_italiano": "Uno sceriffo extraterrestre",
+        "titolo_italiano": "Uno sceriffo extraterrestre... poco extra e molto terrestre",
         "titolo_originale": "Uno sceriffo extraterrestre... poco extra e molto terrestre",
         "anno_uscita": 1979,
         "durata_minuti": 88,
@@ -12574,26 +12603,35 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/bUS6nqwU4uIz4pUfCxTh4kqOG3f.jpg",
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=fRqCur5l_cc",
-          "lingua": "en",
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos (en-US)"
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=fRqCur5l_cc"
         },
-        "tmdb_id_scelto": 10770
-      }
+        "tmdb_id_scelto": 10770,
+        "imdb_id_scelto": "tt0079859",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-03T04:33:40.588Z"
+      },
+      "tmdb_media_type": "movie",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-03T04:33:40.588Z",
+      "editor_updated_at": "2026-07-03T04:33:40.588Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "F227S49lDpk",
       "is_movie": true,
       "channel": "Commedia",
       "manual_include": true,
-      "original_title": "Chissà perché capitano tutte a me",
-      "genre": "commedia",
+      "original_title": "Chissà perché... capitano tutte a me",
+      "genre": "fantascienza",
       "tmdb_id": 11039,
-      "tmdb_title_official": "Chissà perché capitano tutte a me",
+      "tmdb_title_official": "Chissà perché... capitano tutte a me",
       "tmdb_year_official": 1980,
       "tmdb_poster_path": "/hclKvqW4HXN0yQC3bWCoqygxgJr.jpg",
       "tmdb_confidence": "verified",
@@ -12601,7 +12639,7 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_italiano": "Chissà perché capitano tutte a me",
+        "titolo_italiano": "Chissà perché... capitano tutte a me",
         "titolo_originale": "Chissà perché... capitano tutte a me",
         "anno_uscita": 1980,
         "durata_minuti": 102,
@@ -12681,7 +12719,7 @@
           },
           {
             "nome": "Giancarlo Bastianoni",
-            "personaggio": "Uno dei Fratelli Dinamite / Hooligan Mascherato / Alieno",
+            "personaggio": "One of the Brother's Dynamite / Masked Hooligan / Alien",
             "foto_url": "https://image.tmdb.org/t/p/w185/6Mni0r1tgkSxnkVJHjqCtBvMN0G.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -12714,7 +12752,7 @@
           },
           {
             "nome": "Paolo Figlia",
-            "personaggio": "Uno dei Fratelli Dinamite",
+            "personaggio": "One of the Brother's Dynamite",
             "foto_url": "https://image.tmdb.org/t/p/w185/5LmwVfdZLZQvFLzSMm0SQQHFJ1g.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -12728,16 +12766,25 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/hclKvqW4HXN0yQC3bWCoqygxgJr.jpg",
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=8Uz48rJvAAs",
-          "lingua": "en",
           "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": true,
+          "lingua": "it",
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos (en-US)"
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=8Uz48rJvAAs"
         },
-        "tmdb_id_scelto": 11039
-      }
+        "tmdb_id_scelto": 11039,
+        "imdb_id_scelto": "tt0080530",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-03T04:33:26.484Z"
+      },
+      "tmdb_media_type": "movie",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-03T04:33:26.484Z",
+      "editor_updated_at": "2026-07-03T04:33:26.484Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "yx-bQzGBlOI",
@@ -12910,9 +12957,9 @@
       "channel": "Commedia",
       "manual_include": true,
       "original_title": "Miami Supercops",
-      "genre": "commedia",
+      "genre": "poliziesco",
       "tmdb_id": 10295,
-      "tmdb_title_official": "Miami Supercops",
+      "tmdb_title_official": "Miami Supercops (I poliziotti dell'ottava strada)",
       "tmdb_year_official": 1985,
       "tmdb_poster_path": "/71I04ECfjy8vBYF1NPL0jNfxS03.jpg",
       "tmdb_confidence": "verified",
@@ -12920,7 +12967,7 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_italiano": "Miami Supercops",
+        "titolo_italiano": "Miami Supercops (I poliziotti dell'ottava strada)",
         "titolo_originale": "Miami Supercops",
         "anno_uscita": 1985,
         "durata_minuti": 96,
@@ -12958,12 +13005,12 @@
           {
             "nome": "C.B. Seay",
             "personaggio": "Chief Tanney",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "foto_url": "https://spencerhilldb.de/bilder/cops_seay.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/64786",
-              "verificata": false
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
             }
           },
           {
@@ -13052,12 +13099,22 @@
           "lingua": "it",
           "fonte": "YouTube",
           "canale": null,
-          "ufficiale": true,
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos"
+          "motivo_verifica": "trailer YouTube"
         },
-        "tmdb_id_scelto": 10295
-      }
+        "tmdb_id_scelto": 10295,
+        "imdb_id_scelto": "tt0089591",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-03T04:33:12.539Z"
+      },
+      "tmdb_media_type": "movie",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-03T04:33:12.539Z",
+      "editor_updated_at": "2026-07-03T04:33:12.539Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "oS1DPvFtiWk",
@@ -13220,7 +13277,7 @@
       "channel": "Commedia",
       "manual_include": true,
       "original_title": "Poliziotto superpiù",
-      "genre": "commedia",
+      "genre": "fantasy",
       "tmdb_id": 11333,
       "tmdb_title_official": "Poliziotto superpiù",
       "tmdb_year_official": 1980,
@@ -13359,16 +13416,25 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/fe27W5Io1BQzjEQ7EZImJRjOzdG.jpg",
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=bNruMmoqdO8",
-          "lingua": "en",
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos (en-US)"
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=bNruMmoqdO8"
         },
-        "tmdb_id_scelto": 11333
-      }
+        "tmdb_id_scelto": 11333,
+        "imdb_id_scelto": "tt0082924",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-03T04:32:27.372Z"
+      },
+      "tmdb_media_type": "movie",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-03T04:32:27.372Z",
+      "editor_updated_at": "2026-07-03T04:32:27.372Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "2N1wx7moN2Y",
