@@ -300374,7 +300374,7 @@
     },
     {
       "video_id": "q3VlE4jHNJs",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Luci di Natale per un Sì - Twinkle All the Way | Commedia in Italiano",
       "channel": "TVItalia",
       "tmdb_id": 627470,
@@ -300525,7 +300525,10 @@
           "motivo_verifica": ""
         },
         "tmdb_id_scelto": 627470
-      }
+      },
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T04:50:48.864Z"
     },
     {
       "video_id": "aauii_Cza0M",
@@ -308847,7 +308850,7 @@
     },
     {
       "video_id": "8A1TKuU1ZLk",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "King Kong",
       "channel": "TVItalia",
       "tmdb_id": 244,
@@ -309007,7 +309010,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-03T04:39:31.603Z",
       "editor_updated_at": "2026-07-03T04:39:31.603Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T04:50:48.864Z"
     },
     {
       "video_id": "S4Gntnddtmg",
