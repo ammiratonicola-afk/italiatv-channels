@@ -264483,7 +264483,7 @@
     {
       "video_id": "rH1ouRzTQ0w",
       "is_movie": true,
-      "original_title": "Bajo Bandera -  Oltre la Giustizia  | Drama | Film Completo in Italiano",
+      "original_title": "Bajo bandera",
       "channel": "Azione360",
       "tmdb_id": 105411,
       "tmdb_title_official": "Bajo bandera",
@@ -264494,8 +264494,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Bajo Bandera -  Oltre la Giustizia  | Drama | Film Completo in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=rH1ouRzTQ0w",
         "titolo_italiano": "Bajo bandera",
         "titolo_originale": "Bajo bandera",
         "anno_uscita": 1997,
@@ -264616,25 +264614,27 @@
             }
           }
         ],
-        "trama": "Argentina: 1969: Il Maggiore Molina è stato inviato a un avamposto militare nella Patagonia meridionale per indagare sul brutale omicidio del soldato Lito. Le dure condizioni climatiche della Patagonia riflettono il modo rigido e crudele con cui il Colonnello Hellman e i suoi ufficiali dirigono la guarnigione. Gradualmente emerge che Lito era stato drogato da un compagno, Reppeto, e quindi non era in grado di partecipare a un inaspettato esercizio militare notturno. Per la sua \"disobbedienza\", Lito è stato picchiato a morte. Molina cerca giustizia, aiutato dalla famiglia della vittima e dal sacerdote del villaggio. Tuttavia, è costretto ad abbandonare il caso quando le forze militari prendono il potere a Buenos Aires. Anni dopo, con la democrazia finalmente ripristinata in Argentina, il caso verrà riaperto, portando all'abolizione del servizio militare e del sistema di giustizia militare.",
+        "trama": "Argentina: 1969: Il maggiore Molina è stato inviato a un avamposto militare nella Patagonia meridionale per indagare sul brutale omicidio del soldato Lito. Le dure condizioni climatiche della Patagonia riflettono il modo rigido e crudele con cui il colonnello Hellman e i suoi ufficiali dirigono la guarnigione. Gradualmente emerge che Lito era stato drogato da un compagno, Reppeto, e quindi non era in grado di partecipare a un inaspettato esercizio militare notturno. Per la sua \"disobbedienza\", Lito è stato picchiato a morte. Molina cerca giustizia, aiutato dalla famiglia della vittima e dal sacerdote del villaggio. Tuttavia, è costretto ad abbandonare il caso quando le forze militari prendono il potere a Buenos Aires. Anni dopo, con la democrazia finalmente ripristinata in Argentina, il caso verrà riaperto causando l'abolizione del servizio militare e del sistema di giustizia militare.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/dwb4Uq02UculjEBenfPYqNhotDM.jpg",
-        "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
-        },
-        "tmdb_id_scelto": 105411
+        "trailer": null,
+        "tmdb_id_scelto": 105411,
+        "imdb_id_scelto": "tt0176501",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-03T05:31:05.046Z"
       },
       "locked": true,
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 5.5,
-      "vote_count": 2
+      "vote_count": 2,
+      "tmdb_media_type": "movie",
+      "genre": "drammatico",
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-03T05:31:05.046Z",
+      "editor_updated_at": "2026-07-03T05:31:05.046Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "ELhK0D4R5gA",
