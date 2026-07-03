@@ -308533,10 +308533,162 @@
     {
       "video_id": "OMQS412Jbh4",
       "is_movie": true,
-      "original_title": "Film Completo di John Lechago: Killjoy Goes to Hell (2012) | Horror",
+      "original_title": "Killjoy Goes to Hell",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 134756,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/jcY3TDNZN017TkpMKgOq4umIbyw.jpg",
+      "tmdb_title_official": "Killjoy Goes to Hell",
+      "tmdb_year_official": 2012,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Killjoy Goes to Hell",
+        "titolo_originale": "Killjoy Goes to Hell",
+        "anno_uscita": 2012,
+        "durata_minuti": 90,
+        "genere": [
+          "Horror"
+        ],
+        "regista": [
+          "John Lechago"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Trent Haaga",
+            "personaggio": "Killjoy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dNqHUduMIgSlUIorpfINxyVTmYI.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/92993",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Victoria De Mare",
+            "personaggio": "Batty Boop",
+            "foto_url": "https://image.tmdb.org/t/p/w185/isKedj2RvhVHs9DxmMX0lSXLBco.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/104458",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Al Burke",
+            "personaggio": "Punchy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gMQmzq2C2eUEpOBKrb3RpE5G1jc.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/104473",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tai Chan Ngo",
+            "personaggio": "Freakshow",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oNTNANk5RKKBU3HtSr0VxU9W2Hr.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1118671",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jessica Whitaker",
+            "personaggio": "Sandie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3DsxlWMxlwKCELXwhctSaO7daBF.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1465815",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "John Karyus",
+            "personaggio": "Skid Mark",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wOEX5yCiUtkTtn6Fpf6mlzcSymw.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/112863",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lisa Goodman",
+            "personaggio": "Old Hag",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oWc1WNycH1UMuzI6hTIc2iU3cr2.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1171804",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Aqueela Zoll",
+            "personaggio": "Jezabeth",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cvN1Bg4uEoBzCA03jjyHPtbzkNg.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1300637",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jason R. Moore",
+            "personaggio": "Det. Ericson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5VJ0dTa1aZRf3mQJrHJ56Pf42dP.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/555252",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jim Tavaré",
+            "personaggio": "Scribe",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jgQJJLXNzk4syPacyxIxyC21J3y.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1243166",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Killjoy è tornato nel quarto capitolo della serie del clown demoniaco. Questa volta Killjoy è accusato di non essere davvero malvagio, poiché ha lasciato scappare una delle sue vittime, Sandie. Killjoy deve fare affidamento sulla sua unica possibilità di dimostrare quanto sia realmente cattivo... portare Sandie all'inferno come sua testimone.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/jcY3TDNZN017TkpMKgOq4umIbyw.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=epI7j-b9geY"
+        },
+        "tmdb_id_scelto": 134756,
+        "imdb_id_scelto": "tt2256858",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-03T04:40:02.588Z"
+      },
+      "genre": "horror",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-03T04:40:02.588Z",
+      "editor_updated_at": "2026-07-03T04:40:02.588Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "f7JaI5m1L_s",
@@ -308696,10 +308848,166 @@
     {
       "video_id": "8A1TKuU1ZLk",
       "is_movie": true,
-      "original_title": "Il Gigante King Kong (1933) sull'Empire State Building | King Kong Film Classico ITA",
+      "original_title": "King Kong",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 244,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/lHlnxKL5GbgRibyRFI7n1Ey850i.jpg",
+      "tmdb_title_official": "King Kong",
+      "tmdb_year_official": 1933,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "King Kong",
+        "titolo_originale": "King Kong",
+        "anno_uscita": 1933,
+        "durata_minuti": 100,
+        "genere": [
+          "Avventura",
+          "Fantasy",
+          "Horror"
+        ],
+        "regista": [
+          "Merian C. Cooper",
+          "Ernest B. Schoedsack"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Robert Armstrong",
+            "personaggio": "Carl Denham",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5dZFHqLd8bJri8MpSSjpSOG1Dju.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3243",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Fay Wray",
+            "personaggio": "Ann Darrow",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dfpwqfEulBX06hOrX56fLhGSWAz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3242",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Bruce Cabot",
+            "personaggio": "Jack Driscoll",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gWG4ECOOHeQWLEI4nwFlLSFiUpd.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3244",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Frank Reicher",
+            "personaggio": "Captain Englehorn",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5q5kXKMDiBg7MrdcSdU5CZSQTgS.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3245",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Victor Wong",
+            "personaggio": "Ship's Cook Charlie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fHqvxkA2vqGjDOfCQnGI4ak2Ect.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1128885",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "James Flavin",
+            "personaggio": "Mate Briggs",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zF6D2GWaLx2TyRm4qDTqwCk6JWg.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3262",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sam Hardy",
+            "personaggio": "Charles Weston",
+            "foto_url": "https://image.tmdb.org/t/p/w185/u0hirR29HoOSr8duXR3ntNjrtP0.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3246",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Noble Johnson",
+            "personaggio": "Skull Island Native Chief",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ktN2dIxPBTdt7RqpFoWD0upCbUp.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3247",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Steve Clemente",
+            "personaggio": "Skull Island Witch Doctor",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ghpLqUxVQHCdrtOwGh7s4oGvpVz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3261",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Roscoe Ates",
+            "personaggio": "Press Photographer (uncredited)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jrtu4ej5MLP6Ynl35wPP0bGaroB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1509",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Carl Denham è un avventuroso produttore di documentari. Insieme a una giovane disoccupata di New York, Ann, parte alla volta di un'isola tropicale, Skull Island, abitata da un gigantesco e leggendario gorilla, King Kong. Il gorilla s'innamora della bella Ann e, preso in trappola, viene catturato da Denham. Portato a New York in catene, viene esibito. Ma King Kong riesce a liberarsi e a fuggire in cerca della sua amata Ann. Lo uccideranno sulla vetta dell'Empire State Building, dove si è rifugiato con la giovane donna, mitragliato da aerei da guerra.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/lHlnxKL5GbgRibyRFI7n1Ey850i.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=scQqFQd7m7w",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube"
+        },
+        "tmdb_id_scelto": 244,
+        "imdb_id_scelto": "tt0024216",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-03T04:39:31.603Z"
+      },
+      "genre": "horror",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-03T04:39:31.603Z",
+      "editor_updated_at": "2026-07-03T04:39:31.603Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "S4Gntnddtmg",
@@ -308858,10 +309166,163 @@
     {
       "video_id": "aMmxRYq9w54",
       "is_movie": true,
-      "original_title": "Film di Héctor Olivera: La regina dei barbari (Barbarian Queen) (1985)",
+      "original_title": "Barbarian Queen",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 29903,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/u1W6PBK6okOq2D9uJK5UKSyOFEP.jpg",
+      "tmdb_title_official": "La regina dei barbari",
+      "tmdb_year_official": 1985,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "La regina dei barbari",
+        "titolo_originale": "Barbarian Queen",
+        "anno_uscita": 1985,
+        "durata_minuti": 70,
+        "genere": [
+          "Avventura",
+          "Fantasy"
+        ],
+        "regista": [
+          "Héctor Olivera"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Lana Clarkson",
+            "personaggio": "Amethea",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mPcfJBBENUFpXkK7eWGeljxhuun.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/52144",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Katt Shea",
+            "personaggio": "Estrild",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vybIKkru5To53t1oiObk3WTj4aB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/102634",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Frank Zagarino",
+            "personaggio": "Argan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dYXZM0CfzjUT1w1jny4mfpvFGgW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/24517",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Dawn Dunlap",
+            "personaggio": "Taramis",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vSGbf7O8XcMmM3Kiq5S4b2VtaqU.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/127609",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Susana Traverso",
+            "personaggio": "Tiniara",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kk3l0PRYf8YjGBsaIvMVZy3rtrN.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/112419",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Víctor Bó",
+            "personaggio": "Strymon",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hVELREtcHYUCJ7u0IaoSBEUbzlk.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/105208",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Armando Capo",
+            "personaggio": "Arrakur (as Arman Chapman)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4KL0hw5xYpjtqlhxNrmRqBjLhVG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/140015",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Andrea Barbieri",
+            "personaggio": "Zoraida (as Andrea Barbizon)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pa9AKndW9pu7pf9Z0Ew0gsAr1g5.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2022399",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tony Middleton",
+            "personaggio": "Zohar",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dDukMFK0jPLWVOazIiULbJ7JMSe.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1523920",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Andrea Scriven",
+            "personaggio": "Dariac",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4892635",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Un crudele \"signore della guerra\" ha massacrato una tribù di amazzoni. Ma quattro delle donne si salvano e iniziano una terribile vendetta contro lo sterminatore e i suoi sgherri.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/u1W6PBK6okOq2D9uJK5UKSyOFEP.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=dVl26rgNB-w"
+        },
+        "tmdb_id_scelto": 29903,
+        "imdb_id_scelto": "tt0088771",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-03T04:38:24.353Z"
+      },
+      "genre": "fantasy",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-03T04:38:24.353Z",
+      "editor_updated_at": "2026-07-03T04:38:24.353Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "D8atKXc8JYk",
@@ -308965,10 +309426,165 @@
     {
       "video_id": "b7A9Y3kfZ0w",
       "is_movie": true,
-      "original_title": "Il Regno di Wuba (2018) - Fantasy Animato Cinese: Cuore e Divertimento!",
+      "original_title": "Monster Hunt 2",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 334298,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/s8eJYfAYLGjxJfb194PrGbxVBqj.jpg",
+      "tmdb_title_official": "Il regno di Wuba",
+      "tmdb_year_official": 2015,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Il regno di Wuba",
+        "titolo_originale": "Monster Hunt 2",
+        "anno_uscita": 2015,
+        "durata_minuti": 118,
+        "genere": [
+          "Commedia",
+          "Fantasy",
+          "Avventura"
+        ],
+        "regista": [
+          "許誠毅"
+        ],
+        "cast_principale": [
+          {
+            "nome": "白百何",
+            "personaggio": "Huo Xiaolan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gjUTy2jto3azhygdvNjfMLVioz5.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/588057",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "井柏然",
+            "personaggio": "Song Tianyin",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vsXA4vbmlYDUmAAUuLBYQUUcMcF.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1094210",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "姜武",
+            "personaggio": "Luo Gang",
+            "foto_url": "https://image.tmdb.org/t/p/w185/f8BXK5pb9yoREZq3ROM9hSBgvlk.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/15170",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "金燕玲",
+            "personaggio": "Grandma",
+            "foto_url": "https://image.tmdb.org/t/p/w185/i5CCFBhgntuaDSjbMdDYyzbO5jK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/103598",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "鍾漢良",
+            "personaggio": "Ge Qianhu",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mDJQSyCQdPW2lJDbY46udu0161n.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1183233",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "曾志偉",
+            "personaggio": "Zhu Gao",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vrPBadugqlMkfNIYzLZbP4sEF1j.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/26724",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "吳君如",
+            "personaggio": "Pang Ying",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4x5DKG7EFjYxOa9RfV0YkKyheEG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/88495",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "湯唯",
+            "personaggio": "Pawn Shop Owner",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5HwPMAATexQc8uiPAmW3XKYt9bO.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/38280",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "姚晨",
+            "personaggio": "Female Head Chef",
+            "foto_url": "https://image.tmdb.org/t/p/w185/99N6rlwqbf96wRMbBsiam5IsCMX.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/482101",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "闫妮",
+            "personaggio": "Luo Ying",
+            "foto_url": "https://image.tmdb.org/t/p/w185/olR80y58ixqu6e2Vs0cNTeKWQqm.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/131303",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Uomini e mostri non possono convivere in armonia: i primi, per paura o per diletto, finiranno sempre per andare a caccia dei secondi. Consapevole di questo, la Regina dei Mostri, incinta e minacciata di morte, fa di tutto per preservare la salute del nascituro. Con una mossa disperata renderà gravido un umano, per giunta di sesso maschile: lo sciocco di buon cuore Song Tianyin. Saranno lui e la cacciatrice di mostri Xiaolan, tra mille vicissitudini, a dare alla luce il piccolo Wuba e poi a difenderlo da molteplici minacce.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/s8eJYfAYLGjxJfb194PrGbxVBqj.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=rIuNVEdvUt4",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube"
+        },
+        "tmdb_id_scelto": 334298,
+        "imdb_id_scelto": "tt3781476",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-03T04:37:52.929Z"
+      },
+      "genre": "fantasy",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-03T04:37:52.929Z",
+      "editor_updated_at": "2026-07-03T04:37:52.929Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "V0riAa_2LwY",
@@ -308997,10 +309613,164 @@
     {
       "video_id": "bC0k_g1Gmkg",
       "is_movie": true,
-      "original_title": "La voglia matta (HD) | Film Completo in Italiano | Classico del Cinema",
+      "original_title": "La voglia matta",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 116236,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/6fsbLs9HnJSqsd5JcNoJPTJS8FZ.jpg",
+      "tmdb_title_official": "La voglia matta",
+      "tmdb_year_official": 1962,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "La voglia matta",
+        "titolo_originale": "La voglia matta",
+        "anno_uscita": 1962,
+        "durata_minuti": 110,
+        "genere": [
+          "Romance",
+          "Commedia",
+          "Dramma"
+        ],
+        "regista": [
+          "Luciano Salce"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Ugo Tognazzi",
+            "personaggio": "Ing. Antonio Berlinghieri",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oHnqb2oEWbUfAPuU2P351HNGRX7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/32312",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Catherine Spaak",
+            "personaggio": "Francesca",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5kiWPIlbNrpOCUxoDwrkKQLjqVJ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/70119",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gianni Garko",
+            "personaggio": "Piero",
+            "foto_url": "https://image.tmdb.org/t/p/w185/eXhocD607r8cVaNGtcDlv1HutaD.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/97684",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Franco Giacobini",
+            "personaggio": "Carlo Alberghetti",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mHUYrm4dSxhzhpmDKQv3v16xKrU.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/66753",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Fabrizio Capucci",
+            "personaggio": "Enrico",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hncnDLDs6SGMrPu7XoXmBtzvpNp.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/598779",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Oliviero Prunas",
+            "personaggio": "Veniero",
+            "foto_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Dolci_inganni_-_Catherine_Spaak_Oliviero_Prunas.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "Wikipedia IT",
+              "url_pagina_origine": "https://it.wikipedia.org/wiki/Oliviero_Prunas",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Margherita Girelli",
+            "personaggio": "Marina",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1052769",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Diletta D'Andrea",
+            "personaggio": "Maria Grazia",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1348208",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Jimmy Fontana",
+            "personaggio": "Jimmy, the Boy Friend",
+            "foto_url": "https://image.tmdb.org/t/p/w185/japFFzsWT1K0Olwxr6Ua3pTSYuz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1173841",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Stelvio Rosi",
+            "personaggio": "amico biondo di Francesca",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ygClVE5pT5RmcyLR02reAodENwA.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1138195",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Un industriale milanese quarantenne si aggrega ad un gruppo di ragazzi che stanno passando un fine settimana al mare. Si invaghisce di una ragazza subendo i feroci scherzi della combriccola. Alla fine si rende conto che c'è un'età per tutto, e che, purtroppo non si può tornare indietro.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/6fsbLs9HnJSqsd5JcNoJPTJS8FZ.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=cWXjs9yON5M"
+        },
+        "tmdb_id_scelto": 116236,
+        "imdb_id_scelto": "tt0056665",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-03T04:45:53.448Z"
+      },
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-03T04:45:53.448Z",
+      "editor_updated_at": "2026-07-03T04:45:53.448Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "6uOIVtDSQDk",
@@ -309159,50 +309929,678 @@
     {
       "video_id": "HznuXUB6znM",
       "is_movie": true,
-      "original_title": "Spettacolo Completo: Beppe Grillo in TIME OUT (2000) | Monologo sul Nuovo Millennio",
+      "original_title": "Beppe Grillo: Time Out",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 359612,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/aJ6XYEl3LuAb6uJs1C7UzAkaVWE.jpg",
+      "tmdb_title_official": "Beppe Grillo: TIME OUT",
+      "tmdb_year_official": 2000,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Beppe Grillo: TIME OUT",
+        "titolo_originale": "Beppe Grillo: Time Out",
+        "anno_uscita": 2000,
+        "durata_minuti": 120,
+        "genere": [
+          "Commedia"
+        ],
+        "regista": [
+          "Beppe Grillo"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Beppe Grillo",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/Aje4Yuf00ccLm7wzt4pwo0gNHSM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/224981",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Spettacolo rimasto celebre per l'immagine finale di Grillo che con un martello spacca un computer (uno diverso per spettacolo!). Il titolo fa capire che la tecnologia viene vista con connotazioni comunque troppo negative, anche se oggi il comico ha cambiato radicalmente il suo approccio nei suoi confronti. Ci si diverte quando si dedica un quarto d'ora alla Omnitel con tanto di telefonata in diretta ai call-center che falsavano il credito delle schede prepagate. Uno spettacolo molto lungo (due ore) che in alcuni punti riesce a scandalizzare.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/aJ6XYEl3LuAb6uJs1C7UzAkaVWE.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=z7bA_2o_jM0"
+        },
+        "tmdb_id_scelto": 359612,
+        "imdb_id_scelto": null,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-03T04:45:23.435Z"
+      },
+      "genre": "commedia",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-03T04:45:23.435Z",
+      "editor_updated_at": "2026-07-03T04:45:23.435Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "BZv9TSq0v3Y",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Scorched con Alicia Silverstone e Rachael Leigh Cook | Commedia Cult | Film Completo ITA",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor web",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T04:41:48.061Z"
     },
     {
       "video_id": "QSYNuiT02ig",
       "is_movie": true,
-      "original_title": "Film Completo di John Bradshaw: La squadra di Natale (2020) | Romantico",
+      "original_title": "The Santa Squad",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 744949,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/sczrUcUhbRDgLhVdhNMO2GXrH08.jpg",
+      "tmdb_title_official": "La squadra di Natale",
+      "tmdb_year_official": 2020,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "La squadra di Natale",
+        "titolo_originale": "The Santa Squad",
+        "anno_uscita": 2020,
+        "durata_minuti": 90,
+        "genere": [
+          "televisione film",
+          "Dramma",
+          "Romance"
+        ],
+        "regista": [
+          "John Bradshaw"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Rebecca Dalton",
+            "personaggio": "Allie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dTsw3WJImhlgsajfzQvkIxqyYD7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1355149",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Aaron Ashmore",
+            "personaggio": "Gordon",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kkGwF2nhgnYLUfXuH2CDvrHeUay.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/90130",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jayne Eastwood",
+            "personaggio": "Connie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cL75FbJRKDdpvkOJDUgUYPZHKks.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4568",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Michael Therriault",
+            "personaggio": "Daniel",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wFwgsJPOsE6j9hf302yaIPFDCZ9.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1018325",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Paniz Zade",
+            "personaggio": "Kimmee",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iancD8TNzdOOQ0bZn17tLeslmsW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1648936",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Chris Sandiford",
+            "personaggio": "Tony",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tqHXyyOqquUf4W7NHvcb72iU5Nz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2069639",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Hattie Kragten",
+            "personaggio": "Rose",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xXwOYAPBbRAZxwpQSpCdhvvTn0M.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1848590",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "James Kall",
+            "personaggio": "Mr. Karl",
+            "foto_url": "https://static.tvmaze.com/uploads/images/medium_portrait/94/236795.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TVMaze",
+              "url_pagina_origine": "https://www.tvmaze.com/people/160973/james-kall",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Molly Lewis",
+            "personaggio": "Iris",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dwS4yYWWm7OrkcDkiNhCv25P5Zd.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2803674",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Allie accetta di lavorare nella squadra di Babbo Natale per aiutare un vedovo e le sue figlie a riscoprire la magia del Natale.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/sczrUcUhbRDgLhVdhNMO2GXrH08.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=AzhwkKzbK4Q"
+        },
+        "tmdb_id_scelto": 744949,
+        "imdb_id_scelto": "tt12787842",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-03T04:44:48.629Z"
+      },
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-03T04:44:48.629Z",
+      "editor_updated_at": "2026-07-03T04:44:48.629Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "nAzZnVTBZNo",
       "is_movie": true,
-      "original_title": "Film Completo di Sergio Colabona: Vita, cuore, battito (2016) | Commedia - Arteteca",
+      "original_title": "Vita, cuore, battito",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 387989,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/fdpz1QPkLkjNqw5hHUEKMFi28oq.jpg",
+      "tmdb_title_official": "Vita, Cuore, Battito",
+      "tmdb_year_official": 2016,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Vita, Cuore, Battito",
+        "titolo_originale": "Vita, cuore, battito",
+        "anno_uscita": 2016,
+        "durata_minuti": 93,
+        "genere": [
+          "Commedia"
+        ],
+        "regista": [
+          "Sergio Colabona"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Enzo Iuppariello",
+            "personaggio": "Enzo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8JoWPKjw0cIX1oDE7VnJUr4p4QD.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1966672",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Monica Lima",
+            "personaggio": "Monica",
+            "foto_url": "https://image.tmdb.org/t/p/w185/i2USqB0mavDmdSlBFV6mrcZuT5Z.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1689494",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Maria Bolignano",
+            "personaggio": "Zia Patrizia",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2644632",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Pasquale Palma",
+            "personaggio": "Gegé",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xgvFkZil7DAygEKDLIno5bZRozo.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1880532",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gennaro Scarpato",
+            "personaggio": "Marcello",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1977857",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Paco De Rosa",
+            "personaggio": "Scagnozzo Don Sal",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8m0ArA9xQr2cxZkNHkUXbDLjs1f.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2182130",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Paolo Elmo",
+            "personaggio": "Carlos",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4oR4yAGR9MHgCp50BCsB10YHwY0.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1878478",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Simone Gallo",
+            "personaggio": "Direttore Hotel Firenze",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jZNLbtegzenjSLNVWYcAgFDYqsw.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1383051",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Enzo e Monica sono due fidanzati trentenni della periferia di Napoli che conducono una vita fatta di routine e sistematica regolarità. Enzo lavora in un negozio di abbigliamento giovanile, è un ragazzo buono ma distratto, riesce a mantenere il suo posto di lavoro più per pietà del suo datore di lavoro che per le sue attitudini professionali.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/fdpz1QPkLkjNqw5hHUEKMFi28oq.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=5oxJslNAUL4"
+        },
+        "tmdb_id_scelto": 387989,
+        "imdb_id_scelto": "tt5100628",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-03T04:43:32.769Z"
+      },
+      "genre": "commedia",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-03T04:43:32.769Z",
+      "editor_updated_at": "2026-07-03T04:43:32.769Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "ogK1p9vLXFQ",
       "is_movie": true,
-      "original_title": "Film Completo di Brian Herzlinger: Un matrimonio sotto l'albero (2019)",
+      "original_title": "Twinkle All the Way",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 627470,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/4K13NQ1rhZyWehtIkAymjhjRWwE.jpg",
+      "tmdb_title_official": "L'amore a Natale",
+      "tmdb_year_official": 2019,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "L'amore a Natale",
+        "titolo_originale": "Twinkle All the Way",
+        "anno_uscita": 2019,
+        "durata_minuti": 90,
+        "genere": [
+          "televisione film",
+          "Romance",
+          "Famiglia"
+        ],
+        "regista": [
+          "Brian Herzlinger"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Sarah Drew",
+            "personaggio": "Cadence Clark",
+            "foto_url": "https://image.tmdb.org/t/p/w185/65hUM3Egh5roemP3Cgn0bA38rDj.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/198927",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ryan McPartlin",
+            "personaggio": "Henry Harrison",
+            "foto_url": "https://image.tmdb.org/t/p/w185/v0vKYfoSVLBEGBZ2ldjm3cHJwf3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/93031",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lesley Ann Warren",
+            "personaggio": "Twinkle Harrison",
+            "foto_url": "https://image.tmdb.org/t/p/w185/keo0DKSTITmDJIeQ91tHQZ0lh2k.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/21818",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mark Ghanimé",
+            "personaggio": "Danny",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rdk7i7vL6MV7gvLG4J6SxN9dTcD.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1261371",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rachael Crawford",
+            "personaggio": "Millie Abbott",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7YtWW02HKyxx1sGpVnRxVgZyEoE.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/54819",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lanette Ware",
+            "personaggio": "Sue Sutton",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8nJlQZ1z63fHUrLVxwbLpjPbMlx.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/164433",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Randy Thomas",
+            "personaggio": "Mr. Rob Costello",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wpHQA1Kcge3YrM8nEVTLeDrnSTE.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1848595",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nicki Whitely",
+            "personaggio": "Avery",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dAUMTDmvAPWXFMg8Dm9lU24YINW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/964337",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Andrew Bushell",
+            "personaggio": "Sam",
+            "foto_url": "https://image.tmdb.org/t/p/w185/x6gvG1kvBep1z8RBYCUWpDTVyly.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2060364",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mark Irvingsen",
+            "personaggio": "Park Ranger Chris",
+            "foto_url": "https://image.tmdb.org/t/p/w185/AmbZoBVKUE9Bpvy7qlGlcAVlICz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1088092",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Nel tentativo di organizzare il più spettacolare matrimonio natalizio presso un esclusivo locale, la wedding planner Cadence Clark unisce le proprie forze con quelle di Henry Harrison, comproprietario di un'azienda di decorazioni a tema. Entrambi genitori single, finiranno per aiutarsi a vicenda e riscoprire l'amore.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/4K13NQ1rhZyWehtIkAymjhjRWwE.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=wWdXx_Db68w"
+        },
+        "tmdb_id_scelto": 627470,
+        "imdb_id_scelto": "tt10964168",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-03T04:42:40.892Z"
+      },
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-03T04:42:40.892Z",
+      "editor_updated_at": "2026-07-03T04:42:40.892Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "yLGrUT_1f08",
       "is_movie": true,
-      "original_title": "Jack London Story (Klondike Fever) 1980 - Basato sulle avventure del celebre autore",
+      "original_title": "Klondike Fever",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 256014,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/lfsAmmPkIc9VwLRzbYwlnYMuG7U.jpg",
+      "tmdb_title_official": "Klondike Fever",
+      "tmdb_year_official": 1980,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Klondike Fever",
+        "titolo_originale": "Klondike Fever",
+        "anno_uscita": 1980,
+        "durata_minuti": 119,
+        "genere": [
+          "Avventura"
+        ],
+        "regista": [
+          "Peter Carter"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Jeff East",
+            "personaggio": "Jack London",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rU43pn639rgSA1DsS0UJrdTjVaM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/53088",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rod Steiger",
+            "personaggio": "Soapy Smith",
+            "foto_url": "https://image.tmdb.org/t/p/w185/70bE5PZJbRHxG4th6gDvXGgXu4Z.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/522",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Angie Dickinson",
+            "personaggio": "Belinda McNair",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5OmGKBhCTz7nobyMOPfaxs2F9n3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4301",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lorne Greene",
+            "personaggio": "Inspector Sam Steele",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4ZXmQq38R3RUvgeODGKJY0Xjqgu.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/40181",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Barry Morse",
+            "personaggio": "John Thornton",
+            "foto_url": "https://image.tmdb.org/t/p/w185/i3WCQnTcMSRXYTEum37rXYpboTz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/101851",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lisa Langlois",
+            "personaggio": "Diamond Tooth Gertie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dOqzxrS31BINarvkx4FQMYYaIW3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/28246",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Robin Gammell",
+            "personaggio": "Merritt Sloper",
+            "foto_url": "https://image.tmdb.org/t/p/w185/aCbZa9rJOeGWfAVUJT6a22RgzBG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/70440",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gordon Pinsent",
+            "personaggio": "Swiftwater Bill",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rSIB6bLPrwDMaeJWoEbaoAcdGDT.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/13950",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Michael Hogan",
+            "personaggio": "Will Ryan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/r4a2EACsJpK1NBNQFhTBwPTKA2w.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/164114",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Buck",
+            "personaggio": "The Dog",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3850018",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Questo film racconta l'epico viaggio di Jack London da San Francisco ai campi d'oro del Klondike nel 1898.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/lfsAmmPkIc9VwLRzbYwlnYMuG7U.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 256014,
+        "imdb_id_scelto": "tt0081004",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-03T04:37:06.993Z"
+      },
+      "genre": "avventura",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-03T04:37:06.993Z",
+      "editor_updated_at": "2026-07-03T04:37:06.993Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "0krLG9m-KHg",
@@ -309518,27 +310916,36 @@
     },
     {
       "video_id": "zz3Ugvs28NY",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E16: license to kill | Starhunter (2003) | Cacciatori o sicari? (4K)",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T04:35:57.537Z"
     },
     {
       "video_id": "n7P2cf1arqU",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E12: Supermax Redux | Starhunter (2003) | Una missione che puzza di inganno (4K)",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T04:35:57.538Z"
     },
     {
       "video_id": "hyVbmCJRuLM",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E19: the heir and the spare | Starhunter (2003) | Una guerra per il trono (4K)",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T04:35:57.539Z"
     }
   ],
   "title_validated_at": "2026-06-16T06:48:35",
