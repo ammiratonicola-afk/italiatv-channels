@@ -299311,10 +299311,124 @@
     {
       "video_id": "6F6uQiWd9iQ",
       "is_movie": true,
-      "original_title": "AMBER ALERT| Thriller in Full HD| Film Completo in Italiano",
+      "original_title": "Amber Alert",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 414067,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/n0afktCF06KKd9SYDxCHawbzGfW.jpg",
+      "tmdb_title_official": "Amber Alert - Allarme Minori Scomparsi",
+      "tmdb_year_official": 2016,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Amber Alert - Allarme Minori Scomparsi",
+        "titolo_originale": "Amber Alert",
+        "anno_uscita": 2016,
+        "durata_minuti": 95,
+        "genere": [
+          "Dramma",
+          "Thriller",
+          "televisione film"
+        ],
+        "regista": [
+          "Philippe Gagnon"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Damon Runyan",
+            "personaggio": "Hamilton",
+            "foto_url": "https://image.tmdb.org/t/p/w185/74HBlulH9QcYN0CFQrGPv7oS2Gm.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1376330",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Alaina Huffman",
+            "personaggio": "Amber Cross",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pQCalMLH8W0e0OQgog2v2Y0AQEu.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/169725",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Scott Gibson",
+            "personaggio": "Edward Cross",
+            "foto_url": "https://image.tmdb.org/t/p/w185/yKqoZbEZQnMaCK5ik72C5oPSO6v.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/63859",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Cameron Brodeur",
+            "personaggio": "Oliver Cross",
+            "foto_url": "https://image.tmdb.org/t/p/w185/g5hHxY8QAKpCbcAyatqF1WRPZQB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1722430",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ambrosio De Luca",
+            "personaggio": "Little Boy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/h23VbqNRvWhHLq8kd81EyG4wTxn.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1569728",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ines Feghouli Bozon",
+            "personaggio": "Little Girl #3",
+            "foto_url": "https://image.tmdb.org/t/p/w185/evJfAJPq4BN5a3mTwTsdngRt6Ob.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2372884",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kyle Mac",
+            "personaggio": "Calum",
+            "foto_url": "https://image.tmdb.org/t/p/w185/v8vzJLI0OZrZlEPg1SPvGxlROnm.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1251994",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Un ragazzo di 20 anni prende un autobus pieno di bambini in ostaggio in cambio di denaro per aiutare la madre malata. Nel frattempo una detective con problemi familiari e di lavoro, cerca di negoziare con il sequestratore....",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/n0afktCF06KKd9SYDxCHawbzGfW.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 414067,
+        "imdb_id_scelto": "tt4622108",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-03T06:08:53.465Z"
+      },
+      "genre": "thriller",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-03T06:08:53.465Z",
+      "editor_updated_at": "2026-07-03T06:08:53.465Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "EX_uRuwU2C0",
@@ -310416,10 +310530,158 @@
     {
       "video_id": "KQIr_oQ81Wk",
       "is_movie": true,
-      "original_title": "La vendetta di un serial killer | Second Chances (2007) HD",
+      "original_title": "Second Chances",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 111039,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/cbjLILjeSmUlvNxecsuDASzGLwo.jpg",
+      "tmdb_title_official": "L'ultima mossa del killer",
+      "tmdb_year_official": 2010,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "L'ultima mossa del killer",
+        "titolo_originale": "Second Chances",
+        "anno_uscita": 2010,
+        "durata_minuti": 90,
+        "genere": [
+          "televisione film",
+          "Thriller",
+          "Crime",
+          "Mistero"
+        ],
+        "regista": [
+          "Jean-Claude Lord"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Melissa George",
+            "personaggio": "Kate Fisher",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pqikObF4yi5PBbMGX806QNGUVW0.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/27755",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ellen Dubin",
+            "personaggio": "Detective Sinclair",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cvf1pX4t6ZzDPsRi9J2xGrGj78c.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/53934",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Quinn Lord",
+            "personaggio": "Robbie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/aWeDDDxf88l6y1QhOffOcR3IYpf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/89885",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Robert Crooks",
+            "personaggio": "Collum McTavish",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nrGJWpytpp8zZzjZM0KdrzgwnhP.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/60906",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Catherine Bérubé",
+            "personaggio": "Becky Wade",
+            "foto_url": "https://image.tmdb.org/t/p/w185/e1omoQJx8OHbkjgGHM8kew6ySoc.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/209815",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ryan Scott Greene",
+            "personaggio": "Lucas Kelley",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zo5XplGCeQ4JY6T50Yg0dd3HSBc.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/190920",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gianpaolo Venuta",
+            "personaggio": "Neil Bray / Phil Sterin",
+            "foto_url": "https://image.tmdb.org/t/p/w185/w3d0kUb69R8kJ4QKEjl13bJ0uRX.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/179274",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Spiro Malandrakis",
+            "personaggio": "Officer Hathaway",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xqyA42MYEdN4cUjGE2CDIkdbHcy.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/131337",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marcel Jeannin",
+            "personaggio": "John Benedict",
+            "foto_url": "https://image.tmdb.org/t/p/w185/u4cJlSYUA5T2dHQrR5meN23tHda.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/143395",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mary Katherine Harvey",
+            "personaggio": "Receptionist",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1050985",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "La giornalista Kate Fisher si trova al centro di uno scandalo per l'intervista a un uomo rivelatosi poi un serial killer. Dopo aver perso tutto cerca di rifarsi una vita, ma qualcuno inizia a perseguitarla.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/cbjLILjeSmUlvNxecsuDASzGLwo.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 111039,
+        "imdb_id_scelto": "tt1491043",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-03T06:04:45.666Z"
+      },
+      "genre": "poliziesco",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-03T06:04:45.666Z",
+      "editor_updated_at": "2026-07-03T06:04:45.666Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "ntN15RG6gYs",
@@ -314259,10 +314521,164 @@
     {
       "video_id": "aBjveghO3QA",
       "is_movie": true,
-      "original_title": "Film Completo di Graeme Campbell: Le vacanze di Natale (2020) | Romantico",
+      "original_title": "A Christmas Break",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 744958,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/vvJrPHinWCsNgWpc7g1ev8APT6X.jpg",
+      "tmdb_title_official": "Le vacanze di Natale",
+      "tmdb_year_official": 2020,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Le vacanze di Natale",
+        "titolo_originale": "A Christmas Break",
+        "anno_uscita": 2020,
+        "durata_minuti": 90,
+        "genere": [
+          "televisione film",
+          "Dramma",
+          "Romance"
+        ],
+        "regista": [
+          "Graeme Campbell"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Cindy Sampson",
+            "personaggio": "Addison Tate",
+            "foto_url": "https://image.tmdb.org/t/p/w185/peY41PlXawaAnhJ1q2TybaVacvV.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/52785",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Steve Byers",
+            "personaggio": "Dylan Davidson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/eVCF61X04zmBAyW8JFTXBdEXsBP.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/43292",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Samora Smallwood",
+            "personaggio": "Judy Cole",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zuHF6M9w80PLl3gitJACvsbKRg4.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1376614",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Samantha Helt",
+            "personaggio": "Monique Monteith",
+            "foto_url": "https://image.tmdb.org/t/p/w185/c3fWWqKtbGbvg7WMbArXREY3fcW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2510890",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Arnold Pinnock",
+            "personaggio": "Garth Turner",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7AET3sstZdRgoWlqgXdBcE935HE.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/87575",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Aidan Vissers",
+            "personaggio": "Liam",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ym4AODTXoKlvcHnic9jBABiVkbF.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2567785",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nneka Elliott",
+            "personaggio": "Reporter",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lvKrkICabtejk9Wp2X4Fvz6CsAV.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1746410",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Stefan Brogren",
+            "personaggio": "Phil Johnson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/f2fQZarkLMgJ6QLkFu1H0Qv5d1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1040208",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Howard Hoover",
+            "personaggio": "Bill Tate",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tBP8LE3YU0AK4ZaBRSh5jrWikPQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1239425",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Chris Tarpos",
+            "personaggio": "Accordion Player/Townsperson (Uncredited)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/AfWu0lhFoWJKrPQIv9fO02Ie4pb.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3683089",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "La chiusura della scuola in cui insegna mette a dura prova Addison. L'incontro con Danny e la magia del Natale riaccendono la speranza.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/vvJrPHinWCsNgWpc7g1ev8APT6X.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=y4LQ8p7W6SI"
+        },
+        "tmdb_id_scelto": 744958,
+        "imdb_id_scelto": "tt13342180",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-03T05:56:35.349Z"
+      },
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-03T05:56:35.349Z",
+      "editor_updated_at": "2026-07-03T05:56:35.349Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "b7A9Y3kfZ0w",
@@ -314432,10 +314848,63 @@
     {
       "video_id": "V0riAa_2LwY",
       "is_movie": true,
-      "original_title": "Spettacolo Completo: Beppe Grillo in BEPPEGRILLO.IT (2005) | Monologo",
+      "original_title": "Beppegrillo.it",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 253796,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/oOkOgJ8eiaT5aw6hJgMFHTI3VO0.jpg",
+      "tmdb_title_official": "Beppegrillo.it",
+      "tmdb_year_official": 2005,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Beppegrillo.it",
+        "titolo_originale": "Beppegrillo.it",
+        "anno_uscita": 2005,
+        "durata_minuti": 158,
+        "genere": [
+          "Commedia",
+          "Dramma",
+          "Documentario"
+        ],
+        "regista": [],
+        "cast_principale": [
+          {
+            "nome": "Beppe Grillo",
+            "personaggio": "himself",
+            "foto_url": "https://image.tmdb.org/t/p/w185/Aje4Yuf00ccLm7wzt4pwo0gNHSM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/224981",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "'Vent'anni fa ho fatto una pubblicità.  Ma poi ho capito alcune cose sulla pubblicità. Qunidici anni fa me la prendevo con i politici. Ma poi ho capito alcune cose sull'economia. Dicei anni fa finivo i miei spettacoli sfasciando un computer a mazzate. Ma poi ho capito alcune cose sul computer e su Internet. Oggi la pubblicità mi sembra uno dei mali peggiori, l'economia la vera padrona della politica e Internet uno dei pochi spiragli per difendersi e per ridare alla politica lo spazio che l'economia le ha rubato.  Il 26 gennaio ho aperto un blog, www.beppegrillo.it, senza sapere bene cosa fosse. Sto cominciando a capirlo ora.  Non so dove ci porterà questa avventura. Ho però il presentimento che ci potrebbe portare lontano. Se sapremo usarla bene, forse Internet potrebbe aiutarci a lasciarci alle spalle un mondo dominato dai manager delle multinazionali, dalla loro pubblicità e dai governi al loro servizio...'",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/oOkOgJ8eiaT5aw6hJgMFHTI3VO0.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=-K7ibYZpWpU"
+        },
+        "tmdb_id_scelto": 253796,
+        "imdb_id_scelto": null,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-03T05:40:23.769Z"
+      },
+      "genre": "documentario",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-03T05:40:23.769Z",
+      "editor_updated_at": "2026-07-03T05:40:23.769Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "rK3t2bf_F1c",
