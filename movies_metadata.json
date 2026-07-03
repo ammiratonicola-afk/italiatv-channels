@@ -316907,155 +316907,212 @@
     },
     {
       "video_id": "eON3rojCcVo",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E20: hyperspace 2 | Starhunter (2003) | La Tulip affronta di nuovo l'ignoto (4K)",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T12:23:59.015Z"
     },
     {
       "video_id": "PlJTi_etIUA",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E14: pandora's box | Starhunter (2003) | La taglia più pericolosa di tutte (4K)",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T12:23:59.016Z"
     },
     {
       "video_id": "PQH50AyCmFI",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E18: stitch in time | Starhunter (2003) | Il futuro è nelle loro mani (4K)",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T12:23:59.016Z"
     },
     {
       "video_id": "QRm_d9qrU1A",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E13: hyperspace | Starhunter (2003) | Un viaggio ai confini della realtà (4K)",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T12:23:59.016Z"
     },
     {
       "video_id": "O-E5WCsDSTY",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E22: negative energy | Starhunter (2003) | Come si combatte ciò che non si può vedere? (4K)",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T12:23:59.017Z"
     },
     {
       "video_id": "JEcBY1ZfA7Y",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E15: Rivals | Starhunter (2003) | Scontro tra i migliori della galassia (4K)",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T12:23:59.018Z"
     },
     {
       "video_id": "KFo4R4txbwo",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E21: just politics | Starhunter (2003) | Una caccia all'uomo che scuote il governo (4K)",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T12:23:59.020Z"
     },
     {
       "video_id": "5btqT5B4vgc",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E17: Kate | Starhunter (2003) | Una donna in fuga (4K)",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T12:23:59.020Z"
     },
     {
       "video_id": "pwuceB1wRE4",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E01: Rebirth | Starhunter (2003) | Un nuovo inizio per l'equipaggio",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T12:23:59.019Z"
     },
     {
       "video_id": "kMGv4j5x6SA",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E08: Painless | Starhunter (2003) | Travis contro il narcotraffico spaziale",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T12:23:59.019Z"
     },
     {
       "video_id": "lHBcTHZqjVE",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E03: Bio Crime | Starhunter (2003) | Travis viene infettato dal siero",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T12:23:59.019Z"
     },
     {
       "video_id": "R0FK7U6U01A",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E10: The Prisoner | Starhunter (2003) | Uno dell'equipaggio diventa l'ostaggio",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T12:23:59.019Z"
     },
     {
       "video_id": "SD4rn0v4GyM",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E06: Torment | Starhunter (2003) | Ricordi dolorosi per Travis Montana",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T12:23:59.018Z"
     },
     {
       "video_id": "Q_7CokVbc9I",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E11: The Third Thing | Starhunter (2003) | La realtà supera di gran lunga la fantasia",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T12:23:59.018Z"
     },
     {
       "video_id": "UpehNSDVLSI",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E05: Spaceman | Starhunter (2003) | I militari vogliono recuperare l'esperimento",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T12:23:59.020Z"
     },
     {
       "video_id": "SXsczh5raMI",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E02: Star Crossed | Starhunter (2003) | La ricerca del padre continua",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T12:23:59.020Z"
     },
     {
       "video_id": "C-5aGpbakdg",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E04: Chasing Janus | Starhunter (2003) | Chi è veramente il fuggitivo?",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T12:23:59.020Z"
     },
     {
       "video_id": "83LmLMTY51E",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E07: Becoming Shiva | Starhunter (2003) | Una corsa disperata contro il tempo",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T12:23:59.021Z"
     },
     {
       "video_id": "2ACISQ0JSpM",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E09: Skin Deep | Starhunter (2003) | Una donna piena di misteri",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-03T12:23:59.022Z"
     },
     {
       "video_id": "PWIAtYWOOUM",
