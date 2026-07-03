@@ -297450,10 +297450,164 @@
     {
       "video_id": "Ml2Kt2yVaXQ",
       "is_movie": true,
-      "original_title": "Film Completo: Easter Bloody Easter (2024) | Horror Comedy ITA",
+      "original_title": "Easter Bloody Easter",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 1201176,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/8tGYZlPttiOjEe61GvszRcrnpEi.jpg",
+      "tmdb_title_official": "Easter Bloody Easter",
+      "tmdb_year_official": 2024,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Easter Bloody Easter",
+        "titolo_originale": "Easter Bloody Easter",
+        "anno_uscita": 2024,
+        "durata_minuti": 103,
+        "genere": [
+          "Horror",
+          "Commedia",
+          "Fantasy"
+        ],
+        "regista": [
+          "Diane Foster"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Diane Foster",
+            "personaggio": "Jeanie Cooper",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5fLk0zg0R21IT7MWYx8GQxDmLQw.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/111242",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kelly Grant",
+            "personaggio": "Carol",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2onE8Ovj1rTepams2pAFK7LF1QI.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4359110",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Allison Lobel",
+            "personaggio": "Mary Lou",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nLhclDY6KLHqghqcbbQ6bQGrm1u.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2482561",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Zuri Starks",
+            "personaggio": "Megan",
+            "foto_url": "https://static.tvmaze.com/uploads/images/medium_portrait/313/784603.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TVMaze",
+              "url_pagina_origine": "https://www.tvmaze.com/people/313160/zuri-starks",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "D'Andre Noiré",
+            "personaggio": "Lance Cooper",
+            "foto_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqb6vYhix5rva8K398LGAQ6XMP9EKuby-oAUxBIpRO4clm21tNV-Ycg64&s=10",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Zach Kanner",
+            "personaggio": "Sam",
+            "foto_url": "https://m.media-amazon.com/images/M/MV5BOGM4YzczNzItMWE3Ny00Mjc2LTgxZmQtYjZhYzZlZTFhNzI1XkEyXkFqcGc@._V1_.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Miles Cooper",
+            "personaggio": "Eugene",
+            "foto_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsE0wv-6xvAuGO2fv8ei8CoDKYuE3CCzM9wi159CsRGIf-5F5Vz8WJGEwX&s=10",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gavin Lee",
+            "personaggio": "Jim",
+            "foto_url": "https://image.tmdb.org/t/p/w185/axnkER0MZvQeh8DWJyrBgwTlILG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2474203",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jamie B. Cline",
+            "personaggio": "Jackalope",
+            "foto_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYqNMc5miOTMZ876cb8GsG7K9J9txJnQvj3UlcUp4uDrqia-HIP_gZCYyH48p6Z1r8G8S8CiVapRuCWR8cff-xIBbDRuCupmMHa0LCUxo&s=10",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Adam Slemon",
+            "personaggio": "Mayor Lou",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6JpaVT3lYDHDuTyR8xn5rgHJqBu.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3697390",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Una donna deve proteggere il suo piccolo paese dal Jackalope (basato sulla creatura mitica con le caratteristiche di un coniglio e un'antilope del folklore nordamericano) e dal suo esercito di conigli malefici mentre si lanciano in una serie di omicidi durante il weekend di Pasqua.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/8tGYZlPttiOjEe61GvszRcrnpEi.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=Iui62C5VrvE"
+        },
+        "tmdb_id_scelto": 1201176,
+        "imdb_id_scelto": "tt29372176",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-03T04:53:50.146Z"
+      },
+      "genre": "horror",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-03T04:53:50.146Z",
+      "editor_updated_at": "2026-07-03T04:53:50.146Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "2awheDRLAFU",
@@ -309333,10 +309487,162 @@
     {
       "video_id": "D8atKXc8JYk",
       "is_movie": true,
-      "original_title": "Film Completo di Reginald Hudlin: Tutta colpa di Sara (2002) | Romantico",
+      "original_title": "Serving Sara",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 12771,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/bjGnOOli5KPdUtjncuV7dLbKr2z.jpg",
+      "tmdb_title_official": "Tutta colpa di Sara",
+      "tmdb_year_official": 2002,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Tutta colpa di Sara",
+        "titolo_originale": "Serving Sara",
+        "anno_uscita": 2002,
+        "durata_minuti": 100,
+        "genere": [
+          "Commedia"
+        ],
+        "regista": [
+          "Reginald Hudlin"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Matthew Perry",
+            "personaggio": "Joe Tyler",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ecDzkLWPV1z0x31I1GTjNmLxAHk.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/14408",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Elizabeth Hurley",
+            "personaggio": "Sara Moore",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1z6bx9I3J8gTQAQPrA5cJgzkiqt.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/13918",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Vincent Pastore",
+            "personaggio": "Tony",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dyRRn8POwLUMHT7lIISujioYOym.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/47774",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Bruce Campbell",
+            "personaggio": "Gordon Moore",
+            "foto_url": "https://image.tmdb.org/t/p/w185/p9335ljr7luOWsfwZSOlsIzFJKE.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/11357",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Cedric the Entertainer",
+            "personaggio": "Ray Harris",
+            "foto_url": "https://image.tmdb.org/t/p/w185/s6UrY5uofyxXsU5PydWBoLFReK0.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5726",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Amy Adams",
+            "personaggio": "Kate",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lub0nBRhsCu2pByvfvxt5DcW86d.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/9273",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Terry Crews",
+            "personaggio": "Vernon",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pxTY4SglLo5hFcMH00MxPeC5u55.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/53256",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jerry Stiller",
+            "personaggio": "Milton the Cop",
+            "foto_url": "https://image.tmdb.org/t/p/w185/eGymLHTpIyxKyBjACsNTpEof6y4.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/26042",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marshall Bell",
+            "personaggio": "Warren Cebron",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zLa0DdHu1pvEme0DyylltLh08rY.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3041",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Derek Southers",
+            "personaggio": "Bouncer",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1375034",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "L'ufficiale giudiziario Joe Tyler si guadagna da vivere inviando mandati di comparizione a vittime insospettate. Sara Moore, allevatrice di bestiame in Texas, è uno dei suoi bersagli. Con l'aiuto di Gordon, socio di Sara che ha architettato di rovinarla economicamente per entrare in possesso della sua parte, Joe sta cercando di incastrarla. Sara cerca quindi di capovolgere la situazione e fa un'offerta che Joe non può rifiutare: incastrare il suo socio e guadagnare un milione di dollari. I due si trovano così a lavorare fianco a fianco.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/bjGnOOli5KPdUtjncuV7dLbKr2z.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=LOZIr0fhg2k"
+        },
+        "tmdb_id_scelto": 12771,
+        "imdb_id_scelto": "tt0261289",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-03T04:54:25.798Z"
+      },
+      "genre": "commedia",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-03T04:54:25.798Z",
+      "editor_updated_at": "2026-07-03T04:54:25.798Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "kL7LJTcRR1g",
