@@ -224087,7 +224087,7 @@
     {
       "video_id": "RrXKMC2s6jw",
       "is_movie": true,
-      "original_title": "Antonio e Placido - Attenti ragazzi... chi rompe paga (1975) | IL FILM COMPLETO | Cult Anni '70",
+      "original_title": "Antonio e Placido - Attenti ragazzi... chi rompe paga",
       "channel": "Azione360",
       "tmdb_id": 362814,
       "tmdb_title_official": "Antonio e Placido - Attenti ragazzi... chi rompe paga",
@@ -224098,8 +224098,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Antonio e Placido - Attenti ragazzi... chi rompe paga (1975) | IL FILM COMPLETO | Cult Anni '70",
-        "youtube_url": "https://www.youtube.com/watch?v=RrXKMC2s6jw",
         "titolo_italiano": "Antonio e Placido - Attenti ragazzi... chi rompe paga",
         "titolo_originale": "Antonio e Placido - Attenti ragazzi... chi rompe paga",
         "anno_uscita": 1975,
@@ -224192,7 +224190,7 @@
           {
             "nome": "Muzaffer Tema",
             "personaggio": null,
-            "foto_url": "https://image.tmdb.org/t/p/w185/eGQRRXXXgftnBgQMaWxisgIn9nW.jpg",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rDmkrvdFbVY628c5aTbIVE7fZC6.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
@@ -224223,19 +224221,14 @@
             }
           }
         ],
-        "trama": "Una nave ferma al porto di Istanbul dovrebbe caricare verdure, ma un uomo senza scrupoli vorrebbe aggiungere armi sotto le casse di verdura. Il capitano della nave rifiuta l'offerta del malvivente.",
+        "trama": "Una nave ferma al porto di Istanbul dovrebbe caricare verdure, ma un uomo senza scrupoli vorrebbe aggiungere armi sotto le casse di verdure. Il capitano della nave rifiuta l'offerta del malvivente.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/4gityyt9mpM8QHDfqlMADsH2cRN.jpg",
-        "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
-        },
-        "tmdb_id_scelto": 362814
+        "trailer": null,
+        "tmdb_id_scelto": 362814,
+        "imdb_id_scelto": "tt0074160",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T05:51:17.680Z"
       },
       "related_video_ids": [
         "RrXKMC2s6jw",
@@ -224251,7 +224244,14 @@
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 8,
-      "vote_count": 1
+      "vote_count": 1,
+      "tmdb_media_type": "movie",
+      "genre": "commedia",
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T05:51:17.680Z",
+      "editor_updated_at": "2026-07-04T05:51:17.680Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "T6-LXT_FI6w",
