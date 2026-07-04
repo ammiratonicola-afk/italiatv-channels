@@ -2103,18 +2103,83 @@ function parseImdbId(value){
   const m=String(value||"").match(/tt\d{6,10}/i);
   return m?m[0].toLowerCase():"";
 }
-async function tmdbFindByImdb(imdbId){
+// OMDb: dati IMDb per imdb id (ripiego quando TMDB non ha il film collegato).
+async function omdbByImdb(imdbId){
   try{
-    const r=await fetch(`${TMDB}/find/${imdbId}?api_key=${TKEY}&language=it-IT&external_source=imdb_id`).then(x=>x.json());
-    const mv=(r.movie_results||[])[0], tv=(r.tv_results||[])[0];
-    const hit=mv||tv; if(!hit) return false;
-    const sel={_type:mv?"movie":"tv", id:hit.id, poster_path:hit.poster_path,
-      title:(hit.title||hit.name||""), year:((hit.release_date||hit.first_air_date||"").slice(0,4)), imdb_id:imdbId};
-    const R=$("m_results"); R.innerHTML="";
-    addResultCard(R, sel);
-    aiBox("Trovato via IMDb "+imdbId+": "+sel.title+" — clicca il risultato per applicarlo.", true);
+    const d=await fetch(`https://www.omdbapi.com/?i=${imdbId}&apikey=${OMDB_KEY}`).then(r=>r.json());
+    return (d && d.Response!=="False") ? d : null;
+  }catch(e){ return null; }
+}
+// Miglior match TMDB per titolo (+anno): ritorna un 'sel' o null.
+async function tmdbSearchBestSel(title, year){
+  if(!title) return null;
+  try{
+    let d=await fetch(`${TMDB}/search/movie?api_key=${TKEY}&language=it-IT&query=${encodeURIComponent(title)}`+(year?`&year=${year}`:"")).then(r=>r.json());
+    let res=(d.results||[]);
+    if(!res.length && year){ d=await fetch(`${TMDB}/search/movie?api_key=${TKEY}&language=it-IT&query=${encodeURIComponent(title)}`).then(r=>r.json()); res=(d.results||[]); }
+    res.sort((a,b)=>(b.poster_path?1:0)-(a.poster_path?1:0));
+    const r=res[0]; if(!r) return null;
+    return {_type:"movie", id:r.id, poster_path:r.poster_path, title:(r.title||r.original_title||""), year:(r.release_date||"").slice(0,4)};
+  }catch(e){ return null; }
+}
+// Applica al modale i dati SOLO da IMDb/OMDb (quando TMDB non ha il film): nessun blocco.
+function applyOmdbToModal(om, imdbId){
+  $("m_results").innerHTML="";
+  $("m_title").value=om.Title||"";
+  $("m_original_guess").value=om.Title||"";
+  const yr=(om.Year||"").match(/\d{4}/); if(yr) $("m_year").value=yr[0];
+  if(om.Plot && om.Plot!=="N/A") $("m_plot").value=om.Plot;
+  const rt=(om.Runtime||"").match(/\d+/); if(rt) $("m_duration").value=rt[0];
+  if(imdbId){ $("m_imdb").value=imdbId; }
+  $("m_tmdb").value="";                 // nessun TMDB id: film IMDb-only
+  $("m_posterpath").value="";
+  const genres=(om.Genre&&om.Genre!=="N/A")?om.Genre.split(",").map(s=>s.trim()):[];
+  const dg=deriveGenre(genres); if(dg) $("m_genre").value=dg;
+  const actors=(om.Actors&&om.Actors!=="N/A")?om.Actors.split(",").map(s=>({nome:s.trim(),personaggio:null,
+    foto_url:null,foto_tipo:"nessuna",foto_fonte:{nome:null,url_pagina_origine:null,verificata:false}})):[];
+  renderCast(actors);
+  if(om.Poster && om.Poster!=="N/A"){ $("m_poster").src=om.Poster; }
+  if(imdbId){ setImdbTrailerFallback(imdbId); }   // trailer: videogallery IMDb
+}
+// Caricamento robusto via IMDb id: TMDB /find → OMDb→ricerca TMDB → SOLO IMDb.
+// Nessuno dei due (TMDB/IMDb) blocca l'altro: se uno non trova, si prosegue con l'altro.
+async function tmdbFindByImdb(imdbId){
+  // 1) TMDB /find (film con imdb collegato). Errori reali (429/rete) NON = "non trovato".
+  try{
+    const r=await fetch(`${TMDB}/find/${imdbId}?api_key=${TKEY}&language=it-IT&external_source=imdb_id`);
+    if(r.ok){
+      const d=await r.json();
+      const mv=(d.movie_results||[])[0], tv=(d.tv_results||[])[0], hit=mv||tv;
+      if(hit){
+        const sel={_type:mv?"movie":"tv", id:hit.id, poster_path:hit.poster_path,
+          title:(hit.title||hit.name||""), year:((hit.release_date||hit.first_air_date||"").slice(0,4)), imdb_id:imdbId};
+        const R=$("m_results"); R.innerHTML=""; addResultCard(R, sel);
+        aiBox("Trovato su TMDB via IMDb "+imdbId+": "+sel.title+".", true);
+        return true;
+      }
+    } else if(r.status===429){
+      aiBox("TMDB occupato (rate limit) — riprovo via IMDb/OMDb…", true);
+    }
+  }catch(e){ aiBox("Rete TMDB non raggiungibile ("+e.message+") — provo via IMDb/OMDb…", true); }
+
+  // 2) TMDB non ha l'imdb collegato → OMDb (IMDb) dà titolo/anno → ricerca su TMDB
+  const om=await omdbByImdb(imdbId);
+  if(om){
+    const yr=(om.Year||"").match(/\d{4}/);
+    const sel=await tmdbSearchBestSel(om.Title, yr?yr[0]:"");
+    if(sel){
+      sel.imdb_id=imdbId;
+      const R=$("m_results"); R.innerHTML=""; addResultCard(R, sel);
+      aiBox("IMDb → «"+om.Title+"» ("+(om.Year||"?")+"): risolto su TMDB.", true);
+      return true;
+    }
+    // 3) TMDB non ha proprio il film → usa SOLO i dati IMDb (nessun blocco)
+    applyOmdbToModal(om, imdbId);
+    aiBox("Caricato SOLO da IMDb: «"+om.Title+"» ("+(om.Year||"?")+"). TMDB non ha questo film: puoi salvarlo coi dati IMDb o cercarlo a mano.", true);
     return true;
-  }catch(e){ return false; }
+  }
+  aiBox("Nessun risultato né su TMDB né su IMDb per "+imdbId+". Prova a cercare per titolo.", false);
+  return false;
 }
 async function loadByImdbId(){
   const imdbId=parseImdbId($("m_imdb").value);
