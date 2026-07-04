@@ -211928,7 +211928,7 @@
     {
       "video_id": "RFIreUSM90k",
       "is_movie": true,
-      "original_title": "La Rapina Impossibile con James Franco (Thriller & Azione) | The Vault - Film Completo HD",
+      "original_title": "The Vault",
       "channel": "Azione360",
       "tmdb_id": 416160,
       "tmdb_title_official": "The Vault",
@@ -211939,8 +211939,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "La Rapina Impossibile con James Franco (Thriller & Azione) | The Vault - Film Completo HD",
-        "youtube_url": "https://www.youtube.com/watch?v=RFIreUSM90k",
         "titolo_italiano": "The Vault",
         "titolo_originale": "The Vault",
         "anno_uscita": 2017,
@@ -212067,16 +212065,11 @@
         "trama": "Nel tentativo di salvare la vita del fratello Michael, le due sorelle Dillon - Leah e Vee - organizzano una rapina in banca. Poiché non racimolano abbastanza denaro nel deposito superiore, su consiglio del manager bancario Ed Maas, si precipitano al piano inferiore. Qui, però, fanno una terribile scoperta. Le due sorelle saranno così costrette a scegliere tra l'affrontare la polizia all'esterno o combattere le terribili forze soprannaturali che popolano il seminterrato della banca.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/eMXA8Mbl9P9kNVGhMKqwr5Xni8C.jpg",
-        "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
-        },
-        "tmdb_id_scelto": 416160
+        "trailer": null,
+        "tmdb_id_scelto": 416160,
+        "imdb_id_scelto": "tt1785635",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T21:25:25.068Z"
       },
       "related_video_ids": [
         "RFIreUSM90k",
@@ -212092,7 +212085,14 @@
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 4.9,
-      "vote_count": 427
+      "vote_count": 427,
+      "tmdb_media_type": "movie",
+      "genre": "horror",
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T21:25:25.068Z",
+      "editor_updated_at": "2026-07-04T21:25:25.068Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "KnMC0uPhbc8",
