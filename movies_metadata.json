@@ -201301,7 +201301,7 @@
     {
       "video_id": "q1BI2CJT8ZU",
       "is_movie": true,
-      "original_title": "OPERAZIONE VALCHIRIA 2: L'ALBA DEL QUARTO REICH | Film completo in italiano💥 Movies In Action",
+      "original_title": "Beyond Valkyrie: Dawn of the 4th Reich",
       "channel": "Movies in Action IT",
       "tmdb_id": 412467,
       "tmdb_title_official": "Operazione Valchiria 2 - L'alba del Quarto Reich",
@@ -201312,8 +201312,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "OPERAZIONE VALCHIRIA 2: L'ALBA DEL QUARTO REICH | Film completo in italiano💥 Movies In Action",
-        "youtube_url": "https://www.youtube.com/watch?v=q1BI2CJT8ZU",
         "titolo_italiano": "Operazione Valchiria 2 - L'alba del Quarto Reich",
         "titolo_originale": "Beyond Valkyrie: Dawn of the 4th Reich",
         "anno_uscita": 2016,
@@ -201418,12 +201416,12 @@
           {
             "nome": "Tom Padley",
             "personaggio": "Theodore Dix",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "foto_url": "https://static.tvmaze.com/uploads/images/medium_portrait/438/1096514.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1652638",
-              "verificata": false
+              "nome": "TVMaze",
+              "url_pagina_origine": "https://www.tvmaze.com/people/68553/tom-padley",
+              "verificata": true
             }
           },
           {
@@ -201438,25 +201436,34 @@
             }
           }
         ],
-        "trama": "Verso la fine della seconda guerra mondiale, americani e forze speciali britanniche deve prelevare un combattente della resistenza dietro le linee naziste.",
+        "trama": "Verso la fine della seconda guerra mondiale, americani e forze speciali britanniche devono recuperare un combattente della resistenza dietro le linee naziste.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/uWNnTj86vYbMcENSqxy811QyZL6.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=FvZTa_KD97E"
         },
-        "tmdb_id_scelto": 412467
+        "tmdb_id_scelto": 412467,
+        "imdb_id_scelto": "tt5050200",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T08:03:09.263Z"
       },
       "locked": true,
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 5.4,
-      "vote_count": 49
+      "vote_count": 49,
+      "tmdb_media_type": "movie",
+      "genre": "guerra",
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T08:03:09.263Z",
+      "editor_updated_at": "2026-07-04T08:03:09.263Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "2ZnF89pJcKk",
@@ -204191,7 +204198,7 @@
     {
       "video_id": "5c0fLJOFJIc",
       "is_movie": true,
-      "original_title": "Operazione Goldman (1966) | James Bond all'Italiana | Film Completo HD",
+      "original_title": "Operazione Goldman",
       "channel": "Azione360",
       "tmdb_id": 91265,
       "tmdb_title_official": "Operazione Goldman",
@@ -204202,8 +204209,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Operazione Goldman (1966) | James Bond all'Italiana | Film Completo HD",
-        "youtube_url": "https://www.youtube.com/watch?v=5c0fLJOFJIc",
         "titolo_italiano": "Operazione Goldman",
         "titolo_originale": "Operazione Goldman",
         "anno_uscita": 1966,
@@ -204274,12 +204279,12 @@
           {
             "nome": "Francisco Sanz",
             "personaggio": "Prof. Rooney",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "foto_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Francisco_Sanz_in_Tepepa%2C_1969.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/100845",
-              "verificata": false
+              "nome": "Wikipedia EN",
+              "url_pagina_origine": "https://en.wikipedia.org/wiki/Francisco_Sanz_(actor)",
+              "verificata": true
             }
           },
           {
@@ -204307,12 +204312,12 @@
           {
             "nome": "Oreste Palella",
             "personaggio": "Chief of Section S",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "foto_url": "https://upload.wikimedia.org/wikipedia/it/d/d2/Vittorio_Caprioli_Oreste_Palella.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/52251",
-              "verificata": false
+              "nome": "Wikipedia IT",
+              "url_pagina_origine": "https://it.wikipedia.org/wiki/Oreste_Palella",
+              "verificata": true
             }
           },
           {
@@ -204331,15 +204336,17 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/gvFAGRNQEsHYaYbk68ZgM8yasYQ.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=bBxTXAaum_Q"
         },
-        "tmdb_id_scelto": 91265
+        "tmdb_id_scelto": 91265,
+        "imdb_id_scelto": "tt0060789",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T08:03:41.479Z"
       },
       "related_video_ids": [
         "5c0fLJOFJIc",
@@ -204355,12 +204362,19 @@
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 5.667,
-      "vote_count": 12
+      "vote_count": 12,
+      "tmdb_media_type": "movie",
+      "genre": "thriller",
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T08:03:41.479Z",
+      "editor_updated_at": "2026-07-04T08:03:41.479Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "QHM0yedfIaA",
       "is_movie": true,
-      "original_title": "Ground Control | Sistemi in Tilt e Disastro Aereo Imminente | Film Completo HD",
+      "original_title": "Ground Control",
       "channel": "Azione360",
       "tmdb_id": 54940,
       "tmdb_title_official": "Rischio d'impatto",
@@ -204371,8 +204385,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Ground Control | Sistemi in Tilt e Disastro Aereo Imminente | Film Completo HD",
-        "youtube_url": "https://www.youtube.com/watch?v=QHM0yedfIaA",
         "titolo_italiano": "Rischio d'impatto",
         "titolo_originale": "Ground Control",
         "anno_uscita": 1998,
@@ -204501,21 +204513,30 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/kub1fmuz61ZjXzS0Wui7beNP3pU.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=v4-2Xt1KRyA"
         },
-        "tmdb_id_scelto": 54940
+        "tmdb_id_scelto": 54940,
+        "imdb_id_scelto": "tt0137799",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T08:04:00.874Z"
       },
       "locked": true,
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 5.566,
-      "vote_count": 76
+      "vote_count": 76,
+      "tmdb_media_type": "movie",
+      "genre": "thriller",
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T08:04:00.874Z",
+      "editor_updated_at": "2026-07-04T08:04:00.874Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "ooGB5rU8MCE",
@@ -208352,7 +208373,7 @@
     {
       "video_id": "hGON-o7Ucz4",
       "is_movie": true,
-      "original_title": "Franco Nero e Tomas Milian: La Rivoluzione Esplode! | Vamos a matar, compañeros | Film Completo HD",
+      "original_title": "Vamos a matar, compañeros",
       "channel": "Azione360",
       "tmdb_id": 61044,
       "tmdb_title_official": "Vamos a matar, compañeros",
@@ -208363,14 +208384,13 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Franco Nero e Tomas Milian: La Rivoluzione Esplode! | Vamos a matar, compañeros | Film Completo HD",
-        "youtube_url": "https://www.youtube.com/watch?v=hGON-o7Ucz4",
         "titolo_italiano": "Vamos a matar, compañeros",
         "titolo_originale": "Vamos a matar, compañeros",
         "anno_uscita": 1970,
         "durata_minuti": 135,
         "genere": [
-          "Western"
+          "Western",
+          "Azione"
         ],
         "regista": [
           "Sergio Corbucci"
@@ -208490,27 +208510,29 @@
         "trama": "Durante la rivoluzione messicana, un ambiguo generale dei ribelli libera un professore idealista, guida spirituale delle lotte rivoluzionarie, solo per carpirgli il segreto di una cassaforte piena di denaro. Si accende una violenta lotta tra i seguaci del professore ed il torbido generale finché quest'ultimo non avrà la peggio.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/ewOVGb9U3XjPp60qqIugjyRU6eN.jpg",
-        "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
-        },
-        "tmdb_id_scelto": 61044
+        "trailer": null,
+        "tmdb_id_scelto": 61044,
+        "imdb_id_scelto": "tt0066612",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T08:02:42.895Z"
       },
       "locked": true,
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 6.5,
-      "vote_count": 114
+      "vote_count": 114,
+      "tmdb_media_type": "movie",
+      "genre": "western",
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T08:02:42.895Z",
+      "editor_updated_at": "2026-07-04T08:02:42.895Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "fzkNYOW18fA",
       "is_movie": true,
-      "original_title": "Scandalo e Passione nella Venezia degli Anni '30 | Ritratto di borghesia in nero | Film Completo HD",
+      "original_title": "Ritratto di borghesia in nero",
       "channel": "Azione360",
       "tmdb_id": 279117,
       "tmdb_title_official": "Ritratto di borghesia in nero",
@@ -208521,8 +208543,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Scandalo e Passione nella Venezia degli Anni '30 | Ritratto di borghesia in nero | Film Completo HD",
-        "youtube_url": "https://www.youtube.com/watch?v=fzkNYOW18fA",
         "titolo_italiano": "Ritratto di borghesia in nero",
         "titolo_originale": "Ritratto di borghesia in nero",
         "anno_uscita": 1978,
@@ -208649,16 +208669,11 @@
         "trama": "La vicenda si svolge a Venezia negli anni '30, durante il fascismo. Mattia, studente di musica d'estrazione popolare, arriva in città grazie a una borsa di studio per il Conservatorio e inizia a frequentare la boriosa e conservatrice borghesia cittadina. Presto, Mattia è coinvolto in un'avventura passionale con una matura professoressa di pianoforte, Carla Richter, madre del compagno di studi Renato.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/koJOZqtTOMs0XnzvW4754dhVhsS.jpg",
-        "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
-        },
-        "tmdb_id_scelto": 279117
+        "trailer": null,
+        "tmdb_id_scelto": 279117,
+        "imdb_id_scelto": "tt0076628",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T08:02:51.522Z"
       },
       "related_video_ids": [
         "fzkNYOW18fA",
@@ -208674,7 +208689,14 @@
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 4.962,
-      "vote_count": 13
+      "vote_count": 13,
+      "tmdb_media_type": "movie",
+      "genre": "romantico",
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T08:02:51.522Z",
+      "editor_updated_at": "2026-07-04T08:02:51.522Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "hiv2JSuuedI",
