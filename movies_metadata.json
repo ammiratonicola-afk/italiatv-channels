@@ -291625,7 +291625,7 @@
     {
       "video_id": "sAklLQACNok",
       "is_movie": true,
-      "original_title": "30 GIORNI DI BUIO II | Film HORROR completo in italiano 🧟 ScreamTime IT",
+      "original_title": "30 Days of Night: Dark Days",
       "channel": "Screamtime IT",
       "tmdb_id": 42941,
       "tmdb_title_official": "30 giorni di buio II",
@@ -291636,8 +291636,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "30 GIORNI DI BUIO II | Film HORROR completo in italiano 🧟 ScreamTime IT",
-        "youtube_url": "https://www.youtube.com/watch?v=sAklLQACNok",
         "titolo_italiano": "30 giorni di buio II",
         "titolo_originale": "30 Days of Night: Dark Days",
         "anno_uscita": 2010,
@@ -291765,18 +291763,28 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/qA6RqazeIxvfFkqRh8bKyvgzQSG.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=isF7B-1Yfto"
         },
-        "tmdb_id_scelto": 42941
+        "tmdb_id_scelto": 42941,
+        "imdb_id_scelto": "tt1320304",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T13:30:45.733Z"
       },
       "vote_average": 5,
-      "vote_count": 597
+      "vote_count": 597,
+      "tmdb_media_type": "movie",
+      "genre": "horror",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T13:30:45.733Z",
+      "editor_updated_at": "2026-07-04T13:30:45.733Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "YAjowarWOUs",
