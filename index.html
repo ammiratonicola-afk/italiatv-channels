@@ -277,7 +277,7 @@
       <label>🔗 Link YouTube (riproduzione)</label>
       <div class="inline-input">
         <input id="m_yt" placeholder="https://youtu.be/XXXXXXXXXXX" oninput="previewFilmFromInput()">
-        <button class="sec" id="m_gemini_btn" type="button" onclick="detectOriginalTitle()">✨ Gemini</button>
+        <button class="sec" id="m_gemini_btn" type="button" onclick="geminiIdentifyFull()">✨ Gemini</button>
       </div>
       <div id="m_yt_prev" style="display:none;margin-top:6px"></div>
       <div id="m_gemini_out" class="aiout"></div>
@@ -1617,6 +1617,109 @@ async function openSettings(){
   }catch(e){ alert("Password errata."); }
 }
 function closeSettings(){ $("settings").style.display="none"; }
+// ── NUOVA PIPELINE identificazione (pulsante ✨ Gemini): analisi video+descrizione →
+//    ricerca incrociata TMDB per titolo + REGISTA + ATTORI → verifica titolo/anno/regista/
+//    cast/GENERE/durata → punteggio 0-10, si applica solo da 7/10 in su. Estrae nazione,
+//    trailer (via loadByTmdbId) e applica la regola durata (<20 elimina, 20-40 diagnostica).
+async function ytDurationSec(videoId){
+  try{
+    const r=await fetch(`https://www.googleapis.com/youtube/v3/videos?part=contentDetails&id=${videoId}&key=${YT_KEY}`).then(x=>x.json());
+    const iso=(((r.items||[])[0]||{}).contentDetails||{}).duration;
+    return parseDuration(iso);
+  }catch(e){ return 0; }
+}
+async function tmdbMovieDetailsLite(id){
+  try{
+    const d=await fetch(`${TMDB}/movie/${id}?api_key=${TKEY}&language=it-IT&append_to_response=credits`).then(r=>r.json());
+    if(!d||!d.id) return null;
+    const dirs=((d.credits&&d.credits.crew)||[]).filter(c=>c.job==="Director").map(c=>c.name);
+    const cast=((d.credits&&d.credits.cast)||[]).slice(0,6).map(c=>c.name);
+    return { id:d.id, title:d.title||d.original_title||"", original_title:d.original_title||"",
+      year:(d.release_date||"").slice(0,4), runtime:d.runtime||null,
+      genres:(d.genres||[]).map(g=>g.name), directors:dirs, cast,
+      countries:(d.production_countries||[]).map(c=>c.name), overview:(d.overview||"").slice(0,300) };
+  }catch(e){ return null; }
+}
+async function personMovieIds(name, job){   // job "Director" → crew; falsy → cast (attore)
+  try{
+    const p=await fetch(`${TMDB}/search/person?api_key=${TKEY}&language=it-IT&query=${encodeURIComponent(name)}`).then(r=>r.json());
+    const pid=((p.results||[])[0]||{}).id; if(!pid) return [];
+    const cr=await fetch(`${TMDB}/person/${pid}/movie_credits?api_key=${TKEY}&language=it-IT`).then(r=>r.json());
+    let arr = job ? (cr.crew||[]).filter(c=>c.job===job) : (cr.cast||[]);
+    arr.sort((a,b)=>(b.popularity||0)-(a.popularity||0));
+    return arr.slice(0,8).map(c=>c.id);
+  }catch(e){ return []; }
+}
+async function buildTmdbCandidates(pre){
+  const ids=new Set();
+  for(const t of (pre.real_titles||[]).slice(0,3)){
+    try{
+      const url=`${TMDB}/search/movie?api_key=${TKEY}&language=it-IT&query=${encodeURIComponent(t)}`+(pre.year?`&year=${pre.year}`:"");
+      const s=await fetch(url).then(r=>r.json());
+      (s.results||[]).slice(0,4).forEach(r=>ids.add(r.id));
+    }catch(e){}
+  }
+  for(const d of (pre.directors||[]).slice(0,2)){ (await personMovieIds(d,"Director")).forEach(i=>ids.add(i)); }
+  for(const a of (pre.actors||[]).slice(0,2)){ (await personMovieIds(a,null)).forEach(i=>ids.add(i)); }
+  const list=[...ids].slice(0,12);
+  const out=[];
+  for(const id of list){ const d=await tmdbMovieDetailsLite(id); if(d) out.push(d); }
+  return out;
+}
+async function geminiIdentifyFull(){
+  if(!editing) return;
+  const btn=$("m_gemini_btn"); btn.disabled=true;
+  try{
+    if(!$("gemini_key").value.trim() && !$("openai_key").value.trim())
+      throw new Error("Inserisci la chiave Gemini (o OpenAI) nel blocco Token.");
+    const videoId=ytId($("m_yt").value)||editing.m.video_id;
+    if(!videoId) throw new Error("Link YouTube non valido.");
+    aiBox("① Analizzo video YouTube + descrizione…", true);
+    const yt=await ytDescription(videoId);
+    const prePrompt=[
+      "Estrai dal titolo + descrizione YouTube di un film SOLO ciò che è scritto (niente speculazioni).",
+      'Rispondi SOLO JSON valido: {"real_titles":[],"actors":[],"directors":[],"year":null}',
+      "real_titles: 1-4 titoli candidati (italiano/inglese/originale). actors: 1-5 attori citati.",
+      "directors: 1-3 registi citati (regia/diretto da). year: anno se citato.",
+      `Titolo video: ${yt.title||$("m_title").value||""}`,
+      `Descrizione:\n${(yt.desc||"").slice(0,2500)}`
+    ].join("\n");
+    const pre=JSON.parse(cleanJsonText(await geminiText(prePrompt,true)||"{}"));
+    aiBox(`② Ricerca incrociata TMDB — titoli: ${(pre.real_titles||[]).join(", ")||"—"} · registi: ${(pre.directors||[]).join(", ")||"—"} · attori: ${(pre.actors||[]).slice(0,3).join(", ")||"—"}`, true);
+    const cands=await buildTmdbCandidates(pre);
+    if(!cands.length) throw new Error("Nessun candidato TMDB trovato (prova a cercare a mano).");
+    aiBox(`③ Verifico ${cands.length} candidati (titolo, anno, regista, cast, GENERE, durata)…`, true);
+    const idPrompt=[
+      "Sei un esperto di cinema. Identifica DI QUALE film tra i CANDIDATI TMDB si tratta, confrontando",
+      "con gli indizi del video YouTube. Verifica titolo, anno, regista, cast, GENERE e durata.",
+      "Assegna un punteggio 0-10 sommando gli indizi che COINCIDONO davvero: titolo originale +2,",
+      "titolo italiano +2, anno ±1 +1, regista +2, cast (>=2 attori) +2, durata ±5min o trama +1.",
+      "Se i GENERI sono incompatibili (es. video 'commedia' vs candidato horror) TOGLI 2 punti. Sii severo.",
+      'Rispondi SOLO JSON valido: {"tmdb_id":null,"punteggio":0,"corrispondenza_genere":"alta|media|bassa|non_disponibile","nazione":[],"motivo":""}',
+      `Titolo video YouTube: ${yt.title||""}`,
+      `Descrizione:\n${(yt.desc||"").slice(0,1500)}`,
+      `Anno noto: ${pre.year||$("m_year").value||""}`,
+      "CANDIDATI TMDB (id · titolo · anno · originale · generi · regia · cast · durata · paesi):",
+      ...cands.map(c=>`[${c.id}] "${c.title}" (${c.year||"?"}) orig:"${c.original_title||""}" · generi:${(c.genres||[]).join("/")||"?"} · regia:${(c.directors||[]).join(", ")||"?"} · cast:${(c.cast||[]).slice(0,4).join(", ")||"?"} · ${c.runtime||"?"}min · ${(c.countries||[]).join(", ")||"?"}`)
+    ].join("\n");
+    const pick=JSON.parse(cleanJsonText(await geminiText(idPrompt,true)||"{}"));
+    const durSec=await ytDurationSec(videoId), durMin=Math.round(durSec/60);
+    let durNote = durSec<=0 ? "" :
+      durMin<20 ? `\n⚠️ Durata video ${durMin} min < 20: DA ELIMINARE (non è un film completo).` :
+      durMin<40 ? `\n⚠️ Durata video ${durMin} min (20-40): verifica — va in Diagnostica.` : "";
+    const score=pick.punteggio||0;
+    if(pick.tmdb_id && score>=7){
+      $("m_tmdb").value=pick.tmdb_id;
+      await loadByTmdbId();
+      aiBox(`✓ IDENTIFICATO — punteggio ${score}/10 (soglia 7).\nNazione: ${(pick.nazione||[]).join(", ")||"(da TMDB)"} · Coerenza genere: ${pick.corrispondenza_genere||"—"}.${durNote}\n${pick.motivo||""}`, true);
+    } else {
+      if(pick.tmdb_id){ $("m_tmdb").value=pick.tmdb_id; await loadByTmdbId(); }
+      aiBox(`✗ NON identificato con certezza — punteggio ${score}/10 (< 7).\n${pick.tmdb_id?"Miglior candidato caricato per revisione manuale.":"Nessun candidato affidabile."}${durNote}\n${pick.motivo||""}`, false);
+    }
+  }catch(e){ aiBox("Errore identificazione: "+e.message, false); }
+  finally{ btn.disabled=false; }
+}
+
 async function detectOriginalTitle(){
   if(!editing) return;
   const btn=$("m_gemini_btn");
