@@ -229107,7 +229107,7 @@
     },
     {
       "video_id": "u8w5aWgpe_U",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Missione ad alto rischio (2001) | Corsa contro il tempo per la salvezza CRITICAL MASS",
       "channel": "Azione360",
       "tmdb_id": 134464,
@@ -229272,7 +229272,10 @@
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 4.5,
-      "vote_count": 11
+      "vote_count": 11,
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T07:56:42.833Z"
     },
     {
       "video_id": "qECP4pTW7K4",
@@ -241592,7 +241595,7 @@
     },
     {
       "video_id": "3m9d8_M5k-s",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Crossfire -  fuoco incrociato | Thriller | HD | Film completo in italiano",
       "channel": "Azione360",
       "tmdb_id": 28120,
@@ -241748,7 +241751,10 @@
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 6.669,
-      "vote_count": 160
+      "vote_count": 160,
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T07:56:42.833Z"
     },
     {
       "video_id": "eiyr7n34HG8",
@@ -245205,7 +245211,7 @@
     },
     {
       "video_id": "_NZiBGgbtoI",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "L'ombra del dubbio | Thriller | HD | Film completo in italiano",
       "channel": "Azione360",
       "tmdb_id": 126780,
@@ -245361,7 +245367,10 @@
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 4.837,
-      "vote_count": 52
+      "vote_count": 52,
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T07:56:42.833Z"
     },
     {
       "video_id": "p7eUREXo9b4",
@@ -302420,7 +302429,7 @@
     },
     {
       "video_id": "fhQFE96o8lc",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Bury Me Twice",
       "channel": "TVItalia",
       "tmdb_id": 1120246,
@@ -302549,7 +302558,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-04T06:22:29.839Z",
       "editor_updated_at": "2026-07-04T06:22:29.839Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T07:56:42.835Z"
     },
     {
       "video_id": "x1hn-vrMx3I",
@@ -311571,7 +311583,7 @@
     },
     {
       "video_id": "ZBo_QddTIoo",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Separated at Birth",
       "channel": "TVItalia",
       "tmdb_id": 461337,
@@ -311728,7 +311740,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-04T07:40:30.565Z",
       "editor_updated_at": "2026-07-04T07:40:30.565Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T07:56:42.833Z"
     },
     {
       "video_id": "KQIr_oQ81Wk",
@@ -312379,7 +312394,7 @@
     },
     {
       "video_id": "QVWvs5Laa2A",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Bringing Up Baby",
       "channel": "TVItalia",
       "tmdb_id": 900,
@@ -312536,7 +312551,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-04T07:40:00.094Z",
       "editor_updated_at": "2026-07-04T07:40:00.094Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T07:56:42.833Z"
     },
     {
       "video_id": "Rp9H6f3lSH8",
@@ -318468,7 +318486,7 @@
     },
     {
       "video_id": "PWIAtYWOOUM",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Summer House",
       "channel": "TVItalia",
       "tmdb_id": 70177,
@@ -318620,7 +318638,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-04T07:52:16.296Z",
       "editor_updated_at": "2026-07-04T07:52:16.296Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T07:56:42.833Z"
     },
     {
       "video_id": "whkE5LIu4g8",
@@ -319778,7 +319799,7 @@
     },
     {
       "video_id": "AniS_9itj4E",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Adrenalin: Fear The Rush",
       "channel": "TVItalia",
       "tmdb_id": 55687,
@@ -319936,7 +319957,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-04T06:13:00.067Z",
       "editor_updated_at": "2026-07-04T06:13:00.067Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T07:56:42.833Z"
     },
     {
       "video_id": "X2Shrq72CQk",
@@ -321819,7 +321843,7 @@
     },
     {
       "video_id": "_-n82BCTV54",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Il marito in collegio",
       "channel": "TVItalia",
       "tmdb_id": 183181,
@@ -321968,7 +321992,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-04T06:07:32.739Z",
       "editor_updated_at": "2026-07-04T06:07:32.739Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T07:56:42.833Z"
     },
     {
       "video_id": "JYVZfvB_i-8",
@@ -322249,7 +322276,7 @@
     },
     {
       "video_id": "wxvq14gV4FI",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "The Perfect Bride",
       "channel": "TVItalia",
       "tmdb_id": 603452,
@@ -322399,7 +322426,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-04T06:07:03.887Z",
       "editor_updated_at": "2026-07-04T06:07:03.887Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T07:56:42.834Z"
     }
   ],
   "title_validated_at": "2026-06-16T06:48:35",
