@@ -334482,8 +334482,161 @@
       "is_movie": true,
       "original_title": "Film Completo di Douglas McGrath: Una spia per caso (2000) Company Man",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 44412,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/5miSJIo8Ux6T0SNlgHZsj2rdfNb.jpg",
+      "tmdb_title_official": "Una spia per caso",
+      "tmdb_year_official": 2000,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Una spia per caso",
+        "titolo_originale": "Film Completo di Douglas McGrath: Una spia per caso (2000) Company Man",
+        "anno_uscita": 2000,
+        "durata_minuti": 86,
+        "genere": [
+          "Commedia"
+        ],
+        "regista": [
+          "Peter Askin",
+          "Douglas McGrath"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Douglas McGrath",
+            "personaggio": "Alan Quimp",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7M4Ml67mWhu7nxZ5AVaOouw01ZN.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/32983",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "John Turturro",
+            "personaggio": "Crocker Johnson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6O9W9cJW0kCqMzYeLupV9oH0ftn.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1241",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Alan Cumming",
+            "personaggio": "General Batista",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hCXFTHxKfLA3nDHLI51YyzzsyIE.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/10697",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sigourney Weaver",
+            "personaggio": "Daisy Quimp",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wTSnfktNBLd6kwQxgvkqYw6vEon.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/10205",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Anthony LaPaglia",
+            "personaggio": "Fidel Castro",
+            "foto_url": "https://image.tmdb.org/t/p/w185/31fRY01Dq2ebkx09FjuG5g3QW9G.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/57829",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jeffrey Jones",
+            "personaggio": "Senator Biggs",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2vlQDwmMlAAEKqdFIey0liR0T1E.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4004",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Paul Guilfoyle",
+            "personaggio": "Officer Hickle",
+            "foto_url": "https://image.tmdb.org/t/p/w185/c7unxeM13lF9pMhZhYwlNsSFjFe.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/925",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Denis Leary",
+            "personaggio": "Officer Fry",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tAOziVWQBnrW9eR442M6g9SQkmA.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5724",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ryan Phillippe",
+            "personaggio": "Petrov",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fgneZFXn0fGG1o7tMzJvHqfHHF7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/11864",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Terry Beaver",
+            "personaggio": "Mr. Judge",
+            "foto_url": "https://image.tmdb.org/t/p/w185/izeqM2GlCx42w087flb7PVvw8i8.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/130719",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "La moglie vorrebbe la pelliccia e allora lo sfigatissimo e petulante insegnante di grammatica Allan Quimp s'inventa agente segretissimo della Cia (stipendio più alto). Il guaio è che siamo alla fine degli anni Cinquanta, in piena Guerra Fredda: qualche russo chiede asilo politico agli Stati Uniti e molte spie si aggirano dalle parti di Cuba, perché un certo Fidel Castro starebbe per far saltare il presidente Batista...",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/5miSJIo8Ux6T0SNlgHZsj2rdfNb.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=BgOIYGutIx8"
+        },
+        "tmdb_id_scelto": 44412,
+        "imdb_id_scelto": "tt0177650",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T14:21:39.548Z"
+      },
+      "genre": "commedia",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T14:21:39.548Z",
+      "editor_updated_at": "2026-07-04T14:21:39.548Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "mFmXFjHrhDc",
@@ -336119,35 +336272,47 @@
     },
     {
       "video_id": "gd87p7bUfd4",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Mediterranean Melodies - Benessere e Sapore | Serie TV Documentario | Episodio 3",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T14:21:53.003Z"
     },
     {
       "video_id": "NLgVHxrFkKg",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Mediterranean Melodies - Benessere e Sapore | Serie TV Documentario | Episodio 4",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T14:21:53.000Z"
     },
     {
       "video_id": "7z9-8HiDjEM",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Mediterranean Melodies - Benessere e Sapore | Serie TV Documentario | Episodio 2",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T14:21:53.001Z"
     },
     {
       "video_id": "31uowEA5LCY",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Mediterranean Melodies - Benessere e Sapore | Serie TV Documentario | Episodio 1",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T14:21:53.001Z"
     },
     {
       "video_id": "Llumzpje8K0",
@@ -336459,19 +336624,25 @@
     },
     {
       "video_id": "z_Z9fx1wjkM",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Velisti per Caso - Ep 10 | HD | Vento in Poppa e Sapore di Sale: L'Inizio del nostro viaggio in vela",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T14:21:53.001Z"
     },
     {
       "video_id": "n3YFRn7adgc",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Velisti per Caso - Ep 6 | HD | Vento in Poppa e Sapore di Sale: L'Inizio del nostro viaggio in vela",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T14:21:53.002Z"
     }
   ],
   "title_validated_at": "2026-06-16T06:48:35",
