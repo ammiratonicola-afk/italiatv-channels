@@ -192652,163 +192652,167 @@
     {
       "video_id": "vGX2S6tLo_I",
       "is_movie": true,
-      "original_title": "Le belve | Commedia | Lando Buzzanca | Film Completo in italiano",
+      "original_title": "Le belve",
       "channel": "Italy on a click",
-      "tmdb_id": 82525,
+      "tmdb_id": 337548,
       "tmdb_title_official": "Le belve",
-      "tmdb_year_official": 2012,
-      "tmdb_poster_path": "/wFMmujYa59nKiEX7UIvgsP32N6p.jpg",
+      "tmdb_year_official": 1971,
+      "tmdb_poster_path": "/g18BXdh9G2sHkfG02UYhORSRvzA.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Le belve | Commedia | Lando Buzzanca | Film Completo in italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=vGX2S6tLo_I",
         "titolo_italiano": "Le belve",
-        "titolo_originale": "Savages",
-        "anno_uscita": 2012,
-        "durata_minuti": 131,
+        "titolo_originale": "Le belve",
+        "anno_uscita": 1971,
+        "durata_minuti": 110,
         "genere": [
-          "Crime",
-          "Dramma",
-          "Thriller"
+          "Commedia"
         ],
         "regista": [
-          "Oliver Stone"
+          "Giovanni Grimaldi"
         ],
         "cast_principale": [
           {
-            "nome": "Taylor Kitsch",
-            "personaggio": "Chon",
-            "foto_url": "https://image.tmdb.org/t/p/w185/pTFkwvE2URbbftiaofexfolhkH9.jpg",
+            "nome": "Lando Buzzanca",
+            "personaggio": "Il Salvatore / Morsetti / Il fachiro / Il marito / Giovanni Apposito / Lanfranco / Il chirurgo / Francesco Sparapaoli",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pVfDFDQGYtlFNifGEMW16pQktFu.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/60900",
+              "url_pagina_origine": "https://www.themoviedb.org/person/53660",
               "verificata": true
             }
           },
           {
-            "nome": "Blake Lively",
-            "personaggio": "Ophelia 'O' Sage",
-            "foto_url": "https://image.tmdb.org/t/p/w185/rkGVjd6wImtgjOCi0IpeffdEWtb.jpg",
+            "nome": "Ira von Fürstenberg",
+            "personaggio": "Filomena Sparapaoli",
+            "foto_url": "https://image.tmdb.org/t/p/w185/q6ejtBsvzzMgk4sAEaPhZDz30tT.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/59175",
+              "url_pagina_origine": "https://www.themoviedb.org/person/19612",
               "verificata": true
             }
           },
           {
-            "nome": "Aaron Taylor-Johnson",
-            "personaggio": "Ben",
-            "foto_url": "https://image.tmdb.org/t/p/w185/pFtHhih2XEaFaD3qOFyQW6q83br.jpg",
+            "nome": "Femi Benussi",
+            "personaggio": "Concetta Sparapaoli",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3U2YGjGjvto79xk5LVFtZvfqnYv.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/27428",
+              "url_pagina_origine": "https://www.themoviedb.org/person/24493",
               "verificata": true
             }
           },
           {
-            "nome": "John Travolta",
-            "personaggio": "Dennis",
-            "foto_url": "https://image.tmdb.org/t/p/w185/ap8eEYfBKTLixmVVpRlq4NslDD5.jpg",
+            "nome": "Paola Borboni",
+            "personaggio": "Fachiro's Mother",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6UxbsxVBPQee2jPyXde8LzaV3U7.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/8891",
+              "url_pagina_origine": "https://www.themoviedb.org/person/12005",
               "verificata": true
             }
           },
           {
-            "nome": "Salma Hayek Pinault",
-            "personaggio": "Elena",
-            "foto_url": "https://image.tmdb.org/t/p/w185/1qfYF7NGRObmeKR7IVXUFVIC0CN.jpg",
+            "nome": "Magali Noël",
+            "personaggio": "Lisa",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mEFJnEVJ3MVOFrQLD40a8HMPr4O.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/3136",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5963",
               "verificata": true
             }
           },
           {
-            "nome": "Benicio Del Toro",
-            "personaggio": "Lado",
-            "foto_url": "https://image.tmdb.org/t/p/w185/aYomJWx0B2B8ra6Rmgt8lr0XCrw.jpg",
+            "nome": "Margaret Lee",
+            "personaggio": "Judy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iA7eYlE2Yjk1vNNwb0gZknfuEoT.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1121",
+              "url_pagina_origine": "https://www.themoviedb.org/person/32380",
               "verificata": true
             }
           },
           {
-            "nome": "Emile Hirsch",
-            "personaggio": "Spin",
-            "foto_url": "https://image.tmdb.org/t/p/w185/NQjX6KjtDDyLnvbxhrU9xQWaYJ.jpg",
+            "nome": "María Baxa",
+            "personaggio": "The wife (segment \"Una bella famiglia\")",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lVZNzGR5I6xbFND85if1t4vxE9H.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/46593",
+              "url_pagina_origine": "https://www.themoviedb.org/person/240664",
               "verificata": true
             }
           },
           {
-            "nome": "Demián Bichir",
-            "personaggio": "Alex",
-            "foto_url": "https://image.tmdb.org/t/p/w185/dur9tX8tbDDJE5mSOZkuW2VDGz4.jpg",
+            "nome": "Françoise Prévost",
+            "personaggio": "Clara Borsetti",
+            "foto_url": "https://image.tmdb.org/t/p/w185/h1Gkag228zEWU7HUlZe2n8Z8L3d.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/76961",
+              "url_pagina_origine": "https://www.themoviedb.org/person/36386",
               "verificata": true
             }
           },
           {
-            "nome": "Sandra Echeverría",
-            "personaggio": "Magda",
-            "foto_url": "https://image.tmdb.org/t/p/w185/2BrDCExAKY7ikVy7Budm4f7f3Pz.jpg",
+            "nome": "Tino Carraro",
+            "personaggio": "The Minister",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jgaZya3m2beoWs82pOVZrUIo1Be.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/145184",
+              "url_pagina_origine": "https://www.themoviedb.org/person/585447",
               "verificata": true
             }
           },
           {
-            "nome": "Diego Cataño",
-            "personaggio": "Esteban",
-            "foto_url": "https://image.tmdb.org/t/p/w185/teGxmAxjCBI0UyDkSNenNBwoWT3.jpg",
+            "nome": "Claudio Gora",
+            "personaggio": "Giulio Bianchi",
+            "foto_url": "https://image.tmdb.org/t/p/w185/otKGKlrLIP0NnuVehXGaFyyItGm.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/112129",
+              "url_pagina_origine": "https://www.themoviedb.org/person/32677",
               "verificata": true
             }
           }
         ],
-        "trama": "Ben e Chon sono due amici per la pelle che condividono tutto, dall’amore per la bella Ophelia – detta O - all’attività di coltivatori e spacciatori della miglior marijuana della California del Sud. È stato Chon, ex marine, a riportare i primi semi dall’Afghanistan, poi è venuto Ben, botanico e buddista, che ne ha fatto un prodotto sopraffino, buono per far dollari così come per alleviare il dolore dei malati terminali. La vita scorre dunque idilliaca per il fortunato trio e i loro amici, finché un brutale cartello di trafficanti messicani non decide di fare affari con loro, che lo vogliano o meno.",
+        "trama": "Film in otto episodi con protagonista Lando Buzzanca, tra cui \"Il salvatore\" in cui un cronista televisivo prolunga il momento del suicidio di un uomo per farne uno scoop; \"La voce del sangue\" in cui un impresario, per ottenere assolutamente un appalto, arriva a far prostituire la moglie e la figlia; \"Il santone\", in cui un fachiro riesce a mantenere la propria famiglia con il suo lavoro, ma dovrà compiere sacrifici sempre più grandi per soddisfare il pubblico; \"Una bella famiglia\", in cui un uomo agiato conduce una bella vita grazie alle attività illecite della moglie...",
         "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/wFMmujYa59nKiEX7UIvgsP32N6p.jpg",
+        "locandina_url": "https://image.tmdb.org/t/p/w500/g18BXdh9G2sHkfG02UYhORSRvzA.jpg",
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=khIzg-T7xEw",
-          "lingua": "it",
           "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": true,
+          "lingua": "it",
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos"
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=ySFnEKfbbMs"
         },
-        "tmdb_id_scelto": 82525
+        "tmdb_id_scelto": 337548,
+        "imdb_id_scelto": "tt0157379",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T13:05:34.557Z"
       },
-      "genre": "poliziesco",
+      "genre": "commedia",
       "locked": true,
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 6.4,
-      "vote_count": 2299
+      "vote_count": 2299,
+      "tmdb_media_type": "movie",
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T13:05:34.557Z",
+      "editor_updated_at": "2026-07-04T13:05:34.557Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "HMSM9dpZCcI",
