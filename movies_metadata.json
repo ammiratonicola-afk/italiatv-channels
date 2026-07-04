@@ -317351,79 +317351,157 @@
     {
       "video_id": "EAYSegOF_38",
       "is_movie": true,
-      "original_title": "Ha Attraversato il Confine per Guarire un Cuore | Refugio (2024) | Film Romantico",
+      "original_title": "Un Cuento de Circo & A Love Song",
       "channel": "TVItalia",
-      "tmdb_id": 1384071,
-      "tmdb_title_official": "O Refúgio",
+      "tmdb_id": 269579,
+      "tmdb_title_official": "A Circus Tale & A Love Song",
       "tmdb_year_official": 2024,
-      "tmdb_poster_path": "/qxjTZevSeeqULA33ZlktsSltr26.jpg",
+      "tmdb_poster_path": "/7IJ50fD3Iv4O2SaPitPViuSqUps.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Ha Attraversato il Confine per Guarire un Cuore | Refugio (2024) | Film Romantico",
-        "youtube_url": "https://www.youtube.com/watch?v=EAYSegOF_38",
-        "titolo_italiano": "O Refúgio",
-        "titolo_originale": "O Refúgio",
+        "titolo_italiano": "A Circus Tale & A Love Song",
+        "titolo_originale": "Un Cuento de Circo & A Love Song",
         "anno_uscita": 2024,
-        "durata_minuti": 0,
+        "durata_minuti": 114,
         "genere": [
-          "Documentario"
+          "Romance",
+          "Dramma"
         ],
         "regista": [
-          "Lara Batista",
-          "Isabela Rodrigues"
+          "Demián Bichir"
         ],
         "cast_principale": [
           {
-            "nome": "Omid Ahmad Khalid",
-            "personaggio": "Omid",
+            "nome": "José Ángel Bichir",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/m0nvrYbjWPCK0FQ8F09cuXnMH64.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1310894",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Cali De La Rosa",
+            "personaggio": "Gloria",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/5045495",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1890023",
               "verificata": false
             }
           },
           {
-            "nome": "Homira Omid",
-            "personaggio": "Homira",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "nome": "Diane Kruger",
+            "personaggio": "Amber",
+            "foto_url": "https://image.tmdb.org/t/p/w185/o5gVowcjVw4ThYi0L3883Y4X7kH.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/5045496",
-              "verificata": false
+              "url_pagina_origine": "https://www.themoviedb.org/person/9824",
+              "verificata": true
             }
           },
           {
-            "nome": "Abdul Fayaz",
-            "personaggio": "Abdul",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "nome": "Jason Patric",
+            "personaggio": "Ralph",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iv21ZjE90f9QNiNONKF9Lp6ZD68.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/5045498",
-              "verificata": false
+              "url_pagina_origine": "https://www.themoviedb.org/person/12261",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Eva Longoria",
+            "personaggio": "Angela",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1u26GLWK1DE7gBugyI9P3OMFq4A.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/52605",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Demián Bichir",
+            "personaggio": "Refugio",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dur9tX8tbDDJE5mSOZkuW2VDGz4.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/76961",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Christopher Matthew Cook",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/vwBubfT4jCNH7TVt5dXjBzUJbKt.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1358061",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ludwika Paleta",
+            "personaggio": "Aura",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dcozq8kwFH1XEu547PZ6OpJcznz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/947296",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Elena Sanchez",
+            "personaggio": "Josy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/prhbHW3WWqnbpChZZIKPsdzS7ny.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1165616",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ana Claudia Talancón",
+            "personaggio": "Elvira",
+            "foto_url": "https://image.tmdb.org/t/p/w185/es8No01z8G0MFX2KeiAa2ouRfCD.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/7351",
+              "verificata": true
             }
           }
         ],
-        "trama": "",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/qxjTZevSeeqULA33ZlktsSltr26.jpg",
-        "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
-        },
-        "tmdb_id_scelto": 1384071
-      }
+        "trama": "Refugio, un romantico sognatore la cui ricerca del vero amore, durata anni, lo porta dalla vita circense in Messico alla vita notturna di New Orleans, dove si innamora inaspettatamente di una bellissima ballerina esotica con un passato complicato.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/7IJ50fD3Iv4O2SaPitPViuSqUps.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 269579,
+        "imdb_id_scelto": "tt2818640",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T05:58:49.798Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T05:58:49.798Z",
+      "editor_updated_at": "2026-07-04T05:58:49.798Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "s5mm2UkPNUc",
