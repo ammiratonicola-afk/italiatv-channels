@@ -152469,7 +152469,7 @@
     {
       "video_id": "eB-XW7IlKVk",
       "is_movie": true,
-      "original_title": "ITA - HD - Super! Attento Crimine - Film Completo - di James Gunn con Liv Tyler e Kevin Bacon",
+      "original_title": "Super",
       "channel": "Film&More",
       "tmdb_id": 45132,
       "tmdb_title_official": "Super - Attento crimine!!!",
@@ -152480,8 +152480,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "ITA - HD - Super! Attento Crimine - Film Completo - di James Gunn con Liv Tyler e Kevin Bacon",
-        "youtube_url": "https://www.youtube.com/watch?v=eB-XW7IlKVk",
         "titolo_italiano": "Super - Attento crimine!!!",
         "titolo_originale": "Super",
         "anno_uscita": 2010,
@@ -152520,7 +152518,7 @@
           {
             "nome": "Liv Tyler",
             "personaggio": "Sarah",
-            "foto_url": "https://image.tmdb.org/t/p/w185/aYlqS4wYuNCiN9wmvDwKRAE9BQ9.jpg",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hXFKqlOPVjtfBSPlmQwFnJvhvmU.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
@@ -152553,7 +152551,7 @@
           {
             "nome": "Michael Rooker",
             "personaggio": "Abe",
-            "foto_url": "https://image.tmdb.org/t/p/w185/ngOuHNIAGrKyY1O7F0f9C5Q9ONg.jpg",
+            "foto_url": "https://image.tmdb.org/t/p/w185/h21a1e2eOF48PV44GujDXWnsK4m.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
@@ -152614,16 +152612,25 @@
           "lingua": "it",
           "fonte": "YouTube",
           "canale": null,
-          "ufficiale": true,
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos"
+          "motivo_verifica": "trailer YouTube"
         },
-        "tmdb_id_scelto": 45132
+        "tmdb_id_scelto": 45132,
+        "imdb_id_scelto": "tt1512235",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T14:25:42.635Z"
       },
       "locked": true,
       "genre": "commedia",
       "vote_average": 6.526,
-      "vote_count": 1750
+      "vote_count": 1750,
+      "tmdb_media_type": "movie",
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T14:25:42.635Z",
+      "editor_updated_at": "2026-07-04T14:25:42.635Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "EFXDVwLPnIs",
@@ -232848,7 +232855,7 @@
     {
       "video_id": "VBiXzk6ZTVs",
       "is_movie": true,
-      "original_title": "Supercop  | Film Completo in Italiano HD | Jackie Chan 4k",
+      "original_title": "警察故事 III：超級警察",
       "channel": "Azione360",
       "tmdb_id": 11134,
       "tmdb_title_official": "Supercop",
@@ -232859,8 +232866,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Supercop  | Film Completo in Italiano HD | Jackie Chan 4k",
-        "youtube_url": "https://www.youtube.com/watch?v=VBiXzk6ZTVs",
         "titolo_italiano": "Supercop",
         "titolo_originale": "警察故事 III：超級警察",
         "anno_uscita": 1992,
@@ -232988,22 +232993,24 @@
         "trama": "Kevin, poliziotto di Hong Kong che vanta il soprannome di \"Supercop\", viene convocato dalla polizia della Repubblica Popolare Cinese per un'azione congiunta in incognito, con lo scopo di sgominare una banda di narcotrafficanti.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/nFZnb3TR0H2flIYLCNt9vFExNqA.jpg",
-        "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
-        },
-        "tmdb_id_scelto": 11134
+        "trailer": null,
+        "tmdb_id_scelto": 11134,
+        "imdb_id_scelto": "tt0104558",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T14:23:55.908Z"
       },
       "locked": true,
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 6.9,
-      "vote_count": 580
+      "vote_count": 580,
+      "tmdb_media_type": "movie",
+      "genre": "poliziesco",
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T14:23:55.908Z",
+      "editor_updated_at": "2026-07-04T14:23:55.908Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "Aq2_05pHaEM",
@@ -261249,7 +261256,7 @@
     {
       "video_id": "8ia1xk1bH1E",
       "is_movie": true,
-      "original_title": "2012: Supernova | Action | HD | Film Completo in Italiano",
+      "original_title": "2012: Supernova",
       "channel": "Azione360",
       "tmdb_id": 37059,
       "tmdb_title_official": "2012: Supernova",
@@ -261260,8 +261267,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "2012: Supernova | Action | HD | Film Completo in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=8ia1xk1bH1E",
         "titolo_italiano": "2012: Supernova",
         "titolo_originale": "2012: Supernova",
         "anno_uscita": 2009,
@@ -261332,12 +261337,12 @@
           {
             "nome": "Londale Theus",
             "personaggio": "Captain Henreaux",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1g2hQFnRN9msAJha8QPn6VKpPnW.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/141497",
-              "verificata": false
+              "url_pagina_origine": "https://www.themoviedb.org/person/1661364",
+              "verificata": true
             }
           },
           {
@@ -261385,25 +261390,34 @@
             }
           }
         ],
-        "trama": "In una galassia non lontana dalla terra una stella diventa \"instabile\" e si trasforma in una Supernova. Uno scienziato escogita un disperato piano per proteggere la Terra dall'onda di radiazioni.",
+        "trama": "In una galassia non lontana dalla Terra, una stella diventa \"instabile\" e si trasforma in una Supernova. Uno scienziato elabora un piano disperato per proteggere la Terra dall'onda di radiazioni.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/7BpQxQdjZug7dhNnd9hHT8C1bgI.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=DvMtP8Tu1zM"
         },
-        "tmdb_id_scelto": 37059
+        "tmdb_id_scelto": 37059,
+        "imdb_id_scelto": "tt1479847",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T14:25:22.064Z"
       },
       "locked": true,
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 4.086,
-      "vote_count": 81
+      "vote_count": 81,
+      "tmdb_media_type": "movie",
+      "genre": "fantascienza",
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T14:25:22.064Z",
+      "editor_updated_at": "2026-07-04T14:25:22.064Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "Ez_SCtZQR20",
