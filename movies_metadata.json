@@ -189562,7 +189562,7 @@
     },
     {
       "video_id": "3OcnK3Per9A",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Essere Claudia Cardinale | Biopic | Documentario completo in italiano",
       "channel": "Italy on a click",
       "tmdb_id": 1697555,
@@ -189601,7 +189601,10 @@
       },
       "locked": true,
       "locked_at": "2026-06-27T08:53:30Z",
-      "lock_reason": "migrazione protezione metadati identificati da editor/import"
+      "lock_reason": "migrazione protezione metadati identificati da editor/import",
+      "reason_not_movie": "eliminato dall'editor web",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T12:30:55.429Z"
     },
     {
       "video_id": "wVJUEaYAZ2U",
