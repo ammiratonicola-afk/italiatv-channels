@@ -227743,7 +227743,7 @@
     {
       "video_id": "EAVCfaR3VIk",
       "is_movie": true,
-      "original_title": "Adios Cjamango: Nessuna pietà per i traditori | Film Completo HD",
+      "original_title": "Los rebeldes de Arizona",
       "channel": "Azione360",
       "tmdb_id": 107613,
       "tmdb_title_official": "Adios Cjamango!",
@@ -227754,8 +227754,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Adios Cjamango: Nessuna pietà per i traditori | Film Completo HD",
-        "youtube_url": "https://www.youtube.com/watch?v=EAVCfaR3VIk",
         "titolo_italiano": "Adios Cjamango!",
         "titolo_originale": "Los rebeldes de Arizona",
         "anno_uscita": 1970,
@@ -227881,22 +227879,24 @@
         "trama": "Dopo essersi sposati a Tombstone, Peggy Morgan, una ranchera vessata da una compagnia ferroviaria che brama la loro terra, e Alan Jackson, un pistolero che cerca la pace, intraprendono un'emozionante luna di miele.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/btspfpJWEkBfxZC5ENuLzexCB87.jpg",
-        "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
-        },
-        "tmdb_id_scelto": 107613
+        "trailer": null,
+        "tmdb_id_scelto": 107613,
+        "imdb_id_scelto": "tt0066287",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T13:33:11.154Z"
       },
       "locked": true,
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 4.333,
-      "vote_count": 3
+      "vote_count": 3,
+      "tmdb_media_type": "movie",
+      "genre": "western",
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T13:33:11.154Z",
+      "editor_updated_at": "2026-07-04T13:33:11.154Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "837mfPh9aY8",
@@ -234762,7 +234762,7 @@
     {
       "video_id": "7Ho9wWWa2N4",
       "is_movie": true,
-      "original_title": "Escape From Pretoria | Daniel Radcliffe nell'Evasione Impossibile | Film Completo in Italiano 4K",
+      "original_title": "Escape from Pretoria",
       "channel": "Azione360",
       "tmdb_id": 502425,
       "tmdb_title_official": "Escape from Pretoria",
@@ -234773,8 +234773,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Escape From Pretoria | Daniel Radcliffe nell'Evasione Impossibile | Film Completo in Italiano 4K",
-        "youtube_url": "https://www.youtube.com/watch?v=7Ho9wWWa2N4",
         "titolo_italiano": "Escape from Pretoria",
         "titolo_originale": "Escape from Pretoria",
         "anno_uscita": 2020,
@@ -234791,7 +234789,7 @@
           {
             "nome": "Daniel Radcliffe",
             "personaggio": "Tim Jenkin",
-            "foto_url": "https://image.tmdb.org/t/p/w185/iPg0J9UzAlPj1fLEJNllpW9IhGe.jpg",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uUFfo8RANo7tuckB6AZAnESne55.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
@@ -234907,17 +234905,27 @@
           "lingua": "it",
           "fonte": "YouTube",
           "canale": null,
-          "ufficiale": true,
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos"
+          "motivo_verifica": "trailer YouTube"
         },
-        "tmdb_id_scelto": 502425
+        "tmdb_id_scelto": 502425,
+        "imdb_id_scelto": "tt5797184",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T13:36:27.828Z"
       },
       "locked": true,
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 7.173,
-      "vote_count": 1500
+      "vote_count": 1500,
+      "tmdb_media_type": "movie",
+      "genre": "thriller",
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T13:36:27.828Z",
+      "editor_updated_at": "2026-07-04T13:36:27.828Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "16MoLcHxsIg",
@@ -241502,155 +241510,150 @@
     {
       "video_id": "pbzeeTX3GtY",
       "is_movie": true,
-      "original_title": "Aftermath - Sequenza esplosiva | Azione | Thriller | Film completo in italiano",
+      "original_title": "Aftermath",
       "channel": "Azione360",
-      "tmdb_id": 1081012,
-      "tmdb_title_official": "Aftermath - In trappola",
-      "tmdb_year_official": 2024,
-      "tmdb_poster_path": "/gEHIVyJB9VWLF3cuJOpYjJjegd1.jpg",
+      "tmdb_id": 287785,
+      "tmdb_title_official": "Aftermath",
+      "tmdb_year_official": 2002,
+      "tmdb_poster_path": "/h7hWGwkC9MW0NWklFA5nejuBSWh.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Aftermath - Sequenza esplosiva | Azione | Thriller | Film completo in italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=pbzeeTX3GtY",
-        "titolo_italiano": "Aftermath - In trappola",
+        "titolo_italiano": "Aftermath",
         "titolo_originale": "Aftermath",
-        "anno_uscita": 2024,
-        "durata_minuti": 95,
+        "anno_uscita": 2002,
+        "durata_minuti": 83,
         "genere": [
           "Azione",
-          "Thriller"
+          "Thriller",
+          "Dramma",
+          "Crime"
         ],
         "regista": [
-          "Patrick Lussier"
+          "Douglas Jackson"
         ],
         "cast_principale": [
           {
-            "nome": "Dylan Sprouse",
-            "personaggio": "Eric Daniels",
-            "foto_url": "https://image.tmdb.org/t/p/w185/1kAWq60C8NpEkDsUMz4dVUo5YTH.jpg",
+            "nome": "Sean Young",
+            "personaggio": "Rachel Anderson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/yfJADYt6xYPpg1g7Z7TTW0bcL2s.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/95686",
+              "url_pagina_origine": "https://www.themoviedb.org/person/586",
               "verificata": true
             }
           },
           {
-            "nome": "Mason Gooding",
-            "personaggio": "Jimmy 'Romeo' Roken",
-            "foto_url": "https://image.tmdb.org/t/p/w185/bmlry1xqBzNgv8Chm783ss93Cvg.jpg",
+            "nome": "Christopher Heyerdahl",
+            "personaggio": "Evan Harper",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pTPZa3TFIkxRbqM5adXYE51a99s.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/2174509",
+              "url_pagina_origine": "https://www.themoviedb.org/person/32887",
               "verificata": true
             }
           },
           {
-            "nome": "Dichen Lachman",
-            "personaggio": "Samantha 'Doc' Brown",
-            "foto_url": "https://image.tmdb.org/t/p/w185/uXguaxMm1ju4Api4cZMc3pLz5iV.jpg",
+            "nome": "Tim Post",
+            "personaggio": "Timothy Sandburg",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kk45jSIOmAw63x5mGpr7md4Itpb.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/94797",
+              "url_pagina_origine": "https://www.themoviedb.org/person/7009",
               "verificata": true
             }
           },
           {
-            "nome": "Megan Stott",
-            "personaggio": "Madeleine Daniels",
-            "foto_url": "https://image.tmdb.org/t/p/w185/mDzNAYs7EdfPjUvub1UtfXYkRN5.jpg",
+            "nome": "William B. Davis",
+            "personaggio": "Deputy Director Edwards",
+            "foto_url": "https://image.tmdb.org/t/p/w185/b4imZtShd4kK6xFu2ccuPd0fqXA.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/2569318",
+              "url_pagina_origine": "https://www.themoviedb.org/person/12643",
               "verificata": true
             }
           },
           {
-            "nome": "Kevin Chapman",
-            "personaggio": "Inspector Terry Grimes",
-            "foto_url": "https://image.tmdb.org/t/p/w185/sCUwtlhaT2MspHCUx2veRAA9ZXx.jpg",
+            "nome": "Paul Hopkins",
+            "personaggio": "Agent Burton",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dIO8o7EudLvgiJgEXeWhmxFByLY.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/4728",
+              "url_pagina_origine": "https://www.themoviedb.org/person/102853",
               "verificata": true
             }
           },
           {
-            "nome": "Will Lyman",
-            "personaggio": "Joe Kozak",
-            "foto_url": "https://image.tmdb.org/t/p/w185/ymifKdrtMFEZVYTvOmYoshPg7HR.jpg",
+            "nome": "Tyrone Benskin",
+            "personaggio": "Arnold Ross",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jJ4xLfwYsK2iDL1Ge8u2FvlKCb9.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/163671",
+              "url_pagina_origine": "https://www.themoviedb.org/person/181247",
               "verificata": true
             }
           },
           {
-            "nome": "Tanner Zagarino",
-            "personaggio": "Tango",
-            "foto_url": "https://image.tmdb.org/t/p/w185/50KuUgMKrF7pbr0xEBhnYQlawEj.jpg",
+            "nome": "Chip Chuipka",
+            "personaggio": "Ernest D. Welles",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4YtMCu7LMRarSI1FzTW9iviJnzm.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/3064301",
+              "url_pagina_origine": "https://www.themoviedb.org/person/119481",
               "verificata": true
             }
           },
           {
-            "nome": "Mark Irvingsen",
-            "personaggio": "Wisdom",
-            "foto_url": "https://image.tmdb.org/t/p/w185/AmbZoBVKUE9Bpvy7qlGlcAVlICz.jpg",
+            "nome": "Martin Neufeld",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/vFgAPMZEMyaRMcbBDwrEteXqGUv.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1088092",
+              "url_pagina_origine": "https://www.themoviedb.org/person/53596",
               "verificata": true
             }
           },
           {
-            "nome": "Mark Pettograsso",
-            "personaggio": "Yankee",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1992671",
-              "verificata": false
-            }
-          },
-          {
-            "nome": "Ashley Pynn",
-            "personaggio": "Sierra",
-            "foto_url": "https://image.tmdb.org/t/p/w185/lNKMMCTjkXVIY5XJO2IciTQ5puV.jpg",
+            "nome": "Steve Adams",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/xjh3xEFrkF94LTvxqIwqP2ca7l6.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/2056245",
+              "url_pagina_origine": "https://www.themoviedb.org/person/66934",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Alan Fawcett",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/xWfbQTpiOqgrY5dJ52Sx4WO4A66.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/21293",
               "verificata": true
             }
           }
         ],
-        "trama": "Un veterano di guerra, vittima di disturbo da stress post-traumatico, torna a casa a Boston. Quando un gruppo di ex militari rivoluzionari e armati fino ai denti prende un gruppo di persone in ostaggio, anche il soldato rimane intrappolato con la sorella adolescente sul ponte Tobin Memorial.",
+        "trama": "L'agente speciale Rachel Anderson è incaricata di proteggere un testimone chiave, Richard Harper. Ma Harper stesso è un sospettato in diversi attacchi con bombe, uno dei quali ha ucciso il partner di Rachel. Con Sean Young e Tim Post.",
         "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/gEHIVyJB9VWLF3cuJOpYjJjegd1.jpg",
-        "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
-        },
-        "tmdb_id_scelto": 1081012
+        "locandina_url": "https://image.tmdb.org/t/p/w500/h7hWGwkC9MW0NWklFA5nejuBSWh.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 287785,
+        "imdb_id_scelto": "tt0310596",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T13:35:45.259Z"
       },
       "related_video_ids": [
         "pbzeeTX3GtY",
@@ -241666,7 +241669,14 @@
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 6.245,
-      "vote_count": 188
+      "vote_count": 188,
+      "tmdb_media_type": "movie",
+      "genre": "poliziesco",
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T13:35:45.259Z",
+      "editor_updated_at": "2026-07-04T13:35:45.259Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "3m9d8_M5k-s",
@@ -256520,7 +256530,7 @@
     {
       "video_id": "q9zAenVBeOE",
       "is_movie": true,
-      "original_title": "Colpo in canna | Action | HD | Film Completo in Italiano",
+      "original_title": "Colpo in canna",
       "channel": "Azione360",
       "tmdb_id": 89651,
       "tmdb_title_official": "Colpo in canna",
@@ -256531,8 +256541,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Colpo in canna | Action | HD | Film Completo in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=q9zAenVBeOE",
         "titolo_italiano": "Colpo in canna",
         "titolo_originale": "Colpo in canna",
         "anno_uscita": 1975,
@@ -256665,11 +256673,14 @@
           "lingua": "it",
           "fonte": "YouTube",
           "canale": null,
-          "ufficiale": true,
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos"
+          "motivo_verifica": "trailer YouTube"
         },
-        "tmdb_id_scelto": 89651
+        "tmdb_id_scelto": 89651,
+        "imdb_id_scelto": "tt0071344",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T13:36:13.032Z"
       },
       "related_video_ids": [
         "q9zAenVBeOE",
@@ -256685,7 +256696,14 @@
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 5.1,
-      "vote_count": 31
+      "vote_count": 31,
+      "tmdb_media_type": "movie",
+      "genre": "poliziesco",
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T13:36:13.032Z",
+      "editor_updated_at": "2026-07-04T13:36:13.032Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "2UvLBPm-mmU",
