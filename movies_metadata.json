@@ -277433,7 +277433,7 @@
         "tmdb_id_scelto": 467740,
         "imdb_id_scelto": "tt7163150",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-06-29T05:31:06.265Z"
+        "verificato_editor_at": "2026-07-04T22:13:44.512Z"
       },
       "locked": true,
       "locked_at": "2026-06-27T08:53:30Z",
@@ -277442,8 +277442,8 @@
       "genre": "documentario",
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-06-29T05:31:06.265Z",
-      "editor_updated_at": "2026-06-29T05:31:06.265Z",
+      "editor_locked_at": "2026-07-04T22:13:44.512Z",
+      "editor_updated_at": "2026-07-04T22:13:44.512Z",
       "editor_lock_reason": "ri-identificazione manuale editor",
       "vote_average": 7,
       "vote_count": 2
@@ -299335,7 +299335,7 @@
     {
       "video_id": "G_1rw6oBdRQ",
       "is_movie": true,
-      "original_title": "Ti offro da bere - Film Completo (2019) di Ilaria Gambarelli | Dramma e Commedia",
+      "original_title": "Ti offro da bere",
       "channel": "TVItalia",
       "tmdb_id": 520650,
       "tmdb_title_official": "Ti offro da bere",
@@ -299346,8 +299346,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Ti offro da bere - Film Completo (2019) di Ilaria Gambarelli | Dramma e Commedia",
-        "youtube_url": "https://www.youtube.com/watch?v=G_1rw6oBdRQ",
         "titolo_italiano": "Ti offro da bere",
         "titolo_originale": "Ti offro da bere",
         "anno_uscita": 2019,
@@ -299360,19 +299358,22 @@
         "trama": "Ritorno a casa",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/wpTriuDzRtrD3bvzklgatmcG78D.jpg",
-        "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
-        },
-        "tmdb_id_scelto": 520650
+        "trailer": null,
+        "tmdb_id_scelto": 520650,
+        "imdb_id_scelto": "tt3437354",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:14:39.717Z"
       },
       "vote_average": 4,
-      "vote_count": 2
+      "vote_count": 2,
+      "tmdb_media_type": "movie",
+      "genre": "commedia",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:14:39.717Z",
+      "editor_updated_at": "2026-07-04T22:14:39.717Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "UZnwYubm9bc",
@@ -322758,7 +322759,7 @@
           "Davide Melis"
         ],
         "cast_principale": [],
-        "trama": "A Bolu è un racconto corale, un viaggio attraverso la Sardegna, volto a scoprire una delle culture più autentiche dell'isola, il pastoralismo, che trova sintesi e genuina espressione nel canto a tenore. Le storie dei personaggi iniziano con il loro incontro più importante: il film comincia con una scena flashforward che anticipa il finale: una grande festa paesana. I fatti riguardanti i volti e le voci che lo spettatore scopre in quella celebrazione vengono esplorati nel viaggio, incontro dopo incontro, passo dopo passo, che si conclude nella grande festa comunitaria.",
+        "trama": "A Bolu è un racconto corale, un viaggio attraverso la Sardegna, volto a scoprire una delle culture più autentiche dell'isola, il pastoralismo, che trova sintesi e genuina espressione nel canto a tenore. Le storie dei personaggi iniziano con il loro incontro più importante: il film inizia con una scena di flashforward che anticipa il finale: una grande festa di paese. I fatti riguardanti i volti e le voci che lo spettatore scopre in quella celebrazione vengono esplorati nel viaggio, incontro dopo incontro, passo dopo passo, che si conclude nella grande festa comunitaria.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/cq1DFyILLiijtjv3rCpYjewolve.jpg",
         "trailer": {
@@ -322773,15 +322774,15 @@
         "tmdb_id_scelto": 871514,
         "imdb_id_scelto": "tt10560686",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-02T15:18:39.436Z"
+        "verificato_editor_at": "2026-07-04T22:15:02.556Z"
       },
       "tmdb_media_type": "movie",
       "genre": "documentario",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-02T15:18:39.436Z",
-      "editor_updated_at": "2026-07-02T15:18:39.436Z",
+      "editor_locked_at": "2026-07-04T22:15:02.556Z",
+      "editor_updated_at": "2026-07-04T22:15:02.556Z",
       "editor_lock_reason": "ri-identificazione manuale editor",
       "vote_average": 8,
       "vote_count": 1
