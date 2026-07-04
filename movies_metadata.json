@@ -205012,7 +205012,7 @@
     {
       "video_id": "Myra_S7POMg",
       "is_movie": true,
-      "original_title": "Inginocchiati straniero... i cadaveri non fanno ombra! (1970) | Il Cult del Selvaggio West | Film HD",
+      "original_title": "Inginocchiati straniero... I cadaveri non fanno ombra!",
       "channel": "Azione360",
       "tmdb_id": 148434,
       "tmdb_title_official": "Inginocchiati straniero... I cadaveri non fanno ombra!",
@@ -205023,8 +205023,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Inginocchiati straniero... i cadaveri non fanno ombra! (1970) | Il Cult del Selvaggio West | Film HD",
-        "youtube_url": "https://www.youtube.com/watch?v=Myra_S7POMg",
         "titolo_italiano": "Inginocchiati straniero... I cadaveri non fanno ombra!",
         "titolo_originale": "Inginocchiati straniero... I cadaveri non fanno ombra!",
         "anno_uscita": 1970,
@@ -205147,25 +205145,34 @@
             }
           }
         ],
-        "trama": "Lazar, un cacciatore di taglie, si unisce a un giovane pistolero per ricattare Barrett, un ex bandito e proprietario di una miniera. Alla fine della giornata, il cacciatore di taglie si scontra con Barrett, ma qualcosa va storto.",
+        "trama": "Lazar, un cacciatore di taglie, si allea con un giovane pistolero per ricattare Barrett, un ex bandito e proprietario di una miniera. Alla fine della giornata, il cacciatore di taglie si scontra con Barrett, ma qualcosa va storto.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/mxohbFUSngmR53Ri9ncOuy8jGSu.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=IzP-l-Wg1Kc"
         },
-        "tmdb_id_scelto": 148434
+        "tmdb_id_scelto": 148434,
+        "imdb_id_scelto": "tt0065890",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T08:04:58.227Z"
       },
       "locked": true,
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 4.5,
-      "vote_count": 9
+      "vote_count": 9,
+      "tmdb_media_type": "movie",
+      "genre": "western",
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T08:04:58.227Z",
+      "editor_updated_at": "2026-07-04T08:04:58.227Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "Ib12e1hPZwU",
@@ -206248,7 +206255,7 @@
     {
       "video_id": "zgZWipMbm4E",
       "is_movie": true,
-      "original_title": "Sopravvivenza Estrema: THE PILOT - Dietro le linee nemiche | Film Completo in Italiano HD",
+      "original_title": "Лётчик",
       "channel": "Azione360",
       "tmdb_id": 597859,
       "tmdb_title_official": "The Pilot - Dietro le linee nemiche",
@@ -206259,8 +206266,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Sopravvivenza Estrema: THE PILOT - Dietro le linee nemiche | Film Completo in Italiano HD",
-        "youtube_url": "https://www.youtube.com/watch?v=zgZWipMbm4E",
         "titolo_italiano": "The Pilot - Dietro le linee nemiche",
         "titolo_originale": "Лётчик",
         "anno_uscita": 2021,
@@ -206389,21 +206394,30 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/6dw1PE6CiexFkpGc0ZjXKwVucpJ.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=n6PK_3Z8IqY"
         },
-        "tmdb_id_scelto": 597859
+        "tmdb_id_scelto": 597859,
+        "imdb_id_scelto": "tt14303882",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T08:05:15.023Z"
       },
       "locked": true,
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 6.5,
-      "vote_count": 56
+      "vote_count": 56,
+      "tmdb_media_type": "movie",
+      "genre": "guerra",
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T08:05:15.023Z",
+      "editor_updated_at": "2026-07-04T08:05:15.023Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "JkKXD6FpU9g",
