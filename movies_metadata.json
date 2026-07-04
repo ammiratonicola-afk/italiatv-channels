@@ -227913,7 +227913,7 @@
     },
     {
       "video_id": "837mfPh9aY8",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Il segreto dello sparviero nero (1961) | L'era dei corsari 4K",
       "channel": "Azione360",
       "tmdb_id": 199626,
@@ -228067,7 +228067,10 @@
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 6.333,
-      "vote_count": 3
+      "vote_count": 3,
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T22:17:53.142Z"
     },
     {
       "video_id": "gzE3hmte2e4",
@@ -228845,7 +228848,7 @@
     },
     {
       "video_id": "xx976Eb_-lQ",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Servo suo",
       "channel": "Azione360",
       "tmdb_id": 261005,
@@ -228975,7 +228978,10 @@
       "editor_updated_at": "2026-06-27T11:01:41.515Z",
       "editor_lock_reason": "ri-identificazione manuale editor",
       "vote_average": 5.333,
-      "vote_count": 3
+      "vote_count": 3,
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T22:17:53.143Z"
     },
     {
       "video_id": "bKGoPHfn1zk",
@@ -231627,7 +231633,7 @@
     },
     {
       "video_id": "CynhmCHYJi0",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Non Sottovalutate la Signora con la Pistola | Giarrettiera Colt (1968) | Western",
       "channel": "Azione360",
       "tmdb_id": 143767,
@@ -231783,7 +231789,10 @@
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 5.1,
-      "vote_count": 5
+      "vote_count": 5,
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T22:17:53.142Z"
     },
     {
       "video_id": "du0gwDt3_mA",
@@ -232373,7 +232382,7 @@
     },
     {
       "video_id": "u4gPL2nw6M8",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "KGB ultimo atto (1992) | Un gioco mortale tra le strade di Mosca",
       "channel": "Azione360",
       "tmdb_id": 388556,
@@ -232529,7 +232538,10 @@
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 5,
-      "vote_count": 7
+      "vote_count": 7,
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T22:17:53.143Z"
     },
     {
       "video_id": "CKP6nD-xI7Q",
@@ -326371,45 +326383,163 @@
     {
       "video_id": "p5IPvX00W9Y",
       "is_movie": true,
-      "original_title": "Malizia erotica (1979): Quando la fantasia supera la realtà | Film",
+      "original_title": "El periscopio",
       "channel": "TVItalia",
-      "tmdb_id": 511034,
-      "tmdb_title_official": "Holdasfilm",
-      "tmdb_year_official": 1978,
-      "tmdb_poster_path": "/nw24t7GB4wVKI4yPeRCJw6wElwp.jpg",
+      "tmdb_id": 30900,
+      "tmdb_title_official": "Malizia erotica",
+      "tmdb_year_official": 1979,
+      "tmdb_poster_path": "/9qP52ffI5swKhMxA9aRr9efKbCP.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Malizia erotica (1979): Quando la fantasia supera la realtà | Film",
-        "youtube_url": "https://www.youtube.com/watch?v=p5IPvX00W9Y",
-        "titolo_italiano": "Holdasfilm",
-        "titolo_originale": "Holdasfilm",
-        "anno_uscita": 1978,
-        "durata_minuti": 5,
+        "titolo_italiano": "Malizia erotica",
+        "titolo_originale": "El periscopio",
+        "anno_uscita": 1979,
+        "durata_minuti": 84,
         "genere": [
-          "Animazione"
+          "Commedia"
         ],
         "regista": [
-          "Dóra Keresztes",
-          "Orosz István"
+          "José Ramón Larraz"
         ],
-        "cast_principale": [],
-        "trama": "Short animated film",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/nw24t7GB4wVKI4yPeRCJw6wElwp.jpg",
+        "cast_principale": [
+          {
+            "nome": "Laura Gemser",
+            "personaggio": "Amiga de Verónica",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cIWMndeOsXPVWx8pqLHh6Sqolpm.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/41127",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Bárbara Rey",
+            "personaggio": "Verónica",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ki75u01Q2exOmH7a8yZPojHmbhL.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/95655",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "José «Saza» Sazatornil",
+            "personaggio": "José Antonio Cañavate",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fkTHu4m8z8Cph2jPxF3R5cqdN8e.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/144515",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ángel Herraiz",
+            "personaggio": "Alfonso",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1553986",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Mila Stanić",
+            "personaggio": "Concha",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kmP11Ci92n7avl6rKfRiXuFDUWH.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/107277",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Alfred Lucchetti",
+            "personaggio": "Amante de Concha",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1aY1H8d0jNo8W0TlXDNySea6iJ3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/97656",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Josep Castillo",
+            "personaggio": "Don Ignacio",
+            "foto_url": "https://image.tmdb.org/t/p/w185/aDyysOPZp3VMHiwYxKA1Os8DNGK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/938221",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Daniele Vargas",
+            "personaggio": "Oculista",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fb5Qgqt8I4i0tNjAEcEsGemiMwl.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/39020",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gabriele Tinti",
+            "personaggio": "Professor",
+            "foto_url": "https://image.tmdb.org/t/p/w185/f2NJidxvaqX8MQSv7MN36NDK1kY.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/31991",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "José María Cañete",
+            "personaggio": "Empleado de editorial",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1061978",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Un giovane voyeur scopre le delizie del buon vicinato. Un adolescente in preda ai suoi primi turbamenti sessuali ha la fortuna di avere due vicine infermiere bisessuali, che girano costantemente discinte per casa, e l’ingegnosità di costruirsi un periscopio per spiarle dal piano di sotto. Intanto la madre adultera, per conservare una pelliccia regalatele dall’amante e far credere allo stolto marito di averla trovata per caso, coinvolgerà nei suoi piani il figlio, evidentemente provato dall’incessante dedizione alle conturbanti ragazze, e ne uscirà un pasticcio.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/9qP52ffI5swKhMxA9aRr9efKbCP.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt0079515/videogallery/content_type-trailer"
         },
-        "tmdb_id_scelto": 511034
-      }
+        "tmdb_id_scelto": 30900,
+        "imdb_id_scelto": "tt0079515",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:19:13.289Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "commedia",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:19:13.289Z",
+      "editor_updated_at": "2026-07-04T22:19:13.289Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "SHjpxku8DrM",
@@ -336073,7 +336203,7 @@
     },
     {
       "video_id": "9DglxeLofrk",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Film Completo di Peter Hewitt: Che fine ha fatto Harold Smith? (1999)",
       "channel": "TVItalia",
       "tmdb_id": 49922,
@@ -336222,7 +336352,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-04T22:03:09.601Z",
       "editor_updated_at": "2026-07-04T22:03:09.601Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T22:17:53.141Z"
     },
     {
       "video_id": "Yvs5mtaQ1ew",
@@ -338489,7 +338622,7 @@
     },
     {
       "video_id": "sRp0nIhrWJk",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Beppe Grillo - CERVELLO (Spettacolo Completo, Genova 1997)",
       "channel": "TVItalia",
       "tmdb_id": 403891,
@@ -338537,7 +338670,10 @@
           "motivo_verifica": ""
         },
         "tmdb_id_scelto": 403891
-      }
+      },
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T22:17:53.143Z"
     },
     {
       "video_id": "KWz-vPiPnf8",
