@@ -244322,7 +244322,7 @@
     {
       "video_id": "igpgPCfjUq0",
       "is_movie": true,
-      "original_title": "Age Of Tomorrow | HD | Thriller | Fantascienza | Film Completo in Italiano",
+      "original_title": "Age of Tomorrow",
       "channel": "Azione360",
       "tmdb_id": 275619,
       "tmdb_title_official": "Age of Tomorrow",
@@ -244333,8 +244333,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Age Of Tomorrow | HD | Thriller | Fantascienza | Film Completo in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=igpgPCfjUq0",
         "titolo_italiano": "Age of Tomorrow",
         "titolo_originale": "Age of Tomorrow",
         "anno_uscita": 2014,
@@ -244463,21 +244461,30 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/rij2GSSXbhNLCFdvJN8YmRRD2i3.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=Zrf6DvoTXZI"
         },
-        "tmdb_id_scelto": 275619
+        "tmdb_id_scelto": 275619,
+        "imdb_id_scelto": "tt3677466",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T14:17:49.262Z"
       },
       "locked": true,
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 2.958,
-      "vote_count": 72
+      "vote_count": 72,
+      "tmdb_media_type": "movie",
+      "genre": "fantascienza",
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T14:17:49.262Z",
+      "editor_updated_at": "2026-07-04T14:17:49.262Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "VeT4qeQSRMQ",
