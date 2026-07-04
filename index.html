@@ -918,7 +918,7 @@ function isGenreFillNeeded(x){ return !!(x&&x.m&&genreFillReason(x.m)); }
 function isGenreMismatch(x){ return !!(x&&x.m&&genreMismatchReason(x.m)); }
 let catalogAll=null, catRawObj=null, catalogRenderSeq=0; const catDirty=new Set(); const catSel=new Set(); const catRenamed={};
 // stato per i badge (popolati dalla diagnostica YouTube): geo-bloccati e non disponibili
-const geoBlockedSet=new Set(), unavailableSet=new Set(), shortDurSet=new Set(), ageRestrictedSet=new Set(); let diagResults=null; let diagCatOpen=null;
+const geoBlockedSet=new Set(), unavailableSet=new Set(), shortDurSet=new Set(), ageRestrictedSet=new Set(); const durSecMap={}; let diagResults=null; let diagCatOpen=null;
 const SUB_ITA_MARKERS=[
   "sottotitoli in italiano","sottotitoli italiani","sottotitoli ita","sottotitolato in italiano",
   "sottotitolata in italiano","sottotitolati in italiano","sottotitoli italiano",
@@ -961,6 +961,14 @@ function isSubItaCandidate(x){ return !!(x && x.m && subItaReason(x.m)); }
 // Ricalcola i conteggi diagnostica: le categorie LOCALI (poster/trama/cast/lingua) si rifanno
 // al volo da catalogAll; quelle da YouTube (geo/disponibilità/durata) riusano i Set dell'ultima
 // scansione (niente nuove chiamate API a ogni modifica).
+// Durata in minuti: usa la durata TMDB (strict_id_v2) se nota, altrimenti la lunghezza
+// reale del video YouTube rilevata dalla scansione diagnostica (durSecMap).
+function filmDurMin(m){
+  const dm=(m.strict_id_v2||{}).durata_minuti;
+  if(dm) return dm;
+  const sec=durSecMap[m.video_id];
+  return sec? Math.round(sec/60) : null;
+}
 function recomputeDiag(){
   if(!catalogAll) return;
   diagResults={
@@ -973,7 +981,8 @@ function recomputeDiag(){
     genreFill: catalogAll.filter(isGenreFillNeeded),
     genreMismatch: catalogAll.filter(isGenreMismatch),
     subItaOnly: catalogAll.filter(isSubItaCandidate),
-    shortDur: catalogAll.filter(x=>{ const dm=(x.m.strict_id_v2||{}).durata_minuti; return dm ? (dm<40) : shortDurSet.has(x.m.video_id); }),
+    veryShortDur: catalogAll.filter(x=>{ const d=filmDurMin(x.m); return d!=null && d<20; }),
+    shortDur: catalogAll.filter(x=>{ const d=filmDurMin(x.m); return d!=null && d>=20 && d<40; }),
     duplicates: (()=>{ const s=new Set(); findDupGroups().forEach(g=>g.items.forEach(x=>s.add(x))); return [...s]; })(),
     geoBlocked: catalogAll.filter(x=>geoBlockedSet.has(x.m.video_id)),
     ageRestricted: catalogAll.filter(x=>ageRestrictedSet.has(x.m.video_id)),
@@ -1223,7 +1232,7 @@ async function runDiagnostics(){
   }
   $("diagBtn").disabled=true;
   // controllo YouTube a batch (disponibilità + blocco IT + durata)
-  geoBlockedSet.clear(); unavailableSet.clear(); shortDurSet.clear(); ageRestrictedSet.clear();
+  geoBlockedSet.clear(); unavailableSet.clear(); shortDurSet.clear(); ageRestrictedSet.clear(); for(const k in durSecMap) delete durSecMap[k];
   const ids=catalogAll.map(x=>x.m.video_id);
   for(let i=0;i<ids.length;i+=50){
     const batch=ids.slice(i,i+50);
@@ -1236,6 +1245,7 @@ async function runDiagnostics(){
         if((rr.blocked||[]).includes("IT")||(rr.allowed&&!rr.allowed.includes("IT"))) geoBlockedSet.add(it.id);
         if((((it.contentDetails||{}).contentRating)||{}).ytRating==="ytAgeRestricted") ageRestrictedSet.add(it.id);
         const dur=parseDuration((it.contentDetails||{}).duration);
+        if(dur>0){ durSecMap[it.id]=dur; }
         if(dur>0 && dur<2400) shortDurSet.add(it.id);
       });
       batch.forEach(v=>{ if(!got.has(v)) unavailableSet.add(v); });
@@ -1260,7 +1270,8 @@ const DIAG_CATS=[
   ["geoBlocked","🌍 Geo-bloccati in Italia (partono via proxy)"],
   ["ageRestricted","🔞 Restrizione d'età (non si riproducono senza login YouTube)"],
   ["unavailable","🚫 Video non disponibili su YouTube"],
-  ["shortDur","⏱️ Durata < 40 min (forse non film)"],
+  ["veryShortDur","🗑️ Durata < 20 min: DA ELIMINARE (non è un film)"],
+  ["shortDur","⏱️ Durata 20-40 min (forse non film: verifica)"],
 ];
 function renderDiagnostics(){
   if(!diagResults) return;
@@ -1301,6 +1312,7 @@ function showDiagCat(i){
   if(items.length){
     if(key==="nonItalianPlot") bulk=` <button class="sec" onclick="translateAllPlots()" style="padding:4px 10px;font-size:12px">🌐 Traduci tutte in italiano</button>`;
     else if(key==="subItaOnly") bulk=` <button class="sec" onclick="deleteSubItaCandidates()" style="padding:4px 10px;font-size:12px">🗑 Elimina tutti questi film</button>`;
+    else if(key==="veryShortDur") bulk=` <button class="sec" onclick="deleteVeryShortDur()" style="padding:4px 10px;font-size:12px">🗑 Elimina tutti (durata < 20 min)</button>`;
     else if(key==="noTrailer") bulk=` <button class="sec" onclick="findAllTrailers()" style="padding:4px 10px;font-size:12px">🔎 Cerca trailer a tutte</button>`;
     else if(key==="noDuration") bulk=` <button class="sec" onclick="fillDurationsFromTmdb()" style="padding:4px 10px;font-size:12px">⏱️ Estrai durata da TMDB</button>`;
     else if(key==="genreFill") bulk=` <button class="sec" onclick="fillMissingGenres()" style="padding:4px 10px;font-size:12px">Compila generi mancanti</button>`;
@@ -1349,6 +1361,25 @@ function deleteSubItaCandidates(){
   updateDelSelBtn();
   status(`Eliminati ${ncat+nman} film non in italiano / sub-ITA. Salva: catalogo col pulsante verde${nman?", manuali con 'Salva su GitHub'":""}.`,true);
   recomputeDiag(); showDiagCat(DIAG_CATS.findIndex(c=>c[0]==="subItaOnly"));
+}
+function deleteVeryShortDur(){
+  const items=((diagResults&&diagResults.veryShortDur)||[]).slice();
+  if(!items.length){ status("Nessun film con durata < 20 min da eliminare.",false); return; }
+  if(!confirm(`Eliminare ${items.length} film con durata inferiore a 20 minuti (non sono film completi)?\nNon saranno più visibili nell'app dopo il salvataggio.`)) return;
+  let ncat=0,nman=0;
+  items.forEach(x=>{
+    const key=catKey(x);
+    const res=markFilmDeleted(x, "durata video < 20 min: non è un film completo");
+    if(res==="cat") ncat++;
+    else if(res==="man") nman++;
+    removeFromCatalogAll(key);
+    catSel.delete(key);
+  });
+  if(ncat) $("saveCatBtn").style.display="inline-block";
+  if(nman) render();
+  updateDelSelBtn();
+  status(`Eliminati ${ncat+nman} film con durata < 20 min. Salva: catalogo col pulsante verde${nman?", manuali con 'Salva su GitHub'":""}.`,true);
+  recomputeDiag(); showDiagCat(DIAG_CATS.findIndex(c=>c[0]==="veryShortDur"));
 }
 // Prende la durata da TMDB per il film aperto nel modale (usa l'ID TMDB del campo).
 async function fetchDurationTmdb(){
