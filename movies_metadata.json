@@ -78304,12 +78304,12 @@
     },
     {
       "video_id": "TaFHcoN_DvU",
-      "is_movie": true,
+      "is_movie": false,
       "tmdb_title": "Assassino in fuga: il gioco dei sicari",
       "tmdb_year": null,
       "genre": "azione",
       "quality_notes": "indica Film d'AZIONE completo in italiano",
-      "reason_not_movie": null,
+      "reason_not_movie": "doppione bonificato dall'editor",
       "original_title": "Contract Killers",
       "channel": "Moviedome IT",
       "tmdb_id": 264891,
@@ -78478,7 +78478,9 @@
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 3.933,
-      "vote_count": 15
+      "vote_count": 15,
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T12:30:01.306Z"
     },
     {
       "video_id": "cgwoAKe2sOc",
