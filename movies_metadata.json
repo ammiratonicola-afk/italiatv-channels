@@ -331960,7 +331960,7 @@
     {
       "video_id": "LL2JMjetyuI",
       "is_movie": true,
-      "original_title": "Ivan Drago di Rocky in MISSIONARY MAN | Film completo in italiano💥Movies In Action",
+      "original_title": "Missionary Man",
       "channel": "Movies in Action IT",
       "tmdb_id": 13723,
       "tmdb_title_official": "Missionary Man",
@@ -331971,8 +331971,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Ivan Drago di Rocky in MISSIONARY MAN | Film completo in italiano💥Movies In Action",
-        "youtube_url": "https://www.youtube.com/watch?v=LL2JMjetyuI",
         "titolo_italiano": "Missionary Man",
         "titolo_originale": "Missionary Man",
         "anno_uscita": 2007,
@@ -332097,20 +332095,30 @@
             }
           }
         ],
-        "trama": "A mysterious stranger rolls into town on a unique motorcycle. All he carries is the bible and a desire for justice. Past vengeance collides as Ryder rights an injustice from his past and liberates the small town from a malicious oppressor.",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Un misterioso sconosciuto arriva in città su una moto unica. L'unica cosa che porta con sé è la Bibbia e un desiderio di giustizia. La vendetta del passato si scontra quando Ryder ripara un'ingiustizia della sua storia e libera il piccolo paese da un oppressore malvagio.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/73uGeN1RJaKycOo5QHaRXhpcXeO.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=V7CwOyOs0JE"
         },
-        "tmdb_id_scelto": 13723
-      }
+        "tmdb_id_scelto": 13723,
+        "imdb_id_scelto": "tt0926110",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:34:43.322Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "thriller",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:34:43.322Z",
+      "editor_updated_at": "2026-07-04T22:34:43.322Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "5_-zJmypTFs",
@@ -332730,156 +332738,164 @@
     {
       "video_id": "ioM5g_9FTS4",
       "is_movie": true,
-      "original_title": "Sleeper: Intrappolata nel doppio gioco di suo marito | Thriller | Film completo",
+      "original_title": "Sleeper",
       "channel": "TVItalia",
-      "tmdb_id": 119640,
-      "tmdb_title_official": "Sleeper",
-      "tmdb_year_official": 2012,
-      "tmdb_poster_path": "/e6lOMFjC3h3myXfE1Zwsj5q80LF.jpg",
+      "tmdb_id": 516532,
+      "tmdb_title_official": "Sleeper - Doppia identità",
+      "tmdb_year_official": 2018,
+      "tmdb_poster_path": "/1fzQnmmEaoSHCEF1eHpeEg9CavC.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Sleeper: Intrappolata nel doppio gioco di suo marito | Thriller | Film completo",
-        "youtube_url": "https://www.youtube.com/watch?v=ioM5g_9FTS4",
-        "titolo_italiano": "Sleeper",
+        "titolo_italiano": "Sleeper - Doppia identità",
         "titolo_originale": "Sleeper",
-        "anno_uscita": 2012,
-        "durata_minuti": 87,
+        "anno_uscita": 2018,
+        "durata_minuti": 86,
         "genere": [
-          "Azione",
-          "Horror"
+          "Thriller",
+          "televisione film"
         ],
         "regista": [
-          "Dru Brown"
+          "Philippe Gagnon"
         ],
         "cast_principale": [
           {
-            "nome": "Ty Hungerford",
-            "personaggio": "Molloy",
-            "foto_url": "https://image.tmdb.org/t/p/w185/dB9wsSte596DzmO3oYAN8zU3rog.jpg",
+            "nome": "Kara Killmer",
+            "personaggio": "Jennifer Jones (JJ)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bfiSQa9YZXrYhlXgKazWc4jtoqD.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1060289",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1371298",
               "verificata": true
             }
           },
           {
-            "nome": "Bruce Hopkins",
-            "personaggio": "Raynor",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/167035",
-              "verificata": false
-            }
-          },
-          {
-            "nome": "Kym Jackson",
-            "personaggio": "Kelly",
-            "foto_url": "https://image.tmdb.org/t/p/w185/jQQ1H7CBsA0ItW1m9i1iqvXGHlP.jpg",
+            "nome": "Brett Donahue",
+            "personaggio": "Freddy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/i6IlT8BNpG21Hd44bQ8aiEH0slU.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/999445",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1278643",
               "verificata": true
             }
           },
           {
-            "nome": "Scott Levy",
-            "personaggio": "Resnik",
-            "foto_url": "https://image.tmdb.org/t/p/w185/c6JPNVQ5WnqUfKL0cJwvDlHz7dV.jpg",
+            "nome": "Mylène Dinh-Robic",
+            "personaggio": "Connie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8CBK9R9haSKmnioCNmE3YAQROPL.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/102210",
+              "url_pagina_origine": "https://www.themoviedb.org/person/134182",
               "verificata": true
             }
           },
           {
-            "nome": "Ray Sinclair",
-            "personaggio": "Dwayne Miller",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1882437",
-              "verificata": false
-            }
-          },
-          {
-            "nome": "Lauren Orrell",
-            "personaggio": "Sara",
-            "foto_url": "https://image.tmdb.org/t/p/w185/mdXX9U31nENNQ4Wp1L6PlaPTDPV.jpg",
+            "nome": "Rayisa Kondracki",
+            "personaggio": "Anna",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1rEQ18Mohbr2yfR0iFAwUUU5iT0.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1085684",
+              "url_pagina_origine": "https://www.themoviedb.org/person/208454",
               "verificata": true
             }
           },
           {
-            "nome": "Nicole Payten-Betts",
-            "personaggio": "Heather",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/3043453",
-              "verificata": false
-            }
-          },
-          {
-            "nome": "Adam Fawns",
-            "personaggio": "Josh",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/3510900",
-              "verificata": false
-            }
-          },
-          {
-            "nome": "Robert Reitano",
-            "personaggio": "Toby",
-            "foto_url": "https://image.tmdb.org/t/p/w185/zWVi6bNLNlVKQh59ckQ8vUGQ5z6.jpg",
+            "nome": "Jason Deline",
+            "personaggio": "Agent Doug Emory",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vgvl4FNfdHuq1jTADVOlxBaZJoR.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/2610689",
+              "url_pagina_origine": "https://www.themoviedb.org/person/198540",
               "verificata": true
             }
           },
           {
-            "nome": "Cory Robinson",
-            "personaggio": "Wace",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "nome": "Joe Cobden",
+            "personaggio": "Arthur Stern",
+            "foto_url": "https://image.tmdb.org/t/p/w185/aI26eGubA3kFhJQNoWt4gtQyviM.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/61913",
-              "verificata": false
+              "url_pagina_origine": "https://www.themoviedb.org/person/51389",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mark Camacho",
+            "personaggio": "Detective Brent",
+            "foto_url": "https://image.tmdb.org/t/p/w185/AruZfSgqYW23yTMlIdt0pu6iBf8.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/7013",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Barbara Gordon",
+            "personaggio": "Barbara",
+            "foto_url": "https://image.tmdb.org/t/p/w185/j4izggPqkazGWSXco2j6QbKsdot.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5942",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Daniel Brochu",
+            "personaggio": "Doctor",
+            "foto_url": "https://image.tmdb.org/t/p/w185/u1Y4I2b3LhjAHTBMdNh7jgN6NED.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1212859",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Neil Kroetsch",
+            "personaggio": "Bud",
+            "foto_url": "https://image.tmdb.org/t/p/w185/itdTuNy4dA7oGzEftswFK3Pi5oY.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/198728",
+              "verificata": true
             }
           }
         ],
-        "trama": "Enigmatically silent, and driven by love, the man known as Resnik was imprisoned for butchering another man and kidnapping the young girl at the heart of his obsession, Kelly. For the safety of his fellow inmates, Resnik was only ever allowed to wake, eat and exercise alone, after dark, he learned to like it. Now having escaped during a midnight transfer, Resnik is headed back to Moonlight Bay, and Detectives Raynor and Molloy have only 12 hours to stop him before the sun goes down, and the carnage begins, again.",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/e6lOMFjC3h3myXfE1Zwsj5q80LF.jpg",
+        "trama": "Candidato al Canadian Screen Awards come migliore fotografia nel 2019. Jennifer scopre una sconvolgente verità su suo marito dopo un aborto spontaneo. Indaga e trova una camera segreta che rivela la sua vera identità. Quello che scopre cambierà la sua vita per sempre, ritrovandosi nell'incubo più oscuro. Un thriller avvincente che svela oscure verità e mette in gioco la vita di Jennifer.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/1fzQnmmEaoSHCEF1eHpeEg9CavC.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=mmkMkAUnaQQ"
         },
-        "tmdb_id_scelto": 119640
-      }
+        "tmdb_id_scelto": 516532,
+        "imdb_id_scelto": "tt6932318",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:35:02.258Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "thriller",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:35:02.258Z",
+      "editor_updated_at": "2026-07-04T22:35:02.258Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "tniXr5n_28M",
@@ -333787,7 +333803,7 @@
     },
     {
       "video_id": "wbT4ZgZzfuE",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Alla scoperta di una civiltà perduta | I Mondi di Syusy: i Maya - Guatemala",
       "channel": "TVItalia",
       "tmdb_id": 671718,
@@ -333859,7 +333875,10 @@
           "motivo_verifica": ""
         },
         "tmdb_id_scelto": 671718
-      }
+      },
+      "reason_not_movie": "eliminato dall'editor web",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T22:36:44.727Z"
     },
     {
       "video_id": "orDqsVxhBwU",
@@ -335480,155 +335499,163 @@
     {
       "video_id": "omLyu8ZERMA",
       "is_movie": true,
-      "original_title": "Film Completo di Craig Ross Jr.: Killjoy - Il clown  (2000) | Slasher",
+      "original_title": "Killjoy",
       "channel": "TVItalia",
-      "tmdb_id": 227611,
-      "tmdb_title_official": "The Slasher",
+      "tmdb_id": 27711,
+      "tmdb_title_official": "Killjoy - Il clown",
       "tmdb_year_official": 2000,
-      "tmdb_poster_path": "/5ZpPzUl6X8zhgOt5aMPsKPPUQ8a.jpg",
+      "tmdb_poster_path": "/3oN0u5ok4spH5g4ZkwjcNcwfUzy.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Film Completo di Craig Ross Jr.: Killjoy - Il clown  (2000) | Slasher",
-        "youtube_url": "https://www.youtube.com/watch?v=omLyu8ZERMA",
-        "titolo_italiano": "The Slasher",
-        "titolo_originale": "The Slasher",
+        "titolo_italiano": "Killjoy - Il clown",
+        "titolo_originale": "Killjoy",
         "anno_uscita": 2000,
-        "durata_minuti": 93,
+        "durata_minuti": 89,
         "genere": [
           "Horror"
         ],
         "regista": [
-          "Jim Haggerty"
+          "Craig Ross Jr."
         ],
         "cast_principale": [
           {
-            "nome": "Jae Mosc",
-            "personaggio": "Detective Larry Brown",
+            "nome": "Ángel Vargas",
+            "personaggio": "Killjoy",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1195844",
+              "url_pagina_origine": "https://www.themoviedb.org/person/98806",
               "verificata": false
             }
           },
           {
-            "nome": "Nicolle Mirabella",
-            "personaggio": "Lara Carruthers",
+            "nome": "Vera Yell",
+            "personaggio": "Jada",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1261940",
+              "url_pagina_origine": "https://www.themoviedb.org/person/98807",
               "verificata": false
             }
           },
           {
-            "nome": "Jim Haggerty",
-            "personaggio": "Detective Keith Stone",
+            "nome": "Lee Marks",
+            "personaggio": "Jamal",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1195842",
+              "url_pagina_origine": "https://www.themoviedb.org/person/98808",
               "verificata": false
             }
           },
           {
-            "nome": "LP",
-            "personaggio": "Peri Purcell",
+            "nome": "Carl Washington",
+            "personaggio": "Ray Jackson",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1030233",
+              "url_pagina_origine": "https://www.themoviedb.org/person/98805",
               "verificata": false
             }
           },
           {
-            "nome": "Norman Pasternak",
-            "personaggio": "Max Donnegan",
+            "nome": "Jamal Grimes",
+            "personaggio": "Michael",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/4095448",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1192158",
               "verificata": false
             }
           },
           {
-            "nome": "Maria Bolaris",
-            "personaggio": "Lisa La Rue",
+            "nome": "Dee Dee Austin",
+            "personaggio": "Monique",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1195845",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1192159",
               "verificata": false
             }
           },
           {
-            "nome": "Spike",
-            "personaggio": "Mayra Carruthers",
+            "nome": "Corey Hampton",
+            "personaggio": "T-Bone",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/3988578",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1192161",
               "verificata": false
             }
           },
           {
-            "nome": "Alicia Brown",
-            "personaggio": "Officer McRae",
+            "nome": "Rani Goulant",
+            "personaggio": "Baby Boy",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/4095457",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1192162",
               "verificata": false
             }
           },
           {
-            "nome": "Charlotte Bair",
-            "personaggio": "Mrs. Stone",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "nome": "Napiera Groves",
+            "personaggio": "Kahara",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nHaHISfr49xuEWv8OsXTdD06z0c.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/3459586",
-              "verificata": false
+              "url_pagina_origine": "https://www.themoviedb.org/person/1192163",
+              "verificata": true
             }
           },
           {
-            "nome": "Allen Rockefeller",
-            "personaggio": "Chief of Police",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "nome": "William L. Johnson",
+            "personaggio": "Lorenzo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uhrVyYAs53wO5B1u9i17GFGMm3p.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/4095462",
-              "verificata": false
+              "url_pagina_origine": "https://www.themoviedb.org/person/76673",
+              "verificata": true
             }
           }
         ],
-        "trama": "New York is under the gripping threat of a masked madman killing beautiful women with no end in sight. As bloody, naked bodies are turning up everywhere, 'The Slasher' holds the city in his tightened grip. Two hard-boiled cops who've seen it all remain hot on the trail of the maniac, but the meddling of the press and the evil genius of their prey keeps them one step behind.",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/5ZpPzUl6X8zhgOt5aMPsKPPUQ8a.jpg",
+        "trama": "Nel profondo di un inferno urbano, una figura spaventosa sta eliminando i cattivi. Un vigilante o un demone? Per la bella studentessa delle superiori, Jada, questa è la domanda che la porterà a confrontarsi con il killer clown Killjoy.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/3oN0u5ok4spH5g4ZkwjcNcwfUzy.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=x8sMt4hx2gI"
         },
-        "tmdb_id_scelto": 227611
-      }
+        "tmdb_id_scelto": 27711,
+        "imdb_id_scelto": "tt0250469",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:36:32.102Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "horror",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:36:32.102Z",
+      "editor_updated_at": "2026-07-04T22:36:32.102Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "_dMc40coR04",
@@ -337042,156 +337069,113 @@
     {
       "video_id": "wuuVCSXiLxs",
       "is_movie": true,
-      "original_title": "WESTERN: Wyatt Earp and Bass Reeves (2023) | Film Completo in Italiano",
+      "original_title": "Wyatt Earp And Bass Reeves",
       "channel": "TVItalia",
-      "tmdb_id": 1194662,
-      "tmdb_title_official": "Deadly Western",
+      "tmdb_id": 1203454,
+      "tmdb_title_official": "Wyatt Earp And Bass Reeves",
       "tmdb_year_official": 2023,
-      "tmdb_poster_path": "/fgCVac4lsuVk0CGTAeYQqU8mH82.jpg",
+      "tmdb_poster_path": "/yn9hg7l9N97kU7La0VWndF2xGYf.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "WESTERN: Wyatt Earp and Bass Reeves (2023) | Film Completo in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=wuuVCSXiLxs",
-        "titolo_italiano": "Deadly Western",
-        "titolo_originale": "Deadly Western",
+        "titolo_italiano": "Wyatt Earp And Bass Reeves",
+        "titolo_originale": "Wyatt Earp And Bass Reeves",
         "anno_uscita": 2023,
-        "durata_minuti": 64,
+        "durata_minuti": 84,
         "genere": [
+          "Dramma",
           "Western"
         ],
         "regista": [
-          "Gregory Hatanaka",
-          "Geno McGahee"
+          "Christopher Forbes"
         ],
         "cast_principale": [
           {
-            "nome": "Eric Michaelian",
-            "personaggio": "Clark",
+            "nome": "Paul Clayton",
+            "personaggio": "Wyatt Earp",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/3309004",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2064966",
               "verificata": false
             }
           },
           {
-            "nome": "Chris Spinelli",
-            "personaggio": "Elias",
-            "foto_url": "https://image.tmdb.org/t/p/w185/r8fBUNXZp4ffG5SIZcyjSjM0eRS.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/210849",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Lorrie Bacon",
-            "personaggio": "Beth",
+            "nome": "Mitch Allman",
+            "personaggio": "Bass Reeves",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/3309005",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5134123",
               "verificata": false
             }
           },
           {
-            "nome": "Sharon Marr",
-            "personaggio": "Hope",
+            "nome": "Jerry Chesser",
+            "personaggio": "Emmett Black",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2WPyXyl2XvqyhP4xiKlPOkX3YPf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1070248",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jezibell Anat",
+            "personaggio": "Margaret Whitfield",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oeElnRQ5GItH0nA0YOj3i24y9nQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1678909",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "William Adams",
+            "personaggio": "Mason",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/3709516",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1681763",
               "verificata": false
             }
           },
           {
-            "nome": "Brent Northup",
-            "personaggio": "Preacher",
+            "nome": "William Wylie",
+            "personaggio": "Parker",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/2151158",
-              "verificata": false
-            }
-          },
-          {
-            "nome": "Louis DeStefano",
-            "personaggio": "Cooper",
-            "foto_url": "https://image.tmdb.org/t/p/w185/z8VmCS0Q46nvIArQU0to1cmCtJE.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/2325759",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Shane Ryan-Reid",
-            "personaggio": "Buck",
-            "foto_url": "https://image.tmdb.org/t/p/w185/45hLioopDxwZBKpOHZFbIhy94mt.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/144496",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Linda S. Wong",
-            "personaggio": "Stella",
-            "foto_url": "https://image.tmdb.org/t/p/w185/seQIf2fEMXZTteIGXLe8XPXeSh6.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/2471804",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Lisa London",
-            "personaggio": "Carol",
-            "foto_url": "https://image.tmdb.org/t/p/w185/usx86aa47muVpEDZv48foShbhrW.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/60152",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Johnny Avila",
-            "personaggio": "Harrison",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/2355325",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1940350",
               "verificata": false
             }
           }
         ],
-        "trama": "A sheriff in a western town comes face to face with a deadly gang and a town secret that will change his world.",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/fgCVac4lsuVk0CGTAeYQqU8mH82.jpg",
-        "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
-        },
-        "tmdb_id_scelto": 1194662
-      }
+        "trama": "Wyatt Earp sta costruendo la sua città nel profondo nord della California quando si trova di fronte a qualcosa di molto peggiore di qualsiasi fuorilegge abbia mai affrontato prima... il leggendario e minaccioso Emmett Black e il suo Treno Nero.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/yn9hg7l9N97kU7La0VWndF2xGYf.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 1203454,
+        "imdb_id_scelto": "tt27331580",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:35:47.115Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "western",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:35:47.115Z",
+      "editor_updated_at": "2026-07-04T22:35:47.115Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "3dDaiNfjv7I",
