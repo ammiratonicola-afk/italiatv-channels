@@ -294159,23 +294159,23 @@
     {
       "video_id": "5Nj_w94t39o",
       "is_movie": true,
-      "original_title": "Tra i Preparativi e i Batticuori: Film | Lo scatto perfetto (4K)",
+      "original_title": "A Picture Perfect Wedding",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 779008,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Tra i Preparativi e i Batticuori: Film | Lo scatto perfetto (4K)",
-        "youtube_url": "https://www.youtube.com/watch?v=5Nj_w94t39o",
-        "titolo_corretto": "Lo scatto perfetto",
         "titolo_italiano": "Lo scatto perfetto",
         "titolo_originale": "A Picture Perfect Wedding",
         "anno_uscita": 2021,
         "durata_minuti": 85,
         "genere": [
+          "televisione film",
           "Commedia",
-          "Romantico"
+          "Famiglia",
+          "Romance",
+          "Dramma"
         ],
         "regista": [
           "Jason James"
@@ -294235,91 +294235,90 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/105865",
               "verificata": true
             }
-          }
-        ],
-        "trama": "Lindsey, una fotografa esperta in matrimoni, viene ingaggiata da Josh, figlio di un magnate di New York, per immortalare il matrimonio della sorella. Durante i preparativi, tra i due nasce un sentimento che va oltre il rapporto professionale. Riusciranno a superare le differenze dei loro mondi e a scegliere l'amore?",
-        "lingua_trama_originale": "en",
-        "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/jYc8GjhDxL6WelAGnRE6uM9Gi35.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/779008",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
-        "trailer": {
-          "url": "https://www.youtube.com/watch?v=Ey3GTeojkGI",
-          "lingua": "en",
-          "fonte": "YouTube",
-          "canale": "A Picture Perfect Wedding Trailer",
-          "ufficiale": true,
-          "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
-        },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/779008"
           },
           {
-            "nome": "IMDb",
-            "url": "https://www.imdb.com/title/tt13697800/"
+            "nome": "Raylene Harewood",
+            "personaggio": "Fiona",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zJA93w4fkGBHm4B6DLPhjpUJom3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2432213",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Scott Bellis",
+            "personaggio": "Stephen",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3YgfumtSHiqWfy3EEX3mLvOaEIR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/61543",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Adil Zaidi",
+            "personaggio": "Brock",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ky0qSPdZzYdaThKgC8gE9YlINa5.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1727683",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Laura Mitchell",
+            "personaggio": "Bronwyn",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cw8lcwxx6DKBzoFfMIjdCBMb0NL.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1717338",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sarah Te Wong",
+            "personaggio": "Model",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3922811",
+              "verificata": false
+            }
           }
         ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Lo scatto perfetto",
-            "A Picture Perfect Wedding"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": null,
-          "durata_video_youtube": "85 min",
-          "attori_trovati": [
-            "Emily Tennant",
-            "Tyler Johnston",
-            "Kylee Bush"
-          ],
-          "registi_trovati": [
-            "Jason James"
-          ],
-          "parole_chiave_trama": [
-            "fotografa",
-            "matrimonio",
-            "amore",
-            "New York"
-          ]
+        "trama": "Lindsey, una fotografa esperta in matrimoni, ha la sua grande opportunità quando Josh, il figlio di un magnate di New York, le chiede di occuparsi del servizio fotografico per le nozze della sorella. Durante i preparativi per la cerimonia, Lindsey e Josh vedono scoccare la scintilla dell'amore. Cosa sarà di loro dopo l'arrivo del grande giorno: torneranno alle loro vecchie vite separate o seguiranno il cuore?",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/jYc8GjhDxL6WelAGnRE6uM9Gi35.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=Ey3GTeojkGI"
         },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "alta",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film 'Lo scatto perfetto' (2021) corrisponde per titolo, anno, durata, cast e trama con i dati forniti."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 100,
-          "elementi_confermati": [
-            "titolo originale",
-            "titolo italiano",
-            "anno di uscita",
-            "cast principale",
-            "regista",
-            "durata",
-            "trama"
-          ],
-          "elementi_non_confermati": [],
-          "fonti_concordanti": [
-            "TMDB",
-            "IMDb"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "",
         "tmdb_id_scelto": 779008,
-        "imdb_id_scelto": "tt13697800"
-      }
+        "imdb_id_scelto": "tt13697800",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:39:56.840Z"
+      },
+      "tmdb_poster_path": "/jYc8GjhDxL6WelAGnRE6uM9Gi35.jpg",
+      "tmdb_title_official": "Lo scatto perfetto",
+      "tmdb_year_official": 2021,
+      "tmdb_media_type": "movie",
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:39:56.840Z",
+      "editor_updated_at": "2026-07-04T22:39:56.840Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "xFRwH_N6gns",
@@ -306398,32 +306397,28 @@
     {
       "video_id": "pPxzIZFkRm8",
       "is_movie": true,
-      "original_title": "Film Completo: The Runners (2020) | Rapimento e Vendetta",
+      "original_title": "The Runners",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 688809,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Film Completo: The Runners (2020) | Rapimento e Vendetta",
-        "youtube_url": "https://www.youtube.com/watch?v=pPxzIZFkRm8",
-        "titolo_corretto": "The Runners",
-        "titolo_italiano": null,
+        "titolo_italiano": "The Runners",
         "titolo_originale": "The Runners",
         "anno_uscita": 2020,
         "durata_minuti": 94,
         "genere": [
-          "Azione",
-          "Crimine"
+          "Azione"
         ],
         "regista": [
-          "Micah Lyons",
-          "Joey Loomis"
+          "Joey Loomis",
+          "Micah Lyons"
         ],
         "cast_principale": [
           {
             "nome": "Micah Lyons",
-            "personaggio": "Ryan",
+            "personaggio": "Ryan Stevens",
             "foto_url": "https://image.tmdb.org/t/p/w185/ddArel0xJqAhA8gM5SCs84ZYkcJ.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -306433,8 +306428,30 @@
             }
           },
           {
+            "nome": "Joey Loomis",
+            "personaggio": "Marty Hicks",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2707347",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Netty Leach",
+            "personaggio": "Zoe Stevens",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3187572",
+              "verificata": false
+            }
+          },
+          {
             "nome": "Tom Sizemore",
-            "personaggio": "Doc",
+            "personaggio": "Pastor Dave Twiss",
             "foto_url": "https://image.tmdb.org/t/p/w185/soINOuacuiThRb2LyPD4tTWve7C.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -306445,7 +306462,7 @@
           },
           {
             "nome": "Glenn Morshower",
-            "personaggio": "Mr. Radder",
+            "personaggio": "Pete",
             "foto_url": "https://image.tmdb.org/t/p/w185/SjgNUSLoBAVossDI4QkNtDxYDZ.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -306455,117 +306472,66 @@
             }
           },
           {
-            "nome": "Netty Leach",
-            "personaggio": "Zoe",
-            "foto_url": null,
-            "foto_tipo": "non_disponibile",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": null,
-              "verificata": false
-            }
-          },
-          {
             "nome": "Neal McCoy",
             "personaggio": "Sheriff McNeal",
+            "foto_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Neal%20McCoy%20at%20CBS19.jpg?width=185",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "Wikidata/Commons",
+              "url_pagina_origine": "https://www.wikidata.org/wiki/Q1973050",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jason Peter Kennedy",
+            "personaggio": "Kooter",
             "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": null,
+              "url_pagina_origine": "https://www.themoviedb.org/person/3187573",
               "verificata": false
+            }
+          },
+          {
+            "nome": "Swayde McCoy",
+            "personaggio": "Michael",
+            "foto_url": "https://image.tmdb.org/t/p/w185/517MsqSyA1L1akludKisT0uXA3L.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3187574",
+              "verificata": true
             }
           }
         ],
-        "trama": "Nel Texas rurale, Ryan deve salvare la sorella rapita da un'organizzazione di traffico sessuale. Con l'aiuto di un alleato, affronta il mondo criminale per riportarla a casa.",
-        "lingua_trama_originale": "en",
+        "trama": "Un uomo corre contro il tempo per salvare sua sorella adolescente dai trafficanti di esseri umani che vogliono venderla a un cartello messicano.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/zbWhMIFVDq2nBFtR89V6CKcn7te.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/688809-the-runners",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=LQYur1MZ4nM",
-          "lingua": "en",
           "fonte": "YouTube",
-          "canale": "The Runners Trailer #2 (2020)",
+          "lingua": "it",
           "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=LQYur1MZ4nM"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/688809-the-runners"
-          },
-          {
-            "nome": "OMDb",
-            "url": "https://www.omdbapi.com/"
-          },
-          {
-            "nome": "IMDb",
-            "url": "https://www.imdb.com/title/tt3290322/"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "The Runners"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": 2020,
-          "durata_video_youtube": "99 min",
-          "attori_trovati": [
-            "Micah Lyons",
-            "Tom Sizemore",
-            "Glenn Morshower",
-            "Netty Leach"
-          ],
-          "registi_trovati": [
-            "Joey Loomis",
-            "Micah Lyons"
-          ],
-          "parole_chiave_trama": [
-            "rapimento",
-            "vendetta",
-            "Texas",
-            "traffico sessuale"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film corrisponde per titolo, anno, cast, registi e trama con i dati forniti e verificati su TMDB e OMDb."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "cast principale",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "durata"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "OMDb",
-            "IMDb"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "Il film è stato identificato con alta certezza grazie alla corrispondenza di più elementi chiave tra le fonti disponibili.",
         "tmdb_id_scelto": 688809,
-        "imdb_id_scelto": "tt3290322"
-      }
+        "imdb_id_scelto": "tt3290322",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:40:44.313Z"
+      },
+      "tmdb_poster_path": "/zbWhMIFVDq2nBFtR89V6CKcn7te.jpg",
+      "tmdb_title_official": "The Runners",
+      "tmdb_year_official": 2020,
+      "tmdb_media_type": "movie",
+      "genre": "azione",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:40:44.313Z",
+      "editor_updated_at": "2026-07-04T22:40:44.313Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "UlfAGldlOGo",
