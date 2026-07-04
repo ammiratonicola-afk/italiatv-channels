@@ -335219,10 +335219,156 @@
     {
       "video_id": "OS-owROtAwQ",
       "is_movie": true,
-      "original_title": "Absolon  Virus Mortale   Film Completo   Azione  In Italiano",
+      "original_title": "Absolon",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 4612,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/2tI2OAXPucQNDFzDbM2pYrNONej.jpg",
+      "tmdb_title_official": "Absolon - Virus mortale",
+      "tmdb_year_official": 2003,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Absolon - Virus mortale",
+        "titolo_originale": "Absolon",
+        "anno_uscita": 2003,
+        "durata_minuti": 96,
+        "genere": [
+          "Azione",
+          "Fantascienza"
+        ],
+        "regista": [
+          "David DeBartolomé"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Christopher Lambert",
+            "personaggio": "Norman Scott",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nWcAHW2ZN4cP3VPWYH9WJCvhFvt.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/38559",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lou Diamond Phillips",
+            "personaggio": "Walters",
+            "foto_url": "https://image.tmdb.org/t/p/w185/yqGZwaGe8XgoxfO7zmx7weGBaXZ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/38560",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kelly Brook",
+            "personaggio": "Claire",
+            "foto_url": "https://image.tmdb.org/t/p/w185/il4LdgmKozFv8P0pRg0ut9vDSb6.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/38561",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ron Perlman",
+            "personaggio": "Murchison",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pOgMRdJhbBsvwGLRFXPRASTfcay.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2372",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Roberta Angelica",
+            "personaggio": "Ruth",
+            "foto_url": "https://static.tvmaze.com/uploads/images/medium_portrait/36/92313.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TVMaze",
+              "url_pagina_origine": "https://www.tvmaze.com/people/109422/roberta-angelica",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Neville Edwards",
+            "personaggio": "Jackson",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/38563",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Tre Smith",
+            "personaggio": "Vasquez",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lABPTewEaNTUd58JjKlHQv30KIQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/38564",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "James Kidnie",
+            "personaggio": "Doc",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iq8ZPSTUq7tbLzll0smHzve9RrT.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/38565",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Donald Burda",
+            "personaggio": "Greer",
+            "foto_url": "https://image.tmdb.org/t/p/w185/A36n7y6pEyRielzZ2cyDb5kNqt3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/38567",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Topaz Hasfal-Schou",
+            "personaggio": "Davis",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/21263",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "La sindrome di degenerazione neurologica sta devastando la Terra e l'intera umanità rischia l'estinzione se non verrà trovata rapidamente una cura. L'unica possibilità di salvezza viene da Absolon, una medicina ricavata da una pianta della foresta amazzonica. Ma lo sfruttamento della foresta rende la materia prima molto rara e il farmaco costosissimo. Il medico che ha scoperto Absolon muore in circostanza misteriose e il detective Norman è incaricato delle indagini. Non è in gioco solamente la sua vita ma anche quella dell'intera umanità.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/2tI2OAXPucQNDFzDbM2pYrNONej.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 4612,
+        "imdb_id_scelto": "tt0300902",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T13:08:29.591Z"
+      },
+      "genre": "fantascienza",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T13:08:29.591Z",
+      "editor_updated_at": "2026-07-04T13:08:29.591Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "gxfjc_qnzgI",
