@@ -319892,7 +319892,7 @@
     },
     {
       "video_id": "BeJOlR36eJE",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "La locanda dei ricordi e di un nuovo amore | Natale sui monti Blue Ridge | Film Completo",
       "channel": "TVItalia",
       "tmdb_id": null,
@@ -319979,7 +319979,10 @@
         "note": "Il film descritto su YouTube non corrisponde a nessuno dei candidati TMDB forniti. Potrebbe trattarsi di un film TV o di un film non presente nel database TMDB.",
         "tmdb_id_scelto": null,
         "imdb_id_scelto": null
-      }
+      },
+      "reason_not_movie": "eliminato dall'editor web",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T22:11:37.376Z"
     },
     {
       "video_id": "-NfXxO4_q8g",
@@ -320387,7 +320390,7 @@
     },
     {
       "video_id": "Xvx72HtAmJg",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Ritorno in Polinesia - Episodio 1 | Le nuove avventure de \"I Mondi di Syusy\"",
       "channel": "TVItalia",
       "tmdb_id": null,
@@ -320477,7 +320480,10 @@
         "note": "Il video è un episodio di una serie documentaristica e non corrisponde a nessun film tra i candidati TMDB forniti.",
         "tmdb_id_scelto": null,
         "imdb_id_scelto": null
-      }
+      },
+      "reason_not_movie": "eliminato dall'editor web",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T22:04:21.873Z"
     },
     {
       "video_id": "TIq9VaTMKdo",
@@ -333101,11 +333107,14 @@
     },
     {
       "video_id": "BFZMUGej9mM",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Ritorno in Polinesia - Episodio 2 | Le nuove avventure de \"I Mondi di Syusy\"",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor web",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T22:04:28.439Z"
     },
     {
       "video_id": "LweHOdmB1t8",
@@ -333265,16 +333274,171 @@
       "is_movie": true,
       "original_title": "Film Completo Restaurato: Bless Their Little Hearts (1983) | Dramma",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 137765,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/9gKsQG2vvqnnwDVGiU9FoKoxXqW.jpg",
+      "tmdb_title_official": "Bless Their Little Hearts",
+      "tmdb_year_official": 1984,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Bless Their Little Hearts",
+        "titolo_originale": "Film Completo Restaurato: Bless Their Little Hearts (1983) | Dramma",
+        "anno_uscita": 1984,
+        "durata_minuti": 85,
+        "genere": [
+          "Dramma"
+        ],
+        "regista": [
+          "Billy Woodberry"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Nate Hardman",
+            "personaggio": "Charlie Banks",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1304979",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Kaycee Moore",
+            "personaggio": "Andais Banks",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7e3SzMwd9i5GEHNUhvfLEY0fBzB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/143438",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Angela Burnett",
+            "personaggio": "Banks Child",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/143440",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Ronald Burnett",
+            "personaggio": "Banks Child",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1304980",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Kimberly Burnett",
+            "personaggio": "Banks Child",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1542542",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Langston Woodberry",
+            "personaggio": "Mistresses' Son",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1542543",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Eugene Cherry",
+            "personaggio": "Gene",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2733970",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Ellis Griffin",
+            "personaggio": "Pasquale",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2733973",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Ernest Knight",
+            "personaggio": "Duck",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2733972",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Lawrence Pierott",
+            "personaggio": "John",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2733971",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Charlie Banks, disoccupato cronico, cerca di trovare dignità e un senso nella vita nel quartiere impoverito di Watts a Los Angeles.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/9gKsQG2vvqnnwDVGiU9FoKoxXqW.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=Bwvc0yqPuSM"
+        },
+        "tmdb_id_scelto": 137765,
+        "imdb_id_scelto": "tt0086977",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:05:49.461Z"
+      },
+      "genre": "drammatico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:05:49.461Z",
+      "editor_updated_at": "2026-07-04T22:05:49.461Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "Fm49oBqihT8",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "I Mondi di Syusy | Un viaggio nel cuore vero del Sudafrica",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor web",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T22:06:04.954Z"
     },
     {
       "video_id": "-3cLJfq2B0M",
@@ -334255,8 +334419,160 @@
       "is_movie": true,
       "original_title": "Oltre il Muro del Silenzio: Gli eletti (1981) | Film Completo",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 25773,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/wtw4jMMKz5CfB4H408XGAa87XHp.jpg",
+      "tmdb_title_official": "Gli eletti",
+      "tmdb_year_official": 1981,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Gli eletti",
+        "titolo_originale": "Oltre il Muro del Silenzio: Gli eletti (1981) | Film Completo",
+        "anno_uscita": 1981,
+        "durata_minuti": 107,
+        "genere": [
+          "Dramma"
+        ],
+        "regista": [
+          "Jeremy Kagan"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Barry Miller",
+            "personaggio": "Reuven Malter",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jClFwEE3TJqOi8yyuD1c6o9ldlr.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/62014",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Robby Benson",
+            "personaggio": "Danny Saunders",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rYcDiM9LrStdlcb80N3WAR2CsHX.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/15048",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Maximilian Schell",
+            "personaggio": "Professor David Malter",
+            "foto_url": "https://image.tmdb.org/t/p/w185/s5UwdDSf3nyW7cye8b4oyXlX0AI.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/12150",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rod Steiger",
+            "personaggio": "Reb Saunders",
+            "foto_url": "https://image.tmdb.org/t/p/w185/70bE5PZJbRHxG4th6gDvXGgXu4Z.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/522",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Hildy Brooks",
+            "personaggio": "Mrs. Saunders",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1mAHmVVfnVsEVyEK3RkpnqMRXVL.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/126547",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kaethe Fine",
+            "personaggio": "Shaindel Saunders",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1179310",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Ron Rifkin",
+            "personaggio": "Baseball Coach",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fj2u4t6nG0HGYFtRVDUTNbUtEtl.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/12122",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Robert John Burke",
+            "personaggio": "Levi Saunders",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uWEaY5gypb6cp1bdUYG4uCKw4sK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/31512",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lonny Price",
+            "personaggio": "Davey",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jyZFeo6AFJSN7MPCn2v8WNTAZeb.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/729",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Evan Handler",
+            "personaggio": "Sidney Goldberg",
+            "foto_url": "https://image.tmdb.org/t/p/w185/yU0OXeZ0K1ppe1o9SpHiAMHy1rc.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3212",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Nella New York degli anni '40, due adolescenti ebrei sono determinati a rimanere amici nonostante le profonde differenze tra le loro due famiglie.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/wtw4jMMKz5CfB4H408XGAa87XHp.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=RAMz8_MoqrM"
+        },
+        "tmdb_id_scelto": 25773,
+        "imdb_id_scelto": "tt0082175",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:07:45.553Z"
+      },
+      "genre": "drammatico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:07:45.553Z",
+      "editor_updated_at": "2026-07-04T22:07:45.553Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "rQaNbp58Knw",
@@ -334823,8 +335139,162 @@
       "is_movie": true,
       "original_title": "Film Completo di David Leland: Le ragazze di campagna (1998) Land Girls",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 17044,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/c6moxK2luKwbFj9rrn24VAxJ8wY.jpg",
+      "tmdb_title_official": "The Land Girls - Le ragazze di campagna",
+      "tmdb_year_official": 1998,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "The Land Girls - Le ragazze di campagna",
+        "titolo_originale": "Film Completo di David Leland: Le ragazze di campagna (1998) Land Girls",
+        "anno_uscita": 1998,
+        "durata_minuti": 111,
+        "genere": [
+          "Dramma",
+          "Romance",
+          "Guerra"
+        ],
+        "regista": [
+          "David Leland"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Catherine McCormack",
+            "personaggio": "Stella",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vYyMCGKeIUTZMdEgVwQCgX7q1T3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2462",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rachel Weisz",
+            "personaggio": "Ag (Agapanthus)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9tfHL5tholha1YF6bSKt422ETPM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3293",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Anna Friel",
+            "personaggio": "Prue (Prudence)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uY9ugiMtyvNp8cN7jvNZfin7sud.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/58016",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Steven Mackintosh",
+            "personaggio": "Joe Lawrence",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vDA4mmVe0XMnqd6qMyGWI8bUEeC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/978",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Paul Bettany",
+            "personaggio": "Philip",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vcAVrAOZrpqmi37qjFdztRAv1u9.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/6162",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nicholas Le Prevost",
+            "personaggio": "Agricultural Officer",
+            "foto_url": "https://image.tmdb.org/t/p/w185/j4Q2F9keDOkHZnj3DtcztJ0MBfd.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/183785",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lucy Akhurst",
+            "personaggio": "Janet",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2Beax3aSqFQAWlrCfis4jALR6P9.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/130391",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Celia Bannerman",
+            "personaggio": "District Commissioner",
+            "foto_url": "https://image.tmdb.org/t/p/w185/p0EROw4jWnjqPZzrjgD664C2aHz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/310469",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tom Georgeson",
+            "personaggio": "Mr. John Lawrence",
+            "foto_url": "https://image.tmdb.org/t/p/w185/klErtEz52vq6VGZNunck8IjsD1l.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/8947",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ann Bell",
+            "personaggio": "Philip's Mother",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tCEz6tNJUVD5kFZr8xMwyrDhEyc.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/106995",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Durante la Seconda Guerra Mondiale, le donne inglesi vengono reclutate per essere mandate a lavorare nei campi al posto degli uomini diretti al fronte. Ag, Stella e Prue, tre donne provenienti da ambienti sociali diversi, si ritrovano quindi a vivere in una fattoria sperduta. Qui, l'incontro con l'affascinante Joe cambierà per sempre la loro vita.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/c6moxK2luKwbFj9rrn24VAxJ8wY.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=SCTVO0rmnno"
+        },
+        "tmdb_id_scelto": 17044,
+        "imdb_id_scelto": "tt0119494",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:10:53.538Z"
+      },
+      "genre": "guerra",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:10:53.538Z",
+      "editor_updated_at": "2026-07-04T22:10:53.538Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "OD8ob95WQgI",
@@ -334992,8 +335462,139 @@
       "is_movie": true,
       "original_title": "La sua vita è nelle mani dei rapitori: servo suo | 1973 | Film Completo in Italiano",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 261005,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/9pofJ7dDhZ2OCRcUVsUv6Ka1SES.jpg",
+      "tmdb_title_official": "Servo suo",
+      "tmdb_year_official": 1973,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Servo suo",
+        "titolo_originale": "La sua vita è nelle mani dei rapitori: servo suo | 1973 | Film Completo in Italiano",
+        "anno_uscita": 1973,
+        "durata_minuti": 92,
+        "genere": [
+          "Crime",
+          "Thriller"
+        ],
+        "regista": [
+          "Romano Scavolini"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Chris Avram",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/nrIr7ptXdqvqdfHm8su0p2fKvnj.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/27382",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Paola Senatore",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/eANM2JEGMjvkJ9xPyNdxy1VWEeS.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/38596",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lea Lander",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/tNqwxFFnLe59dwvdvfCAWFJ1nH1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/44968",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Carla Mancini",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/61VB38l1EyKB6owCrzmcxBGQM3N.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/27390",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mario Pupella",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/62wSo5jD5vjtBq5b6bHFO9r20MW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/107625",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gioacchino Maniscalco",
+            "personaggio": null,
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2092625",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Bruno Boschetti",
+            "personaggio": null,
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1016083",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Benedetto Raneli",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/7KpsbckKytZVciH99BWqopixnoP.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1874281",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Un insegnante di scuola solitario viene rapito dalla folla per compiere un colpo importante.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/9pofJ7dDhZ2OCRcUVsUv6Ka1SES.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=h5eJIEyIXvw"
+        },
+        "tmdb_id_scelto": 261005,
+        "imdb_id_scelto": "tt0282154",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:08:35.701Z"
+      },
+      "genre": "poliziesco",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:08:35.701Z",
+      "editor_updated_at": "2026-07-04T22:08:35.701Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "omLyu8ZERMA",
@@ -335153,8 +335754,160 @@
       "is_movie": true,
       "original_title": "Film Storico di Domenico Paolella: Il segreto dello sparviero nero (1961) 4K",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 199626,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/AePK64U773pJwQ8Rx3KwvD6pRbP.jpg",
+      "tmdb_title_official": "Il segreto dello sparviero nero",
+      "tmdb_year_official": 1961,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Il segreto dello sparviero nero",
+        "titolo_originale": "Film Storico di Domenico Paolella: Il segreto dello sparviero nero (1961) 4K",
+        "anno_uscita": 1961,
+        "durata_minuti": 92,
+        "genere": [
+          "Avventura"
+        ],
+        "regista": [
+          "Domenico Paolella"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Lex Barker",
+            "personaggio": "Captain Don Carlos de Herrera",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9Bsvemc5lCvKNJdS5bt4BEa7TFR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/6102",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Livio Lorenzon",
+            "personaggio": "Sergeant Rodriguez",
+            "foto_url": "https://image.tmdb.org/t/p/w185/AkIJIeGG2w0RIWejf6QoReu3ZhB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5817",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nadia Marlowa",
+            "personaggio": "Leonora",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rOQMSLaYNwiS0HdDcbZtZhCXCwx.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1172914",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Germano Longo",
+            "personaggio": "Zampa di Gatto / Katzenpfote",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mUD2IlLXb4YGxrhSckzs3bhy41Z.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/19585",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Loris Gizzi",
+            "personaggio": "Don Pedro Ordigaso",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kWLlyJqZvHqd3etcWDJChC1OxYY.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/590559",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Pina Cornel",
+            "personaggio": "Yvette",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qBBEuxYyEDeb2JsNFcToZjKvw9O.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1179798",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Dina De Santis",
+            "personaggio": "Ines",
+            "foto_url": "https://image.tmdb.org/t/p/w185/g36ZrZEYdsIWjtWlksUhXVetCic.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1042793",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tullio Altamura",
+            "personaggio": "Don Juan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1Fmof8OeWWR0pXqAc1MwQlpXpn0.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1046561",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gino Buzzanca",
+            "personaggio": "Gouverneur di Melida",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hlZMskvtwMWDWvHkUILDsi5znq.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1033043",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ignazio Balsamo",
+            "personaggio": "Sancho",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5E5PvaaRBBYjlDWDPEQUK0mYutG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1082124",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Come spesso accade nel XVIII secolo, le potenze coloniali europee si fanno guerra sui mari attraverso le navi pirate. Un nobile hidalgo spagnolo, detto \"lo Sparviero Nero\", è appunto impegnato nella \"guerra da corsa\" sui mari al servizio del re cattolicissimo e passa da un' avventura all'altra per recuperare dei preziosi documenti di Stato.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/AePK64U773pJwQ8Rx3KwvD6pRbP.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=rCAt_RCCrrw"
+        },
+        "tmdb_id_scelto": 199626,
+        "imdb_id_scelto": "tt0055427",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:08:55.961Z"
+      },
+      "genre": "avventura",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:08:55.961Z",
+      "editor_updated_at": "2026-07-04T22:08:55.961Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "U5Lp2LcTMsg",
@@ -335322,16 +336075,314 @@
       "is_movie": true,
       "original_title": "Film Completo di Peter Hewitt: Che fine ha fatto Harold Smith? (1999)",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 49922,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/1pF5nTSL7n7JBPpe3l0NRkF4pFI.jpg",
+      "tmdb_title_official": "Che fine ha fatto Harold Smith?",
+      "tmdb_year_official": 2000,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Che fine ha fatto Harold Smith?",
+        "titolo_originale": "Film Completo di Peter Hewitt: Che fine ha fatto Harold Smith? (1999)",
+        "anno_uscita": 2000,
+        "durata_minuti": 95,
+        "genere": [
+          "Commedia"
+        ],
+        "regista": [
+          "Peter Hewitt"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Tom Courtenay",
+            "personaggio": "Harold Smith",
+            "foto_url": "https://image.tmdb.org/t/p/w185/z3ihuS5BlREzeA2tIOelAtcGDow.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/14011",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Michael Legge",
+            "personaggio": "Vincent Smith",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1Rklg7W36IApz6EzCLfkncOryHw.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/65031",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Laura Fraser",
+            "personaggio": "Joanna Robinson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4aD3xDLA22CIf6jdK0IAs75h8pp.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/42279",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lulu",
+            "personaggio": "Irene Smith",
+            "foto_url": "https://image.tmdb.org/t/p/w185/baqdOLoL0wgDAuwLwAsfvQnMRCc.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1220662",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Stephen Fry",
+            "personaggio": "Dr. Peter Robinson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dH7GuUZ8QPM9RN99ak9KKOkSkdS.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/11275",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Charlotte Roberts",
+            "personaggio": "Lucy Robinson",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/550343",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Amanda Root",
+            "personaggio": "Margaret Robinson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tOiRDlvdVFgCp4tkbNQOmmZ7GSL.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/30318",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "David Thewlis",
+            "personaggio": "Nesbit",
+            "foto_url": "https://image.tmdb.org/t/p/w185/sNuYyT8ocLlQr3TdAW9CoKVbCU8.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/11207",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Charlie Hunnam",
+            "personaggio": "Daz",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5WIDrnY25Ps2RYu0zIzHSVuSt5n.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/56365",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "James Corden",
+            "personaggio": "Walter",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xGB0gfZ48M27gQjjL7inJIh1Pqj.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/55466",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Il signor Harold Smith e un impiegato in pensione, tv-dipendente, con una moglie Irene, esageratamente giovanile, e un figlio diciottenne Vince. Improvvisamente Harold scopre di avere poteri soprannaturali, scatenando la curiosita dei media e sconvolgendo la sua vita e quella dei suoi familiari.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/1pF5nTSL7n7JBPpe3l0NRkF4pFI.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 49922,
+        "imdb_id_scelto": "tt0194530",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:03:09.601Z"
+      },
+      "genre": "commedia",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:03:09.601Z",
+      "editor_updated_at": "2026-07-04T22:03:09.601Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "Yvs5mtaQ1ew",
       "is_movie": true,
       "original_title": "La Vera Storia dei Beatles: Tutta la Verità sui Fab Four (Documentario Completo ITA)",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 1461185,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/7bmIGo2CAJ3H4U1lryb49rZfA8i.jpg",
+      "tmdb_title_official": "The Beatles",
+      "tmdb_year_official": 2025,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "The Beatles",
+        "titolo_originale": "La Vera Storia dei Beatles: Tutta la Verità sui Fab Four (Documentario Completo ITA)",
+        "anno_uscita": 2025,
+        "durata_minuti": 101,
+        "genere": [
+          "Documentario",
+          "Musica"
+        ],
+        "regista": [
+          "Sébastien Frit"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Sébastien Frit",
+            "personaggio": "Self",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fA4KYjAwLTnyfR0jxWuzMdD0PYW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2491690",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "John Lennon",
+            "personaggio": "Self (archive footage)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iawyLGZKTr7eD8XWhNGjM8Cb95x.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/10592",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Paul McCartney",
+            "personaggio": "Self (archive footage)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/aChCZSG8sUpLJnT2nhVfT0BE3J6.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/10215",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "George Harrison",
+            "personaggio": "Self (archive footage)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zwUO2gnKBnSrKOB9hnhI9GdOX6e.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/10593",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ringo Starr",
+            "personaggio": "Self (archive footage)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7fSrrdl90BYdR3dtOnNkosOw0kw.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/10594",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Stuart Sutcliffe",
+            "personaggio": "Self (archive footage)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3207440",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Pete Best",
+            "personaggio": "Self (archive footage)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wpNHnbjXGP79MRkkUzlNIja42jt.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1671214",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Allan Williams",
+            "personaggio": "Self (archive footage)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/f2cFigqFNGIksOUD4aBl6M8Fz6h.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1914581",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Johnny Gentle",
+            "personaggio": "Self (archive footage)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5356466",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Tommy Moore",
+            "personaggio": "Self (archive footage)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5356467",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Liverpool, una città sonnacchiosa, si risveglia sotto il bagliore di una rivoluzione musicale. Quattro ragazzi, noti come i Beatles, trasformano il loro sogno in un'odissea. Questo documentario è una sinfonia visiva che ripercorre la loro ascesa meteoritica, le sfide che oscurano il loro cammino e l'impronta eterna che lasciano nella storia della musica. Una poesia commovente.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/7bmIGo2CAJ3H4U1lryb49rZfA8i.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=NPJQKgI2egQ"
+        },
+        "tmdb_id_scelto": 1461185,
+        "imdb_id_scelto": null,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:03:54.870Z"
+      },
+      "genre": "documentario",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:03:54.870Z",
+      "editor_updated_at": "2026-07-04T22:03:54.870Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "j4V5-8XM_Gg",
@@ -335496,16 +336547,323 @@
       "is_movie": true,
       "original_title": "La Battaglia per la Libertà: Maciste nelle miniere del re Salomone (1964) | Film in Italiano",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 63495,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/gfrQ1h8Eur1bfILMkKZgd8SQ4JQ.jpg",
+      "tmdb_title_official": "Maciste nelle miniere del re Salomone",
+      "tmdb_year_official": 1964,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Maciste nelle miniere del re Salomone",
+        "titolo_originale": "La Battaglia per la Libertà: Maciste nelle miniere del re Salomone (1964) | Film in Italiano",
+        "anno_uscita": 1964,
+        "durata_minuti": 92,
+        "genere": [
+          "Azione",
+          "Avventura"
+        ],
+        "regista": [
+          "Piero Regnoli"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Reg Park",
+            "personaggio": "Maciste",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dUrJndR77XEXifrj2vrQgx69W7c.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/99512",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Wandisa Guida",
+            "personaggio": "Fazira",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ymLAiE7ZIEr0PuYys0mPw6nZ6Dr.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/101555",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Eleonora Bianchi",
+            "personaggio": "Samara",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gYbIKpAu4IR0n9ou9eRgCQQqUeS.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/237380",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nino Persello",
+            "personaggio": "Belai",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bIljuBNxqyvGQeBTZEGCuHWDZpY.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/237381",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Bruno Scipioni",
+            "personaggio": "Kadar",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wXNrM7c0bu5eqYnHou0ekBXUYAy.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/237382",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Loris Loddi",
+            "personaggio": "Il piccolo Vasma",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5fmsQA9Hn5NKu7FRGpElJy7hxPp.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/7196",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Bruno Piergentili",
+            "personaggio": "Abukar",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tYWMwOyadCltbZwjez9tP0dc7Sc.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/933789",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Elio Jotta",
+            "personaggio": "Raid",
+            "foto_url": "https://image.tmdb.org/t/p/w185/c96oGMrk01ADmLmaaypQfDTSytm.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/101100",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Carlo Tamberlani",
+            "personaggio": "Zelea",
+            "foto_url": "https://image.tmdb.org/t/p/w185/odfU1lCQ3DHoKC0PBWXxqFV9RdE.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/37784",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Giuseppe Addobbati",
+            "personaggio": "Namar",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oQ2D4hduKRGhLyYpnTpobaAo6AE.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/101551",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Una cricca di predoni capeggiata da Riad e da Fazira strappa il potere a re Namar, nel cui regno si trovano le famose miniere di re Salomone, e costringe gli abitanti a lavorarvi. Maciste, fatto prigioniero e costretto ai lavori nelle miniere, libera la città.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/gfrQ1h8Eur1bfILMkKZgd8SQ4JQ.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=h1E0fTc7vAQ"
+        },
+        "tmdb_id_scelto": 63495,
+        "imdb_id_scelto": "tt0183452",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:02:43.681Z"
+      },
+      "genre": "avventura",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:02:43.681Z",
+      "editor_updated_at": "2026-07-04T22:02:43.681Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "7-vpGz41JQk",
       "is_movie": true,
       "original_title": "Film Completo di Deran Sarafian: KGB ultimo atto (1992)",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 388556,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/pGAVISBUcRNCy3eWGMkh2jBAPpU.jpg",
+      "tmdb_title_official": "KGB - Ultimo atto",
+      "tmdb_year_official": 1992,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "KGB - Ultimo atto",
+        "titolo_originale": "Film Completo di Deran Sarafian: KGB ultimo atto (1992)",
+        "anno_uscita": 1992,
+        "durata_minuti": 87,
+        "genere": [
+          "Dramma",
+          "Thriller",
+          "Crime"
+        ],
+        "regista": [
+          "Deran Sarafian"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Frank Whaley",
+            "personaggio": "Archer",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ugs5aGtFvqVBgT8rcKEi1LyFur4.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/11805",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Наталья Негода",
+            "personaggio": "Lena",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uedSqVmU3WYYCgE5NYEuJeM6v7u.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1016414",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Roman Polanski",
+            "personaggio": "Kurilov",
+            "foto_url": "https://image.tmdb.org/t/p/w185/60UYC6apdoC8VBh62WCkZ2LPGPk.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3556",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Andrew Divoff",
+            "personaggio": "Dimitri",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7jdGolskoipA8HRJHjLdCLzc7Zs.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/36218",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Dey Young",
+            "personaggio": "Claudia",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wHgYRlGBk5tiwM6r7ZSkdkc8H7f.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/39568",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Равиль Исьянов",
+            "personaggio": "Georgi",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kJkFC0qq7OeXgFTpBffWaSaeuOZ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/41742",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Harry Ditson",
+            "personaggio": "Whittier",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rErrMD6CEfhRlKI6e4i4vNQHurC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/55908",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Brian Blessed",
+            "personaggio": "Chazov",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3mLIr94V5IOA5ndY6GyqKKcyrX6.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/8318",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Constantine Gregory",
+            "personaggio": "Stanley",
+            "foto_url": "https://image.tmdb.org/t/p/w185/Wu1DUqLi8ZclEcdLGgYgnNcPmw.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/27425",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Alexey Yevdokimov",
+            "personaggio": "Mikhail",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2423107",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Archer è un giovane americano in vacanza a Mosca che si innamora di una bellezza locale di nome Lena. Per correrle dietro si mette nei guai finendo in mezzo a una banda di rapinatori che ha come capo Kurilov (Polanski), proprietario di un equivoco locale notturno. Tra imboscate, scontri e inseguimenti nel supermercato Gum, riesce a salvarsi.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/pGAVISBUcRNCy3eWGMkh2jBAPpU.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=oj_hUAPJcsA"
+        },
+        "tmdb_id_scelto": 388556,
+        "imdb_id_scelto": "tt0103752",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:09:43.729Z"
+      },
+      "genre": "poliziesco",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:09:43.729Z",
+      "editor_updated_at": "2026-07-04T22:09:43.729Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "JvV_HJu8bzU",
@@ -335719,8 +337077,42 @@
       "is_movie": true,
       "original_title": "Un paese unito contro l'emergenza: A viso aperto | Documentario HD",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 751571,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/t2CFbipLnxrV8SQJl81tuMlrQKF.jpg",
+      "tmdb_title_official": "A viso aperto",
+      "tmdb_year_official": 2020,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "A viso aperto",
+        "titolo_originale": "Un paese unito contro l'emergenza: A viso aperto | Documentario HD",
+        "anno_uscita": 2020,
+        "durata_minuti": 77,
+        "genere": [
+          "Documentario"
+        ],
+        "regista": [
+          "Ambrogio Crespi"
+        ],
+        "cast_principale": [],
+        "trama": "A Viso Aperto” il docufilm di Ambrogio Crespi, girato nelle zone Covid più colpite durante l’emergenza sanitaria tra febbraio e maggio 2020, durante il lockdown",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/t2CFbipLnxrV8SQJl81tuMlrQKF.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 751571,
+        "imdb_id_scelto": "tt15341174",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:11:33.624Z"
+      },
+      "genre": "documentario",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:11:33.624Z",
+      "editor_updated_at": "2026-07-04T22:11:33.624Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "Q8KZIoguWGo",
@@ -336392,16 +337784,322 @@
       "is_movie": true,
       "original_title": "Film Completo di John Lechago: Killjoy 3 (2010) | Commedia Nera",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 61716,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/1REiK9txfmBclXIGSrxGHWvEg1K.jpg",
+      "tmdb_title_official": "Killjoy 3",
+      "tmdb_year_official": 2010,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Killjoy 3",
+        "titolo_originale": "Film Completo di John Lechago: Killjoy 3 (2010) | Commedia Nera",
+        "anno_uscita": 2010,
+        "durata_minuti": 77,
+        "genere": [
+          "Horror"
+        ],
+        "regista": [
+          "John Lechago"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Trent Haaga",
+            "personaggio": "Killjoy / Psychologist",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dNqHUduMIgSlUIorpfINxyVTmYI.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/92993",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Victoria De Mare",
+            "personaggio": "Batty Boop",
+            "foto_url": "https://image.tmdb.org/t/p/w185/isKedj2RvhVHs9DxmMX0lSXLBco.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/104458",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Al Burke",
+            "personaggio": "Punchy the Hobo Clown / Cop",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gMQmzq2C2eUEpOBKrb3RpE5G1jc.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/104473",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tai Chan Ngo",
+            "personaggio": "Freakshow the Mime",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oNTNANk5RKKBU3HtSr0VxU9W2Hr.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1118671",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jessica Whitaker",
+            "personaggio": "Sandie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3DsxlWMxlwKCELXwhctSaO7daBF.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1465815",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Michael Rupnow",
+            "personaggio": "Rojer",
+            "foto_url": "https://image.tmdb.org/t/p/w185/styOiMJIcqnqLEmdFlxQrdCxQhe.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1651150",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Darrow Igus",
+            "personaggio": "Professor",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/83104",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Spiral Jackson",
+            "personaggio": "Zilla",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2719234",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Olivia Dawn York",
+            "personaggio": "Erica",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/102307",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Quentin Miles",
+            "personaggio": "Michael's Ghost",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1411099",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Il demoniaco clown Killjoy viene resuscitato ancora una volta, ma questa volta non gli viene fornito il nome della sua vittima ed è intrappolato nel suo regno. Utilizzando uno specchio magico, attira quattro studenti universitari ignari nel suo mondo, dove può divertirsi in modo macabro! Un uomo misterioso ritorna e finalmente scopriamo chi è il vero obiettivo di Killjoy!",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/1REiK9txfmBclXIGSrxGHWvEg1K.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=qoy6x1Q0vhA"
+        },
+        "tmdb_id_scelto": 61716,
+        "imdb_id_scelto": "tt1603314",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:11:15.891Z"
+      },
+      "genre": "horror",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:11:15.891Z",
+      "editor_updated_at": "2026-07-04T22:11:15.891Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "_wh_ylxbmak",
       "is_movie": true,
       "original_title": "SPAGHETTI WESTERN: Giarrettiera Colt (1968) | Film Completo in Italiano",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 143767,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/uMm8tDkYRS7HhWEQtHxqMUn9fR8.jpg",
+      "tmdb_title_official": "Giarrettiera Colt",
+      "tmdb_year_official": 1968,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Giarrettiera Colt",
+        "titolo_originale": "SPAGHETTI WESTERN: Giarrettiera Colt (1968) | Film Completo in Italiano",
+        "anno_uscita": 1968,
+        "durata_minuti": 87,
+        "genere": [
+          "Dramma",
+          "Azione",
+          "Western"
+        ],
+        "regista": [
+          "Gian Andrea Rocco"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Nicoletta Machiavelli",
+            "personaggio": "Lulu 'Garter' Colt",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vFYxOrZX6VWYFqdSy9EUU0q9ACh.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/24690",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Claudio Camaso",
+            "personaggio": "Red",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/44987",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Walter Barnes",
+            "personaggio": "General Droga",
+            "foto_url": "https://image.tmdb.org/t/p/w185/g4WSTSR008Q2pyaKUlT2DUMWFuh.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/33544",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marisa Solinas",
+            "personaggio": "Rosy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/isoiEfA8CXvbRWrRlaNSqtKDuca.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/46116",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gaspare Zola",
+            "personaggio": "Jean",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1197177",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Elvira Cortese",
+            "personaggio": "Elvira",
+            "foto_url": "https://image.tmdb.org/t/p/w185/x5MJcTG5dLnwAGwikY0MeUe1mAs.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1682220",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Franco Bucceri",
+            "personaggio": "Doctor",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/556752",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Silvana Bacci",
+            "personaggio": "Red's Masseuse",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cWCliMHwmwpLnTASdQBkAOafMn.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1127109",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Brunello Maffei",
+            "personaggio": null,
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2339881",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Giovanni Ivan Scratuglia",
+            "personaggio": "Roger",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zE96JkRsKw4SYyc4Mc2hqQT1RLf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/42844",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Al confine con il Messico, durante la rivoluzione contro i francesi di Massimiliano, una diligenza, con una giovane donna e un soldato francese sfuggito ai rivoluzionari, viene attaccata da un bandito, detto \"Il Rosso\"; ma la donna con la sua pistola lo mette in fuga. Giunta in paese costei libera un messicano che stava per essere impiccato e quindi prende alloggio nell'albergo: qui, abile giocatrice di poker, con un trucco riesce sempre a vincere. Frattanto il traffico di armi a favore dei rivoluzionari, che avviene attraverso \"Il Rosso\", è impedito abilmente da un giovane francese travestito da messicano. Questi, incontrata la ragazza se ne innamora e viene da questa ricambiato: lui però vuole che la donna smetta di giocare e barare ed essa promette di vivere una vita più tranquilla. Ma poco dopo il giovane muore ucciso incidentalmente da un rivoluzionario; dispiaciuta la donna affronta \"Il Rosso\" e lo uccide; poi riprende il suo lavoro di un tempo.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/uMm8tDkYRS7HhWEQtHxqMUn9fR8.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=s_KTE7do8mo"
+        },
+        "tmdb_id_scelto": 143767,
+        "imdb_id_scelto": "tt0176754",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:02:16.286Z"
+      },
+      "genre": "western",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:02:16.286Z",
+      "editor_updated_at": "2026-07-04T22:02:16.286Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "yr1eL3nm9Gs",
@@ -336562,8 +338260,88 @@
       "is_movie": true,
       "original_title": "WESTERN STORICO: La Rivolta (Uprising) (2023) | Film Completo in Italiano SUB ITA",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 1221880,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/u4YyRnqRIJUj7fWXi6hG88e7Ikh.jpg",
+      "tmdb_title_official": "Uprising",
+      "tmdb_year_official": 2023,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Uprising",
+        "titolo_originale": "WESTERN STORICO: La Rivolta (Uprising) (2023) | Film Completo in Italiano SUB ITA",
+        "anno_uscita": 2023,
+        "durata_minuti": 97,
+        "genere": [
+          "Storia",
+          "Western"
+        ],
+        "regista": [
+          "Christopher Forbes"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Nicole Weber",
+            "personaggio": "Emily West",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7qQ7axPVIZKuoWgViAK1CzBrOuh.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1189958",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Andrew Stecker",
+            "personaggio": "Nathan Cates",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uQgtZC6gKle5klnRp4hKbrzXvcq.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1588914",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Leo Gunner Baker",
+            "personaggio": "Little Crow",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5327358",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Peter B. Buckley",
+            "personaggio": "Philander Prescott",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5327359",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Dopo che il Congresso degli Stati Uniti ha spostato la sua attenzione sulla Guerra Civile e ha smesso di effettuare i pagamenti per le terre in base ai trattati agli indiani Dakota, causando la fame tra il loro popolo, è iniziata una rivolta che in seguito sarebbe stata chiamata \"Le Guerre Indiane.\"",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/u4YyRnqRIJUj7fWXi6hG88e7Ikh.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 1221880,
+        "imdb_id_scelto": "tt30343326",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:10:25.049Z"
+      },
+      "genre": "western",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:10:25.049Z",
+      "editor_updated_at": "2026-07-04T22:10:25.049Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "N-ZOv8F_VA0",
@@ -336609,15 +338387,15 @@
         "tmdb_id_scelto": 1264661,
         "imdb_id_scelto": null,
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-04T22:00:33.738Z"
+        "verificato_editor_at": "2026-07-04T22:11:49.069Z"
       },
       "tmdb_media_type": "movie",
       "genre": "commedia",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-04T22:00:33.738Z",
-      "editor_updated_at": "2026-07-04T22:00:33.738Z",
+      "editor_locked_at": "2026-07-04T22:11:49.069Z",
+      "editor_updated_at": "2026-07-04T22:11:49.069Z",
       "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
