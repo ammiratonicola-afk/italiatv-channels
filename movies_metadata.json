@@ -317343,10 +317343,163 @@
     {
       "video_id": "KVDwBT2Uxpw",
       "is_movie": true,
-      "original_title": "Una storia di amicizia, coraggio e mostri | Gli acchiappamostri (Monsters at Large) 2018",
+      "original_title": "Monsters at Large",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 501791,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/fhd2pby6EpDlK9bxAd67dPWrS9r.jpg",
+      "tmdb_title_official": "Gli acchiappamostri",
+      "tmdb_year_official": 2018,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Gli acchiappamostri",
+        "titolo_originale": "Monsters at Large",
+        "anno_uscita": 2018,
+        "durata_minuti": 91,
+        "genere": [
+          "Avventura",
+          "Famiglia"
+        ],
+        "regista": [
+          "Jason Murphy"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Mischa Barton",
+            "personaggio": "Katie Parker",
+            "foto_url": "https://image.tmdb.org/t/p/w185/j3eZsKKIz4uWdVwAvokv8GHU21w.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/11617",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Stephen Tobolowsky",
+            "personaggio": "Mr. Phillips",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uL8yfcm0dCFYFQt052kczVQVvac.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/537",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Austin St. John",
+            "personaggio": "Sean Parker",
+            "foto_url": "https://image.tmdb.org/t/p/w185/a0dR1zd5ZWhafYUAe2oshB8g8gQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/388114",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Matthew Kosto",
+            "personaggio": "Alex Parker",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xy575tScNhVPUqH6Qjd6GEAfPVf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1903186",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Auggie Pulliam",
+            "personaggio": "Dylan",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1969234",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Alicia C. Del Aguila",
+            "personaggio": "Phoenix",
+            "foto_url": "https://image.tmdb.org/t/p/w185/b6yxGkQAEeutwwSv6NjIIEKKaby.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1969235",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Brooklynn Prince",
+            "personaggio": "Sophie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/k9oSIk7V8Sbgs0Dw8tX71f9YeXi.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1704640",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Angela Winiewicz",
+            "personaggio": "Elizabeth",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1969236",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Lola Sultan",
+            "personaggio": "Willow Hannigan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dD7j6X8O1EVrqskGqT1zZEnqowr.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1969237",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Zachary T. Robbins",
+            "personaggio": "Gordon",
+            "foto_url": "https://image.tmdb.org/t/p/w185/x53Elk3xeBp7xmgRYX3WLPQHRBK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1949233",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Alex è uno studente delle scuole superiori che cerca di destreggiarsi al meglio nella vita di tutti i giorni. Gavin, il fratello minore, comincia però ad avere incubi su mostri spaventosi dopo aver sentito una storia raccontata da Dylan, il miglior amico di Alex. Per far cessare le paure di Gavin, Alex e Dylan con l'aiuto di Phoenix, una nuova compagna di scuola, formano un gruppo di \"acchiappamostri\", che ben presto si confronterà con qualcosa di molto reale e grande.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/fhd2pby6EpDlK9bxAd67dPWrS9r.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=arWP9gB1jbQ"
+        },
+        "tmdb_id_scelto": 501791,
+        "imdb_id_scelto": "tt5145662",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T06:02:33.626Z"
+      },
+      "genre": "avventura",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T06:02:33.626Z",
+      "editor_updated_at": "2026-07-04T06:02:33.626Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "EAYSegOF_38",
@@ -317624,10 +317777,165 @@
     {
       "video_id": "6HZFhGipSFg",
       "is_movie": true,
-      "original_title": "Film Completo Azione Horror: Shortcut (2020) | Una corsa terrificante",
+      "original_title": "Shortcut",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 684684,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/9ZUvlTfBK5aYW1XPknyGr9dDYOS.jpg",
+      "tmdb_title_official": "Shortcut - Non tutte le strade portano a casa",
+      "tmdb_year_official": 2020,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Shortcut - Non tutte le strade portano a casa",
+        "titolo_originale": "Shortcut",
+        "anno_uscita": 2020,
+        "durata_minuti": 81,
+        "genere": [
+          "Horror",
+          "Avventura",
+          "Fantasy"
+        ],
+        "regista": [
+          "Alessio Liguori"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Jack Kane",
+            "personaggio": "Nolan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mf34wrdoZesPg7oUlRjuZM7TNi8.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2337312",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Zanda Emlano",
+            "personaggio": "Karl",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vYDqsrcKeCpjnRshOeclw8VQcJk.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3383746",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Zak Sutcliffe",
+            "personaggio": "Reggie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1P9T7K3B95tLBixMMZf7mi45JIG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1568706",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sophie Jane Oliver",
+            "personaggio": "Bess",
+            "foto_url": "https://image.tmdb.org/t/p/w185/prMYzJM7NCjk7XpdDyyBCcSIycK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3383751",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Molly Dew",
+            "personaggio": "Queenie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uL3ERq55NWQooqeD2rbwKWjEyuY.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3383755",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "David Keyes",
+            "personaggio": "Pedro Minghella",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9Jiw2X1e4zSE5SmXjvGghfD34Ne.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1316465",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Terence Anderson",
+            "personaggio": "Joseph",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8Haf1dGddXzvvpNyjYU3Rg0j1L2.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/142870",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Andrei Claude",
+            "personaggio": "Chris",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nMNPUFGq8qyrLMMMMli1biPGqlP.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1415388",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mino Caprio",
+            "personaggio": "Giulio Sarpi",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4xkoxc1igKHXOywfty8pMoIXNoU.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/931513",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Teo Achille Caprio",
+            "personaggio": "Young Giulio Sarpi",
+            "foto_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSEXPTV1W6JrYlrcUlnjijb_ZxEadQHOPvZ8Okm8D8v22CNDgskHdRkvlm93rRBj35pc0zyg&s",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Alcuni ragazzi a bordo di un pullman sono costretti a fermarsi nel mezzo di un bosco desolato. Inizia così per loro un’avventura inaspettata dai risvolti dark.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/9ZUvlTfBK5aYW1XPknyGr9dDYOS.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=zykDl7ZrUcA",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube"
+        },
+        "tmdb_id_scelto": 684684,
+        "imdb_id_scelto": "tt8960138",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T06:20:48.310Z"
+      },
+      "genre": "horror",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T06:20:48.310Z",
+      "editor_updated_at": "2026-07-04T06:20:48.310Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "GM1k8fG9IaA",
@@ -317825,10 +318133,164 @@
     {
       "video_id": "AniS_9itj4E",
       "is_movie": true,
-      "original_title": "Film Completo di Rockne S. O'Bannon: Adrenalin: Fear The Rush (1996)",
+      "original_title": "Adrenalin: Fear The Rush",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 55687,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/eX8ZI3YCG2Jzawxv0Q6w7tZsIOG.jpg",
+      "tmdb_title_official": "Adrenalina",
+      "tmdb_year_official": 1996,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Adrenalina",
+        "titolo_originale": "Adrenalin: Fear The Rush",
+        "anno_uscita": 1996,
+        "durata_minuti": 77,
+        "genere": [
+          "Azione",
+          "Fantascienza",
+          "Thriller"
+        ],
+        "regista": [
+          "Albert Pyun"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Christopher Lambert",
+            "personaggio": "Lemieux",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nWcAHW2ZN4cP3VPWYH9WJCvhFvt.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/38559",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Natasha Henstridge",
+            "personaggio": "Delon",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lfRFm3MLOGPtaDHWTstoQfKAyLM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/57395",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Norbert Weisser",
+            "personaggio": "Cuzo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/A2QeLaigXmj1dtJHVLl27N8qNFd.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/6701",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Elizabeth Barondes",
+            "personaggio": "Wocek",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8vYYbmoKkntMU36X5JTeGVTedTs.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/61556",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Xavier Declie",
+            "personaggio": "Volker",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1041314",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Darrell Davis",
+            "personaggio": "Suspect",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4FlD6DcD25hceHebaNLDXM4mSvh.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1163144",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nicholas Guest",
+            "personaggio": "Capt. B. Rennard",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dSA11Xw5JX7uJ3SSFWc1eimtoY4.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/36821",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Andrew Divoff",
+            "personaggio": "Sterns",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7jdGolskoipA8HRJHjLdCLzc7Zs.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/36218",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jon H. Epstein",
+            "personaggio": "General Waxman",
+            "foto_url": "https://image.tmdb.org/t/p/w185/y67Sku8W28gZrcdLKfIJwGgPhuC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/91897",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Blanka Čopíková",
+            "personaggio": "Additional Cop",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/230661",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Un uomo vendica la morte della moglie uccidendone l'assassino. Ma non è un uomo qualunque: è un poliziotto della squadra antiterrorismo. A causa dell'arresto il poliziotto perde anche la tutela di sua figlia e finisce in carcere. Una volta uscito dalla prigione comincia a ricevere strane telefonate che lo minacciano di rapirle la figlia. A quel punto l'uomo comincia a fare delle indagini per scoprire il fautore di quelle minacce.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/eX8ZI3YCG2Jzawxv0Q6w7tZsIOG.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=-Bwr1Tj9dWQ"
+        },
+        "tmdb_id_scelto": 55687,
+        "imdb_id_scelto": "tt0115471",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T06:13:00.067Z"
+      },
+      "genre": "fantascienza",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T06:13:00.067Z",
+      "editor_updated_at": "2026-07-04T06:13:00.067Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "X2Shrq72CQk",
@@ -318277,10 +318739,164 @@
     {
       "video_id": "P2umwvxn9S0",
       "is_movie": true,
-      "original_title": "Film Completo di Randal Kleiser: L'ombra del dubbio (1998) | Thriller",
+      "original_title": "Shadow of Doubt",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 126780,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/oyoJth6gQlQQCscvEROeksa76xZ.jpg",
+      "tmdb_title_official": "L'ombra del dubbio",
+      "tmdb_year_official": 1998,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "L'ombra del dubbio",
+        "titolo_originale": "Shadow of Doubt",
+        "anno_uscita": 1998,
+        "durata_minuti": 103,
+        "genere": [
+          "Crime",
+          "Dramma",
+          "Mistero"
+        ],
+        "regista": [
+          "Randal Kleiser"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Melanie Griffith",
+            "personaggio": "Kitt Devereux",
+            "foto_url": "https://image.tmdb.org/t/p/w185/yffPcqlZMsXTCAZ84a1tLmdcIS6.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/29369",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tom Berenger",
+            "personaggio": "Jack Campioni",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zLxzAdAfu7y02yEx29JSLDgXJZ4.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/13022",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Craig Sheffer",
+            "personaggio": "Laird Atkins",
+            "foto_url": "https://image.tmdb.org/t/p/w185/w8wAAyXDifuxZDgvuL8U0fuLsLG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4138",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Huey Lewis",
+            "personaggio": "Al Gordon",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fmoKV2EW0Cjn0w4NGPnzex3MQLB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/168702",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Wade Dominguez",
+            "personaggio": "Bobby Medina",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7eUr3AfjjA7fPsZwEqIQpdsMgYa.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/975133",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "James Morrison",
+            "personaggio": "Paul Saxon",
+            "foto_url": "https://image.tmdb.org/t/p/w185/awmr0NIBPUgCxYCgmLbkv05rYgF.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/62003",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lisa Pelikan",
+            "personaggio": "Leslie Saxon",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9pA1C6RTJ9OT2S0J2xeOKxVqvl4.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/115888",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nina Foch",
+            "personaggio": "Sylvia Saxon",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zkSVQYtUBFKpoBXCyIA0dW8N5Tj.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/13026",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tony Plana",
+            "personaggio": "Detective Krause",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oiJaRVl9vvq7nqoGDNlymxpvJ0a.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/41737",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Victor Love",
+            "personaggio": "Detective Baker",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cA9DY2dW9qXMS5TtagtAV2IbzPg.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/121276",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Zio Charlie, ricercato dalla polizia, va a stabilirsi per un pò dai parenti che vivono a Santa Rosa, in California. Sua nipote, che porta il suo stesso nome e prova un affetto e un'ammirazione sconfinati per lui, da quando era bambina, comincia a sospettare che lo zio sia un famigerato assassino di ricche vedove di cui parlano tutti i giornali",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/oyoJth6gQlQQCscvEROeksa76xZ.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=yjb7KEmOMEs"
+        },
+        "tmdb_id_scelto": 126780,
+        "imdb_id_scelto": "tt0119989",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T06:18:24.932Z"
+      },
+      "genre": "poliziesco",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T06:18:24.932Z",
+      "editor_updated_at": "2026-07-04T06:18:24.932Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "gUPkVWZ2vN0",
@@ -318594,26 +319210,486 @@
     {
       "video_id": "NArNRAiWq0I",
       "is_movie": true,
-      "original_title": "Film Completo Restaurato: L'isola della donna contesa (Anatahan) (1953)",
+      "original_title": "Anatahan",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 104776,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/rcynwqO2PLU0o0sxQvzZrDVHA5N.jpg",
+      "tmdb_title_official": "L'isola della donna contesa",
+      "tmdb_year_official": 1953,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "L'isola della donna contesa",
+        "titolo_originale": "Anatahan",
+        "anno_uscita": 1953,
+        "durata_minuti": 92,
+        "genere": [
+          "Dramma",
+          "Guerra"
+        ],
+        "regista": [
+          "Josef von Sternberg"
+        ],
+        "cast_principale": [
+          {
+            "nome": "根岸明美",
+            "personaggio": "Keiko Kusakabe",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oWE8EeeDOOMWFrgW6EPsAYdEnVZ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/95579",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "菅沼正",
+            "personaggio": "Kusakabe, Husband of Keiko",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1200241",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Kisaburo Sawamura",
+            "personaggio": "Kuroda",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1734703",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "中山昭二",
+            "personaggio": "Nishio",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dBhhyb5GalD1l9cvgzUtf6FkXUg.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1056613",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "藤川準",
+            "personaggio": "Yoshisato",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5Wv81uX29uuFhmbG7NCiXsCTWcJ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/134621",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "近藤宏",
+            "personaggio": "Yanaginuma",
+            "foto_url": "https://image.tmdb.org/t/p/w185/sLWRFtfntlzRaMWtOrXyHKIarsK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/138426",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Shozo Miyashita",
+            "personaggio": "Sennami",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1734704",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Kikuji Onoe",
+            "personaggio": "Kaneda",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2732050",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Rokuriro Kineya",
+            "personaggio": "Marui",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2732051",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Tsuruemon Bando",
+            "personaggio": "Doi",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4873359",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Da un racconto di Michiro Maruyama ispirato a un fatto vero. Scampati all'affondamento della loro nave, dodici soldati giapponesi sbarcano il 12 giugno 1944 su un'isoletta del Pacifico, nell'arcipelago delle Arianne, abitata soltanto dalla bella Keiko e dal suo compagno. Ucciso l'uomo, Keiko diventa un'ape regina circondata dai fuchi che si battono tra loro per il suo possesso.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/rcynwqO2PLU0o0sxQvzZrDVHA5N.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=ZRtp2c_N5rA"
+        },
+        "tmdb_id_scelto": 104776,
+        "imdb_id_scelto": "tt0046712",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T06:11:42.348Z"
+      },
+      "genre": "guerra",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T06:11:42.348Z",
+      "editor_updated_at": "2026-07-04T06:11:42.348Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "wD-refEW9EM",
       "is_movie": true,
-      "original_title": "Film Completo di Claudio Cupellini: Una vita tranquilla (2010) | Thriller",
+      "original_title": "Una vita tranquilla",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 49850,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/sQxta1vrCTyOUqvRsy5sG8U607V.jpg",
+      "tmdb_title_official": "Una vita tranquilla",
+      "tmdb_year_official": 2010,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Una vita tranquilla",
+        "titolo_originale": "Una vita tranquilla",
+        "anno_uscita": 2010,
+        "durata_minuti": 105,
+        "genere": [
+          "Dramma",
+          "Thriller"
+        ],
+        "regista": [
+          "Claudio Cupellini"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Toni Servillo",
+            "personaggio": "Rosario",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zHMSH7YrfQJFcdPNbZ42l5sZRLn.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/72782",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marco D'Amore",
+            "personaggio": "Diego",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xu3PLPhlYFIgcDOhRSoxCVlLO9a.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/556721",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Francesco Di Leva",
+            "personaggio": "Edoardo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xL8SDKg4Jp9ibtn9Mlw4oQVUaK5.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/556722",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Juliane Köhler",
+            "personaggio": "Renate",
+            "foto_url": "https://image.tmdb.org/t/p/w185/v2eHSiEdAhu2mJWxEwa3Sqxtgg1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/8797",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Leonardo Sprengler",
+            "personaggio": "Mathias",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/556724",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Alice Dwyer",
+            "personaggio": "Doris",
+            "foto_url": "https://image.tmdb.org/t/p/w185/z1GOYuaaYHlEv1s1td3c8S8CxCu.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/6083",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Maurizio Donadoni",
+            "personaggio": "Claudio",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vLmKmZ62l4yzrk7P05M4lIlaQ4a.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/236080",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Micki Bertling",
+            "personaggio": "Friedlander",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pOqH6D3DOhjGX6hcgejYowb2dPC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/556726",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ulrich Cyran",
+            "personaggio": "Halliday",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bRoXGUnmVN99dGj22bBDqv0Cy9O.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/556727",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nick Dong-Sik",
+            "personaggio": "Bambu",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/556728",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Rosario Russo ha poco più di cinquanta anni. Da dodici vive in Germania dove gestisce, insieme alla moglie Renate, un albergo ristorante. La sua vita scorre serena: ha un bambino (Mathias), un aiuto cuoco (Claudio) che è anche un amico, e molti progetti per il futuro. Un giorno di febbraio, però, tutto cambia. Nel ristorante di Rosario arrivano due ragazzi italiani. Il primo si chiama Edoardo ed è il figlio di Mario Fiore, capo di una delle più potenti famiglie di camorra. L'altro si chiama Diego, e Rosario lo riconosce subito perché Diego è suo figlio. Non si vedono da quindici anni, da quando Rosario si chiamava Antonio De Martino ed era uno dei più feroci e potenti camorristi del casertano. Allora si era fatto credere morto e si era ricostruito una seconda vita in Germania.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/sQxta1vrCTyOUqvRsy5sG8U607V.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=chJoBwDEhXw",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube"
+        },
+        "tmdb_id_scelto": 49850,
+        "imdb_id_scelto": "tt1521090",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T06:04:51.112Z"
+      },
+      "genre": "thriller",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T06:04:51.112Z",
+      "editor_updated_at": "2026-07-04T06:04:51.112Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "P_2lIv-TIKw",
       "is_movie": true,
-      "original_title": "Film Completo di Fred Olen Ray: Missione ad alto rischio (2001) CRITICAL MASS",
+      "original_title": "Critical Mass",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 134464,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/tkWxqFTbf6sWxoagqFSGTc5kN3j.jpg",
+      "tmdb_title_official": "Missione ad alto rischio",
+      "tmdb_year_official": 2001,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Missione ad alto rischio",
+        "titolo_originale": "Critical Mass",
+        "anno_uscita": 2001,
+        "durata_minuti": 95,
+        "genere": [
+          "Azione",
+          "Thriller"
+        ],
+        "regista": [
+          "Fred Olen Ray"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Treat Williams",
+            "personaggio": "Mike Jeffers",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jbRMOU2K7ePg7Zs59nfgEYLeD1e.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4515",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lori Loughlin",
+            "personaggio": "Janine",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uelwtzItSLYEgaSjfzxfQ1AE1YK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/92509",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Udo Kier",
+            "personaggio": "Samson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lIOGDMvrVHMgPXdhicLI41tY1zf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1646",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Blake Clark",
+            "personaggio": "Sheriff Borden",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pA4OZQPyATEX9AqZYUIOItQ447o.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/21485",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jack Betts",
+            "personaggio": "Atty. Gen. Ames",
+            "foto_url": "https://image.tmdb.org/t/p/w185/aC8uOwxVW2NJ5sYUvQImFZuVKQ7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/20581",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Richard Anthony Crenna",
+            "personaggio": "Tanner",
+            "foto_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Richard_Crenna_Luke_McCoy_1961.JPG",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "Wikipedia EN",
+              "url_pagina_origine": "https://en.wikipedia.org/wiki/Richard_Crenna",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Charles Cyphers",
+            "personaggio": "Henderson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cfDwWOFY9xOGiRxUwjIHhZ7U6lh.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/11786",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Neil Delama",
+            "personaggio": "Peterson",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/99607",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Charles Emmett",
+            "personaggio": "Steve Johnson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/25FGJQHO3ofwGWakrTLdq9JXM47.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/60767",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "David \"Shark\" Fralick",
+            "personaggio": "Rand",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/58488",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Mentre scorta un camion carico di materiali tossici in un luogo segreto nel deserto del Mojave, l'agente Mike Jeffers vede le cose complicarsi per un assalto di un commando terroristico.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/tkWxqFTbf6sWxoagqFSGTc5kN3j.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=XAO4aZkAFFs"
+        },
+        "tmdb_id_scelto": 134464,
+        "imdb_id_scelto": "tt0218126",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T06:05:19.224Z"
+      },
+      "genre": "thriller",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T06:05:19.224Z",
+      "editor_updated_at": "2026-07-04T06:05:19.224Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "SvZxKc-AwZY",
@@ -318935,42 +320011,749 @@
     {
       "video_id": "9eiMCHJIdnM",
       "is_movie": true,
-      "original_title": "Film di Renny Harlin: Nella mente del serial killer (Mindhunters) (2004)",
+      "original_title": "Mindhunters",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 16617,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/rGf0BtVxaLJaEi86NrI2hwpgnL4.jpg",
+      "tmdb_title_official": "Nella mente del serial killer",
+      "tmdb_year_official": 2004,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Nella mente del serial killer",
+        "titolo_originale": "Mindhunters",
+        "anno_uscita": 2004,
+        "durata_minuti": 106,
+        "genere": [
+          "Mistero",
+          "Thriller",
+          "Crime"
+        ],
+        "regista": [
+          "Renny Harlin"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Kathryn Morris",
+            "personaggio": "Sara Moore",
+            "foto_url": "https://image.tmdb.org/t/p/w185/q189KhrMoKyQJsvwOE7x2nWAeEi.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2208",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jonny Lee Miller",
+            "personaggio": "Lucas Harper",
+            "foto_url": "https://image.tmdb.org/t/p/w185/otCQdDtnrMvZ5tPC62zLx0SaXeR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/9012",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "LL Cool J",
+            "personaggio": "Gabe Jensen",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dpOHjasRJz7rk9CVutd6L9WnWTc.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/36424",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Christian Slater",
+            "personaggio": "J.D. Reston",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6ww3uweEEXMlvtNjTlgBHxLErPF.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2224",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Patricia Velásquez",
+            "personaggio": "Nicole Willis",
+            "foto_url": "https://image.tmdb.org/t/p/w185/51Ve74pQUnR6tv3faE8LKUFZa9I.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/18920",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Clifton Collins Jr.",
+            "personaggio": "Vince Sherman",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iUQGHVSAA48q1QMnj7hnBFVq3jK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5365",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Eion Bailey",
+            "personaggio": "Bobby Whitman",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3DW13W47cKk4LQZwS4EvRaNBoVu.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/7498",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Will Kemp",
+            "personaggio": "Rafe Perry",
+            "foto_url": "https://image.tmdb.org/t/p/w185/22fDAmoI0oEPU6Iaw5vZa6nqC92.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/54500",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Val Kilmer",
+            "personaggio": "Jake Harris",
+            "foto_url": "https://image.tmdb.org/t/p/w185/sWH9jTD0bC5gWhhceUlzfNiNup0.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5576",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Cassandra Bell",
+            "personaggio": "Jen",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uP6ADym6MsarQQGgiwC5RzorK3d.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/128290",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Sette promettenti giovani agenti dell'FBI in lizza per le posizioni molto ambite di tracciatori di profili psicologici, devono superare un test finale che consentirà loro di essere scelti, di diventare \"cacciatori di menti\". Incaricato del loro addestramento, è Harris (Val Kilmer) che non è un tipico agente dell'FBI, e il suo test finale, che deciderà chi vi riuscirà e chi no, promette di essere una caccia al killer sin troppo reale. Nascosto nel gruppo c'è un vero serial killer. Nell'ultima sfida per cercare di risolvere il crimine che è in pratica il test da superare, questi coraggiosi giovani agenti - ognuno con un oscuro passato per cui è facilitato nell'esplorare la mente di un criminale - devono individuare chi tra di loro è un assassino senza scrupoli, prima che ad uno ad uno cadano vittime dell'ingegnoso piano del killer.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/rGf0BtVxaLJaEi86NrI2hwpgnL4.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=4DD4WTniFts",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube"
+        },
+        "tmdb_id_scelto": 16617,
+        "imdb_id_scelto": "tt0297284",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T06:17:48.073Z"
+      },
+      "genre": "poliziesco",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T06:17:48.073Z",
+      "editor_updated_at": "2026-07-04T06:17:48.073Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "_-n82BCTV54",
       "is_movie": true,
-      "original_title": "Il Film Cult Completo con Enrico Montesano e Silvia Dionisio | Film Completo",
+      "original_title": "Il marito in collegio",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 183181,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/4ZHyQA05T1hUoiAS51zHzd2FIb7.jpg",
+      "tmdb_title_official": "Il marito in collegio",
+      "tmdb_year_official": 1977,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Il marito in collegio",
+        "titolo_originale": "Il marito in collegio",
+        "anno_uscita": 1977,
+        "durata_minuti": 97,
+        "genere": [
+          "Commedia"
+        ],
+        "regista": [
+          "Maurizio Lucidi"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Enrico Montesano",
+            "personaggio": "Camillo Proietti",
+            "foto_url": "https://image.tmdb.org/t/p/w185/myepIiCMGEwjhvZ3akFgVRogBP7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/21237",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mario Carotenuto",
+            "personaggio": "Casimiro Zanin",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xr7zoHY4fnmvn3ZwUoybvbSpdRG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/120637",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Silvia Dionisio",
+            "personaggio": "Carlotta",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2bSMhK6ZhLgBBuey5fI2aVGwaDJ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/99535",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Anna Proclemer",
+            "personaggio": "Donna Leo Madellis",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fDnGa1r3LEcINgP0YHEWUuSFKdS.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/27841",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Stefania Careddu",
+            "personaggio": "Robina",
+            "foto_url": "https://image.tmdb.org/t/p/w185/koZq6Qv805Zjzc3BiuJKhGH1vE8.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/88686",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Pino Caruso",
+            "personaggio": "Barone Filippo Pancaldi",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qv1jMvbSxk3RuHpiNIH6shoQmuX.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/589736",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gastone Pescucci",
+            "personaggio": "Giusmaria",
+            "foto_url": "https://image.tmdb.org/t/p/w185/eUGtAszwYJbVt6hmMGlEB3MPDde.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1033015",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Raffaele Curi",
+            "personaggio": "Edo",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1087784",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Liana Trouché",
+            "personaggio": "Madre di Carlotta",
+            "foto_url": "https://image.tmdb.org/t/p/w185/to48G3OSvaUyinmPriNI6lvAlUt.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1331525",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Bombolo",
+            "personaggio": "autista del Barone",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bIOrtW7LCgdRpmLl4TB1lcZhYrb.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/235871",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Per entrare in possesso dell'eredità dello zio Zanin, di modeste origini ma facoltoso, la nobile e povera Carlotta Madellis accetta di sposare il benzinaio Camillo Proietti. Con la clausola che il matrimonio non verrà consumato prima che lo sposo non abbia acquisito i modi di fare di una persona raffinata. Così il povero Camillo finisce in un collegio svizzero a ingentilirsi, ma nel frattempo Carlotta rischia di cadere nelle trappole di un cercatore di dote, sedicente barone.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/4ZHyQA05T1hUoiAS51zHzd2FIb7.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 183181,
+        "imdb_id_scelto": "tt0076368",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T06:07:32.739Z"
+      },
+      "genre": "commedia",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T06:07:32.739Z",
+      "editor_updated_at": "2026-07-04T06:07:32.739Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "JYVZfvB_i-8",
       "is_movie": true,
-      "original_title": "Film Completo: Black Bits (2023) | Hacker e Sopravvivenza",
+      "original_title": "Black Bits",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 1050343,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/1Vj3Krz7phgy3RVlEp6PwFfOYev.jpg",
+      "tmdb_title_official": "Black Bits",
+      "tmdb_year_official": 2023,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Black Bits",
+        "titolo_originale": "Black Bits",
+        "anno_uscita": 2023,
+        "durata_minuti": 78,
+        "genere": [
+          "Thriller"
+        ],
+        "regista": [
+          "Alessio Liguori"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Jordan Alexandra",
+            "personaggio": "Dora",
+            "foto_url": "https://image.tmdb.org/t/p/w185/eoG9hYjqgnWN5laA7jmicfVTdHA.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3539152",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Yvonne Mai",
+            "personaggio": "Beth",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lNvtQaVodylQLsJbBfJALqG4oNL.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3937844",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sebastian Fabijański",
+            "personaggio": "Hank",
+            "foto_url": "https://image.tmdb.org/t/p/w185/n7M44jqfqlBSb8Bi0V3rLZnoJmb.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1545616",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Amelia Clay",
+            "personaggio": "Nadine",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2359573",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Vittoria Bianchini",
+            "personaggio": "Mamma",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4183358",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Leonardo Ferrantini",
+            "personaggio": "The Contact",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1467148",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Dora e Beth, amanti e giovani ladre, mettono a segno un colpo ai danni di una misteriosa società attiva nel Dark Web ottenendo dei preziosi neurochip di ultima generazione. Le due, raggiunta una Safe House spersa tra le montagne per il possibile scambio in denaro dei dispositivi rubati, si accorgono ben presto che quel luogo così tranquillo nasconde in realtà qualcosa di strano. Ogni tipo di connessione è assente, le scorte di cibo sono razionate e un uomo estraneo allo scambio e dal comportamento ambiguo, le avvicina destando su di loro numerosi sospetti. La seguente scomparsa dei neurochip, è  solo il primo tassello di un quadro ben più pericoloso e articolato che le costringerà a una lotta mortale per la sopravvivenza dove niente è come sembra…  Sono finite in qualcosa di imprevisto e più grande di loro. Come faranno a uscirne vive?",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/1Vj3Krz7phgy3RVlEp6PwFfOYev.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=gF_v-ym07-s"
+        },
+        "tmdb_id_scelto": 1050343,
+        "imdb_id_scelto": "tt15789034",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T06:12:25.586Z"
+      },
+      "genre": "thriller",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T06:12:25.586Z",
+      "editor_updated_at": "2026-07-04T06:12:25.586Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "DWAdSOkMwvI",
       "is_movie": true,
-      "original_title": "Film Completo di D.W. Griffith: Giglio infranto (1919) | Drammatico",
+      "original_title": "Broken Blossoms",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 899,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/a9nlCZQgbjVlulnKnVsL94SgS4o.jpg",
+      "tmdb_title_official": "Giglio infranto",
+      "tmdb_year_official": 1919,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Giglio infranto",
+        "titolo_originale": "Broken Blossoms",
+        "anno_uscita": 1919,
+        "durata_minuti": 91,
+        "genere": [
+          "Dramma",
+          "Romance"
+        ],
+        "regista": [
+          "D.W. Griffith"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Lillian Gish",
+            "personaggio": "Lucy Burrows",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xUBj1vajDHS8GntuBzhpztRMVy4.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/8828",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Richard Barthelmess",
+            "personaggio": "Cheng Huan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/p7nmZeuQjHOsNFgqgEXBdh78OSC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/13789",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Donald Crisp",
+            "personaggio": "Battling Burrows",
+            "foto_url": "https://image.tmdb.org/t/p/w185/MEPq09iLEwJVrxw1T97qOILhk6.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/8841",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Arthur Howard",
+            "personaggio": "Burrows' Manager",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/13790",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Edward Peil Sr.",
+            "personaggio": "Evil Eye",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tkebpmT8PggXYd2Qu028umqEZzc.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/13791",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "George Beranger",
+            "personaggio": "The Spying One",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ila7m49FIrwRvaEn8LK6riEY4ox.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/8839",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Norman Selby",
+            "personaggio": "A Prizefighter",
+            "foto_url": "https://image.tmdb.org/t/p/w185/s9ltB7AySdmcEKAMUrA0n75kTAS.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/13792",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ernest Butterworth",
+            "personaggio": "Secondary Role (uncredited)",
+            "foto_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/The%20Radio%20King%20(1922)%20-%20Butterworth.jpg?width=185",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "Wikidata/Commons",
+              "url_pagina_origine": "https://www.wikidata.org/wiki/Q57342389",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Frederic Hamen",
+            "personaggio": "Secondary Role (uncredited)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5788116",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Wilbur Higby",
+            "personaggio": "London Policeman (uncredited)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/k6NTrANqPn3XwFeE9q8egbGyKjU.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1008740",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Chen, maestro spirituale e pacifico divulgatore della dottrina buddista si reca in Inghilterra per diffondere i suoi insegnamenti. Nel corso della sua permanenza londinese incontra Lucy, una ragazza per la quale prova una sincera attrazione, che ha la sfortuna di venire tormentata e maltrattata dal padre, un famoso pugile. E quando Chen interviene durante una delle sfuriate dell'uomo, sottraendo Lucy alle sue percosse, si trova costretto a dover affrontare il desiderio di vendetta del pugile.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/a9nlCZQgbjVlulnKnVsL94SgS4o.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=kF6B9_Pwgpw"
+        },
+        "tmdb_id_scelto": 899,
+        "imdb_id_scelto": "tt0009968",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T06:04:20.016Z"
+      },
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T06:04:20.016Z",
+      "editor_updated_at": "2026-07-04T06:04:20.016Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "wxvq14gV4FI",
       "is_movie": true,
-      "original_title": "Costretti a lavorare insieme, si innamorano: La Damigella Perfetta | HD | Fim Romantico",
+      "original_title": "The Perfect Bride",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 603452,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/zspxHY22sDDpzA2FteeoSlcnG3y.jpg",
+      "tmdb_title_official": "La damigella perfetta",
+      "tmdb_year_official": 2019,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "La damigella perfetta",
+        "titolo_originale": "The Perfect Bride",
+        "anno_uscita": 2019,
+        "durata_minuti": 90,
+        "genere": [
+          "Romance",
+          "televisione film"
+        ],
+        "regista": [
+          "Mark Jean"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Rachel Boston",
+            "personaggio": "Becca Foster",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lXsexhIX8oMhPnO85M0ocL0GhC2.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/96624",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Paul Campbell",
+            "personaggio": "Kyle Taylor",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6i1kThux3aufUiEw0dZIjUTXiSM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/62909",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Brandi Alexander",
+            "personaggio": "Allie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7juGv6M98UKL8nU6QQskxcTT9Bv.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/60611",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Stephanie Bennett",
+            "personaggio": "Lucie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qOrtOLOtkOyIJNmT7B5E8w4kPmU.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1926630",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Desiree Zurowski",
+            "personaggio": "Joyce Foster",
+            "foto_url": "https://image.tmdb.org/t/p/w185/o3fhF8DSHf7l9AWb7QNDDTnHEjt.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/59242",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Christine Willes",
+            "personaggio": "Grandma Raye",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bOSrIT6eir8mzwO7KfA6NaFbKMh.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/189719",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Brenda Matthews",
+            "personaggio": "Brenda",
+            "foto_url": "https://image.tmdb.org/t/p/w185/e42EuEgG0RJIccNB5NHbSQJh9e1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/557564",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Anne Marie DeLuise",
+            "personaggio": "Ingrid",
+            "foto_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ93vbmftKN-uHIhaLBi3vUWbC804C_1sNonXoucB1-YIQwv7KK3MtKEMQm1xRbyfu2kkYda9Djx2euXgyFr62VG2n8zGd2KdcMgT-Xk6k&s=10",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Clayton James",
+            "personaggio": "Craig",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xJKMTKEzyfBSTdAEpQ4ggrVMbEd.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1381294",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jeremy Guilbaut",
+            "personaggio": "Aidan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3FtwxAaqT9wlFUj6dIkWVp6sNSj.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/60293",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Becca si appresta a far da damigella d'onore per la decima volta in occasione delle nozze della cugina Lucie. Durante i preparativi, lei e il fotografo Kyle poggiano le basi per una relazione che lentamente si rivela più di una semplice amicizia. Quando un malinteso minaccia la nascita della loro storia d'amore, Becca spera che il suo brindisi di nozze possa giungere direttamente al cuore dell'amato.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/zspxHY22sDDpzA2FteeoSlcnG3y.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 603452,
+        "imdb_id_scelto": "tt10136884",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T06:07:03.887Z"
+      },
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T06:07:03.887Z",
+      "editor_updated_at": "2026-07-04T06:07:03.887Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     }
   ],
   "title_validated_at": "2026-06-16T06:48:35",
