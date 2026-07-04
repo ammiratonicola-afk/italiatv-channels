@@ -1971,9 +1971,36 @@ async function tmdbPersonCandidates(nome, filmTitle, year){
     };
   }));
 }
+// STRATEGIA PRIMARIA foto cast (massima affidabilita'): l'attore e' NEL cast del FILM
+// identificato su TMDB. Match per nome esatto -> personaggio -> token nome/cognome. Nessun
+// omonimo, niente AI: e' proprio il cast di QUEL film. Ritorna la foto ufficiale TMDB.
+async function tmdbCastPhotoFromFilm(tmdbId, nome, personaggio){
+  const want=normText(nome); if(!want) return null;
+  const wp=normText(personaggio||"");
+  const bw=want.split(" ").filter(Boolean);
+  for(const type of ["movie","tv"]){
+    const cr=await fetchJsonSafe(`${TMDB}/${type}/${tmdbId}/credits?api_key=${TKEY}&language=it-IT`);
+    const cast=(cr&&cr.cast)||[];
+    if(!cast.length) continue;
+    let m = cast.find(c=>normText(c.name)===want)
+         || (wp && cast.find(c=>normText(c.character||"")===wp))
+         || cast.find(c=>{ const aw=normText(c.name).split(" ").filter(Boolean); const common=bw.filter(x=>aw.includes(x)).length; return bw.length>=2 && common>=Math.min(2,bw.length); })
+         || (bw.length===1 && cast.find(c=>normText(c.name).split(" ").includes(bw[0])));
+    if(m){
+      let path=m.profile_path;
+      if(!path && m.id) path=await tmdbPersonImagePath(m.id);
+      if(path) return { url:IMG+"w185"+path, name:m.name, source:"TMDB (cast del film)",
+        page:`https://www.themoviedb.org/person/${m.id}`, reason:"attore presente nel cast del film su TMDB" };
+    }
+  }
+  return null;
+}
 async function findCastPhotoWithAi(nome, personaggio){
   const q=(nome||"").trim();
   if(!q) return null;
+  // ① STRATEGIA PRIMARIA: se il film e' identificato (tmdb_id), prendi la foto dal cast del film.
+  const _tid=parseInt(($("m_tmdb").value||"").trim());
+  if(_tid){ const direct=await tmdbCastPhotoFromFilm(_tid, q, personaggio); if(direct) return direct; }
   const filmTitle=$("m_title").value.trim()||((editing&&editing.m&&title(editing.m))||"");
   const year=$("m_year").value.trim();
   const [tmdb,imdb,tvmaze,wikiIt,wikiEn,wikiFr,wikiEs,wikiDe,wdata,commons,openverse]=await Promise.all([
@@ -2016,8 +2043,12 @@ Rispondi SOLO con JSON valido:\n{"index":0,"confidence":"alta|media|bassa","reas
   return { url, name:cand.title, source:cand.source, page:cand.page, reason:(pick&&pick.reason)||"" };
 }
 async function fillMissingCastPhotosAi(){
-  if(!$("gemini_key").value.trim() && !$("openai_key").value.trim()){
-    status("Serve la chiave Gemini o OpenAI nelle Impostazioni per trovare le foto del cast.",false);
+  const _hasAi=$("gemini_key").value.trim()||$("openai_key").value.trim();
+  const _hasTmdb=parseInt(($("m_tmdb").value||"").trim());
+  // La strategia primaria (foto dal cast del film TMDB) NON richiede AI: basta un tmdb_id.
+  // L'AI serve solo per il ripiego multi-fonte sui film non identificati.
+  if(!_hasAi && !_hasTmdb){
+    status("Identifica prima il film su TMDB, oppure inserisci una chiave Gemini/OpenAI, per trovare le foto del cast.",false);
     return;
   }
   const rows=Array.from($("m_cast").querySelectorAll(".castrow")).filter(r=>{
