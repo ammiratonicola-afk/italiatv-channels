@@ -210363,161 +210363,168 @@
     {
       "video_id": "6Xib2KIq8KQ",
       "is_movie": true,
-      "original_title": "Il nemico è nel tuo letto. Di chi ti fidi? | Sleeper - Doppia identità | Film Completo HD",
+      "original_title": "Sleeper",
       "channel": "Azione360",
-      "tmdb_id": 119640,
-      "tmdb_title_official": "Sleeper",
-      "tmdb_year_official": 2012,
-      "tmdb_poster_path": "/e6lOMFjC3h3myXfE1Zwsj5q80LF.jpg",
+      "tmdb_id": 516532,
+      "tmdb_title_official": "Sleeper - Doppia identità",
+      "tmdb_year_official": 2018,
+      "tmdb_poster_path": "/1fzQnmmEaoSHCEF1eHpeEg9CavC.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Il nemico è nel tuo letto. Di chi ti fidi? | Sleeper - Doppia identità | Film Completo HD",
-        "youtube_url": "https://www.youtube.com/watch?v=6Xib2KIq8KQ",
-        "titolo_italiano": "Sleeper",
+        "titolo_italiano": "Sleeper - Doppia identità",
         "titolo_originale": "Sleeper",
-        "anno_uscita": 2012,
-        "durata_minuti": 87,
+        "anno_uscita": 2018,
+        "durata_minuti": 86,
         "genere": [
-          "Azione",
-          "Horror"
+          "Thriller",
+          "televisione film"
         ],
         "regista": [
-          "Dru Brown"
+          "Philippe Gagnon"
         ],
         "cast_principale": [
           {
-            "nome": "Ty Hungerford",
-            "personaggio": "Molloy",
-            "foto_url": "https://image.tmdb.org/t/p/w185/dB9wsSte596DzmO3oYAN8zU3rog.jpg",
+            "nome": "Kara Killmer",
+            "personaggio": "Jennifer Jones (JJ)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bfiSQa9YZXrYhlXgKazWc4jtoqD.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1060289",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1371298",
               "verificata": true
             }
           },
           {
-            "nome": "Bruce Hopkins",
-            "personaggio": "Raynor",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/167035",
-              "verificata": false
-            }
-          },
-          {
-            "nome": "Kym Jackson",
-            "personaggio": "Kelly",
-            "foto_url": "https://image.tmdb.org/t/p/w185/jQQ1H7CBsA0ItW1m9i1iqvXGHlP.jpg",
+            "nome": "Brett Donahue",
+            "personaggio": "Freddy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/i6IlT8BNpG21Hd44bQ8aiEH0slU.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/999445",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1278643",
               "verificata": true
             }
           },
           {
-            "nome": "Scott Levy",
-            "personaggio": "Resnik",
-            "foto_url": "https://image.tmdb.org/t/p/w185/c6JPNVQ5WnqUfKL0cJwvDlHz7dV.jpg",
+            "nome": "Mylène Dinh-Robic",
+            "personaggio": "Connie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8CBK9R9haSKmnioCNmE3YAQROPL.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/102210",
+              "url_pagina_origine": "https://www.themoviedb.org/person/134182",
               "verificata": true
             }
           },
           {
-            "nome": "Ray Sinclair",
-            "personaggio": "Dwayne Miller",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1882437",
-              "verificata": false
-            }
-          },
-          {
-            "nome": "Lauren Orrell",
-            "personaggio": "Sara",
-            "foto_url": "https://image.tmdb.org/t/p/w185/mdXX9U31nENNQ4Wp1L6PlaPTDPV.jpg",
+            "nome": "Rayisa Kondracki",
+            "personaggio": "Anna",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1rEQ18Mohbr2yfR0iFAwUUU5iT0.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1085684",
+              "url_pagina_origine": "https://www.themoviedb.org/person/208454",
               "verificata": true
             }
           },
           {
-            "nome": "Nicole Payten-Betts",
-            "personaggio": "Heather",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/3043453",
-              "verificata": false
-            }
-          },
-          {
-            "nome": "Adam Fawns",
-            "personaggio": "Josh",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/3510900",
-              "verificata": false
-            }
-          },
-          {
-            "nome": "Robert Reitano",
-            "personaggio": "Toby",
-            "foto_url": "https://image.tmdb.org/t/p/w185/zWVi6bNLNlVKQh59ckQ8vUGQ5z6.jpg",
+            "nome": "Jason Deline",
+            "personaggio": "Agent Doug Emory",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vgvl4FNfdHuq1jTADVOlxBaZJoR.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/2610689",
+              "url_pagina_origine": "https://www.themoviedb.org/person/198540",
               "verificata": true
             }
           },
           {
-            "nome": "Cory Robinson",
-            "personaggio": "Wace",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "nome": "Joe Cobden",
+            "personaggio": "Arthur Stern",
+            "foto_url": "https://image.tmdb.org/t/p/w185/aI26eGubA3kFhJQNoWt4gtQyviM.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/61913",
-              "verificata": false
+              "url_pagina_origine": "https://www.themoviedb.org/person/51389",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mark Camacho",
+            "personaggio": "Detective Brent",
+            "foto_url": "https://image.tmdb.org/t/p/w185/AruZfSgqYW23yTMlIdt0pu6iBf8.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/7013",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Barbara Gordon",
+            "personaggio": "Barbara",
+            "foto_url": "https://image.tmdb.org/t/p/w185/j4izggPqkazGWSXco2j6QbKsdot.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5942",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Daniel Brochu",
+            "personaggio": "Doctor",
+            "foto_url": "https://image.tmdb.org/t/p/w185/u1Y4I2b3LhjAHTBMdNh7jgN6NED.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1212859",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Neil Kroetsch",
+            "personaggio": "Bud",
+            "foto_url": "https://image.tmdb.org/t/p/w185/itdTuNy4dA7oGzEftswFK3Pi5oY.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/198728",
+              "verificata": true
             }
           }
         ],
-        "trama": "Silenzioso e enigmatico, spinto dall'amore, l'uomo conosciuto come Resnik è stato imprigionato per aver massacrato un altro uomo e per aver rapito la giovane ragazza al centro della sua ossessione, Kelly. Per la sicurezza dei suoi compagni di cella, Resnik poteva svegliarsi, mangiare e fare esercizio solo da solo, e dopo il tramonto, ha imparato ad apprezzarlo. Ora, dopo essere evaso durante un trasferimento a mezzanotte, Resnik sta tornando a Moonlight Bay, e i detective Raynor e Molloy hanno solo 12 ore per fermarlo prima che il sole tramonti e che il massacro ricominci, di nuovo.",
+        "trama": "Candidato al Canadian Screen Awards come migliore fotografia nel 2019. Jennifer scopre una sconvolgente verità su suo marito dopo un aborto spontaneo. Indaga e trova una camera segreta che rivela la sua vera identità. Quello che scopre cambierà la sua vita per sempre, ritrovandosi nell'incubo più oscuro. Un thriller avvincente che svela oscure verità e mette in gioco la vita di Jennifer.",
         "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/e6lOMFjC3h3myXfE1Zwsj5q80LF.jpg",
+        "locandina_url": "https://image.tmdb.org/t/p/w500/1fzQnmmEaoSHCEF1eHpeEg9CavC.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=mmkMkAUnaQQ"
         },
-        "tmdb_id_scelto": 119640
+        "tmdb_id_scelto": 516532,
+        "imdb_id_scelto": "tt6932318",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T08:18:29.837Z"
       },
       "locked": true,
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 3,
-      "vote_count": 3
+      "vote_count": 3,
+      "tmdb_media_type": "movie",
+      "genre": "thriller",
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T08:18:29.837Z",
+      "editor_updated_at": "2026-07-04T08:18:29.837Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "CdhS8Fws_ks",
