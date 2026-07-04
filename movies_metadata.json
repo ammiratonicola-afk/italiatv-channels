@@ -277782,68 +277782,98 @@
     {
       "video_id": "eBEd4_tGZvI",
       "is_movie": true,
-      "original_title": "The Supernatural (2026) | Horror Found Footage | Film Completo HD",
+      "original_title": "이상한 과자 가게 전천당",
       "channel": "TVItalia",
-      "tmdb_id": 1684268,
-      "tmdb_title_official": "이상한 과자 가게 전천당",
-      "tmdb_year_official": 2026,
-      "tmdb_poster_path": "/xHnw4j8F0xMFB1P7mxD4rJsp87J.jpg",
+      "tmdb_id": 956351,
+      "tmdb_title_official": "The Supernatural",
+      "tmdb_year_official": 2019,
+      "tmdb_poster_path": "/thnuXFhOfG1TGmXYX9rBzpkHtA7.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "The Supernatural (2026) | Horror Found Footage | Film Completo HD",
-        "youtube_url": "https://www.youtube.com/watch?v=eBEd4_tGZvI",
-        "titolo_italiano": "이상한 과자 가게 전천당",
+        "titolo_italiano": "The Supernatural",
         "titolo_originale": "이상한 과자 가게 전천당",
-        "anno_uscita": 2026,
-        "durata_minuti": 89,
+        "anno_uscita": 2019,
+        "durata_minuti": 76,
         "genere": [
-          "Dramma",
-          "Fantasy"
+          "Horror",
+          "Azione"
         ],
         "regista": [
-          "박봉섭"
+          "Jack Lucas"
         ],
         "cast_principale": [
           {
-            "nome": "라미란",
-            "personaggio": "Hong-ja",
-            "foto_url": "https://image.tmdb.org/t/p/w185/45jkWK6vQpQo32FsbGMSDrZig62.jpg",
+            "nome": "G. Mandrake",
+            "personaggio": null,
+            "foto_url": "https://www.tunue.com/wp-content/uploads/2023/10/Foto-mandrake.jpeg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/980225",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
           {
-            "nome": "이레",
-            "personaggio": "Yo-mi",
-            "foto_url": "https://image.tmdb.org/t/p/w185/5KU4nUOdQxgcvRoOEOQtAaRFbTY.jpg",
+            "nome": "Luca Secci",
+            "personaggio": null,
+            "foto_url": "https://m.media-amazon.com/images/M/MV5BZjI5MTVlNTktYjU5ZS00ZWYyLTkwYmUtZTcxMmExZTc1NDkxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1299244",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
+            }
+          },
+          {
+            "nome": "Pirata Demilito",
+            "personaggio": null,
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3486588",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Giulia Allegretti",
+            "personaggio": null,
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3486594",
+              "verificata": false
             }
           }
         ],
-        "trama": "",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/xHnw4j8F0xMFB1P7mxD4rJsp87J.jpg",
+        "trama": "Un gruppo di ragazzi decide di trascorrere la notte nei pressi di una casa a Mesagne su cui aleggia una terribile leggenda. La loro avventura però si trasformerà in un terribile incubo. Un horror girato interamente in una notte, con i telefoni dei protagonisti e reali episodi paranormali.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/thnuXFhOfG1TGmXYX9rBzpkHtA7.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=7jBYWb6oJRk"
         },
-        "tmdb_id_scelto": 1684268
-      }
+        "tmdb_id_scelto": 956351,
+        "imdb_id_scelto": "tt31996489",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T21:57:57.636Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "horror",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T21:57:57.636Z",
+      "editor_updated_at": "2026-07-04T21:57:57.636Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "n5lf8NT797o",
@@ -334065,8 +334095,160 @@
       "is_movie": true,
       "original_title": "Film di Tammi Sutton: Killjoy 2: Deliverance from Evil (2002) | Completo",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 27712,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/a41tDBrTNfFcRe3gAVfhjlbKdPR.jpg",
+      "tmdb_title_official": "Killjoy 2: Deliverance from Evil",
+      "tmdb_year_official": 2002,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Killjoy 2: Deliverance from Evil",
+        "titolo_originale": "Film di Tammi Sutton: Killjoy 2: Deliverance from Evil (2002) | Completo",
+        "anno_uscita": 2002,
+        "durata_minuti": 77,
+        "genere": [
+          "Horror"
+        ],
+        "regista": [
+          "Tammi Sutton"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Logan Alexander",
+            "personaggio": "Lt. Harris Redding",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/98809",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Debbie Rochon",
+            "personaggio": "Denise Martinez",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zmDitMQpsERiGCvhbjKAbsVXLWR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/35579",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Trent Haaga",
+            "personaggio": "Killjoy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dNqHUduMIgSlUIorpfINxyVTmYI.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/92993",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Austin Priester",
+            "personaggio": "Nic Gordon",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tmz5Rcui8wQESrXKYJlxCH969Uj.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/98810",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nicole Pulliam",
+            "personaggio": "Ce-Ce Washington",
+            "foto_url": "https://image.tmdb.org/t/p/w185/XcJAw0P7bPE9ET52P4fZ2hdokk.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/98811",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Choice Skinner",
+            "personaggio": "Ray-Ray Martin",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tDH2Sz0NmAS6iCJa8bSfXJLxPgq.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/98812",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Olimpia Fernandez",
+            "personaggio": "Charlotte Davis",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/98813",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Rhonda Claerbaut",
+            "personaggio": "Kadja Boszo",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/98814",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Wayland Geremy Boyd",
+            "personaggio": "Officer Mike Donnelly",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/98815",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Bobby Marsden",
+            "personaggio": "Officer Chris White",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/98816",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "In questo sequel, due agenti di custodia minorile devono accompagnare un gruppo di ragazzi urbani inclini al crimine in campagna, dove sono costretti a ristrutturare un rifugio per adolescenti come punizione per i loro reati. Dopo che uno di loro viene colpito da un locale, i sopravvissuti cercano rifugio nella casa di una donna voodoo, dove evocano per errore il leggendario demone con il volto da clown, Killjoy, che inizia a perseguitarli uno dopo l'altro.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/a41tDBrTNfFcRe3gAVfhjlbKdPR.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=Xh3mThPRbI4"
+        },
+        "tmdb_id_scelto": 27712,
+        "imdb_id_scelto": "tt0295369",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:01:16.144Z"
+      },
+      "genre": "horror",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:01:16.144Z",
+      "editor_updated_at": "2026-07-04T22:01:16.144Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "mVntMtT7SgI",
@@ -334168,8 +334350,155 @@
       "is_movie": true,
       "original_title": "Film Completo di Kiefer Sutherland: Woman Wanted (1999) | Romantico",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 84727,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/ui6AtNCP7kkytqXEH1Li1qWP3Nj.jpg",
+      "tmdb_title_official": "Woman Wanted",
+      "tmdb_year_official": 1999,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Woman Wanted",
+        "titolo_originale": "Film Completo di Kiefer Sutherland: Woman Wanted (1999) | Romantico",
+        "anno_uscita": 1999,
+        "durata_minuti": 107,
+        "genere": [
+          "Dramma",
+          "Romance"
+        ],
+        "regista": [
+          "Kiefer Sutherland",
+          "Alan Smithee"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Holly Hunter",
+            "personaggio": "Emma Riley",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kC7KX03VAWvogOCuwKbMo4V6TuU.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/18686",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kiefer Sutherland",
+            "personaggio": "Wendell",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tK5zjdvao2NELns3bqT7PPqPeJI.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2628",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Michael Moriarty",
+            "personaggio": "Richard",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2EY162LDxpVVG6g10lm70uxkNJp.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/21030",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Carrie Preston",
+            "personaggio": "Monica",
+            "foto_url": "https://image.tmdb.org/t/p/w185/Aawu3RmB8ZDha13XIjtDDQF9XfD.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/7465",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Allegra Fulton",
+            "personaggio": "Gracie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hw5zfA4QVLK4WVgtVUfA1oXYn6N.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/180937",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Shirley Douglas",
+            "personaggio": "Peg",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iysfZKbv4Ehdg3nDkwoGTkFp7Yk.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/12452",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sean McCann",
+            "personaggio": "Kevin",
+            "foto_url": "https://image.tmdb.org/t/p/w185/sVT3HB2rIkfgZ87mCiGmYS2OrzF.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/17646",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jackie Richardson",
+            "personaggio": "Lydia",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jIDfdGW26RixUhewLXskCQAoCl8.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/185102",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Richard Eden",
+            "personaggio": "Michael",
+            "foto_url": "https://image.tmdb.org/t/p/w185/974bIxwOZLOnpDo0zvaLf8SIxUE.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/128695",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jordan Zalis",
+            "personaggio": "Raymond (at 13)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3850271",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Dopo la morte della moglie, Richard assume una governante da poco divorziata, Emma. Ben presto si innamora di lei e anche il figlio emotivamente distruttivo, Wendell, si affeziona a Emma, ​​minacciando di distruggere il rapporto già ostile della famiglia.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/ui6AtNCP7kkytqXEH1Li1qWP3Nj.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 84727,
+        "imdb_id_scelto": "tt0158369",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T21:58:40.581Z"
+      },
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T21:58:40.581Z",
+      "editor_updated_at": "2026-07-04T21:58:40.581Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "EwUCm5dmjw4",
@@ -334832,8 +335161,161 @@
       "is_movie": true,
       "original_title": "Film Completo di Robert Towne: Chiedi alla polvere (2006) | Romantico",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 1967,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/952YRidYwrSizyepfkyBHcpAVp7.jpg",
+      "tmdb_title_official": "Chiedi alla polvere",
+      "tmdb_year_official": 2006,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Chiedi alla polvere",
+        "titolo_originale": "Film Completo di Robert Towne: Chiedi alla polvere (2006) | Romantico",
+        "anno_uscita": 2006,
+        "durata_minuti": 117,
+        "genere": [
+          "Romance",
+          "Dramma"
+        ],
+        "regista": [
+          "Robert Towne"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Colin Farrell",
+            "personaggio": "Arturo Bandini",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5FdalJbrbZ5UCsED5rFrXpvbqJa.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/72466",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Salma Hayek Pinault",
+            "personaggio": "Camilla Lopez",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1qfYF7NGRObmeKR7IVXUFVIC0CN.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3136",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Donald Sutherland",
+            "personaggio": "Hellfrick",
+            "foto_url": "https://image.tmdb.org/t/p/w185/yM8WO2BYqFvgQXAvf4CIuCYnY4j.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/55636",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Eileen Atkins",
+            "personaggio": "Mrs. Hargraves",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8gac03PfTFz2vByZi1aun0NiTqM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/20300",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Idina Menzel",
+            "personaggio": "Vera Rivkin",
+            "foto_url": "https://image.tmdb.org/t/p/w185/eGsyJmAZNV5tUU4RYy2DIRlFVpW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/19394",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Justin Kirk",
+            "personaggio": "Sammy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hwPliH9zK3keAYt3uo1ksAlIsNV.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/20301",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "William Mapother",
+            "personaggio": "Bill",
+            "foto_url": "https://image.tmdb.org/t/p/w185/k4TqA37bSoMz1VTyw9wPh3ptGch.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/15338",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tamara Marie Watson",
+            "personaggio": "Sally",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kzNQZIJbTplf2hzXkTMG65nArGx.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/20302",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Dionysio Basco",
+            "personaggio": "Patricio",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jtzK8t7sFPOR6yXc2kZhBVmUSJw.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/20303",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jeremy Crutchley",
+            "personaggio": "Solomon",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cXFWc8L1CyCfzpiBCzmSH5OAzgI.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/20304",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Il giovane Arturo Bandini, figlio di immigrati italiani, sogna di diventare uno scrittore di successo. Dopo essere riuscito a pubblicare un proprio racconto, si trasferisce dal Colorado a Los Angeles, in cerca di fortuna. Qui alloggia in una pensione del quartiere di Bunker Hill. Vagabondando per la città in cerca di esperienze, conosce una cameriera messicana, Camilla Lopez, e intreccia con lei una difficile e tormentata storia d'amore, passionale e burrascosa: sui due amanti incombe lo spettro della povertà e dell'inferiorità sociale.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/952YRidYwrSizyepfkyBHcpAVp7.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=dKvpLU7YXq8"
+        },
+        "tmdb_id_scelto": 1967,
+        "imdb_id_scelto": "tt0384814",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T21:59:43.814Z"
+      },
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T21:59:43.814Z",
+      "editor_updated_at": "2026-07-04T21:59:43.814Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "9DglxeLofrk",
@@ -335185,8 +335667,52 @@
       "is_movie": true,
       "original_title": "Spettacolo Completo: Beppe Grillo in DELIRIO (2008) | Monologo Teatrale",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 403891,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/lHv9OiDnq8EAgY0nh0iaDVZCVPO.jpg",
+      "tmdb_title_official": "Beppe Grillo: Delirio",
+      "tmdb_year_official": 2008,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Beppe Grillo: Delirio",
+        "titolo_originale": "Spettacolo Completo: Beppe Grillo in DELIRIO (2008) | Monologo Teatrale",
+        "anno_uscita": 2008,
+        "durata_minuti": 150,
+        "genere": [
+          "Documentario"
+        ],
+        "regista": [],
+        "cast_principale": [
+          {
+            "nome": "Beppe Grillo",
+            "personaggio": "Beppe GRILLO",
+            "foto_url": "https://image.tmdb.org/t/p/w185/Aje4Yuf00ccLm7wzt4pwo0gNHSM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/224981",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Il Paese è in pieno delirio. I nostri dipendenti in Parlamento sono dentro un manicomio. Tra di loro si capiscono, ma non sanno più cos’è la realtà. La confondono con il oro interessi privati o di partito.  Il futuro sono le centrali nucleari, gli inceneritori, i parcheggi, i ponti sugli stretti, il Tunnel in Val di Susa, il digitale terrestre e la magistratura al guinzaglio. Sono deliri alla Veltrusconi. Le chiamano posizioni dialoganti.  Dipendiamo dall'estero per l'energia e non sfruttiamo le rinnovabili. Dipendiamo dall'estero per i beni alimentari e asfaltiamo i campi di grano.  Abbiamo uno dei più grandi debiti pubblici del mondo e regaliamo cinque miliardi di euro alla Libia. L'Egitto importa dall'Ucraina il pane e noi Chernobyl. La Russia minaccia ritorsioni nucleari per la Georgia e le basi atomiche americane, con 90 testate nucleari, le abbiamo noi, a Ghedi Torre e ad Aviano.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/lHv9OiDnq8EAgY0nh0iaDVZCVPO.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 403891,
+        "imdb_id_scelto": null,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:00:15.191Z"
+      },
+      "genre": "documentario",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:00:15.191Z",
+      "editor_updated_at": "2026-07-04T22:00:15.191Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "Fxtk2pruJ24",
@@ -336083,15 +336609,15 @@
         "tmdb_id_scelto": 1264661,
         "imdb_id_scelto": null,
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-04T14:26:56.343Z"
+        "verificato_editor_at": "2026-07-04T22:00:33.738Z"
       },
       "tmdb_media_type": "movie",
       "genre": "commedia",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-04T14:26:56.343Z",
-      "editor_updated_at": "2026-07-04T14:26:56.343Z",
+      "editor_locked_at": "2026-07-04T22:00:33.738Z",
+      "editor_updated_at": "2026-07-04T22:00:33.738Z",
       "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
