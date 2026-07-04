@@ -227562,160 +227562,167 @@
     {
       "video_id": "hNZcoFkfD_w",
       "is_movie": true,
-      "original_title": "Contract Killers | Tradito dall'agenzia, braccato dal migliore | Film Completo",
+      "original_title": "Contract Killers",
       "channel": "Azione360",
-      "tmdb_id": 13277,
+      "tmdb_id": 264891,
       "tmdb_title_official": "Contract Killers",
-      "tmdb_year_official": 2008,
-      "tmdb_poster_path": "/lfL4koU1lAHwKEQK6hd9VcwnDjS.jpg",
+      "tmdb_year_official": 2014,
+      "tmdb_poster_path": "/7jvVYqB6dmIXVSMnKdl7LfkfpCD.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Contract Killers | Tradito dall'agenzia, braccato dal migliore | Film Completo",
-        "youtube_url": "https://www.youtube.com/watch?v=hNZcoFkfD_w",
         "titolo_italiano": "Contract Killers",
         "titolo_originale": "Contract Killers",
-        "anno_uscita": 2008,
-        "durata_minuti": 98,
+        "anno_uscita": 2014,
+        "durata_minuti": 95,
         "genere": [
           "Azione"
         ],
         "regista": [
-          "Justin Rhodes"
+          "Mathew John Pearson"
         ],
         "cast_principale": [
           {
-            "nome": "Frida Farrell",
-            "personaggio": "Jane",
-            "foto_url": "https://image.tmdb.org/t/p/w185/oBelZkahdsdE84Xbo23cy0ZzcEQ.jpg",
+            "nome": "Renee Cataldo",
+            "personaggio": "Annabella",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qGLnGp8hAfwvQ4eDWQzOlZ7fIve.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/126885",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1310341",
               "verificata": true
             }
           },
           {
-            "nome": "Nick Mancuso",
-            "personaggio": "Witkoff",
-            "foto_url": "https://image.tmdb.org/t/p/w185/sGOtCUJed5lyx4eUOFcKbIKVRDI.jpg",
+            "nome": "Dallas Barnett",
+            "personaggio": "Dorio",
+            "foto_url": "https://image.tmdb.org/t/p/w185/w13CW8cLVLwgNYwXwMau28CJfwI.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/49877",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1001709",
               "verificata": true
             }
           },
           {
-            "nome": "Rhett Giles",
-            "personaggio": "Pernell",
-            "foto_url": "https://image.tmdb.org/t/p/w185/vYCaEMNpSLGqiYZftxhlSkwhtsP.jpg",
+            "nome": "James Trevena",
+            "personaggio": "Marshall",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vN3eLpBs9VOYomcInmvvV4GoG75.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/30066",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1310342",
               "verificata": true
             }
           },
           {
-            "nome": "Christian Willis",
-            "personaggio": "Lars",
+            "nome": "Rob Young",
+            "personaggio": "Lee-Seng",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/2046127",
+              "url_pagina_origine": "https://www.themoviedb.org/person/945248",
               "verificata": false
             }
           },
           {
-            "nome": "G. Anthony Joseph",
-            "personaggio": "Monoven",
-            "foto_url": "https://image.tmdb.org/t/p/w185/tBpJ0C36z7JuWKg1YnPVhkRZYso.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/96749",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Steve Boergadine",
-            "personaggio": "Winston Scott",
+            "nome": "Tony MacIver",
+            "personaggio": "Sebastian Wright",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/192007",
+              "url_pagina_origine": "https://www.themoviedb.org/person/239478",
               "verificata": false
             }
           },
           {
-            "nome": "Wolf Muser",
-            "personaggio": "Targonsky",
-            "foto_url": "https://image.tmdb.org/t/p/w185/pjtffZMshARfyYvFdFJrPqykkXl.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1219524",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Lee Sherman",
-            "personaggio": "Alex",
+            "nome": "Kerry Glamsch",
+            "personaggio": "Callaghan",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/2648203",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3513687",
               "verificata": false
             }
           },
           {
-            "nome": "Paul Cram",
-            "personaggio": "Chuck Dittmer",
-            "foto_url": "https://image.tmdb.org/t/p/w185/o8dKuDujy9KWSYUANNJazwo9qL1.jpg",
+            "nome": "Luke Hawker",
+            "personaggio": "Bowman",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kKLXCalV2OOdtPYWXdGsv7waPXb.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1629900",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1048610",
               "verificata": true
             }
           },
           {
-            "nome": "Justin Smith",
-            "personaggio": "Rick",
-            "foto_url": "https://image.tmdb.org/t/p/w185/m9aW0Q43eiZ68b5Pgu2WxXAHQxB.jpg",
-            "foto_tipo": "foto_attore",
+            "nome": "Fiso Siloata",
+            "personaggio": "Slate",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/108726",
-              "verificata": true
+              "url_pagina_origine": "https://www.themoviedb.org/person/3513688",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Rhys Jordan",
+            "personaggio": "Lukas",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3513689",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Daley Tapa",
+            "personaggio": "Kane",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3513690",
+              "verificata": false
             }
           }
         ],
-        "trama": "Una donna, un'assassina a contratto, avrà problemi quando il suo ultimo incarico non andrà come si aspettava. Improvvisamente sarà inseguita da numerosi cacciatori di taglie che non avranno scrupoli a porre fine alla sua vita...",
+        "trama": "Lee Seng, efficiente e arrogante assassino, ha una sola notte per rintracciare e uccidere la squadra di vigilantes che ha preso di mira i trafficanti di droga della città. Tutto procede secondo i suoi piani fino a quando incontra Marshall, un abile vigilante che sopravvive all'attacco. Con Lee-Seng e altri alle calcagna, Marshall dovrà proteggere non solo se stesso ma anche la giovane Annabella mentre cercherà di capire la verità dietro all'annientamento della sua squadra.",
         "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/lfL4koU1lAHwKEQK6hd9VcwnDjS.jpg",
+        "locandina_url": "https://image.tmdb.org/t/p/w500/7jvVYqB6dmIXVSMnKdl7LfkfpCD.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=CeC6bqZhLNI"
         },
-        "tmdb_id_scelto": 13277
+        "tmdb_id_scelto": 264891,
+        "imdb_id_scelto": "tt1928144",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T08:13:18.635Z"
       },
       "locked": true,
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 4.85,
-      "vote_count": 20
+      "vote_count": 20,
+      "tmdb_media_type": "movie",
+      "genre": "azione",
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T08:13:18.635Z",
+      "editor_updated_at": "2026-07-04T08:13:18.635Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "EAVCfaR3VIk",
@@ -229316,7 +229323,7 @@
     {
       "video_id": "qECP4pTW7K4",
       "is_movie": true,
-      "original_title": "Il Pistolero Segnato da Dio (1968) | Film Completo in Italiano | Azione, Western",
+      "original_title": "Il pistolero segnato da Dio",
       "channel": "Azione360",
       "tmdb_id": 145004,
       "tmdb_title_official": "Il pistolero segnato da Dio",
@@ -229327,8 +229334,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Il Pistolero Segnato da Dio (1968) | Film Completo in Italiano | Azione, Western",
-        "youtube_url": "https://www.youtube.com/watch?v=qECP4pTW7K4",
         "titolo_italiano": "Il pistolero segnato da Dio",
         "titolo_originale": "Il pistolero segnato da Dio",
         "anno_uscita": 1968,
@@ -229455,21 +229460,30 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/7TPc5bS4sH4XrfZmbuh6RY5tjT7.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=Pw5oSfOIYA0"
         },
-        "tmdb_id_scelto": 145004
+        "tmdb_id_scelto": 145004,
+        "imdb_id_scelto": "tt0063440",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T08:14:18.765Z"
       },
       "locked": true,
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 5.75,
-      "vote_count": 4
+      "vote_count": 4,
+      "tmdb_media_type": "movie",
+      "genre": "western",
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T08:14:18.765Z",
+      "editor_updated_at": "2026-07-04T08:14:18.765Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "rSrUxbCIC0A",
@@ -231419,7 +231433,7 @@
     {
       "video_id": "JoC1P7_hiEM",
       "is_movie": true,
-      "original_title": "The Prince - Tempo di uccidere | Azione con Bruce Willis | Film Completo",
+      "original_title": "The Prince",
       "channel": "Azione360",
       "tmdb_id": 241254,
       "tmdb_title_official": "The Prince - Tempo di uccidere",
@@ -231430,8 +231444,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "The Prince - Tempo di uccidere | Azione con Bruce Willis | Film Completo",
-        "youtube_url": "https://www.youtube.com/watch?v=JoC1P7_hiEM",
         "titolo_italiano": "The Prince - Tempo di uccidere",
         "titolo_originale": "The Prince",
         "anno_uscita": 2014,
@@ -231559,21 +231571,30 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/22b2fmxhZveWSyWkgUz2y94fp3w.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=uMNKLvD2F1k"
         },
-        "tmdb_id_scelto": 241254
+        "tmdb_id_scelto": 241254,
+        "imdb_id_scelto": "tt1085492",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T08:15:48.414Z"
       },
       "locked": true,
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 4.926,
-      "vote_count": 511
+      "vote_count": 511,
+      "tmdb_media_type": "movie",
+      "genre": "thriller",
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T08:15:48.414Z",
+      "editor_updated_at": "2026-07-04T08:15:48.414Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "CynhmCHYJi0",
@@ -234403,162 +234424,161 @@
     {
       "video_id": "Zb9o28t3whU",
       "is_movie": true,
-      "original_title": "Trigger Point | Sospetti tra gli attivisti | Film Completo in Italiano",
+      "original_title": "Trigger Point",
       "channel": "Azione360",
-      "tmdb_id": 809314,
-      "tmdb_title_official": "Trigger Point",
-      "tmdb_year_official": 2021,
-      "tmdb_poster_path": "/qlXenN6jjgbsIyEJxBjkfkEU0q8.jpg",
+      "tmdb_id": 371801,
+      "tmdb_title_official": "Un sogno per cambiare",
+      "tmdb_year_official": 2015,
+      "tmdb_poster_path": "/sqV4IeIye6E0ZWB34FGY7g6cM4C.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Trigger Point | Sospetti tra gli attivisti | Film Completo in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=Zb9o28t3whU",
-        "titolo_italiano": "Trigger Point",
+        "titolo_italiano": "Un sogno per cambiare",
         "titolo_originale": "Trigger Point",
-        "anno_uscita": 2021,
-        "durata_minuti": 82,
+        "anno_uscita": 2015,
+        "durata_minuti": 87,
         "genere": [
-          "Azione",
           "Thriller",
-          "Mistero"
+          "televisione film"
         ],
         "regista": [
-          "Brad Turner"
+          "Philippe Gagnon"
         ],
         "cast_principale": [
           {
-            "nome": "Barry Pepper",
-            "personaggio": "Nicolas Shaw",
-            "foto_url": "https://image.tmdb.org/t/p/w185/xBvW4dMoz496rItLQU6TGteYCEP.jpg",
+            "nome": "Jordan Hinson",
+            "personaggio": "Callie Banner",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mmdjSJPtlZy70LFJxMoOI3yOLNa.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/12834",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1226028",
               "verificata": true
             }
           },
           {
-            "nome": "Laura Vandervoort",
-            "personaggio": "Fiona Snow",
-            "foto_url": "https://image.tmdb.org/t/p/w185/y3geQGnFG8Sbr7smthUTa84fv9v.jpg",
+            "nome": "Yani Gellman",
+            "personaggio": "Jared Church",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uALDjgGTQCzUAnzT3FZRTkLaeSH.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/43286",
+              "url_pagina_origine": "https://www.themoviedb.org/person/130936",
               "verificata": true
             }
           },
           {
-            "nome": "Colm Feore",
-            "personaggio": "Elias Kane",
-            "foto_url": "https://image.tmdb.org/t/p/w185/oOxcf1qB1IvVZrBEE1PdrfMiyBK.jpg",
+            "nome": "Allie MacDonald",
+            "personaggio": "Ashley Robinson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pDDzL7HJrV1YX7IojUyNAk7tXLa.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/10132",
+              "url_pagina_origine": "https://www.themoviedb.org/person/226833",
               "verificata": true
             }
           },
           {
-            "nome": "Eve Harlow",
-            "personaggio": "Monica Kane",
-            "foto_url": "https://image.tmdb.org/t/p/w185/b5r8wSdJ6kQM3wPAlMhJ6wHWlD5.jpg",
+            "nome": "Daniel Rindress-Kay",
+            "personaggio": "Patrick Owens",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bnftfIvk8m39BPFdYR53TgpeWPv.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/209723",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1172760",
               "verificata": true
             }
           },
           {
-            "nome": "Rainbow Sun Francks",
-            "personaggio": "Mouthpiece",
-            "foto_url": "https://image.tmdb.org/t/p/w185/7vPUMxOGISy2W7JZbaNIORn8MlC.jpg",
+            "nome": "Alain Goulem",
+            "personaggio": "Miles Banner",
+            "foto_url": "https://image.tmdb.org/t/p/w185/q4mcnNmWyVnWNOH6VuWh7zRpFkt.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1196455",
+              "url_pagina_origine": "https://www.themoviedb.org/person/21292",
               "verificata": true
             }
           },
           {
-            "nome": "Jayne Eastwood",
-            "personaggio": "Irene Cole",
-            "foto_url": "https://image.tmdb.org/t/p/w185/cL75FbJRKDdpvkOJDUgUYPZHKks.jpg",
+            "nome": "Meghan Gabruch",
+            "personaggio": "Brianna Heath",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3frKqsiKimp13PnLHdl9YLSxaEX.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/4568",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1466533",
               "verificata": true
             }
           },
           {
-            "nome": "Brian Cook",
-            "personaggio": "Oliver Stowell",
-            "foto_url": "https://image.tmdb.org/t/p/w185/xEjnWP7di5cOaKRwxw8ErDiv9r1.jpg",
+            "nome": "Dusan Dukic",
+            "personaggio": "Kieran Conner",
+            "foto_url": "https://image.tmdb.org/t/p/w185/we7xOgH5shk0AgukAwMHdKzEm4o.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1411181",
+              "url_pagina_origine": "https://www.themoviedb.org/person/84832",
               "verificata": true
             }
           },
           {
-            "nome": "Tim Progosh",
-            "personaggio": "Sheriff",
-            "foto_url": "https://image.tmdb.org/t/p/w185/1Uba9mAENVwxFqFd5D9aoL3s6ZB.jpg",
+            "nome": "Jaa Smith-Johnson",
+            "personaggio": "Darby Merriman",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uwXlOOR4F2ZzLcJNej0NWBux1fN.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/44236",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1519259",
               "verificata": true
             }
           },
           {
-            "nome": "Juan Carlos Velis",
-            "personaggio": "The Mechanic",
-            "foto_url": "https://image.tmdb.org/t/p/w185/zIrl9gmXA5pQYcuR4DhWPejH5Su.jpg",
+            "nome": "Sean Colby",
+            "personaggio": "Hugh Franklin",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ryFDXt2hoFkscOb3GX4giXWIi8o.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1360969",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1776837",
               "verificata": true
             }
           },
           {
-            "nome": "Reid Janisse",
-            "personaggio": "Auto Patron",
-            "foto_url": "https://image.tmdb.org/t/p/w185/bRDCgmKfPbeteplKHJBvACV5Fx8.jpg",
+            "nome": "Cary Lawrence",
+            "personaggio": "Annette Parker",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oIuWz2lckgZ1v7sBhxk2hLH2RAF.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1793723",
+              "url_pagina_origine": "https://www.themoviedb.org/person/190046",
               "verificata": true
             }
           }
         ],
-        "trama": "Nicolas Shaw è un agente speciale americano in pensione che entra a far parte di una squadra d'élite \"invisibile\" che elimina silenziosamente i peggiori criminali in tutto il mondo.",
+        "trama": "Callie si trova coinvolta nelle dinamiche della grande industria e decide di unirsi a un gruppo di attivisti per fare qualcosa al riguardo.",
         "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/qlXenN6jjgbsIyEJxBjkfkEU0q8.jpg",
-        "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
-        },
-        "tmdb_id_scelto": 809314
+        "locandina_url": "https://image.tmdb.org/t/p/w500/sqV4IeIye6E0ZWB34FGY7g6cM4C.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 371801,
+        "imdb_id_scelto": "tt3881192",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T08:09:06.367Z"
       },
       "locked": true,
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 6.225,
-      "vote_count": 209
+      "vote_count": 209,
+      "tmdb_media_type": "movie",
+      "genre": "thriller",
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T08:09:06.367Z",
+      "editor_updated_at": "2026-07-04T08:09:06.367Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "sqq60VjuUhY",
