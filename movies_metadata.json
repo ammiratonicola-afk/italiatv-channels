@@ -292929,24 +292929,21 @@
     {
       "video_id": "aG_WTK0Djj8",
       "is_movie": true,
-      "original_title": "Ultimo addio al nubilato (2023) - Il killer mascherato Film Completo 4K",
+      "original_title": "Prey for the Bride",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 1236706,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Ultimo addio al nubilato (2023) - Il killer mascherato Film Completo 4K",
-        "youtube_url": "https://www.youtube.com/watch?v=aG_WTK0Djj8",
-        "titolo_corretto": "Ultimo addio al nubilato",
         "titolo_italiano": "Ultimo addio al nubilato",
         "titolo_originale": "Prey for the Bride",
         "anno_uscita": 2025,
         "durata_minuti": 92,
         "genere": [
+          "Horror",
           "Thriller",
-          "Slasher",
-          "Mistero"
+          "televisione film"
         ],
         "regista": [
           "Danny J. Boyle"
@@ -292965,7 +292962,7 @@
           },
           {
             "nome": "Getenesh Berhe",
-            "personaggio": "Tess",
+            "personaggio": "Dorit",
             "foto_url": "https://image.tmdb.org/t/p/w185/yqPT0hdr7wiKV4xx53HSq22zxv4.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -292976,7 +292973,7 @@
           },
           {
             "nome": "Megan Peta Hill",
-            "personaggio": "Mia",
+            "personaggio": "Jordan",
             "foto_url": "https://image.tmdb.org/t/p/w185/1ZUxkw817g62QhjMg5SxNLplnM6.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -292998,7 +292995,7 @@
           },
           {
             "nome": "Jacky Lai",
-            "personaggio": "Leanne",
+            "personaggio": "Brooke",
             "foto_url": "https://image.tmdb.org/t/p/w185/os2Mpyuku25ylGrZtXea3QzQbsN.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -293006,93 +293003,57 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/1772357",
               "verificata": true
             }
-          }
-        ],
-        "trama": "Un gruppo di amiche si riunisce per un addio al nubilato in una casa isolata, ma la festa si trasforma in un incubo quando un killer mascherato inizia a perseguitarle. Le ragazze devono affrontare un segreto del passato mentre lottano per sopravvivere.",
-        "lingua_trama_originale": "en",
-        "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/3Rs7L8RhBzpQsaw1qJYlw3ESrsS.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/1236706",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
-        "trailer": {
-          "url": "https://www.youtube.com/watch?v=gOsobP1syYw",
-          "lingua": "en",
-          "fonte": "YouTube",
-          "canale": "Official Trailer",
-          "ufficiale": true,
-          "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
-        },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/1236706"
           },
           {
-            "nome": "IMDb",
-            "url": "https://www.imdb.com/title/tt30493168"
+            "nome": "Brad Harder",
+            "personaggio": "Greg",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iIJCKi8LFL4FLwEu4gWh37bYgnd.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1727679",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marnie Mahannah",
+            "personaggio": "Lauren",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bzruhttEqD86Le9dB1KqqCU7fVA.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2414701",
+              "verificata": true
+            }
           }
         ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Ultimo addio al nubilato",
-            "Prey for the Bride"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": 2023,
-          "durata_video_youtube": "92 min",
-          "attori_trovati": [
-            "Getenesh Berhe",
-            "Megan Peta Hill",
-            "Jacky Lai"
-          ],
-          "registi_trovati": [
-            "Danny J. Boyle"
-          ],
-          "parole_chiave_trama": [
-            "addio al nubilato",
-            "killer mascherato",
-            "segreto",
-            "vendetta",
-            "sopravvivenza"
-          ]
+        "trama": "Jordan, prossima alle nozze con Greg, organizza l'addio al nubilato con le sue amiche nella casa di famiglia di Brooke. Ma i festeggiamenti prendono una piega inquietante quando un uomo mascherato le perseguita e oscure verità emergono: le amiche, Greg e persino Jordan sono coinvolti nel suicidio del suo ex fidanzato.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/3Rs7L8RhBzpQsaw1qJYlw3ESrsS.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=gOsobP1syYw"
         },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "media",
-          "corrispondenza_durata": "alta",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film corrisponde per titolo, durata, regista, cast e trama con il candidato TMDB."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "titolo italiano",
-            "durata",
-            "regista",
-            "cast",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "anno"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "IMDb"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "Il film è stato identificato con alta certezza grazie alla corrispondenza di più elementi chiave tra le fonti disponibili.",
         "tmdb_id_scelto": 1236706,
-        "imdb_id_scelto": "tt30493168"
-      }
+        "imdb_id_scelto": "tt30493168",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:26:57.048Z"
+      },
+      "tmdb_poster_path": "/3Rs7L8RhBzpQsaw1qJYlw3ESrsS.jpg",
+      "tmdb_title_official": "Ultimo addio al nubilato",
+      "tmdb_year_official": 2025,
+      "tmdb_media_type": "movie",
+      "genre": "horror",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:26:57.048Z",
+      "editor_updated_at": "2026-07-04T22:26:57.048Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "Tv_jNF8aCfE",
@@ -293420,23 +293381,20 @@
     {
       "video_id": "t8FjDAc1eS8",
       "is_movie": true,
-      "original_title": "Fuggire da un Destino Già Scritto | A Romance Wedding (4K)",
+      "original_title": "Once Upon a Wedding",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 251832,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Fuggire da un Destino Già Scritto | A Romance Wedding (4K)",
-        "youtube_url": "https://www.youtube.com/watch?v=t8FjDAc1eS8",
-        "titolo_corretto": "Once Upon a Wedding",
-        "titolo_italiano": null,
+        "titolo_italiano": "Once Upon a Wedding",
         "titolo_originale": "Once Upon a Wedding",
         "anno_uscita": 2005,
         "durata_minuti": 91,
         "genere": [
           "Commedia",
-          "Romantico"
+          "Romance"
         ],
         "regista": [
           "Matia Karrell"
@@ -293478,12 +293436,12 @@
           {
             "nome": "Valeria Andrews",
             "personaggio": "Jennifer",
-            "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "foto_url": "https://static.tvmaze.com/uploads/images/medium_portrait/107/268359.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": null,
-              "verificata": false
+              "nome": "TVMaze",
+              "url_pagina_origine": "https://www.tvmaze.com/people/171506/valeria-andrews",
+              "verificata": true
             }
           },
           {
@@ -293496,95 +293454,57 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/58982",
               "verificata": true
             }
+          },
+          {
+            "nome": "Michael Irby",
+            "personaggio": "Lewis",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9cX8pKujyAlOyqGSAgvKNdA3qRj.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/124304",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Cristián de la Fuente",
+            "personaggio": "Manolo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qKIVXZVlZQ11AzpWvSUIeQVrO3x.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/66143",
+              "verificata": true
+            }
           }
         ],
-        "trama": "Una settimana prima del suo matrimonio, una donna investe un uomo in un incidente d'auto. Mentre lo aiuta a guarire, inizia a mettere in dubbio la direzione della sua vita. Suo padre, un potente dittatore, non accetta cambiamenti nei suoi piani.",
-        "lingua_trama_originale": "en",
+        "trama": "Una settimana prima del suo matrimonio, una donna provoca un incidente stradale che ferisce un uomo. Mentre lo aiuta a riprendersi, inizia a dubitare della direzione che sta prendendo la sua vita. Suo padre, un potente dittatore, non è affatto contento di questo cambiamento di piani.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/fcAKXgC1gDD2ZPPoWC1cQd7wEuX.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/251832-once-upon-a-wedding",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": "Da verificare via TMDB videos endpoint"
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt0363269/videogallery/content_type-trailer"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/251832-once-upon-a-wedding"
-          },
-          {
-            "nome": "IMDb",
-            "url": "https://www.imdb.com/title/tt0363269/"
-          },
-          {
-            "nome": "OMDb",
-            "url": "http://www.omdbapi.com/?i=tt0363269"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Once Upon a Wedding"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": 2005,
-          "durata_video_youtube": "83 min",
-          "attori_trovati": [
-            "Esai Morales",
-            "A Martinez",
-            "Charlotte Ayanna"
-          ],
-          "registi_trovati": [
-            "Matia Karrell"
-          ],
-          "parole_chiave_trama": [
-            "matrimonio",
-            "incidente d'auto",
-            "dittatore",
-            "amore proibito"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film 'Once Upon a Wedding' del 2005 corrisponde per titolo, anno, cast, regista e trama con i dati forniti."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "cast principale",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "durata"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "IMDb",
-            "OMDb"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "La durata del video YouTube è leggermente inferiore alla durata ufficiale del film, ma la corrispondenza degli altri elementi è forte.",
         "tmdb_id_scelto": 251832,
-        "imdb_id_scelto": "tt0363269"
-      }
+        "imdb_id_scelto": "tt0363269",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:27:50.030Z"
+      },
+      "tmdb_poster_path": "/fcAKXgC1gDD2ZPPoWC1cQd7wEuX.jpg",
+      "tmdb_title_official": "Once Upon a Wedding",
+      "tmdb_year_official": 2005,
+      "tmdb_media_type": "movie",
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:27:50.030Z",
+      "editor_updated_at": "2026-07-04T22:27:50.030Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "mPHdmK7_X-U",
@@ -301716,24 +301636,21 @@
     {
       "video_id": "AbSIc5pf0Hk",
       "is_movie": true,
-      "original_title": "Il Capolavoro del Brivido: Il Bacio della Pantera (1942) | Film Completo Noir",
+      "original_title": "Cat People",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 25508,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Il Capolavoro del Brivido: Il Bacio della Pantera (1942) | Film Completo Noir",
-        "youtube_url": "https://www.youtube.com/watch?v=AbSIc5pf0Hk",
-        "titolo_corretto": "Il bacio della pantera",
         "titolo_italiano": "Il bacio della pantera",
         "titolo_originale": "Cat People",
         "anno_uscita": 1942,
         "durata_minuti": 73,
         "genere": [
-          "Fantasy",
+          "Mistero",
           "Horror",
-          "Thriller"
+          "Romance"
         ],
         "regista": [
           "Jacques Tourneur"
@@ -301793,96 +301710,83 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/93910",
               "verificata": true
             }
+          },
+          {
+            "nome": "Henrietta Burnside",
+            "personaggio": "Sue Ellen (uncredited)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1550939",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Alec Craig",
+            "personaggio": "Zookeeper (uncredited)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/sLB2tMxIiCo6q1kQ9m7rWMWKNs4.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/22606",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Eddie Dew",
+            "personaggio": "Street Policeman (uncredited)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7NxwyQTp9lhEY5qkm1cjMf0EPmH.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1230787",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Elizabeth Dunne",
+            "personaggio": "Mrs. Plunkett (uncredited)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1437089",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Dot Farley",
+            "personaggio": "Mrs. Agnew (uncredited)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/sMOaVJca2FnFIRUs6L8zIuXAZnV.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/945877",
+              "verificata": true
+            }
           }
         ],
-        "trama": "Irena Dubrovna, una stilista serba che vive a New York, è convinta di discendere da una stirpe che si trasforma in pantere quando sopraffatta dalla passione. Dopo il matrimonio con Oliver Reed, la sua paura della maledizione cresce, portando tensione e terrore nella loro vita.",
-        "lingua_trama_originale": "en",
+        "trama": "Il giovane ingegnere Oliver conosce allo zoo l'affascinante Irene, una ragazza di origine slava. In breve i due si innamorano e si sposano. Tutto filerebbe a meraviglia se non fosse che Irene si rifiuta di baciare il marito perché teme un'antica maledizione della sua terra. Secondo una leggenda infatti le donne come lei si tramutano in pantera ogni volta che baciano un uomo.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/amSFvN7bdQtYWOxPrPxx5mrJyTv.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/25508-cat-people",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
-        "trailer": {
-          "url": "https://www.youtube.com/watch?v=w-MIQyzBWHs",
-          "lingua": "en",
-          "fonte": "YouTube",
-          "canale": "Cat People • 1942 • Theatrical Trailer",
-          "ufficiale": false,
-          "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
-        },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/25508-cat-people"
-          },
-          {
-            "nome": "OMDb",
-            "url": "http://www.omdbapi.com/?i=tt0034587"
-          },
-          {
-            "nome": "Wikipedia IT",
-            "url": "https://it.wikipedia.org/wiki/Il_bacio_della_pantera_(film_1942)"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Il Bacio della Pantera",
-            "Cat People"
-          ],
-          "titolo_originale_trovato_nella_descrizione": "Cat People",
-          "anno_trovato": 1942,
-          "durata_video_youtube": "73 min",
-          "attori_trovati": [
-            "Simone Simon",
-            "Kent Smith",
-            "Tom Conway"
-          ],
-          "registi_trovati": [
-            "Jacques Tourneur"
-          ],
-          "parole_chiave_trama": [
-            "pantere",
-            "maledizione",
-            "matrimonio",
-            "gelosia",
-            "terrore"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "alta",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Tutti gli elementi principali (titolo, anno, durata, cast, regista, trama) coincidono perfettamente con il film del 1942 'Il bacio della pantera'."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 100,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "durata",
-            "cast principale",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [],
-          "fonti_concordanti": [
-            "TMDB",
-            "OMDb",
-            "Wikipedia IT"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "",
+        "trailer": null,
         "tmdb_id_scelto": 25508,
-        "imdb_id_scelto": "tt0034587"
-      }
+        "imdb_id_scelto": "tt0034587",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:32:02.979Z"
+      },
+      "tmdb_poster_path": "/amSFvN7bdQtYWOxPrPxx5mrJyTv.jpg",
+      "tmdb_title_official": "Il bacio della pantera",
+      "tmdb_year_official": 1942,
+      "tmdb_media_type": "movie",
+      "genre": "horror",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:32:02.979Z",
+      "editor_updated_at": "2026-07-04T22:32:02.979Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "wtdvVIQAEzY",
@@ -308069,23 +307973,19 @@
     {
       "video_id": "RfHzPEB5HaU",
       "is_movie": true,
-      "original_title": "\"RESTIAMO AMICI\" con Michele Riondino | Commedia HD | Film Completo in Italiano",
+      "original_title": "Restiamo amici",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 605507,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "RESTIAMO AMICI con Michele Riondino | Commedia HD | Film Completo in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=RfHzPEB5HaU",
-        "titolo_corretto": "Restiamo amici",
         "titolo_italiano": "Restiamo amici",
         "titolo_originale": "Restiamo amici",
         "anno_uscita": 2019,
         "durata_minuti": 87,
         "genere": [
-          "Commedia",
-          "Dramma"
+          "Commedia"
         ],
         "regista": [
           "Antonello Grimaldi"
@@ -308093,7 +307993,7 @@
         "cast_principale": [
           {
             "nome": "Michele Riondino",
-            "personaggio": "Alessandro",
+            "personaggio": "Alessandro Colonna",
             "foto_url": "https://image.tmdb.org/t/p/w185/9ipWrqJVYjZk0c2j2yDAEKZd2Fu.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -308104,23 +308004,12 @@
           },
           {
             "nome": "Alessandro Roja",
-            "personaggio": "Leo",
+            "personaggio": "Gigi",
             "foto_url": "https://image.tmdb.org/t/p/w185/9P2EOna0Cof2xnGX2C82fkj7e1D.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
               "url_pagina_origine": "https://www.themoviedb.org/person/125699",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Libero De Rienzo",
-            "personaggio": "Gigi",
-            "foto_url": "https://image.tmdb.org/t/p/w185/eLbBPlP2uN5dUcomDOYUvAb7uVw.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/7707",
               "verificata": true
             }
           },
@@ -308134,96 +308023,113 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/44649",
               "verificata": true
             }
+          },
+          {
+            "nome": "Sveva Alviti",
+            "personaggio": "Marta Rossi",
+            "foto_url": "https://image.tmdb.org/t/p/w185/sU9x3KL3RTMUWcvk9qcur7Lryrk.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1383737",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Libero De Rienzo",
+            "personaggio": "Leo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/eLbBPlP2uN5dUcomDOYUvAb7uVw.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/7707",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mirko Trovato",
+            "personaggio": "Giacomo Colonna",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pxa0FqyCmdtM9YELn5hW04adBP1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2034811",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ivano Marescotti",
+            "personaggio": "Brenner",
+            "foto_url": "https://image.tmdb.org/t/p/w185/shwCKrpofKBMvgrHZqgRzDZEOF5.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/15918",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lidia Vitale",
+            "personaggio": "Anna",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8IXqzKAqVqeT6b9pP8WGH5mTF7d.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/128224",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gioia Libardoni",
+            "personaggio": "Clara",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fnQXZsQk3YrA2MweUH9hfdAVtrb.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1782235",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Desirée Popper",
+            "personaggio": "Monique",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oDagbUFnKK0HS7D8w7uoZ5LUj5x.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2448395",
+              "verificata": true
+            }
           }
         ],
-        "trama": "Alessandro, un pediatra vedovo, vive una vita monotona con il figlio adolescente. La sua routine viene sconvolta da una telefonata dal Brasile: il suo amico d'infanzia Gigi è morto, lasciandogli un'eredità con una condizione particolare. Alessandro deve dimostrare di essere padre per ottenere i soldi, il che lo porta a una serie di avventure comiche.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Tratto dal romanzo di Bruno Burbi “Si può essere amici per sempre”, RESTIAMO AMICI racconta la storia di Alessandro (Michele Riondino), pediatra di quarant'anni, che vive con il figlio adolescente Giacomo. Da quando ha perso la moglie conduce una vita monotona e ritirata.  Un giorno riceve una telefonata dal Brasile: è Luigi, l'amico di sempre (Alessandro Roja) che gli chiede di raggiungerlo immediatamente.  Alessandro parte subito, ma giunto a destinazione scopre che l'allarme lanciato è una menzogna e che in realtà Luigi ha architettato uno stratagemma per impossessarsi di 3 milioni di euro. Il padre gli ha appena lasciato una grossa eredità vincolata, destinata a un nipote.  Luigi però non ha figli.  Quale piano ha intenzione di escogitare?",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/fZIq7oBI44kbjJ3vIDmhkNz46Hr.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/605507-restiamo-amici",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
           "url": "https://www.youtube.com/watch?v=pZ3HZNSz2zQ",
           "lingua": "it",
           "fonte": "YouTube",
-          "canale": "RESTIAMO AMICI di Antonello Grimaldi (2019) - Trailer Ufficiale HD",
-          "ufficiale": true,
+          "canale": null,
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
+          "motivo_verifica": "trailer YouTube"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/605507-restiamo-amici"
-          },
-          {
-            "nome": "IMDb",
-            "url": "https://www.imdb.com/title/tt7714878/"
-          },
-          {
-            "nome": "Wikipedia IT",
-            "url": "https://it.wikipedia.org/wiki/Restiamo_amici"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Restiamo amici"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": null,
-          "durata_video_youtube": "84 min",
-          "attori_trovati": [
-            "Michele Riondino",
-            "Alessandro Roja",
-            "Libero De Rienzo",
-            "Violante Placido"
-          ],
-          "registi_trovati": [
-            "Antonello Grimaldi"
-          ],
-          "parole_chiave_trama": [
-            "pediatra",
-            "vedovo",
-            "figlio",
-            "Brasile",
-            "eredità",
-            "avventure comiche"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "alta",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Tutti gli elementi principali (titolo, anno, durata, cast, trama) coincidono perfettamente con i dati forniti dalle fonti."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 100,
-          "elementi_confermati": [
-            "titolo",
-            "anno",
-            "durata",
-            "cast",
-            "trama"
-          ],
-          "elementi_non_confermati": [],
-          "fonti_concordanti": [
-            "TMDB",
-            "IMDb",
-            "Wikipedia IT"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "",
         "tmdb_id_scelto": 605507,
-        "imdb_id_scelto": "tt7714878"
-      }
+        "imdb_id_scelto": "tt7714878",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:31:12.423Z"
+      },
+      "tmdb_poster_path": "/fZIq7oBI44kbjJ3vIDmhkNz46Hr.jpg",
+      "tmdb_title_official": "Restiamo amici",
+      "tmdb_year_official": 2019,
+      "tmdb_media_type": "movie",
+      "genre": "commedia",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:31:12.423Z",
+      "editor_updated_at": "2026-07-04T22:31:12.423Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "ouC9a1_hQrY",
@@ -309450,16 +309356,13 @@
     {
       "video_id": "tCygcDv8vZE",
       "is_movie": true,
-      "original_title": "Duelli, oro e vendetta in \"Uccidi Django... uccidi per primo!\" | Film Western Completo in HD",
+      "original_title": "Uccidi Django... uccidi per primo!",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 149691,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Duelli, oro e vendetta in \"Uccidi Django... uccidi per primo!\" | Film Western Completo in HD",
-        "youtube_url": "https://www.youtube.com/watch?v=tCygcDv8vZE",
-        "titolo_corretto": "Uccidi Django... uccidi per primo!",
         "titolo_italiano": "Uccidi Django... uccidi per primo!",
         "titolo_originale": "Uccidi Django... uccidi per primo!",
         "anno_uscita": 1971,
@@ -309473,34 +309376,12 @@
         "cast_principale": [
           {
             "nome": "Giacomo Rossi Stuart",
-            "personaggio": "Johnny",
+            "personaggio": "Johnny MaGee / Django",
             "foto_url": "https://image.tmdb.org/t/p/w185/mHy2Yc93UADNPkw2hnThrsnjyLh.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
               "url_pagina_origine": "https://www.themoviedb.org/person/22479",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Krista Nell",
-            "personaggio": "Julia -Amante di Burton-",
-            "foto_url": "https://image.tmdb.org/t/p/w185/6mkaOSmIPe0i4JYJW9fOVkv3zXg.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/33802",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Aldo Sambrell",
-            "personaggio": "Martinez",
-            "foto_url": "https://image.tmdb.org/t/p/w185/lJsoZtOeNaer5jZSydSjONL32xp.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/49895",
               "verificata": true
             }
           },
@@ -309516,6 +309397,17 @@
             }
           },
           {
+            "nome": "Aldo Sambrell",
+            "personaggio": "Burton",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lJsoZtOeNaer5jZSydSjONL32xp.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/49895",
+              "verificata": true
+            }
+          },
+          {
             "nome": "Pietro Tordi",
             "personaggio": "Le shérif",
             "foto_url": "https://image.tmdb.org/t/p/w185/kIpvNHHea2rPIUCoiNy9g8UpK3e.jpg",
@@ -309525,97 +309417,101 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/543681",
               "verificata": true
             }
+          },
+          {
+            "nome": "Krista Nell",
+            "personaggio": "Julia -Amante di Burton-",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6mkaOSmIPe0i4JYJW9fOVkv3zXg.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/33802",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Diana Lorys",
+            "personaggio": "Money",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9IsTek7E7ekJbXvq3pInR63jLGt.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/97635",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Silvio Bagolini",
+            "personaggio": "Thomas Livingstone",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mq9YQuGNzTjcTihl8k6TQnStHiM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/999783",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "John Benedy",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/28TxKqNSTrrxkWdIO0ZbP3RzYAs.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1357042",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mario Novelli",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/y8QDhsMXe5vWE18xqQuTWSBgC6V.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/240906",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Umberto Di Grazia",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/8KatWXjOTZQbPUjkPxqP2DZLLfz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1016052",
+              "verificata": true
+            }
           }
         ],
-        "trama": "Nel selvaggio West, il banchiere Burton cerca di impossessarsi delle miniere d'oro con l'aiuto del bandito Martinez. Johnny, un pistolero determinato, si oppone per difendere gli innocenti e ristabilire la giustizia.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Johnny combatte il banchiere Burton, che cerca di acquisire, con l'aiuto del misterioso bandito Martinez, in modo illecito, tutte le miniere d'oro nei dintorni.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/dg5x3KjGUyvnheHFpZOt3CcEFRt.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/149691",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": "Da verificare via TMDB videos endpoint"
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt0070781/videogallery/content_type-trailer"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/149691"
-          },
-          {
-            "nome": "Wikipedia IT",
-            "url": "https://it.wikipedia.org/wiki/Uccidi_Django..._uccidi_per_primo!!!"
-          },
-          {
-            "nome": "OMDb",
-            "url": "http://www.omdbapi.com/"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Uccidi Django... uccidi per primo!"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": 1971,
-          "durata_video_youtube": "80 min",
-          "attori_trovati": [
-            "Giacomo Rossi Stuart",
-            "Krista Nell",
-            "Aldo Sambrell"
-          ],
-          "registi_trovati": [
-            "Sergio Garrone"
-          ],
-          "parole_chiave_trama": [
-            "West",
-            "oro",
-            "banchiere",
-            "bandito",
-            "pistolero",
-            "giustizia"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film corrisponde per titolo, anno, regista, cast e trama con i dati forniti e le fonti verificate."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "regista",
-            "cast principale",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "durata"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "Wikipedia IT",
-            "OMDb"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "La durata del video YouTube è leggermente inferiore alla durata ufficiale del film, ma la corrispondenza degli altri elementi è forte.",
         "tmdb_id_scelto": 149691,
-        "imdb_id_scelto": "tt0070781"
-      }
+        "imdb_id_scelto": "tt0070781",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:28:13.295Z"
+      },
+      "tmdb_poster_path": "/dg5x3KjGUyvnheHFpZOt3CcEFRt.jpg",
+      "tmdb_title_official": "Uccidi Django... uccidi per primo!",
+      "tmdb_year_official": 1971,
+      "tmdb_media_type": "movie",
+      "genre": "western",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:28:13.295Z",
+      "editor_updated_at": "2026-07-04T22:28:13.295Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "q3VlE4jHNJs",
@@ -314956,23 +314852,20 @@
     {
       "video_id": "0ZF9RhDt0Fw",
       "is_movie": true,
-      "original_title": "Quello che resta di noi - Legami Mortali HD | Thriller | Film completo in italiano",
+      "original_title": "Thicker Than Water",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 601722,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Quello che resta di noi - Legami Mortali HD | Thriller | Film completo in italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=0ZF9RhDt0Fw",
-        "titolo_corretto": "Legami Mortali",
-        "titolo_italiano": "Legami Mortali",
+        "titolo_italiano": "Più denso dell'acqua",
         "titolo_originale": "Thicker Than Water",
         "anno_uscita": 2019,
         "durata_minuti": 90,
         "genere": [
-          "Dramma",
-          "Thriller"
+          "Thriller",
+          "televisione film"
         ],
         "regista": [
           "Caroline Labrèche"
@@ -314980,7 +314873,7 @@
         "cast_principale": [
           {
             "nome": "Andrea Roth",
-            "personaggio": "Page Petrovic",
+            "personaggio": "Paige",
             "foto_url": "https://image.tmdb.org/t/p/w185/upv6wjBLhbHY4uadqEovtxvxVr4.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -314991,7 +314884,7 @@
           },
           {
             "nome": "Eric Osborne",
-            "personaggio": "Nathan Petrovic",
+            "personaggio": "Brandon Wilson",
             "foto_url": "https://image.tmdb.org/t/p/w185/v2zPLIr6X1eiwVg2R8ZsnicSQe3.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -315002,7 +314895,7 @@
           },
           {
             "nome": "Tygh Runyan",
-            "personaggio": "Brandon Will",
+            "personaggio": "Nathan",
             "foto_url": "https://image.tmdb.org/t/p/w185/59Ny2pG5R2aXDUJvTvyDqHI8sCW.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -315032,93 +314925,83 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/1236003",
               "verificata": true
             }
-          }
-        ],
-        "trama": "Dopo la morte del figlio Zach per overdose, la famiglia Petrovic cerca di ricostruire le proprie vite. Mentre Nathan e Addie affrontano il lutto, Page, la madre, è consumata dal dolore. L'arrivo di un nuovo inquilino sembra portare un cambiamento, ma le sfide emotive e psicologiche restano.",
-        "lingua_trama_originale": "en",
-        "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/cw02KZWwpURUXUzk03PpxOJCuIU.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/601722",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
-        "trailer": {
-          "url": "https://www.youtube.com/watch?v=MtJH9W31zt4",
-          "lingua": "en",
-          "fonte": "YouTube",
-          "canale": "THICKER THAN WATER aka THE TWISTED SON - Trailer (starring Andrea Roth)",
-          "ufficiale": true,
-          "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
-        },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/601722"
           },
           {
-            "nome": "Wikipedia IT",
-            "url": "https://it.wikipedia.org/wiki/Legami_mortali"
+            "nome": "Josh Johnston",
+            "personaggio": null,
+            "foto_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDOusRL4QdHkv0-yzUKo3ClyFKztHwQ6JriDV6eJ_1t9icJ4j-DKOiDBtL&s=10",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Brian Froud",
+            "personaggio": "Robert",
+            "foto_url": "https://image.tmdb.org/t/p/w185/z8KZIjWmluNc5fRHXfgSZkftZ0a.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1240158",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Florence Situ",
+            "personaggio": "Doctor",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kqoCtkfrg5vduHwy4Ex7ugT7Slj.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1674980",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kayleigh Choiniere",
+            "personaggio": "Cute Girl",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qf4Ip0DepQSrSquOPf8BXY2HAHs.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2310158",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ksenia Thurgood",
+            "personaggio": "Stacey",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qYERPQaa5FLEsUH3qFWbKnFGXsQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2363941",
+              "verificata": true
+            }
           }
         ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Legami Mortali",
-            "Thicker Than Water"
-          ],
-          "titolo_originale_trovato_nella_descrizione": "Thicker Than Water",
-          "anno_trovato": 2019,
-          "durata_video_youtube": "86 min",
-          "attori_trovati": [
-            "Andrea Roth",
-            "Eric Osborne",
-            "Tygh Runyan"
-          ],
-          "registi_trovati": [
-            "Caroline Labrèche"
-          ],
-          "parole_chiave_trama": [
-            "lutto",
-            "overdose",
-            "perdita",
-            "guarigione",
-            "relazioni familiari",
-            "dolore",
-            "accettazione"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film 'Legami Mortali' del 2019 corrisponde per titolo originale, anno, cast e trama con i dati forniti."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "cast principale",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "durata"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "Wikipedia IT"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "Il film è stato identificato con alta certezza grazie alla corrispondenza di titolo, anno, cast e trama tra le fonti disponibili.",
+        "trama": "Paige e Nathan Petrovic hanno perso tragicamente il figlio adolescente Zach da un anno. Nathan e la figlia Addie stanno lentamente ricostruendo le loro esistenze mentre Paige, consumata dal dolore, è incapace di riprendere a lavorare. Per arrotondare, la famiglia decide di affittare una stanza della loro abitazione. A sorpresa, Paige sembra riprendersi con l'arrivo del nuovo inquilino Brandon Willis, uno studente che le ricorda in qualche modo il figlio. Ciò che dapprima per i Petrovic sembra una fortuna rivelerà però presto un lato molto oscuro...",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/cw02KZWwpURUXUzk03PpxOJCuIU.jpg",
+        "trailer": null,
         "tmdb_id_scelto": 601722,
-        "imdb_id_scelto": "tt8955144"
-      }
+        "imdb_id_scelto": "tt8955144",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:29:00.955Z"
+      },
+      "tmdb_poster_path": "/cw02KZWwpURUXUzk03PpxOJCuIU.jpg",
+      "tmdb_title_official": "Più denso dell'acqua",
+      "tmdb_year_official": 2019,
+      "tmdb_media_type": "movie",
+      "genre": "thriller",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:29:00.955Z",
+      "editor_updated_at": "2026-07-04T22:29:00.955Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "SpOa7m-acwU",
@@ -319730,49 +319613,24 @@
     {
       "video_id": "TvHgVx5OtCY",
       "is_movie": true,
-      "original_title": "Napoli nel 1967: Il Nero di Giovanni Vento | Film Completo",
+      "original_title": "Il nero",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 763292,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Napoli nel 1967: Il Nero di Giovanni Vento | Film Completo",
-        "youtube_url": "https://www.youtube.com/watch?v=TvHgVx5OtCY",
-        "titolo_corretto": "Il nero",
         "titolo_italiano": "Il nero",
         "titolo_originale": "Il nero",
         "anno_uscita": 1966,
         "durata_minuti": 103,
         "genere": [
-          "Drammatico"
+          "Dramma"
         ],
         "regista": [
           "Giovanni Vento"
         ],
         "cast_principale": [
-          {
-            "nome": "Joy Nwosu",
-            "personaggio": "Andrea",
-            "foto_url": null,
-            "foto_tipo": "non_disponibile",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": null,
-              "verificata": false
-            }
-          },
-          {
-            "nome": "Alessandro Dal Sasso",
-            "personaggio": "Alessandro",
-            "foto_url": null,
-            "foto_tipo": "non_disponibile",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": null,
-              "verificata": false
-            }
-          },
           {
             "nome": "Regina Bianchi",
             "personaggio": null,
@@ -319805,94 +319663,112 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/1016082",
               "verificata": true
             }
+          },
+          {
+            "nome": "Alessandra Dal Sasso",
+            "personaggio": null,
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2852892",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Joy Nwosu",
+            "personaggio": null,
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2852893",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Orchidea De Santis",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/jBwV4MqtFw8n6MGlx3DT74JftfO.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/100681",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mario Del Monaco",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/n40T2qKJBP7oBPVQ2QiCxUWB11s.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/592497",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Silvano Manera",
+            "personaggio": null,
+            "foto_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Attori_di_%22Il_Nero%22_di_Giovanni_Vento.jpg/500px-Attori_di_%22Il_Nero%22_di_Giovanni_Vento.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "Wikimedia Commons",
+              "url_pagina_origine": "https://commons.wikimedia.org/wiki/File:Attori_di_%22Il_Nero%22_di_Giovanni_Vento.jpg",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gianfranco Transunto",
+            "personaggio": null,
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2852896",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Sennuccio Benelli",
+            "personaggio": null,
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/98455",
+              "verificata": false
+            }
           }
         ],
-        "trama": "Ambientato nella Napoli degli anni '60, 'Il Nero' esplora la vita dei giovani afro-napoletani, figli di soldati americani e donne italiane. Il protagonista, Andrea, cerca la sua identità tra due culture, affrontando razzismo e pregiudizi. Il film offre uno spaccato realistico delle difficoltà di integrazione in un'Italia in trasformazione.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Gli eventi a Napoli di alcuni \"figli della Madonna\", giovani nati tra il 1945 e il 1946 dalla relazione tra le donne locali e soldati afroamericani.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/lRKcy3WkNbHFzBVwZU4NKyAcYUf.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/763292-il-nero",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": "Da verificare via TMDB videos endpoint"
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt0188940/videogallery/content_type-trailer"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/763292-il-nero"
-          },
-          {
-            "nome": "IMDb",
-            "url": "https://www.imdb.com/title/tt0188940/"
-          },
-          {
-            "nome": "YouTube",
-            "url": "https://www.youtube.com/watch?v=TvHgVx5OtCY"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Il Nero"
-          ],
-          "titolo_originale_trovato_nella_descrizione": "Il Nero",
-          "anno_trovato": 1967,
-          "durata_video_youtube": "107 min",
-          "attori_trovati": [
-            "Joy Nowsu",
-            "Alessandro Dal Sasso"
-          ],
-          "registi_trovati": [
-            "Giovanni Vento"
-          ],
-          "parole_chiave_trama": [
-            "Napoli",
-            "anni '60",
-            "afro-napoletani",
-            "identità",
-            "razzismo",
-            "integrazione"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "alta",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film 'Il nero' del 1966 diretto da Giovanni Vento coincide con tutti gli elementi chiave: titolo, anno, durata, cast e trama."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 100,
-          "elementi_confermati": [
-            "titolo",
-            "anno",
-            "durata",
-            "cast",
-            "trama"
-          ],
-          "elementi_non_confermati": [],
-          "fonti_concordanti": [
-            "TMDB",
-            "IMDb",
-            "YouTube"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "Il film è stato identificato con alta certezza grazie alla corrispondenza di tutti gli elementi chiave tra le fonti disponibili.",
         "tmdb_id_scelto": 763292,
-        "imdb_id_scelto": "tt0188940"
-      }
+        "imdb_id_scelto": "tt0188940",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:30:03.290Z"
+      },
+      "tmdb_poster_path": "/lRKcy3WkNbHFzBVwZU4NKyAcYUf.jpg",
+      "tmdb_title_official": "Il nero",
+      "tmdb_year_official": 1966,
+      "tmdb_media_type": "movie",
+      "genre": "drammatico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:30:03.290Z",
+      "editor_updated_at": "2026-07-04T22:30:03.290Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "BeJOlR36eJE",
@@ -323119,22 +322995,20 @@
     {
       "video_id": "uvDWV0R2yBk",
       "is_movie": true,
-      "original_title": "SPAGHETTI WESTERN: Oggi a me... domani a te! (1968) | Film Completo HD",
+      "original_title": "Oggi a me... domani a te!",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 46570,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "SPAGHETTI WESTERN: Oggi a me... domani a te! (1968) | Film Completo HD",
-        "youtube_url": "https://www.youtube.com/watch?v=uvDWV0R2yBk",
-        "titolo_corretto": "Oggi a me... domani a te!",
         "titolo_italiano": "Oggi a me... domani a te!",
         "titolo_originale": "Oggi a me... domani a te!",
         "anno_uscita": 1968,
         "durata_minuti": 105,
         "genere": [
-          "Western"
+          "Western",
+          "Thriller"
         ],
         "regista": [
           "Tonino Cervi"
@@ -323174,17 +323048,6 @@
             }
           },
           {
-            "nome": "Tatsuya Nakadai",
-            "personaggio": "Elfego",
-            "foto_url": "https://image.tmdb.org/t/p/w185/4LygOe0vFQplLIft5IUWI5OewPX.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/70131",
-              "verificata": true
-            }
-          },
-          {
             "nome": "Jeff Cameron",
             "personaggio": "Moreno",
             "foto_url": "https://image.tmdb.org/t/p/w185/8UiTUQxv6wgCi7g7yt3XjPOHWxQ.jpg",
@@ -323194,91 +323057,94 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/1046524",
               "verificata": true
             }
-          }
-        ],
-        "trama": "Bill Kiowa, dopo cinque anni di prigione per un crimine che non ha commesso, cerca vendetta contro Elfego, l'uomo che ha ucciso sua moglie e lo ha incastrato. Assolda quattro pistoleri, tra cui O'Bannion, per affrontare il feroce capobanda.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/6D1MugTZUgSkjWMAZvPRjReZv3l.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/46570",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
-        "trailer": {
-          "url": "https://www.youtube.com/watch?v=Y4DvaSN6Yys",
-          "lingua": "en",
-          "fonte": "YouTube",
-          "canale": "Bud Spencer in TODAY WE KILL... TOMORROW WE DIE! - HD remastered Trailer",
-          "ufficiale": true,
-          "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
-        },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/46570"
           },
           {
-            "nome": "IMDb",
-            "url": "https://www.imdb.com/title/tt0063379/"
+            "nome": "William Berger",
+            "personaggio": "Francis 'Colt' Moran",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jqm6XmoDe0ibEcFSdG8LT0Ja4a2.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/102101",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tatsuya Nakadai",
+            "personaggio": "James Elfego",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4LygOe0vFQplLIft5IUWI5OewPX.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/70131",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Franco Borelli",
+            "personaggio": "Bunny Fox",
+            "foto_url": "https://image.tmdb.org/t/p/w185/AuP0MkcsfpDUFtkIsR54avImSCM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/100683",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Dana Ghia",
+            "personaggio": "Mirana Kiowa",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zGJuXv4TA7KpDPuxDKrMhS1JvPX.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/98782",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Teodoro Corrà",
+            "personaggio": "Gun Seller",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dOzlw6PxMn1MBnX01c06L3JuCAp.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/99481",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Victoriano Gazzarra",
+            "personaggio": "Gambler",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5H6NOpVf8Ivdspd78mP7HtHLIfl.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1759217",
+              "verificata": true
+            }
           }
         ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Oggi a me... domani a te!"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": 1968,
-          "durata_video_youtube": "90 min",
-          "attori_trovati": [
-            "Brett Halsey",
-            "Bud Spencer",
-            "Wayde Preston",
-            "Tatsuya Nakadai"
-          ],
-          "registi_trovati": [
-            "Tonino Cervi"
-          ],
-          "parole_chiave_trama": [
-            "vendetta",
-            "prigione",
-            "pistoleri",
-            "capobanda"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film corrisponde per titolo, anno, cast principale, regista e trama. La durata del video YouTube è leggermente inferiore, ma compatibile con possibili tagli."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "cast principale",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "durata"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "IMDb"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "Il film è stato identificato con alta certezza grazie alla corrispondenza di più elementi chiave tra le fonti disponibili.",
+        "trama": "Bill Kiowa (Montgomery Ford), dopo aver scontato una pena lunga cinque anni, vuole vendicarsi di Elfego (Tatsuya Nakadai) l'uomo che gli uccise la moglie indiana e lo fece arrestare, e che nel frattempo è divenuto il feroce capobanda dei Comancheros. Assolda allora quattro pistoleri (tra cui Bud Spencer e William Berger) e parte alla caccia del bandito.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/6D1MugTZUgSkjWMAZvPRjReZv3l.jpg",
+        "trailer": null,
         "tmdb_id_scelto": 46570,
-        "imdb_id_scelto": "tt0063379"
-      }
+        "imdb_id_scelto": "tt0063379",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:30:27.431Z"
+      },
+      "tmdb_poster_path": "/6D1MugTZUgSkjWMAZvPRjReZv3l.jpg",
+      "tmdb_title_official": "Oggi a me... domani a te!",
+      "tmdb_year_official": 1968,
+      "tmdb_media_type": "movie",
+      "genre": "western",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:30:27.431Z",
+      "editor_updated_at": "2026-07-04T22:30:27.431Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "yNWCEJmPWbA",
@@ -330201,23 +330067,20 @@
     {
       "video_id": "LOYdln-4nkM",
       "is_movie": true,
-      "original_title": "Il Cult di Roger Corman: I gladiatori dell'anno 3000 | Film Completo",
+      "original_title": "Deathsport",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 28735,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Il Cult di Roger Corman: I gladiatori dell'anno 3000 | Film Completo",
-        "youtube_url": "https://www.youtube.com/watch?v=LOYdln-4nkM",
-        "titolo_corretto": "I gladiatori dell'anno 3000",
         "titolo_italiano": "I gladiatori dell'anno 3000",
         "titolo_originale": "Deathsport",
         "anno_uscita": 1978,
         "durata_minuti": 82,
         "genere": [
           "Azione",
-          "Dramma",
+          "Thriller",
           "Fantascienza"
         ],
         "regista": [
@@ -330249,7 +330112,7 @@
           },
           {
             "nome": "Richard Lynch",
-            "personaggio": "Zirpola",
+            "personaggio": "Ankar Moor",
             "foto_url": "https://image.tmdb.org/t/p/w185/f8DLv1pSSG85xEwqxOHIPQDa6t4.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -330279,100 +330142,90 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/101760",
               "verificata": true
             }
+          },
+          {
+            "nome": "David McLean",
+            "personaggio": "Lord Zirpola",
+            "foto_url": "https://image.tmdb.org/t/p/w185/sToB3tdWLtJowlG2QQIfN4JsYOl.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/101761",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jesse Vint",
+            "personaggio": "Polna",
+            "foto_url": "https://image.tmdb.org/t/p/w185/h87WgEkcFDjXFmQ5lQ8yYiC3cmI.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/12123",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "H.B. Haggerty",
+            "personaggio": "Jailer",
+            "foto_url": "https://image.tmdb.org/t/p/w185/e1QQaBTO79PRvoS64b2DwEZVKZF.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/92761",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Brenda Venus",
+            "personaggio": "Adriann",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oOg8oPGSyK8cxnNDss6054uTuAz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/101762",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Linnea Quigley",
+            "personaggio": "Courtesan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wzvoBCwcAbX6JuYU6qOhMsZf2G1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/97619",
+              "verificata": true
+            }
           }
         ],
-        "trama": "In un futuro post-apocalittico, le città stato si combattono in arene mortali. Kaz Oshay e Deneer, catturati dal tiranno Zirpola, devono partecipare al brutale 'Deathsport'. La loro unica speranza è fuggire attraverso le lande desolate, sfidando il potere tirannico.",
-        "lingua_trama_originale": "en",
+        "trama": "Mille anni nel futuro, dopo le Grandi Guerre al Neutron, il mondo è diviso tra deserti desolati e città-stato isolate. Il noto \"Ranger del Deserto\" Kaz è costretto a combattere nel DeathSport, duellando su motociclette futuristiche chiamate \"Macchine della Morte\". Con l'aiuto della volpe ribelle Deneer, Kaz deve affrontare il suo passato e lottare per salvare se stesso e il suo popolo.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/9UzEUTGfVftDWMqOnpepujv3VRn.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/28735",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=uL4dlyVJn9o",
-          "lingua": "en",
           "fonte": "YouTube",
-          "canale": "Trailer",
-          "ufficiale": true,
+          "lingua": "it",
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=uL4dlyVJn9o"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/28735"
-          },
-          {
-            "nome": "OMDb",
-            "url": "http://www.omdbapi.com/?i=tt0077414"
-          },
-          {
-            "nome": "Wikipedia IT",
-            "url": "https://it.wikipedia.org/wiki/I_gladiatori_dell'anno_3000"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "I gladiatori dell'anno 3000",
-            "Deathsport"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": null,
-          "durata_video_youtube": "79 min",
-          "attori_trovati": [
-            "David Carradine",
-            "Claudia Jennings",
-            "Richard Lynch"
-          ],
-          "registi_trovati": [
-            "Roger Corman"
-          ],
-          "parole_chiave_trama": [
-            "futuro post-apocalittico",
-            "Guerra dei Neutroni",
-            "Deathsport",
-            "gladiatori",
-            "destructocycles",
-            "Kaz Oshay",
-            "Deneer",
-            "Zirpola"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film 'I gladiatori dell'anno 3000' (Deathsport) del 1978 coincide con il titolo, anno, cast e trama descritti nel video YouTube e nelle fonti."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "titolo italiano",
-            "anno di uscita",
-            "cast principale",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "durata"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "OMDb",
-            "Wikipedia IT"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "Il film è stato identificato con alta certezza grazie alla corrispondenza di titolo, anno, cast e trama tra le fonti disponibili.",
         "tmdb_id_scelto": 28735,
-        "imdb_id_scelto": "tt0077414"
-      }
+        "imdb_id_scelto": "tt0077414",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T22:30:55.183Z"
+      },
+      "tmdb_poster_path": "/9UzEUTGfVftDWMqOnpepujv3VRn.jpg",
+      "tmdb_title_official": "I gladiatori dell'anno 3000",
+      "tmdb_year_official": 1978,
+      "tmdb_media_type": "movie",
+      "genre": "fantascienza",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T22:30:55.183Z",
+      "editor_updated_at": "2026-07-04T22:30:55.183Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "NArNRAiWq0I",
