@@ -233492,7 +233492,7 @@
     },
     {
       "video_id": "-SsbuX5-yeY",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "La Conquista di Bagdad: un Film di Battaglie Epiche e Forza Bruta | Film Completo",
       "channel": "Azione360",
       "tmdb_id": 225195,
@@ -233648,7 +233648,10 @@
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 4.5,
-      "vote_count": 2
+      "vote_count": 2,
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T13:19:41.667Z"
     },
     {
       "video_id": "H2OSD6zpgck",
@@ -310929,7 +310932,7 @@
     },
     {
       "video_id": "mArki_15X4k",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Forget and Forgive",
       "channel": "TVItalia",
       "tmdb_id": 330408,
@@ -311085,7 +311088,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-04T13:14:37.629Z",
       "editor_updated_at": "2026-07-04T13:14:37.629Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T13:19:41.667Z"
     },
     {
       "video_id": "qI2oipKJxV0",
@@ -335412,7 +335418,7 @@
     },
     {
       "video_id": "OS-owROtAwQ",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Absolon",
       "channel": "TVItalia",
       "tmdb_id": 4612,
@@ -335562,7 +335568,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-04T13:08:29.591Z",
       "editor_updated_at": "2026-07-04T13:08:29.591Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T13:19:41.667Z"
     },
     {
       "video_id": "gxfjc_qnzgI",
