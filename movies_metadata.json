@@ -118253,12 +118253,12 @@
     },
     {
       "video_id": "MZuQ_l3NfGI",
-      "is_movie": true,
+      "is_movie": false,
       "tmdb_title": null,
       "tmdb_year": null,
       "genre": "horror",
       "quality_notes": "indica film completo in italiano",
-      "reason_not_movie": null,
+      "reason_not_movie": "doppione bonificato dall'editor",
       "original_title": "Una festa che si trasforma in un incubo | Film HORROR completo in italiano 🧟 Screamtime IT",
       "channel": "Screamtime IT",
       "tmdb_id": 1236706,
@@ -118436,7 +118436,9 @@
       },
       "locked": true,
       "vote_average": 2.6,
-      "vote_count": 4
+      "vote_count": 4,
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T22:33:37.504Z"
     },
     {
       "video_id": "FlgKeW7mb5o",
@@ -225185,7 +225187,7 @@
     },
     {
       "video_id": "x07QdQGoZs4",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Riuscirà Johnny a fermare il banchiere Burton? | Uccidi Django... uccidi per primo! | Western HD",
       "channel": "Azione360",
       "tmdb_id": 149691,
@@ -225339,7 +225341,10 @@
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 7,
-      "vote_count": 1
+      "vote_count": 1,
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T22:33:37.504Z"
     },
     {
       "video_id": "o6ikvKau6c8",
@@ -227913,7 +227918,7 @@
     },
     {
       "video_id": "837mfPh9aY8",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Il segreto dello sparviero nero (1961) | L'era dei corsari 4K",
       "channel": "Azione360",
       "tmdb_id": 199626,
@@ -228067,7 +228072,10 @@
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 6.333,
-      "vote_count": 3
+      "vote_count": 3,
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T22:33:37.504Z"
     },
     {
       "video_id": "gzE3hmte2e4",
@@ -228845,7 +228853,7 @@
     },
     {
       "video_id": "xx976Eb_-lQ",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Servo suo",
       "channel": "Azione360",
       "tmdb_id": 261005,
@@ -228975,7 +228983,10 @@
       "editor_updated_at": "2026-06-27T11:01:41.515Z",
       "editor_lock_reason": "ri-identificazione manuale editor",
       "vote_average": 5.333,
-      "vote_count": 3
+      "vote_count": 3,
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T22:33:37.504Z"
     },
     {
       "video_id": "bKGoPHfn1zk",
@@ -231627,7 +231638,7 @@
     },
     {
       "video_id": "CynhmCHYJi0",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Non Sottovalutate la Signora con la Pistola | Giarrettiera Colt (1968) | Western",
       "channel": "Azione360",
       "tmdb_id": 143767,
@@ -231783,7 +231794,10 @@
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 5.1,
-      "vote_count": 5
+      "vote_count": 5,
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T22:33:37.504Z"
     },
     {
       "video_id": "du0gwDt3_mA",
@@ -232373,7 +232387,7 @@
     },
     {
       "video_id": "u4gPL2nw6M8",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "KGB ultimo atto (1992) | Un gioco mortale tra le strade di Mosca",
       "channel": "Azione360",
       "tmdb_id": 388556,
@@ -232529,7 +232543,10 @@
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 5,
-      "vote_count": 7
+      "vote_count": 7,
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T22:33:37.504Z"
     },
     {
       "video_id": "CKP6nD-xI7Q",
@@ -296675,7 +296692,7 @@
     },
     {
       "video_id": "lVOAm0lhpZo",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Once Upon a Wedding (2005) | Commedia degli equivoci",
       "channel": "TVItalia",
       "tmdb_id": 251832,
@@ -296794,7 +296811,10 @@
         "tmdb_id_scelto": 251832
       },
       "vote_average": 4.389,
-      "vote_count": 9
+      "vote_count": 9,
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T22:33:37.504Z"
     },
     {
       "video_id": "bACrj5nLrjQ",
@@ -330066,7 +330086,7 @@
     },
     {
       "video_id": "LOYdln-4nkM",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Deathsport",
       "channel": "TVItalia",
       "tmdb_id": 28735,
@@ -330225,7 +330245,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-04T22:30:55.183Z",
       "editor_updated_at": "2026-07-04T22:30:55.183Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T22:33:37.503Z"
     },
     {
       "video_id": "NArNRAiWq0I",
@@ -335930,7 +335953,7 @@
     },
     {
       "video_id": "9DglxeLofrk",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Film Completo di Peter Hewitt: Che fine ha fatto Harold Smith? (1999)",
       "channel": "TVItalia",
       "tmdb_id": 49922,
@@ -336079,7 +336102,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-04T22:03:09.601Z",
       "editor_updated_at": "2026-07-04T22:03:09.601Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T22:33:37.503Z"
     },
     {
       "video_id": "Yvs5mtaQ1ew",
@@ -338346,7 +338372,7 @@
     },
     {
       "video_id": "sRp0nIhrWJk",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Beppe Grillo - CERVELLO (Spettacolo Completo, Genova 1997)",
       "channel": "TVItalia",
       "tmdb_id": 403891,
@@ -338394,7 +338420,10 @@
           "motivo_verifica": ""
         },
         "tmdb_id_scelto": 403891
-      }
+      },
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T22:33:37.504Z"
     },
     {
       "video_id": "KWz-vPiPnf8",
