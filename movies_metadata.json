@@ -334847,7 +334847,7 @@
     },
     {
       "video_id": "j4V5-8XM_Gg",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Un cuento de circo & a love song",
       "channel": "TVItalia",
       "tmdb_id": 269579,
@@ -334998,7 +334998,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-04T14:28:09.675Z",
       "editor_updated_at": "2026-07-04T14:28:09.675Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T14:28:46.063Z"
     },
     {
       "video_id": "c4TdxHPQ4lA",
