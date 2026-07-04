@@ -1849,7 +1849,7 @@ async function commonsCategoryImageCandidates(categoryName, nome){
 }
 async function wikiImageCandidates(lang, nome, filmTitle){
   const out=[];
-  const actorWord=lang==="it"?"attore":lang==="fr"?"acteur":lang==="es"?"actor":lang==="de"?"schauspieler":"actor";
+  const actorWord=lang==="it"?"attore":lang==="fr"?"acteur":lang==="es"?"actor":lang==="de"?"schauspieler":lang==="pt"?"ator":lang==="nl"?"acteur":lang==="ca"?"actor":lang==="ru"?"актёр":lang==="pl"?"aktor":"actor";
   const queries=[`${nome} ${filmTitle}`.trim(), `${nome} ${actorWord}`, `${nome} actor`, nome];
   for(const q of queries){
     try{
@@ -1871,14 +1871,14 @@ async function wikiImageCandidates(lang, nome, filmTitle){
 async function wikidataImageCandidates(nome, filmTitle){
   try{
     const ids=[];
-    for(const lang of ["it","en","fr","es","de"]){
+    for(const lang of ["it","en","fr","es","de","pt","nl","ca","ru","pl"]){
       for(const q of [nome, `${nome} ${filmTitle}`.trim()]){
         const s=await fetchJsonSafe(`https://www.wikidata.org/w/api.php?action=wbsearchentities&search=${encodeURIComponent(q)}&language=${lang}&uselang=${lang}&limit=6&format=json&origin=*`);
         (s&&s.search||[]).forEach(x=>{ if(x.id&&!ids.includes(x.id)) ids.push(x.id); });
       }
     }
     if(!ids.length) return [];
-    const d=await fetchJsonSafe(`https://www.wikidata.org/w/api.php?action=wbgetentities&ids=${ids.slice(0,30).join("|")}&props=claims|labels|descriptions|sitelinks&languages=it|en|fr|es|de&format=json&origin=*`);
+    const d=await fetchJsonSafe(`https://www.wikidata.org/w/api.php?action=wbgetentities&ids=${ids.slice(0,30).join("|")}&props=claims|labels|descriptions|sitelinks&languages=it|en|fr|es|de|pt|nl|ca&format=json&origin=*`);
     const direct=Object.values((d&&d.entities)||{}).map(e=>{
       const file=((((e.claims||{}).P18||[])[0]||{}).mainsnak||{}).datavalue?.value;
       if(!file) return null;
@@ -2003,7 +2003,7 @@ async function findCastPhotoWithAi(nome, personaggio){
   if(_tid){ const direct=await tmdbCastPhotoFromFilm(_tid, q, personaggio); if(direct) return direct; }
   const filmTitle=$("m_title").value.trim()||((editing&&editing.m&&title(editing.m))||"");
   const year=$("m_year").value.trim();
-  const [tmdb,imdb,tvmaze,wikiIt,wikiEn,wikiFr,wikiEs,wikiDe,wdata,commons,openverse]=await Promise.all([
+  const [tmdb,imdb,tvmaze,wikiIt,wikiEn,wikiFr,wikiEs,wikiDe,wikiPt,wikiNl,wikiCa,wikiRu,wikiPl,wdata,commons,openverse]=await Promise.all([
     tmdbPersonCandidates(q,filmTitle,year),
     imdbImageCandidates(q,filmTitle,year),
     tvmazeImageCandidates(q,filmTitle,year),
@@ -2012,11 +2012,16 @@ async function findCastPhotoWithAi(nome, personaggio){
     wikiImageCandidates("fr",q,filmTitle),
     wikiImageCandidates("es",q,filmTitle),
     wikiImageCandidates("de",q,filmTitle),
+    wikiImageCandidates("pt",q,filmTitle),
+    wikiImageCandidates("nl",q,filmTitle),
+    wikiImageCandidates("ca",q,filmTitle),
+    wikiImageCandidates("ru",q,filmTitle),
+    wikiImageCandidates("pl",q,filmTitle),
     wikidataImageCandidates(q,filmTitle),
     commonsSearchImageCandidates(q,filmTitle),
     openverseImageCandidates(q,filmTitle)
   ]);
-  const cands=dedupeCandidates([...tmdb,...imdb,...tvmaze,...wikiIt,...wikiEn,...wikiFr,...wikiEs,...wikiDe,...wdata,...commons,...openverse],48);
+  const cands=dedupeCandidates([...tmdb,...imdb,...tvmaze,...wikiIt,...wikiEn,...wikiFr,...wikiEs,...wikiDe,...wikiPt,...wikiNl,...wikiCa,...wikiRu,...wikiPl,...wdata,...commons,...openverse],64);
   if(!cands.length) return null;
   const list=cands.map((c,i)=>`${i}. score=${Math.round(c.score||0)}; fonte=${c.source}; titolo="${c.title}"; foto=${c.image?"si":"no"}; pagina=${c.page||""}; contesto=${compactText(c.context,520)}`).join("\n");
   const prompt=`Devi scegliere quale risultato web contiene la foto corretta di un attore.\nLa ricerca e' incrociata: nome attore + nome film, poi allargata a fonti aperte.\nFilm: "${filmTitle}" (${year||"anno non indicato"})\nAttore: "${q}"${personaggio?`\nPersonaggio nel film: "${personaggio}"`:""}\n\nCandidati da TMDB, IMDb, TVMaze, Wikipedia multilingua, Wikidata, Wikimedia Commons, categorie Commons e Openverse:\n${list}\n\nRegole severe:
