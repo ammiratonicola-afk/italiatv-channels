@@ -292144,8 +292144,157 @@
       "is_movie": true,
       "original_title": "Una figlia da salvare 2021 Film Completo 4K - Thriller ad Alta Tensione",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 894975,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/kGWXKWMt0rLo22CHRxZMlD0cfiN.jpg",
+      "tmdb_title_official": "Una figlia da salvare",
+      "tmdb_year_official": 2022,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Una figlia da salvare",
+        "titolo_originale": "Una figlia da salvare 2021 Film Completo 4K - Thriller ad Alta Tensione",
+        "anno_uscita": 2022,
+        "durata_minuti": 85,
+        "genere": [
+          "televisione film",
+          "Thriller",
+          "Mistero",
+          "Crime",
+          "Dramma"
+        ],
+        "regista": [
+          "John Murlowski"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Morgan Bradley",
+            "personaggio": "Hallie Reynolds",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kGKMBEme0mZClv7YJuy1IGezkdx.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1780596",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Alicia Leigh Willis",
+            "personaggio": "Megan Banks",
+            "foto_url": "https://image.tmdb.org/t/p/w185/sZ7M1CbxNHjdOHG9xdmtt8O13f8.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/184560",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jason Cook",
+            "personaggio": "Luke",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rKnyGHORFEOAoRPMPJrCFOki8t5.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1215883",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Meredith Thomas",
+            "personaggio": "Lynne",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8uplyhfZx1vT6Lzw79dDnO5rWQb.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1085087",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Britt George",
+            "personaggio": "Matthew",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pZRDGT0Bd7JJlTmLXIXneR1fiMc.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1047654",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Trenyce",
+            "personaggio": "Gallery Owner",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uw3YpQUjGD0yiqx1eWp1yScsSgA.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1234706",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Conner Floyd",
+            "personaggio": "James",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3ftAr635k5F4Iqe5mPWgRcFum4P.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2407116",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Wendell Kinney",
+            "personaggio": "Officer Morales",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1766631",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Sasha Wexler",
+            "personaggio": "Store Clerk",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3186503",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Ashia Dawson",
+            "personaggio": "Nanny in Park",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3547913",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "La figlia di Hallie ha dovuto affrontare un trapianto di cuore appena venuta al mondo, e da allora la madre è diventata molto apprensiva nei suoi confronti. Quando Hallie, cresciuta, conosce Megan, trova un senso di sollievo nell'avere finalmente una nuova amica, inconsapevole del fatto che dietro il sorriso di lei potrebbe nascondersi un pericolo inaspettato.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/kGWXKWMt0rLo22CHRxZMlD0cfiN.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 894975,
+        "imdb_id_scelto": "tt15382076",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T06:30:58.741Z"
+      },
+      "genre": "poliziesco",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T06:30:58.741Z",
+      "editor_updated_at": "2026-07-04T06:30:58.741Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "itTC3p6KUtw",
@@ -296962,11 +297111,14 @@
     },
     {
       "video_id": "BLmhWffJDC8",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Last Angeles (Film Completo) di Claudio Grande | Documentario con Giacomo G. Ghiazza",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor web",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T06:21:48.859Z"
     },
     {
       "video_id": "csm_Nr4FEO8",
@@ -299446,10 +299598,163 @@
     {
       "video_id": "EX_uRuwU2C0",
       "is_movie": true,
-      "original_title": "Cary Grant e Katharine Hepburn in: Susanna! (1938) | Film Completo",
+      "original_title": "Bringing Up Baby",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 900,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/waZvs4WNpjbE24nSzEs83cd2h4V.jpg",
+      "tmdb_title_official": "Susanna!",
+      "tmdb_year_official": 1938,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Susanna!",
+        "titolo_originale": "Bringing Up Baby",
+        "anno_uscita": 1938,
+        "durata_minuti": 102,
+        "genere": [
+          "Commedia",
+          "Romance"
+        ],
+        "regista": [
+          "Howard Hawks"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Katharine Hepburn",
+            "personaggio": "Susan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hzBSOe6bburyMeeCqD9kR9tRfdD.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/6598",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Cary Grant",
+            "personaggio": "David",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rUaQTKw7hNcEvZyFaahIpqiiiWv.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2638",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Charles Ruggles",
+            "personaggio": "Major Applegate",
+            "foto_url": "https://image.tmdb.org/t/p/w185/auirQUnJ5kKBTl2p6kHtkJBNeo1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2436",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Walter Catlett",
+            "personaggio": "Slocum",
+            "foto_url": "https://image.tmdb.org/t/p/w185/c5ldUlcqrUuxpQE9iXqj9GlRZwt.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/13819",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Barry Fitzgerald",
+            "personaggio": "Mr. Gogarty",
+            "foto_url": "https://image.tmdb.org/t/p/w185/z8opHNghuygzMWsVOpG1Ln3ahmG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/13820",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "May Robson",
+            "personaggio": "Aunt Elizabeth",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pHAfACamrBpWcdMvOCE3Xc0666P.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/13816",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Fritz Feld",
+            "personaggio": "Dr. Lehman",
+            "foto_url": "https://image.tmdb.org/t/p/w185/yVT0Gv9O4K9UHU8jBx8D01lZjYZ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/13821",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Leona Roberts",
+            "personaggio": "Mrs. Gogarty",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5QhJkl4eYK4GmjEwHiBnh5DY2NR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/13822",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "George Irving",
+            "personaggio": "Mr. Peabody",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mZjiKvrBQK0Y7sL2Yt9QEaIQrFr.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/13823",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tala Birell",
+            "personaggio": "Mrs. Lehman",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8lFYYvOQnQ2KMGQ3SYXOw5VEKlp.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/13824",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Il paleontologo David Huxley, in procinto di sposarsi e sul punto di concludere la ricostruzione di uno scheletro di dinosauro, è alla ricerca di finanziamenti. Conosce Susanna, una testarda ma adorabile ereditiera, e da quel momento per lui è un susseguirsi di guai. La ragazza infatti, anche se David non lo capisce immediatamente, decide di sposarlo...",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/waZvs4WNpjbE24nSzEs83cd2h4V.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=Qlf6gHD-YEM"
+        },
+        "tmdb_id_scelto": 900,
+        "imdb_id_scelto": "tt0029947",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T06:23:13.866Z"
+      },
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T06:23:13.866Z",
+      "editor_updated_at": "2026-07-04T06:23:13.866Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "q1hIa2yaUKI",
@@ -301013,10 +301318,156 @@
     {
       "video_id": "f8OTE7KVbqg",
       "is_movie": true,
-      "original_title": "Sugar Baby Murder | Thriller | Film Completo in Italiano",
+      "original_title": "Sugar Baby Murder",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 745332,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/ahSbHhbSEh3BG1CBHkuAzQqvA2n.jpg",
+      "tmdb_title_official": "Una spirale pericolosa",
+      "tmdb_year_official": 2020,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Una spirale pericolosa",
+        "titolo_originale": "Sugar Baby Murder",
+        "anno_uscita": 2020,
+        "durata_minuti": 90,
+        "genere": [
+          "televisione film",
+          "Thriller"
+        ],
+        "regista": [
+          "Brooke Nevin"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Brent Bailey",
+            "personaggio": "Anthony",
+            "foto_url": "https://image.tmdb.org/t/p/w185/j2sqzs4qshwjlFSp2LccBPLqnq6.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1328719",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Michael Chandler",
+            "personaggio": "Mr. Corkrin",
+            "foto_url": "https://image.tmdb.org/t/p/w185/aZGbQqdVoRWQ5tIdXXDoRMxUPje.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1067639",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Benjamin Easterday",
+            "personaggio": "Intruder",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lrZRP9ydsqKhTcLTKtgizKpyWBj.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1121088",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Wendell Kinney",
+            "personaggio": "Jim",
+            "foto_url": "https://static.tvmaze.com/uploads/images/medium_portrait/138/346810.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TVMaze",
+              "url_pagina_origine": "https://www.tvmaze.com/people/194489/wendell-kinney",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jim Poole",
+            "personaggio": "Jaret",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dE1y07hIpBMNDaoua2ZFRg10KJZ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1924375",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jamaal Lewis",
+            "personaggio": "Handsom sugar daddy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gPbN7mnMjgKQZ6My0L3urqE6hcM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2131693",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kenneth Miller",
+            "personaggio": "Zack",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2iSAuMNf0nczFjQyZe4Qdy9Pg14.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/208062",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Casey O'Keefe",
+            "personaggio": "Jenna",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zUEBv2Sv5WPQl69aB32nl7IvK8w.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1515471",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rick Otto",
+            "personaggio": "Damon",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oq9j2viDGGKsYuwZH8YSfeCFT7z.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1217809",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Anthony Richard Pagliaro",
+            "personaggio": "EMT",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2511580",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Dopo la laurea Bridget ha cambiato città insieme alla sua migliore amica Lindsay. Sono andate a vivere insieme e lei ha trovato un lavoro di assistente per conto di un certo Anthony Glonz: un incarico ben remunerato che le permette di condurre una vita agiata, ma che ben presto si trasformerà in qualcosa di molto pericoloso.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/ahSbHhbSEh3BG1CBHkuAzQqvA2n.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 745332,
+        "imdb_id_scelto": "tt11385670",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T06:26:53.500Z"
+      },
+      "genre": "thriller",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T06:26:53.500Z",
+      "editor_updated_at": "2026-07-04T06:26:53.500Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "sjAvxcH4Eu8",
@@ -301662,10 +302113,135 @@
     {
       "video_id": "fhQFE96o8lc",
       "is_movie": true,
-      "original_title": "Film Completo Azione/Horror: Bury Me Twice (2022) | ITA",
+      "original_title": "Bury Me Twice",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 1120246,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/CHS1AdqfLhxq6UuS1iXBqRL8bb.jpg",
+      "tmdb_title_official": "Bury Me Twice",
+      "tmdb_year_official": 2022,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Bury Me Twice",
+        "titolo_originale": "Bury Me Twice",
+        "anno_uscita": 2022,
+        "durata_minuti": 92,
+        "genere": [
+          "Horror",
+          "Azione",
+          "Mistero"
+        ],
+        "regista": [
+          "Steven LaMorte"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Danny Hansen",
+            "personaggio": "Jack McGregor",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2CX4TbdgWoJEImsqehesg7UkwuG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1719158",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lelia Symington",
+            "personaggio": "Casey Potts",
+            "foto_url": "https://image.tmdb.org/t/p/w185/efAic1tirW5oTmKRSnRrEnu11S3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1715156",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Chase Mullins",
+            "personaggio": "Officer Flynn",
+            "foto_url": "https://image.tmdb.org/t/p/w185/eaGnQeSbxoDzeiMLygkohlgaOL1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1715155",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Theodus Crane",
+            "personaggio": "Earl Deveroux",
+            "foto_url": "https://image.tmdb.org/t/p/w185/66SvnZSjXRFHCMEEC5X0jvyGBuO.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1296517",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Dina Cataldi",
+            "personaggio": "Albany Rose",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/239973",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Flip Kobler",
+            "personaggio": "Lt. Philip Myers",
+            "foto_url": "https://static.tvmaze.com/uploads/images/medium_portrait/163/408345.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TVMaze",
+              "url_pagina_origine": "https://www.tvmaze.com/people/47533/flip-kobler",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Molly Flanagan",
+            "personaggio": "Femme Fatale Zombie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oHkAmhoY28In5IzxvCwp1UDk7bE.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3899883",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Eric Clarke",
+            "personaggio": "Zombie",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2328194",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Los Angeles, 1954. Quando un detective in declino accetta un caso per cercare la sorella scomparsa di un giornalista, scopre che risolvere il mistero della sua scomparsa è la chiave per svelare l'origine dell'epidemia di zombie e salvare la città.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/CHS1AdqfLhxq6UuS1iXBqRL8bb.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 1120246,
+        "imdb_id_scelto": "tt9319544",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T06:22:29.839Z"
+      },
+      "genre": "horror",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T06:22:29.839Z",
+      "editor_updated_at": "2026-07-04T06:22:29.839Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "x1hn-vrMx3I",
@@ -308020,10 +308596,163 @@
     {
       "video_id": "XN-eh7B5138",
       "is_movie": true,
-      "original_title": "Non spegnere la telecamera - The Lead HD | Thriller | Film completo in italiano",
+      "original_title": "The Lead",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 661437,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/xm4tgTfOz5rFQmGDRVwZ0T9hbIX.jpg",
+      "tmdb_title_official": "Rapimento in diretta",
+      "tmdb_year_official": 2020,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Rapimento in diretta",
+        "titolo_originale": "The Lead",
+        "anno_uscita": 2020,
+        "durata_minuti": 90,
+        "genere": [
+          "Thriller",
+          "televisione film"
+        ],
+        "regista": [
+          "Philippe Gagnon"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Perrey Reeves",
+            "personaggio": "Diane Baldwin",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zkppOuOlGMP59ulwKdqC2tlg07B.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/68495",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kim Shaw",
+            "personaggio": "Sasha Bruder",
+            "foto_url": "https://image.tmdb.org/t/p/w185/baF8BNNaoCbxILsqaeXVAIlk2u7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/111685",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gord Rand",
+            "personaggio": "Aidan Ferguson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tv4RPO2Ga5z2sWWvCQoLW5wCFxo.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/557311",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Bruce Dinsmore",
+            "personaggio": "Gavin",
+            "foto_url": "https://image.tmdb.org/t/p/w185/aO0qlddrQlogsnlLU9CP5q8N1Mf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/179270",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kristin Booth",
+            "personaggio": "Jocelyn Ferguson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/366SBcUxgrh8374uNetOYlP9fo0.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/34915",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marc Bendavid",
+            "personaggio": "Alex Peterson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vaWrwf9pomVDtp48GnH0D1F69Ju.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1031919",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Amanda Chiu",
+            "personaggio": "Journalist #1 (uncredited)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fRMdG3uYzXhOkcwF5hbWD9Mgbvt.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1858808",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sandra Lee",
+            "personaggio": "Sandra Lee",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/588294",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Michael Smith",
+            "personaggio": "Detective (uncredited)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/207475",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Nathaly Thibault",
+            "personaggio": "Journalist (uncredited)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1389916",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Sasha vuole diventare una giornalista di punta, ma è bloccata a coprire gli eventi della comunità presso la stazione televisiva locale. Tuttavia, quando viene rapita e tenuta prigioniera, diventa improvvisamente la storia.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/xm4tgTfOz5rFQmGDRVwZ0T9hbIX.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=rXe14u98wwU"
+        },
+        "tmdb_id_scelto": 661437,
+        "imdb_id_scelto": "tt10233954",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T06:28:10.725Z"
+      },
+      "genre": "thriller",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T06:28:10.725Z",
+      "editor_updated_at": "2026-07-04T06:28:10.725Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "4MwDEe24P-k",
