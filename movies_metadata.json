@@ -142571,7 +142571,7 @@
     {
       "video_id": "qhVGN1TdUCU",
       "is_movie": true,
-      "original_title": "ITA - HD - La fuga dell'assassino - The shadow effect - Thriller - Azione",
+      "original_title": "The Shadow Effect",
       "channel": "Film&More",
       "tmdb_id": 383538,
       "tmdb_title_official": "La fuga dell'assassino",
@@ -142582,8 +142582,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "ITA - HD - La fuga dell'assassino - The shadow effect - Thriller - Azione",
-        "youtube_url": "https://www.youtube.com/watch?v=qhVGN1TdUCU",
         "titolo_italiano": "La fuga dell'assassino",
         "titolo_originale": "The Shadow Effect",
         "anno_uscita": 2017,
@@ -142594,8 +142592,8 @@
           "Thriller"
         ],
         "regista": [
-          "Obin Olson",
-          "Amariah Olson"
+          "Amariah Olson",
+          "Obin Olson"
         ],
         "cast_principale": [
           {
@@ -142713,20 +142711,28 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/1fjjNPNlXTCsyBZeK1m0Ttl9npB.jpg",
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=nc4E3ywFG4s",
-          "lingua": "en",
           "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": true,
+          "lingua": "it",
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB /videos (en-IT/US): Trailer official"
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=nc4E3ywFG4s"
         },
-        "tmdb_id_scelto": 383538
+        "tmdb_id_scelto": 383538,
+        "imdb_id_scelto": "tt5044656",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T20:49:53.191Z"
       },
       "locked": true,
       "genre": "fantascienza",
       "vote_average": 5.027,
-      "vote_count": 148
+      "vote_count": 148,
+      "tmdb_media_type": "movie",
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T20:49:53.191Z",
+      "editor_updated_at": "2026-07-04T20:49:53.191Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "AidlOFX6DT8",
