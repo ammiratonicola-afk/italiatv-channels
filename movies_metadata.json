@@ -318989,23 +318989,21 @@
     {
       "video_id": "Ww_gYhSW8Og",
       "is_movie": true,
-      "original_title": "Avventura tra le Sabbie d'Oriente: Golia alla conquista di Bagdad | Film Completo",
+      "original_title": "Golia alla conquista di Bagdad",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 225195,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Avventura tra le Sabbie d'Oriente: Golia alla conquista di Bagdad | Film Completo",
-        "youtube_url": "https://www.youtube.com/watch?v=Ww_gYhSW8Og",
-        "titolo_corretto": "Golia alla conquista di Bagdad",
         "titolo_italiano": "Golia alla conquista di Bagdad",
         "titolo_originale": "Golia alla conquista di Bagdad",
         "anno_uscita": 1965,
         "durata_minuti": 93,
         "genere": [
+          "Dramma",
           "Avventura",
-          "Storico"
+          "Azione"
         ],
         "regista": [
           "Domenico Paolella"
@@ -319025,12 +319023,12 @@
           {
             "nome": "Mario Petri",
             "personaggio": "Yssour",
-            "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "foto_url": "https://m.media-amazon.com/images/M/MV5BMjRlOTRiYzAtZjA1OS00YzJjLTk3M2MtMzllODk2M2VhZjFlXkEyXkFqcGc@._V1_.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
+              "nome": "manuale",
               "url_pagina_origine": null,
-              "verificata": false
+              "verificata": true
             }
           },
           {
@@ -319065,89 +319063,90 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/45035",
               "verificata": true
             }
-          }
-        ],
-        "trama": "Golia, l'eroe dalla forza sovrumana, arriva a Bagdad per aiutare il legittimo re a riconquistare il trono usurpato. Affronta intrighi di corte e battaglie epiche, mettendo alla prova la sua leggendaria forza.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/4bG8bahVkbrXnUVZJonYwq4Io8P.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/225195",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
-        "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": "Da verificare via TMDB videos endpoint"
-        },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/225195"
           },
           {
-            "nome": "YouTube",
-            "url": "https://www.youtube.com/watch?v=Ww_gYhSW8Og"
+            "nome": "Anna Maria Polani",
+            "personaggio": "Myriam",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vPqgmSPdkoX7uwnGWv5SbuG3j5h.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/223403",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marino Masé",
+            "personaggio": "Phir",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1rd8gmQnjvYFXjnrfYEpuOZzYUB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/39151",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Daniele Vargas",
+            "personaggio": "Saud",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fb5Qgqt8I4i0tNjAEcEsGemiMwl.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/39020",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mino Doro",
+            "personaggio": "King Selim",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rlkx0GBc7avW5orDNAGNiPz0GbN.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/99514",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Andrea Aureli",
+            "personaggio": "Bhalek",
+            "foto_url": "https://image.tmdb.org/t/p/w185/c0PKQwnVQxFNhKaOHwDIp3sQF2s.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/142134",
+              "verificata": true
+            }
           }
         ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Golia alla conquista di Bagdad"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": null,
-          "durata_video_youtube": "93 min",
-          "attori_trovati": [
-            "Peter Lupus"
-          ],
-          "registi_trovati": [
-            "Domenico Paolella"
-          ],
-          "parole_chiave_trama": [
-            "Golia",
-            "Bagdad",
-            "usurpatore",
-            "re",
-            "giustizia",
-            "avventure",
-            "battaglie"
-          ]
+        "trama": "La storia è imperniata sulla figura del gigante Golia, eroe buono e coraggioso che viene chiamato a risolvere la guerra tra gli eserciti di Selim e i Curdi.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/4bG8bahVkbrXnUVZJonYwq4Io8P.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=24TBJA2x2o0"
         },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "alta",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Tutti gli elementi principali (titolo, anno, durata, regista, cast) coincidono perfettamente con il candidato TMDB."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 100,
-          "elementi_confermati": [
-            "titolo",
-            "anno",
-            "durata",
-            "regista",
-            "cast"
-          ],
-          "elementi_non_confermati": [],
-          "fonti_concordanti": [
-            "TMDB",
-            "YouTube"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "Il film è stato identificato con alta certezza grazie alla corrispondenza di tutti gli elementi principali con il candidato TMDB.",
         "tmdb_id_scelto": 225195,
-        "imdb_id_scelto": "tt0058152"
-      }
+        "imdb_id_scelto": "tt0058152",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T13:13:52.432Z"
+      },
+      "tmdb_poster_path": "/4bG8bahVkbrXnUVZJonYwq4Io8P.jpg",
+      "tmdb_title_official": "Golia alla conquista di Bagdad",
+      "tmdb_year_official": 1965,
+      "tmdb_media_type": "movie",
+      "genre": "avventura",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T13:13:52.432Z",
+      "editor_updated_at": "2026-07-04T13:13:52.432Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "MOt9F-6Zou4",
