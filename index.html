@@ -2091,6 +2091,7 @@ function addResultCard(R, r){
       $("m_trailer").value=(rec.strict_id_v2.trailer&&rec.strict_id_v2.trailer.url)||""; trailerPick={key:"",queue:[]}; previewTrailerFromInput();
       const dg=deriveGenre(rec.strict_id_v2.genere); if(dg) $("m_genre").value=dg;
       if(rec.strict_id_v2&&rec.strict_id_v2.imdb_id_scelto) $("m_imdb").value=rec.strict_id_v2.imdb_id_scelto;
+      $("m_original_guess").value=(rec.strict_id_v2&&rec.strict_id_v2.titolo_originale)||rec.tmdb_title_official||"";  // CORREGGE il titolo originale dal match TMDB
       renderCast(rec.strict_id_v2.cast_principale);
       $("m_poster").src=rec.tmdb_poster_path?IMG+"w300"+rec.tmdb_poster_path:"";
     }catch(e){}
