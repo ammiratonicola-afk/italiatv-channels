@@ -286416,7 +286416,7 @@
     {
       "video_id": "LEyG3lZKSV4",
       "is_movie": true,
-      "original_title": "Abissinia (1993): Un Ristorante Sulla Spiaggia, Segreti e Passioni Nascoste - Film Completo Italiano",
+      "original_title": "Abissinia",
       "channel": "TVItalia",
       "tmdb_id": 196949,
       "tmdb_title_official": "Abissinia",
@@ -286427,8 +286427,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Abissinia (1993): Un Ristorante Sulla Spiaggia, Segreti e Passioni Nascoste - Film Completo Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=LEyG3lZKSV4",
         "titolo_italiano": "Abissinia",
         "titolo_originale": "Abissinia",
         "anno_uscita": 1993,
@@ -286551,22 +286549,25 @@
             }
           }
         ],
-        "trama": "Antonio (Enrico Salimbeni) potrebbe non essere stato il cameriere più energico del ristorante più popolare di questa poco alla moda località turistica adriatica, ma questo non è un motivo per cui il suo capo non debba pagarlo. Quando prende i salari che gli spettano dalla cassa, non solo il proprietario lo butta fuori, ma lo fa anche picchiare. Enzo (Mario Adorf), il proprietario di un ristorante così lontano dai percorsi battuti che è conosciuto come Abissinia piuttosto che col suo vero nome, lo accoglie. Il ritmo tranquillo di tutto ciò che viene fatto nel ristorante lascia ad Antonio molto tempo per mettere insieme la storia del suo proprietario e dell'amore della sua vita, e di come anche lui sia caduto dalla gloria culinaria alla sua attuale oscurità.",
+        "trama": "Antonio (Enrico Salimbeni) potrebbe non essere stato il cameriere più energico del ristorante più popolare di questa poco alla moda località turistica adriatica, ma questo non è un motivo per cui il suo capo non debba pagarlo. Quando prende i salari che gli spettano dalla cassa, non solo il proprietario lo butta fuori, ma lo fa anche picchiare. Enzo (Mario Adorf), il proprietario di un ristorante così lontano dai sentieri battuti che è conosciuto come Abissinia piuttosto che col suo vero nome, lo accoglie. Il ritmo tranquillo di tutto ciò che viene fatto nel ristorante lascia ad Antonio molto tempo per mettere insieme la storia del suo proprietario e dell'amore della sua vita, e di come anche lui sia caduto dalla gloria culinaria alla sua attuale oscurità.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/c6brzvNKR8hHlOt36njYpVDjGqt.jpg",
-        "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
-        },
-        "tmdb_id_scelto": 196949
+        "trailer": null,
+        "tmdb_id_scelto": 196949,
+        "imdb_id_scelto": "tt0106210",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T13:18:10.982Z"
       },
       "vote_average": 10,
-      "vote_count": 1
+      "vote_count": 1,
+      "tmdb_media_type": "movie",
+      "genre": "drammatico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T13:18:10.982Z",
+      "editor_updated_at": "2026-07-04T13:18:10.982Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "dc1s86ykZgo",
@@ -334114,10 +334115,163 @@
     {
       "video_id": "EwUCm5dmjw4",
       "is_movie": true,
-      "original_title": "Costretti a lavorare insieme, finiscono per innamorarsi: Un autunno molto speciale | Film HD",
+      "original_title": "Autumn in the Vineyard",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 413441,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/17GH8ACvkrNdYhJx9yLd1FWlxjo.jpg",
+      "tmdb_title_official": "Un autunno molto speciale",
+      "tmdb_year_official": 2016,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Un autunno molto speciale",
+        "titolo_originale": "Autumn in the Vineyard",
+        "anno_uscita": 2016,
+        "durata_minuti": 84,
+        "genere": [
+          "televisione film",
+          "Romance"
+        ],
+        "regista": [
+          "Scott Smith"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Rachael Leigh Cook",
+            "personaggio": "Frankie Baldwin",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xmKFPYw8OcN7g7B3zU1ZJOVKfqC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/38581",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Brendan Penny",
+            "personaggio": "Nate DeLuca",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cgjw8TR9J9zicgGWuzdXdcE9aQK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/129298",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marcus Rosner",
+            "personaggio": "Marco DeLuca",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2DQHSgA6LgR7ZTJpIEApT3TXCQx.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1381537",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jill Teed",
+            "personaggio": "Glow",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pRu4qqDcb8ze3RKgoKxPwzW9SRP.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/21214",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tom Butler",
+            "personaggio": "Charles Baldwin",
+            "foto_url": "https://image.tmdb.org/t/p/w185/sMDuFSvna90gGV0jkOK7PDzQC8g.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/85922",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jeremy Guilbaut",
+            "personaggio": "Jonah Baldwin",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3FtwxAaqT9wlFUj6dIkWVp6sNSj.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/60293",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lucia Walters",
+            "personaggio": "Susan Jones",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tnPMoaUecAl7k1qO4VXnlvTeTb1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/39360",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Laura Soltis",
+            "personaggio": "Carla DeLuca",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6YsLqFYtCjUtF6EAgzhBkeemLgQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/59230",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "John Emmet Tracy",
+            "personaggio": "Tony Commisso",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tJUSztVpizjsXLpqvEVwSq91isp.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1182657",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Julian Christopher",
+            "personaggio": "Judge Pricket",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uRb7mfoCyyTjLkrfZEDTPQ742x9.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/60606",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Poiché entrambi vantano un diritto di proprietà, Frankie Baldwin e Nate Deluca sono costretti a dividere il vigneto di Sorrento Farm a metà e a lavorare nei vicini campi per portare a termine la raccolta e partecipare a un concorso autunnale per il miglior vino. La rivalità però lascerà presto posto a sentimenti molto più romantici.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/17GH8ACvkrNdYhJx9yLd1FWlxjo.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=Jh9urqeVq-I"
+        },
+        "tmdb_id_scelto": 413441,
+        "imdb_id_scelto": "tt6041048",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T13:18:44.918Z"
+      },
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T13:18:44.918Z",
+      "editor_updated_at": "2026-07-04T13:18:44.918Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "_R8wLaZ4r1w",
