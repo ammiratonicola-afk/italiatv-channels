@@ -310929,17 +310929,14 @@
     {
       "video_id": "mArki_15X4k",
       "is_movie": true,
-      "original_title": "Con Elisabeth Röhm (Law & Order) | Dimentica e perdona (Forget and Forgive) (2014)",
+      "original_title": "Forget and Forgive",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 330408,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Con Elisabeth Röhm (Law & Order) | Dimentica e perdona (Forget and Forgive) (2014)",
-        "youtube_url": "https://www.youtube.com/watch?v=mArki_15X4k",
-        "titolo_corretto": "Forget and Forgive",
-        "titolo_italiano": "Dimentica e perdona",
+        "titolo_italiano": "Forget and Forgive",
         "titolo_originale": "Forget and Forgive",
         "anno_uscita": 2014,
         "durata_minuti": 87,
@@ -310947,7 +310944,7 @@
           "Thriller"
         ],
         "regista": [
-          "Tristan Dubois"
+          "Tristan DuBois"
         ],
         "cast_principale": [
           {
@@ -310984,14 +310981,14 @@
             }
           },
           {
-            "nome": "Vivien Endicott-Douglas",
-            "personaggio": null,
-            "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "nome": "Vivien Endicott Douglas",
+            "personaggio": "Emily Walker",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gHObS5p8LpyhxxScDvPfN2pJ6QS.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": null,
-              "url_pagina_origine": null,
-              "verificata": false
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/227571",
+              "verificata": true
             }
           },
           {
@@ -311004,99 +311001,90 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/1761310",
               "verificata": true
             }
+          },
+          {
+            "nome": "Katy Grabstas",
+            "personaggio": "Ingrid Gabor",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ovlv7A4etX0Nvip05izJWcAfS0P.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1258668",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Richard Clarkin",
+            "personaggio": "Clay Russo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/aJf1EKy9yoRFXMOcxHSmQKRCKYP.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/201074",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Claudia Besso",
+            "personaggio": "Dr. Kim Boyd",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zmYpYxQ47wHHxHLOr3jHbc01UaC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/180203",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Raphael Grosz-Harvey",
+            "personaggio": "Styles",
+            "foto_url": "https://image.tmdb.org/t/p/w185/h78FvoeeuTtX5K6DwcamB4kU27T.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1272480",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Frank Moore",
+            "personaggio": "George Shelton",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wmoFReXcsChtXf7NyJU45naxTY.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/103870",
+              "verificata": true
+            }
           }
         ],
-        "trama": "La detective Anna Walker si risveglia in ospedale senza memoria dopo un'aggressione. Scopre di essere stata una poliziotta spietata e cerca di rimediare ai suoi errori mentre le sue abilità investigative riaffiorano, mettendo in pericolo la sua vita e la sicurezza della sua famiglia.",
-        "lingua_trama_originale": "en",
+        "trama": "Lasciata per morta dopo un feroce assalto, la detective della omicidi Anna Walker si risveglia in ospedale senza alcuna memoria o ricordo. Mentre si sforza di mettere insieme i pezzi del suo passato, scopre che era una poliziotta insensibile e competitiva, capace di mettere il lavoro davanti agli affetti, e che aveva una torrida relazione con un collega. Mentre cerca di rimettersi sulla giusta strada, realizza di aver messo in pericolo non solo la sua vita ma anche quella della famiglia.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/ev39WeMD7j7ab4mjuw89qUhSCxi.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/330408-forget-and-forgive",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=-EGeZLVyrhM",
-          "lingua": "en",
           "fonte": "YouTube",
-          "canale": "FORGET AND FORGIVE - Trailer (starring Elisabeth Röhm)",
-          "ufficiale": true,
+          "lingua": "it",
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=-EGeZLVyrhM"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/330408-forget-and-forgive"
-          },
-          {
-            "nome": "OMDb",
-            "url": "http://www.omdbapi.com/?i=tt3668084"
-          },
-          {
-            "nome": "IMDb",
-            "url": "https://www.imdb.com/title/tt3668084/"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Forget and Forgive",
-            "Dimentica e perdona"
-          ],
-          "titolo_originale_trovato_nella_descrizione": "Forget and Forgive",
-          "anno_trovato": 2014,
-          "durata_video_youtube": "86 min",
-          "attori_trovati": [
-            "Elisabeth Röhm",
-            "Tygh Runyan",
-            "Neil Napier",
-            "Vivien Endicott-Douglas",
-            "Mal Dassin"
-          ],
-          "registi_trovati": [
-            "Tristan Dubois"
-          ],
-          "parole_chiave_trama": [
-            "amnesia",
-            "detective",
-            "omicidi",
-            "aggressione",
-            "memoria",
-            "poliziotta",
-            "famiglia"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "alta",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Tutti gli elementi principali (titolo, anno, durata, cast, trama) coincidono perfettamente con il candidato TMDB e le altre fonti."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 100,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "durata",
-            "cast principale",
-            "trama"
-          ],
-          "elementi_non_confermati": [],
-          "fonti_concordanti": [
-            "TMDB",
-            "OMDb",
-            "IMDb"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "Il film è stato identificato con certezza grazie alla corrispondenza di tutti gli elementi principali tra le fonti disponibili.",
         "tmdb_id_scelto": 330408,
-        "imdb_id_scelto": "tt3668084"
-      }
+        "imdb_id_scelto": "tt3668084",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T13:14:37.629Z"
+      },
+      "tmdb_poster_path": "/ev39WeMD7j7ab4mjuw89qUhSCxi.jpg",
+      "tmdb_title_official": "Forget and Forgive",
+      "tmdb_year_official": 2014,
+      "tmdb_media_type": "movie",
+      "genre": "thriller",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T13:14:37.629Z",
+      "editor_updated_at": "2026-07-04T13:14:37.629Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "qI2oipKJxV0",
@@ -326953,112 +326941,165 @@
     {
       "video_id": "s5mm2UkPNUc",
       "is_movie": true,
-      "original_title": "L'amicizia e il crimine (De Rienzo/Sartoretti) | A Tor Bella Monaca non piove mai | Completo",
+      "original_title": "A Tor Bella Monaca non piove mai",
       "channel": "TVItalia",
-      "tmdb_id": 462254,
-      "tmdb_title_official": "Completo",
-      "tmdb_year_official": 2013,
-      "tmdb_poster_path": "/s8hcwQUN6C6j99mmL1pdYsWu23C.jpg",
+      "tmdb_id": 641510,
+      "tmdb_title_official": "A Tor Bella Monaca non 'piove' mai",
+      "tmdb_year_official": 2019,
+      "tmdb_poster_path": "/qR6aad4DVxkr1AU7sxl5ciePIA8.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "L'amicizia e il crimine (De Rienzo/Sartoretti) | A Tor Bella Monaca non piove mai | Completo",
-        "youtube_url": "https://www.youtube.com/watch?v=s5mm2UkPNUc",
-        "titolo_italiano": "Completo",
-        "titolo_originale": "Completo",
-        "anno_uscita": 2013,
-        "durata_minuti": 15,
+        "titolo_italiano": "A Tor Bella Monaca non 'piove' mai",
+        "titolo_originale": "A Tor Bella Monaca non piove mai",
+        "anno_uscita": 2019,
+        "durata_minuti": 93,
         "genere": [
-          "Commedia",
-          "Dramma"
+          "Dramma",
+          "Thriller"
         ],
         "regista": [
-          "Iván Gaona"
+          "Marco Bocci"
         ],
         "cast_principale": [
           {
-            "nome": "Daniela Berrio",
-            "personaggio": "Daniela",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "nome": "Libero De Rienzo",
+            "personaggio": "Mauro",
+            "foto_url": "https://image.tmdb.org/t/p/w185/eLbBPlP2uN5dUcomDOYUvAb7uVw.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/3311033",
-              "verificata": false
+              "url_pagina_origine": "https://www.themoviedb.org/person/7707",
+              "verificata": true
             }
           },
           {
-            "nome": "Bertilde Castillo",
-            "personaggio": "Señora Bertha",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "nome": "Andrea Sartoretti",
+            "personaggio": "Romolo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cmFNNzhkXTHPeraalhTKIt4tdEG.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/3311034",
-              "verificata": false
+              "url_pagina_origine": "https://www.themoviedb.org/person/240273",
+              "verificata": true
             }
           },
           {
-            "nome": "Carlos Garzón",
-            "personaggio": "Lizardito",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "nome": "Giorgio Colangeli",
+            "personaggio": "Guglielmo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3LxOBPqDPT4k0CJ4hJGMSrYKtP1.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/2266191",
-              "verificata": false
+              "url_pagina_origine": "https://www.themoviedb.org/person/128227",
+              "verificata": true
             }
           },
           {
-            "nome": "Cristian Hernández",
-            "personaggio": "Completo",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "nome": "Carlo D'Ursi",
+            "personaggio": "Martini",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oZ2FGTRc0AS1KTYMvn9Eq4eWqEG.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/2266192",
-              "verificata": false
+              "url_pagina_origine": "https://www.themoviedb.org/person/1169148",
+              "verificata": true
             }
           },
           {
-            "nome": "Suetonio Hernández",
-            "personaggio": "Comprador",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "nome": "Giordano De Plano",
+            "personaggio": "Ruggero",
+            "foto_url": "https://image.tmdb.org/t/p/w185/AiEXOH47KxTKG5ukjVe3UuGN7sn.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/3311039",
-              "verificata": false
+              "url_pagina_origine": "https://www.themoviedb.org/person/128455",
+              "verificata": true
             }
           },
           {
-            "nome": "Pedro Nel Herrera",
-            "personaggio": "Visitante",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "nome": "Lorenza Guerrieri",
+            "personaggio": "Maria",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9WbCH4wvjYyRub5xpD8znsPSrej.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/3311046",
-              "verificata": false
+              "url_pagina_origine": "https://www.themoviedb.org/person/31613",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lorenzo Lazzarini",
+            "personaggio": "Domenico",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tNPFZ1LI4h2J7vi1fnf5OdQdZVg.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2170967",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Antónia Lišková",
+            "personaggio": "Samantha",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uZ2xmUlsdtSZADvOKY3OUMd2TuU.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/35127",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Fulvia Lorenzetti",
+            "personaggio": "Lucia",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tDHdNo8VItRY07TlzZ1PHwG8dby.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1862857",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gabriel Montesi",
+            "personaggio": "Fabio",
+            "foto_url": "https://image.tmdb.org/t/p/w185/w6b0WRfC3Z2uIn9BkUaRaaTCylx.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2197426",
+              "verificata": true
             }
           }
         ],
-        "trama": "Stanco che il suo dipendente dia latte gratis alla ragazza che gli piace, Lizardo offre a Completo una ricompensa affinché possa invitarla a uscire.",
+        "trama": "Il film racconta la vita di due fratelli, Mauro  e Romolo, e della loro famiglia in uno dei quartieri di Roma, Tor Bella Monaca. Quello che per molti è la normalità, in una realtà complessa come quella vissuta dalla famiglia Borri diventa un’utopia: riuscire a pagare l’affitto, avere una casa propria, trovare un lavoro ‘vero’, costruirsi un futuro sembrano obiettivi irraggiungibili, almeno per chi vuole vivere onestamente. Per questo la tentazione di trovare il guadagno facile è davvero forte anche se improvvisarsi cattivi non è semplice e per chi sbaglia una volta è davvero difficile riabilitarsi e ottenere una seconda opportunità.",
         "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/s8hcwQUN6C6j99mmL1pdYsWu23C.jpg",
+        "locandina_url": "https://image.tmdb.org/t/p/w500/qR6aad4DVxkr1AU7sxl5ciePIA8.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
+          "url": "https://www.youtube.com/watch?v=twI1p6JKzoI",
+          "lingua": "it",
           "fonte": "YouTube",
           "canale": null,
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube"
         },
-        "tmdb_id_scelto": 462254
-      }
+        "tmdb_id_scelto": 641510,
+        "imdb_id_scelto": "tt9642962",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-04T13:15:10.891Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "thriller",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-04T13:15:10.891Z",
+      "editor_updated_at": "2026-07-04T13:15:10.891Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "Yk7tpMRkgog",
