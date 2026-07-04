@@ -326259,7 +326259,7 @@
     },
     {
       "video_id": "p5IPvX00W9Y",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "El periscopio",
       "channel": "TVItalia",
       "tmdb_id": 30900,
@@ -326409,7 +326409,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-04T22:38:22.926Z",
       "editor_updated_at": "2026-07-04T22:38:22.926Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T22:38:59.454Z"
     },
     {
       "video_id": "SHjpxku8DrM",
@@ -332848,7 +332851,7 @@
     },
     {
       "video_id": "ioM5g_9FTS4",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Sleeper",
       "channel": "TVItalia",
       "tmdb_id": 516532,
@@ -333006,7 +333009,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-04T22:35:02.258Z",
       "editor_updated_at": "2026-07-04T22:35:02.258Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T22:38:59.455Z"
     },
     {
       "video_id": "tniXr5n_28M",
@@ -337179,7 +337185,7 @@
     },
     {
       "video_id": "wuuVCSXiLxs",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Wyatt Earp And Bass Reeves",
       "channel": "TVItalia",
       "tmdb_id": 1203454,
@@ -337286,7 +337292,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-04T22:35:47.115Z",
       "editor_updated_at": "2026-07-04T22:35:47.115Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-04T22:38:59.455Z"
     },
     {
       "video_id": "3dDaiNfjv7I",
