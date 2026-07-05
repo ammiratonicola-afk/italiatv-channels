@@ -368086,7 +368086,7 @@
     },
     {
       "video_id": "VCTfMF3UDX8",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Contract Killers",
       "channel": "Film&Clips Azione",
       "tmdb_id": 264891,
@@ -368243,7 +368243,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T06:30:08.642Z",
       "editor_updated_at": "2026-07-05T06:30:08.642Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:31:29.988Z"
     },
     {
       "video_id": "frNVvfWlDKw",
@@ -369497,7 +369500,7 @@
     },
     {
       "video_id": "SXeVao0r1F4",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "The Prince",
       "channel": "Film&Clips Azione",
       "tmdb_id": 241254,
@@ -369655,7 +369658,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T06:30:34.236Z",
       "editor_updated_at": "2026-07-05T06:30:34.236Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:31:29.987Z"
     },
     {
       "video_id": "_lpiyBhudgk",
