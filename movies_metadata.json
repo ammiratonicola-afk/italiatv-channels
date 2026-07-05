@@ -354845,7 +354845,7 @@
     {
       "video_id": "SpP0VA9HAt8",
       "is_movie": true,
-      "original_title": "I ragazzi del Columbus | Documentario | HD | Film Completo in Italiano",
+      "original_title": "I ragazzi del Columbus",
       "channel": "TVItalia",
       "tmdb_id": 1028156,
       "tmdb_title_official": "I ragazzi del Columbus",
@@ -354856,12 +354856,10 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "I ragazzi del Columbus | Documentario | HD | Film Completo in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=SpP0VA9HAt8",
         "titolo_italiano": "I ragazzi del Columbus",
         "titolo_originale": "I ragazzi del Columbus",
         "anno_uscita": 2022,
-        "durata_minuti": 0,
+        "durata_minuti": 57,
         "genere": [
           "Documentario"
         ],
@@ -354871,16 +354869,26 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/mRKEjsS98GCYSKq28N9VAvuF2i0.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt14936934/videogallery/content_type-trailer"
         },
-        "tmdb_id_scelto": 1028156
-      }
+        "tmdb_id_scelto": 1028156,
+        "imdb_id_scelto": "tt14936934",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:51:36.588Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "documentario",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:51:36.588Z",
+      "editor_updated_at": "2026-07-05T05:51:36.588Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "hyQKoDP7Q3Y",
@@ -355589,7 +355597,7 @@
     {
       "video_id": "WPIgNw1Qz3U",
       "is_movie": true,
-      "original_title": "Le prime foglie d'autunno | Drama | Film Completo in Italiano",
+      "original_title": "Le prime foglie d'autunno",
       "channel": "TVItalia",
       "tmdb_id": 579455,
       "tmdb_title_official": "Le prime foglie d'autunno",
@@ -355600,12 +355608,10 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Le prime foglie d'autunno | Drama | Film Completo in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=WPIgNw1Qz3U",
         "titolo_italiano": "Le prime foglie d'autunno",
         "titolo_originale": "Le prime foglie d'autunno",
         "anno_uscita": 1988,
-        "durata_minuti": 0,
+        "durata_minuti": 78,
         "genere": [],
         "regista": [
           "Raimondo Del Balzo"
@@ -355669,12 +355675,12 @@
           {
             "nome": "Daniele Dublino",
             "personaggio": null,
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "foto_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Lo%20scopone%20scientifico%20%281972%29%20Daniele%20Dublino%20%282%29.png",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/919804",
-              "verificata": false
+              "nome": "Wikidata (attore)",
+              "url_pagina_origine": "http://www.wikidata.org/entity/Q15651700",
+              "verificata": true
             }
           },
           {
@@ -355722,20 +355728,23 @@
             }
           }
         ],
-        "trama": "Marco and Martina break up. She is looking forward to starting a new life in America but before she departs, she lets Marco see their two children one more time. Seeing his love for them, the tension between them gradually eases but then something terrible happens to their offspring…",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Marco e Martina si lasciano. Lei è entusiasta di iniziare una nuova vita in America, ma prima di partire, permette a Marco di vedere i loro due figli un'ultima volta. Vedendo il suo amore per loro, la tensione tra di loro si allenta gradualmente, ma poi accade qualcosa di terribile ai loro bambini…",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/dfVvmx3ooF8TELCp2FZEDSVLSEd.jpg",
-        "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
-        },
-        "tmdb_id_scelto": 579455
-      }
+        "trailer": null,
+        "tmdb_id_scelto": 579455,
+        "imdb_id_scelto": "tt0311675",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:51:11.029Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "drammatico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:51:11.029Z",
+      "editor_updated_at": "2026-07-05T05:51:11.029Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "hOYo4rw2H6U",
@@ -356200,7 +356209,7 @@
     {
       "video_id": "b1aNg6nT6gI",
       "is_movie": true,
-      "original_title": "Volkov Origin | Azione | Thriller | HD | Film completo in italiano",
+      "original_title": "Volkov Origin",
       "channel": "TVItalia",
       "tmdb_id": 900410,
       "tmdb_title_official": "Volkov Origin",
@@ -356211,12 +356220,10 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Volkov Origin | Azione | Thriller | HD | Film completo in italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=b1aNg6nT6gI",
         "titolo_italiano": "Volkov Origin",
         "titolo_originale": "Volkov Origin",
         "anno_uscita": 2022,
-        "durata_minuti": 0,
+        "durata_minuti": 87,
         "genere": [
           "Thriller",
           "Crime"
@@ -356336,20 +356343,30 @@
             }
           }
         ],
-        "trama": "In the late evening hours, Dr. Angela Perkins finds that she has a new assignment. To dive into the mind of Horton House Penitentiary's newest and most mysterious tenant, Andre Volkov . No one can anticipate the impact that her visit will have on both of their lives as she begins her quest for the truth within his answers.",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Nelle ore tarde della sera, la dottoressa Angela Perkins scopre di avere un nuovo incarico. Deve immergersi nella mente del nuovo e misterioso detenuto del Penitenziario di Horton House, Andre Volkov. Nessuno può prevedere l'impatto che la sua visita avrà su entrambe le loro vite mentre inizia la sua ricerca della verità attraverso le sue risposte.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/rn3ydgeGFQbvnFq5jKofcXJgMBA.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=SnQResI-U2g"
         },
-        "tmdb_id_scelto": 900410
-      }
+        "tmdb_id_scelto": 900410,
+        "imdb_id_scelto": "tt10928372",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:50:15.301Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "poliziesco",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:50:15.301Z",
+      "editor_updated_at": "2026-07-05T05:50:15.301Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "o28pvKdbJ3M",
