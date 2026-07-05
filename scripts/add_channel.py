@@ -83,15 +83,44 @@ def parse_title(raw):
             continue
         if len(c) >= 2 and cl not in seen:
             seen.add(cl); out.append(c)
-    return out, actor, year
+    dm = (re.search(r"reg(?:ia|ista)\s*(?:di|:)?\s+([A-ZÀ-Ú][\w'.\-]+(?:\s+[A-ZÀ-Ú][\w'.\-]+){0,2})", raw)
+          or re.search(r"diretto\s+da\s+([A-ZÀ-Ú][\w'.\-]+(?:\s+[A-ZÀ-Ú][\w'.\-]+){0,2})", raw)
+          or re.search(r"un\s+film\s+di\s+([A-ZÀ-Ú][\w'.\-]+(?:\s+[A-ZÀ-Ú][\w'.\-]+){0,2})", raw))
+    director = dm.group(1).strip() if dm else None
+    return out, actor, year, director
 
 
 def sim(a, b):
     return difflib.SequenceMatcher(None, a.lower(), b.lower()).ratio()
 
 
-def tmdb_match(cands, actor=None, year=None):
-    best, best_s = None, 0.0
+import unicodedata as _ud
+
+def _norm_name(x):
+    x = "".join(c for c in _ud.normalize("NFD", (x or "").lower()) if _ud.category(c) != "Mn")
+    return re.sub(r"[^a-z0-9 ]", " ", x).strip()
+
+def _person_matches(names, wanted):
+    """True se un nome cercato (anche piu' separati da , / & / 'e') e' nel set names."""
+    if not wanted: return False
+    for w in re.split(r"\s*[,/&]\s*|\s+e\s+|\s+and\s+", str(wanted)):
+        wn = _norm_name(w); wt = set(wn.split())
+        if len(wn) < 3: continue
+        for n in names:
+            if wn == n or len(wt & set(n.split())) >= 2:   # nome+cognome coincidono
+                return True
+    return False
+
+def _tmdb_people(tid):
+    cr = tjson(f"https://api.themoviedb.org/3/movie/{tid}/credits?api_key={KEY}&language=it-IT")
+    if not cr: return set(), set()
+    cast = {_norm_name(c.get("name")) for c in cr.get("cast", [])[:18]}
+    dirs = {_norm_name(c.get("name")) for c in cr.get("crew", []) if c.get("job") == "Director"}
+    return cast, dirs
+
+def tmdb_match(cands, actor=None, year=None, director=None):
+    # 1) punteggio per similarita' titolo (+ anno/poster) su tutti i candidati
+    scored = {}   # tmdb_id -> [res, score]
     for q in cands:
         for lang in ("it-IT", "en-US"):
             url = f"https://api.themoviedb.org/3/search/movie?api_key={KEY}&language={lang}&query={urllib.parse.quote(q)}"
@@ -101,14 +130,28 @@ def tmdb_match(cands, actor=None, year=None):
             for res in (r or {}).get("results", [])[:5]:
                 s = max(sim(q, res.get("title", "")), sim(q, res.get("original_title", "")))
                 score = s + (0.1 if res.get("poster_path") else -0.4)
-                # disambigua per anno: bonus se combacia (±1), penalità se lontano (>2)
                 if year:
                     ry = (res.get("release_date") or "")[:4]
                     if ry.isdigit():
                         diff = abs(int(ry) - year)
                         score += 0.15 if diff <= 1 else (-0.2 if diff > 2 else 0)
-                if score > best_s:
-                    best_s, best = score, res
+                tid = res.get("id")
+                if tid and score > scored.get(tid, [None, -9.0])[1]:
+                    scored[tid] = [res, score]
+    if not scored:
+        return (None, 0.0)
+    # 2) VERIFICA INCROCIATA attore/regista sui migliori 3 (solo se forniti): conferma il
+    #    film corretto ed evita gli omonimi. Bonus forte quando combaciano davvero.
+    if actor or director:
+        top = sorted(scored.items(), key=lambda kv: kv[1][1], reverse=True)[:3]
+        for tid, pair in top:
+            cast, dirs = _tmdb_people(tid)
+            bonus = 0.0
+            if actor and _person_matches(cast, actor):    bonus += 0.30
+            if director and _person_matches(dirs, director): bonus += 0.30
+            pair[1] += bonus
+    best_id = max(scored, key=lambda t: scored[t][1])
+    best, best_s = scored[best_id]
     return (best, best_s) if best_s >= 0.72 else (None, best_s)
 
 
@@ -179,9 +222,9 @@ def main():
     for i, (vid, raw) in enumerate(films, 1):
         if vid in existing_vids:
             dup_vid += 1; continue
-        cands, actor, year = parse_title(raw)
+        cands, actor, year, director = parse_title(raw)
         if actor: cands = cands + [f"{c}".strip() for c in cands]
-        best, score = tmdb_match(cands, actor, year) if cands else (None, 0)
+        best, score = tmdb_match(cands, actor, year, director) if cands else (None, 0)
         if best:
             tid = best["id"]
             if tid in blocked_tmdb:

@@ -439,11 +439,11 @@ def main():
             if apply and run_added >= MAX_NEW:
                 print(f"    ...tetto {MAX_NEW} raggiunto, mi fermo (continua al prossimo run).")
                 break
-            cands, actor, year = parse_title(raw)
+            cands, actor, year, director = parse_title(raw)
             # #2: aggiungi i titoli trovati nella DESCRIZIONE YouTube (es. "Original title: X")
             desc_cands = title_from_description((info.get(vid) or {}).get("desc", ""))
             cands = cands + [c for c in desc_cands if c not in cands]
-            best, score = tmdb_match(cands, actor, year) if cands else (None, 0)
+            best, score = tmdb_match(cands, actor, year, director) if cands else (None, 0)
             if best:
                 tid = best["id"]
                 if tid in blocked_tmdb:
