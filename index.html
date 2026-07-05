@@ -2016,8 +2016,10 @@ async function webProxyImageCandidates(nome, filmTitle){
   ((d&&d.candidates)||[]).forEach((c,i)=>{
     if(!c.image) return;
     const k=`webproxy-${c.image}`; if(out.some(x=>x.key===k)) return;
+    const pg=c.page||c.image||"";
+    const actorPage=/imdb\.com\/name\/|wikipedia\.org\/wiki\/|filmaffinity\.com\/[a-z]+\/name|gettyimages|themoviedb\.org\/person/i.test(pg);
     out.push({key:k, source:c.source||"Web (proxy)", title:c.title||nome, image:c.image,
-      page:c.page||c.image, context:"ricerca immagini web via proxy", score:9-i});
+      page:pg, context:`pagina: ${pg} - ${c.title||""}`, score:(9-i)+(actorPage?6:0)});
   });
   return out;
 }
