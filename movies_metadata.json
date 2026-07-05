@@ -193414,7 +193414,7 @@
     },
     {
       "video_id": "_gOXc3tGMQw",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Pane, burro e marmellata | Commedia | Enrico Montesano |  Film Completo in italiano",
       "channel": "Italy on a click",
       "tmdb_id": 235589,
@@ -193569,7 +193569,10 @@
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 4.167,
-      "vote_count": 9
+      "vote_count": 9,
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:10:04.382Z"
     },
     {
       "video_id": "Zj3kbXhkx_k",
@@ -216533,7 +216536,7 @@
     },
     {
       "video_id": "AonNVb8fhts",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Cage vs Samurai: Azione Pura | Prisoners of the Ghostland | Film Completo",
       "channel": "Azione360",
       "tmdb_id": 523638,
@@ -216699,7 +216702,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T04:31:36.705Z",
       "editor_updated_at": "2026-07-05T04:31:36.705Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_lock_reason": "genere compilato dalla diagnostica editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:10:04.384Z"
     },
     {
       "video_id": "Npco6EI9Y_A",
@@ -365018,7 +365024,7 @@
     },
     {
       "video_id": "1CWJtyOeBcw",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "General Commander",
       "channel": "Film&Clips Azione",
       "tmdb_id": 585311,
@@ -365175,7 +365181,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T06:03:06.147Z",
       "editor_updated_at": "2026-07-05T06:03:06.147Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:10:04.385Z"
     },
     {
       "video_id": "h0WaJ0rnZwo",
