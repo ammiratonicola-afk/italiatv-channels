@@ -329868,151 +329868,101 @@
     {
       "video_id": "lTsF3FZ9Ovs",
       "is_movie": true,
-      "original_title": "Un Raid Mortale per Salvare le Loro Sorelle | Jesse James and Quantrill's Raiders",
+      "original_title": "Hampton's Legion",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 840202,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Un Raid Mortale per Salvare le Loro Sorelle | Jesse James and Quantrill's Raiders",
-        "youtube_url": "https://www.youtube.com/watch?v=lTsF3FZ9Ovs",
-        "titolo_corretto": "Jesse James and Quantrill's Raiders",
-        "titolo_italiano": null,
-        "titolo_originale": "Jesse James and Quantrill's Raiders",
-        "anno_uscita": 2023,
-        "durata_minuti": 82,
+        "titolo_italiano": "Hampton's Legion",
+        "titolo_originale": "Hampton's Legion",
+        "anno_uscita": 2021,
+        "durata_minuti": 80,
         "genere": [
-          "Western"
+          "Western",
+          "Azione"
         ],
         "regista": [
           "Christopher Forbes"
         ],
         "cast_principale": [
           {
+            "nome": "Jerry Chesser",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/2WPyXyl2XvqyhP4xiKlPOkX3YPf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1070248",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jezibell Anat",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/oeElnRQ5GItH0nA0YOj3i24y9nQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1678909",
+              "verificata": true
+            }
+          },
+          {
             "nome": "Russell Dobson",
             "personaggio": null,
             "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": null,
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2862210",
               "verificata": false
             }
           },
           {
-            "nome": "William Adams",
+            "nome": "Eddie Rodgers",
             "personaggio": null,
             "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": null,
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3124559",
               "verificata": false
             }
           },
           {
-            "nome": "Jerry Chesser",
+            "nome": "Daniel Dobson",
             "personaggio": null,
             "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": null,
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2986544",
               "verificata": false
             }
           }
         ],
-        "trama": "Il leggendario fuorilegge Jesse James e il famigerato Bloody Bill Anderson guidano i Predoni di Quantrill in un raid violento contro la città di Lawrence, Kansas, per vendicarsi dell'esercito dell'Unione e salvare le sorelle di Anderson da una vita in prigione.",
-        "lingua_trama_originale": "en",
+        "trama": "Quando la Confederazione non riesce più a finanziare enormi eserciti, Wade Hampton III, utilizzando i propri soldi, inizia, finanzia e rifornisce la propria fanteria, cavalleria e artiglieria per contribuire alla guerra.",
         "trama_tradotta_in_italiano": true,
-        "locandina_url": null,
-        "locandina_fonte": {
-          "nome": null,
-          "url_pagina_origine": null,
-          "verificata": false,
-          "motivo_verifica": "Nessun poster TMDB disponibile"
-        },
-        "trailer": {
-          "url": "https://www.youtube.com/watch?v=gt7prW34PEM",
-          "lingua": "en",
-          "fonte": "YouTube",
-          "canale": "Trailer",
-          "ufficiale": true,
-          "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
-        },
-        "fonti_usate": [
-          {
-            "nome": "OMDb",
-            "url": "https://www.omdbapi.com/"
-          },
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/"
-          },
-          {
-            "nome": "Wikipedia EN",
-            "url": "https://en.wikipedia.org/wiki/Quantrill's_Raiders"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Jesse James and Quantrill's Raiders"
-          ],
-          "titolo_originale_trovato_nella_descrizione": "Jesse James and Quantrill's Raiders",
-          "anno_trovato": 2023,
-          "durata_video_youtube": "81 min",
-          "attori_trovati": [
-            "Russell Dobson",
-            "William Adams",
-            "Jerry Chesser"
-          ],
-          "registi_trovati": [
-            "Christopher Forbes"
-          ],
-          "parole_chiave_trama": [
-            "Jesse James",
-            "Bloody Bill Anderson",
-            "raid",
-            "Lawrence",
-            "Kansas",
-            "vendetta",
-            "sorelle",
-            "prigione"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "alta",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Tutti gli elementi principali (titolo, anno, durata, cast, regista, trama) coincidono perfettamente con i dati forniti dalle fonti."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 100,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "durata",
-            "cast principale",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [],
-          "fonti_concordanti": [
-            "OMDb",
-            "TMDB",
-            "Wikipedia EN"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "",
-        "tmdb_id_scelto": 1115294,
-        "imdb_id_scelto": "tt33030573"
-      }
+        "locandina_url": "https://image.tmdb.org/t/p/w500/nT6R3TUIczaUqevgP6VHz1Hok57.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 840202,
+        "imdb_id_scelto": "tt14395688",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T04:23:10.095Z"
+      },
+      "tmdb_poster_path": "/nT6R3TUIczaUqevgP6VHz1Hok57.jpg",
+      "tmdb_title_official": "Hampton's Legion",
+      "tmdb_year_official": 2021,
+      "tmdb_media_type": "movie",
+      "genre": "western",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T04:23:10.095Z",
+      "editor_updated_at": "2026-07-05T04:23:10.095Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "HuExF-iwv7U",
