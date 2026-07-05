@@ -348004,10 +348004,165 @@
     {
       "video_id": "KqL5jLrbT64",
       "is_movie": true,
-      "original_title": "Lana Parrilla in \"Mistaken\" (2007) | Film Thriller Completo in Italiano HD",
+      "original_title": "The Double Life of Eleanor Kendall",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 197320,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/lTRUeGslZTBhrtd4Ehc0QSNXSkX.jpg",
+      "tmdb_title_official": "Mistaken - La doppia vita di Eleanor Kendall",
+      "tmdb_year_official": 2008,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Mistaken - La doppia vita di Eleanor Kendall",
+        "titolo_originale": "The Double Life of Eleanor Kendall",
+        "anno_uscita": 2008,
+        "durata_minuti": 90,
+        "genere": [
+          "Crime",
+          "Dramma",
+          "Mistero",
+          "televisione film"
+        ],
+        "regista": [
+          "Richard Roy"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Lana Parrilla",
+            "personaggio": "Nellie Givens",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7Etvf6r2D20VvrlLXfZbvj0cBTN.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/177231",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "James Thomas",
+            "personaggio": "Christopher Dolan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4N3lPd9Fa8jkfCOI03lXraIpUA8.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/444420",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Bénédicte Décary",
+            "personaggio": "Eleanor Kendall",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vgz0QzzE3kJv6YMk7F6JCj9x0kz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/559584",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Maéva Nadon",
+            "personaggio": "Sarah Kendall",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1177458",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Bobo Vian",
+            "personaggio": "Madeleine",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1177459",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Kathleen McAuliffe",
+            "personaggio": "Doreen Taylor",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1177460",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "François Arnaud",
+            "personaggio": "Stefan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2aPDGUGRcrBYmrQLc8AklEqp7xI.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/469462",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Paul Hopkins",
+            "personaggio": "Dave Mcguire",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3537001",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Martin Thibaudeau",
+            "personaggio": "Jack Givens",
+            "foto_url": "https://image.tmdb.org/t/p/w185/h89bFYw2dOmGWjM4DAVRIyMc9o1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/969037",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Emmanuel Charest",
+            "personaggio": "Detective Leblanc",
+            "foto_url": "https://image.tmdb.org/t/p/w185/q2MpyjluhCHEcz85ayG8Gb29qRz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1194635",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Ferita dal recente e doloroso divorzio dal marito, Nellie si ritrova ad affrontare un altro duro colpo quando scopre di essere vittima di un furto d'identità che l'ha ridotta quasi sul lastrico. Per venir a capo della vicenda, si mette sulle tracce del colpevole del reato, arrivando fino a Montreal e imbattendosi in Eleonora Kendall, un'elegante e misteriosa donna che insieme alla figlia è perseguitata dall'ex marito. Impietosita dal racconto di Eleonora, Neille accetta di darle una mano ma finisce con il mettere a repentaglio la sua stessa vita.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/lTRUeGslZTBhrtd4Ehc0QSNXSkX.jpg",
+        "trailer": {
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt1227774/videogallery/content_type-trailer"
+        },
+        "tmdb_id_scelto": 197320,
+        "imdb_id_scelto": "tt1227774",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:19:16.520Z"
+      },
+      "genre": "poliziesco",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:19:16.520Z",
+      "editor_updated_at": "2026-07-05T05:19:16.520Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "vs2VYr23HSo",
