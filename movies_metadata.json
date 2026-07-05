@@ -304082,19 +304082,16 @@
     {
       "video_id": "G3MPJ6rqwKk",
       "is_movie": true,
-      "original_title": "Film Completo 1930: Danger Lights (Pericolo giallo) in Bianco e Nero",
+      "original_title": "Danger Lights",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 166316,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Film Completo 1930: Danger Lights (Pericolo giallo) in Bianco e Nero",
-        "youtube_url": "https://www.youtube.com/watch?v=G3MPJ6rqwKk",
-        "titolo_corretto": "Danger Lights",
         "titolo_italiano": "Nella morsa delle rotaie",
         "titolo_originale": "Danger Lights",
-        "anno_uscita": 1930,
+        "anno_uscita": 1931,
         "durata_minuti": 74,
         "genere": [
           "Avventura",
@@ -304116,6 +304113,17 @@
             }
           },
           {
+            "nome": "Robert Armstrong",
+            "personaggio": "Larry Doyle",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5dZFHqLd8bJri8MpSSjpSOG1Dju.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3243",
+              "verificata": true
+            }
+          },
+          {
             "nome": "Jean Arthur",
             "personaggio": "Mary Ryan",
             "foto_url": "https://image.tmdb.org/t/p/w185/h46KhIQOOMPUMIdGNSN3A4zwcGQ.jpg",
@@ -304127,113 +304135,110 @@
             }
           },
           {
-            "nome": "Robert Armstrong",
-            "personaggio": "Larry Doyle",
-            "foto_url": "https://image.tmdb.org/t/p/w185/5dZFHqLd8bJri8MpSSjpSOG1Dju.jpg",
+            "nome": "Hugh Herbert",
+            "personaggio": "Professor",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zEEjBlC4cPhn1xWN84eJ13dDJyR.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/3243",
+              "url_pagina_origine": "https://www.themoviedb.org/person/34347",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Frank Sheridan",
+            "personaggio": "Ed Ryan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/r2QMcX8x5I4irV2oVDZOF7AAkzi.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/557594",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Robert Edeson",
+            "personaggio": "Tom Johnson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qWHUMZ3pBUhoDH781Zhnon9xRqu.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/130493",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Alan Roscoe",
+            "personaggio": "Jim",
+            "foto_url": "https://image.tmdb.org/t/p/w185/r7dI0JkuISCWV7rVbPqWgDMMEtB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/123585",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "William P. Burt",
+            "personaggio": "Chief Dispatcher",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1003481",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Jim Farley",
+            "personaggio": "Joe Geraghty",
+            "foto_url": "https://image.tmdb.org/t/p/w185/155ugk9VWe00T7wWSo3pqb9b80d.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/14420",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "James Donlan",
+            "personaggio": "Picnic Barker (uncredited)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qvTScnsWjtdQZcXLFtCb39XAxlB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/590533",
               "verificata": true
             }
           }
         ],
-        "trama": "Dan Thorn è il capo di uno scalo ferroviario che prende sotto la sua ala un giovane vagabondo, Larry. La sua generosità mette a rischio la sua relazione con Mary, la donna che ama, quando tra Larry e Mary nasce un'attrazione. Tra scene spettacolari di locomotive e tensioni amorose, i protagonisti si trovano in una corsa contro il tempo per salvare una vita lungo i binari.",
-        "lingua_trama_originale": "en",
+        "trama": "Il capotreno Dan è brutto quanto onorevole. Quando vede un vagabondo che ha preso un treno merci bloccato da una frana, Dan gli offre un lavoro; poi scopre che l'uomo era anche lui un ferroviere e lo prende sotto la sua ala. Fidanzato con Mary, Dan non si accorge dell'attrazione crescente tra il suo protetto e la sua promessa sposa, ma si concentra invece sulla gestione della ferrovia.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/mkfk4boYgF5OoS3OkkmNf5X5iuU.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/166316",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": "Da verificare via TMDB videos endpoint"
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt0020806/videogallery/content_type-trailer"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/166316"
-          },
-          {
-            "nome": "IMDb",
-            "url": "https://www.imdb.com/title/tt0020806/"
-          },
-          {
-            "nome": "Wikipedia EN",
-            "url": "https://en.wikipedia.org/wiki/Danger_Lights"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Danger Lights",
-            "Pericolo giallo"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": 1930,
-          "durata_video_youtube": "74 min",
-          "attori_trovati": [
-            "Louis Wolheim",
-            "Jean Arthur",
-            "Robert Armstrong"
-          ],
-          "registi_trovati": [
-            "George B. Seitz"
-          ],
-          "parole_chiave_trama": [
-            "ferrovia",
-            "triangolo amoroso",
-            "locomotive",
-            "corsa contro il tempo"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "alta",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Tutti gli elementi principali (titolo, anno, durata, cast, trama) coincidono perfettamente con i dati del film 'Danger Lights' del 1930."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 100,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "durata",
-            "cast principale",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [],
-          "fonti_concordanti": [
-            "TMDB",
-            "IMDb",
-            "Wikipedia EN"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "Il film è stato identificato con certezza grazie alla corrispondenza di tutti gli elementi chiave tra le fonti disponibili.",
         "tmdb_id_scelto": 166316,
         "imdb_id_scelto": "tt0020806",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:44:11.360Z"
       },
       "genre": "avventura",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:44:11.360Z",
+      "editor_updated_at": "2026-07-05T04:44:11.360Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/mkfk4boYgF5OoS3OkkmNf5X5iuU.jpg",
+      "tmdb_title_official": "Nella morsa delle rotaie",
+      "tmdb_year_official": 1931,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "miiXmVjQCrs",
@@ -304360,37 +304365,34 @@
     {
       "video_id": "YR1VTm2aikM",
       "is_movie": true,
-      "original_title": "Deluge (1933) Il Diluvio - Apocalisse in Bianco e Nero Intero",
+      "original_title": "Deluge",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 163293,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Deluge (1933) Il Diluvio - Apocalisse in Bianco e Nero Intero",
-        "youtube_url": "https://www.youtube.com/watch?v=YR1VTm2aikM",
-        "titolo_corretto": "Deluge",
         "titolo_italiano": "La distruzione del mondo",
         "titolo_originale": "Deluge",
         "anno_uscita": 1933,
         "durata_minuti": 70,
         "genere": [
-          "Azione",
-          "Avventura",
-          "Dramma"
+          "Fantascienza",
+          "Dramma",
+          "Thriller"
         ],
         "regista": [
           "Felix E. Feist"
         ],
         "cast_principale": [
           {
-            "nome": "Peggy Shannon",
-            "personaggio": "Claire",
-            "foto_url": "https://image.tmdb.org/t/p/w185/zBZnCypoaIJ6c85b4v4uZQPdl1w.jpg",
+            "nome": "Lois Wilson",
+            "personaggio": "Helen Webster",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fSQS8avO1WLCdD8BfDuwEtLLsCa.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/119257",
+              "url_pagina_origine": "https://www.themoviedb.org/person/148836",
               "verificata": true
             }
           },
@@ -304406,13 +304408,13 @@
             }
           },
           {
-            "nome": "Lois Wilson",
-            "personaggio": "Helen Webster",
-            "foto_url": "https://image.tmdb.org/t/p/w185/fSQS8avO1WLCdD8BfDuwEtLLsCa.jpg",
+            "nome": "Peggy Shannon",
+            "personaggio": "Claire Arlington",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zBZnCypoaIJ6c85b4v4uZQPdl1w.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/148836",
+              "url_pagina_origine": "https://www.themoviedb.org/person/119257",
               "verificata": true
             }
           },
@@ -304437,108 +304439,90 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/128198",
               "verificata": true
             }
+          },
+          {
+            "nome": "Edward Van Sloan",
+            "personaggio": "Professor",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qZ9zAlgNlJ1vefUXb4KDVbC3kVh.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1550",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Samuel S. Hinds",
+            "personaggio": "Chief Forecaster",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uwUEvtPnO79him7Lf8lwQlVW78X.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/17756",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Fred 'Snowflake' Toones",
+            "personaggio": "Townsman",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ln1te8Hh26rrbP8chktKEFLT6ol.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/955809",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marianne Edwards",
+            "personaggio": "Marianne Webster",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8jM12RC2xoUJEwd3LCsSMZHnr1R.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1159102",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ronnie Cosby",
+            "personaggio": "Ronny Webster",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kplUEYQxCeNwmsFDIFgTb5sPpif.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/930681",
+              "verificata": true
+            }
           }
         ],
-        "trama": "Una serie di catastrofici terremoti e tsunami distrugge le città e sommerge i continenti. Martin Webster, separato dalla sua famiglia, cerca di sopravvivere e incontra Claire, con cui tenta di ricostruire una vita. La scoperta che la sua famiglia potrebbe essere viva lo mette di fronte a una difficile scelta morale.",
-        "lingua_trama_originale": "en",
+        "trama": "Un violento terremoto colpisce gli Stati Uniti, distruggendo la costa occidentale e scatenando una massiccia inondazione che minaccia di distruggere anche la costa orientale.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/3TL1Qxgl2D4RtvnuWteVknqod1j.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/163293-deluge",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": "Da verificare via TMDB videos endpoint"
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt0023938/videogallery/content_type-trailer"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/163293-deluge"
-          },
-          {
-            "nome": "IMDb",
-            "url": "https://www.imdb.com/title/tt0023938/"
-          },
-          {
-            "nome": "OMDb",
-            "url": "http://www.omdbapi.com/"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Deluge",
-            "La distruzione del mondo"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": 1933,
-          "durata_video_youtube": "66 min",
-          "attori_trovati": [
-            "Peggy Shannon",
-            "Sidney Blackmer",
-            "Lois Wilson",
-            "Matt Moore",
-            "Fred Kohler"
-          ],
-          "registi_trovati": [
-            "Felix E. Feist"
-          ],
-          "parole_chiave_trama": [
-            "terremoti",
-            "tsunami",
-            "sopravvivenza",
-            "post-apocalittico",
-            "famiglia"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film 'Deluge' del 1933 coincide con il titolo, anno, cast, regista e trama descritti nel video YouTube."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "cast principale",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "durata"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "IMDb",
-            "OMDb"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "Il film identificato è 'Deluge' del 1933, noto in italiano come 'La distruzione del mondo'.",
         "tmdb_id_scelto": 163293,
         "imdb_id_scelto": "tt0023938",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:43:48.263Z"
       },
-      "genre": "avventura",
+      "genre": "fantascienza",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:43:48.263Z",
+      "editor_updated_at": "2026-07-05T04:43:48.263Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/3TL1Qxgl2D4RtvnuWteVknqod1j.jpg",
+      "tmdb_title_official": "La distruzione del mondo",
+      "tmdb_year_official": 1933,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "AbSIc5pf0Hk",
@@ -304698,36 +304682,34 @@
     {
       "video_id": "wtdvVIQAEzY",
       "is_movie": true,
-      "original_title": "Tratto da una storia vera: Scandalo al college | Film Completo",
+      "original_title": "Dying for a Good Grade",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 900473,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Tratto da una storia vera: Scandalo al college | Film Completo",
-        "youtube_url": "https://www.youtube.com/watch?v=wtdvVIQAEzY",
-        "titolo_corretto": "Scandalo al college",
         "titolo_italiano": "Scandalo al college",
         "titolo_originale": "Dying for a Good Grade",
         "anno_uscita": 2021,
         "durata_minuti": 105,
         "genere": [
           "Thriller",
-          "Drammatico"
+          "televisione film",
+          "Dramma"
         ],
         "regista": [
           "Ken Friss"
         ],
         "cast_principale": [
           {
-            "nome": "Karis Cameron",
-            "personaggio": "Anni Kerr",
-            "foto_url": "https://image.tmdb.org/t/p/w185/ejZsNmrxfHwBLo02L0olIOU0Ft4.jpg",
+            "nome": "Jason Cermak",
+            "personaggio": "Grant Kerr",
+            "foto_url": "https://image.tmdb.org/t/p/w185/Am3whjOE2lmqK1cNT8uY3slgIG2.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1515477",
+              "url_pagina_origine": "https://www.themoviedb.org/person/965413",
               "verificata": true
             }
           },
@@ -304743,24 +304725,13 @@
             }
           },
           {
-            "nome": "Rachelle Gillis",
-            "personaggio": "Katie",
-            "foto_url": "https://image.tmdb.org/t/p/w185/aD4gMqtkYT61f0H8O4uBolis1rx.jpg",
+            "nome": "Karis Cameron",
+            "personaggio": "Anni Kerr",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ejZsNmrxfHwBLo02L0olIOU0Ft4.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1695689",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Jason Cermak",
-            "personaggio": "Grant Kerr",
-            "foto_url": "https://image.tmdb.org/t/p/w185/Am3whjOE2lmqK1cNT8uY3slgIG2.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/965413",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1515477",
               "verificata": true
             }
           },
@@ -304774,112 +304745,101 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/67978",
               "verificata": true
             }
-          }
-        ],
-        "trama": "Una studentessa, per entrare in un prestigioso college, si trova coinvolta in uno scandalo di corruzione per falsificare i test d'ingresso. Quando la polizia si avvicina all'organizzazione criminale, il capo della truffa ricorre alla violenza per eliminare i testimoni.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/vxqqTTPJ5XXee3R7y9GLX5xFI65.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/900473",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
-        "trailer": {
-          "url": "https://www.youtube.com/watch?v=AFiOo21mPC0",
-          "lingua": "en",
-          "fonte": "YouTube",
-          "canale": "Mommy's Cheating Scandal Trailer",
-          "ufficiale": true,
-          "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
-        },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/900473"
           },
           {
-            "nome": "YouTube",
-            "url": "https://www.youtube.com/watch?v=wtdvVIQAEzY"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Scandalo al college",
-            "Mommy's Cheating Scandal"
-          ],
-          "titolo_originale_trovato_nella_descrizione": "Mommy's Cheating Scandal",
-          "anno_trovato": null,
-          "durata_video_youtube": "85 min",
-          "attori_trovati": [
-            "Karis Cameron",
-            "Stefanie von Pfetten",
-            "Rachelle Gillis"
-          ],
-          "registi_trovati": [
-            "Ken Friss"
-          ],
-          "parole_chiave_trama": [
-            "studentessa",
-            "università",
-            "corruzione",
-            "test d'ingresso",
-            "polizia",
-            "organizzazione criminale",
-            "violenza",
-            "omicidio"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film corrisponde per titolo, regista, cast e trama con il candidato TMDB identificato."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "titolo italiano",
-            "regista",
-            "cast principale",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "durata"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "YouTube"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [
+            "nome": "Marnie Mahannah",
+            "personaggio": "Regina Kent",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bzruhttEqD86Le9dB1KqqCU7fVA.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2414701",
+              "verificata": true
+            }
+          },
           {
-            "titolo": "Operazione Varsity Blues - Scandalo al college",
-            "titolo_originale": "Operation Varsity Blues: The College Admissions Scandal",
-            "anno": 2021,
-            "motivo_alternativa": "Titolo simile e tema correlato, ma differente per regista e cast.",
-            "livello_compatibilita": "basso"
+            "nome": "Rachelle Gillis",
+            "personaggio": "Katie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/aD4gMqtkYT61f0H8O4uBolis1rx.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1695689",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Taylor Kare",
+            "personaggio": "Nathan Aldrich",
+            "foto_url": "https://image.tmdb.org/t/p/w185/csBjW8Rnt5i3dUgW8wCUcNUpuS2.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1885230",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Joel Semande",
+            "personaggio": "Reilly",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vWSxAIG7gW1phZIPq6L8txz5ojR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1596265",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Josh Blacker",
+            "personaggio": "Marshall Kaladis",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uBfmWlJ85bY9u6fq7F2c3G41Yir.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/204420",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Josh Chambers",
+            "personaggio": "Dev Anderson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/71F6OjtKN7g5iud30FjDtTCkaYp.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3429160",
+              "verificata": true
+            }
           }
         ],
-        "note": "Il film identificato è un thriller drammatico del 2021 diretto da Ken Friss, con una trama che coincide con quella descritta nel video YouTube.",
+        "trama": "Volendo assicurarsi di entrare in un grande college, una studentessa viene coinvolta nello scandalo delle ammissioni su sollecitazione della sua migliore amica. Quando la polizia inizia a curiosare in giro e ad avvicinarsi al leader del ring, la studentessa dice a sua madre che vuole aiuto per uscire. Ma quando entrambi tentano di porre fine al loro coinvolgimento, le cose diventano mortali.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/vxqqTTPJ5XXee3R7y9GLX5xFI65.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=AFiOo21mPC0"
+        },
         "tmdb_id_scelto": 900473,
         "imdb_id_scelto": "tt11866096",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:43:32.148Z"
       },
       "genre": "thriller",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:43:32.148Z",
+      "editor_updated_at": "2026-07-05T04:43:32.148Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/vxqqTTPJ5XXee3R7y9GLX5xFI65.jpg",
+      "tmdb_title_official": "Scandalo al college",
+      "tmdb_year_official": 2021,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "YQ9kRYN3K20",
@@ -308698,24 +308658,20 @@
     {
       "video_id": "_YxGqdUS-kU",
       "is_movie": true,
-      "original_title": "La regola delle tre mogli (RULE OF 3)| Film Completo in ITA | HD",
+      "original_title": "Rule of 3",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 616257,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "La regola delle tre mogli (RULE OF 3)| Film Completo in ITA | HD",
-        "youtube_url": "https://www.youtube.com/watch?v=_YxGqdUS-kU",
-        "titolo_corretto": "La regola delle 3 mogli",
         "titolo_italiano": "La regola delle 3 mogli",
         "titolo_originale": "Rule of 3",
         "anno_uscita": 2019,
         "durata_minuti": 89,
         "genere": [
           "Thriller",
-          "Mistero",
-          "Dramma"
+          "televisione film"
         ],
         "regista": [
           "Caroline Labrèche"
@@ -308723,7 +308679,7 @@
         "cast_principale": [
           {
             "nome": "Kelly Rutherford",
-            "personaggio": "Alison Whitford",
+            "personaggio": "Cheryl Volberg",
             "foto_url": "https://image.tmdb.org/t/p/w185/qq05zHgR6lunxEOAEwJ7peAJHDN.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -308755,6 +308711,17 @@
             }
           },
           {
+            "nome": "Joris Jarsky",
+            "personaggio": "Det. Gabriel Strickland",
+            "foto_url": "https://image.tmdb.org/t/p/w185/snXBT36DDvxDhRyym44Zs55eKUf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/76973",
+              "verificata": true
+            }
+          },
+          {
             "nome": "Brett Donahue",
             "personaggio": "Graham",
             "foto_url": "https://image.tmdb.org/t/p/w185/i6IlT8BNpG21Hd44bQ8aiEH0slU.jpg",
@@ -308766,110 +308733,44 @@
             }
           },
           {
-            "nome": "Joris Jarsky",
-            "personaggio": "Det. Gabriel Strickland",
-            "foto_url": "https://image.tmdb.org/t/p/w185/snXBT36DDvxDhRyym44Zs55eKUf.jpg",
+            "nome": "Ksenia Thurgood",
+            "personaggio": "Gabby",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qYERPQaa5FLEsUH3qFWbKnFGXsQ.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/76973",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2363941",
               "verificata": true
             }
           }
         ],
-        "trama": "Alison Whitford è una donna in carriera che crede di aver trovato l'uomo perfetto in Dominick. Tuttavia, la sua vita viene sconvolta quando Dominick muore in un apparente incidente d'auto, che si rivela essere un omicidio. Mentre emergono segreti sulla vita di Dominick, Alison scopre che il suo omicidio è parte di un piano più grande e pericoloso.",
-        "lingua_trama_originale": "en",
+        "trama": "Alison Whitford pensava di avere tutto.  Una donna in carriera affermata, ha resistito al matrimonio finché non ha trovato \"l'Uno\".  E Dominick era tutto ciò che aveva sempre sperato in un uomo.  Ancora nella fase della luna di miele del suo matrimonio, il mondo di Alison viene sconvolto quando Dominick muore improvvisamente in un incidente d'auto.  Quando viene rivelato che è stato assassinato, vengono alla luce ancora più segreti sulla vita di Dominick.  Diventa presto chiaro che Alison non era l'unica a piangere Dominick e che la sua morte era solo l'inizio di un piano più ampio.  Forse il suo perfetto marito non era poi così perfetto, e alcuni dei suoi segreti potrebbero valere la pena di essere uccisi per...",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/jpTokNHgcBbK2M5of4578SlwlZ7.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/616257",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB per il film identificato."
-        },
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=ShSIQ1Wp4Is",
-          "lingua": "en",
           "fonte": "YouTube",
-          "canale": "RULE OF 3 - Trailer (starring Kelly Rutherford)",
-          "ufficiale": true,
+          "lingua": "it",
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=ShSIQ1Wp4Is"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/616257"
-          },
-          {
-            "nome": "YouTube",
-            "url": "https://www.youtube.com/watch?v=_YxGqdUS-kU"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "La regola delle tre mogli",
-            "RULE OF 3"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": null,
-          "durata_video_youtube": "89 min",
-          "attori_trovati": [
-            "Kelly Rutherford",
-            "Erin Karpluk",
-            "Kate Corbett",
-            "Brett Donahue",
-            "Joris Jarsky"
-          ],
-          "registi_trovati": [
-            "Caroline Labrèche"
-          ],
-          "parole_chiave_trama": [
-            "omicidio",
-            "segreti",
-            "donna in carriera",
-            "incidente d'auto",
-            "piano pericoloso"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "alta",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film è stato identificato con alta certezza grazie alla corrispondenza di titolo, anno, durata, cast e trama tra YouTube e TMDB."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 100,
-          "elementi_confermati": [
-            "titolo",
-            "anno",
-            "durata",
-            "cast",
-            "trama"
-          ],
-          "elementi_non_confermati": [],
-          "fonti_concordanti": [
-            "TMDB",
-            "YouTube"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "",
         "tmdb_id_scelto": 616257,
         "imdb_id_scelto": "tt10395136",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:43:14.676Z"
       },
       "genre": "thriller",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:43:14.676Z",
+      "editor_updated_at": "2026-07-05T04:43:14.676Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/jpTokNHgcBbK2M5of4578SlwlZ7.jpg",
+      "tmdb_title_official": "La regola delle 3 mogli",
+      "tmdb_year_official": 2019,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "fhQFE96o8lc",
@@ -310924,22 +310825,20 @@
     {
       "video_id": "D_ckPfSAP1w",
       "is_movie": true,
-      "original_title": "Uno dei Western all'italiana più crudeli mai girati | Se sei vivo spara 4K",
+      "original_title": "Se sei vivo spara",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 61943,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Uno dei Western all'italiana più crudeli mai girati | Se sei vivo spara 4K",
-        "youtube_url": "https://www.youtube.com/watch?v=D_ckPfSAP1w",
-        "titolo_corretto": "Se sei vivo spara",
         "titolo_italiano": "Se sei vivo spara",
         "titolo_originale": "Se sei vivo spara",
         "anno_uscita": 1967,
         "durata_minuti": 100,
         "genere": [
           "Western",
+          "Azione",
           "Horror"
         ],
         "regista": [
@@ -310948,7 +310847,7 @@
         "cast_principale": [
           {
             "nome": "Tomas Milian",
-            "personaggio": "Lo Straniero",
+            "personaggio": "The Stranger",
             "foto_url": "https://image.tmdb.org/t/p/w185/4kJLJS71fMyiA7lD685pCtZlljR.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -310980,8 +310879,74 @@
             }
           },
           {
+            "nome": "Milo Quesada",
+            "personaggio": "Bill Templer",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mFBaW4RQNBEC3lIgOqFBDa68Gfl.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/99445",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Francisco Sanz",
+            "personaggio": "Hagerman",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/100845",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Miguel Serrano",
+            "personaggio": "Indian",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2492236",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Ángel Silva",
+            "personaggio": "Indian",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2492237",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Sancho Gracia",
+            "personaggio": "Willy (as Félix Sancho Gracia)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ryZ6y9RFMatlJPbrJ3sC9Ncfv8t.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/7352",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mirella Pamphili",
+            "personaggio": "Woman in Town (as Mirella Panfili)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3ly91hoQ9sZAbPStdWs5An1up9s.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/995741",
+              "verificata": true
+            }
+          },
+          {
             "nome": "Ray Lovelock",
-            "personaggio": "Evan",
+            "personaggio": "Evan Templer (as Raymond Lovelock)",
             "foto_url": "https://image.tmdb.org/t/p/w185/uZQa8foSrVLnTaBc3oQflriMawl.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -310991,104 +310956,33 @@
             }
           }
         ],
-        "trama": "Dopo una rapina a una diligenza, una banda tradisce uno dei suoi membri, lasciandolo a morire nel deserto. Salvato da guaritori indiani, torna per vendicarsi in una città dominata dalla violenza, mettendo le fazioni rivali l'una contro l'altra.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Una banda di fuorilegge di americani e messicani compie una rapina ai danni dell'esercito statunitense. Al momento della spartizione del bottino, gli americani compiono una carneficina tra i messicani. Di questi, se ne salva uno solo, aiutato da alcuni nativi.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/4vlRtrsQhMKu8kA9xbb7Je35EUY.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/61943",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=f8TZ8W81_Rc",
-          "lingua": "en",
           "fonte": "YouTube",
-          "canale": "Django Kill...If You Live, Shoot! (1967) - Trailer",
+          "lingua": "it",
           "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=DauHqe4qNGk"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/61943"
-          },
-          {
-            "nome": "Wikipedia IT",
-            "url": "https://it.wikipedia.org/wiki/Se_sei_vivo_spara"
-          },
-          {
-            "nome": "Wikipedia EN",
-            "url": "https://en.wikipedia.org/wiki/Django_Kill..._If_You_Live%2C_Shoot!"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Se sei vivo spara"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": 1967,
-          "durata_video_youtube": "115 min",
-          "attori_trovati": [
-            "Tomas Milian",
-            "Marilù Tolo",
-            "Piero Lulli",
-            "Ray Lovelock"
-          ],
-          "registi_trovati": [
-            "Giulio Questi"
-          ],
-          "parole_chiave_trama": [
-            "rapina",
-            "vendetta",
-            "deserto",
-            "violenza",
-            "fazioni rivali"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film corrisponde per titolo, anno, regista, cast e trama con i dati forniti e le fonti verificate."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "regista",
-            "cast principale",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "durata"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "Wikipedia IT",
-            "Wikipedia EN"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "La durata del video YouTube è leggermente superiore alla durata ufficiale del film, ma potrebbe includere introduzioni o crediti estesi.",
         "tmdb_id_scelto": 61943,
         "imdb_id_scelto": "tt0062082",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:42:37.032Z"
       },
       "genre": "horror",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:42:37.032Z",
+      "editor_updated_at": "2026-07-05T04:42:37.032Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/4vlRtrsQhMKu8kA9xbb7Je35EUY.jpg",
+      "tmdb_title_official": "Se sei vivo spara",
+      "tmdb_year_official": 1967,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "RfHzPEB5HaU",
@@ -311823,21 +311717,19 @@
     {
       "video_id": "8Yaar8u-Lug",
       "is_movie": true,
-      "original_title": "Dio crea gli uomini, Requiescant li uccide | Western | Film Completo in italiano",
+      "original_title": "Requiescant",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 122787,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Dio crea gli uomini, Requiescant li uccide | Western | Film Completo in italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=8Yaar8u-Lug",
-        "titolo_corretto": "Requiescant",
         "titolo_italiano": "Requiescant",
         "titolo_originale": "Requiescant",
         "anno_uscita": 1967,
         "durata_minuti": 110,
         "genere": [
+          "Azione",
           "Western"
         ],
         "regista": [
@@ -311846,7 +311738,7 @@
         "cast_principale": [
           {
             "nome": "Lou Castel",
-            "personaggio": "Requiescant",
+            "personaggio": "'Requiescant'",
             "foto_url": "https://image.tmdb.org/t/p/w185/nfSbW6awANxaRI769Bo2ZLDb22P.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -311868,7 +311760,7 @@
           },
           {
             "nome": "Pier Paolo Pasolini",
-            "personaggio": "Don Juan",
+            "personaggio": "Father Juan",
             "foto_url": "https://image.tmdb.org/t/p/w185/fca5HJvz23Saj3TDCMWDqCswcmh.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -311889,6 +311781,28 @@
             }
           },
           {
+            "nome": "Rossana Martini",
+            "personaggio": "Lottie / Lupe",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vVjNnhFJFZBA5rue235VEeaxKQc.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/229080",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mirella Maravidi",
+            "personaggio": "Edith Ferguson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qVQUp5mmxWDUXCWsRC0fHcFqELP.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/95248",
+              "verificata": true
+            }
+          },
+          {
             "nome": "Franco Citti",
             "personaggio": "Burt",
             "foto_url": "https://image.tmdb.org/t/p/w185/8FTMiz5JYOOXPy8pYXwqoDlAM7M.jpg",
@@ -311898,106 +311812,68 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/44860",
               "verificata": true
             }
+          },
+          {
+            "nome": "Luisa Baratto",
+            "personaggio": "Pilar",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7IGkkhBEPA6HvuXqTj8AJLNa66O.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/544152",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ninetto Davoli",
+            "personaggio": "El Niño",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bOs054IC9yaP2DDKdXdH2OEznES.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/23367",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Carlo Palmucci",
+            "personaggio": "Dean Light",
+            "foto_url": "https://image.tmdb.org/t/p/w185/60bHQYLH41y2goYj4rq11P12NPG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/582975",
+              "verificata": true
+            }
           }
         ],
-        "trama": "Un giovane sopravvissuto al massacro della sua famiglia viene cresciuto da un predicatore. Diventato un abile pistolero, cerca vendetta contro l'aristocratico Ferguson e si unisce a rivoluzionari messicani per liberare gli oppressi.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Un bambino assiste impotente al massacro della sua famiglia e dei peones del suo villaggio. Viene salvato da un pastore protestante che gli insegna la parola del Signore, ma non gli nasconde che, a volte, è utile anche ascoltare quella delle Colt. Diventato adulto, il sopravvissuto cerca vendetta e riscatto per la sua gente.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/2u0N1Ln776OMFRM7W3u82TdyS5k.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/122787-requiescant",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=aaHm_Ea3VSQ",
-          "lingua": "en",
           "fonte": "YouTube",
-          "canale": "Requiescant (1967) ORIGINAL TRAILER [HD]",
+          "lingua": "it",
           "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=aaHm_Ea3VSQ"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/122787-requiescant"
-          },
-          {
-            "nome": "IMDb",
-            "url": "https://www.imdb.com/title/tt0063500/"
-          },
-          {
-            "nome": "OMDb",
-            "url": "http://www.omdbapi.com/"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Requiescant"
-          ],
-          "titolo_originale_trovato_nella_descrizione": "Requiescant",
-          "anno_trovato": 1967,
-          "durata_video_youtube": "106 min",
-          "attori_trovati": [
-            "Lou Castel",
-            "Mark Damon",
-            "Pier Paolo Pasolini",
-            "Barbara Frey",
-            "Franco Citti",
-            "Ninetto Davoli"
-          ],
-          "registi_trovati": [
-            "Carlo Lizzani"
-          ],
-          "parole_chiave_trama": [
-            "vendetta",
-            "rivoluzione",
-            "oppressi",
-            "tirannia",
-            "pistolero"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "alta",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Tutti gli elementi principali (titolo, anno, durata, cast, trama) coincidono perfettamente con il film 'Requiescant' del 1967."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 100,
-          "elementi_confermati": [
-            "titolo",
-            "anno",
-            "durata",
-            "cast",
-            "trama"
-          ],
-          "elementi_non_confermati": [],
-          "fonti_concordanti": [
-            "TMDB",
-            "IMDb",
-            "OMDb"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "Il film è stato identificato con alta certezza grazie alla corrispondenza di tutti gli elementi chiave tra le fonti disponibili.",
         "tmdb_id_scelto": 122787,
         "imdb_id_scelto": "tt0063500",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:42:55.859Z"
       },
       "genre": "western",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:42:55.859Z",
+      "editor_updated_at": "2026-07-05T04:42:55.859Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/2u0N1Ln776OMFRM7W3u82TdyS5k.jpg",
+      "tmdb_title_official": "Requiescant",
+      "tmdb_year_official": 1967,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "7Y3F03Q9Wg8",
@@ -312330,24 +312206,22 @@
     {
       "video_id": "tu4Zdw85R-k",
       "is_movie": true,
-      "original_title": "WILLED TO KILL| Drama Thriller HD | Film completo in Italiano",
+      "original_title": "Willed to Kill",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 158689,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "WILLED TO KILL| Drama Thriller HD | Film completo in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=tu4Zdw85R-k",
-        "titolo_corretto": "Ogni killer ha il suo segreto",
         "titolo_italiano": "Ogni killer ha il suo segreto",
         "titolo_originale": "Willed to Kill",
         "anno_uscita": 2013,
         "durata_minuti": 84,
         "genere": [
-          "Dramma",
+          "televisione film",
+          "Mistero",
           "Thriller",
-          "Mistero"
+          "Azione"
         ],
         "regista": [
           "Philippe Gagnon"
@@ -312365,17 +312239,6 @@
             }
           },
           {
-            "nome": "Dylan Bruce",
-            "personaggio": "Mark Hanson",
-            "foto_url": "https://image.tmdb.org/t/p/w185/yGFyqKg96R6lyhXktpDvwjBZRQb.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/142206",
-              "verificata": true
-            }
-          },
-          {
             "nome": "Michael Riley",
             "personaggio": "Dr. Aaron Kade",
             "foto_url": "https://image.tmdb.org/t/p/w185/bqE0sgajno18ddjxGJhV417v2Jm.jpg",
@@ -312387,14 +312250,14 @@
             }
           },
           {
-            "nome": "David McIlwraith",
-            "personaggio": "Lt. Schneider",
-            "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "nome": "Dylan Bruce",
+            "personaggio": "Mark Hanson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/yGFyqKg96R6lyhXktpDvwjBZRQb.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": null,
-              "verificata": false
+              "url_pagina_origine": "https://www.themoviedb.org/person/142206",
+              "verificata": true
             }
           },
           {
@@ -312407,107 +312270,101 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/56366",
               "verificata": true
             }
+          },
+          {
+            "nome": "David McIlwraith",
+            "personaggio": "Lt. Schneider",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/31184",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Joey Klein",
+            "personaggio": "Floyd",
+            "foto_url": "https://image.tmdb.org/t/p/w185/poDWU5ZBJtFS1Kd9iIq8btLT89j.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1140109",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Christian Paul",
+            "personaggio": "Agent Harris",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6ilH8wFjJBQyqoLETsAFKNo50Io.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1141258",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Brett Watson",
+            "personaggio": "Detective Myers",
+            "foto_url": "https://image.tmdb.org/t/p/w185/aDhDTpsfg4Ub3G3iOI2AsppLgQw.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/208082",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Dan Beirne",
+            "personaggio": "Detective Mason",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jCEDTG739T3VZnashONEDdsqcr5.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1166834",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kent McQuaid",
+            "personaggio": "Arthur Brady",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hxKC3Xk36sqwjadwW9F0agBfGPd.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/131338",
+              "verificata": true
+            }
           }
         ],
-        "trama": "La detective Karyn Mitchell della polizia di Boston si trova a indagare su un omicidio che porta la firma di un noto serial killer, Hades. Mentre lavora con il suo ex fidanzato, scopre che il killer ha un interesse personale per lei, costringendola a confrontarsi con il suo passato per fermarlo.",
-        "lingua_trama_originale": "en",
+        "trama": "Una detective della omicidi è costretta a lavorare a fianco del suo ex fidanzato per indagare su un omicidio che ha tutte le caratteristiche di un famigerato serial killer.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/zTuDJtHzUzvtETXN7bYgPbELePR.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/158689",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=BBynkV4hwRs",
-          "lingua": "en",
           "fonte": "YouTube",
-          "canale": "WILLED TO KILL - Movie Trailer",
-          "ufficiale": true,
+          "lingua": "it",
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=BBynkV4hwRs"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/158689"
-          },
-          {
-            "nome": "OMDb",
-            "url": "http://www.omdbapi.com/?i=tt2554856"
-          },
-          {
-            "nome": "IMDb",
-            "url": "https://www.imdb.com/title/tt2554856/"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Willed to Kill",
-            "Ogni killer ha il suo segreto"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": null,
-          "durata_video_youtube": "91 min",
-          "attori_trovati": [
-            "Sarah Jane Morris",
-            "Dylan Bruce",
-            "Michael Riley",
-            "David McIlwraith"
-          ],
-          "registi_trovati": [
-            "Philippe Gagnon"
-          ],
-          "parole_chiave_trama": [
-            "detective",
-            "serial killer",
-            "Boston",
-            "Hades",
-            "ex fidanzato"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film corrisponde per titolo originale, regista, cast principale e trama. La durata del video YouTube è leggermente superiore, ma compatibile con possibili variazioni di montaggio."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "titolo italiano",
-            "regista",
-            "cast principale",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "durata"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "OMDb",
-            "IMDb"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "Il film è stato identificato con alta certezza grazie alla corrispondenza di più elementi chiave tra le fonti disponibili.",
         "tmdb_id_scelto": 158689,
         "imdb_id_scelto": "tt2554856",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:42:15.582Z"
       },
       "genre": "thriller",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:42:15.582Z",
+      "editor_updated_at": "2026-07-05T04:42:15.582Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/zTuDJtHzUzvtETXN7bYgPbELePR.jpg",
+      "tmdb_title_official": "Ogni killer ha il suo segreto",
+      "tmdb_year_official": 2013,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "tCygcDv8vZE",
@@ -314743,22 +314600,20 @@
     {
       "video_id": "HMJMJIoyN14",
       "is_movie": true,
-      "original_title": "La cura illegale - Second Opinion HD | Thriller | Film completo in italiano",
+      "original_title": "Prescription for Danger",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 521202,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "La cura illegale - Second Opinion HD | Thriller | Film completo in italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=HMJMJIoyN14",
-        "titolo_corretto": "Ricetta mortale",
         "titolo_italiano": "Ricetta mortale",
         "titolo_originale": "Prescription for Danger",
         "anno_uscita": 2018,
         "durata_minuti": 94,
         "genere": [
-          "Thriller"
+          "Thriller",
+          "televisione film"
         ],
         "regista": [
           "Caroline Labrèche"
@@ -314777,7 +314632,7 @@
           },
           {
             "nome": "Shaun Benson",
-            "personaggio": "Dr. Mark Ryan",
+            "personaggio": "Dr. Mark Laurie",
             "foto_url": "https://image.tmdb.org/t/p/w185/dmCEoh9fQAT9gP2AseLWKiqJUUn.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -314788,7 +314643,7 @@
           },
           {
             "nome": "Genelle Williams",
-            "personaggio": "Skyler",
+            "personaggio": "Skyler Parsons",
             "foto_url": "https://image.tmdb.org/t/p/w185/hFjbcZ2fEv4hWsXN3G0XvRnENSx.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -314818,109 +314673,90 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/937792",
               "verificata": true
             }
-          }
-        ],
-        "trama": "Ivy Fisher è una donna di successo che scopre di avere una malattia terminale. Disperata, si affida a una cura sperimentale illegale, ma presto sospetta che il suo medico non sia sincero. Tra intrighi e segreti, Ivy lotta per la sua vita.",
-        "lingua_trama_originale": "en",
-        "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/d84rSR3SAQnEP8gDCPGXsMjGbWg.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/521202",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
-        "trailer": {
-          "url": "https://www.youtube.com/watch?v=OiyEV-DJzgw",
-          "lingua": "en",
-          "fonte": "YouTube",
-          "canale": "SECOND OPINION - Movie Trailer (starring Joanne Kelly)",
-          "ufficiale": true,
-          "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
-        },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/521202"
           },
           {
-            "nome": "YouTube",
-            "url": "https://www.youtube.com/watch?v=HMJMJIoyN14"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "La cura illegale",
-            "Ricetta Mortale",
-            "Second Opinion"
-          ],
-          "titolo_originale_trovato_nella_descrizione": "Second Opinion",
-          "anno_trovato": null,
-          "durata_video_youtube": "90 min",
-          "attori_trovati": [
-            "Joanne Kelly",
-            "Shaun Benson",
-            "Genelle Williams"
-          ],
-          "registi_trovati": [
-            "Caroline Labrèche"
-          ],
-          "parole_chiave_trama": [
-            "cura illegale",
-            "diagnosi scioccante",
-            "complotto",
-            "sopravvivenza"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film 'Ricetta mortale' (2018) corrisponde per titolo, cast, regista e trama con i dati estratti dal video YouTube."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "titolo italiano",
-            "cast principale",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "durata"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "YouTube"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [
+            "nome": "Kate McIninch",
+            "personaggio": "Claire Collins",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oz1NZHFbCUhKODvLbpzIyLui8Kv.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1835484",
+              "verificata": true
+            }
+          },
           {
-            "titolo": "Second Opinion",
-            "titolo_originale": "Second Opinion",
-            "anno": 2014,
-            "motivo_alternativa": "Titolo simile ma trama e cast non corrispondono.",
-            "livello_compatibilita": "basso"
+            "nome": "Stéphanie Breton",
+            "personaggio": "Tessa Devereaux",
+            "foto_url": "https://image.tmdb.org/t/p/w185/t4E9jvwqQBemA9VqqZB9NwBPwdc.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1890914",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Daniel Murphy",
+            "personaggio": "Jeremy Parsons",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5FIbDBeqG7ODa3INfzdFrnwEOvv.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2612115",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kent McQuaid",
+            "personaggio": "Detective Fowler",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hxKC3Xk36sqwjadwW9F0agBfGPd.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/131338",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kyle Switzer",
+            "personaggio": "Attorney",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/72048",
+              "verificata": false
+            }
           }
         ],
-        "note": "Il film identificato è 'Ricetta mortale' (2018), noto anche come 'Prescription for Danger'. La durata del video YouTube è leggermente inferiore alla durata ufficiale del film, ma gli altri elementi coincidono.",
+        "trama": "Ivy Fisher è all'apice della sua carriera; Un nuovo imprenditore intelligente e devastantemente attraente. È la tua tipica trentenne, con una vita personale in stallo e una carriera iperattiva. Ma durante un incontro cruciale con gli investitori, il corpo di Ivy inizia a deluderla. Afflitta da vertigini e un mal di testa paralizzante, Ivy crolla. Entra il dottor Mark Ryan, un dottore corrotto pronto a nutrire il suo desiderio di potere, e Ivy è il suo soggetto perfetto. Questa dura donna d'affari sta ora per affrontare la sua mortalità. Ma con grande sorpresa di Ivy, sta per scoprire che il dottor Ryan, una persona di cui si fida, ha la ricetta per spezzarla finalmente.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/d84rSR3SAQnEP8gDCPGXsMjGbWg.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=OiyEV-DJzgw"
+        },
         "tmdb_id_scelto": 521202,
         "imdb_id_scelto": "tt7177754",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:42:01.568Z"
       },
       "genre": "thriller",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:42:01.568Z",
+      "editor_updated_at": "2026-07-05T04:42:01.568Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/d84rSR3SAQnEP8gDCPGXsMjGbWg.jpg",
+      "tmdb_title_official": "Ricetta mortale",
+      "tmdb_year_official": 2018,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "IOIPCPyfN-I",
