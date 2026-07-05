@@ -357105,10 +357105,162 @@
     {
       "video_id": "4wMSCxbRsE0",
       "is_movie": true,
-      "original_title": "PANE BURRO E MARMELLATA FILM COMPLETO IN ITALIANO COMMEDIA",
+      "original_title": "Pane, burro e marmellata",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 235589,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/5o1HHalOGdpGNTMEo5bTjjVBgpo.jpg",
+      "tmdb_title_official": "Pane, burro e marmellata",
+      "tmdb_year_official": 1977,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Pane, burro e marmellata",
+        "titolo_originale": "Pane, burro e marmellata",
+        "anno_uscita": 1977,
+        "durata_minuti": 100,
+        "genere": [
+          "Commedia"
+        ],
+        "regista": [
+          "Giorgio Capitani"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Enrico Montesano",
+            "personaggio": "Bruno Desantis",
+            "foto_url": "https://image.tmdb.org/t/p/w185/myepIiCMGEwjhvZ3akFgVRogBP7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/21237",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Claudine Auger",
+            "personaggio": "Betty",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1KAAUhgfVxdI5g2t0YFCG9ITrvi.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/9919",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Szacinski Bente Bosco",
+            "personaggio": "Sofia",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gqamY2BLWSuEI3u8nu2U4xOoY64.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1925155",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rossana Podestà",
+            "personaggio": "Simona",
+            "foto_url": "https://image.tmdb.org/t/p/w185/18XeYOWoJJZVNVZEpQhTJrOY7mj.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/128330",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Adolfo Celi",
+            "personaggio": "Aristide Bertelli",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bIxjJ4eXYiNrYgSBCLD7OHw1LdT.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/9920",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Franco Giacobini",
+            "personaggio": "Marito di Simona",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mHUYrm4dSxhzhpmDKQv3v16xKrU.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/66753",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jacques Herlin",
+            "personaggio": "Dottor Gaetano Arfè",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cZmxyy3Il7SefSY8Jfv4ghjr0j5.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/6784",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Giovanna Ralli",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/6dvHHF5JoFhQg6vD6rG8vyME4zK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/94420",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Laura Trotter",
+            "personaggio": "Margherita",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lPO7RoWiyRDsxBsyPi845tPoSKw.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/32828",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rita Tushingham",
+            "personaggio": "Vera De Virdis",
+            "foto_url": "https://image.tmdb.org/t/p/w185/sEI6flS4X82MdzIBTwOXjVXuoFK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/47754",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Bruno Desantis, popolare presentatore televisivo, è stato abbandonato dalla moglie Sofia. Lo smarrimento di Bruno intenerisce tre donne, che finiscono per curare il poveretto e ospitarlo nel loro appartamento.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/5o1HHalOGdpGNTMEo5bTjjVBgpo.jpg",
+        "trailer": {
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt0192425/videogallery/content_type-trailer"
+        },
+        "tmdb_id_scelto": 235589,
+        "imdb_id_scelto": "tt0192425",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T06:03:30.100Z"
+      },
+      "genre": "commedia",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T06:03:30.100Z",
+      "editor_updated_at": "2026-07-05T06:03:30.100Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "UWciW2BUC4M",
@@ -364867,10 +365019,163 @@
     {
       "video_id": "1CWJtyOeBcw",
       "is_movie": true,
-      "original_title": "Film Azione/Thriller: General Commander (2019) | Con Steven Seagal",
+      "original_title": "General Commander",
       "channel": "Film&Clips Azione",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 585311,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/tarle8uNAqiQfCTY95U0Oj1DxIU.jpg",
+      "tmdb_title_official": "General Commander",
+      "tmdb_year_official": 2019,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "General Commander",
+        "titolo_originale": "General Commander",
+        "anno_uscita": 2019,
+        "durata_minuti": 85,
+        "genere": [
+          "Azione"
+        ],
+        "regista": [
+          "Philippe Martinez",
+          "Ross W. Clarkson"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Steven Seagal",
+            "personaggio": "Jake Alexander",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fGNIEpn3JqOckY3ahnJX9x3qA94.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/23880",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Byron Gibson",
+            "personaggio": "Tom Benton",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7UAnn1flkkcFtSCUnHj7TATueJ5.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/971590",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ron Smoorenburg",
+            "personaggio": "Hayes' Henchman",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5oXVFByoJXq5WdelBb0uI5VEUak.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/955264",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sonia Couling",
+            "personaggio": "Sonia Dekker",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iHhMFNRZGssPDjRxiLGmIbVVBLj.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1112907",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Soraya Torrens",
+            "personaggio": "Anna Rosen",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xfzjY3rFe5Y1fs7fBi0cucpWGfF.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2252925",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Megan Brown Martinez",
+            "personaggio": "Jessica Thompson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jUZWnffw7dy1imnfc1zNccYv3yQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1169284",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mica Javier",
+            "personaggio": "Maria Lopez",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gy6hlDFb3MSJf2yaA8qqWF4IsEy.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1630016",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Erdenetuya Batsukh",
+            "personaggio": "Tuya Alexander",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2280118",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Jai Day",
+            "personaggio": "Ben Harrison",
+            "foto_url": "https://image.tmdb.org/t/p/w185/n5HebMiaMU05RJXrEB4Rsp4snAe.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/222881",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Francis Mata",
+            "personaggio": "Arturo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1EqWwr5fQj7QUZsCio42ck0Oujn.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1708205",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Jake Alexander, agente CIA, è in cerca di vendetta contro Orsini, boss mafioso che ha causato la morte di alcuni dei suoi uomini durante una missione. L'uomo forma così una squadra speciale con alcune sue vecchie conoscenze nel tentativo di farsi giustizia nei confronti del criminale.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/tarle8uNAqiQfCTY95U0Oj1DxIU.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=RwZEKJ-37-4"
+        },
+        "tmdb_id_scelto": 585311,
+        "imdb_id_scelto": "tt7043534",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T06:03:06.147Z"
+      },
+      "genre": "azione",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T06:03:06.147Z",
+      "editor_updated_at": "2026-07-05T06:03:06.147Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "h0WaJ0rnZwo",
@@ -364915,10 +365220,165 @@
     {
       "video_id": "f5uagf_vFaI",
       "is_movie": true,
-      "original_title": "Prisoners of the Ghostland   HD   Azione   Film Completo in Italiano",
+      "original_title": "Prisoners of the Ghostland",
       "channel": "Film&Clips Azione",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 523638,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/AiVFi1gAEhp54NeJJVkmLUglYmR.jpg",
+      "tmdb_title_official": "Prisoners of the Ghostland",
+      "tmdb_year_official": 2021,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Prisoners of the Ghostland",
+        "titolo_originale": "Prisoners of the Ghostland",
+        "anno_uscita": 2021,
+        "durata_minuti": 103,
+        "genere": [
+          "Azione",
+          "Fantasy",
+          "Thriller",
+          "Western"
+        ],
+        "regista": [
+          "園子温"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Nicolas Cage",
+            "personaggio": "Hero",
+            "foto_url": "https://image.tmdb.org/t/p/w185/y1RtezurZYveYkVNRht7CwEgSYY.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2963",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sofia Boutella",
+            "personaggio": "Bernice",
+            "foto_url": "https://image.tmdb.org/t/p/w185/yAbMWBdOaK50pclJhCl65U6qEBK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/568657",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nick Cassavetes",
+            "personaggio": "Psycho",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cSAkROMjuYBmzp7T3Da3WP6loZM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/11151",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Bill Moseley",
+            "personaggio": "Governor",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tRyt4wTgNYJl7eqhM56B3gukU2A.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/27737",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "坂口拓",
+            "personaggio": "Yasujiro",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mIsu3ZPzIPhV3hRZNxVpJo9skkb.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/45992",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "YOUNG DAIS",
+            "personaggio": "Ratman",
+            "foto_url": "https://image.tmdb.org/t/p/w185/44YPJjpbiC8FCDl8qtHK5WreeWH.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1417523",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Charles Glover",
+            "personaggio": "Enoch",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9fY1W9qTuOMs1jBPUz7njSDms8O.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2734494",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Cici Zhou",
+            "personaggio": "Chimera",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2962104",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "栗原類",
+            "personaggio": "Curi",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rJtr0CXDIaaqLG2aWkw1MkLm1X0.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1723947",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tetsu Watanabe",
+            "personaggio": "Nabe",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mSJhWZjmPKlNE1hIOcF8tCNYxVD.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/20335",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Un famigerato criminale viene mandato a salvare una donna scomparsa e rapita in un oscuro universo soprannaturale. Si ritroverà così a dover spezzare la maledizione malvagia che li lega e a sfuggire ai misteriosi redivivi che governano su Ghostland.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/AiVFi1gAEhp54NeJJVkmLUglYmR.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=1I6p1yxZ_LE"
+        },
+        "tmdb_id_scelto": 523638,
+        "imdb_id_scelto": "tt6372694",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T06:04:35.747Z"
+      },
+      "genre": "western",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T06:04:35.747Z",
+      "editor_updated_at": "2026-07-05T06:04:35.747Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "AYzc4u5tCAg",
@@ -366191,75 +366651,102 @@
     },
     {
       "video_id": "uNZjry6nW9k",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E15: Rivals | Starhunter (2003) | C'è solo una regola: vincere (4K)",
       "channel": "Film&Clips Azione",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:02:37.852Z"
     },
     {
       "video_id": "x7mG4nNXfZk",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E06: Torment | Starhunter (2003) | Due storie familiari si intrecciano",
       "channel": "Film&Clips Azione",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:02:37.853Z"
     },
     {
       "video_id": "SMckigCEWhs",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E21: just politics | Starhunter (2003) | Quando la legge è corrotta (4K)",
       "channel": "Film&Clips Azione",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:02:37.854Z"
     },
     {
       "video_id": "UmnGra3RE8U",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E20: hyperspace 2 | Starhunter (2003) | Risposte che non volevano trovare (4K)",
       "channel": "Film&Clips Azione",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:02:37.876Z"
     },
     {
       "video_id": "XYgAdotX-64",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E11: The Third Thing | Starhunter (2003) | Guai in arrivo per l'equipaggio",
       "channel": "Film&Clips Azione",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:02:37.877Z"
     },
     {
       "video_id": "_ZC5RMTt36I",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E13: hyperspace | Starhunter (2003) | Il silenzio assordante dell'iperspazio (4K)",
       "channel": "Film&Clips Azione",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:02:37.878Z"
     },
     {
       "video_id": "cBCXd6kLRIw",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E05: Spaceman | Starhunter (2003) | L'infezione della mente si diffonde",
       "channel": "Film&Clips Azione",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:02:37.879Z"
     },
     {
       "video_id": "gArq6RANEz4",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E04: Chasing Janus | Starhunter (2003) | L'enigma della Divinity Cluster",
       "channel": "Film&Clips Azione",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:02:37.880Z"
     },
     {
       "video_id": "gGYJgWHP13A",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "S02E14: pandora's box | Starhunter (2003) | Una leggenda antica diventa realtà (4K)",
       "channel": "Film&Clips Azione",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:02:37.852Z"
     },
     {
       "video_id": "kpEvoQOwefw",
