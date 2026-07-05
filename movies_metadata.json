@@ -338573,7 +338573,7 @@
     },
     {
       "video_id": "Llumzpje8K0",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "L'Errore Giudiziario che Sconvolse l'Italia: Il Caso Tortora | Un uomo perbene | Film Completo",
       "channel": "TVItalia",
       "tmdb_id": 143011,
@@ -338723,7 +338723,10 @@
           "motivo_verifica": ""
         },
         "tmdb_id_scelto": 143011
-      }
+      },
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T04:30:20.787Z"
     },
     {
       "video_id": "l5cfCf30B00",
