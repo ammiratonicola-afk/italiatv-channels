@@ -1057,7 +1057,7 @@ function catCard(x, extraLabel){
   const btitle = unavailableSet.has(m.video_id) ? "Video non disponibile su YouTube"
               : geoBlockedSet.has(m.video_id) ? "Bloccato in Italia (parte via proxy)"
               : badge ? "Identificato (bloccato dalle modifiche automatiche)" : "";
-  const lbl = extraLabel ? `${extraLabel}<br>${title(m)}` : title(m);
+  const lbl = extraLabel ? `${extraLabel}<br>${htmlEsc(title(m))}` : htmlEsc(title(m));
   const d=document.createElement("div"); d.className="gfilm"+(m.tmdb_poster_path?"":" toid")+(catSel.has(key)?" sel":"");
   d.title=m.tmdb_poster_path?"Clicca per modificare · checkbox per selezionare":"Da identificare: clicca → Ri-identifica";
   d.innerHTML=`<input type="checkbox" class="gcb"${catSel.has(key)?" checked":""}>${badge?`<div class="gbadge" title="${btitle}">${badge}</div>`:""}<img loading="lazy" src="${poster(m)}" onerror="this.style.visibility='hidden'"><div class="gt">${lbl}</div>`;
