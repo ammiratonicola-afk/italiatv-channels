@@ -361799,87 +361799,164 @@
     {
       "video_id": "q1MB0ue7LHo",
       "is_movie": true,
-      "original_title": "Crimen perfecto - Finchè morte non ci separi | Azione, Thriller e Commedia | Film Completo HD",
+      "original_title": "Crimen ferpecto",
       "channel": "Film&Clips Azione",
-      "tmdb_id": 771706,
-      "tmdb_title_official": "Crimen perfecto",
-      "tmdb_year_official": 1995,
-      "tmdb_poster_path": "/h7gpWaRX9wGRCEl6c5fK5hPT52.jpg",
+      "tmdb_id": 9534,
+      "tmdb_title_official": "Crimen perfecto - Finché morte non li separi",
+      "tmdb_year_official": 2004,
+      "tmdb_poster_path": "/npo6bo4pKJuSW0LSapMzT28TEu4.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Crimen perfecto - Finchè morte non ci separi | Azione, Thriller e Commedia | Film Completo HD",
-        "youtube_url": "https://www.youtube.com/watch?v=q1MB0ue7LHo",
-        "titolo_italiano": "Crimen perfecto",
-        "titolo_originale": "Crimen perfecto",
-        "anno_uscita": 1995,
-        "durata_minuti": 0,
-        "genere": [],
+        "titolo_italiano": "Crimen perfecto - Finché morte non li separi",
+        "titolo_originale": "Crimen ferpecto",
+        "anno_uscita": 2004,
+        "durata_minuti": 105,
+        "genere": [
+          "Commedia",
+          "Thriller"
+        ],
         "regista": [
-          "Rafael Montero"
+          "Álex de la Iglesia"
         ],
         "cast_principale": [
           {
-            "nome": "Rafael Sánchez Navarro",
-            "personaggio": null,
-            "foto_url": "https://image.tmdb.org/t/p/w185/m9KfJxxrOdIBqPDOhSvw6GPA1Uy.jpg",
+            "nome": "Guillermo Toledo",
+            "personaggio": "Rafael González",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4Fi8RVieA8TNNeBwOjj59sX9dDx.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1482229",
+              "url_pagina_origine": "https://www.themoviedb.org/person/27460",
               "verificata": true
             }
           },
           {
-            "nome": "Anilú Pardo",
-            "personaggio": null,
-            "foto_url": "https://image.tmdb.org/t/p/w185/cp6CQuKVvITGta1IJlS3zxG5CEN.jpg",
+            "nome": "Mónica Cervera",
+            "personaggio": "Lourdes",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iNdnrinOVaHCDAsCrbAPumBUkjt.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/66146",
+              "url_pagina_origine": "https://www.themoviedb.org/person/57860",
               "verificata": true
             }
           },
           {
-            "nome": "Loló Navarro",
-            "personaggio": null,
+            "nome": "Luis Varela",
+            "personaggio": "Don Antonio Fraguas",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wY1xYxWgvznAiAEJWRcMFVCZIYq.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/57861",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Enrique Villén",
+            "personaggio": "Comisario Campoy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/k9ZtWgntlwlMpW7LiijSwvRnuul.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/15601",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Fernando Tejero",
+            "personaggio": "Alonso",
+            "foto_url": "https://image.tmdb.org/t/p/w185/btmXRLQoOAVFbaS8sfZxg7GqXG2.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/43321",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Javier Gutiérrez",
+            "personaggio": "Jaime",
+            "foto_url": "https://image.tmdb.org/t/p/w185/18iTctoABaPVUzS6fDKR4E8PPg5.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/19024",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kira Miró",
+            "personaggio": "Roxanne",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5hMVeXmpcSKlmEfV1A4Ls44yXqo.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/102223",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rosario Pardo",
+            "personaggio": "Señora despistada",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8bcWsjGHG7jwlgJ84O8d3XhmqAJ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/132447",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gracia Olayo",
+            "personaggio": "Concha",
+            "foto_url": "https://image.tmdb.org/t/p/w185/afwsR8W7sH4ixDui2baAFnehIiM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/982296",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "José Alias",
+            "personaggio": "Matías",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/982256",
+              "url_pagina_origine": "https://www.themoviedb.org/person/314746",
               "verificata": false
-            }
-          },
-          {
-            "nome": "Rodolfo Arias",
-            "personaggio": null,
-            "foto_url": "https://image.tmdb.org/t/p/w185/xTk1I6u59zQyAFEScG4XkhbV2Id.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1188395",
-              "verificata": true
             }
           }
         ],
-        "trama": "",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/h7gpWaRX9wGRCEl6c5fK5hPT52.jpg",
+        "trama": "Rafael è un tipo affascinate ed ambizioso. Gli piacciono le belle donne, i vestiti eleganti e gli ambienti esclusivi. Si considera un privilegiato. E' convinto che un giorno o l'altro raggiungerà il successo. Lavora in un centro commerciale. Ha trasformato il Reparto Donna nel suo feudo personale. Il suo obbiettivo è quello di diventare il nuovo responsabile dell'intero piano. Il suo rivale principale nella corsa per aggiudicarsi il posto è Don Antonio, esperto incaricato del Reparto Uomo. Per un caso del destino, Don Antonio muore accidentalmente dopo un’animata discussione con Rafael. Unica testimone del delitto è Lourdes, una commessa brutta, insignificante che non esita a ricattare Rafael per obbligarlo a essere prima suo amante, poi suo schiavo e infine suo marito...",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/npo6bo4pKJuSW0LSapMzT28TEu4.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=jmeQbWrKHxc"
         },
-        "tmdb_id_scelto": 771706
-      }
+        "tmdb_id_scelto": 9534,
+        "imdb_id_scelto": "tt0395125",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T06:01:00.048Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "thriller",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T06:01:00.048Z",
+      "editor_updated_at": "2026-07-05T06:01:00.048Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "aG7KQn069xU",
