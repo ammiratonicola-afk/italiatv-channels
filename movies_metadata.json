@@ -368087,155 +368087,163 @@
     {
       "video_id": "VCTfMF3UDX8",
       "is_movie": true,
-      "original_title": "Contract Killers | HD | Azione, Thriller, Crime | Film Completo",
+      "original_title": "Contract Killers",
       "channel": "Film&Clips Azione",
-      "tmdb_id": 13277,
+      "tmdb_id": 264891,
       "tmdb_title_official": "Contract Killers",
-      "tmdb_year_official": 2008,
-      "tmdb_poster_path": "/lfL4koU1lAHwKEQK6hd9VcwnDjS.jpg",
+      "tmdb_year_official": 2014,
+      "tmdb_poster_path": "/7jvVYqB6dmIXVSMnKdl7LfkfpCD.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Contract Killers | HD | Azione, Thriller, Crime | Film Completo",
-        "youtube_url": "https://www.youtube.com/watch?v=VCTfMF3UDX8",
         "titolo_italiano": "Contract Killers",
         "titolo_originale": "Contract Killers",
-        "anno_uscita": 2008,
-        "durata_minuti": 98,
+        "anno_uscita": 2014,
+        "durata_minuti": 95,
         "genere": [
           "Azione"
         ],
         "regista": [
-          "Justin Rhodes"
+          "Mathew John Pearson"
         ],
         "cast_principale": [
           {
-            "nome": "Frida Farrell",
-            "personaggio": "Jane",
-            "foto_url": "https://image.tmdb.org/t/p/w185/oBelZkahdsdE84Xbo23cy0ZzcEQ.jpg",
+            "nome": "Renee Cataldo",
+            "personaggio": "Annabella",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qGLnGp8hAfwvQ4eDWQzOlZ7fIve.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/126885",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1310341",
               "verificata": true
             }
           },
           {
-            "nome": "Nick Mancuso",
-            "personaggio": "Witkoff",
-            "foto_url": "https://image.tmdb.org/t/p/w185/sGOtCUJed5lyx4eUOFcKbIKVRDI.jpg",
+            "nome": "Dallas Barnett",
+            "personaggio": "Dorio",
+            "foto_url": "https://image.tmdb.org/t/p/w185/w13CW8cLVLwgNYwXwMau28CJfwI.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/49877",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1001709",
               "verificata": true
             }
           },
           {
-            "nome": "Rhett Giles",
-            "personaggio": "Pernell",
-            "foto_url": "https://image.tmdb.org/t/p/w185/vYCaEMNpSLGqiYZftxhlSkwhtsP.jpg",
+            "nome": "James Trevena",
+            "personaggio": "Marshall",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vN3eLpBs9VOYomcInmvvV4GoG75.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/30066",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1310342",
               "verificata": true
             }
           },
           {
-            "nome": "Christian Willis",
-            "personaggio": "Lars",
+            "nome": "Rob Young",
+            "personaggio": "Lee-Seng",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/2046127",
+              "url_pagina_origine": "https://www.themoviedb.org/person/945248",
               "verificata": false
             }
           },
           {
-            "nome": "G. Anthony Joseph",
-            "personaggio": "Monoven",
-            "foto_url": "https://image.tmdb.org/t/p/w185/tBpJ0C36z7JuWKg1YnPVhkRZYso.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/96749",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Steve Boergadine",
-            "personaggio": "Winston Scott",
+            "nome": "Tony MacIver",
+            "personaggio": "Sebastian Wright",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/192007",
+              "url_pagina_origine": "https://www.themoviedb.org/person/239478",
               "verificata": false
             }
           },
           {
-            "nome": "Wolf Muser",
-            "personaggio": "Targonsky",
-            "foto_url": "https://image.tmdb.org/t/p/w185/pjtffZMshARfyYvFdFJrPqykkXl.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1219524",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Lee Sherman",
-            "personaggio": "Alex",
+            "nome": "Kerry Glamsch",
+            "personaggio": "Callaghan",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/2648203",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3513687",
               "verificata": false
             }
           },
           {
-            "nome": "Paul Cram",
-            "personaggio": "Chuck Dittmer",
-            "foto_url": "https://image.tmdb.org/t/p/w185/o8dKuDujy9KWSYUANNJazwo9qL1.jpg",
+            "nome": "Luke Hawker",
+            "personaggio": "Bowman",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kKLXCalV2OOdtPYWXdGsv7waPXb.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1629900",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1048610",
               "verificata": true
             }
           },
           {
-            "nome": "Justin Smith",
-            "personaggio": "Rick",
-            "foto_url": "https://image.tmdb.org/t/p/w185/m9aW0Q43eiZ68b5Pgu2WxXAHQxB.jpg",
-            "foto_tipo": "foto_attore",
+            "nome": "Fiso Siloata",
+            "personaggio": "Slate",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/108726",
-              "verificata": true
+              "url_pagina_origine": "https://www.themoviedb.org/person/3513688",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Rhys Jordan",
+            "personaggio": "Lukas",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3513689",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Daley Tapa",
+            "personaggio": "Kane",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3513690",
+              "verificata": false
             }
           }
         ],
-        "trama": "Una donna, un'assassina a contratto, avrà problemi quando il suo ultimo incarico non andrà come si aspettava. Improvvisamente sarà inseguita da numerosi cacciatori di taglie che non avranno scrupoli a porre fine alla sua vita...",
+        "trama": "Lee Seng, efficiente e arrogante assassino, ha una sola notte per rintracciare e uccidere la squadra di vigilantes che ha preso di mira i trafficanti di droga della città. Tutto procede secondo i suoi piani fino a quando incontra Marshall, un abile vigilante che sopravvive all'attacco. Con Lee-Seng e altri alle calcagna, Marshall dovrà proteggere non solo se stesso ma anche la giovane Annabella mentre cercherà di capire la verità dietro all'annientamento della sua squadra.",
         "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/lfL4koU1lAHwKEQK6hd9VcwnDjS.jpg",
+        "locandina_url": "https://image.tmdb.org/t/p/w500/7jvVYqB6dmIXVSMnKdl7LfkfpCD.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=CeC6bqZhLNI"
         },
-        "tmdb_id_scelto": 13277
-      }
+        "tmdb_id_scelto": 264891,
+        "imdb_id_scelto": "tt1928144",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T06:30:08.642Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "azione",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T06:30:08.642Z",
+      "editor_updated_at": "2026-07-05T06:30:08.642Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "frNVvfWlDKw",
@@ -368644,7 +368652,7 @@
     {
       "video_id": "KEfZD7V2z2M",
       "is_movie": true,
-      "original_title": "Su le mani, cadavere! Sei in arresto | Western | HD | Film Completo in Italiano",
+      "original_title": "Su le mani, cadavere! Sei in arresto",
       "channel": "Film&Clips Azione",
       "tmdb_id": 129856,
       "tmdb_title_official": "Su le mani, cadavere! Sei in arresto",
@@ -368655,8 +368663,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Su le mani, cadavere! Sei in arresto | Western | HD | Film Completo in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=KEfZD7V2z2M",
         "titolo_italiano": "Su le mani, cadavere! Sei in arresto",
         "titolo_originale": "Su le mani, cadavere! Sei in arresto",
         "anno_uscita": 1971,
@@ -368790,17 +368796,28 @@
           "lingua": "it",
           "fonte": "YouTube",
           "canale": null,
-          "ufficiale": true,
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos"
+          "motivo_verifica": "trailer YouTube"
         },
-        "tmdb_id_scelto": 129856
-      }
+        "tmdb_id_scelto": 129856,
+        "imdb_id_scelto": "tt0067035",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T06:30:55.060Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "western",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T06:30:55.060Z",
+      "editor_updated_at": "2026-07-05T06:30:55.060Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "HggT4-RIgrg",
       "is_movie": true,
-      "original_title": "Il magnifico gladiatore | Film completo in italiano",
+      "original_title": "Il magnifico gladiatore",
       "channel": "Film&Clips Azione",
       "tmdb_id": 211179,
       "tmdb_title_official": "Il magnifico gladiatore",
@@ -368811,8 +368828,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Il magnifico gladiatore | Film completo in italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=HggT4-RIgrg",
         "titolo_italiano": "Il magnifico gladiatore",
         "titolo_originale": "Il magnifico gladiatore",
         "anno_uscita": 1964,
@@ -368941,21 +368956,31 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/ePP3X8YRlXaQm5ERlX2W5o0rX0Z.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=WNPy6RfrkCU"
         },
-        "tmdb_id_scelto": 211179
-      }
+        "tmdb_id_scelto": 211179,
+        "imdb_id_scelto": "tt0290240",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T06:28:53.528Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "avventura",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T06:28:53.528Z",
+      "editor_updated_at": "2026-07-05T06:28:53.528Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "1dD-ydVFIsc",
       "is_movie": true,
-      "original_title": "Cold War II | HD | Azione | Film Completo in Italiano",
+      "original_title": "寒戰 II",
       "channel": "Film&Clips Azione",
       "tmdb_id": 416249,
       "tmdb_title_official": "Cold War II",
@@ -368966,8 +368991,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Cold War II | HD | Azione | Film Completo in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=1dD-ydVFIsc",
         "titolo_italiano": "Cold War II",
         "titolo_originale": "寒戰 II",
         "anno_uscita": 2016,
@@ -369097,16 +369120,26 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/Al9AKsVBz12UztMCoc1jniRPZbh.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt5112622/videogallery/content_type-trailer"
         },
-        "tmdb_id_scelto": 416249
-      }
+        "tmdb_id_scelto": 416249,
+        "imdb_id_scelto": "tt5112622",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T06:29:15.247Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "poliziesco",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T06:29:15.247Z",
+      "editor_updated_at": "2026-07-05T06:29:15.247Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "XNmmCSlb6j4",
@@ -369127,156 +369160,142 @@
     {
       "video_id": "_pHxOPLKhsQ",
       "is_movie": true,
-      "original_title": "Soldato di ventura | Azione | Spionaggio | HD | Film Completo in Italiano",
+      "original_title": "Soldier of Fortune",
       "channel": "Film&Clips Azione",
-      "tmdb_id": 11813,
-      "tmdb_title_official": "Il soldato di ventura",
-      "tmdb_year_official": 1976,
-      "tmdb_poster_path": "/bEGNTbABJKo2XeefUjawlkq3gJX.jpg",
+      "tmdb_id": 158661,
+      "tmdb_title_official": "Soldier of Fortune",
+      "tmdb_year_official": 1990,
+      "tmdb_poster_path": "/9IRxPfhOWnctIyC7ByqYZFC0aDu.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Soldato di ventura | Azione | Spionaggio | HD | Film Completo in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=_pHxOPLKhsQ",
-        "titolo_italiano": "Il soldato di ventura",
-        "titolo_originale": "Il soldato di ventura",
-        "anno_uscita": 1976,
-        "durata_minuti": 95,
+        "titolo_italiano": "Soldier of Fortune",
+        "titolo_originale": "Soldier of Fortune",
+        "anno_uscita": 1990,
+        "durata_minuti": 93,
         "genere": [
           "Azione",
-          "Commedia"
+          "Avventura"
         ],
         "regista": [
-          "Pasquale Festa Campanile"
+          "Pierluigi Ciriaci"
         ],
         "cast_principale": [
           {
-            "nome": "Bud Spencer",
-            "personaggio": "Hector Fieramosca / Ettore Fieramosca da Capua",
-            "foto_url": "https://image.tmdb.org/t/p/w185/cVbBoKxRDFOdDKwdpRmxVazDWlE.jpg",
+            "nome": "Daniel Greene",
+            "personaggio": "Miles",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fQFvA1ksyWXiBBmSuKkgbBGvqZv.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/18841",
+              "url_pagina_origine": "https://www.themoviedb.org/person/42199",
               "verificata": true
             }
           },
           {
-            "nome": "Franco Agostini",
-            "personaggio": "Romanello da Forlì",
-            "foto_url": "https://image.tmdb.org/t/p/w185/4Wy0doxjC100qh0TY7b2cy4PFpU.jpg",
+            "nome": "George H. Thausanij",
+            "personaggio": "Rossi",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1140081",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Savina Geršak",
+            "personaggio": "Hamlulu",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qAYu5GkO6myRkoIzE50ADqw9N08.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/70561",
+              "url_pagina_origine": "https://www.themoviedb.org/person/103130",
               "verificata": true
             }
           },
           {
-            "nome": "Enzo Cannavale",
-            "personaggio": "Bracalone da Napoli",
-            "foto_url": "https://image.tmdb.org/t/p/w185/qKTBcs4UEwBhZIeYBpVcDjZVJKg.jpg",
+            "nome": "Danuta Lato",
+            "personaggio": "Lucy",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1093216",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Branko Đurić",
+            "personaggio": "Zilinsky (as Brand Dury)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ccVJvWqpppXXjrs2hkaUsRn5vnB.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/52657",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1312536",
               "verificata": true
             }
           },
           {
-            "nome": "Frédéric de Pasquale",
-            "personaggio": "Bayar",
-            "foto_url": "https://image.tmdb.org/t/p/w185/c5Xx3J1admtiRftfR4ANUrbfUGW.jpg",
+            "nome": "Jean Sokol",
+            "personaggio": null,
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1140083",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Bo Svenson",
+            "personaggio": "Colonel Preston",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oHsKZHGTr3qHPhfZ3zrM5LsMMOz.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/15185",
+              "url_pagina_origine": "https://www.themoviedb.org/person/30044",
               "verificata": true
             }
           },
           {
-            "nome": "Jacques Dufilho",
-            "personaggio": "Mariano de Trani",
-            "foto_url": "https://image.tmdb.org/t/p/w185/7CK8OE5ww4AOdH61M1jVMZeimjE.jpg",
+            "nome": "Mario Novelli",
+            "personaggio": "Zilinsky (uncredited)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/y8QDhsMXe5vWE18xqQuTWSBgC6V.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/538228",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Andréa Ferréol",
-            "personaggio": "Leonora",
-            "foto_url": "https://image.tmdb.org/t/p/w185/l2JBvxmFHXAMXsSxK7x18LVykOe.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/10262",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Jacques Herlin",
-            "personaggio": "Pavedes",
-            "foto_url": "https://image.tmdb.org/t/p/w185/cZmxyy3Il7SefSY8Jfv4ghjr0j5.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/6784",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Angelo Infanti",
-            "personaggio": "Graziano d'Asti",
-            "foto_url": "https://image.tmdb.org/t/p/w185/umdxDMQe8tVJUUc0re0bd28sH3H.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/27647",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Philippe Leroy",
-            "personaggio": "Charles La Motte",
-            "foto_url": "https://image.tmdb.org/t/p/w185/woG9lyvZSEEF4j5Kl03rSnHTW5R.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/25333",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Oreste Lionello",
-            "personaggio": "Giovenale da Vetralla",
-            "foto_url": "https://image.tmdb.org/t/p/w185/w3iMIxwX4g5bIFs9u5UTcboXESc.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/103115",
+              "url_pagina_origine": "https://www.themoviedb.org/person/240906",
               "verificata": true
             }
           }
         ],
-        "trama": "La celeberrima \"disfida di Barletta\" (13 settembre 1503) in chiave comico-grottesca: tredici italiani, capeggiati da Ettore Fieramosca, affrontano e sconfiggono tredici francesi che li avevano offesi. Quasi tutti i colori del comico in un film ricco d'invenzioni.",
+        "trama": "Come può esserci il caos ispirato a Johnny Hondo nel terzo mondo se un tizio di nome Vincent Miles corre in giro a sparare ai russi, appeso agli elicotteri e combattendo l'intero esercito sovietico con solo una moto da cross? Beh, a parte il fatto che solo Johnny Hondo sarebbe capace di fare tutto ciò, è perché Vincent Miles è in realtà Johnny Hondo! Lo sappiamo perché un tizio dei servizi segreti russi lo dice, ma sfortunatamente Vincent/Johnny non ha memoria di questo! Perché? Perché il russo gli ha sparato in testa in un flashback e Johnny ha preso una dose di amnesia! Cosa? Non sapevi che si potesse avere amnesia dopo un proiettile nel cervello? Forse anche tu sei stato colpito in testa e semplicemente l'hai dimenticato!",
         "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/bEGNTbABJKo2XeefUjawlkq3gJX.jpg",
+        "locandina_url": "https://image.tmdb.org/t/p/w500/9IRxPfhOWnctIyC7ByqYZFC0aDu.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt0094004/videogallery/content_type-trailer"
         },
-        "tmdb_id_scelto": 11813
-      }
+        "tmdb_id_scelto": 158661,
+        "imdb_id_scelto": "tt0094004",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T06:29:43.400Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "avventura",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T06:29:43.400Z",
+      "editor_updated_at": "2026-07-05T06:29:43.400Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "G-ddhPApfDs",
@@ -369479,156 +369498,164 @@
     {
       "video_id": "SXeVao0r1F4",
       "is_movie": true,
-      "original_title": "Bruce Willis in \"The Prince - Tempo di Uccidere\" | HD | Azione | Film Completo in Italiano",
+      "original_title": "The Prince",
       "channel": "Film&Clips Azione",
-      "tmdb_id": 71642,
-      "tmdb_title_official": "Tempo di uccidere",
-      "tmdb_year_official": 1989,
-      "tmdb_poster_path": "/8v4LHoNcdO5HJArFQ1pqd4UJzeU.jpg",
+      "tmdb_id": 241254,
+      "tmdb_title_official": "The Prince - Tempo di uccidere",
+      "tmdb_year_official": 2014,
+      "tmdb_poster_path": "/22b2fmxhZveWSyWkgUz2y94fp3w.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Bruce Willis in \"The Prince - Tempo di Uccidere\" | HD | Azione | Film Completo in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=SXeVao0r1F4",
-        "titolo_italiano": "Tempo di uccidere",
-        "titolo_originale": "Tempo di uccidere",
-        "anno_uscita": 1989,
-        "durata_minuti": 99,
+        "titolo_italiano": "The Prince - Tempo di uccidere",
+        "titolo_originale": "The Prince",
+        "anno_uscita": 2014,
+        "durata_minuti": 91,
         "genere": [
-          "Guerra",
-          "Dramma"
+          "Thriller",
+          "Azione"
         ],
         "regista": [
-          "Giuliano Montaldo"
+          "Brian A. Miller"
         ],
         "cast_principale": [
           {
-            "nome": "Nicolas Cage",
-            "personaggio": "Enrico Silvestri",
-            "foto_url": "https://image.tmdb.org/t/p/w185/y1RtezurZYveYkVNRht7CwEgSYY.jpg",
+            "nome": "Bruce Willis",
+            "personaggio": "Omar",
+            "foto_url": "https://image.tmdb.org/t/p/w185/w3aXr1e7gQCn8MSp1vW4sXHn99P.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/2963",
+              "url_pagina_origine": "https://www.themoviedb.org/person/62",
               "verificata": true
             }
           },
           {
-            "nome": "Ricky Tognazzi",
-            "personaggio": "Mario",
-            "foto_url": "https://image.tmdb.org/t/p/w185/fBgtva5iaF2mUSzC4o7qqYbBEIb.jpg",
+            "nome": "Jason Patric",
+            "personaggio": "Paul",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iv21ZjE90f9QNiNONKF9Lp6ZD68.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/105114",
+              "url_pagina_origine": "https://www.themoviedb.org/person/12261",
               "verificata": true
             }
           },
           {
-            "nome": "Patrice-Flora Praxo",
-            "personaggio": "Mariam",
-            "foto_url": "https://image.tmdb.org/t/p/w185/uS9t6GuE6DeEt4Mwm045wXDTKB3.jpg",
+            "nome": "John Cusack",
+            "personaggio": "Sam",
+            "foto_url": "https://image.tmdb.org/t/p/w185/aCwCx6JU7Jxbg6Q1ygcnLY750le.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1371073",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3036",
               "verificata": true
             }
           },
           {
-            "nome": "Gianluca Favilla",
-            "personaggio": "Autista di Enrico",
-            "foto_url": "https://image.tmdb.org/t/p/w185/8P0Zaf4PWY0hvl15klQlauFm7b4.jpg",
+            "nome": "Jessica Lowndes",
+            "personaggio": "Angela",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jMydZ6FVK3cxKa8dvsXIvP0HTwr.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/567977",
+              "url_pagina_origine": "https://www.themoviedb.org/person/84698",
               "verificata": true
             }
           },
           {
-            "nome": "Georges Claisse",
-            "personaggio": "Tiberi",
-            "foto_url": "https://image.tmdb.org/t/p/w185/aQKmG6aDPVgx8ltolX2HaMIYh4A.jpg",
+            "nome": "Gia Mantegna",
+            "personaggio": "Beth",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2quFKGJ061j91iUQJNoKJnDP6Bd.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/25062",
+              "url_pagina_origine": "https://www.themoviedb.org/person/137424",
               "verificata": true
             }
           },
           {
-            "nome": "Robert Liensol",
-            "personaggio": "Joannes",
-            "foto_url": "https://image.tmdb.org/t/p/w185/v1Xx0v8kz5VDFcMeBwADgvGKcXd.jpg",
+            "nome": "비",
+            "personaggio": "Mark",
+            "foto_url": "https://image.tmdb.org/t/p/w185/aXOjIBUxu7fmBOxTJcgYmtTKD1D.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/87425",
+              "url_pagina_origine": "https://www.themoviedb.org/person/112013",
               "verificata": true
             }
           },
           {
-            "nome": "Giancarlo Giannini",
-            "personaggio": "Il Maggiore",
-            "foto_url": "https://image.tmdb.org/t/p/w185/xsnoThKUjFlhmvXKS4ZqAx1x3zb.jpg",
+            "nome": "50 Cent",
+            "personaggio": "The Pharmacy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7VfwFIwBxy7qBUErosWRDQOovl9.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/3753",
+              "url_pagina_origine": "https://www.themoviedb.org/person/62644",
               "verificata": true
             }
           },
           {
-            "nome": "Vittorio Amandola",
-            "personaggio": "Cerioni",
-            "foto_url": "https://image.tmdb.org/t/p/w185/dE6WnX5yh550Q4PIGGvWU4uHu7S.jpg",
+            "nome": "Don Harvey",
+            "personaggio": "Riley",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dc10W0hRNxrO0IcwgKOcsUajtOG.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/203457",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1280",
               "verificata": true
             }
           },
           {
-            "nome": "Pao Pei Andreoli",
-            "personaggio": "Troops' Mascot",
-            "foto_url": "https://image.tmdb.org/t/p/w185/jT8q6FYM1wxfbgNP829hd1oo1dR.jpg",
+            "nome": "Jesse Pruett",
+            "personaggio": "Wilson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uL6a6LXkpcoyo3lgzAlTMsncIv2.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/2132904",
+              "url_pagina_origine": "https://www.themoviedb.org/person/139197",
               "verificata": true
             }
           },
           {
-            "nome": "Mario Mazzarotto",
-            "personaggio": "Army Clerk",
-            "foto_url": "https://image.tmdb.org/t/p/w185/aO38G72u1zStqpj3fokbPJHoMeM.jpg",
+            "nome": "Didi Costine",
+            "personaggio": "Rachel",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nWEWKAgvTOUud8wMYljYrkPnt3g.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/35122",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1363621",
               "verificata": true
             }
           }
         ],
-        "trama": "Etiopia, 1936: un tenente italiano (Nicolas Cage) perde la ragione dopo aver ucciso accidentalmente una ragazza locale che aveva violentato poco pima. Il timore di aver contratto una malattia sessualmente trasmissibile e il senso di colpa inizieranno a farsi troppo pesanti da sopportare.",
+        "trama": "Paul Brennan (Jason Patric), un meccanico vedovo e padre di due figli, scopre che la figlia collegiale Beth (Gia Mantegna) non ha incassato il suo ultimo assegno. Preoccupato da ciò, decide di raggiungerla e scopre che della ragazza si sono perse le tracce a Las Vegas, l'ultimo posto al mondo in cui Paul vorrebbe recarsi. Giunto nella città del peccato, Paul sarà costretto a confrontarsi con il suo passato e con il gangster Omar (Bruce Willis), colui a cui nel 1993 uccise la figlia e sfregiò permanentemente il volto.",
         "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/8v4LHoNcdO5HJArFQ1pqd4UJzeU.jpg",
+        "locandina_url": "https://image.tmdb.org/t/p/w500/22b2fmxhZveWSyWkgUz2y94fp3w.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=uMNKLvD2F1k"
         },
-        "tmdb_id_scelto": 71642
-      }
+        "tmdb_id_scelto": 241254,
+        "imdb_id_scelto": "tt1085492",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T06:30:34.236Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "thriller",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T06:30:34.236Z",
+      "editor_updated_at": "2026-07-05T06:30:34.236Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "_lpiyBhudgk",
