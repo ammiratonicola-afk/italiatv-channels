@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T04:50:16.379Z",
+  "generated_at": "2026-07-05T04:53:34.754Z",
   "movies": [
     {
       "video_id": "zYeeo62exh0",
@@ -7714,9 +7714,24 @@
         "trama": "Dopo le disavventure del primo film, Fantozzi prosegue la sua catastrofica vita quotidiana tra le frustazioni lavorative e il triste ménage familiare. I mitici episodi del ricevimento della Contessa Serbelloni Mazzanti Vien dal Mare e la ricostruzione della scena della scalinata del film \"La corazzata Potemkin\", definito da Fantozzi \"una cagata pazzesca\", sono ormai entrati di diritto nella galleria delle immagini più famose del cinema comico italiano.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/aXGUEPB9TzN9yFOzkdS9NTcge99.jpg",
-        "trailer": null,
-        "tmdb_id_scelto": 37769
-      }
+        "trailer": {
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt0075178/videogallery/content_type-trailer"
+        },
+        "tmdb_id_scelto": 37769,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T04:53:06.079Z"
+      },
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T04:53:06.079Z",
+      "editor_updated_at": "2026-07-05T04:53:06.079Z",
+      "editor_lock_reason": "modifica manuale editor"
     },
     {
       "video_id": "XCnlxdEwFSM",
