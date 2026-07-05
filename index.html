@@ -229,6 +229,10 @@
       <input id="openai_key" type="text" placeholder="sk-… (ChatGPT: traduzioni + fallback se Gemini dà 429)">
       <div class="help">Usata per le traduzioni (primaria) e come fallback automatico se Gemini esaurisce la quota.</div>
 
+      <label style="margin-top:12px">Proxy foto cast — URL Worker <span class="help" style="margin:0">(facoltativo)</span></label>
+      <input id="castphoto_proxy_url" type="text" placeholder="https://xxxx.workers.dev (foto attori oscuri via Bing)">
+      <div class="help">Fonte extra per le foto cast di attori oscuri via <b>Cloudflare Worker</b> (vedi cartella <code>castphoto-proxy/</code> nel repo app). Bassa priorità, verifica AI del volto. Se vuoto resta inattiva.</div>
+
       <label style="margin-top:16px">🔐 Sincronizza le chiavi tra browser/dispositivi</label>
       <div class="inline-input">
         <input id="keys_pass" type="text" placeholder="Password per cifrare/decifrare">
@@ -2001,6 +2005,22 @@ async function dbpediaImageCandidates(nome, filmTitle){
   });
   return out;
 }
+// Fonte extra via Cloudflare Worker (Bing Immagini server-side): per attori oscuri assenti
+// dalle fonti aperte. Bassa priorita', verifica AI. Attiva solo se l'URL Worker e' configurato.
+async function webProxyImageCandidates(nome, filmTitle){
+  const el=$("castphoto_proxy_url"); const base=el?el.value.trim():"";
+  if(!base) return [];
+  const u=`${base.replace(/\/+$/,"")}/?name=${encodeURIComponent(nome)}&film=${encodeURIComponent(filmTitle||"")}`;
+  const d=await fetchJsonSafe(u, 12000);
+  const out=[];
+  ((d&&d.candidates)||[]).forEach((c,i)=>{
+    if(!c.image) return;
+    const k=`webproxy-${c.image}`; if(out.some(x=>x.key===k)) return;
+    out.push({key:k, source:c.source||"Web (proxy)", title:c.title||nome, image:c.image,
+      page:c.page||c.image, context:"ricerca immagini web via proxy", score:9-i});
+  });
+  return out;
+}
 // STRATEGIA PRIMARIA foto cast (massima affidabilita'): l'attore e' NEL cast del FILM
 // identificato su TMDB. Match per nome esatto -> personaggio -> token nome/cognome. Nessun
 // omonimo, niente AI: e' proprio il cast di QUEL film. Ritorna la foto ufficiale TMDB.
@@ -2033,7 +2053,7 @@ async function findCastPhotoWithAi(nome, personaggio){
   if(_tid){ const direct=await tmdbCastPhotoFromFilm(_tid, q, personaggio); if(direct) return direct; }
   const filmTitle=$("m_title").value.trim()||((editing&&editing.m&&title(editing.m))||"");
   const year=$("m_year").value.trim();
-  const [tmdb,imdb,tvmaze,wikiIt,wikiEn,wikiFr,wikiEs,wikiDe,wikiPt,wikiNl,wikiCa,wikiRu,wikiPl,wdata,wdsparql,dbpedia,commons,openverse]=await Promise.all([
+  const [tmdb,imdb,tvmaze,wikiIt,wikiEn,wikiFr,wikiEs,wikiDe,wikiPt,wikiNl,wikiCa,wikiRu,wikiPl,wdata,wdsparql,dbpedia,commons,openverse,webproxy]=await Promise.all([
     tmdbPersonCandidates(q,filmTitle,year),
     imdbImageCandidates(q,filmTitle,year),
     tvmazeImageCandidates(q,filmTitle,year),
@@ -2051,9 +2071,10 @@ async function findCastPhotoWithAi(nome, personaggio){
     wikidataSparqlImageCandidates(q,filmTitle),
     dbpediaImageCandidates(q,filmTitle),
     commonsSearchImageCandidates(q,filmTitle),
-    openverseImageCandidates(q,filmTitle)
+    openverseImageCandidates(q,filmTitle),
+    webProxyImageCandidates(q,filmTitle)
   ]);
-  const cands=dedupeCandidates([...tmdb,...imdb,...tvmaze,...wikiIt,...wikiEn,...wikiFr,...wikiEs,...wikiDe,...wikiPt,...wikiNl,...wikiCa,...wikiRu,...wikiPl,...wdata,...wdsparql,...dbpedia,...commons,...openverse],72);
+  const cands=dedupeCandidates([...tmdb,...imdb,...tvmaze,...wikiIt,...wikiEn,...wikiFr,...wikiEs,...wikiDe,...wikiPt,...wikiNl,...wikiCa,...wikiRu,...wikiPl,...wdata,...wdsparql,...dbpedia,...commons,...openverse,...webproxy],80);
   if(!cands.length) return null;
   const list=cands.map((c,i)=>`${i}. score=${Math.round(c.score||0)}; fonte=${c.source}; titolo="${c.title}"; foto=${c.image?"si":"no"}; pagina=${c.page||""}; contesto=${compactText(c.context,520)}`).join("\n");
   const prompt=`Devi scegliere quale risultato web contiene la foto corretta di un attore.\nLa ricerca e' incrociata: nome attore + nome film, poi allargata a fonti aperte.\nFilm: "${filmTitle}" (${year||"anno non indicato"})\nAttore: "${q}"${personaggio?`\nPersonaggio nel film: "${personaggio}"`:""}\n\nCandidati da TMDB, IMDb, TVMaze, Wikipedia multilingua, Wikidata, Wikimedia Commons, categorie Commons e Openverse:\n${list}\n\nRegole severe:
@@ -2491,6 +2512,7 @@ function persistKey(id, storeKey){
 persistKey("token","gh_token");
 persistKey("gemini_key","gemini_key");
 persistKey("openai_key","openai_key");
+persistKey("castphoto_proxy_url","castphoto_proxy_url");
 $("genre").innerHTML=GENRE_ORDER.filter(([k])=>k).map(([k,l])=>`<option value="${k}">${l}</option>`).join("");
 load();
 </script>
