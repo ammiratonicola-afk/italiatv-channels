@@ -367269,11 +367269,14 @@
     },
     {
       "video_id": "sKfzUNnM4B0",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Una Partita di Poker da Cui Nessuno Può Ritirarsi | Mortal Poker (2023) SUB ITA",
       "channel": "Film&Clips Azione",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor web",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:25:44.614Z"
     },
     {
       "video_id": "4xthN5BhCeg",
@@ -369627,10 +369630,166 @@
     {
       "video_id": "_lpiyBhudgk",
       "is_movie": true,
-      "original_title": "Sharknado 10Th Anniversary | HD | Azione | Film completo con sottotitoli in italiano",
+      "original_title": "Sharknado",
       "channel": "Film&Clips Azione",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 205321,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/atEmHkVFTSGRYt2PeCiziQqbZnI.jpg",
+      "tmdb_title_official": "Sharknado",
+      "tmdb_year_official": 2013,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Sharknado",
+        "titolo_originale": "Sharknado",
+        "anno_uscita": 2013,
+        "durata_minuti": 86,
+        "genere": [
+          "Azione",
+          "Commedia",
+          "Horror",
+          "Fantascienza",
+          "televisione film"
+        ],
+        "regista": [
+          "Anthony C. Ferrante"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Ian Ziering",
+            "personaggio": "Finley \"Fin\" Shepard",
+            "foto_url": "https://image.tmdb.org/t/p/w185/keJ4aYXWzUD1MOTDNrKDAXUstW0.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/19146",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tara Reid",
+            "personaggio": "April Wexler",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3m75fMnLhgmRRKM9bLb9T5s75h.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1234",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "John Heard",
+            "personaggio": "George",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zjhcxrCFK4q0C1gtVmeN8FeqCw0.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/11512",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Cassie Scerbo",
+            "personaggio": "Nova Clarke",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3M8QiHabeWOH6PkUDXsEhpFPlbv.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/78031",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jaason Simmons",
+            "personaggio": "Baz Hogan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ia3R3PABNRHODvSoT617ONdy8kf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/31633",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Alex Arleo",
+            "personaggio": "Bobby",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rDAr15n6ZUIK8cbXqtLyaLcykXS.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1072142",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Neil H. Berkow",
+            "personaggio": "Carl Hubert",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uASwZoWpZKieHEzHkz52wsJD7WW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3867388",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Heather Jocelyn Blair",
+            "personaggio": "Candice",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9SV4QV6y0SDHRuHptzh74J9qHUL.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1676493",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sumiko Braun",
+            "personaggio": "Deanna",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1189243",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Diane Chambers",
+            "personaggio": "Agnes",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rLLkn0YnEejp8g0UHH42cvd5at4.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1181340",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Quando uno strano uragano colpisce Los Angeles, gli assassini più letali della natura governano il mare, la terra e l'aria. Migliaia di squali cominciano a terrorizzare la popolazione invasa dall'acqua. Nel cast Tara Reid, Ian Ziering, John Heard, Cassie Scerbo, e Jaason Simmons.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/atEmHkVFTSGRYt2PeCiziQqbZnI.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=ZX0213FumK0"
+        },
+        "tmdb_id_scelto": 205321,
+        "imdb_id_scelto": "tt2724064",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T06:25:31.589Z"
+      },
+      "genre": "horror",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T06:25:31.589Z",
+      "editor_updated_at": "2026-07-05T06:25:31.589Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "7wsQ_7xSPKw",
