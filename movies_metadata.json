@@ -342940,51 +342940,69 @@
     },
     {
       "video_id": "pKeSkSxl4VA",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Velisti per Caso - Ep 8 | HD | Vento in Poppa e Sapore di Sale: L'Inizio del nostro viaggio in vela",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:09:20.423Z"
     },
     {
       "video_id": "fEX0pPNVl5c",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Velisti per Caso - Ep 7 | HD | Vento in Poppa e Sapore di Sale: L'Inizio del nostro viaggio in vela",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:09:20.423Z"
     },
     {
       "video_id": "dFGfsDmWQSY",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Velisti per Caso - Ep 9 | HD | Vento in Poppa e Sapore di Sale: L'Inizio del nostro viaggio in vela",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:09:20.423Z"
     },
     {
       "video_id": "r0lVTxp6erE",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Velisti per Caso - Ep 3 | HD | Vento in Poppa e Sapore di Sale: L'Inizio del nostro viaggio in vela",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:09:20.424Z"
     },
     {
       "video_id": "JIA4j4IHI8A",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Velisti per Caso - Ep 5 | HD | Vento in Poppa e Sapore di Sale: L'Inizio del nostro viaggio in vela",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:09:20.424Z"
     },
     {
       "video_id": "HInnvoVg8Qo",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Velisti per Caso - Ep 4 | HD | Vento in Poppa e Sapore di Sale: L'Inizio del nostro viaggio in vela",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:09:20.424Z"
     },
     {
       "video_id": "FAtNL-PZsbE",
@@ -343026,11 +343044,14 @@
     },
     {
       "video_id": "HXIKJj7vILA",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Velisti per Caso - Ep 1 | HD | Vento in Poppa e Sapore di Sale: L'Inizio del nostro viaggio in vela",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:09:20.426Z"
     },
     {
       "video_id": "DJaI06qX9C0",
@@ -343815,10 +343836,164 @@
     {
       "video_id": "Cj9yvCWdu2I",
       "is_movie": true,
-      "original_title": "Il Capolavoro del Brivido: Il Bacio della Pantera (1942) | Film Completo Noir",
+      "original_title": "Cat People",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 25508,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/amSFvN7bdQtYWOxPrPxx5mrJyTv.jpg",
+      "tmdb_title_official": "Il bacio della pantera",
+      "tmdb_year_official": 1942,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Il bacio della pantera",
+        "titolo_originale": "Cat People",
+        "anno_uscita": 1942,
+        "durata_minuti": 73,
+        "genere": [
+          "Mistero",
+          "Horror",
+          "Romance"
+        ],
+        "regista": [
+          "Jacques Tourneur"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Simone Simon",
+            "personaggio": "Irena Dubrovna Reed",
+            "foto_url": "https://image.tmdb.org/t/p/w185/j9VZJJZALZJgg6oHfUUvkNNzjV7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/103781",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kent Smith",
+            "personaggio": "Oliver Reed",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2GHATvR422EaWU7BkSoj9kbgzt0.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/51764",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tom Conway",
+            "personaggio": "Dr. Louis Judd",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1cFsjRGnhKLrp1LSajFki6uLS5P.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/48962",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jane Randolph",
+            "personaggio": "Alice Moore",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4KcOWHaHZnHrq4Y7s1ScZiG7obn.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/30114",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jack Holt",
+            "personaggio": "The Commodore",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4xfh3Mlpqx8tZ991rhVTov0ILtN.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/93910",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Henrietta Burnside",
+            "personaggio": "Sue Ellen (uncredited)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1550939",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Alec Craig",
+            "personaggio": "Zookeeper (uncredited)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/sLB2tMxIiCo6q1kQ9m7rWMWKNs4.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/22606",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Eddie Dew",
+            "personaggio": "Street Policeman (uncredited)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7NxwyQTp9lhEY5qkm1cjMf0EPmH.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1230787",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Elizabeth Dunne",
+            "personaggio": "Mrs. Plunkett (uncredited)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1437089",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Dot Farley",
+            "personaggio": "Mrs. Agnew (uncredited)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/sMOaVJca2FnFIRUs6L8zIuXAZnV.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/945877",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Il giovane ingegnere Oliver conosce allo zoo l'affascinante Irene, una ragazza di origine slava. In breve i due si innamorano e si sposano. Tutto filerebbe a meraviglia se non fosse che Irene si rifiuta di baciare il marito perché teme un'antica maledizione della sua terra. Secondo una leggenda infatti le donne come lei si tramutano in pantera ogni volta che baciano un uomo.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/amSFvN7bdQtYWOxPrPxx5mrJyTv.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=w-MIQyzBWHs"
+        },
+        "tmdb_id_scelto": 25508,
+        "imdb_id_scelto": "tt0034587",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:10:25.570Z"
+      },
+      "genre": "horror",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:10:25.570Z",
+      "editor_updated_at": "2026-07-05T05:10:25.570Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "HTxqgeQI8Oo",
@@ -343977,19 +344152,25 @@
     },
     {
       "video_id": "rdWX-Dxb-xA",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Wild Card (Zoe Busiek) | Crime | Stagione 1 - Episodio 14 | Episodio Completo in Italiano",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:09:20.425Z"
     },
     {
       "video_id": "U2uXeAWbXq8",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Wild Card (Zoe Busiek) | Crime | Stagione 1 - Episodio 15 | Episodio Completo in Italiano",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:09:20.425Z"
     },
     {
       "video_id": "ahQMSJd7tRI",
@@ -344526,10 +344707,163 @@
     {
       "video_id": "Jcs4c16e944",
       "is_movie": true,
-      "original_title": "JACK DETH: Cacciatore di Trancers | Azione Fantascientifica Anni '80 | Film Completo",
+      "original_title": "Trancers",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 5677,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/f1CDx3pVkaDFOV9luf8kv0eux42.jpg",
+      "tmdb_title_official": "Trancers - Corsa nel tempo",
+      "tmdb_year_official": 1984,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Trancers - Corsa nel tempo",
+        "titolo_originale": "Trancers",
+        "anno_uscita": 1984,
+        "durata_minuti": 77,
+        "genere": [
+          "Fantascienza",
+          "Crime"
+        ],
+        "regista": [
+          "Charles Band"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Tim Thomerson",
+            "personaggio": "Trooper Jack Deth",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dCqpmO9nDA07NYSdyQF5JYnmxpL.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/29712",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Helen Hunt",
+            "personaggio": "Leena",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bdhW2Ra84cJG3B5RDzUO6niUTO7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/9994",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Biff Manard",
+            "personaggio": "Hap Ashby",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/44790",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Michael Stefani",
+            "personaggio": "Martin Whistler / Detective Weisling",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/44791",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Art LaFleur",
+            "personaggio": "McNulty",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iCDhbcKVuvrIkS3LuwPkahTkEzS.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/44792",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Telma Hopkins",
+            "personaggio": "Ruth Raines",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9uxf7rULOwEcIDV9JLFpy44L1hB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/44793",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Richard Herd",
+            "personaggio": "Chairman Spencer",
+            "foto_url": "https://image.tmdb.org/t/p/w185/e9ZYBIiIr2qLbeNxOXABgYOjzpW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/13732",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Anne Seymour",
+            "personaggio": "Chairman Ashe",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xSAuqN4X00mSTuwqPa76RCQcwfi.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/40233",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Miguel Fernandes",
+            "personaggio": "Officer Lopez",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8APvTgfhTVgdWKJJIhwsghDxD6N.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/44794",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Pete Schrum",
+            "personaggio": "Santa Claus",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6m8NSMAuS0UoNpeW1beA73IBc4w.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/157633",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Jack Deth è un poliziotto nella tetra Los Angeles del futuro, nell'anno 2247. Viene incaricato della cattura di Whistler, un criminale che usa potenti poteri psichici per convertire le persone in creature conosciute come \"Trancers\". Whistler è riuscito a fuggire nel tempo e ora è a piede libero nella Los Angeles degli anni '80, ma Jack Deth è sulle sue tracce.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/f1CDx3pVkaDFOV9luf8kv0eux42.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=1WiLaAHS4mI"
+        },
+        "tmdb_id_scelto": 5677,
+        "imdb_id_scelto": "tt0090192",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:09:04.226Z"
+      },
+      "genre": "fantascienza",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:09:04.226Z",
+      "editor_updated_at": "2026-07-05T05:09:04.226Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "AS6LSBejHtw",
@@ -345006,10 +345340,163 @@
     {
       "video_id": "CE_MsFxx4lc",
       "is_movie": true,
-      "original_title": "Camerieri Zombie e un Killer In Trappola | ZOMBIE DIE-NER | Film Completo HD",
+      "original_title": "Die-ner (Get It?)",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 49541,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/t6tRp51jrnIlZVRX2HyKPvyndWl.jpg",
+      "tmdb_title_official": "Die-ner (Get It?)",
+      "tmdb_year_official": 2009,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Die-ner (Get It?)",
+        "titolo_originale": "Die-ner (Get It?)",
+        "anno_uscita": 2009,
+        "durata_minuti": 75,
+        "genere": [
+          "Commedia",
+          "Horror"
+        ],
+        "regista": [
+          "Patrick Horvath"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Josh Grote",
+            "personaggio": "Ken",
+            "foto_url": "https://www.notrecinema.com/images/usercontent/star/joshua-grote-photo_118626_8015.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Parker Quinn",
+            "personaggio": "Rob",
+            "foto_url": "https://image.tmdb.org/t/p/w185/AdG52AI7HNZsICDEA8d5a6yhztv.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/142400",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Liesel Kopp",
+            "personaggio": "Kathy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3ICQxb3CpNMkeoK6B79zfxW3tPO.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/142401",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Maria Olsen",
+            "personaggio": "Rose",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rx36UHOn6ZcQoBqRD3OcKHXNT4K.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/142402",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Larry Purtell",
+            "personaggio": "Duke",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3910553",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Daniel Schweiger",
+            "personaggio": "Jessie",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2325495",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Jorge Montalvo",
+            "personaggio": "Fred",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4035605",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Scott Fish",
+            "personaggio": "Zombie Trucker",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2749817",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Brodrick Thornsberry",
+            "personaggio": "Ken (age 5)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4035607",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Richard Thornsberry",
+            "personaggio": "Zombie Cowboy",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4035609",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Una commedia horror di errori, Die-ner (capito?) esplora il dilemma esistenziale di un killer sociopatico che si trova ad affrontare il problema unico delle sue vittime che tornano in vita...",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/t6tRp51jrnIlZVRX2HyKPvyndWl.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=cn2b575u93M"
+        },
+        "tmdb_id_scelto": 49541,
+        "imdb_id_scelto": "tt1260570",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:08:27.613Z"
+      },
+      "genre": "horror",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:08:27.613Z",
+      "editor_updated_at": "2026-07-05T05:08:27.613Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "wHJEM5Hl5I8",
@@ -346651,10 +347138,164 @@
     {
       "video_id": "vs2VYr23HSo",
       "is_movie": true,
-      "original_title": "George Clooney in Red Surf (1989) | Film Completo in Italiano",
+      "original_title": "Red Surf",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 46251,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/5KJThkJk8wI66CBYRmrh25zENNM.jpg",
+      "tmdb_title_official": "Giovani iene",
+      "tmdb_year_official": 1989,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Giovani iene",
+        "titolo_originale": "Red Surf",
+        "anno_uscita": 1989,
+        "durata_minuti": 104,
+        "genere": [
+          "Azione",
+          "Dramma",
+          "Thriller"
+        ],
+        "regista": [
+          "H. Gordon Boos"
+        ],
+        "cast_principale": [
+          {
+            "nome": "George Clooney",
+            "personaggio": "Remar",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4s3wI0bqOP7K3hhcmKqV6m3GYiQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1461",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Doug Savant",
+            "personaggio": "Attila",
+            "foto_url": "https://image.tmdb.org/t/p/w185/yJ9UjfZ3PcULd0OPZhZ4vv23KMG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/14737",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Dedee Pfeiffer",
+            "personaggio": "Rebecca",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5qEwnlKS2uapYYBca4VypL2K2JQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/91332",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Philip McKeon",
+            "personaggio": "True Blue",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ohifAWDrbCYtNJQidWW9qZdKjL.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/101872",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rick Najera",
+            "personaggio": "Calavera",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uZntSqiiw4UqlDCNHXZsPrnyMML.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/98404",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gene Simmons",
+            "personaggio": "Doc",
+            "foto_url": "https://image.tmdb.org/t/p/w185/c1t3QgTO4XTDZZG5Ndjxjt8Jt0a.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/57756",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Vincent Klyn",
+            "personaggio": "Noga",
+            "foto_url": "https://image.tmdb.org/t/p/w185/J6KgdQAdKm8LaOJKety2l1lWFh.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/63934",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Eddie Frias",
+            "personaggio": "Bullet",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1798531",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Marco Hernández",
+            "personaggio": "Eliseo",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4102845",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Rudy Negrete",
+            "personaggio": "Ortez",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1868538",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Remar e Attila sono una coppia di surfisti che si occupano anche di traffico di droga per sbarcare il lunario. Stanno cercando di concludere un affare finale con il signore della droga locale, Calavera, quando il loro amico True Blue viene arrestato dalla polizia. Blue parla troppo in commissariato e Calavera è in cerca di vendetta a causa del tradimento.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/5KJThkJk8wI66CBYRmrh25zENNM.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=p6NvdgIFEpc"
+        },
+        "tmdb_id_scelto": 46251,
+        "imdb_id_scelto": "tt0100468",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:07:29.493Z"
+      },
+      "genre": "thriller",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:07:29.493Z",
+      "editor_updated_at": "2026-07-05T05:07:29.493Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "480Gikf7E9U",
@@ -346820,10 +347461,164 @@
     {
       "video_id": "tw4SLbx7f6E",
       "is_movie": true,
-      "original_title": "Renaissance – Film d’Animazione Completo in Italiano (HD)",
+      "original_title": "Renaissance",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 9389,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/gr6YlPj7tfEwDHWlaIlcL3DJ1BC.jpg",
+      "tmdb_title_official": "Renaissance",
+      "tmdb_year_official": 2006,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Renaissance",
+        "titolo_originale": "Renaissance",
+        "anno_uscita": 2006,
+        "durata_minuti": 101,
+        "genere": [
+          "Azione",
+          "Animazione",
+          "Fantascienza"
+        ],
+        "regista": [
+          "Christian Volckman"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Patrick Floersheim",
+            "personaggio": "Barthélémy Karas (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7BUbjtLsVirGgCYAWogPidVWxzK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/48416",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Virginie Mery",
+            "personaggio": "Ilona Tasuiev (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zOw0PWl92B8NIT3CxnJZezb8Mqd.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1838867",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Laura Blanc",
+            "personaggio": "Bislane Tasuiev (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xOGwCfUA8xkyje4BOIJ6DxL6lau.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1838873",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gabriel Le Doze",
+            "personaggio": "Paul Dellenbach (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1376793",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Marc Cassot",
+            "personaggio": "Jonas Muller (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4S9P6Vdls0BPIpr4SH0EyDy9TDj.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/590963",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Bruno Choël",
+            "personaggio": "Pierre Amiel (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xKNLrnqy4mPtrKo0mGTPcmOFe9A.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1715011",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jérôme Pauwels",
+            "personaggio": "Dimitri (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pvU2lnRSpVuHULw2LbPfYR7Czu2.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1632533",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marc Alfos",
+            "personaggio": "Nusrat Farfella (voice)",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1386114",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Clémentine Baert",
+            "personaggio": "Nurses (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8i3OIMM7fKJGByNeYzOKktzF7dp.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1180477",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jim Adhi Limas",
+            "personaggio": "Nakata (voice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oQ2Xl9G23Sgy3NywjANF8bu7o3t.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1270705",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Parigi, 2054, l'agente Kars, un capitano di polizia dal passato torbido, viene impiegato nel caso della sparizione della bella Ilona Tasuiev, una giovane scienziata impiegata presso la multinazionale Avalon. Mentre indaga su di lei, capisce ben presto che in gioco non c'è solo la salvezza della ricercatrice, ma quella dell'umanità intera.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/gr6YlPj7tfEwDHWlaIlcL3DJ1BC.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=9ftZhphGgwo"
+        },
+        "tmdb_id_scelto": 9389,
+        "imdb_id_scelto": "tt0386741",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:09:51.018Z"
+      },
+      "genre": "animazione",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:09:51.018Z",
+      "editor_updated_at": "2026-07-05T05:09:51.018Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "L8Mvi9QKl0I",
@@ -347292,10 +348087,163 @@
     {
       "video_id": "l67DdBI0j9c",
       "is_movie": true,
-      "original_title": "TWO WRONGS | Thriller (2014) Film completo in italiano | HD",
+      "original_title": "Two Wrongs",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 384099,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/eUUuxfGAwHzHlnNJXO2d7Y3YOxF.jpg",
+      "tmdb_title_official": "Rivoglio mia figlia",
+      "tmdb_year_official": 2015,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Rivoglio mia figlia",
+        "titolo_originale": "Two Wrongs",
+        "anno_uscita": 2015,
+        "durata_minuti": 88,
+        "genere": [
+          "Thriller",
+          "televisione film"
+        ],
+        "regista": [
+          "Tristan DuBois"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Gillian Zinser",
+            "personaggio": "Sarah Harris",
+            "foto_url": "https://image.tmdb.org/t/p/w185/peEd36FXGBmUQup5n0qEsb28vvS.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/212766",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ryan Blakely",
+            "personaggio": "Bill",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mr1Q9ia331a2GA4pSLXMWeIzOOb.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/209151",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Aidan Devine",
+            "personaggio": "Gerald",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3qrUCw73cAN0923x5jCxAiiSaJE.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/237",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Andrea Frankle",
+            "personaggio": "Jamie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/k1xBQPnsPZNe6lX4Y8lZOVZGJZ8.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/946356",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Linda Thorson",
+            "personaggio": "Judy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ikmFouEEq6GKY6UBq2fwmKY0Se0.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/83052",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Laura de Carteret",
+            "personaggio": "Sandra",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9hY2MDpqgUrR7XVmFHmdFGLSB70.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/63858",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lydia Zadel",
+            "personaggio": "Cashier",
+            "foto_url": "https://image.tmdb.org/t/p/w185/SHKmKatjKlf7LBwk4btiztV9nt.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1511948",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Matt Keyes",
+            "personaggio": "Robert Lang",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9f865PMxcSI3bafhNnduuo2A9zG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1569327",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mariah Inger",
+            "personaggio": "Teacher",
+            "foto_url": "https://image.tmdb.org/t/p/w185/l22GdZ2esAri7dnfJvGvvnQl2QS.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1122326",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Matt Bois",
+            "personaggio": "Mark",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cWZlJTqwgdrlNYUaVRBv1MvL4lw.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1772319",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Infermiera e madre single, Sarah lotta tutti i giorni per conciliare lavoro e vita domestica. Spesso però il primo prevale sulla seconda e Lauren, la figlia di sette anni, soffre sempre più la sua assenza. La più grande paura di Sarah si materializza quando Lauren, mentre torna a casa da scuola da sola, viene rapita. Per salvare sua figlia, Sarah costretta a fare l'impensabile confrontandosi con uno sconcertante dilemma.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/eUUuxfGAwHzHlnNJXO2d7Y3YOxF.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=7qtvs6kdnss"
+        },
+        "tmdb_id_scelto": 384099,
+        "imdb_id_scelto": "tt4060030",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:06:58.366Z"
+      },
+      "genre": "thriller",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:06:58.366Z",
+      "editor_updated_at": "2026-07-05T05:06:58.366Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "iL_nmPZs-7g",
