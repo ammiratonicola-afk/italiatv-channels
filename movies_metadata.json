@@ -4137,7 +4137,15 @@
         "trama": "Mary torna in città e anche nella vita di Joey. Quella che era iniziata come una cotta alle superiori potrebbe diventare una storia d'amore che durerà per sempre, se solo amici e familiari dessero loro una possibilità.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/4lYjn3dUVmDgpdPbND0521JRKZp.jpg",
-        "trailer": null,
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "altra",
+          "ufficiale": false,
+          "verificato": false,
+          "motivo_verifica": "ricerca AI",
+          "url": "https://www.youtube.com/watch?v=aPJOS0QPbTg",
+          "canale": "La scelta di Joey (Jesus, Mary and Joey - welcome back Miss Mary, 2006)"
+        },
         "tmdb_id_scelto": 6969
       },
       "tmdb_media_type": "movie",
@@ -5239,13 +5247,13 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/fRHkuA76quAT3PyRBcIKpfAmzQW.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
           "verificato": false,
-          "motivo_verifica": ""
+          "motivo_verifica": "fallback IMDb da TMDB external_ids",
+          "url": "https://www.imdb.com/title/tt0082247/videogallery/content_type-trailer",
+          "canale": "IMDb videogallery trailer"
         },
         "tmdb_id_scelto": 26444
       },
@@ -5611,13 +5619,13 @@
           "motivo_verifica": "Locandina verificata tramite TMDB."
         },
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
           "verificato": false,
-          "motivo_verifica": "Da verificare via TMDB videos endpoint"
+          "motivo_verifica": "fallback IMDb da TMDB external_ids",
+          "url": "https://www.imdb.com/title/tt3149640/videogallery/content_type-trailer",
+          "canale": "IMDb videogallery trailer"
         },
         "fonti_usate": [
           {
@@ -6402,13 +6410,13 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/6uxYEWb83p5FnTuC4MFnUaUO8Oe.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
           "verificato": false,
-          "motivo_verifica": ""
+          "motivo_verifica": "fallback IMDb da TMDB external_ids",
+          "url": "https://www.imdb.com/title/tt0424855/videogallery/content_type-trailer",
+          "canale": "IMDb videogallery trailer"
         },
         "tmdb_id_scelto": 82986
       },
@@ -7002,7 +7010,15 @@
         "trama": "Dopo che un poliziotto Usa viene ucciso dai rivenditori di armi del mercato nero, il suo compagno Rudy (Robert Madrid) e il padre del poliziotto assassinato, ex agente dell’intelligence britannica, Roger Chambers (Michael York), si dirigono a Mosca per trovare gli assassini. I due iniziano a rintracciare i loro obiettivi, ma il loro piano va in fumo  quando Rudy viene ferito e Chambers viene arrestato. Sarà Vlad, (Alexander Nevsky) un ufficiale russo, a completare la loro missione.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/7WwaL21mcewnQTVAz3zOStDB4M1.jpg",
-        "trailer": null,
+        "trailer": {
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": false,
+          "motivo_verifica": "fallback IMDb da TMDB external_ids",
+          "url": "https://www.imdb.com/title/tt0369738/videogallery/content_type-trailer",
+          "canale": "IMDb videogallery trailer"
+        },
         "tmdb_id_scelto": 106546
       },
       "tmdb_media_type": "movie",
@@ -7433,7 +7449,15 @@
         "trama": "Una battaglia dei sessi si scatena tra lo staff e il proprietario di un eccentrico bar londinese quando vengono alcune rivelazioni di segreti terribilmente imbarazzanti e a sfondo sessuale.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/xoh1xkGQx90ezOqGNLUz9LRpb5W.jpg",
-        "trailer": null,
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "altra",
+          "ufficiale": false,
+          "verificato": false,
+          "motivo_verifica": "ricerca AI",
+          "url": "https://www.youtube.com/watch?v=Flh52xOogto",
+          "canale": "Caffeine - Movie Trailer"
+        },
         "tmdb_id_scelto": 18654
       },
       "tmdb_media_type": "movie",
@@ -8079,7 +8103,15 @@
         "trama": "Rikker è l'agente alieno destinato a combattere i dissidenti della Corporazione guidati da Saylon e dalla sensuale Isis. A seguito di un violento e rocambolesco inseguimento stradale, Rikker incontra Julie, una quindicenne la cui famiglia è stata uccisa dagli alieni. La ragazza, contro la volontà di Rikker, si unisce a lui per combattere i dissidenti alieni e cercare di scongiurare la loro invasione.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/pyfDqTDW8gTwEsgwrMVvH6WziUL.jpg",
-        "trailer": null,
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "altra",
+          "ufficiale": false,
+          "verificato": false,
+          "motivo_verifica": "ricerca AI",
+          "url": "https://www.youtube.com/watch?v=8AL5M-7LigU",
+          "canale": "Alien Agent - trailer (2007) - Mark Dacascos"
+        },
         "tmdb_id_scelto": 19279
       },
       "tmdb_media_type": "movie",
@@ -8517,7 +8549,15 @@
         "trama": "Cinque completi sconosciuti, tre uomini e due donne, si risvegliano in una prigione sotterranea. Sono in trappola, ma non sanno il perché. Si renderanno presto conto di essere le cavie umane di un sadico esperimento attuato per testare la volontà di sopravvivenza. E mentre i giorni passano senza nessuna possibilità di fuga e la fame aumenta, la loro umanità via via scompare...",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/c90ogtGY5k90D38ynTUBu3KWWMp.jpg",
-        "trailer": null,
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "altra",
+          "ufficiale": false,
+          "verificato": false,
+          "motivo_verifica": "ricerca AI",
+          "url": "https://www.youtube.com/watch?v=A0shVsHcU4c",
+          "canale": "Official Hunger Trailer"
+        },
         "tmdb_id_scelto": 173672
       },
       "tmdb_media_type": "movie",
@@ -8863,13 +8903,13 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/gqcczEEJy1LaMQFBFnqhnrtllQD.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "altra",
           "ufficiale": false,
           "verificato": false,
-          "motivo_verifica": ""
+          "motivo_verifica": "ricerca AI",
+          "url": "https://www.youtube.com/watch?v=OH4VwXgwXj0",
+          "canale": "The Sheepman (1958) | Official Trailer"
         },
         "tmdb_id_scelto": 76568
       },
@@ -9280,7 +9320,15 @@
         "trama": "Ambrose McKinley (Nick Damici), un veterano di guerra, si trasferisce nella piccola comunità di Crescent Bay in cui i residenti muoiono in numero sempre più crescente, vittime, a quanto sembra, degli attacchi di alcuni animali non identificati. Dopo essere a sua volta scampato ad un attacco, durante la sua prima notte nella nuova casa, Ambrose scopre che i colpevoli non sono animali, ma creature molto più terrificanti. Deciso a tutto per fermare la carneficina l’uomo inizierà a prepararsi per lo scontro finale.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/vLlB1aOOYt4iJiKztu46Xpk1TNB.jpg",
-        "trailer": null,
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "altra",
+          "ufficiale": false,
+          "verificato": false,
+          "motivo_verifica": "ricerca AI",
+          "url": "https://www.youtube.com/watch?v=EJgXfzSYehk",
+          "canale": "Late Phases Official Trailer 1 (2014) - Horror Movie HD"
+        },
         "tmdb_id_scelto": 254193
       },
       "tmdb_media_type": "movie",
@@ -9434,13 +9482,13 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/5FycDjGmXXUKXC6iDBEqXMLVOMC.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
           "verificato": false,
-          "motivo_verifica": ""
+          "motivo_verifica": "fallback IMDb da TMDB external_ids",
+          "url": "https://www.imdb.com/title/tt1942876/videogallery/content_type-trailer",
+          "canale": "IMDb videogallery trailer"
         },
         "tmdb_id_scelto": 89827
       },
@@ -9786,13 +9834,13 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/tWd91TU48R9xHBGY7s9tWcNpbe4.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "altra",
           "ufficiale": false,
           "verificato": false,
-          "motivo_verifica": ""
+          "motivo_verifica": "ricerca AI",
+          "url": "https://www.youtube.com/watch?v=wIx0Xv5BPok",
+          "canale": "The Boston Strangler 1968 Trailer"
         },
         "tmdb_id_scelto": 26690
       },
@@ -10573,7 +10621,15 @@
         "trama": "Nicholas Rice, un rinomato giornalista del LA Times, torna nella sua città natale, 'The Dunes'. Mentre si trova lì, una figura misteriosa del suo passato riemerge e minaccia di distruggere la sua intera esistenza.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/7uKyoEtfYX0P7dG2iG6t9mqo4NA.jpg",
-        "trailer": null,
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "altra",
+          "ufficiale": false,
+          "verificato": false,
+          "motivo_verifica": "ricerca AI",
+          "url": "https://www.youtube.com/watch?v=-NXaz7NrnXk",
+          "canale": "Official Trailer"
+        },
         "tmdb_id_scelto": 503017
       },
       "tmdb_media_type": "movie",
@@ -11054,13 +11110,13 @@
           "motivo_verifica": "Locandina verificata tramite TMDB."
         },
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
           "verificato": false,
-          "motivo_verifica": "Da verificare via TMDB videos endpoint"
+          "motivo_verifica": "fallback IMDb da TMDB external_ids",
+          "url": "https://www.imdb.com/title/tt0457290/videogallery/content_type-trailer",
+          "canale": "IMDb videogallery trailer"
         },
         "fonti_usate": [
           {
@@ -12090,13 +12146,13 @@
           "motivo_verifica": "Nessun candidato TMDB corrisponde al film descritto."
         },
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
           "verificato": false,
-          "motivo_verifica": "Da verificare via TMDB videos endpoint"
+          "motivo_verifica": "fallback IMDb da TMDB external_ids",
+          "url": "https://www.imdb.com/title/tt0426616/videogallery/content_type-trailer",
+          "canale": "IMDb videogallery trailer"
         },
         "fonti_usate": [
           {
@@ -13778,7 +13834,15 @@
         "trama": "Into the Fire racconta la storia di Walter Hartwig, un tenente dell'Unità Portuale di New York, che finalmente affronta il dolore e comprende ciò che è veramente importante in questa vita.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/lrsO7BrbDO1N5oOvmdwWnnOw2RO.jpg",
-        "trailer": null,
+        "trailer": {
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": false,
+          "motivo_verifica": "fallback IMDb da TMDB external_ids",
+          "url": "https://www.imdb.com/title/tt0383417/videogallery/content_type-trailer",
+          "canale": "IMDb videogallery trailer"
+        },
         "tmdb_id_scelto": 268994
       },
       "tmdb_media_type": "movie",
@@ -14118,13 +14182,13 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/aYOhpVlxRUURN148oiPGrwWWNRU.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
           "verificato": false,
-          "motivo_verifica": ""
+          "motivo_verifica": "fallback IMDb da TMDB external_ids",
+          "url": "https://www.imdb.com/title/tt0263939/videogallery/content_type-trailer",
+          "canale": "IMDb videogallery trailer"
         },
         "tmdb_id_scelto": 35894
       },
@@ -14301,7 +14365,15 @@
         "trama": "E' la storia di un guaritore che usa la fede religiosa come suo principale strumento di lavoro. Charlie Shepard vive, col poco che guadagna, con la moglie e il figlio in una cittadina dell'Alaska. Ma un giorno la tragedia: la sua famiglia viene sterminata senza un motivo, almeno apprentemente. Dilaniato dalla sofferenza, Charlie inizia a bere e procede a grandi passi verso l'autodistruzione. Ma in città arriva Sarah, una misteriosa ragazza che chiede a Charlie di intervenire con i suoi poteri miracolosi per aiutarla a salvare suo padre.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/aFyHCSdDNEciItH7dtgdYfGoqlM.jpg",
-        "trailer": null,
+        "trailer": {
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": false,
+          "motivo_verifica": "fallback IMDb da TMDB external_ids",
+          "url": "https://www.imdb.com/title/tt1242539/videogallery/content_type-trailer",
+          "canale": "IMDb videogallery trailer"
+        },
         "tmdb_id_scelto": 33116
       },
       "tmdb_media_type": "movie",
@@ -15610,7 +15682,15 @@
         "trama": "Un gruppo di evasi ed un dottore si rifugiano in un capanno nel bosco, ma gli abitanti di quest'ultimo non sono molto ospitali",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/3ptLp7yy68dDcBF8k5WrTCU55tL.jpg",
-        "trailer": null,
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "altra",
+          "ufficiale": false,
+          "verificato": false,
+          "motivo_verifica": "ricerca AI",
+          "url": "https://www.youtube.com/watch?v=FulnZ5al6P4",
+          "canale": "Chain Reaction Trailer English / Die Kettenreaktion Trailer Englisch"
+        },
         "tmdb_id_scelto": 40465
       },
       "tmdb_media_type": "movie",
@@ -15685,13 +15765,13 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/ti7s78pQMAZ1nq970HpalZXc1ZK.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
           "verificato": false,
-          "motivo_verifica": ""
+          "motivo_verifica": "fallback IMDb da TMDB external_ids",
+          "url": "https://www.imdb.com/title/tt1086241/videogallery/content_type-trailer",
+          "canale": "IMDb videogallery trailer"
         },
         "tmdb_id_scelto": 102336
       },
@@ -340744,7 +340824,7 @@
     {
       "video_id": "98vmgTJ4OFk",
       "is_movie": true,
-      "original_title": "La nipote del prete: Bionda, spogliata e irresistibile | Film completo in italiano",
+      "original_title": "La nipote del prete",
       "channel": "TVItalia",
       "tmdb_id": 442126,
       "tmdb_title_official": "La nipote del prete",
@@ -340755,8 +340835,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "La nipote del prete: Bionda, spogliata e irresistibile | Film completo in italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=98vmgTJ4OFk",
         "titolo_italiano": "La nipote del prete",
         "titolo_originale": "La nipote del prete",
         "anno_uscita": 1976,
@@ -340883,25 +340961,26 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/uYGdctz2OvypFR3vwf2NcJqlGqj.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt0131499/videogallery/content_type-trailer"
         },
         "tmdb_id_scelto": 442126,
+        "imdb_id_scelto": "tt0131499",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:52:39.320Z"
       },
       "genre": "commedia",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:52:39.320Z",
+      "editor_updated_at": "2026-07-05T04:52:39.320Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "OS-owROtAwQ",
