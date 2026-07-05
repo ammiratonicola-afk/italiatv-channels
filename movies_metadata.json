@@ -356787,7 +356787,7 @@
     },
     {
       "video_id": "j19xgS7rV3E",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Ad ovest di Paperino",
       "channel": "TVItalia",
       "tmdb_id": 58190,
@@ -356943,7 +356943,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T06:34:42.403Z",
       "editor_updated_at": "2026-07-05T06:34:42.403Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:57:33.470Z"
     },
     {
       "video_id": "44H4wBddt1Q",
@@ -366667,7 +366670,7 @@
     },
     {
       "video_id": "dNm3kCSkLZI",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Escape from Pretoria",
       "channel": "Film&Clips Azione",
       "tmdb_id": 502425,
@@ -366826,7 +366829,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T06:35:52.503Z",
       "editor_updated_at": "2026-07-05T06:35:52.503Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:57:33.472Z"
     },
     {
       "video_id": "vRtBZWOWbsc",
@@ -366870,7 +366876,7 @@
     },
     {
       "video_id": "IfQ5MJ1VbUE",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Fatal Secrets",
       "channel": "Film&Clips Azione",
       "tmdb_id": 102737,
@@ -367026,7 +367032,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T06:36:16.411Z",
       "editor_updated_at": "2026-07-05T06:36:16.411Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:57:33.472Z"
     },
     {
       "video_id": "3tZjnCCCiy4",
@@ -367038,7 +367047,7 @@
     },
     {
       "video_id": "q_JvdPmmt14",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Mercenaries",
       "channel": "Film&Clips Azione",
       "tmdb_id": 277597,
@@ -367194,7 +367203,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T06:42:23.287Z",
       "editor_updated_at": "2026-07-05T06:42:23.287Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:57:33.472Z"
     },
     {
       "video_id": "bJT4BD-YTik",
@@ -368437,7 +368449,7 @@
     },
     {
       "video_id": "5KnaJhSGqdA",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Separated at Birth",
       "channel": "Film&Clips Azione",
       "tmdb_id": 461337,
@@ -368594,7 +368606,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T06:41:56.339Z",
       "editor_updated_at": "2026-07-05T06:41:56.339Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:57:33.472Z"
     },
     {
       "video_id": "tqi50dtkk2Q",
@@ -370761,7 +370776,7 @@
     },
     {
       "video_id": "n_FBj52cHlA",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Liberi armati pericolosi",
       "channel": "Film&Clips Azione",
       "tmdb_id": 95375,
@@ -370919,7 +370934,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T06:33:33.311Z",
       "editor_updated_at": "2026-07-05T06:33:33.311Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:57:33.471Z"
     },
     {
       "video_id": "SXeVao0r1F4",
@@ -371252,7 +371270,7 @@
     },
     {
       "video_id": "7wsQ_7xSPKw",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Peligro...! Mujeres en acción",
       "channel": "Film&Clips Azione",
       "tmdb_id": 315015,
@@ -371410,7 +371428,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T06:33:04.828Z",
       "editor_updated_at": "2026-07-05T06:33:04.828Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:57:33.472Z"
     }
   ],
   "title_validated_at": "2026-06-16T06:48:35",
