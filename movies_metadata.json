@@ -326053,27 +326053,22 @@
     {
       "video_id": "whkE5LIu4g8",
       "is_movie": true,
-      "original_title": "La casa dell'esorcismo (1973) | Quando il Male prende il Controllo | Film Horror",
+      "original_title": "Lisa e il diavolo",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 5483,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "La casa dell'esorcismo (1973) | Quando il Male prende il Controllo | Film Horror",
-        "youtube_url": "https://www.youtube.com/watch?v=whkE5LIu4g8",
-        "titolo_corretto": "La casa dell'esorcismo",
-        "titolo_italiano": "La casa dell'esorcismo",
-        "titolo_originale": "The House of Exorcism",
-        "anno_uscita": 1975,
-        "durata_minuti": 92,
+        "titolo_italiano": "Lisa e il diavolo",
+        "titolo_originale": "Lisa e il diavolo",
+        "anno_uscita": 1973,
+        "durata_minuti": 95,
         "genere": [
-          "Horror",
-          "Thriller"
+          "Horror"
         ],
         "regista": [
-          "Mario Bava",
-          "Alfredo Leone"
+          "Mario Bava"
         ],
         "cast_principale": [
           {
@@ -326099,17 +326094,6 @@
             }
           },
           {
-            "nome": "Robert Alda",
-            "personaggio": "Padre Michael",
-            "foto_url": "https://image.tmdb.org/t/p/w185/23QBbdyFeugSnRargAhsa5ItT1l.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/95732",
-              "verificata": true
-            }
-          },
-          {
             "nome": "Sylva Koscina",
             "personaggio": "Sophia Lehar",
             "foto_url": "https://image.tmdb.org/t/p/w185/woKWzdVc71f8uX0u0yblFISaMIO.jpg",
@@ -326117,6 +326101,39 @@
             "foto_fonte": {
               "nome": "TMDB",
               "url_pagina_origine": "https://www.themoviedb.org/person/21606",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Alessio Orano",
+            "personaggio": "Max",
+            "foto_url": "https://image.tmdb.org/t/p/w185/i1T0K9dJ2JLaDPI0wtiVTh8VrWz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/44972",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Eduardo Fajardo",
+            "personaggio": "Francis Lehar",
+            "foto_url": "https://image.tmdb.org/t/p/w185/aBqPQPnfqbpUA6d32Q1VdXo9BrM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/100409",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Espartaco Santoni",
+            "personaggio": "Carlo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/76M72gHpW7OEkMcb0E6hhde36Ja.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/33827",
               "verificata": true
             }
           },
@@ -326130,101 +326147,68 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/15385",
               "verificata": true
             }
-          }
-        ],
-        "trama": "Durante una visita in Spagna, una turista americana di nome Lisa si perde e trova rifugio in una sinistra magione. Qui viene posseduta dallo spirito maligno di una donna morta, e un prete viene chiamato per eseguire un esorcismo.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/bvVkVbmuYswc8yVkr14fBWJupNs.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/262871-the-house-of-exorcism",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
-        "trailer": {
-          "url": "https://www.youtube.com/watch?v=EjMQ0xwIWS8",
-          "lingua": "en",
-          "fonte": "YouTube",
-          "canale": "The House of Exorcism (1975) ORIGIANL TRAILER [HD 1080p]",
-          "ufficiale": false,
-          "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
-        },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/262871-the-house-of-exorcism"
           },
           {
-            "nome": "Wikipedia IT",
-            "url": "https://it.wikipedia.org/wiki/La_casa_dell'esorcismo"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "La casa dell'esorcismo"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": 1973,
-          "durata_video_youtube": "79 min",
-          "attori_trovati": [
-            "Telly Savalas",
-            "Elke Sommer",
-            "Sylva Koscina",
-            "Alida Valli"
-          ],
-          "registi_trovati": [
-            "Mario Bava"
-          ],
-          "parole_chiave_trama": [
-            "esorcismo",
-            "possessione",
-            "diavolo",
-            "turista",
-            "Spagna"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "media",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film 'La casa dell'esorcismo' del 1975 corrisponde per titolo, cast, regista e trama con i dati forniti."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "titolo italiano",
-            "cast principale",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "anno di uscita",
-            "durata"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "Wikipedia IT"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [
+            "nome": "Gabriele Tinti",
+            "personaggio": "George",
+            "foto_url": "https://image.tmdb.org/t/p/w185/f2NJidxvaqX8MQSv7MN36NDK1kY.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/31991",
+              "verificata": true
+            }
+          },
           {
-            "titolo": "Lisa e il diavolo",
-            "titolo_originale": "Lisa e il diavolo",
-            "anno": 1973,
-            "motivo_alternativa": "Film correlato con elementi simili, ma differente montaggio e trama.",
-            "livello_compatibilita": "medio"
+            "nome": "Franz von Treuberg",
+            "personaggio": "Shopkeeper",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tMf8AXEBe5RoTipmolSmfegqvxI.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/106679",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kathy Leone",
+            "personaggio": "Lisa's friend",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1116336",
+              "verificata": false
+            }
           }
         ],
-        "note": "Il film 'La casa dell'esorcismo' è una versione rieditata di 'Lisa e il diavolo', con scene aggiuntive per sfruttare il successo de 'L'esorcista'.",
-        "tmdb_id_scelto": 262871,
-        "imdb_id_scelto": "tt3420392"
-      }
+        "trama": "Lisa Reiner è una turista americana che passeggia in una città spagnola medievale. Dopo aver ammirato su una parete di una chiesa un affresco che mostra la figura del Diavolo trasportatore di morti, si imbatte per ironia della sorte proprio in un uomo pelato in tutto simile alla raffigurazione dell’affresco appena visto, che porta con sé un cadavere in procinto di essere posto nella bara mortuaria. Terrorizzata, Lisa scappa e si imbatte in un uomo con le stesse sembianze del cadavere appena visto...",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/iPEl3ch8iJ8EFN7BhcI7IDamvLs.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=ZwKtmssl2uk"
+        },
+        "tmdb_id_scelto": 5483,
+        "imdb_id_scelto": "tt0068863",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T04:25:29.138Z"
+      },
+      "tmdb_poster_path": "/iPEl3ch8iJ8EFN7BhcI7IDamvLs.jpg",
+      "tmdb_title_official": "Lisa e il diavolo",
+      "tmdb_year_official": 1973,
+      "tmdb_media_type": "movie",
+      "genre": "horror",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T04:25:29.138Z",
+      "editor_updated_at": "2026-07-05T04:25:29.138Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "p5IPvX00W9Y",
