@@ -1508,7 +1508,18 @@ async function showChannels(){
     channelsObj=null; $("chBtn").textContent="📡 Gestisci canali"; $("saveChBtn").style.display="none"; $("chInfo").textContent=""; return; }
   $("chBtn").disabled=true;
   try{
-    channelsObj=await fetch(CH_RAW+"?t="+Date.now()).then(r=>r.ok?r.json():{channels:[]}).catch(()=>({channels:[]}));
+    // Lettura FRESCA via Contents API col token (raw.githubusercontent è cache CDN ~5 min e
+    // ignora il cache-buster: dopo un salvataggio mostrerebbe il file vecchio → "canale sparito").
+    const token=$("token").value.trim();
+    let obj=null;
+    if(token){
+      try{
+        const r=await fetch(CH_API+"?t="+Date.now(),{headers:{Authorization:"Bearer "+token,Accept:"application/vnd.github.raw"},cache:"no-store"});
+        if(r.ok) obj=await r.json();
+      }catch(_){}
+    }
+    if(!obj) obj=await fetch(CH_RAW+"?t="+Date.now(),{cache:"no-store"}).then(r=>r.ok?r.json():{channels:[]}).catch(()=>({channels:[]}));
+    channelsObj=obj||{channels:[]};
     if(!channelsObj.channels) channelsObj.channels=[];
     $("chBtn").textContent="✖ Chiudi"; $("chList").style.display="block"; $("chAddRow").style.display="flex"; $("chHint").style.display="block";
     renderChannels();
