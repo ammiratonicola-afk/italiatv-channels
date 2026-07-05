@@ -321,6 +321,63 @@ def base_entry(vid, raw, cname):
     }
 
 
+# ── Dedup CONSERVATIVA per film NON identificati (senza tmdb_id) ───────────────
+# Chiave: token significativi del titolo (rimossi promo/anni) + durata reale del video.
+# Due upload = stesso film SOLO se il titolo e' molto simile E/O la durata coincide.
+# Non elimina mai: tiene il migliore come primario, l'altro come riserva.
+_PROMO = {
+    "hd","4k","fullhd","full","uhd","hq","480p","720p","1080p","2160p","altadefinizione",
+    "alta","definizione","ita","italiano","italiana","italiane","in","film","movie","completo",
+    "completi","completa","streaming","stream","gratis","gratuito","sub","subita","sottotitoli",
+    "sottotitolato","cinema","originale","versione","integrale","restaurato","by","the","di","il",
+    "la","le","lo","un","una","uno","e","ed","a","con","per","del","della","dei","al","dal",
+}
+
+def norm_tokens(title):
+    import re as _re
+    t = _re.sub(r"[^a-z0-9\s]", " ", (title or "").lower())
+    t = _re.sub(r"(19|20)\d{2}", " ", t)   # rimuovi gli anni
+    return {w for w in t.split() if len(w) > 1 and w not in _PROMO}
+
+def _jaccard(a, b):
+    if not a or not b:
+        return 0.0
+    return len(a & b) / len(a | b)
+
+def handle_nomatch_duplicate(d, vid, raw, cname, apply):
+    """True se il nuovo upload non identificato e' lo stesso film di uno gia' presente
+    (anch'esso non identificato) → merge per qualita' con riserve. Molto conservativo."""
+    new_tokens = norm_tokens(raw)
+    if len(new_tokens) < 2:            # troppo poche parole utili: non rischiare falsi merge
+        return False
+    new_dur = yt_watch_info(vid).get("duration", 0)
+    for m in d["movies"]:
+        if m.get("tmdb_id") or not active(m):        # dedup TMDB gia' gestita altrove
+            continue
+        if m.get("video_id") == vid:
+            continue
+        jac = _jaccard(new_tokens, norm_tokens(m.get("original_title") or ""))
+        if jac < 0.5:
+            continue
+        old_dur = yt_watch_info(m["video_id"]).get("duration", 0)
+        close_dur = bool(new_dur and old_dur and abs(new_dur - old_dur) <= 90)
+        # Stesso film se: durata quasi identica + titolo affine (>=0.5), OPPURE titolo quasi
+        # identico (>=0.85) anche senza durata. Altrimenti NON fondere (film diversi simili).
+        if not (close_dur or jac >= 0.85):
+            continue
+        new_entry = base_entry(vid, raw, cname)
+        if apply and new_entry not in d["movies"]:
+            d["movies"].append(new_entry)
+        ranked = sorted([m, new_entry], key=rank_tuple, reverse=True)
+        if apply:
+            set_primary_with_reserves(ranked[0], ranked[1:], film_title(ranked[0]))
+        which = "nuovo" if ranked[0] is new_entry else "esistente"
+        print(f"    [DUP?] NO-MATCH simile (jaccard={jac:.2f}, dur_vicina={close_dur}): "
+              f"'{raw[:34]}' ~ '{(m.get('original_title') or '')[:34]}' -> {which} primario")
+        return True
+    return False
+
+
 def main():
     apply = "--apply" in sys.argv
     mode = "APPLY" if apply else "DRY-RUN"
@@ -399,11 +456,9 @@ def main():
                     continue
                 entry["channel"] = cname
 
-                if tid in seen_tmdb_run:
-                    # Doppione trovato nello stesso run: confronta con le entry gia' aggiunte.
-                    status = handle_duplicate(d, entry, cname, apply)
-                else:
-                    status = handle_duplicate(d, entry, cname, apply)
+                # handle_duplicate copre sia i doppioni gia' a catalogo sia quelli aggiunti
+                # in questo stesso run (cerca per tmdb_id in d["movies"]).
+                status = handle_duplicate(d, entry, cname, apply)
 
                 if status == "new":
                     title = best.get("title")
@@ -423,6 +478,12 @@ def main():
                     tot_skipped_parts += 1
                 continue
 
+            # Dedup conservativa anche fra film NON identificati (titolo affine + durata simile).
+            if handle_nomatch_duplicate(d, vid, raw, cname, apply):
+                tot_dupfilm += 1
+                if apply:
+                    existing_vids.add(vid)
+                continue
             tot_nomatch += 1
             print(f"    [?] NO MATCH: {raw[:55]}  | https://youtu.be/{vid}")
             if apply:
