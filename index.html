@@ -256,7 +256,10 @@
         <button class="sec" onclick="closeModal()">✕</button>
       </div>
       <div class="row">
-        <img id="m_poster" style="width:90px;aspect-ratio:2/3;object-fit:cover;border-radius:8px;background:#000">
+        <div style="display:flex;flex-direction:column;gap:6px;align-items:center">
+          <img id="m_poster" style="width:90px;aspect-ratio:2/3;object-fit:cover;border-radius:8px;background:#000">
+          <button class="sec" type="button" onclick="downloadPoster()" title="Scarica la locandina" style="padding:4px 8px;font-size:11px;width:90px">⬇ Scarica</button>
+        </div>
         <div style="flex:1;min-width:160px">
           <label>Titolo</label><input id="m_title">
           <div class="row">
@@ -296,6 +299,12 @@
       </label>
       <textarea id="m_plot" rows="4" style="width:100%;padding:10px 12px;background:var(--card2);border:1px solid #33335a;border-radius:8px;color:var(--text);font-size:14px;font-family:inherit"></textarea>
       <label>Poster (path TMDB, es. /abc.jpg)</label><input id="m_posterpath" placeholder="lascia vuoto per nessuno">
+      <label>🖼️ Locandina personalizzata (URL immagine)</label>
+      <div class="inline-input">
+        <input id="m_poster_url" placeholder="https://…/immagine.jpg — sovrascrive il poster TMDB" oninput="if(this.value.trim())document.getElementById('m_poster').src=this.value.trim()">
+        <button class="sec" type="button" onclick="applyPosterUrl()">Carica da URL</button>
+      </div>
+      <div class="help">Incolla l'URL di un'immagine (jpg/png/webp) per usarla come locandina al posto di quella TMDB: ha priorità nell'app. Lascia vuoto per usare quella TMDB.</div>
       <label style="display:flex;align-items:center;gap:8px">🎭 Cast (nome · personaggio · foto)
         <button class="sec" type="button" id="m_cast_ai_btn" onclick="fillMissingCastPhotosAi()" style="padding:4px 10px;font-size:12px;margin-left:auto">✨ Foto mancanti (AI)</button>
       </label>
@@ -338,7 +347,26 @@ const $=id=>document.getElementById(id);
 const ytId=s=>{ s=(s||"").trim(); const m=s.match(/(?:v=|youtu\.be\/|embed\/|shorts\/)([A-Za-z0-9_-]{11})/); return m?m[1]:(/^[A-Za-z0-9_-]{11}$/.test(s)?s:null); };
 function status(msg,ok){ const s=$("status"); if(s){ s.textContent=msg||""; s.className=ok?"ok":"err"; s.style.display=msg?"block":"none"; }
   const ss=$("settings_status"); if(ss){ ss.textContent=msg; ss.style.color=ok?"var(--ok)":"var(--err)"; } }
-function poster(m){ if(m.tmdb_poster_path) return IMG+"w185"+m.tmdb_poster_path; if(m.video_id) return `https://i.ytimg.com/vi/${m.video_id}/mqdefault.jpg`; return ""; }
+function poster(m){ if(m.tmdb_poster_path) return IMG+"w185"+m.tmdb_poster_path; const lu=(m.strict_id_v2||{}).locandina_url; if(lu && /^https?:\/\//.test(lu)) return lu; if(m.video_id) return `https://i.ytimg.com/vi/${m.video_id}/mqdefault.jpg`; return ""; }
+// ── Locandina: scarica + URL personalizzato ──────────────────────────────
+async function downloadPoster(){
+  const url=($("m_poster").src||"").trim();
+  if(!url || url==="about:blank" || /\/$/.test(url)){ status("Nessuna locandina da scaricare.",false); return; }
+  const name=(($("m_title").value||"locandina").trim().replace(/[^\w\-]+/g,"_")||"locandina")+".jpg";
+  try{
+    const r=await fetch(url,{mode:"cors"}); if(!r.ok) throw new Error("HTTP "+r.status);
+    const b=await r.blob(); const a=document.createElement("a");
+    a.href=URL.createObjectURL(b); a.download=name; document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(()=>URL.revokeObjectURL(a.href),4000); status("Locandina scaricata.",true);
+  }catch(e){ window.open(url,"_blank"); status("Apro la locandina in una scheda (salvala con tasto destro): download diretto bloccato dal sito.",true); }
+}
+function applyPosterUrl(){
+  const u=$("m_poster_url").value.trim();
+  if(!u){ status("Incolla un URL immagine.",false); return; }
+  if(!/^https?:\/\//i.test(u)){ status("URL non valido: deve iniziare con http.",false); return; }
+  $("m_poster").src=u; $("m_posterpath").value="";   // l'URL personalizzato sostituisce il path TMDB
+  status("Locandina personalizzata impostata. Premi Applica/Salva per confermarla.",true);
+}
 function title(m){ return m.tmdb_title_official||m.original_title||m.video_id||"(senza titolo)"; }
 function aiBox(msg, ok=true){ const b=$("m_gemini_out"); b.textContent=msg; b.className=ok?"aiout ok":"aiout err"; }
 function cleanJsonText(s){
@@ -976,7 +1004,7 @@ function filmDurMin(m){
 function recomputeDiag(){
   if(!catalogAll) return;
   diagResults={
-    noPoster: catalogAll.filter(x=>!x.m.tmdb_poster_path),
+    noPoster: catalogAll.filter(x=>!x.m.tmdb_poster_path && !((x.m.strict_id_v2||{}).locandina_url)),
     noPlot: catalogAll.filter(x=>!(((x.m.strict_id_v2||{}).trama)||x.m.enriched_plot)),
     noCast: catalogAll.filter(x=>!(((x.m.strict_id_v2||{}).cast_principale||[]).length)),
     noTrailer: catalogAll.filter(x=>{ const tr=(x.m.strict_id_v2||{}).trailer; return !(tr && tr.url) && !x.m.trailer_url; }),
@@ -1594,6 +1622,7 @@ function openEdit(vid, src){
   $("m_type").textContent=m.tmdb_media_type?("("+m.tmdb_media_type+")"):"";
   $("m_plot").value=v2.trama||m.enriched_plot||"";
   $("m_posterpath").value=m.tmdb_poster_path||"";
+  { const _lu=(v2.locandina_url||""); $("m_poster_url").value=(/^https?:\/\//.test(_lu) && _lu.indexOf("image.tmdb.org")<0)?_lu:""; }
   $("m_yt").value=m.video_id?("https://youtu.be/"+m.video_id):"";
   $("m_original_guess").value=v2.titolo_originale||m.original_title||"";
   $("m_gemini_out").className="aiout"; $("m_gemini_out").textContent="";
@@ -2419,6 +2448,7 @@ function applyEdit(){
   m.genre=$("m_genre").value;
   const tid=parseInt($("m_tmdb").value)||null; if(tid) m.tmdb_id=tid;
   const pp=$("m_posterpath").value.trim(); m.tmdb_poster_path=pp||null;
+  const customPoster=$("m_poster_url").value.trim();
   m.strict_id_v2=m.strict_id_v2||{};
   const imdbId=parseImdbId($("m_imdb").value); if(imdbId) m.strict_id_v2.imdb_id_scelto=imdbId;
   if(tit) m.strict_id_v2.titolo_italiano=tit;
@@ -2427,7 +2457,8 @@ function applyEdit(){
   if(yr) m.strict_id_v2.anno_uscita=yr;
   const dur=parseInt($("m_duration").value)||null; m.strict_id_v2.durata_minuti=dur;
   m.strict_id_v2.trama=$("m_plot").value;
-  m.strict_id_v2.locandina_url=pp?IMG+"w500"+pp:null;
+  // Locandina personalizzata (URL completo) ha priorità; altrimenti quella TMDB dal path.
+  m.strict_id_v2.locandina_url = customPoster || (pp?IMG+"w500"+pp:null);
   m.strict_id_v2.cast_principale=collectCast();
   // Link YouTube di riproduzione (cambia il video_id che è la chiave del film)
   const newVid=ytId($("m_yt").value);
