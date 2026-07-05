@@ -305,6 +305,10 @@
         <button class="sec" type="button" onclick="applyPosterUrl()">Carica da URL</button>
       </div>
       <div class="help">Incolla l'URL di un'immagine (jpg/png/webp) per usarla come locandina al posto di quella TMDB: ha priorità nell'app. Lascia vuoto per usare quella TMDB.</div>
+      <div class="inline-input" style="margin-top:6px">
+        <input type="file" id="m_poster_file" accept="image/*" style="flex:1" onchange="uploadPosterFile(this)">
+      </div>
+      <div class="help">Oppure <b>carica un file</b> dal dispositivo: viene ridimensionato e salvato nel repo (cartella <code>posters/</code>), poi usato come locandina. Serve il token GitHub.</div>
       <label style="display:flex;align-items:center;gap:8px">🎭 Cast (nome · personaggio · foto)
         <button class="sec" type="button" id="m_cast_ai_btn" onclick="fillMissingCastPhotosAi()" style="padding:4px 10px;font-size:12px;margin-left:auto">✨ Foto mancanti (AI)</button>
       </label>
@@ -366,6 +370,48 @@ function applyPosterUrl(){
   if(!/^https?:\/\//i.test(u)){ status("URL non valido: deve iniziare con http.",false); return; }
   $("m_poster").src=u; $("m_posterpath").value="";   // l'URL personalizzato sostituisce il path TMDB
   status("Locandina personalizzata impostata. Premi Applica/Salva per confermarla.",true);
+}
+// Ridimensiona un file immagine a max width e ritorna un data URL JPEG (client-side).
+function resizeImageToJpeg(file, maxW){
+  return new Promise((resolve,reject)=>{
+    const img=new Image();
+    img.onload=()=>{
+      const scale=Math.min(1, maxW/(img.width||maxW));
+      const w=Math.max(1,Math.round((img.width||maxW)*scale)), h=Math.max(1,Math.round((img.height||maxW)*scale));
+      const c=document.createElement("canvas"); c.width=w; c.height=h;
+      c.getContext("2d").drawImage(img,0,0,w,h);
+      try{ resolve(c.toDataURL("image/jpeg",0.85)); }catch(e){ reject(e); }
+    };
+    img.onerror=()=>reject(new Error("immagine non valida"));
+    const r=new FileReader();
+    r.onload=()=>{ img.src=r.result; };
+    r.onerror=()=>reject(new Error("lettura file fallita"));
+    r.readAsDataURL(file);
+  });
+}
+// Carica un file immagine come locandina: lo mette nel repo (posters/<video_id>.jpg) e usa l'URL raw.
+async function uploadPosterFile(inputEl){
+  const file=inputEl.files&&inputEl.files[0]; if(!file) return;
+  const token=$("token").value.trim();
+  if(!token){ status("Serve il token GitHub (blocco Token) per caricare un file immagine.",false); inputEl.value=""; return; }
+  if(!/^image\//.test(file.type)){ status("Seleziona un file immagine.",false); inputEl.value=""; return; }
+  const vid=(ytId($("m_yt").value)||(editing&&editing.m&&editing.m.video_id)||("custom-"+Date.now()));
+  try{
+    status("Ridimensiono e carico la locandina…",true);
+    const dataUrl=await resizeImageToJpeg(file,800);
+    const b64data=dataUrl.split(",")[1];
+    const path=`posters/${vid}.jpg`;
+    const api=`https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}`;
+    let sha=null;
+    try{ const cur=await fetch(api+"?t="+Date.now(),{headers:{Authorization:"Bearer "+token},cache:"no-store"}); if(cur.ok) sha=(await cur.json()).sha; }catch(_){}
+    const body={ message:`Locandina caricata: ${vid}`, content:b64data }; if(sha) body.sha=sha;
+    const res=await fetch(api,{method:"PUT",headers:{Authorization:"Bearer "+token,"Content-Type":"application/json"},body:JSON.stringify(body)});
+    if(!res.ok){ const e=await res.json().catch(()=>({})); throw new Error((res.status===401||res.status===403)?githubAuthError(res.status,"Caricamento immagine"):(e.message||("HTTP "+res.status))); }
+    const rawUrl=`https://raw.githubusercontent.com/${OWNER}/${REPO}/main/${path}`;
+    $("m_poster_url").value=rawUrl; $("m_poster").src=dataUrl; $("m_posterpath").value="";
+    status("Locandina caricata nel repo. Premi Applica/Salva per confermarla sul film.",true);
+  }catch(e){ status("Errore caricamento immagine: "+e.message,false); }
+  finally{ inputEl.value=""; }
 }
 function title(m){ return m.tmdb_title_official||m.original_title||m.video_id||"(senza titolo)"; }
 function aiBox(msg, ok=true){ const b=$("m_gemini_out"); b.textContent=msg; b.className=ok?"aiout ok":"aiout err"; }
