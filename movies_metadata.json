@@ -350048,10 +350048,156 @@
     {
       "video_id": "NePU6Rv94-A",
       "is_movie": true,
-      "original_title": "Casper Van Dien in \"500 MPH Storm\" | Film d'Azione Catastrofico Completo in Italiano",
+      "original_title": "500 MPH Storm",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 172767,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/rRd0ym1zcaxcVSpvoh4jEQDPAsF.jpg",
+      "tmdb_title_official": "Mega Tornado",
+      "tmdb_year_official": 2013,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Mega Tornado",
+        "titolo_originale": "500 MPH Storm",
+        "anno_uscita": 2013,
+        "durata_minuti": 86,
+        "genere": [
+          "Azione",
+          "Fantascienza",
+          "televisione film",
+          "Avventura",
+          "Dramma",
+          "Thriller"
+        ],
+        "regista": [
+          "Daniel Lusko"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Casper Van Dien",
+            "personaggio": "Nathan Sims",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jxRmw8gJYsJ7IG5n9B0PFzy2nHO.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/27763",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sarah Lieving",
+            "personaggio": "Mona Sims",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mAgpHUkqG7KLtUzEW2cjbnJUo3T.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/128003",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Michael Beach",
+            "personaggio": "Simon Caprisi",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7gCBCpK2OSzuUWk5iTZds9NjqkF.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/87118",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Keith Meriweather",
+            "personaggio": "Captain Wright",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9piO8NoPCQzOB189KM4terAhoF.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1155333",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Alex Knight",
+            "personaggio": "Corporal Gentile",
+            "foto_url": "https://image.tmdb.org/t/p/w185/eojFYCdbTnv5VegIMoCVrJXur3K.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/307885",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Dale O´Malley",
+            "personaggio": "Tech Oxenberg",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1155334",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Hayley Derryberry",
+            "personaggio": "Tech Lewis",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ha1KwWuVRysgPNTy3uUHdU9M4Ja.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1268081",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Bryan Head",
+            "personaggio": "Johnny Sims",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1155332",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "James Lawrence Sicard",
+            "personaggio": "Specialist Tudor",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1155335",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Quando viene perso il controllo di un esperimento energetico, una gran quantità di uragani si abbatte sul nordamerica. Un insegnante di scienze del liceo mette in salvo la sua famiglia prima dell'arrivo degli uragani, creando un \"hypercane\", un uragano potente abbastanza da cancellare gli Stati Uniti dal mappamondo.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/rRd0ym1zcaxcVSpvoh4jEQDPAsF.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=i3je2neLDho"
+        },
+        "tmdb_id_scelto": 172767,
+        "imdb_id_scelto": "tt2518848",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:38:53.591Z"
+      },
+      "genre": "fantascienza",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:38:53.591Z",
+      "editor_updated_at": "2026-07-05T05:38:53.591Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "xw01Y6nXG-U",
@@ -350446,10 +350592,163 @@
     {
       "video_id": "uOxnmcHaKiA",
       "is_movie": true,
-      "original_title": "Morte in onda (Radio Silence) (2018) Film completo in Italiano| HD",
+      "original_title": "Radio Silence",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 609338,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/3wWj5J26fC44sACSterum5kwsCX.jpg",
+      "tmdb_title_official": "Radio Silence - Morte in onda",
+      "tmdb_year_official": 2019,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Radio Silence - Morte in onda",
+        "titolo_originale": "Radio Silence",
+        "anno_uscita": 2019,
+        "durata_minuti": 90,
+        "genere": [
+          "Thriller",
+          "televisione film"
+        ],
+        "regista": [
+          "Philippe Gagnon"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Georgina Haig",
+            "personaggio": "Jill Peterman",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tbPWwYbMsGharJtRh8nej6ROksE.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/127734",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "John Ralston",
+            "personaggio": "Stuart Wells",
+            "foto_url": "https://image.tmdb.org/t/p/w185/f89otIIkQaqeB1oEoN0l7XWp26n.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/33343",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Carrie-Lynn Neales",
+            "personaggio": "Lt. Briggs",
+            "foto_url": "https://image.tmdb.org/t/p/w185/k5M3o12AaqkWeuX1N45MQSzimQl.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1341564",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marc Senior",
+            "personaggio": "Dectective Fiore",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gQHF5QWA8ErteAbZHbsokIE98GA.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1475774",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sebastian Pigott",
+            "personaggio": "Brett Cundall",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dFdv24Qa9j3WhJDxchn6s8jeepj.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/224144",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Erica Deutschman",
+            "personaggio": "Claire Ashton",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dentb8VJpk00AzNqeS51Bs0GMMM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1519236",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Stefanie Nakamura",
+            "personaggio": "Li Chan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4dCF2hEW0BSLSxEkztqUoRPTcc3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1674740",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Allison Hossack",
+            "personaggio": "Daisy Reid",
+            "foto_url": "https://image.tmdb.org/t/p/w185/69n2QkEyPiZYvKQlHWmKHkCQy8T.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/119808",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jonathan Dubsky",
+            "personaggio": "Ron Taylor",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3RBpE24Q20dv1zGEAunqKJURqN1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/119707",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Krista Marchand",
+            "personaggio": "Isabelle",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tP5u1NY03zpdcFj3X5LpFwLzOCv.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1842614",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "La psicoterapeuta Jill Peterman (Georgina Haig) alla guida di un seguitissimo programma radiofonico nel quale dispensa consigli alle donne sulle loro relazioni sentimentali, lascia la conduzione dopo che un'ascoltatrice di nome Alexis si suicida durante la messa in onda. Un anno dopo, tornata in radio, Jill inizia a ricevere telefonate moleste da una donna che dice di essere Alexis.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/3wWj5J26fC44sACSterum5kwsCX.jpg",
+        "trailer": {
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt8712474/videogallery/content_type-trailer"
+        },
+        "tmdb_id_scelto": 609338,
+        "imdb_id_scelto": "tt8712474",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:42:18.454Z"
+      },
+      "genre": "thriller",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:42:18.454Z",
+      "editor_updated_at": "2026-07-05T05:42:18.454Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "RXvyhDhykkg",
@@ -350607,10 +350906,164 @@
     {
       "video_id": "r65gVrHUfwE",
       "is_movie": true,
-      "original_title": "Lacrime Nella Pioggia: L'Amore che Sfida il Destino - Film Completo in Italiano",
+      "original_title": "Tears in the Rain",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 77631,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/pEAsKBif5VwGOPcxjcHWmgunfiC.jpg",
+      "tmdb_title_official": "Amarsi sotto la pioggia",
+      "tmdb_year_official": 1988,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Amarsi sotto la pioggia",
+        "titolo_originale": "Tears in the Rain",
+        "anno_uscita": 1988,
+        "durata_minuti": 98,
+        "genere": [
+          "televisione film",
+          "Romance",
+          "Dramma"
+        ],
+        "regista": [
+          "Don Sharp"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Sharon Stone",
+            "personaggio": "Casey Cantrell",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5lYs0HaAvsXPZJpMcndbSeQdPgT.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4430",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Christopher Cazenove",
+            "personaggio": "Michael Bredon",
+            "foto_url": "https://image.tmdb.org/t/p/w185/udS3euC78c8maX5fb1LYZvJFU3W.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/67567",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Leigh Lawson",
+            "personaggio": "Hamdan al Dubai",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iI3csD4KZoA6nXx6K1c902YNxgK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/26257",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Paul Daneman",
+            "personaggio": "Lord Richard Bredon",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6EfIhOb5VUClPAdwPlS529OZP4t.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/153078",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Maurice Denham",
+            "personaggio": "Fordingbridge",
+            "foto_url": "https://image.tmdb.org/t/p/w185/emSAhipSEjxZfAeymqlWHLvC5rT.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/39952",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Anna Massey",
+            "personaggio": "Lady Emily",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5Y6F5QBwHOwK6OJh6S77Nh3pzeb.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/8227",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rachael Dowling",
+            "personaggio": "Young Emily",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/939841",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Harry Burton",
+            "personaggio": "Young Richard",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iI9NND0cpkYIZlSw5FCA56bbWK2.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/566261",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Colette Stevenson",
+            "personaggio": "Jesse Cantrell",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cw8MZts1nwxvq0xuijEuKTklApA.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/123304",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Stephanie Cole",
+            "personaggio": "Billie Cooper",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dlMR2jluEpWqXeEq6y2yoYFnMlL.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/204533",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "La madre di Casey Cantrell, prima di morire, esprime un ultimo desiderio: la figlia, dopo la sua morte, avrebbe dovuto consegnare una missiva a Lord Richard Bredon. Quando Casey arriva a Londra, Lord Bredon nega di aver mai conosciuto la donna. Ma il viaggio non è comunque vuoto: Casey incontra il figlio di Lord Bredon, Michael , e i due si innamorano. Quando Lord Bredon lo scopre, teme che Casey voglia ricattare la sua famiglia in qualche modo, e inizia ad indagare sul suo passato....",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/pEAsKBif5VwGOPcxjcHWmgunfiC.jpg",
+        "trailer": {
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt0096237/videogallery/content_type-trailer"
+        },
+        "tmdb_id_scelto": 77631,
+        "imdb_id_scelto": "tt0096237",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:41:13.477Z"
+      },
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:41:13.477Z",
+      "editor_updated_at": "2026-07-05T05:41:13.477Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "imzz1srOj5Q",
@@ -350770,18 +351223,324 @@
     {
       "video_id": "RCelvgOFvl8",
       "is_movie": true,
-      "original_title": "Mena Suvari in \"No Surrender\" (Fuga dal passato) | Film Thriller Completo in Italiano",
+      "original_title": "No Surrender",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 115376,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/7KlR8yc82kC7mPU4FLnVDyoTIxX.jpg",
+      "tmdb_title_official": "Fuga dal passato",
+      "tmdb_year_official": 2011,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Fuga dal passato",
+        "titolo_originale": "No Surrender",
+        "anno_uscita": 2011,
+        "durata_minuti": 90,
+        "genere": [
+          "Dramma",
+          "Thriller",
+          "televisione film"
+        ],
+        "regista": [
+          "Tristan DuBois"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Mena Suvari",
+            "personaggio": "Amelia Davis",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xjqKvy0bos02oSKNYzC4mxLbQ0W.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/8211",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Stephanie Bauder",
+            "personaggio": "Jenny Reardon",
+            "foto_url": "https://image.tmdb.org/t/p/w185/y7eXS6EzUJHg5WgUswk3MqiJY2.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/198745",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Serge Houde",
+            "personaggio": "Detective Hank Wilson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/40T7A9D9ts3tBP7aKjyJImY5tMZ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/41746",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Joseph Mesiano",
+            "personaggio": "Carlo Rossi",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3pcnENSkRYzgpjVi9KbIntEoCft.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/565619",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Maurizio Terrazzano",
+            "personaggio": "Darryl Devine",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7jDtZGPpavhKa4DtFsNmsDYHcT1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/125686",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Danette MacKay",
+            "personaggio": "Bernice Frankel",
+            "foto_url": "https://image.tmdb.org/t/p/w185/c87b60GzaBU94k3Ox0ojsXelu6.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/115591",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marc Trottier",
+            "personaggio": "Trevor",
+            "foto_url": "https://image.tmdb.org/t/p/w185/myGRYcdJ7Ix57x10bEOdh126OlC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/101253",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Glen Bowser",
+            "personaggio": "Collin Grosslight",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1638373",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Kate Drummond",
+            "personaggio": "Jody",
+            "foto_url": "https://image.tmdb.org/t/p/w185/p3yXIxHI2zvgn2MI9yXaAvoTBHN.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/984711",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Giovanni Cipolla",
+            "personaggio": "Parole Officer",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4041883",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Dopo aver vissuto in prima persona le conseguenze di una relazione con un uomo violento, Amelia inizia a scrivere un blog che diventata un punto di riferimento per tutte le donne vittime di violenza. Nel momento in cui sembra essersi rimessa in piedi e aver ritrovato la serenità, Amelia comincia a ricevere minacce da qualcuno che vorrebbe ucciderla.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/7KlR8yc82kC7mPU4FLnVDyoTIxX.jpg",
+        "trailer": {
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt1826780/videogallery/content_type-trailer"
+        },
+        "tmdb_id_scelto": 115376,
+        "imdb_id_scelto": "tt1826780",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:42:41.031Z"
+      },
+      "genre": "thriller",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:42:41.031Z",
+      "editor_updated_at": "2026-07-05T05:42:41.031Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "P0zgJjXtItU",
       "is_movie": true,
-      "original_title": "Ad ovest di Paperino con Francesco Nuti e Alessandro Benvenuti | Film Completo HD",
+      "original_title": "Ad ovest di Paperino",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 58190,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/hN2JB46DemQ8kSOqcK1aPIv5LcG.jpg",
+      "tmdb_title_official": "Ad ovest di Paperino",
+      "tmdb_year_official": 1982,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Ad ovest di Paperino",
+        "titolo_originale": "Ad ovest di Paperino",
+        "anno_uscita": 1982,
+        "durata_minuti": 102,
+        "genere": [
+          "Commedia"
+        ],
+        "regista": [
+          "Alessandro Benvenuti"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Athina Cenci",
+            "personaggio": "Marta",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ojLwsdLsIS1szIRJSsf5FcCoccC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/131958",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Alessandro Benvenuti",
+            "personaggio": "Sandro",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xnMlW2zJArNkIMBQWEN4pc1vptL.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/225394",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Francesco Nuti",
+            "personaggio": "Francesco",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kDzo1YfHRXYxftFLcZF5xnDCw4c.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/225255",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lucilla Baroni",
+            "personaggio": "Lucilla",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1608331",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Riccardo Cioni",
+            "personaggio": "Giornalaio",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1883070",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Donata Genazzani",
+            "personaggio": null,
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3634481",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Paolo Hendel",
+            "personaggio": "Veleno",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jh1ml10cGEvXc6CWsQVW8yjq9zr.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/120276",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Franco Javarone",
+            "personaggio": "Notturno",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9OMYuOHioHYiZUL2Dp3fs4jza95.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1073145",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Giovanni Nannini",
+            "personaggio": "Belvedere",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6EbuBVhIWREtg0w0b145FIbPAkW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1840014",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Novello Novelli",
+            "personaggio": "Padre di Francesco",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mvk6Hzi9rMdWD6GSpWgjHKeIeVD.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/225258",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "In una Firenze surreale, abitata da curiosi personaggi, un deejay radiofonico, una pittrice ed un disoccupato vivono giornate popolate da divertenti nonsense.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/hN2JB46DemQ8kSOqcK1aPIv5LcG.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=nGWBIja8AGs"
+        },
+        "tmdb_id_scelto": 58190,
+        "imdb_id_scelto": "tt0083519",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:41:32.835Z"
+      },
+      "genre": "commedia",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:41:32.835Z",
+      "editor_updated_at": "2026-07-05T05:41:32.835Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "3RizV1WYH_8",
@@ -351204,83 +351963,113 @@
     },
     {
       "video_id": "wqjFtaY4dTg",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Wild Card (Zoe Busiek) | Crime | Stagione 1 - Episodio 8 | Episodio Completo in Italiano",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:46:47.394Z"
     },
     {
       "video_id": "wNSi9O4TZ_k",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Wild Card (Zoe Busiek) | Crime | Stagione 1 - Episodio 10 | Episodio Completo in Italiano",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:46:47.395Z"
     },
     {
       "video_id": "rj0_93bCI48",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Wild Card (Zoe Busiek) | Crime | Stagione 1 - Episodio 11 | Episodio Completo in Italiano",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:46:47.395Z"
     },
     {
       "video_id": "kl21D2J7m1c",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Wild Card (Zoe Busiek) | Crime | Stagione 1 - Episodio 7 | Episodio Completo in Italiano",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:46:47.395Z"
     },
     {
       "video_id": "s26N0R-hX3I",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Wild Card (Zoe Busiek) | Crime | Stagione 1 - Episodio 16 | Episodio Completo in Italiano",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:46:47.396Z"
     },
     {
       "video_id": "gxctO6J7s28",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Wild Card (Zoe Busiek) | Crime | Stagione 1 - Episodio 18 | Episodio Completo in Italiano",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:46:47.396Z"
     },
     {
       "video_id": "XfDaqZRWV9I",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Wild Card (Zoe Busiek) | Crime | Stagione 1 - Episodio 13 | Episodio Completo in Italiano",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:46:47.397Z"
     },
     {
       "video_id": "LC7LvwOP4C8",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Wild Card (Zoe Busiek) | Crime | Stagione 1 - Episodio 17 | Episodio Completo in Italiano",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:46:47.393Z"
     },
     {
       "video_id": "7e41qd-zQJ4",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Wild Card (Zoe Busiek) | Crime | Stagione 1 - Episodio 9 | Episodio Completo in Italiano",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:46:47.393Z"
     },
     {
       "video_id": "-4LJ29P-bqw",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Wild Card (Zoe Busiek) | Crime | Stagione 1 - Episodio 12 | Episodio Completo in Italiano",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:46:47.394Z"
     },
     {
       "video_id": "h0LcQiHI4xY",
@@ -351381,10 +352170,97 @@
     {
       "video_id": "y7U6Sts3uvQ",
       "is_movie": true,
-      "original_title": "Ultimo giorno del toro con Michele Morrone Film Completo HD",
+      "original_title": "L'ultimo giorno del toro",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 820859,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/wE8joMxsIUeUnv5aCNb7ko1zD5I.jpg",
+      "tmdb_title_official": "L'ultimo giorno del toro",
+      "tmdb_year_official": 2018,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "L'ultimo giorno del toro",
+        "titolo_originale": "L'ultimo giorno del toro",
+        "anno_uscita": 2018,
+        "durata_minuti": 92,
+        "genere": [
+          "Commedia",
+          "Dramma"
+        ],
+        "regista": [
+          "Alessandro Zizzo"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Lidia Cocciolo",
+            "personaggio": "Gloria",
+            "foto_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE5_-VfL2COx9VPAohDM0G3sma7a_zlRaEVLNZZRvEu_7W_S2c3304YER13gzJaw71rTMVTjZhpq8SMBL5ks1i3huy_Tc0vSexH5o5BwU&s=10",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Michele Morrone",
+            "personaggio": "Valerio",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cOWSjiG2CI2PiCx69bCJiQVHyrD.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2349355",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Debora Muscoso",
+            "personaggio": "Clara",
+            "foto_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKep22GWXU7ta3zrShexpguLgw2EIJBhrz1AQIizcig3FheiQ8Alxb-31u&s=10",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Luigi Patti",
+            "personaggio": "Omar",
+            "foto_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8uAmXOZKs13vtWWpbO3fjDg3VeDUzFj9_egLpvm8E8WlVFAlXrmDlEG9JB_bECUnz_Xkb9tOnr2FcKdEiKPfHsnc-u3EPK3FAjjY3NHw&s=10",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Valerio è fondamentalmente un \"bravo ragazzo\", si rifugia nei suoi libri, nei suoi silenzi, nel \"non detto\" e in quelle poche parole dette a bassa voce. È timido e impacciato, è uno che vive la vita a testa bassa, mai a testa alta, un uomo da acquario, da ampolla, non certo un \"pesce di mare\". L'ultimo giorno del toro è una commedia sul male di vivere.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/wE8joMxsIUeUnv5aCNb7ko1zD5I.jpg",
+        "trailer": {
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt10851944/videogallery/content_type-trailer"
+        },
+        "tmdb_id_scelto": 820859,
+        "imdb_id_scelto": "tt10851944",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:46:27.559Z"
+      },
+      "genre": "commedia",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:46:27.559Z",
+      "editor_updated_at": "2026-07-05T05:46:27.559Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "kV7if2SW_Qg",
@@ -351521,11 +352397,14 @@
     },
     {
       "video_id": "tNl_SzoN0es",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Un gesto semplice | Storie di Rinascita | HD | Documentario | Film Completo in Italiano",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor web",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:40:54.791Z"
     },
     {
       "video_id": "-M6p48aOnlE",
@@ -351684,11 +352563,14 @@
     },
     {
       "video_id": "RKuvaJjb1YI",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Wild Card (Zoe Busiek) | Crime | Stagione 1 - Episodio 6 | Episodio Completo in Italiano",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:46:47.401Z"
     },
     {
       "video_id": "qIq2Xijm1wg",
@@ -352132,10 +353014,152 @@
     {
       "video_id": "eUZmha2HWfo",
       "is_movie": true,
-      "original_title": "A Deadly Surrogacy | Un Thriller Scioccante | HD | Film completo in Italiano",
+      "original_title": "The Baby Swindler",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 1039034,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/k02UcqfmkKW523YPbjAYQaARfDv.jpg",
+      "tmdb_title_official": "The Baby Swindler",
+      "tmdb_year_official": 2023,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "The Baby Swindler",
+        "titolo_originale": "The Baby Swindler",
+        "anno_uscita": 2023,
+        "durata_minuti": 90,
+        "genere": [
+          "televisione film",
+          "Thriller"
+        ],
+        "regista": [
+          "Chester Sit"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Rhonda Dent",
+            "personaggio": "Susie Ashcroft",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vreLRVCmttOfq7zA8k7wfWK7hx3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/95409",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Emily Tennant",
+            "personaggio": "Lorna Morgan / Madison Clarke",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7s4xgP16c3jIwKpWK8JGclo74Az.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/59181",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jason Cermak",
+            "personaggio": "Andrew",
+            "foto_url": "https://image.tmdb.org/t/p/w185/Am3whjOE2lmqK1cNT8uY3slgIG2.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/965413",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ashley Alexander",
+            "personaggio": "Grace",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kyhgNa7ngKRx1FBgbsmildKK1aC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1882561",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Melice Bell",
+            "personaggio": "Helen",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wZrX6lu76R1TorwxXIT4wlyGOGd.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2205031",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kynan Foster",
+            "personaggio": "Paul",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3052879",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Shawna Clarke",
+            "personaggio": "Dr. Shaw",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3RDY1b45YgJH5fGJq5lfewX5StQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2988270",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Trish Allen",
+            "personaggio": "Ann",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bBXk3CAf0iiss2dbLH9DuNkjLgZ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1475834",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Shenandoah McSporran",
+            "personaggio": "Waitress",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5478406",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Prima della morte del marito, Susie ha congelato un embrione. La madre surrogata Lorna accetta di portare in grembo il bambino per aiutare Susie. Il pericolo inizia a perseguitare Susie e quando Lorna scompare, farà tutto il possibile per salvare la vita del suo bambino non ancora nato.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/k02UcqfmkKW523YPbjAYQaARfDv.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=MUefBn8NcHE"
+        },
+        "tmdb_id_scelto": 1039034,
+        "imdb_id_scelto": "tt21421596",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:39:29.145Z"
+      },
+      "genre": "thriller",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:39:29.145Z",
+      "editor_updated_at": "2026-07-05T05:39:29.145Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "ohHSrOaKYKQ",
@@ -352294,43 +353318,175 @@
     },
     {
       "video_id": "zMEPtTAPebY",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Wild Card (Zoe Busiek) | Crime | Stagione 1 - Episodio 5 | Episodio Completo in Italiano",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:46:47.400Z"
     },
     {
       "video_id": "m9Jm5xm1nmk",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Wild Card (Zoe Busiek) | Crime | Stagione 1 - Episodio 4 | Episodio Completo in Italiano",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:46:47.400Z"
     },
     {
       "video_id": "q4Q1g9OGl-E",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Wild Card (Zoe Busiek) | Crime | Stagione 1 - Episodio 3 | Episodio Completo in Italiano",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:46:47.398Z"
     },
     {
       "video_id": "lq_pINpSA0A",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Wild Card (Zoe Busiek) | Crime | Stagione 1 - Episodio 2 | Episodio Completo in Italiano",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:46:47.397Z"
     },
     {
       "video_id": "xTTOYie-W4w",
       "is_movie": true,
-      "original_title": "L'Amore che Sfidò un'Epoca: Del perduto amore | HD | Film Drammatico in Italiano",
+      "original_title": "Del perduto amore",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 56375,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/nxqSOX3Ax2IfzlgjQmfaAJJBMVe.jpg",
+      "tmdb_title_official": "Del perduto amore",
+      "tmdb_year_official": 1998,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Del perduto amore",
+        "titolo_originale": "Del perduto amore",
+        "anno_uscita": 1998,
+        "durata_minuti": 99,
+        "genere": [
+          "Dramma"
+        ],
+        "regista": [
+          "Michele Placido"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Giovanna Mezzogiorno",
+            "personaggio": "Liliana",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uR2MenLF5uupH5E2hCmlBNKgleh.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/105685",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Fabrizio Bentivoglio",
+            "personaggio": "Antonio",
+            "foto_url": "https://image.tmdb.org/t/p/w185/euq5Tt0lDF0kLlAtgSyuiO7OShR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/121732",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rocco Papaleo",
+            "personaggio": "Cucchiaro",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6JjYDmBgn5T0Uw87l1zAwTr5o88.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/120135",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Enrico Lo Verso",
+            "personaggio": "Dott. Satriano",
+            "foto_url": "https://image.tmdb.org/t/p/w185/riYINKQIv8mxYwtfj0L899K0iPu.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/27392",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Michele Placido",
+            "personaggio": "Don Gerardo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vXDSKdLcTcXFebUEgR61djSzXBQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/25819",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sergio Rubini",
+            "personaggio": "Italo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gck410u7xOJWI0SjArY6vJb3cGw.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/15915",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rino Cassano",
+            "personaggio": "Don Gaetano",
+            "foto_url": "https://image.tmdb.org/t/p/w185/698R4JX9ykxwWV4hDyFtvDiM3fb.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1165934",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Basilicata, anni Cinquanta. Una giovane maestra vicina al comunismo si impegna per l'emancipazione femminile e per la diffusione dell'istruzione nelle zone rurali, entrando in conflitto anche con i compagni di partito.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/nxqSOX3Ax2IfzlgjQmfaAJJBMVe.jpg",
+        "trailer": {
+          "url": "https://www.imdb.com/title/tt0140332/videogallery/content_type-trailer",
+          "lingua": "altra",
+          "fonte": "IMDb",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb"
+        },
+        "tmdb_id_scelto": 56375,
+        "imdb_id_scelto": "tt0140332",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:40:40.614Z"
+      },
+      "genre": "drammatico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:40:40.614Z",
+      "editor_updated_at": "2026-07-05T05:40:40.614Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "mGvYXlHSDO0",
@@ -352644,10 +353800,141 @@
     {
       "video_id": "D2jwv3F69Rc",
       "is_movie": true,
-      "original_title": "Lillo & Greg The Movie   Film Completo by Film&Clips Commedia",
+      "original_title": "Lillo e Greg - The Movie!",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 270256,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/ohH59SUacUL79a3uCMIYibF9lBk.jpg",
+      "tmdb_title_official": "Lillo e Greg - The Movie!",
+      "tmdb_year_official": 2007,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Lillo e Greg - The Movie!",
+        "titolo_originale": "Lillo e Greg - The Movie!",
+        "anno_uscita": 2007,
+        "durata_minuti": 71,
+        "genere": [
+          "Commedia"
+        ],
+        "regista": [
+          "Luca Rea"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Lillo",
+            "personaggio": "Lillo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8PbWSjZ1pv6iA1j6JVgSsPOu2ED.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/229572",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Greg",
+            "personaggio": "Greg",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kCLSbw5JYpLlQ3YazZrBfXdur08.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1059861",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Virginia Raffaele",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/fmw1uOhnNRiyWSUo4dtW1CEiIjm.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/937579",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Chiara Francini",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/jd3vRXj3w8EdNdaNzVLjxsZr4XZ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/223621",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Chiara Sani",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/A22zGI2V8k0FhSSX92EZLAX1Ww0.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/567992",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Elena Bouryka",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/pOxi37H5Bx2v4gDDT9ENawwQFjO.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/129441",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Andrea Lo Cicero",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/jwl7w590HQopstgOOgB5C3I0Ngy.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1320534",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sabrina Nobile",
+            "personaggio": null,
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1320535",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "l film non è altro che un'antologia degli sketch più popolari della famosa coppia comica.  Vi posso disturbare un minuto? - Una \"pacifica\" signorina delle pulizie porge a Lillo e Greg questa domanda un po' ambigua.  Adieu - Un uomo guarda nostalgico il cielo di Parigi e...  Mentire a se stesse - Due prostitute, che si incontrano in un parcheggio, si riconoscono immediatamente: erano compagne di classe al liceo. Si chiedono a vicenda il perché si trovino in un posto come un parcheggio e non fanno altro che inventarsi scuse che non reggono e che vengono irrimediabilmente sfasciate quando una macchina arriva e l'autista chiede la tariffa. Tuttavia anche dopo continueranno le bugie.  L'amico avvelenato - Un uomo invita a casa sua un vecchio amico e, con aria cupa, comincia a raccontargli della moglie e di come abbia scoperto il suo tradimento e il suo amante e di come l'abbia avvelenato. L'amico è molto turbato e in un crescendo di terrore comincia a capire…",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/ohH59SUacUL79a3uCMIYibF9lBk.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=CYWinb6iX8E",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube"
+        },
+        "tmdb_id_scelto": 270256,
+        "imdb_id_scelto": "tt1123948",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:38:08.542Z"
+      },
+      "genre": "commedia",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:38:08.542Z",
+      "editor_updated_at": "2026-07-05T05:38:08.542Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "TCVtFsXoz9A",
@@ -352805,10 +354092,163 @@
     {
       "video_id": "l8Bftc1O7K0",
       "is_movie": true,
-      "original_title": "Toy Boy   Un Ragazzo In Vendita   Con Ashton Kutcher   Film Completo  In Italiano",
+      "original_title": "Spread",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 19918,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/fjjEfrvCDSVZcUUFKvaZXoypNsO.jpg",
+      "tmdb_title_official": "Toy Boy - Un ragazzo in vendita",
+      "tmdb_year_official": 2009,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Toy Boy - Un ragazzo in vendita",
+        "titolo_originale": "Spread",
+        "anno_uscita": 2009,
+        "durata_minuti": 97,
+        "genere": [
+          "Commedia",
+          "Romance"
+        ],
+        "regista": [
+          "David Mackenzie"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Ashton Kutcher",
+            "personaggio": "Nikki",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qJlM29jTncF9GpmE0PPVwbp5iPB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/18976",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Anne Heche",
+            "personaggio": "Samantha",
+            "foto_url": "https://image.tmdb.org/t/p/w185/65LVuA01bmKCmr8yqY2Ae3IgeC4.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/8256",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Margarita Levieva",
+            "personaggio": "Heather",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7rSf7C5oKuvjgEBfe2GVv064Le.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/59237",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sebastian Stan",
+            "personaggio": "Harry",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nKZgixTbHFXpkzzIpMFdLX98GYh.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/60898",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ashley Johnson",
+            "personaggio": "Eva",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8s36QwB7Zq3PrbY1W6a6ctTFFoe.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/34486",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sonia Rockwell",
+            "personaggio": "Christina",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4y1kaIqaCOlotjwgHV06zHPRIIm.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/964614",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rachel Blanchard",
+            "personaggio": "Emily",
+            "foto_url": "https://image.tmdb.org/t/p/w185/l8vUgOu1xVE1BKVCyrBf4M5PCBG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/52478",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Shane Brolly",
+            "personaggio": "Prince Stelio",
+            "foto_url": "https://image.tmdb.org/t/p/w185/Arw4qi3nvBhp34hSaMFFk0xIUnf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3969",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Eric Balfour",
+            "personaggio": "Sean",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tqlyRVgkNYIePcunx4johOOxY8h.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/34489",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "María Conchita Alonso",
+            "personaggio": "Ingrid",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zcDN921xNK0AznoA0TEbdbsPSn3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2051",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Nikki è un gigolò che mette in atto precise strategie per attrarre a sé donne più o meno giovani per puro piacere oppure per farsi mantenere. Perché Nikki è arrivato a Los Angeles con l'intenzione di sfruttare la propria avvenenza senza doversi cercare un lavoro. Quando facciamo la sua conoscenza lo vediamo sedurre Samantha, una piacente avvocato quarantenne dotata di supervilla in cui lui si installa e che utilizza per incontri con altre quando la sua ospite è assente. Il rapporto con Samantha si complica ulteriormente quando Nikki incontra una barista, Heather. Ne rimane affascinato ma lei lo tratta nello stesso modo in cui lui ha finora trattato l'altro sesso.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/fjjEfrvCDSVZcUUFKvaZXoypNsO.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=rUPR7rxVKQk"
+        },
+        "tmdb_id_scelto": 19918,
+        "imdb_id_scelto": "tt1186370",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:37:26.290Z"
+      },
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:37:26.290Z",
+      "editor_updated_at": "2026-07-05T05:37:26.290Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "9blJum-QpDk",
@@ -353099,10 +354539,162 @@
     {
       "video_id": "JbpTPZUqZi8",
       "is_movie": true,
-      "original_title": "FILM COMPLETO HD  Aragosta a Colazione | La Commedia degli Equivoci con Enrico Montesano",
+      "original_title": "Aragosta a colazione",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 127609,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/as26JdSFcTjryuZrs2cEd1jYGzj.jpg",
+      "tmdb_title_official": "Aragosta a colazione",
+      "tmdb_year_official": 1979,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Aragosta a colazione",
+        "titolo_originale": "Aragosta a colazione",
+        "anno_uscita": 1979,
+        "durata_minuti": 92,
+        "genere": [
+          "Commedia"
+        ],
+        "regista": [
+          "Giorgio Capitani"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Enrico Montesano",
+            "personaggio": "Enrico Tucci",
+            "foto_url": "https://image.tmdb.org/t/p/w185/myepIiCMGEwjhvZ3akFgVRogBP7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/21237",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Claude Brasseur",
+            "personaggio": "Mario Spinosi",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oegptKdlPbpiDNL89jWUBh8jkDT.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1958",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Janet Agren",
+            "personaggio": "Monique Dubois",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qqT3oaHPE9hu40TY5s3wL2xycaC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/55654",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Claudine Auger",
+            "personaggio": "Carla Rebaudengo Spinosi",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1KAAUhgfVxdI5g2t0YFCG9ITrvi.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/9919",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Silvia Dionisio",
+            "personaggio": "Matilde Tucci",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2bSMhK6ZhLgBBuey5fI2aVGwaDJ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/99535",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Adriana Innocenti",
+            "personaggio": "sig.ra Duchamp",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dcPlNQK8cF71DU9To1UMLmtfYGR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/933328",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Franca Scagnetti",
+            "personaggio": "vicina di casa Tucci",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xoCZ0leZ3jkahjjGehMus307nNP.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/120114",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Cesare Gelli",
+            "personaggio": "sig. Franzi",
+            "foto_url": "https://image.tmdb.org/t/p/w185/h4oM8XB4taz8UqLDNtxE8tTfL9T.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1223409",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Geoffrey Copleston",
+            "personaggio": "sig. Duchamp",
+            "foto_url": "https://image.tmdb.org/t/p/w185/aovs3e7AKfbb3QkvYhW2z5dGYzS.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/100427",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Renato Mori",
+            "personaggio": "rag. Trocchia",
+            "foto_url": "https://image.tmdb.org/t/p/w185/za4o8xWBLxvqL9FsyvMJ8KzRHqq.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1185988",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Enrico è riuscito a collezionare venti lavori diversi in due anni. A soldi non sta molto bene; per fortuna la moglie Matilde fa la cameriera e si arrangia con altri lavoretti per tirare avanti. Ridotto alla disperazione, dopo essere stato licenziato per l'ennesima volta, si rivolge a un vecchio compagno di scuola, Mario Spinosi, per avere aiuto. Mario ha sposato Carla che è molto ricca ed ha in mano i cordoni della borsa. Enrico arriva a casa Spinosi e riceve una grossa ordinazione: in cambio però deve impersonare il marito di Monique, aspirante amante di Mario, visto che Carla, moglie di Mario è tornata a casa prima del previsto. La cena a cui deve partecipare è organizzata, guarda caso, dal ristorante dove lavora sua moglie Matilde...",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/as26JdSFcTjryuZrs2cEd1jYGzj.jpg",
+        "trailer": {
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt0083574/videogallery/content_type-trailer"
+        },
+        "tmdb_id_scelto": 127609,
+        "imdb_id_scelto": "tt0083574",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:38:28.690Z"
+      },
+      "genre": "commedia",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:38:28.690Z",
+      "editor_updated_at": "2026-07-05T05:38:28.690Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "D0ElNMJfQSU",
@@ -353278,10 +354870,165 @@
     {
       "video_id": "hyQKoDP7Q3Y",
       "is_movie": true,
-      "original_title": "Ti presento Bill   Film Completo Aaron Eckhart, Jessica Alba  HD in italiano",
+      "original_title": "Meet Bill",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 13243,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/rjkehRE59NE6ULwh47b5Fm1I0Nm.jpg",
+      "tmdb_title_official": "Ti Presento Bill",
+      "tmdb_year_official": 2007,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Ti Presento Bill",
+        "titolo_originale": "Meet Bill",
+        "anno_uscita": 2007,
+        "durata_minuti": 97,
+        "genere": [
+          "Commedia",
+          "Dramma",
+          "Romance"
+        ],
+        "regista": [
+          "Bernie Goldmann",
+          "Melisa Wallack"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Aaron Eckhart",
+            "personaggio": "Bill",
+            "foto_url": "https://image.tmdb.org/t/p/w185/u5JjnRMr9zKEVvOP7k3F6gdcwT6.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/6383",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jessica Alba",
+            "personaggio": "Lucy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dbI9AicApGDRtSbNtcEiK4adN6w.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/56731",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Elizabeth Banks",
+            "personaggio": "Jess",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zrkI1dYucpTM8Qydtrtro9MgQPb.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/9281",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Logan Lerman",
+            "personaggio": "The Kid",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ckcpgSvSWOhi8mvAfR1Cpsakg3S.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/33235",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kristen Wiig",
+            "personaggio": "Jane Whittman",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6U6UGztBwk7c4lg8n5BS5QOByot.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/41091",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Timothy Olyphant",
+            "personaggio": "Chip Johnson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7pHmRHE2wBNC9cBgNIRCBqFLoyZ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/18082",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Holmes Osborne",
+            "personaggio": "Mr. Jacoby",
+            "foto_url": "https://image.tmdb.org/t/p/w185/q2wZqaQO9ozSNQgl1fveC9qHZDe.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1578",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Reed Diamond",
+            "personaggio": "Paul",
+            "foto_url": "https://image.tmdb.org/t/p/w185/z3ESNaXSeHiGmmhm49Og9FeXwG8.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/31508",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jason Sudeikis",
+            "personaggio": "Jim Whittman",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uuacnP9DOHMsmj8FhBi0cWWDgrn.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/58224",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Todd Louiso",
+            "personaggio": "John Jr.",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dkvuAxxXoCqGQrPNYHlELxL75q2.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3230",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Bill non è felice: sposato con la figlia di un banchiere, svolge un lavoro alienante alle dipendenze del suocero. Dopo aver scoperto che sua moglie Jess lo tradisce con un presentatore televisivo, cambia vita e tenta di ritrovare se stesso grazie all'incontro con un turbolento adolescente, del quale diventerà involontario mentore. L'amicizia con il giovane studente e con una sua compagna aiuterà Bill a superare le difficoltà e a cercare di riconquistare l'amore di Jess.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/rjkehRE59NE6ULwh47b5Fm1I0Nm.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=FK159S6cz8Y"
+        },
+        "tmdb_id_scelto": 13243,
+        "imdb_id_scelto": "tt0790623",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:40:15.730Z"
+      },
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:40:15.730Z",
+      "editor_updated_at": "2026-07-05T05:40:15.730Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "hFZug7B5v_g",
@@ -353439,26 +355186,236 @@
     {
       "video_id": "z1kThG31Ctw",
       "is_movie": true,
-      "original_title": "Quando le donne si chiamavano madonne con Edwige Fenech | Film HD Decamerotico ITA",
+      "original_title": "Quando le donne si chiamavano 'Madonne'",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 154910,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/aGaRBrV180pxwURAC0Xm7jyEbWc.jpg",
+      "tmdb_title_official": "Quando le donne si chiamavano Madonne",
+      "tmdb_year_official": 1972,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Quando le donne si chiamavano Madonne",
+        "titolo_originale": "Quando le donne si chiamavano 'Madonne'",
+        "anno_uscita": 1972,
+        "durata_minuti": 92,
+        "genere": [
+          "Commedia"
+        ],
+        "regista": [
+          "Aldo Grimaldi"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Edwige Fenech",
+            "personaggio": "Giulia",
+            "foto_url": "https://image.tmdb.org/t/p/w185/79v8gsqCnqJPpI5RRmMMQP9iXV3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/44434",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Vittorio Caprioli",
+            "personaggio": "Ser Cecco",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kOVp7h81NPeDmWM1nhXtFpRd5P.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/11223",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Stefania Careddu",
+            "personaggio": "Francesca",
+            "foto_url": "https://image.tmdb.org/t/p/w185/koZq6Qv805Zjzc3BiuJKhGH1vE8.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/88686",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jürgen Drews",
+            "personaggio": "Ruberto",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fZup0sBr2sB9rU3n6TdgeRF7HRD.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/587452",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Paolo Turco",
+            "personaggio": "Tazio",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oT40XE7kRBy745KHUfF2a4L0f5b.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/143598",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Antonia Brancati",
+            "personaggio": "Lucia",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dJafji49O2OgJr7e61mHjIl1gQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1648826",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Carlo De Mejo",
+            "personaggio": "Gisippo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vRX1CzMF9pGn5cHYxsAbpPGJEUi.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/101331",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mario Carotenuto",
+            "personaggio": "Quinto Fulvo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xr7zoHY4fnmvn3ZwUoybvbSpdRG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/120637",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Francesca Benedetti",
+            "personaggio": "Gisa",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tIdtVswVJuzQoVELcBkXt1dWQxv.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1417629",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Peter Berling",
+            "personaggio": "Romildo Varrone",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oAlkmJ99mC8KfARMiaSDm4kn9nj.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/18405",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Durante il Medioevo, i giovani Gisippo, Ruberto e Tazio si recano a Prato per assistere al processo di Giulia, rea di aver tradito il marito Romildo (pigro e impotente durante l'atto sessuale) e per cui nei confronti della donna è prevista la condanna al rogo. Giulia però, bella e convincente, colpisce l'animo del giudice ed ottiene il permesso di riprovare a fare l'amore ancora una volta prima della condanna.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/aGaRBrV180pxwURAC0Xm7jyEbWc.jpg",
+        "trailer": {
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt0069081/videogallery/content_type-trailer"
+        },
+        "tmdb_id_scelto": 154910,
+        "imdb_id_scelto": "tt0069081",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:39:53.714Z"
+      },
+      "genre": "commedia",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:39:53.714Z",
+      "editor_updated_at": "2026-07-05T05:39:53.714Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "iDHJaPcw3GM",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Wild Card (Zoe Busiek) | Crime | Stagione 1 - Episodio 1 | Episodio Completo in Italiano",
       "channel": "TVItalia",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor (selezione)",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:46:47.393Z"
     },
     {
       "video_id": "L6CBBVZaCHQ",
       "is_movie": true,
-      "original_title": "San Gabriele: Il Santo dei Giovani - Film Completo HD | La Storia di Francesco Possenti",
+      "original_title": "Gabriel",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 549614,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/dlw7fsHJLMbTAbt5RdLmqk02H2F.jpg",
+      "tmdb_title_official": "Gabriel",
+      "tmdb_year_official": 2001,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Gabriel",
+        "titolo_originale": "Gabriel",
+        "anno_uscita": 2001,
+        "durata_minuti": 95,
+        "genere": [],
+        "regista": [
+          "Maurizio Angeloni"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Mario Scaccia",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/m4cIaBD9kocaiYVx1lR5PoP8b6r.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/240891",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lorenzo Gleijeses",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/pBqZTLJ7UXMy0TOKnuPSRxCEIng.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2132130",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "San Gabriele dell’Addolorata, al secolo Francesco Possenti (Assisi, 1º marzo 1838 – Isola del Gran Sasso d'Italia, 27 febbraio 1862), undicesimo di una famiglia di tredici figli di un prefetto dello Stato Pontificio, era un giovane generoso ed estroverso che sentì a 18 anni la vocazione religiosa. Scelse la Congregazione della Passione di Gesù Cristo che rifletteva la sua devozione, radicata in lui fin dall'infanzia per la Madonna Addolorata.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/dlw7fsHJLMbTAbt5RdLmqk02H2F.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 549614,
+        "imdb_id_scelto": "tt0345297",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:44:26.293Z"
+      },
+      "genre": "documentario",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:44:26.293Z",
+      "editor_updated_at": "2026-07-05T05:44:26.293Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "ZVMzyiZgROA",
