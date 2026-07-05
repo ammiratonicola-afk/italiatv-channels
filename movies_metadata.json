@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T05:39:43",
+  "generated_at": "2026-07-05T05:43:19",
   "total_videos": 716,
   "classified": 716,
   "movies": [
@@ -360915,7 +360915,17 @@
           "motivo_verifica": ""
         },
         "tmdb_id_scelto": 954018
-      }
+      },
+      "related_video_ids": [
+        "hMs8jSDL2ho",
+        "AYzc4u5tCAg"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "primary_with_reserves",
+      "duplicate_reserve_note": "Doppione gestito automaticamente da catalog_new_uploads.py: la versione migliore resta visibile, le altre sono fallback automatici."
     },
     {
       "video_id": "gA8YXSHaKQs",
@@ -361815,6 +361825,1641 @@
       "video_id": "QPC0MoR_GE0",
       "is_movie": true,
       "original_title": "Ringo Starr è il bandito Candy: Blindman : Film Completo in Italiano",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "c54T-v_Oziw",
+      "is_movie": true,
+      "original_title": "L'assassino ha le mani pulite (1968) | Intrigo Familiare (Film Completo in Italiano)",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "BqXDYnf_6NI",
+      "is_movie": true,
+      "original_title": "No Surrender (2010) | Fuga dal passato (Film Completo ITA) 4K - Thriller d'azione",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": 390613,
+      "tmdb_title_official": "TNA No Surrender 2010",
+      "tmdb_year_official": 2010,
+      "tmdb_poster_path": "/813Ui1Ni6qznLkFVejx099ei1d9.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_youtube_originale": "No Surrender (2010) | Fuga dal passato (Film Completo ITA) 4K - Thriller d'azione",
+        "youtube_url": "https://www.youtube.com/watch?v=BqXDYnf_6NI",
+        "titolo_italiano": "TNA No Surrender 2010",
+        "titolo_originale": "TNA No Surrender 2010",
+        "anno_uscita": 2010,
+        "durata_minuti": 170,
+        "genere": [],
+        "regista": [],
+        "cast_principale": [
+          {
+            "nome": "Ken Anderson",
+            "personaggio": "Mr. Anderson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/f8zWCZc48ztGVp8IW5hQkBdO6cg.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/543636",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Elijah Burke",
+            "personaggio": "D'Angelo Dinero",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wUW8rD3LGOjHMPaa0kGYaSYICSG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1202527",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kurt Angle",
+            "personaggio": "Kurt Angle",
+            "foto_url": "https://image.tmdb.org/t/p/w185/afI7I7NZCuzAORc4q4G8o2yoGyc.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/90031",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jeff Hardy",
+            "personaggio": "Jeff Hardy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mFSssvHwHbs6b5G8F6so8MAkDaz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/90027",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Allen Jones",
+            "personaggio": "AJ Styles",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uTt4HdkBGP02WfCRHwsYcsbTPBP.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1081432",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tom Laughlin",
+            "personaggio": "Tommy Dreamer",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lNXvXZ7Wh4ys3mLPqbgxb1nINhs.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1056699",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Steve Borden",
+            "personaggio": "Sting",
+            "foto_url": "https://image.tmdb.org/t/p/w185/67mv4hYzKPpxp3ycGc4KM3KsrVY.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1108859",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kevin Nash",
+            "personaggio": "Kevin Nash",
+            "foto_url": "https://image.tmdb.org/t/p/w185/voSs3NTtgBHZRO4yCqQxwMhEngc.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/135352",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jeffrey Jarrett",
+            "personaggio": "Jeff Jarrett",
+            "foto_url": "https://image.tmdb.org/t/p/w185/sbepieYzkAqlwQF65Bh9mks2Lc2.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1076694",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nuufolau Joel Seanoa",
+            "personaggio": "Samoa Joe",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4Bc1T8VET7KqgyKvjmOxtz2XBLa.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1081435",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "No Surrender (2010) was a professional wrestling pay-per-view event produced by Total Nonstop Action Wrestling (TNA), which took place on September 5, 2010 at the Impact Zone in Orlando, Florida.[3] It was the sixth event under the No Surrender chronology and the ninth event of the 2010 TNA pay-per-view schedule.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/813Ui1Ni6qznLkFVejx099ei1d9.jpg",
+        "trailer": {
+          "url": null,
+          "lingua": null,
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": false,
+          "motivo_verifica": ""
+        },
+        "tmdb_id_scelto": 390613
+      }
+    },
+    {
+      "video_id": "VyJBMhcEzuc",
+      "is_movie": true,
+      "original_title": "Film Western 1971: Quel maledetto giorno della resa dei conti Completo | Guardalo in HD",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "yMiDdgZMqPQ",
+      "is_movie": true,
+      "original_title": "Una trappola mortale: Moving Too Fast (Lost in Plainview) 2005",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "-AZWcebrCIo",
+      "is_movie": true,
+      "original_title": "Cancellate Washington - Film Completo by Film&Clips Azione",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": 469091,
+      "tmdb_title_official": "Cancellate Washington!",
+      "tmdb_year_official": 1990,
+      "tmdb_poster_path": "/5qjxnIaverrJOfoCWr0PQWReQA5.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_youtube_originale": "Cancellate Washington - Film Completo by Film&Clips Azione",
+        "youtube_url": "https://www.youtube.com/watch?v=-AZWcebrCIo",
+        "titolo_italiano": "Cancellate Washington!",
+        "titolo_originale": "Tides of War",
+        "anno_uscita": 1990,
+        "durata_minuti": 91,
+        "genere": [
+          "Dramma"
+        ],
+        "regista": [
+          "Nello Rossati"
+        ],
+        "cast_principale": [
+          {
+            "nome": "David Soul",
+            "personaggio": "Martin Henkle",
+            "foto_url": "https://image.tmdb.org/t/p/w185/y7fW77RzeqgBYeoTswsMfwy8FwI.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/15956",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Yvette Heyden",
+            "personaggio": "Nurse",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/141047",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Ernest Borgnine",
+            "personaggio": "Doctor",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vlq94UdNfjLnd9DAkKC94vKLfJJ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/7502",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Bo Svenson",
+            "personaggio": "SS Colonel Otto Haber",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oHsKZHGTr3qHPhfZ3zrM5LsMMOz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/30044",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rodrigo Obregón",
+            "personaggio": "Priest",
+            "foto_url": "https://image.tmdb.org/t/p/w185/p3v0TwdaxmWvbMzC5gbteBctm82.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/128672",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Steven Luotto",
+            "personaggio": null,
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1289428",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Berta Fernández Cormenzana",
+            "personaggio": null,
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1862316",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Nazis aim a secret weapon at the USA during WW2. The only people who can stop it must race against time and overwhelming odds.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/5qjxnIaverrJOfoCWr0PQWReQA5.jpg",
+        "trailer": {
+          "url": null,
+          "lingua": null,
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": false,
+          "motivo_verifica": ""
+        },
+        "tmdb_id_scelto": 469091
+      }
+    },
+    {
+      "video_id": "1CWJtyOeBcw",
+      "is_movie": true,
+      "original_title": "Film Azione/Thriller: General Commander (2019) | Con Steven Seagal",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "h0WaJ0rnZwo",
+      "is_movie": true,
+      "original_title": "Undisputed 2 Last Man Standing Film Completo in Italiano HD",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "Mu9AYNXzBFc",
+      "is_movie": true,
+      "original_title": "Pretty Little Victim | Thriller in 4K - Quando la Preda diventa Cacciatrice",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "KlMZ15Klw8M",
+      "is_movie": true,
+      "original_title": "Ossessione pericolosa 4K  (A Lethal Lesson) 2021 | Un'insegnante sotto accusa",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "9uWBJCKaPwU",
+      "is_movie": true,
+      "original_title": "Tony Anthony è lo Straniero: Un uomo, un cavallo, una pistola (1967)",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "aewNVTk5eaA",
+      "is_movie": true,
+      "original_title": "Film Western Completo: Joko invoca Dio... e muori | Un proiettile per ogni traditore HD",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "f5uagf_vFaI",
+      "is_movie": true,
+      "original_title": "Prisoners of the Ghostland   HD   Azione   Film Completo in Italiano",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "AYzc4u5tCAg",
+      "is_movie": false,
+      "original_title": "Segreti Mortali: Lies We Tell | Film Completo ITA",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": 954018,
+      "tmdb_title_official": "Segreti mortali",
+      "tmdb_year_official": 2022,
+      "tmdb_poster_path": "/h2G2M9oMsm4wsXkqXSUcGMlGTcz.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_youtube_originale": "Segreti Mortali: Lies We Tell | Film Completo ITA",
+        "youtube_url": "https://www.youtube.com/watch?v=AYzc4u5tCAg",
+        "titolo_italiano": "Segreti mortali",
+        "titolo_originale": "Deadly Secrets",
+        "anno_uscita": 2022,
+        "durata_minuti": 85,
+        "genere": [
+          "televisione film",
+          "Thriller",
+          "Crime",
+          "Dramma"
+        ],
+        "regista": [
+          "Jessica Harmon"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Kate Drummond",
+            "personaggio": "Frida",
+            "foto_url": "https://image.tmdb.org/t/p/w185/p3yXIxHI2zvgn2MI9yXaAvoTBHN.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/984711",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sean Owen Roberts",
+            "personaggio": "Butcher",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ykpWkvdUJZ7kkhpsrBuzEQUohIG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/110476",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lizzie Boys",
+            "personaggio": "Jade",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2Ojr4CBvvNykuZyeXPjiHDIDhaV.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1546997",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kate Twa",
+            "personaggio": "Louise",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nvlaUCNvak2pV3XylF3zxzbajny.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1235372",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tyson Arner",
+            "personaggio": "Rick",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tGZr7BFsRlHBSoL46f362hqpwlW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1790329",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Derek Scott",
+            "personaggio": "Restaurant Owner",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rzL5XWyzHElYrvX4NjD4I1jdviT.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1813455",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Haylee Turner",
+            "personaggio": "Mason",
+            "foto_url": "https://image.tmdb.org/t/p/w185/viPfuSrcVryfBuMQlRmblciO7Mn.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4078301",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Roark Critchlow",
+            "personaggio": "Classy House Owner",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8BbDBMItIx5OFD1YVmQeSALWQqq.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/92612",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nikki-Lee Kriszta",
+            "personaggio": "Nurse",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nxJlgdLKeXvUkeySWsHs85l29cv.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4078304",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kelaya Allison-Squakin",
+            "personaggio": "Tian",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4078199",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Quando scopre che la madre si trova in gravi difficoltà finanziare, Jade accetta l'offerta del suo ragazzo di partecipare a rapine di alto livello. In questo modo potrà mettere da parte i soldi necessari a saldare i debiti della madre.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/h2G2M9oMsm4wsXkqXSUcGMlGTcz.jpg",
+        "trailer": {
+          "url": null,
+          "lingua": null,
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": false,
+          "motivo_verifica": ""
+        },
+        "tmdb_id_scelto": 954018
+      },
+      "related_video_ids": [
+        "hMs8jSDL2ho",
+        "AYzc4u5tCAg"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "reserve_link",
+      "reason_not_movie": "doppione riserva di Segreti mortali: nascosto dalla lista principale, resta fallback automatico come Riserva 1"
+    },
+    {
+      "video_id": "VfB_Y0ylo6Q",
+      "is_movie": true,
+      "original_title": "Furious - Gli Ultimi Guerrieri (2017) | Film Storico d'Azione",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": 415381,
+      "tmdb_title_official": "Furious",
+      "tmdb_year_official": 2017,
+      "tmdb_poster_path": "/mcWdKnd8ghsGIpjEaxDekdno1Cr.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_youtube_originale": "Furious - Gli Ultimi Guerrieri (2017) | Film Storico d'Azione",
+        "youtube_url": "https://www.youtube.com/watch?v=VfB_Y0ylo6Q",
+        "titolo_italiano": "Furious",
+        "titolo_originale": "Легенда о Коловрате",
+        "anno_uscita": 2017,
+        "durata_minuti": 107,
+        "genere": [
+          "Fantasy",
+          "Azione",
+          "Avventura"
+        ],
+        "regista": [
+          "Ivan Shurkhovetskiy",
+          "Джаник Файзиев"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Илья Малаков",
+            "personaggio": "Evpatii Kolovrat",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4hEENKKK5B7yjCoM6FVmqEwRQgD.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1677546",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Александр Цой",
+            "personaggio": "Khan Batiy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/atTMCSrT1sOcEf7BrCteRzNcc0U.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1677545",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Андрей Бурковский",
+            "personaggio": "Rostislav",
+            "foto_url": "https://image.tmdb.org/t/p/w185/o4O9tC7mSPYZFL5TiSWaiHMs2oj.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1594434",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Александр Ильин мл.",
+            "personaggio": "Karkun",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ljBP6ockm60lkplGBCvGxDWYnpq.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/126861",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Алексей Серебряков",
+            "personaggio": "Knyaz Yutiy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ch67oszo5D7lK64xnDp9JFcmGLp.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/113332",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Тимофей Трибунцев",
+            "personaggio": "Zakhar",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ltsMXQPlt8VuS1f72URYMKThZW8.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1034699",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Виктор Проскурин",
+            "personaggio": "Svyasschennik",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nKKXOJjWfcue29pzYcZfUjCGLnR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/240781",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Александр Ильин",
+            "personaggio": "Knyaz Svyatoslav",
+            "foto_url": "https://image.tmdb.org/t/p/w185/12Bje7DdeFxMADJHogg1GK1950B.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/579743",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Валерия Шкирандо",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/tG80xbEMQdf6y1ECD0mUL6fm1MS.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1523621",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Марта Кесслер",
+            "personaggio": "Zhdana",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xwAeS3aE3RfqbGP2bZuj0a601sv.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1677547",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Una storia di una battaglia leggendaria, dove diciassette guerrieri senza paura difendeno la loro terra contro un esercito di migliaia soldati ben addestrati. Nel 13 ° secolo orde mongole di guerrieri e il loro leader, Batu Khan, controllano la maggior parte del mondo conosciuto. Fino a che i mongoli si muovono verso l’Europa fino a che si ritrovano sulla loro strada l’ultimo principato russo rimasto in piedi . Non sanno che  i loro piani sono in procinto di essere rovinati da un piccolo distaccamento di uomini forti ed eroici guidati da un guerriero coraggioso misterioso. Questa è una storia di coraggio, la resistenza e il proprio sacrificio  per il bene del proprio paese. Questa è la storia di Evpaty Furious.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/mcWdKnd8ghsGIpjEaxDekdno1Cr.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=JHt3qJMURSU",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos"
+        },
+        "tmdb_id_scelto": 415381
+      }
+    },
+    {
+      "video_id": "GwvCNxX-_vo",
+      "is_movie": true,
+      "original_title": "Cult Western 1966: Per il gusto di uccidere | Versione Integrale HD",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "kNkrLbYijEc",
+      "is_movie": true,
+      "original_title": "Capolavoro Western: Il massacro di Fort Apache (Fort Apache) 1948 Intero HD",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "hCJ9DBn5ULg",
+      "is_movie": true,
+      "original_title": "Deluge (1933) Il Diluvio - Dramma e Avventura Post-Apocalittica",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "ovL07vDIEAc",
+      "is_movie": true,
+      "original_title": "La Vendetta di Viktor -Con Gérard Depardieu ed Elizabeth Hurley - by Film&Clips Azione",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "oKyIY51HKRk",
+      "is_movie": true,
+      "original_title": "Iron Sky – La battaglia continua (Film Completo in Italiano) | Azione Sci-Fi (2019)",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "FOSMo2qAOjI",
+      "is_movie": true,
+      "original_title": "Cinema Western: 2 once di piombo | Film Completo Italiano",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "ppl27y5ijqM",
+      "is_movie": true,
+      "original_title": "L'uomo Venuto per Uccidere | Western Cult in HD Film Completo",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "IseKGFqeESk",
+      "is_movie": true,
+      "original_title": "Un detective, una giornalista e un'orda di zombie | Film Completo",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "l8YWJxq0caE",
+      "is_movie": true,
+      "original_title": "Film Indie d'Azione: The Runners (2020) | Con Glenn Morshower",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "mXzecbguXDo",
+      "is_movie": true,
+      "original_title": "Mickey Hargitay in: Lo sceriffo che non spara | Azione Western all'Italiana | Film Completo",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "1amPohlESO0",
+      "is_movie": true,
+      "original_title": "Western Esilarante: Per qualche dollaro in meno | Film Completo con Lando Buzzanca",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "NDugTrEVhng",
+      "is_movie": true,
+      "original_title": "Film Completo Horror: Easter Bloody Easter (2024) | Trash e Azione",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "-JaGReI8bA8",
+      "is_movie": true,
+      "original_title": "Mega Shark Vs. Kolossus - Il Super Action di The Asylum -  Film Completo HD by Film&Clips",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": 343097,
+      "tmdb_title_official": "Mega Shark vs. Kolossus",
+      "tmdb_year_official": 2015,
+      "tmdb_poster_path": "/hXggKwPOgu01UlDQ3qB1u4t9QK8.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_youtube_originale": "Mega Shark Vs. Kolossus - Il Super Action di The Asylum -  Film Completo HD by Film&Clips",
+        "youtube_url": "https://www.youtube.com/watch?v=-JaGReI8bA8",
+        "titolo_italiano": "Mega Shark vs. Kolossus",
+        "titolo_originale": "Mega Shark vs. Kolossus",
+        "anno_uscita": 2015,
+        "durata_minuti": 89,
+        "genere": [
+          "Thriller",
+          "Azione",
+          "Horror",
+          "Fantascienza",
+          "Mistero"
+        ],
+        "regista": [
+          "Christopher Ray"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Illeana Douglas",
+            "personaggio": "Dr. Alison Gray",
+            "foto_url": "https://image.tmdb.org/t/p/w185/78apBb2tg9e3L60e0Z9Sssroq7z.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/7796",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Amy Rider",
+            "personaggio": "Moira King",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8gZLkzgM521TKliOAT1pbleZf1x.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/98407",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Brody Hutzler",
+            "personaggio": "Joshua Dane",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4J4sewl7hD6mYG5mbizjSG2Tkp2.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/21861",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Adam Dunnells",
+            "personaggio": "Wilhelm",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9U64DXfWKkCJSEpPjmpZ0Kz8t2k.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1488384",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tara Price",
+            "personaggio": "Lieutenant Commander Elisha Chalke Parker",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/88099",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Ernest Lee Thomas",
+            "personaggio": "Admiral Titus Perry Jackson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zAqFrDY1r7NaiR1MjvLETWXxm9.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/75356",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Edward DeRuiter",
+            "personaggio": "Spencer",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nmXgjVC9GZp52EAz866LkxK6TRV.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/289992",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Christine Kent",
+            "personaggio": "Secretary / Background",
+            "foto_url": "https://image.tmdb.org/t/p/w185/x8zdy8BIy31TnzLDfBYjQ1cW4wI.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1473793",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jeff Hatch",
+            "personaggio": "Dr. John Bullock",
+            "foto_url": "https://image.tmdb.org/t/p/w185/autixzJIUGm578t3LkuDn8SpmGq.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1369385",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tim Abell",
+            "personaggio": "Ivan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4LnqUNsQWUrF4Gq6YQdFiRHKEoP.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/99235",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Alla ricerca di una nuova fonte di energia, la Russia risveglia accidentalmente Kolossus, un gigantesco dispositivo robot da Giorno del giudizio creato ai tempi della guerra fredda. Allo stesso tempo dalle profondità ocaniche appare un nuovo Mega Shark minacciando la sicurezza globale. Ora il mondo deve capire come fermare questi giganti letali prima che distruggano tutto su terra e mare.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/hXggKwPOgu01UlDQ3qB1u4t9QK8.jpg",
+        "trailer": {
+          "url": null,
+          "lingua": null,
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": false,
+          "motivo_verifica": ""
+        },
+        "tmdb_id_scelto": 343097
+      }
+    },
+    {
+      "video_id": "DxtlF51i2GA",
+      "is_movie": true,
+      "original_title": "Il Mitico Cinema Western: Arriva Durango paga o muori | HD | Film Completo",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "Gf7BKQi7l34",
+      "is_movie": true,
+      "original_title": "Il più grande maestro di Kung Fu: Il maestro di Bruce Lee (Film Completo)",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "Isv5JbV7QLM",
+      "is_movie": true,
+      "original_title": "Le ultime 56 ore   Film Completo by Film&Clips Azione",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "Vrv6ISgpbxw",
+      "is_movie": true,
+      "original_title": "Mitico Western in HD: Due croci a Danger Pass (1967)",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "OET94JFbxPk",
+      "is_movie": true,
+      "original_title": "Western Classico: Al di là dell'odio (1972) | Film Completo HD",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "bBYX5ovhOyA",
+      "is_movie": true,
+      "original_title": "Benvenuti a Sarajevo | Guerra | Film Completo in Italiano",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": 14905,
+      "tmdb_title_official": "Benvenuti a Sarajevo",
+      "tmdb_year_official": 1997,
+      "tmdb_poster_path": "/CvgjPoTM2yv5jTFlnpEuh8qbTl.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_youtube_originale": "Benvenuti a Sarajevo | Guerra | Film Completo in Italiano",
+        "youtube_url": "https://www.youtube.com/watch?v=bBYX5ovhOyA",
+        "titolo_italiano": "Benvenuti a Sarajevo",
+        "titolo_originale": "Welcome to Sarajevo",
+        "anno_uscita": 1997,
+        "durata_minuti": 103,
+        "genere": [
+          "Guerra",
+          "Dramma",
+          "Storia"
+        ],
+        "regista": [
+          "Michael Winterbottom"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Stephen Dillane",
+            "personaggio": "Michael Henderson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qjIa6pXD4Z7nL7nH2LxyHDfxNgC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/8435",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Woody Harrelson",
+            "personaggio": "Flynn",
+            "foto_url": "https://image.tmdb.org/t/p/w185/igxYDQBbTEdAqaJxaW6ffqswmUU.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/57755",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marisa Tomei",
+            "personaggio": "Nina",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5w6qM8FWsl5SutKSpx6Va64eCTE.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3141",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Goran Višnjić",
+            "personaggio": "Risto Bavić",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2jFpq46QPjCbRmmGYdW9WSVC47W.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5725",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Emira Nušević",
+            "personaggio": "Emira",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/77603",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Kerry Fox",
+            "personaggio": "Jane Carson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qTN8PjqgOdICj6egcAhJ7qXfEk1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/17258",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "James Nesbitt",
+            "personaggio": "Gregg",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lQiGZcwUXbCqpF055Ia5jxdZ2Ma.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/34715",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Emily Lloyd",
+            "personaggio": "Annie McGee",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2OrKRl9Vel31ihbeMYb4Z5XZvGF.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/18017",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Igor Džambazov",
+            "personaggio": "Jacket",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1866071",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Gordana Gadžić",
+            "personaggio": "Mrs. Savić",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/77605",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Scritto da Frank Cottrell Boyce e basato sul libro Natasha's Story di Michael Nicholson, racconta la guerra di Bosnia nel 1992, quando cominciò l'assedio di Sarajevo, vista da una troupe TV britannica. Uno dei giornalisti (S. Dillane) raccoglie una bambina, la bosniaca e musulmana Emira, e la porta a Londra per adottarla. Ma si fa viva sua madre per reclamarla. Criticabile sotto vari aspetti (disinvolta mescolanza di vero e falso, documentario e finzione; dichiarazioni di uomini politici, pescate negli archivi; ricorso all'“Adagio” di Albinoni, troppo “bello”, troppo usato, dunque quasi “osceno”), ma impossibile negare che funzioni sul piano dell'informazione, della comunicazione, dell'emozione. Esplicita denuncia dell'ignavia dell'ONU, delle vergogne della politica europea, dell'indifferenza comoda di tanti di noi in Europa. Meglio la 1ª parte che la 2ª.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/CvgjPoTM2yv5jTFlnpEuh8qbTl.jpg",
+        "trailer": {
+          "url": null,
+          "lingua": null,
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": false,
+          "motivo_verifica": ""
+        },
+        "tmdb_id_scelto": 14905
+      }
+    },
+    {
+      "video_id": "dNm3kCSkLZI",
+      "is_movie": true,
+      "original_title": "Escape From Pretoria   Con Daniel Radcliffe   Film Completo by Film&Clips Azione",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "vRtBZWOWbsc",
+      "is_movie": true,
+      "original_title": "Film Drammatico: 10th & Wolf (L'infiltrato) (2006) | James Marsden",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "RBQ_8QoqG1M",
+      "is_movie": true,
+      "original_title": "Film Romantico con Holly Hunter: Woman Wanted (1999) | Dramma",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "k9H3DhQeGA4",
+      "is_movie": true,
+      "original_title": "Film Completo di Rockne S. O'Bannon: Adrenalin: Fear The Rush (1996)",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "hnyE-rrB69M",
+      "is_movie": true,
+      "original_title": "Kung Fu Il maestro invincibile (Film Completo) | L'onore del padre",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "J2whb8IfTSI",
+      "is_movie": true,
+      "original_title": "Film Azione/Thriller: General Commander (2019) | Con Steven Seagal",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "IfQ5MJ1VbUE",
+      "is_movie": true,
+      "original_title": "Thriller Psicologico: Segreti fatali (2009) | La vendetta delle donne",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "3tZjnCCCiy4",
+      "is_movie": true,
+      "original_title": "Film d'Azione Asiatico: Manhunt (2017) | Con Hanyu Zhang | ITA",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "q_JvdPmmt14",
+      "is_movie": true,
+      "original_title": "Film Azione con Zoë Bell e Kristanna Loken: Mercenarie (2014) | ITA",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "bJT4BD-YTik",
+      "is_movie": true,
+      "original_title": "Film d'Azione con John Travolta: Speed Kills (2018) | Storia Vera",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": 404,
+      "tmdb_title_official": "Una storia vera",
+      "tmdb_year_official": 1999,
+      "tmdb_poster_path": "/pQq7fzLSrowAz4EYVSDZwKVX2Hr.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_youtube_originale": "Film d'Azione con John Travolta: Speed Kills (2018) | Storia Vera",
+        "youtube_url": "https://www.youtube.com/watch?v=bJT4BD-YTik",
+        "titolo_italiano": "Una storia vera",
+        "titolo_originale": "The Straight Story",
+        "anno_uscita": 1999,
+        "durata_minuti": 111,
+        "genere": [
+          "Dramma"
+        ],
+        "regista": [
+          "David Lynch"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Richard Farnsworth",
+            "personaggio": "Alvin",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zwomo8lekrM7dkJ00JmqsslwrIB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5605",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sissy Spacek",
+            "personaggio": "Rose",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xAxenjxjLNQFq4v1ccS2to3Mnoq.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5606",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jane Galloway Heitz",
+            "personaggio": "Dorothy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5vsWPq7v8r4eqLtc7uqWzQSk2hr.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5607",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Joseph A. Carpenter",
+            "personaggio": "Bud",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5608",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Donald Wiegert",
+            "personaggio": "Sig",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5609",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Tracey Maloney",
+            "personaggio": "Nurse",
+            "foto_url": "https://image.tmdb.org/t/p/w185/22h4ncrfBxA5frNnreSnRiFdV4I.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5610",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Dan Flannery",
+            "personaggio": "Doctor Gibbons",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nbc8T2b0ZNyNeRXk0aq0yw3uJzD.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5611",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jennifer Edwards",
+            "personaggio": "Brenda",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3896717",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Ed Grennan",
+            "personaggio": "Pete",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5612",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Jack Walsh",
+            "personaggio": "Apple",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hrklvoHt8KuRRUzMxS9YjMSNTEW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5613",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Il vecchio Alvin Straight ne ha viste davvero tante, negli anni trascorsi sulla strada e in quelli passati sul prato di casa e nel drugstore dietro l'angolo. Un giorno prende il tagliaerba e parte, attraversa a passo di lumaca strade, campi di mais, cieli, il Mississippi per riconciliarsi con il fratello che non vede da troppo tempo.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/pQq7fzLSrowAz4EYVSDZwKVX2Hr.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=JNi-Osdmkh0",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos"
+        },
+        "tmdb_id_scelto": 404
+      }
+    },
+    {
+      "video_id": "dKnAYlG9nd8",
+      "is_movie": true,
+      "original_title": "L'inizio della pandemia globale | Pandemic (2009) | Film Completo HD",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": 20371,
+      "tmdb_title_official": "Pandemic",
+      "tmdb_year_official": 2009,
+      "tmdb_poster_path": "/v77xw22MaygF1rHOFpazl0MgKFa.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_youtube_originale": "L'inizio della pandemia globale | Pandemic (2009) | Film Completo HD",
+        "youtube_url": "https://www.youtube.com/watch?v=dKnAYlG9nd8",
+        "titolo_italiano": "Pandemic",
+        "titolo_originale": "Pandemic",
+        "anno_uscita": 2009,
+        "durata_minuti": 90,
+        "genere": [
+          "Azione",
+          "Dramma",
+          "Thriller"
+        ],
+        "regista": [
+          "Jason Connery"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Ray Wise",
+            "personaggio": "General Matthews",
+            "foto_url": "https://image.tmdb.org/t/p/w185/60313U01R1j9eueDBXiIh9o55RQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/6719",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Graham McTavish",
+            "personaggio": "Captain Riley",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qpKVz46PkKVaXzthcJO4ldFPdM9.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/95047",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Alesha Rucci",
+            "personaggio": "Sydney Stevens",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xNQxNBQwxMRRQ8CCIahHuVviYhT.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/95048",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kristi Culbert",
+            "personaggio": "Doctor Green",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/95049",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Aaron Favor",
+            "personaggio": "Soldier",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/95050",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Tom Proctor",
+            "personaggio": "Clay",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8ClnmTQE2OhUrpObFipRSXhByFR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/95051",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Trevor Richardson",
+            "personaggio": "Lieutenant Daniels",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/95052",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Peter Holden",
+            "personaggio": "Spenser",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9pAORmxw7zi5lEerUmyInQM3PlF.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1225911",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Chris Harper",
+            "personaggio": "Cook",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5809461",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Dashiell Connery",
+            "personaggio": "Kid",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5AgKXYVuPx83zBJpngodboY6LQS.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2977599",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "A slow-paced, action thriller about a virus that strikes a New Mexico county and the local veterinarian who gets caught in the middle.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/v77xw22MaygF1rHOFpazl0MgKFa.jpg",
+        "trailer": {
+          "url": null,
+          "lingua": null,
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": false,
+          "motivo_verifica": ""
+        },
+        "tmdb_id_scelto": 20371
+      }
+    },
+    {
+      "video_id": "ttsyw0fGxcs",
+      "is_movie": true,
+      "original_title": "Film Completo Azione: Un poliziotto scomodo (1978) | Poliziottesco",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "rrvHVjMKrvw",
+      "is_movie": true,
+      "original_title": "Vampiri (Film Completo) | Il messaggero dello Zar contro il Male",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "SXOaxWSc-KE",
+      "is_movie": true,
+      "original_title": "Film Completo Azione: Sono Sartana, il vostro becchino (1969) | Western 4K",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "Dm9mmmBNZqU",
+      "is_movie": true,
+      "original_title": "Film Completo Western: Sartana nella valle degli avvoltoi (1970) | Cult ITA  4K",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "zyFx7Dj1i74",
+      "is_movie": true,
+      "original_title": "WILLED TO KILL| Drama Thriller HD | Film completo in Italiano",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "ELN6OFgPmpc",
+      "is_movie": true,
+      "original_title": "L'incubo di un uomo qualunque: Servo suo (1973) | Film Thriller Italiano",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "rJXer_-AFuA",
+      "is_movie": true,
+      "original_title": "Un Fantasma Inquieto Minaccia la sua Famiglia | Summer House (2007) | Completo",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "1SrWPnD1QMY",
+      "is_movie": true,
+      "original_title": "THRILLER: OMICIDI IN SERIE (Serialized) (2016) | Film Completo in Italiano",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "uNZjry6nW9k",
+      "is_movie": true,
+      "original_title": "S02E15: Rivals | Starhunter (2003) | C'è solo una regola: vincere (4K)",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "x7mG4nNXfZk",
+      "is_movie": true,
+      "original_title": "S02E06: Torment | Starhunter (2003) | Due storie familiari si intrecciano",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "SMckigCEWhs",
+      "is_movie": true,
+      "original_title": "S02E21: just politics | Starhunter (2003) | Quando la legge è corrotta (4K)",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "UmnGra3RE8U",
+      "is_movie": true,
+      "original_title": "S02E20: hyperspace 2 | Starhunter (2003) | Risposte che non volevano trovare (4K)",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "XYgAdotX-64",
+      "is_movie": true,
+      "original_title": "S02E11: The Third Thing | Starhunter (2003) | Guai in arrivo per l'equipaggio",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "_ZC5RMTt36I",
+      "is_movie": true,
+      "original_title": "S02E13: hyperspace | Starhunter (2003) | Il silenzio assordante dell'iperspazio (4K)",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "cBCXd6kLRIw",
+      "is_movie": true,
+      "original_title": "S02E05: Spaceman | Starhunter (2003) | L'infezione della mente si diffonde",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "gArq6RANEz4",
+      "is_movie": true,
+      "original_title": "S02E04: Chasing Janus | Starhunter (2003) | L'enigma della Divinity Cluster",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "gGYJgWHP13A",
+      "is_movie": true,
+      "original_title": "S02E14: pandora's box | Starhunter (2003) | Una leggenda antica diventa realtà (4K)",
       "channel": "Film&Clips Azione",
       "tmdb_id": null,
       "tmdb_confidence": "no_match"
