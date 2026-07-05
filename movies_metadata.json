@@ -216791,7 +216791,7 @@
     },
     {
       "video_id": "ZfiwiyVA5U4",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Joko invoca Dio... e muori | La spietata caccia ai cinque assassini | Film Completo HD",
       "channel": "Azione360",
       "tmdb_id": 96133,
@@ -216954,7 +216954,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T04:31:36.705Z",
       "editor_updated_at": "2026-07-05T04:31:36.705Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_lock_reason": "genere compilato dalla diagnostica editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T04:49:49.819Z"
     },
     {
       "video_id": "7uX2qNXu9VE",
@@ -218293,7 +218296,7 @@
     },
     {
       "video_id": "k9FJMrzG5Jg",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Deluge",
       "channel": "Azione360",
       "tmdb_id": 163293,
@@ -218446,7 +218449,10 @@
       "editor_updated_at": "2026-06-29T04:26:27.507Z",
       "editor_lock_reason": "ri-identificazione manuale editor",
       "vote_average": 5.952,
-      "vote_count": 21
+      "vote_count": 21,
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T04:49:49.820Z"
     },
     {
       "video_id": "Bg8xTSbFZS4",
@@ -222052,7 +222058,7 @@
     },
     {
       "video_id": "xF0YdwJ50tk",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Il mio Nome è Pecos: 2 Once di Piombo | Il mitico Western! | Film Completo",
       "channel": "Azione360",
       "tmdb_id": 144354,
@@ -222214,7 +222220,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T04:31:36.705Z",
       "editor_updated_at": "2026-07-05T04:31:36.705Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_lock_reason": "genere compilato dalla diagnostica editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T04:49:49.820Z"
     },
     {
       "video_id": "r3e0HXicw_s",
@@ -223973,7 +223982,7 @@
     },
     {
       "video_id": "UxXPYcqgIk4",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Vendetta e piombo nel Far West | Sono Sartana (1969) | Film Completo 4K",
       "channel": "Azione360",
       "tmdb_id": 64650,
@@ -224136,7 +224145,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T04:31:36.705Z",
       "editor_updated_at": "2026-07-05T04:31:36.705Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_lock_reason": "genere compilato dalla diagnostica editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T04:49:49.819Z"
     },
     {
       "video_id": "0SIJMUiUzTQ",
@@ -227965,7 +227977,7 @@
     },
     {
       "video_id": "FeCmxV4Tz1E",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Willed to Kill",
       "channel": "Azione360",
       "tmdb_id": 158689,
@@ -228119,7 +228131,10 @@
       "editor_updated_at": "2026-06-29T04:27:43.039Z",
       "editor_lock_reason": "ri-identificazione manuale editor",
       "vote_average": 5.3,
-      "vote_count": 22
+      "vote_count": 22,
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T04:49:49.820Z"
     },
     {
       "video_id": "hNZcoFkfD_w",
@@ -253422,7 +253437,7 @@
     },
     {
       "video_id": "G9q40m2unxE",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Se sei vivo spara | Western | HD | Film completo in italiano",
       "channel": "Azione360",
       "tmdb_id": 61943,
@@ -253596,7 +253611,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T04:31:36.706Z",
       "editor_updated_at": "2026-07-05T04:31:36.706Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_lock_reason": "genere compilato dalla diagnostica editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T04:49:49.819Z"
     },
     {
       "video_id": "X9gMjKgAWKg",
@@ -262423,7 +262441,7 @@
     },
     {
       "video_id": "GN9dAXkqJPU",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "La belva col mitra | Detective Story | Film Completo in Italiano",
       "channel": "Azione360",
       "tmdb_id": 3541,
@@ -262598,7 +262616,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T04:31:36.706Z",
       "editor_updated_at": "2026-07-05T04:31:36.706Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_lock_reason": "genere compilato dalla diagnostica editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T04:49:49.818Z"
     },
     {
       "video_id": "o5WviaZXzpo",
@@ -297240,7 +297261,7 @@
     },
     {
       "video_id": "JEHK6rPfw-4",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Una storia d'amore in campagna | A Country Romance: Il Primo Raccolto | 4K film completo Italiano",
       "channel": "TVItalia",
       "tmdb_id": 800052,
@@ -297403,7 +297424,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T04:31:36.706Z",
       "editor_updated_at": "2026-07-05T04:31:36.706Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_lock_reason": "genere compilato dalla diagnostica editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T04:49:49.821Z"
     },
     {
       "video_id": "ZB8bdIXRDiA",
@@ -301044,7 +301068,7 @@
     },
     {
       "video_id": "XoA_YTXIOdY",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Nella rete del killer: Una nuova vita finita male | Film Completo",
       "channel": "TVItalia",
       "tmdb_id": 897765,
@@ -301206,7 +301230,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T04:31:36.706Z",
       "editor_updated_at": "2026-07-05T04:31:36.706Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_lock_reason": "genere compilato dalla diagnostica editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T04:49:49.822Z"
     },
     {
       "video_id": "gjjpckzITsU",
@@ -304594,7 +304621,7 @@
     },
     {
       "video_id": "wtdvVIQAEzY",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Dying for a Good Grade",
       "channel": "TVItalia",
       "tmdb_id": 900473,
@@ -304752,7 +304779,10 @@
       "tmdb_poster_path": "/vxqqTTPJ5XXee3R7y9GLX5xFI65.jpg",
       "tmdb_title_official": "Scandalo al college",
       "tmdb_year_official": 2021,
-      "tmdb_media_type": "movie"
+      "tmdb_media_type": "movie",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T04:49:49.822Z"
     },
     {
       "video_id": "YQ9kRYN3K20",
@@ -308570,7 +308600,7 @@
     },
     {
       "video_id": "_YxGqdUS-kU",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Rule of 3",
       "channel": "TVItalia",
       "tmdb_id": 616257,
@@ -308683,7 +308713,10 @@
       "tmdb_poster_path": "/jpTokNHgcBbK2M5of4578SlwlZ7.jpg",
       "tmdb_title_official": "La regola delle 3 mogli",
       "tmdb_year_official": 2019,
-      "tmdb_media_type": "movie"
+      "tmdb_media_type": "movie",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T04:49:49.821Z"
     },
     {
       "video_id": "fhQFE96o8lc",
@@ -315332,7 +315365,7 @@
     },
     {
       "video_id": "EL0nD2EOhp4",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Arriva Durango, paga o muori",
       "channel": "TVItalia",
       "tmdb_id": 150029,
@@ -315488,7 +315521,10 @@
       "tmdb_poster_path": "/k5kVi14Asa8GMhSXvCcq7rNHiOC.jpg",
       "tmdb_title_official": "Arriva Durango, paga o muori",
       "tmdb_year_official": 1971,
-      "tmdb_media_type": "movie"
+      "tmdb_media_type": "movie",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T04:49:49.820Z"
     },
     {
       "video_id": "fFd2NufJPww",
@@ -316956,7 +316992,7 @@
     },
     {
       "video_id": "4MwDEe24P-k",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Lo sceriffo che non spara",
       "channel": "TVItalia",
       "tmdb_id": 198126,
@@ -317106,7 +317142,10 @@
       "tmdb_poster_path": "/1ZYnnDWsetdZyT8qeQ3Y7mmK9FI.jpg",
       "tmdb_title_official": "Lo sceriffo che non spara",
       "tmdb_year_official": 1965,
-      "tmdb_media_type": "movie"
+      "tmdb_media_type": "movie",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T04:49:49.821Z"
     },
     {
       "video_id": "WIN4p727eCQ",
@@ -318721,7 +318760,7 @@
     },
     {
       "video_id": "rovp6FjiUo8",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "L'Amore Sboccia tra i Pinguini Australiani | Innamorarsi a Crystal Bay (2022)",
       "channel": "TVItalia",
       "tmdb_id": 857851,
@@ -318883,7 +318922,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T04:31:36.707Z",
       "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_lock_reason": "genere compilato dalla diagnostica editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T04:49:49.821Z"
     },
     {
       "video_id": "6nFriDtXU_s",
@@ -320450,7 +320492,7 @@
     },
     {
       "video_id": "ntN15RG6gYs",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "E Dio disse a Caino…",
       "channel": "TVItalia",
       "tmdb_id": 77165,
@@ -320609,7 +320651,10 @@
       "tmdb_poster_path": "/vcskav3qf1NpDfSb285iOxCYpdg.jpg",
       "tmdb_title_official": "E Dio disse a Caino…",
       "tmdb_year_official": 1970,
-      "tmdb_media_type": "movie"
+      "tmdb_media_type": "movie",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T04:49:49.819Z"
     },
     {
       "video_id": "o7h3FtXHCK8",
@@ -321928,7 +321973,7 @@
     },
     {
       "video_id": "FmgY7R6rguQ",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "King Kong",
       "channel": "TVItalia",
       "tmdb_id": 244,
@@ -322088,7 +322133,10 @@
       "tmdb_poster_path": "/lHlnxKL5GbgRibyRFI7n1Ey850i.jpg",
       "tmdb_title_official": "King Kong",
       "tmdb_year_official": 1933,
-      "tmdb_media_type": "movie"
+      "tmdb_media_type": "movie",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T04:49:49.817Z"
     },
     {
       "video_id": "Ww_gYhSW8Og",
@@ -324487,7 +324535,7 @@
     },
     {
       "video_id": "Yylo0iS4iLQ",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "La vendetta dei gladiatori",
       "channel": "TVItalia",
       "tmdb_id": 343955,
@@ -324643,7 +324691,10 @@
       "tmdb_poster_path": "/qeU02PzSbD9Dn3bhoJsqIZnptPf.jpg",
       "tmdb_title_official": "La vendetta dei gladiatori",
       "tmdb_year_official": 1964,
-      "tmdb_media_type": "movie"
+      "tmdb_media_type": "movie",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T04:49:49.821Z"
     },
     {
       "video_id": "og-RqTIdr5k",
@@ -326332,7 +326383,7 @@
     },
     {
       "video_id": "yNWCEJmPWbA",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Un poliziotto scomodo",
       "channel": "TVItalia",
       "tmdb_id": 106139,
@@ -326490,7 +326541,10 @@
       "tmdb_poster_path": "/4UKxEnFQFUfVBfSNiB2MHeDAzX9.jpg",
       "tmdb_title_official": "Un poliziotto scomodo",
       "tmdb_year_official": 1978,
-      "tmdb_media_type": "movie"
+      "tmdb_media_type": "movie",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T04:49:49.819Z"
     },
     {
       "video_id": "aBjveghO3QA",
@@ -331456,7 +331510,7 @@
     },
     {
       "video_id": "Xzgt52uFAGg",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Вурдалаки",
       "channel": "TVItalia",
       "tmdb_id": 430988,
@@ -331608,7 +331662,10 @@
       "tmdb_poster_path": "/tA7revVjwKOd7JnNyi2P4gK4mVM.jpg",
       "tmdb_title_official": "Vamps - Vampiri",
       "tmdb_year_official": 2017,
-      "tmdb_media_type": "movie"
+      "tmdb_media_type": "movie",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T04:49:49.821Z"
     },
     {
       "video_id": "AniS_9itj4E",
