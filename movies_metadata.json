@@ -295364,22 +295364,19 @@
     {
       "video_id": "PilJ3soQMTM",
       "is_movie": true,
-      "original_title": "Non è tua figlia 2022 Film Completo 4K - Thriller ad Alta Tensione",
+      "original_title": "She Is Not Your Daughter",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 1059086,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Non è tua figlia 2022 Film Completo 4K - Thriller ad Alta Tensione",
-        "youtube_url": "https://www.youtube.com/watch?v=PilJ3soQMTM",
-        "titolo_corretto": "Non è tua figlia",
         "titolo_italiano": "Non è tua figlia",
         "titolo_originale": "She Is Not Your Daughter",
         "anno_uscita": 2022,
         "durata_minuti": 90,
         "genere": [
-          "Dramma",
+          "televisione film",
           "Thriller"
         ],
         "regista": [
@@ -295399,7 +295396,7 @@
           },
           {
             "nome": "Jon Briddell",
-            "personaggio": "Tim",
+            "personaggio": "Bob",
             "foto_url": "https://image.tmdb.org/t/p/w185/dKNwlzYbpu7HbCBwWo5HAMyAzEA.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -295410,7 +295407,7 @@
           },
           {
             "nome": "Emily Topper",
-            "personaggio": "Allison",
+            "personaggio": "May",
             "foto_url": "https://image.tmdb.org/t/p/w185/tb37vPbLBFW0Fyo0dr7eRNuTuGz.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -295418,100 +295415,112 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/2993645",
               "verificata": true
             }
-          }
-        ],
-        "trama": "Kathy scopre che sua figlia adolescente non è realmente sua figlia biologica. Questa rivelazione sconvolge la sua vita e la costringe a confrontarsi con un passato pericoloso che minaccia la sua famiglia.",
-        "lingua_trama_originale": "en",
-        "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/e6bfbv6CLNowePYwg73ItmtP9mL.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/1059086",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
-        "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": "Da verificare via TMDB videos endpoint"
-        },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/1059086"
           },
           {
-            "nome": "OMDb",
-            "url": "http://www.omdbapi.com/?i=tt15566292"
+            "nome": "Katelin Chesna",
+            "personaggio": "Jill",
+            "foto_url": "https://image.tmdb.org/t/p/w185/y6qKwFXpQkM4LlVBHXdZ0kPTtew.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1587855",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lisa Long",
+            "personaggio": "Faye",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2NweJ366CnrtqiHBIH6OA4doElW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/98533",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Dean Kostlich",
+            "personaggio": "Anson Drake",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1543054",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Kulani Kai",
+            "personaggio": "Carla Morris",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ktWN6yCniwlENAldeTjEHNBPZoq.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2876466",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Dion Lloyd-Jones",
+            "personaggio": "Steve Kessler",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2467439",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Carole Wood",
+            "personaggio": "Pam",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1536504",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Cheryl Frazier",
+            "personaggio": "Ann Douglas",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dEjUkYn26jMnQnn8Nt0eCjZPntR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2484642",
+              "verificata": true
+            }
           }
         ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Non è tua figlia",
-            "She Is Not Your Daughter"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": 2022,
-          "durata_video_youtube": "81 min",
-          "attori_trovati": [
-            "Alicia Leigh Willis",
-            "Jon Briddell",
-            "Emily Topper"
-          ],
-          "registi_trovati": [
-            "Jeff Hare"
-          ],
-          "parole_chiave_trama": [
-            "figlia",
-            "segreti",
-            "sopravvivenza",
-            "amore materno"
-          ]
+        "trama": "La vita di una donna va in frantumi dopo aver scoperto un'agghiacciante segreto del marito: la figlia adolescente non è biologicamente loro.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/e6bfbv6CLNowePYwg73ItmtP9mL.jpg",
+        "trailer": {
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt15566292/videogallery/content_type-trailer"
         },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film corrisponde per titolo, anno, cast, regista e trama con i dati forniti."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "cast principale",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "durata"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "OMDb"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "La durata del video YouTube è leggermente inferiore alla durata ufficiale del film, ma tutti gli altri elementi coincidono.",
         "tmdb_id_scelto": 1059086,
         "imdb_id_scelto": "tt15566292",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.706Z"
+        "verificato_editor_at": "2026-07-05T04:47:39.931Z"
       },
       "genre": "thriller",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.706Z",
-      "editor_updated_at": "2026-07-05T04:31:36.706Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:47:39.931Z",
+      "editor_updated_at": "2026-07-05T04:47:39.931Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/e6bfbv6CLNowePYwg73ItmtP9mL.jpg",
+      "tmdb_title_official": "Non è tua figlia",
+      "tmdb_year_official": 2022,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "aG_WTK0Djj8",
@@ -295645,23 +295654,22 @@
     {
       "video_id": "Tv_jNF8aCfE",
       "is_movie": true,
-      "original_title": "Costretti Insieme per il Matrimonio Perfetto | Un matrimonio da ricordare (4K)",
+      "original_title": "A Wedding to Remember",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 779011,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Costretti Insieme per il Matrimonio Perfetto | Un matrimonio da ricordare (4K)",
-        "youtube_url": "https://www.youtube.com/watch?v=Tv_jNF8aCfE",
-        "titolo_corretto": "Un matrimonio da ricordare",
         "titolo_italiano": "Un matrimonio da ricordare",
         "titolo_originale": "A Wedding to Remember",
         "anno_uscita": 2021,
         "durata_minuti": 85,
         "genere": [
+          "televisione film",
+          "Romance",
           "Commedia",
-          "Romantico"
+          "Dramma"
         ],
         "regista": [
           "David I. Strasser"
@@ -295669,7 +295677,7 @@
         "cast_principale": [
           {
             "nome": "Cristina Rosato",
-            "personaggio": "Olivia",
+            "personaggio": "Olivia Owens",
             "foto_url": "https://image.tmdb.org/t/p/w185/t5wVakvkAhTib1gZNoH1WYPsk95.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -295680,7 +295688,7 @@
           },
           {
             "nome": "Greyston Holt",
-            "personaggio": "Brian",
+            "personaggio": "Brian Wolf",
             "foto_url": "https://image.tmdb.org/t/p/w185/OefIUfHekZLHwGVjyZmFauUI5W.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -295691,7 +295699,7 @@
           },
           {
             "nome": "Rebecca Olson",
-            "personaggio": "Cindy",
+            "personaggio": "Jenny",
             "foto_url": "https://image.tmdb.org/t/p/w185/t529etG08eJRPnpAZEUv2Vi1oNL.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -295715,108 +295723,96 @@
             "nome": "Shanelle Connell",
             "personaggio": "Frankie",
             "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": null,
+              "url_pagina_origine": "https://www.themoviedb.org/person/2907087",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Matt Mazur",
+            "personaggio": "Perry",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hKk2H6CD4V4o5EUZntzIU8i1Qmt.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1265340",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sharon Estephan",
+            "personaggio": "Concierge",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3923172",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "A.J. McKerracher",
+            "personaggio": "Spa Concierge",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3923174",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Desmond Parenteau",
+            "personaggio": "Waiter",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3923175",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Heather Clark",
+            "personaggio": "Massuese",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3760189",
               "verificata": false
             }
           }
         ],
-        "trama": "Olivia, una conservazionista, e Brian, un costruttore edile, si trovano su fronti opposti riguardo a un progetto immobiliare. Costretti a collaborare come damigella e testimone al matrimonio dei loro amici, scoprono di avere più in comune di quanto pensassero, mentre l'amore sboccia inaspettatamente.",
-        "lingua_trama_originale": "en",
+        "trama": "Brian lavora per un'agenzia di sviluppo immobiliare pronta a costruire alloggi a basso costo sul terreno dove Olivia gestisce un orto pubblico. Brian e Olivia si scontrano subito, per poi ritrovarsi entrambi invitati allo stesso matrimonio...",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/gKCa5gB2BL5FpmsQzxhCAq2lTFI.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/779011",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=-Rtz-GZR57c",
-          "lingua": "en",
           "fonte": "YouTube",
-          "canale": "A Wedding To Remember Trailer",
-          "ufficiale": true,
+          "lingua": "it",
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=-Rtz-GZR57c"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/779011"
-          },
-          {
-            "nome": "OMDb",
-            "url": "http://www.omdbapi.com/?i=tt12567442"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Un matrimonio da ricordare",
-            "A Wedding to Remember"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": null,
-          "durata_video_youtube": "89 min",
-          "attori_trovati": [
-            "Cristina Rosato",
-            "Greyston Holt",
-            "Rebecca Olson"
-          ],
-          "registi_trovati": [
-            "David I. Strasser"
-          ],
-          "parole_chiave_trama": [
-            "conservazionista",
-            "costruttore edile",
-            "matrimonio",
-            "damigella d'onore",
-            "testimone"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film 'Un matrimonio da ricordare' (2021) corrisponde per titolo, anno, cast, regista e trama con i dati forniti."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "titolo italiano",
-            "anno di uscita",
-            "cast principale",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "durata"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "OMDb"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "",
         "tmdb_id_scelto": 779011,
         "imdb_id_scelto": "tt12567442",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.706Z"
+        "verificato_editor_at": "2026-07-05T04:48:49.176Z"
       },
       "genre": "romantico",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.706Z",
-      "editor_updated_at": "2026-07-05T04:31:36.706Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:48:49.176Z",
+      "editor_updated_at": "2026-07-05T04:48:49.176Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/gKCa5gB2BL5FpmsQzxhCAq2lTFI.jpg",
+      "tmdb_title_official": "Un matrimonio da ricordare",
+      "tmdb_year_official": 2021,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "D5otoJjlyu0",
@@ -296114,22 +296110,21 @@
     {
       "video_id": "mPHdmK7_X-U",
       "is_movie": true,
-      "original_title": "Prigioniera d'amore 2022 Film Completo 4K - Thriller ad Alta Tensione",
+      "original_title": "Prisoner of Love",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 922955,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Prigioniera d'amore 2022 Film Completo 4K - Thriller ad Alta Tensione",
-        "youtube_url": "https://www.youtube.com/watch?v=mPHdmK7_X-U",
-        "titolo_corretto": "Prigioniera d'amore",
         "titolo_italiano": "Prigioniera d'amore",
         "titolo_originale": "Prisoner of Love",
         "anno_uscita": 2022,
         "durata_minuti": 89,
         "genere": [
-          "Thriller"
+          "Thriller",
+          "televisione film",
+          "Dramma"
         ],
         "regista": [
           "Lindsay Hartley"
@@ -296137,7 +296132,7 @@
         "cast_principale": [
           {
             "nome": "Katie Kelly",
-            "personaggio": "Sarah",
+            "personaggio": "Carly Bragg",
             "foto_url": "https://image.tmdb.org/t/p/w185/x5zsqg9Pg2VJj1LpmzaRYzTIBNT.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -296148,7 +296143,7 @@
           },
           {
             "nome": "James Hyde",
-            "personaggio": "Greg",
+            "personaggio": "Kyle Smithford",
             "foto_url": "https://image.tmdb.org/t/p/w185/yXVBAL5h339cnSkjlZykS2Qsc9v.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -296159,7 +296154,7 @@
           },
           {
             "nome": "Tiffany Montgomery",
-            "personaggio": "Karen",
+            "personaggio": "Sarah Bragg",
             "foto_url": "https://image.tmdb.org/t/p/w185/7nzEjTnGXaHjAvK91OBuGR2b4ub.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -296189,100 +296184,90 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/3062156",
               "verificata": true
             }
-          }
-        ],
-        "trama": "Sarah, una giovane diciottenne, inizia una relazione con Greg, un uomo più grande che la vizia. Tuttavia, la madre di Sarah, Karen, sospetta che Greg non sia chi dice di essere. Quando Greg inizia a manipolare psicologicamente Sarah, la situazione si trasforma in un incubo, e Sarah deve lottare per la sua libertà.",
-        "lingua_trama_originale": "en",
-        "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/qigxMO5QcIhkK36Q2obs8zVbqJG.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/922955-prisoner-of-love",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
-        "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": "Da verificare via TMDB videos endpoint"
-        },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/922955-prisoner-of-love"
           },
           {
-            "nome": "OMDb",
-            "url": "http://www.omdbapi.com/?i=tt14181388"
+            "nome": "Ashton Leigh",
+            "personaggio": "Joanie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dJKI1PQgRw9DS2JqDBUR7w4nWIK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1268071",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Michael Wagemann",
+            "personaggio": "Michael Bragg",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3151050",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Lindsay Hartley",
+            "personaggio": "Amanda James",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1X4ksPeTLByMngZhGOc3hqoB7Mz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1224370",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Leah N.H. Philpott",
+            "personaggio": "Sandra Lopez",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3f2PNh7wJOllwJCyujFTX7iaf1Q.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1843772",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Caroline McKenzie",
+            "personaggio": "Tanya",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1238224",
+              "verificata": false
+            }
           }
         ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Prigioniera d'amore",
-            "Prisoner of Love"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": 2022,
-          "durata_video_youtube": "85 min",
-          "attori_trovati": [
-            "Katie Kelly",
-            "James Hyde",
-            "Tiffany Montgomery"
-          ],
-          "registi_trovati": [
-            "Lindsay Hartley"
-          ],
-          "parole_chiave_trama": [
-            "manipolazione psicologica",
-            "relazione tossica",
-            "prigioniera",
-            "libertà"
-          ]
+        "trama": "Una diciottenne inizia a frequentare un affascinante uomo di 50 anni che la tratta con spese folli e ristoranti di lusso, creando un'enorme spaccatura con sua madre. L'istinto della mamma si rivela giusto quando l'uomo diventa psicologicamente manipolatore, trasformando la ragazza in una prigioniera emotiva nella sua villa.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/qigxMO5QcIhkK36Q2obs8zVbqJG.jpg",
+        "trailer": {
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt14181388/videogallery/content_type-trailer"
         },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film corrisponde per titolo, anno, cast, regista e trama con i dati forniti."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "cast principale",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "durata"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "OMDb"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "Il film è stato identificato con un alto livello di certezza grazie alla corrispondenza di più elementi chiave tra le fonti.",
         "tmdb_id_scelto": 922955,
         "imdb_id_scelto": "tt14181388",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.706Z"
+        "verificato_editor_at": "2026-07-05T04:48:00.448Z"
       },
       "genre": "thriller",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.706Z",
-      "editor_updated_at": "2026-07-05T04:31:36.706Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:48:00.448Z",
+      "editor_updated_at": "2026-07-05T04:48:00.448Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/qigxMO5QcIhkK36Q2obs8zVbqJG.jpg",
+      "tmdb_title_official": "Prigioniera d'amore",
+      "tmdb_year_official": 2022,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "kG88bFLgaoE",
@@ -296604,22 +296589,21 @@
     {
       "video_id": "GWElAn308ck",
       "is_movie": true,
-      "original_title": "Film Completo Thriller: Killer Cover Up 2021 Cece Kelly 4K UHD",
+      "original_title": "Killer Cover Up",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 897765,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Film Completo Thriller: Killer Cover Up 2021 Cece Kelly 4K UHD",
-        "youtube_url": "https://www.youtube.com/watch?v=GWElAn308ck",
-        "titolo_corretto": "Nella rete del killer",
         "titolo_italiano": "Nella rete del killer",
         "titolo_originale": "Killer Cover Up",
         "anno_uscita": 2021,
         "durata_minuti": 105,
         "genere": [
-          "Thriller"
+          "televisione film",
+          "Thriller",
+          "Dramma"
         ],
         "regista": [
           "Damián Romay"
@@ -296627,34 +296611,12 @@
         "cast_principale": [
           {
             "nome": "Cece Kelly",
-            "personaggio": "Jenna Sims",
+            "personaggio": "Jenna Simms",
             "foto_url": "https://image.tmdb.org/t/p/w185/i08XEVieusHiggHuv1ehPmSxRr5.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
               "url_pagina_origine": "https://www.themoviedb.org/person/2815708",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "René Ashton",
-            "personaggio": "Sally Sims",
-            "foto_url": "https://image.tmdb.org/t/p/w185/jTMXz8MmAMeuBTxORXoSXILzhAr.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/142604",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Marc Herrmann",
-            "personaggio": "Coach Mike",
-            "foto_url": "https://image.tmdb.org/t/p/w185/8T5cLtTUWJbnBcP77FaH6h7heQG.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/2010792",
               "verificata": true
             }
           },
@@ -296670,6 +296632,17 @@
             }
           },
           {
+            "nome": "René Ashton",
+            "personaggio": "Sally Simms",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jTMXz8MmAMeuBTxORXoSXILzhAr.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/142604",
+              "verificata": true
+            }
+          },
+          {
             "nome": "Nicole Wheeler",
             "personaggio": "Grace",
             "foto_url": "https://image.tmdb.org/t/p/w185/yifnkUKIvuxSkdFxu5ikQaIidlo.jpg",
@@ -296679,106 +296652,101 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/3114318",
               "verificata": true
             }
+          },
+          {
+            "nome": "N'dia Lamar",
+            "personaggio": "Stacy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3MZvXIgKOaS7W5mbO6IHX0Hiymj.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3316541",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Robin F. Baker",
+            "personaggio": "Stacy's Father",
+            "foto_url": "https://image.tmdb.org/t/p/w185/d5HgeSXEu12NWxfvXKVcdmVfmSk.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1853943",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Greg Corbett",
+            "personaggio": "Dan Rocklin",
+            "foto_url": "https://image.tmdb.org/t/p/w185/yyGknXUfq2ZKs3RSb2ABomLnXiu.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/232753",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marc Herrmann",
+            "personaggio": "Coach Ritchie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8T5cLtTUWJbnBcP77FaH6h7heQG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2010792",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Angelique Chase",
+            "personaggio": "Camilla Washington",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2214709",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Chantey Colet",
+            "personaggio": "Principal Butler",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2471124",
+              "verificata": false
+            }
           }
         ],
-        "trama": "Jenna Sims, una promettente calciatrice, si trasferisce con sua madre in una cittadina balneare. Quando le sue compagne di squadra iniziano a morire in circostanze misteriose, Jenna viene accusata dei crimini. Determinata a dimostrare la sua innocenza, indaga per scoprire il vero colpevole.",
-        "lingua_trama_originale": "en",
+        "trama": "La giocatrice di calcio All-Star Jenna Sims e sua madre Sally sono pronte per un nuovo inizio quando si trasferiscono in una nuova, soleggiata cittadina di mare. Jenna si unisce alla squadra di calcio della sua nuova scuola nella speranza di fare nuove amicizie e mantenere la sua borsa di studio universitaria, ma le cose diventano presto pericolose quando viene incastrata per omicidio dopo aver scoperto la copertura della morte di un giocatore. Riuscirà a scoprire chi è il vero colpevole prima che il vero assassino arrivi a lei?",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/1hskfXIcsKe9MmmVJqUfO4EAPl.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/897765",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": "Da verificare via TMDB videos endpoint"
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt15243622/videogallery/content_type-trailer"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/897765"
-          },
-          {
-            "nome": "OMDb",
-            "url": "http://www.omdbapi.com/?i=tt15243622"
-          },
-          {
-            "nome": "IMDb",
-            "url": "https://www.imdb.com/title/tt15243622/"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Killer Cover Up",
-            "Nella rete del killer"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": 2021,
-          "durata_video_youtube": "86 min",
-          "attori_trovati": [
-            "René Ashton",
-            "Cece Kelly",
-            "Marc Herrmann"
-          ],
-          "registi_trovati": [
-            "Damián Romay"
-          ],
-          "parole_chiave_trama": [
-            "calcio",
-            "omicidi",
-            "sospetti",
-            "innocenza",
-            "indagine"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film corrisponde per titolo originale, anno, regista, cast principale e trama."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "regista",
-            "cast principale",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "durata"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "OMDb",
-            "IMDb"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "Il film è stato identificato con alta certezza grazie alla corrispondenza di titolo, anno, regista, cast e trama tra le fonti disponibili.",
         "tmdb_id_scelto": 897765,
         "imdb_id_scelto": "tt15243622",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.706Z"
+        "verificato_editor_at": "2026-07-05T04:48:24.831Z"
       },
       "genre": "thriller",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.706Z",
-      "editor_updated_at": "2026-07-05T04:31:36.706Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:48:24.831Z",
+      "editor_updated_at": "2026-07-05T04:48:24.831Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/1hskfXIcsKe9MmmVJqUfO4EAPl.jpg",
+      "tmdb_title_official": "Nella rete del killer",
+      "tmdb_year_official": 2021,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "5Nj_w94t39o",
@@ -297440,22 +297408,20 @@
     {
       "video_id": "ZB8bdIXRDiA",
       "is_movie": true,
-      "original_title": "Amore, Coma e Pasticci di Famiglia | Un amore da ricordare (4K)",
+      "original_title": "A Love to Remember",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 779001,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Amore, Coma e Pasticci di Famiglia | Un amore da ricordare (4K)",
-        "youtube_url": "https://www.youtube.com/watch?v=ZB8bdIXRDiA",
-        "titolo_corretto": "Un amore da ricordare",
         "titolo_italiano": "Un amore da ricordare",
         "titolo_originale": "A Love to Remember",
         "anno_uscita": 2021,
         "durata_minuti": 85,
         "genere": [
-          "Commedia Romantica"
+          "televisione film",
+          "Romance"
         ],
         "regista": [
           "Aubrey Arnason"
@@ -297463,7 +297429,7 @@
         "cast_principale": [
           {
             "nome": "Rhiannon Fish",
-            "personaggio": "Tenley",
+            "personaggio": "Tenley Sweeney",
             "foto_url": "https://image.tmdb.org/t/p/w185/9DhcQcOBSsyQXbckl9r1Mms13fY.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -297474,7 +297440,7 @@
           },
           {
             "nome": "Edward Ruttle",
-            "personaggio": "Jared",
+            "personaggio": "Everett",
             "foto_url": "https://image.tmdb.org/t/p/w185/hoR2honm6hZec1cr0hI5GnUjP7A.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -297515,91 +297481,90 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/1476269",
               "verificata": true
             }
+          },
+          {
+            "nome": "Tanya Jade",
+            "personaggio": "Cami",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pLFt1wojy9MEvPpTJI7zbz3idkZ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1890666",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Quinn Hubscher",
+            "personaggio": "Ryan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1aZxyFn5UDVkmCgbs7imlSUCVSU.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3044706",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Megan Peta Hill",
+            "personaggio": "Larissa",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1ZUxkw817g62QhjMg5SxNLplnM6.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1692990",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "David Allan Pearson",
+            "personaggio": "Ronnie Carr",
+            "foto_url": "https://image.tmdb.org/t/p/w185/t5hUS7j6dLOe0JPLbp3g69Wvlja.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1237672",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Zya Acala",
+            "personaggio": "Faye Carr",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2n4EQxbRp9RbYKHrUH0Yz9f82P6.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2734261",
+              "verificata": true
+            }
           }
         ],
-        "trama": "Tenley, un'orticoltrice, trova il coraggio di incontrare Jared, l'uomo conosciuto online. A causa di un incidente, viene scambiata per sua moglie in ospedale e si ritrova a dover mantenere la farsa con la famiglia di Jared e il suo migliore amico, Everett. Tra equivoci e sentimenti inaspettati, Tenley deve scegliere tra la verità e l'amore.",
-        "lingua_trama_originale": "en",
+        "trama": "Tanley, un'orticoltrice biologica, dopo anni di interazioni online trova il coraggio di incontrare finalmente Jared, l'uomo conosciuto su internet di cui si è innamorata. Quando questi non si presenta a causa di un incidente, Tenley viene per un equivoco scambiata per sua moglie in ospedale. Ben presto, si ritrova costretta a perpetuare la farsa con la famiglia di Jared e con il di lui miglior amico Everett, nel tentativo di salvare l'azienda dell'uomo che ama.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/jBGA5F0RCX6QrqfZCOS4t2apN0V.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/779001",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=tpQUFjJhReE",
-          "lingua": "en",
           "fonte": "YouTube",
-          "canale": "Movie Preview",
-          "ufficiale": true,
+          "lingua": "it",
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Teaser"
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=tpQUFjJhReE"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/779001"
-          },
-          {
-            "nome": "OMDb",
-            "url": "http://www.omdbapi.com/?i=tt13845504"
-          },
-          {
-            "nome": "IMDb",
-            "url": "https://www.imdb.com/title/tt13845504/"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Un amore da ricordare",
-            "A Love to Remember"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": null,
-          "durata_video_youtube": "85 min",
-          "attori_trovati": [],
-          "registi_trovati": [],
-          "parole_chiave_trama": [
-            "ospedale",
-            "fidanzata",
-            "coma",
-            "bugia",
-            "famiglia",
-            "romantica",
-            "equivoci"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "alta",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film corrisponde per titolo, anno, durata, cast e trama con i dati forniti."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 100,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "durata",
-            "cast principale",
-            "trama"
-          ],
-          "elementi_non_confermati": [],
-          "fonti_concordanti": [
-            "TMDB",
-            "OMDb",
-            "IMDb"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "",
         "tmdb_id_scelto": 779001,
-        "imdb_id_scelto": "tt13845504"
-      }
+        "imdb_id_scelto": "tt13845504",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T04:47:16.114Z"
+      },
+      "tmdb_poster_path": "/jBGA5F0RCX6QrqfZCOS4t2apN0V.jpg",
+      "tmdb_title_official": "Un amore da ricordare",
+      "tmdb_year_official": 2021,
+      "tmdb_media_type": "movie",
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T04:47:16.114Z",
+      "editor_updated_at": "2026-07-05T04:47:16.114Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "XaLT1_MsrHU",
@@ -298374,23 +298339,22 @@
     {
       "video_id": "cmfjn8gzi9A",
       "is_movie": true,
-      "original_title": "Un Ritorno a Casa Indimenticabile | Il primo raccolto (4K)",
+      "original_title": "A Country Romance",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 800052,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Un Ritorno a Casa Indimenticabile | Il primo raccolto (4K)",
-        "youtube_url": "https://www.youtube.com/watch?v=cmfjn8gzi9A",
-        "titolo_corretto": "Il primo raccolto",
         "titolo_italiano": "Il primo raccolto",
         "titolo_originale": "A Country Romance",
         "anno_uscita": 2021,
         "durata_minuti": 85,
         "genere": [
-          "Romantico",
-          "Commedia"
+          "televisione film",
+          "Commedia",
+          "Romance",
+          "Famiglia"
         ],
         "regista": [
           "Danny Roth"
@@ -298450,109 +298414,90 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/108247",
               "verificata": true
             }
-          }
-        ],
-        "trama": "Sara, una pubblicitaria di città, torna nella sua città natale per aiutare il padre a gestire la vigna di famiglia. Qui, tra i filari dorati, riscopre il valore delle proprie radici e trova l'amore inaspettato con un affascinante abitante del luogo.",
-        "lingua_trama_originale": "en",
-        "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/pM1VHvlapzUV02umQn7WjTtWlkX.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/800052",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
-        "trailer": {
-          "url": "https://www.youtube.com/watch?v=BKNToaefZks",
-          "lingua": "en",
-          "fonte": "YouTube",
-          "canale": "A Country Romance Trailer",
-          "ufficiale": true,
-          "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
-        },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/800052"
           },
           {
-            "nome": "IMDb",
-            "url": "https://www.imdb.com/title/tt12536348/"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Il primo raccolto",
-            "A Country Romance"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": null,
-          "durata_video_youtube": "79 min",
-          "attori_trovati": [
-            "Alix Angelis",
-            "Jonathan Bennett",
-            "Violet Tinnirello"
-          ],
-          "registi_trovati": [
-            "Danny Roth"
-          ],
-          "parole_chiave_trama": [
-            "vigna",
-            "amore",
-            "ritorno alle origini",
-            "famiglia"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film 'Il primo raccolto' (2021) corrisponde per titolo, cast, regista e trama con i dati forniti."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "titolo italiano",
-            "anno di uscita",
-            "cast principale",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "durata"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "IMDb"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [
+            "nome": "Mike Page",
+            "personaggio": "Walter",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2635375",
+              "verificata": false
+            }
+          },
           {
-            "titolo": "The First Harvest",
-            "titolo_originale": "The First Harvest",
-            "anno": 2023,
-            "motivo_alternativa": "Titolo simile ma anno e cast diversi.",
-            "livello_compatibilita": "basso"
+            "nome": "James Austin Kerr",
+            "personaggio": "Caleb",
+            "foto_url": "https://image.tmdb.org/t/p/w185/11ntHOXkZvJpsMhO2zxfX2ZiNyL.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1517269",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Darryl Cox",
+            "personaggio": "Frank",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dokVBvE6DlV7gBXnLPfQo8GDC6t.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/97391",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kelsey Griswold",
+            "personaggio": "Dary",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pNli38yIahM9mGCYg66jo0WBaCG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1676448",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Drew Pollock",
+            "personaggio": "Ethan Smith",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2128839",
+              "verificata": false
+            }
           }
         ],
-        "note": "Il film identificato è 'Il primo raccolto' (2021) con titolo originale 'A Country Romance'. La durata del video YouTube è leggermente inferiore alla durata ufficiale del film, ma gli altri elementi coincidono.",
+        "trama": "Sara, pubblicitaria di città, torna tra i vigneti di campagna in cui è cresciuta per occuparsi della vendita della proprietà di famiglia. Non avendo alcuna nozione in questo ambito e chiede perciò aiuto al vicino di casa, Gabe.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/pM1VHvlapzUV02umQn7WjTtWlkX.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=BKNToaefZks"
+        },
         "tmdb_id_scelto": 800052,
         "imdb_id_scelto": "tt12536348",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.706Z"
+        "verificato_editor_at": "2026-07-05T04:46:07.536Z"
       },
       "genre": "romantico",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.706Z",
-      "editor_updated_at": "2026-07-05T04:31:36.706Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:46:07.536Z",
+      "editor_updated_at": "2026-07-05T04:46:07.536Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/pM1VHvlapzUV02umQn7WjTtWlkX.jpg",
+      "tmdb_title_official": "Il primo raccolto",
+      "tmdb_year_official": 2021,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "ySCImwWI5Nw",
@@ -302288,23 +302233,21 @@
     {
       "video_id": "h-WspSat3d4",
       "is_movie": true,
-      "original_title": "Un Amore tra i Pinguini: Magia in Australia | HD",
+      "original_title": "Love and Penguins",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 857851,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Un Amore tra i Pinguini: Magia in Australia | HD",
-        "youtube_url": "https://www.youtube.com/watch?v=h-WspSat3d4",
-        "titolo_corretto": "Innamorarsi a Crystal Bay",
         "titolo_italiano": "Innamorarsi a Crystal Bay",
         "titolo_originale": "Love and Penguins",
         "anno_uscita": 2022,
         "durata_minuti": 105,
         "genere": [
+          "televisione film",
           "Commedia",
-          "Romantico"
+          "Romance"
         ],
         "regista": [
           "Christine Luby"
@@ -302364,106 +302307,90 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/1818971",
               "verificata": true
             }
+          },
+          {
+            "nome": "Martin Dingle Wall",
+            "personaggio": "Mackenzie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7QT4ZkfvIn8IlLSb4R89QPlUdgh.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/212739",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tracie Filmer",
+            "personaggio": "Fiona",
+            "foto_url": "https://image.tmdb.org/t/p/w185/82s9hKwTXNhPVPFeEiPw8Xw9RTr.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1814638",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Cameron Leonard",
+            "personaggio": "Ben",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8UnGV8Gt25T4loQwVrm3dTTZgD8.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3185680",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "John Manning",
+            "personaggio": "Derek",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1821758",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Kanin Forsdyke",
+            "personaggio": "Chloe",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3185681",
+              "verificata": false
+            }
           }
         ],
-        "trama": "Tilly, una manager rigida, viene inviata in Australia per valutare la chiusura di un santuario di pinguini. Qui incontra Fletcher, un appassionato zoologo. La magia del luogo e la dolcezza dei pinguini trasformano la loro rivalità in una storia d'amore.",
-        "lingua_trama_originale": "en",
+        "trama": "In qualità di Responsabile della Conformità e delle Relazioni per l'Animal Discovery Institute, un'organizzazione no-profit per i diritti degli animali con sede a San Diego, Tilly Monterey ha finalmente l'opportunità di guidare il prossimo progetto dell'azienda: un santuario per pinguini australiani che ha un urgente bisogno di aiuto finanziario.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/dQzCeMC0aIyLwwP9SkFXa1Jy43y.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/857851",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": "Da verificare via TMDB videos endpoint"
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt15051960/videogallery/content_type-trailer"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/857851"
-          },
-          {
-            "nome": "OMDb",
-            "url": "https://www.omdbapi.com/"
-          },
-          {
-            "nome": "IMDb",
-            "url": "https://www.imdb.com/title/tt15051960/"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Innamorarsi a Crystal Bay",
-            "Love and Penguins"
-          ],
-          "titolo_originale_trovato_nella_descrizione": "Love and Penguins",
-          "anno_trovato": 2022,
-          "durata_video_youtube": "84 min",
-          "attori_trovati": [
-            "Tammin Sursok",
-            "Jason Wilder",
-            "Stuart Lumsden"
-          ],
-          "registi_trovati": [
-            "Christine Conradt"
-          ],
-          "parole_chiave_trama": [
-            "pinguini",
-            "Australia",
-            "amore",
-            "santuario",
-            "zoologo"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film corrisponde per titolo originale, cast, regista, trama e anno di uscita."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "cast principale",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "durata"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "OMDb",
-            "IMDb"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "La durata del video YouTube è inferiore alla durata ufficiale del film, suggerendo un possibile taglio o riassunto.",
         "tmdb_id_scelto": 857851,
         "imdb_id_scelto": "tt15051960",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:45:43.624Z"
       },
       "genre": "romantico",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:45:43.624Z",
+      "editor_updated_at": "2026-07-05T04:45:43.624Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/dQzCeMC0aIyLwwP9SkFXa1Jy43y.jpg",
+      "tmdb_title_official": "Innamorarsi a Crystal Bay",
+      "tmdb_year_official": 2022,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "8X-ydQR4zdc",
@@ -303304,22 +303231,20 @@
     {
       "video_id": "K1udFRv6Xts",
       "is_movie": true,
-      "original_title": "Film HD: Joko invoca Dio... e muori | Un classico dello Spaghetti Western",
+      "original_title": "Joko invoca Dio... e muori",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 96133,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Film HD: Joko invoca Dio... e muori | Un classico dello Spaghetti Western",
-        "youtube_url": "https://www.youtube.com/watch?v=K1udFRv6Xts",
-        "titolo_corretto": "Joko invoca Dio... e muori",
         "titolo_italiano": "Joko invoca Dio... e muori",
         "titolo_originale": "Joko invoca Dio... e muori",
         "anno_uscita": 1968,
         "durata_minuti": 95,
         "genere": [
-          "Western"
+          "Western",
+          "Dramma"
         ],
         "regista": [
           "Antonio Margheriti"
@@ -303327,7 +303252,7 @@
         "cast_principale": [
           {
             "nome": "Richard Harrison",
-            "personaggio": "Joko",
+            "personaggio": "Jokko Barrat",
             "foto_url": "https://image.tmdb.org/t/p/w185/oDCb0w2qkWV75tkYD15QZXpy7dl.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -303340,22 +303265,11 @@
             "nome": "Claudio Camaso",
             "personaggio": "Mendoza",
             "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": null,
+              "url_pagina_origine": "https://www.themoviedb.org/person/44987",
               "verificata": false
-            }
-          },
-          {
-            "nome": "Špela Rozin",
-            "personaggio": "Jane",
-            "foto_url": "https://image.tmdb.org/t/p/w185/k1z6bXpyZQr36fAHDVKAX9jZqqv.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/931991",
-              "verificata": true
             }
           },
           {
@@ -303379,102 +303293,101 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/150617",
               "verificata": true
             }
-          }
-        ],
-        "trama": "Joko è in cerca di vendetta dopo che una banda di fuorilegge ha ucciso suo fratello per rubare dell'oro. Durante la sua caccia, viene seguito da un misterioso investigatore della Pinkerton. Il confronto finale rivelerà un tradimento inaspettato.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/bR35qJfDY9LBDXUqlS4BTOw0SAV.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/96133",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
-        "trailer": {
-          "url": "https://www.youtube.com/watch?v=fYcjVVP22u8",
-          "lingua": "en",
-          "fonte": "YouTube",
-          "canale": "Vengeance (1968) ORIGINAL TRAILER",
-          "ufficiale": false,
-          "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
-        },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/96133"
           },
           {
-            "nome": "Wikipedia IT",
-            "url": "https://it.wikipedia.org/wiki/Joko_-_Invoca_Dio..._e_muori"
+            "nome": "Špela Rozin",
+            "personaggio": "Jane",
+            "foto_url": "https://image.tmdb.org/t/p/w185/k1z6bXpyZQr36fAHDVKAX9jZqqv.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/931991",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Guido Lollobrigida",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/rvYTDEXeY2HhcwQeIrCP9j31RnG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/85982",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Paolo Gozlino",
+            "personaggio": "Pinkerton Detective Lester",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6xKfz6l2oT6yTHuhRfHHGX0bZqR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1019917",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Alberto Dell'Acqua",
+            "personaggio": "Richie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pY8apYKYEKu6pPjcMw5gdN1ctr4.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/72661",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Luciano Pigozzi",
+            "personaggio": "Domingo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5PTtLdknAOIPHinNC1C34oh0sFx.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/30900",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ignazio Spalla",
+            "personaggio": "Laredo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2YYle9t7NtWuw92pKZLXYk8CMaj.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/564603",
+              "verificata": true
+            }
           }
         ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Joko invoca Dio... e muori"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": 1968,
-          "durata_video_youtube": "94 min",
-          "attori_trovati": [
-            "Richard Harrison",
-            "Claudio Camaso",
-            "Spela Rozin"
-          ],
-          "registi_trovati": [
-            "Antonio Margheriti"
-          ],
-          "parole_chiave_trama": [
-            "giustizia",
-            "fuorilegge",
-            "oro",
-            "caccia",
-            "investigatore",
-            "Pinkerton",
-            "tradimento",
-            "duello"
-          ]
+        "trama": "Due bande rivali si contendono a colpi di fucile il possesso di un carico d'oro. Ad uno ad uno i fuorilegge si eliminano a vicenda e Joko, rimasto unico superstite, scopre che quello che credeva suo complice è in realtà un abile truffatore che ha gabbato lui e i suoi compagni. Tra i due litiganti il terzo gode.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/bR35qJfDY9LBDXUqlS4BTOw0SAV.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=fYcjVVP22u8"
         },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "alta",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Tutti gli elementi principali (titolo, anno, durata, cast, regista, trama) coincidono perfettamente con il film identificato."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 100,
-          "elementi_confermati": [
-            "titolo",
-            "anno",
-            "durata",
-            "cast",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [],
-          "fonti_concordanti": [
-            "TMDB",
-            "Wikipedia IT"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "Il film è stato identificato con alta certezza grazie alla corrispondenza di tutti gli elementi principali tra le fonti disponibili.",
         "tmdb_id_scelto": 96133,
         "imdb_id_scelto": "tt0063159",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:45:21.072Z"
       },
       "genre": "western",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:45:21.072Z",
+      "editor_updated_at": "2026-07-05T04:45:21.072Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/bR35qJfDY9LBDXUqlS4BTOw0SAV.jpg",
+      "tmdb_title_official": "Joko invoca Dio... e muori",
+      "tmdb_year_official": 1968,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "PTQfUSq6EjA",
