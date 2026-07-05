@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T05:43:19",
+  "generated_at": "2026-07-05T06:04:20",
   "total_videos": 716,
   "classified": 716,
   "movies": [
@@ -365289,7 +365289,17 @@
       "original_title": "Iron Sky – La battaglia continua (Film Completo in Italiano) | Azione Sci-Fi (2019)",
       "channel": "Film&Clips Azione",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "related_video_ids": [
+        "oKyIY51HKRk",
+        "0K-Y5j46Gnk"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "primary_with_reserves",
+      "duplicate_reserve_note": "Doppione gestito automaticamente da catalog_new_uploads.py: la versione migliore resta visibile, le altre sono fallback automatici."
     },
     {
       "video_id": "FOSMo2qAOjI",
@@ -366247,6 +366257,2137 @@
       "video_id": "gGYJgWHP13A",
       "is_movie": true,
       "original_title": "S02E14: pandora's box | Starhunter (2003) | Una leggenda antica diventa realtà (4K)",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "kpEvoQOwefw",
+      "is_movie": true,
+      "original_title": "S02E09: Skin Deep | Starhunter (2003) | L'apparenza a volte inganna",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "mUAk416wRSw",
+      "is_movie": true,
+      "original_title": "S02E19: the heir and the spare | Starhunter (2003) | Un fratello vale più dell'altro? (4K)",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "s7ABqncmzwY",
+      "is_movie": true,
+      "original_title": "S02E12: Supermax Redux | Starhunter (2003) | C'è in gioco una fortuna (4K)",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "-iMotD0p6P0",
+      "is_movie": true,
+      "original_title": "S02E18: stitch in time | Starhunter (2003) | Le conseguenze di cambiare la storia (4K)",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "3UaZDe6XAr0",
+      "is_movie": true,
+      "original_title": "S02E17: Kate | Starhunter (2003) | L'enigma di una donna (4K)",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "5sY4bda4cV0",
+      "is_movie": true,
+      "original_title": "S02E02: Star Crossed | Starhunter (2003) | Nuovi pericoli per l'equipaggio",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "6PGfU1AVonA",
+      "is_movie": true,
+      "original_title": "S02E07: Becoming Shiva | Starhunter (2003) | Una missione quasi impossibile",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "7SYYRBkFiu0",
+      "is_movie": true,
+      "original_title": "S02E08: Painless | Starhunter (2003) | La nuova droga ricreativa che uccide",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "911cQKh6y1k",
+      "is_movie": true,
+      "original_title": "S02E01: Rebirth | Starhunter (2003) | L'incontro con la cacciatrice Callista",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "9gr4svTffTo",
+      "is_movie": true,
+      "original_title": "S02E22: negative energy | Starhunter (2003) | La Tulip è in quarantena (4K)",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "DzufGERrQ5E",
+      "is_movie": true,
+      "original_title": "S02E03: Bio Crime | Starhunter (2003) | Callie e Rudolpho vengono arrestati",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "IqAgt6N6tis",
+      "is_movie": true,
+      "original_title": "S02E16: license to kill | Starhunter (2003) | Giustizia o esecuzione? (4K)",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "LeXXChE6Ges",
+      "is_movie": true,
+      "original_title": "S02E10: The Prisoner | Starhunter (2003) | La cattura del prigioniero più ricercato",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "INOSqn4oHTA",
+      "is_movie": true,
+      "original_title": "TWO WRONGS | Thriller (2014) Film completo in italiano | HD",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "jmJjGnmyPDA",
+      "is_movie": true,
+      "original_title": "L'Uragano di Amantido | L'incredibile storia di Banana Joe | Film ITA",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "oc2DoiznvJs",
+      "is_movie": true,
+      "original_title": "Quando Chuck Norris era il cattivo | Massacro a San Francisco (1974) 4K",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "vtPLRzJYueo",
+      "is_movie": true,
+      "original_title": "La Tragica Storia di King Kong (1933) | Pellicola Completa di Avventura King Kong",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "1UYmUB86IBM",
+      "is_movie": true,
+      "original_title": "Guerra, Onore e Vendetta nel Vecchio West | Jesse James and Quantrill's Raiders",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "bgHMsoOME9A",
+      "is_movie": true,
+      "original_title": "Un capitano contro i pirati | Il segreto dello sparviero nero (1961) 4K",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "MhdwhhAnS70",
+      "is_movie": true,
+      "original_title": "Un Intenso Dramma Poliziesco degli Anni 80: La tua vita per mio figlio (1980) | Film Completo",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "YIUVqbVV3tw",
+      "is_movie": true,
+      "original_title": "SPAGHETTI WESTERN: Pecos è qui: prega e muori! (1967) | Film Completo HD",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "rcOaOSDDdl0",
+      "is_movie": true,
+      "original_title": "La sua Pistola è Nascosta nella Giarrettiera | Giarrettiera Colt (1968) | Film",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": 1499406,
+      "tmdb_title_official": "Film",
+      "tmdb_year_official": 1968,
+      "tmdb_poster_path": "/nnJyNiwc8IqFxMHhVg7f7Hp8hPD.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_youtube_originale": "La sua Pistola è Nascosta nella Giarrettiera | Giarrettiera Colt (1968) | Film",
+        "youtube_url": "https://www.youtube.com/watch?v=rcOaOSDDdl0",
+        "titolo_italiano": "Film",
+        "titolo_originale": "Film",
+        "anno_uscita": 1968,
+        "durata_minuti": 9,
+        "genere": [],
+        "regista": [
+          "Shuzo Azuchi Gulliver"
+        ],
+        "cast_principale": [],
+        "trama": "In this work, the number of the frames appears every ten seconds (240 frames), serving to count the number of frames.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/nnJyNiwc8IqFxMHhVg7f7Hp8hPD.jpg",
+        "trailer": {
+          "url": null,
+          "lingua": null,
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": false,
+          "motivo_verifica": ""
+        },
+        "tmdb_id_scelto": 1499406
+      }
+    },
+    {
+      "video_id": "0ca5W4Jhdfk",
+      "is_movie": true,
+      "original_title": "Quando Wyatt Earp incontrò Bass Reeves | Un Western Epico | Film Completo (2023)",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "UNJrazHWwjs",
+      "is_movie": true,
+      "original_title": "GIALLO IN CONVENTO: L'abbazia dei misteri (2016) | Film Completo in Italiano",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "sKfzUNnM4B0",
+      "is_movie": true,
+      "original_title": "Una Partita di Poker da Cui Nessuno Può Ritirarsi | Mortal Poker (2023) SUB ITA",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "4xthN5BhCeg",
+      "is_movie": true,
+      "original_title": "Mistaken (2007) | Film Completo Thriller in Italiano | HD | Furto d'Identità",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "hn1YlWI24XY",
+      "is_movie": true,
+      "original_title": "Di Amerigo Anton (Tanio Boccia): Dio non paga il sabato (1967) | Film HD",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "gTSSxpsIZaE",
+      "is_movie": true,
+      "original_title": "Western Spaghetti: Uccidi Django... uccidi per primo! | Film Completo con G. Rossi Stuart | HD",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": 167190,
+      "tmdb_title_official": "Western Spaghetti",
+      "tmdb_year_official": 2008,
+      "tmdb_poster_path": "/iWTVN9WAUkXExF0ewdEZtmcTXmW.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_youtube_originale": "Western Spaghetti: Uccidi Django... uccidi per primo! | Film Completo con G. Rossi Stuart | HD",
+        "youtube_url": "https://www.youtube.com/watch?v=gTSSxpsIZaE",
+        "titolo_italiano": "Western Spaghetti",
+        "titolo_originale": "Western Spaghetti",
+        "anno_uscita": 2008,
+        "durata_minuti": 2,
+        "genere": [
+          "Animazione",
+          "Fantasy"
+        ],
+        "regista": [
+          "PES"
+        ],
+        "cast_principale": [],
+        "trama": "Stop motion movie showing the cooking of spaghetti using everyday objects instead of food.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/iWTVN9WAUkXExF0ewdEZtmcTXmW.jpg",
+        "trailer": {
+          "url": null,
+          "lingua": null,
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": false,
+          "motivo_verifica": ""
+        },
+        "tmdb_id_scelto": 167190
+      }
+    },
+    {
+      "video_id": "DSj1Qy-JgT8",
+      "is_movie": true,
+      "original_title": "Vendetta nell'Arena di Roma: La vendetta dei gladiatori | Film Completo",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "X3GoBQYmbzI",
+      "is_movie": true,
+      "original_title": "THRILLER PSICOLOGICO: Dimentica e perdona (2014) | Film Completo in Italiano",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "d8eU_tQieok",
+      "is_movie": true,
+      "original_title": "Time of Death (2012) | Indagine FBI: La Morte Bussa Sempre Alla Stessa Ora",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "5KnaJhSGqdA",
+      "is_movie": true,
+      "original_title": "Separated at Birth (2014) HD | Quando un segreto distrugge una famiglia",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "tqi50dtkk2Q",
+      "is_movie": true,
+      "original_title": "La Leggenda di Ercole contro Roma | Peplum | Film Completo in Italiano",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": 327293,
+      "tmdb_title_official": "Peplum",
+      "tmdb_year_official": 2015,
+      "tmdb_poster_path": "/ayayH7p0kpB82U6AbRIXSQG3xF9.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_youtube_originale": "La Leggenda di Ercole contro Roma | Peplum | Film Completo in Italiano",
+        "youtube_url": "https://www.youtube.com/watch?v=tqi50dtkk2Q",
+        "titolo_italiano": "Peplum",
+        "titolo_originale": "Peplum",
+        "anno_uscita": 2015,
+        "durata_minuti": 0,
+        "genere": [
+          "Commedia"
+        ],
+        "regista": [],
+        "cast_principale": [],
+        "trama": "Against the background of decline of the Roman Empire, \"Peplum\" takes us into the lives of Bravus, a former slave who became adviser to the tyrannical Emperor Maximus. Under pressure, stuck between a professional life stressful and chaotic family life, his days are not looking easy. Indeed, work side Bravus must wet the gown to slow a decline that has a tendency to accelerate under the leadership of the incompetent messy, cruel, capricious and narcissistic Maximus. Personal side, he must face every night his son Caius freshly converted to Christianity, his wife Octavia, foreign to the codes of good Roman society and daughter Lydia sassy which assimilates too well. \"Peplum\" or how to avoid the burn out in a declining society. The parallel with today can not be a coincidence.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/ayayH7p0kpB82U6AbRIXSQG3xF9.jpg",
+        "trailer": {
+          "url": null,
+          "lingua": null,
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": false,
+          "motivo_verifica": ""
+        },
+        "tmdb_id_scelto": 327293
+      }
+    },
+    {
+      "video_id": "RLkebMKHI9Q",
+      "is_movie": true,
+      "original_title": "WANDERING EYE | Dramma thriller (2010)| HD Film completo in italiano",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "iALMc3wOtfA",
+      "is_movie": true,
+      "original_title": "Chi la vuole morta? | Second Chances (2007) | Film in HD",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "6TaEJKLWW6s",
+      "is_movie": true,
+      "original_title": "La legge non scritta del West: Adios Cjamango | Film Completo HD",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "xhnjfBZvm4c",
+      "is_movie": true,
+      "original_title": "Il prezzo della vendetta? Pochi dollari per Django | Film Completo in Italiano HD",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "5QSFQoIbec0",
+      "is_movie": true,
+      "original_title": "La regola delle tre mogli (RULE OF 3)| Film Completo in ITA | HD",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "UMGRxpkbX3Q",
+      "is_movie": true,
+      "original_title": "NON è Bruce Lee! È MAD MONKEY KUNG FU (1979) | Film Shaw Brothers Completo HD",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "iStAdu2VtGY",
+      "is_movie": true,
+      "original_title": "AMBER ALERT| Thriller in Full HD| Film Completo in Italiano",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "UFcckm3zU4I",
+      "is_movie": true,
+      "original_title": "FANatic (Fanatico) | THRILLER-DRAMA | Film completo in Italiano | Full HD",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": 553247,
+      "tmdb_title_official": "Fullhachede",
+      "tmdb_year_official": 2018,
+      "tmdb_poster_path": "/4DJgvQjHgs974cOCJy0tZzP2Wp0.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_youtube_originale": "FANatic (Fanatico) | THRILLER-DRAMA | Film completo in Italiano | Full HD",
+        "youtube_url": "https://www.youtube.com/watch?v=UFcckm3zU4I",
+        "titolo_italiano": "Fullhachede",
+        "titolo_originale": "Fullhachede",
+        "anno_uscita": 2018,
+        "durata_minuti": 62,
+        "genere": [
+          "Documentario"
+        ],
+        "regista": [
+          "Carolina Navas",
+          "Catalina Torres"
+        ],
+        "cast_principale": [],
+        "trama": "Full HD portrays a female universe where dance, dreams and friendship resist adversity and death in one of the most violent and complex neighborhoods in Cali, Colombia. Meeting Nikol and Erika is an exploration of the struggle between reality and dreams, hope and the ability to overcome ourselves. Resist through the body and dance the “worthy rabbi”.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/4DJgvQjHgs974cOCJy0tZzP2Wp0.jpg",
+        "trailer": {
+          "url": null,
+          "lingua": null,
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": false,
+          "motivo_verifica": ""
+        },
+        "tmdb_id_scelto": 553247
+      }
+    },
+    {
+      "video_id": "DSzODyAD6gY",
+      "is_movie": true,
+      "original_title": "BRACE FOR IMPACT| Thriller-Drama | Film Completo in Italiano | HD",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "WbvwoctpGLY",
+      "is_movie": true,
+      "original_title": "🔥 Police Story Lockdown – Film d’azione completo in HD, solo su Film&Clips!",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "Ie81t6qnwFA",
+      "is_movie": false,
+      "original_title": "Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 21",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match",
+      "related_video_ids": [
+        "frNVvfWlDKw",
+        "Ie81t6qnwFA"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "reserve_link",
+      "reason_not_movie": "doppione riserva di Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 22: nascosto dalla lista principale, resta fallback automatico come Riserva 1"
+    },
+    {
+      "video_id": "U5h9F92gJUY",
+      "is_movie": true,
+      "original_title": "Sequenza Esplosiva | HD | Commedia, Azione | Film Completo",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match",
+      "related_video_ids": [
+        "U5h9F92gJUY",
+        "5PTul2h1LIU"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "primary_with_reserves",
+      "duplicate_reserve_note": "Doppione gestito automaticamente da catalog_new_uploads.py: la versione migliore resta visibile, le altre sono fallback automatici."
+    },
+    {
+      "video_id": "bW5a2mjuc5I",
+      "is_movie": true,
+      "original_title": "Human Resources | HD | Horror Psicologico | Film Completo",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": 1318490,
+      "tmdb_title_official": "Human Resources",
+      "tmdb_year_official": 2024,
+      "tmdb_poster_path": "/mCR66rvsZ3yysTy5tHOH9wh7mYH.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_youtube_originale": "Human Resources | HD | Horror Psicologico | Film Completo",
+        "youtube_url": "https://www.youtube.com/watch?v=bW5a2mjuc5I",
+        "titolo_italiano": "Human Resources",
+        "titolo_originale": "Human Resources",
+        "anno_uscita": 2024,
+        "durata_minuti": 10,
+        "genere": [],
+        "regista": [
+          "Jay Ness"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Lily Rains",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/vRBVh3D4S9jSTabiQLSsf7fUsk3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/104913",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Casey E. Lewis",
+            "personaggio": null,
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1211650",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "A human resources professional has the assignment of teaching a timid new hire how to perform empathy. As she instructs him through a series of social behaviors a connection is formed between them.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/mCR66rvsZ3yysTy5tHOH9wh7mYH.jpg",
+        "trailer": {
+          "url": null,
+          "lingua": null,
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": false,
+          "motivo_verifica": ""
+        },
+        "tmdb_id_scelto": 1318490
+      }
+    },
+    {
+      "video_id": "VCTfMF3UDX8",
+      "is_movie": true,
+      "original_title": "Contract Killers | HD | Azione, Thriller, Crime | Film Completo",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": 13277,
+      "tmdb_title_official": "Contract Killers",
+      "tmdb_year_official": 2008,
+      "tmdb_poster_path": "/lfL4koU1lAHwKEQK6hd9VcwnDjS.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_youtube_originale": "Contract Killers | HD | Azione, Thriller, Crime | Film Completo",
+        "youtube_url": "https://www.youtube.com/watch?v=VCTfMF3UDX8",
+        "titolo_italiano": "Contract Killers",
+        "titolo_originale": "Contract Killers",
+        "anno_uscita": 2008,
+        "durata_minuti": 98,
+        "genere": [
+          "Azione"
+        ],
+        "regista": [
+          "Justin Rhodes"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Frida Farrell",
+            "personaggio": "Jane",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oBelZkahdsdE84Xbo23cy0ZzcEQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/126885",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nick Mancuso",
+            "personaggio": "Witkoff",
+            "foto_url": "https://image.tmdb.org/t/p/w185/sGOtCUJed5lyx4eUOFcKbIKVRDI.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/49877",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rhett Giles",
+            "personaggio": "Pernell",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vYCaEMNpSLGqiYZftxhlSkwhtsP.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/30066",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Christian Willis",
+            "personaggio": "Lars",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2046127",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "G. Anthony Joseph",
+            "personaggio": "Monoven",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tBpJ0C36z7JuWKg1YnPVhkRZYso.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/96749",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Steve Boergadine",
+            "personaggio": "Winston Scott",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/192007",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Wolf Muser",
+            "personaggio": "Targonsky",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pjtffZMshARfyYvFdFJrPqykkXl.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1219524",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lee Sherman",
+            "personaggio": "Alex",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2648203",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Paul Cram",
+            "personaggio": "Chuck Dittmer",
+            "foto_url": "https://image.tmdb.org/t/p/w185/o8dKuDujy9KWSYUANNJazwo9qL1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1629900",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Justin Smith",
+            "personaggio": "Rick",
+            "foto_url": "https://image.tmdb.org/t/p/w185/m9aW0Q43eiZ68b5Pgu2WxXAHQxB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/108726",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Una donna, un'assassina a contratto, avrà problemi quando il suo ultimo incarico non andrà come si aspettava. Improvvisamente sarà inseguita da numerosi cacciatori di taglie che non avranno scrupoli a porre fine alla sua vita...",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/lfL4koU1lAHwKEQK6hd9VcwnDjS.jpg",
+        "trailer": {
+          "url": null,
+          "lingua": null,
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": false,
+          "motivo_verifica": ""
+        },
+        "tmdb_id_scelto": 13277
+      }
+    },
+    {
+      "video_id": "frNVvfWlDKw",
+      "is_movie": true,
+      "original_title": "Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 22",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match",
+      "related_video_ids": [
+        "frNVvfWlDKw",
+        "k_leBfzBz2I"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "primary_with_reserves",
+      "duplicate_reserve_note": "Doppione gestito automaticamente da catalog_new_uploads.py: la versione migliore resta visibile, le altre sono fallback automatici."
+    },
+    {
+      "video_id": "ksTsJlMyhRc",
+      "is_movie": false,
+      "original_title": "Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 14",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match",
+      "related_video_ids": [
+        "frNVvfWlDKw",
+        "ksTsJlMyhRc"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "reserve_link",
+      "reason_not_movie": "doppione riserva di Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 22: nascosto dalla lista principale, resta fallback automatico come Riserva 1"
+    },
+    {
+      "video_id": "TENcC1Zl-Cg",
+      "is_movie": false,
+      "original_title": "Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 11",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match",
+      "related_video_ids": [
+        "frNVvfWlDKw",
+        "TENcC1Zl-Cg"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "reserve_link",
+      "reason_not_movie": "doppione riserva di Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 22: nascosto dalla lista principale, resta fallback automatico come Riserva 1"
+    },
+    {
+      "video_id": "UmgoxlEVcfA",
+      "is_movie": false,
+      "original_title": "Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 12",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match",
+      "related_video_ids": [
+        "frNVvfWlDKw",
+        "UmgoxlEVcfA"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "reserve_link",
+      "reason_not_movie": "doppione riserva di Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 22: nascosto dalla lista principale, resta fallback automatico come Riserva 1"
+    },
+    {
+      "video_id": "Yzwu0AoybyU",
+      "is_movie": false,
+      "original_title": "Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 13",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match",
+      "related_video_ids": [
+        "frNVvfWlDKw",
+        "Yzwu0AoybyU"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "reserve_link",
+      "reason_not_movie": "doppione riserva di Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 22: nascosto dalla lista principale, resta fallback automatico come Riserva 1"
+    },
+    {
+      "video_id": "XL878QVJadg",
+      "is_movie": false,
+      "original_title": "Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 19",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match",
+      "related_video_ids": [
+        "frNVvfWlDKw",
+        "XL878QVJadg"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "reserve_link",
+      "reason_not_movie": "doppione riserva di Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 22: nascosto dalla lista principale, resta fallback automatico come Riserva 1"
+    },
+    {
+      "video_id": "NpwRlFN1n-o",
+      "is_movie": false,
+      "original_title": "Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 15",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match",
+      "related_video_ids": [
+        "frNVvfWlDKw",
+        "NpwRlFN1n-o"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "reserve_link",
+      "reason_not_movie": "doppione riserva di Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 22: nascosto dalla lista principale, resta fallback automatico come Riserva 1"
+    },
+    {
+      "video_id": "NGBewh4-HCg",
+      "is_movie": false,
+      "original_title": "Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 16",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match",
+      "related_video_ids": [
+        "frNVvfWlDKw",
+        "NGBewh4-HCg"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "reserve_link",
+      "reason_not_movie": "doppione riserva di Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 22: nascosto dalla lista principale, resta fallback automatico come Riserva 1"
+    },
+    {
+      "video_id": "9SHD6x1ChYM",
+      "is_movie": false,
+      "original_title": "Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 17",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match",
+      "related_video_ids": [
+        "frNVvfWlDKw",
+        "9SHD6x1ChYM"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "reserve_link",
+      "reason_not_movie": "doppione riserva di Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 22: nascosto dalla lista principale, resta fallback automatico come Riserva 1"
+    },
+    {
+      "video_id": "6mwYTsFuPbc",
+      "is_movie": false,
+      "original_title": "Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 20",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match",
+      "related_video_ids": [
+        "frNVvfWlDKw",
+        "6mwYTsFuPbc"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "reserve_link",
+      "reason_not_movie": "doppione riserva di Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 22: nascosto dalla lista principale, resta fallback automatico come Riserva 1"
+    },
+    {
+      "video_id": "-0elZsc3UNI",
+      "is_movie": false,
+      "original_title": "Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 18",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match",
+      "related_video_ids": [
+        "frNVvfWlDKw",
+        "-0elZsc3UNI"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "reserve_link",
+      "reason_not_movie": "doppione riserva di Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 22: nascosto dalla lista principale, resta fallback automatico come Riserva 1"
+    },
+    {
+      "video_id": "SsMWQeeWY04",
+      "is_movie": false,
+      "original_title": "Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 08",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match",
+      "related_video_ids": [
+        "frNVvfWlDKw",
+        "SsMWQeeWY04"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "reserve_link",
+      "reason_not_movie": "doppione riserva di Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 22: nascosto dalla lista principale, resta fallback automatico come Riserva 1"
+    },
+    {
+      "video_id": "TotV4tEwAJg",
+      "is_movie": false,
+      "original_title": "Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 09",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match",
+      "related_video_ids": [
+        "frNVvfWlDKw",
+        "TotV4tEwAJg"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "reserve_link",
+      "reason_not_movie": "doppione riserva di Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 22: nascosto dalla lista principale, resta fallback automatico come Riserva 1"
+    },
+    {
+      "video_id": "D5W7ygiEYa4",
+      "is_movie": false,
+      "original_title": "Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 06",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match",
+      "related_video_ids": [
+        "frNVvfWlDKw",
+        "D5W7ygiEYa4"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "reserve_link",
+      "reason_not_movie": "doppione riserva di Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 22: nascosto dalla lista principale, resta fallback automatico come Riserva 1"
+    },
+    {
+      "video_id": "5Vd0o86gHpI",
+      "is_movie": false,
+      "original_title": "Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 10",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match",
+      "related_video_ids": [
+        "frNVvfWlDKw",
+        "5Vd0o86gHpI"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "reserve_link",
+      "reason_not_movie": "doppione riserva di Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 22: nascosto dalla lista principale, resta fallback automatico come Riserva 1"
+    },
+    {
+      "video_id": "0Cpa_cpFAYo",
+      "is_movie": false,
+      "original_title": "Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 07",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match",
+      "related_video_ids": [
+        "frNVvfWlDKw",
+        "0Cpa_cpFAYo"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "reserve_link",
+      "reason_not_movie": "doppione riserva di Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 22: nascosto dalla lista principale, resta fallback automatico come Riserva 1"
+    },
+    {
+      "video_id": "pp9riFDA2Fc",
+      "is_movie": false,
+      "original_title": "Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 03",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match",
+      "related_video_ids": [
+        "frNVvfWlDKw",
+        "pp9riFDA2Fc"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "reserve_link",
+      "reason_not_movie": "doppione riserva di Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 22: nascosto dalla lista principale, resta fallback automatico come Riserva 1"
+    },
+    {
+      "video_id": "GRz_e14G1ng",
+      "is_movie": false,
+      "original_title": "Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 04",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match",
+      "related_video_ids": [
+        "frNVvfWlDKw",
+        "GRz_e14G1ng"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "reserve_link",
+      "reason_not_movie": "doppione riserva di Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 22: nascosto dalla lista principale, resta fallback automatico come Riserva 1"
+    },
+    {
+      "video_id": "VLqN7wx9rkQ",
+      "is_movie": false,
+      "original_title": "Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 02",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match",
+      "related_video_ids": [
+        "frNVvfWlDKw",
+        "VLqN7wx9rkQ"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "reserve_link",
+      "reason_not_movie": "doppione riserva di Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 22: nascosto dalla lista principale, resta fallback automatico come Riserva 1"
+    },
+    {
+      "video_id": "-VCPFg4vVkw",
+      "is_movie": false,
+      "original_title": "Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 01",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match",
+      "related_video_ids": [
+        "frNVvfWlDKw",
+        "-VCPFg4vVkw"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "reserve_link",
+      "reason_not_movie": "doppione riserva di Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 22: nascosto dalla lista principale, resta fallback automatico come Riserva 1"
+    },
+    {
+      "video_id": "k_leBfzBz2I",
+      "is_movie": false,
+      "original_title": "Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 05",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match",
+      "related_video_ids": [
+        "frNVvfWlDKw",
+        "k_leBfzBz2I"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "reserve_link",
+      "reason_not_movie": "doppione riserva di Queen of Swords (La Regina di Spade) | Western | Action | Stagione 01 | Episodio 22: nascosto dalla lista principale, resta fallback automatico come Riserva 1"
+    },
+    {
+      "video_id": "rHSem8l4B8M",
+      "is_movie": true,
+      "original_title": "🎬 American Meltdown | HD | Thriller | Film completo",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "0K-Y5j46Gnk",
+      "is_movie": false,
+      "original_title": "Iron Sky – La battaglia continua (Film Completo in Italiano) | Azione Sci-Fi (2019)",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match",
+      "related_video_ids": [
+        "oKyIY51HKRk",
+        "0K-Y5j46Gnk"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "reserve_link",
+      "reason_not_movie": "doppione riserva di Iron Sky – La battaglia continua (Film Completo in Italiano) | Azione Sci-Fi (2019): nascosto dalla lista principale, resta fallback automatico come Riserva 1"
+    },
+    {
+      "video_id": "KEfZD7V2z2M",
+      "is_movie": true,
+      "original_title": "Su le mani, cadavere! Sei in arresto | Western | HD | Film Completo in Italiano",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": 129856,
+      "tmdb_title_official": "Su le mani, cadavere! Sei in arresto",
+      "tmdb_year_official": 1971,
+      "tmdb_poster_path": "/e1QC3Wz86AZDQZKAp2Sk4MmStpF.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_youtube_originale": "Su le mani, cadavere! Sei in arresto | Western | HD | Film Completo in Italiano",
+        "youtube_url": "https://www.youtube.com/watch?v=KEfZD7V2z2M",
+        "titolo_italiano": "Su le mani, cadavere! Sei in arresto",
+        "titolo_originale": "Su le mani, cadavere! Sei in arresto",
+        "anno_uscita": 1971,
+        "durata_minuti": 94,
+        "genere": [
+          "Azione",
+          "Romance",
+          "Western"
+        ],
+        "regista": [
+          "León Klimovsky",
+          "Sergio Bergonzelli"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Espartaco Santoni",
+            "personaggio": "Mancino / Dollar",
+            "foto_url": "https://image.tmdb.org/t/p/w185/76M72gHpW7OEkMcb0E6hhde36Ja.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/33827",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Peter Lee Lawrence",
+            "personaggio": "Sando Kid / Kid Johnson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kzOU2HeHXwH7U9ZPhzCpy2FePJq.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/228490",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Aldo Sambrell",
+            "personaggio": "Lee Grayton / Grayson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lJsoZtOeNaer5jZSydSjONL32xp.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/49895",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Helga Liné",
+            "personaggio": "Maybelle",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bZDjwLgTTQSMXCAYBRgw9hDqpHA.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/31700",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tomás Blanco",
+            "personaggio": "Mr. Carson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oXITtURcZk9PpmwPOGA42Cx28zD.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/544572",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Franco Agostino",
+            "personaggio": "Bamba / Padre Brown",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1090563",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Aurora de Alba",
+            "personaggio": "Mrs. Elizabeth Carson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/o5DKwSCiYg2t3vLi1UE9T56Dobr.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/97631",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lorenzo Robledo",
+            "personaggio": "Bailor",
+            "foto_url": "https://image.tmdb.org/t/p/w185/p82MoYURVN95wwIJnX7aO1xZc6I.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/100930",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "José Canalejas",
+            "personaggio": "Spiro / Angel",
+            "foto_url": "https://image.tmdb.org/t/p/w185/j0Es58iqXQC1HlEVyqmZiZp8PCf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/72889",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Luis Barboo",
+            "personaggio": "J. Mac",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cCzmwrlA7jZ9VyFAVTNqkI3CahX.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/30963",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "A Springfield, un disumano ex-capitano dei nordisti fa il bello e il cattivo tempo, con la collaborazione delle persone più influenti della cittadina. Egli costringe con la violenza i proprietari dei ranch circostanti a vendergli sottoprezzo i propri terreni, sui quali sarà costruita una ferrovia. Quando anche il padre di Eleonor sta per subire la stessa sorte, interviene il ranger Sando Kid, legato da amicizia con la ragazza. Il ranger neutralizza l'ex capitano e i suoi compari, quindi sposa Eleonor.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/e1QC3Wz86AZDQZKAp2Sk4MmStpF.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=-nKrCwjmS5c",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "TMDB videos"
+        },
+        "tmdb_id_scelto": 129856
+      }
+    },
+    {
+      "video_id": "HggT4-RIgrg",
+      "is_movie": true,
+      "original_title": "Il magnifico gladiatore | Film completo in italiano",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": 211179,
+      "tmdb_title_official": "Il magnifico gladiatore",
+      "tmdb_year_official": 1964,
+      "tmdb_poster_path": "/ePP3X8YRlXaQm5ERlX2W5o0rX0Z.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_youtube_originale": "Il magnifico gladiatore | Film completo in italiano",
+        "youtube_url": "https://www.youtube.com/watch?v=HggT4-RIgrg",
+        "titolo_italiano": "Il magnifico gladiatore",
+        "titolo_originale": "Il magnifico gladiatore",
+        "anno_uscita": 1964,
+        "durata_minuti": 93,
+        "genere": [
+          "Azione",
+          "Avventura",
+          "Dramma"
+        ],
+        "regista": [
+          "Alfonso Brescia"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Mark Forest",
+            "personaggio": "Hercules / Attalus",
+            "foto_url": "https://image.tmdb.org/t/p/w185/aT9uLOnjzPWPkYK3YJSVp8DTtmd.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/980234",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marilù Tolo",
+            "personaggio": "Velida",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uG3Mbw9ppF4OMEylCGwfT3PgVmB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/796326",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Paolo Gozlino",
+            "personaggio": "Zullo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6xKfz6l2oT6yTHuhRfHHGX0bZqR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1019917",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jolanda Modio",
+            "personaggio": "Clea",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tG7BXZ4n77jg9f66FOXokxy1OZ1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/132487",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Franco Cobianchi",
+            "personaggio": "Emperor Caesar Galienus",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1194391",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Oreste Lionello",
+            "personaggio": "Drusius",
+            "foto_url": "https://image.tmdb.org/t/p/w185/w3iMIxwX4g5bIFs9u5UTcboXESc.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/103115",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nazzareno Zamperla",
+            "personaggio": "Orestes / Horatius",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2MJm2Oq7yUaIOhKaOyMIxYnvDRQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/72662",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Fedele Gentile",
+            "personaggio": "Arminius",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fMVPhRCatLHuCalI5aeLKw5qTXF.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1046563",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Giulio Tomei",
+            "personaggio": "Old Shepherd",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9RP2Pf7OHlWZ3TFlGbJeNoYIjM7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1310050",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Renato Montalbano",
+            "personaggio": "Gladiator Freeing the Emperor",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hwTMRx7G45Bark8JBfWPVAzcN84.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/24731",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Il figlio del re dei Daci Ercole viene fatto prigioniero dai romani. L'imperatore Gallieno, in rispetto del suo valore gli risparmia la vita e lo nomina istruttore e tutore dei gladiatori. La bella Velida, figlia di Gallieno, si innamora di lui e fa ingelosire Zuddo, capo delle guardie pretoriane, che è costretto a partire per la Dacia in cui si battaglia. Zuddo ritorna a Roma prima del previsto, portando con sé un uomo di nome Astolfo, molto somigliante all'imperatore. Zuddo riesce a scambiare l'imperatore con il sosia e a far ricadere la colpa su Ercole. In soccorso di Ercole giunge il pastore Drusio, che riesce a liberare l'eroe dalla prigione e gli chiede di guidare una rivolta contro Zuddo, che nel frattempo ha costretto Velida al matrimonio. Alla fine Ercole ha la meglio e riesce a riportare Gallieno sul trono, per ringraziarlo l'imperatore gli rende la libertà e la mano della figlia.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/ePP3X8YRlXaQm5ERlX2W5o0rX0Z.jpg",
+        "trailer": {
+          "url": null,
+          "lingua": null,
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": false,
+          "motivo_verifica": ""
+        },
+        "tmdb_id_scelto": 211179
+      }
+    },
+    {
+      "video_id": "1dD-ydVFIsc",
+      "is_movie": true,
+      "original_title": "Cold War II | HD | Azione | Film Completo in Italiano",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": 416249,
+      "tmdb_title_official": "Cold War II",
+      "tmdb_year_official": 2016,
+      "tmdb_poster_path": "/Al9AKsVBz12UztMCoc1jniRPZbh.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_youtube_originale": "Cold War II | HD | Azione | Film Completo in Italiano",
+        "youtube_url": "https://www.youtube.com/watch?v=1dD-ydVFIsc",
+        "titolo_italiano": "Cold War II",
+        "titolo_originale": "寒戰 II",
+        "anno_uscita": 2016,
+        "durata_minuti": 110,
+        "genere": [
+          "Azione",
+          "Thriller",
+          "Crime"
+        ],
+        "regista": [
+          "Leung Lok-man",
+          "陸劍青"
+        ],
+        "cast_principale": [
+          {
+            "nome": "郭富城",
+            "personaggio": "Sean Lau",
+            "foto_url": "https://image.tmdb.org/t/p/w185/loXwVtS8N0Wrnpx2oRAPMGPLs0n.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/21908",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "梁家輝",
+            "personaggio": "M.B. Lee",
+            "foto_url": "https://image.tmdb.org/t/p/w185/il4L0QSp5STfZCB1wsvb6rSCDar.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/56861",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Chow Yun-Fat",
+            "personaggio": "Oswald S.C. Kan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2Jybmz4PSuilsSnmQ4tYWXykPjC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1619",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "楊采妮",
+            "personaggio": "Phoenix Leung",
+            "foto_url": "https://image.tmdb.org/t/p/w185/peIJZb7cc3RtMhZjRbHqR3u4ac3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/66762",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "文詠珊",
+            "personaggio": "Isabel Au",
+            "foto_url": "https://image.tmdb.org/t/p/w185/h7UKw1U1JQnROUO3mOCrXdDeiKL.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/78253",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Eddie Peng Yu-Yan",
+            "personaggio": "Joe Lee Ka-cheun",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gIiEFUVbGRwrLKUURxU67ShJ00o.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/126778",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "李治廷",
+            "personaggio": "Billy Cheung Kwok-piu",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xIhutO65mdNEWKHusfvHZYTDITE.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/148881",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "楊祐寧",
+            "personaggio": "Roy Ho",
+            "foto_url": "https://image.tmdb.org/t/p/w185/d0C8Dp9itcFV4Q8bLRISguGJmPR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/96958",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "張國柱",
+            "personaggio": "Peter Choi",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6hGLo2VE970oi3LMPr9QcmiaDSG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1088685",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "吴樾",
+            "personaggio": "Wu Tin-Man",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hRePA3mh9mfAqX7SJ4rGxrNrxT7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1800792",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Dopo un'operazione portata a termine con successo, Sean Lau è stato nominato commissario di polizia. Tuttavia, per lui, le cose si mettono male quando la moglie e la figlia vengono rapite. Per salvarle dalla follia di uno psicopatico, Sean è costretto a cercare l'aiuto dell'ex rivale Waise Lee, ormai ritiratosi in pensione.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/Al9AKsVBz12UztMCoc1jniRPZbh.jpg",
+        "trailer": {
+          "url": null,
+          "lingua": null,
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": false,
+          "motivo_verifica": ""
+        },
+        "tmdb_id_scelto": 416249
+      }
+    },
+    {
+      "video_id": "XNmmCSlb6j4",
+      "is_movie": true,
+      "original_title": "BancoPaz (Scorched) | Commedia / Azione | Film Completo in Italiano",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "y90sjiqSIxM",
+      "is_movie": true,
+      "original_title": "Age Of Tomorrow   HD   Azione   Film Completo in Italiano",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "_pHxOPLKhsQ",
+      "is_movie": true,
+      "original_title": "Soldato di ventura | Azione | Spionaggio | HD | Film Completo in Italiano",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": 11813,
+      "tmdb_title_official": "Il soldato di ventura",
+      "tmdb_year_official": 1976,
+      "tmdb_poster_path": "/bEGNTbABJKo2XeefUjawlkq3gJX.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_youtube_originale": "Soldato di ventura | Azione | Spionaggio | HD | Film Completo in Italiano",
+        "youtube_url": "https://www.youtube.com/watch?v=_pHxOPLKhsQ",
+        "titolo_italiano": "Il soldato di ventura",
+        "titolo_originale": "Il soldato di ventura",
+        "anno_uscita": 1976,
+        "durata_minuti": 95,
+        "genere": [
+          "Azione",
+          "Commedia"
+        ],
+        "regista": [
+          "Pasquale Festa Campanile"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Bud Spencer",
+            "personaggio": "Hector Fieramosca / Ettore Fieramosca da Capua",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cVbBoKxRDFOdDKwdpRmxVazDWlE.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/18841",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Franco Agostini",
+            "personaggio": "Romanello da Forlì",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4Wy0doxjC100qh0TY7b2cy4PFpU.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/70561",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Enzo Cannavale",
+            "personaggio": "Bracalone da Napoli",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qKTBcs4UEwBhZIeYBpVcDjZVJKg.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/52657",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Frédéric de Pasquale",
+            "personaggio": "Bayar",
+            "foto_url": "https://image.tmdb.org/t/p/w185/c5Xx3J1admtiRftfR4ANUrbfUGW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/15185",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jacques Dufilho",
+            "personaggio": "Mariano de Trani",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7CK8OE5ww4AOdH61M1jVMZeimjE.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/538228",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Andréa Ferréol",
+            "personaggio": "Leonora",
+            "foto_url": "https://image.tmdb.org/t/p/w185/l2JBvxmFHXAMXsSxK7x18LVykOe.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/10262",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jacques Herlin",
+            "personaggio": "Pavedes",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cZmxyy3Il7SefSY8Jfv4ghjr0j5.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/6784",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Angelo Infanti",
+            "personaggio": "Graziano d'Asti",
+            "foto_url": "https://image.tmdb.org/t/p/w185/umdxDMQe8tVJUUc0re0bd28sH3H.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/27647",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Philippe Leroy",
+            "personaggio": "Charles La Motte",
+            "foto_url": "https://image.tmdb.org/t/p/w185/woG9lyvZSEEF4j5Kl03rSnHTW5R.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/25333",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Oreste Lionello",
+            "personaggio": "Giovenale da Vetralla",
+            "foto_url": "https://image.tmdb.org/t/p/w185/w3iMIxwX4g5bIFs9u5UTcboXESc.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/103115",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "La celeberrima \"disfida di Barletta\" (13 settembre 1503) in chiave comico-grottesca: tredici italiani, capeggiati da Ettore Fieramosca, affrontano e sconfiggono tredici francesi che li avevano offesi. Quasi tutti i colori del comico in un film ricco d'invenzioni.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/bEGNTbABJKo2XeefUjawlkq3gJX.jpg",
+        "trailer": {
+          "url": null,
+          "lingua": null,
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": false,
+          "motivo_verifica": ""
+        },
+        "tmdb_id_scelto": 11813
+      }
+    },
+    {
+      "video_id": "G-ddhPApfDs",
+      "is_movie": true,
+      "original_title": "Flight of Fear   Terrore ad alta quota   Film Completo in Italiano   Thriller aereo",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "0wEn1MC3lJM",
+      "is_movie": true,
+      "original_title": "Megaboa (2021) - Film Completo in Italiano | Horror Creature & Survival",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": 920081,
+      "tmdb_title_official": "Megaboa",
+      "tmdb_year_official": 2021,
+      "tmdb_poster_path": "/sAnAMv3eyQiGI1z2k8NsvH0Y6r5.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_youtube_originale": "Megaboa (2021) - Film Completo in Italiano | Horror Creature & Survival",
+        "youtube_url": "https://www.youtube.com/watch?v=0wEn1MC3lJM",
+        "titolo_italiano": "Megaboa",
+        "titolo_originale": "Megaboa",
+        "anno_uscita": 2021,
+        "durata_minuti": 100,
+        "genere": [
+          "Azione",
+          "Horror",
+          "Fantascienza",
+          "televisione film"
+        ],
+        "regista": [
+          "Mario N. Bonassin"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Eric Roberts",
+            "personaggio": "Dr. Malone",
+            "foto_url": "https://image.tmdb.org/t/p/w185/NiWg1TaUcal7xn1ZQeyA2dLd5F.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/21315",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Michelle Elizabeth O'Shea",
+            "personaggio": "Allison",
+            "foto_url": "https://image.tmdb.org/t/p/w185/33TmijCArUboOBLimQpyv8iuX99.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3358858",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Emilia Torello",
+            "personaggio": "Grace",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xpkgJ90Mh56mpPS4mEdK8PvlbAM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3358840",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Joe Herrera",
+            "personaggio": "Joaquin",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2331323",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Garrett Schulte",
+            "personaggio": "Adam",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3358872",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Vimala Veera",
+            "personaggio": "Benji",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3358876",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Jadon Cal",
+            "personaggio": "Jason",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lNGeiObRJR2ODlQ9QRWaMilRac7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2835683",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ray Acevedo",
+            "personaggio": "Rex",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xHkZyd9D7fB3Y86fe1XaBmVPu5f.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3358859",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sharon Desiree",
+            "personaggio": "Rita",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uuUH2wZgc1Wfl84NK9MVmSC3QA7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2068680",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Michael Devorzon",
+            "personaggio": "Jake",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iUIJKLXxLLwykz4ryuVaPZD15jg.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1182564",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "On a trip to Colombia, a group of college students encounter a fifty-foot boa constrictor, hungry for blood.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/sAnAMv3eyQiGI1z2k8NsvH0Y6r5.jpg",
+        "trailer": {
+          "url": null,
+          "lingua": null,
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": false,
+          "motivo_verifica": ""
+        },
+        "tmdb_id_scelto": 920081
+      }
+    },
+    {
+      "video_id": "5PTul2h1LIU",
+      "is_movie": false,
+      "original_title": "Sequenza esplosiva - Film d'azione completo in italiano",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match",
+      "related_video_ids": [
+        "U5h9F92gJUY",
+        "5PTul2h1LIU"
+      ],
+      "related_video_labels": [
+        "Principale",
+        "Riserva 1"
+      ],
+      "duplicate_policy": "reserve_link",
+      "reason_not_movie": "doppione riserva di Sequenza Esplosiva | HD | Commedia, Azione | Film Completo: nascosto dalla lista principale, resta fallback automatico come Riserva 1"
+    },
+    {
+      "video_id": "n_FBj52cHlA",
+      "is_movie": true,
+      "original_title": "Eleonora Giorgi in \"Liberi armati pericolosi\" | Thriller | HD | Film completo in Italiano",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "SXeVao0r1F4",
+      "is_movie": true,
+      "original_title": "Bruce Willis in \"The Prince - Tempo di Uccidere\" | HD | Azione | Film Completo in Italiano",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": 71642,
+      "tmdb_title_official": "Tempo di uccidere",
+      "tmdb_year_official": 1989,
+      "tmdb_poster_path": "/8v4LHoNcdO5HJArFQ1pqd4UJzeU.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_youtube_originale": "Bruce Willis in \"The Prince - Tempo di Uccidere\" | HD | Azione | Film Completo in Italiano",
+        "youtube_url": "https://www.youtube.com/watch?v=SXeVao0r1F4",
+        "titolo_italiano": "Tempo di uccidere",
+        "titolo_originale": "Tempo di uccidere",
+        "anno_uscita": 1989,
+        "durata_minuti": 99,
+        "genere": [
+          "Guerra",
+          "Dramma"
+        ],
+        "regista": [
+          "Giuliano Montaldo"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Nicolas Cage",
+            "personaggio": "Enrico Silvestri",
+            "foto_url": "https://image.tmdb.org/t/p/w185/y1RtezurZYveYkVNRht7CwEgSYY.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2963",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ricky Tognazzi",
+            "personaggio": "Mario",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fBgtva5iaF2mUSzC4o7qqYbBEIb.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/105114",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Patrice-Flora Praxo",
+            "personaggio": "Mariam",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uS9t6GuE6DeEt4Mwm045wXDTKB3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1371073",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gianluca Favilla",
+            "personaggio": "Autista di Enrico",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8P0Zaf4PWY0hvl15klQlauFm7b4.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/567977",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Georges Claisse",
+            "personaggio": "Tiberi",
+            "foto_url": "https://image.tmdb.org/t/p/w185/aQKmG6aDPVgx8ltolX2HaMIYh4A.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/25062",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Robert Liensol",
+            "personaggio": "Joannes",
+            "foto_url": "https://image.tmdb.org/t/p/w185/v1Xx0v8kz5VDFcMeBwADgvGKcXd.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/87425",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Giancarlo Giannini",
+            "personaggio": "Il Maggiore",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xsnoThKUjFlhmvXKS4ZqAx1x3zb.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3753",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Vittorio Amandola",
+            "personaggio": "Cerioni",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dE6WnX5yh550Q4PIGGvWU4uHu7S.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/203457",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Pao Pei Andreoli",
+            "personaggio": "Troops' Mascot",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jT8q6FYM1wxfbgNP829hd1oo1dR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2132904",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mario Mazzarotto",
+            "personaggio": "Army Clerk",
+            "foto_url": "https://image.tmdb.org/t/p/w185/aO38G72u1zStqpj3fokbPJHoMeM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/35122",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Etiopia, 1936: un tenente italiano (Nicolas Cage) perde la ragione dopo aver ucciso accidentalmente una ragazza locale che aveva violentato poco pima. Il timore di aver contratto una malattia sessualmente trasmissibile e il senso di colpa inizieranno a farsi troppo pesanti da sopportare.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/8v4LHoNcdO5HJArFQ1pqd4UJzeU.jpg",
+        "trailer": {
+          "url": null,
+          "lingua": null,
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": false,
+          "motivo_verifica": ""
+        },
+        "tmdb_id_scelto": 71642
+      }
+    },
+    {
+      "video_id": "_lpiyBhudgk",
+      "is_movie": true,
+      "original_title": "Sharknado 10Th Anniversary | HD | Azione | Film completo con sottotitoli in italiano",
+      "channel": "Film&Clips Azione",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "7wsQ_7xSPKw",
+      "is_movie": true,
+      "original_title": "7 assassine dalle labbra di velluto | Azione | Film Completo in Italiano",
       "channel": "Film&Clips Azione",
       "tmdb_id": null,
       "tmdb_confidence": "no_match"
