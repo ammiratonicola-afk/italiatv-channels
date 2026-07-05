@@ -343165,7 +343165,7 @@
     },
     {
       "video_id": "FAtNL-PZsbE",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Velisti per Caso - Ep 2 | HD | Vento in Poppa e Sapore di Sale: L'Inizio del nostro viaggio in vela",
       "channel": "TVItalia",
       "tmdb_id": 1472443,
@@ -343199,7 +343199,10 @@
           "motivo_verifica": ""
         },
         "tmdb_id_scelto": 1472443
-      }
+      },
+      "reason_not_movie": "eliminato dall'editor web",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:21:38.105Z"
     },
     {
       "video_id": "HXIKJj7vILA",
@@ -344888,7 +344891,7 @@
     {
       "video_id": "5SjLCgZY7Hk",
       "is_movie": true,
-      "original_title": "A Vineyard Christmas | Romantico | Film completo in italiano HD",
+      "original_title": "A Vineyard Christmas",
       "channel": "TVItalia",
       "tmdb_id": 1166824,
       "tmdb_title_official": "A Vineyard Christmas",
@@ -344899,8 +344902,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "A Vineyard Christmas | Romantico | Film completo in italiano HD",
-        "youtube_url": "https://www.youtube.com/watch?v=5SjLCgZY7Hk",
         "titolo_italiano": "A Vineyard Christmas",
         "titolo_originale": "A Vineyard Christmas",
         "anno_uscita": 2023,
@@ -344970,20 +344971,30 @@
             }
           }
         ],
-        "trama": "Heather Marques, host of Tannin TV’s popular show: Read Between the Vines, is determined to create the perfect Christmas episode by featuring a unique winery from her hometown in Vermont the specialists in Ice Wine. The only thing standing in her way? Rudy Knobloch, the attractive, stubborn owner of the winery.",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Heather Marques, conduttrice del popolare programma di Tannin TV \"Read Between the Vines\", è decisa a realizzare l'episodio di Natale perfetto presentando una cantina unica della sua città natale nel Vermont, specializzata in vino di ghiaccio. L'unico ostacolo sulla sua strada? Rudy Knobloch, l'affascinante e testardo proprietario della cantina.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/b3zlyxVbgOixzGsVNnotqzlkLV9.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=_kQCn-pGMu0"
         },
-        "tmdb_id_scelto": 1166824
-      }
+        "tmdb_id_scelto": 1166824,
+        "imdb_id_scelto": "tt28669205",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:22:05.188Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:22:05.188Z",
+      "editor_updated_at": "2026-07-05T05:22:05.188Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "Z9xJh2vPgR8",
@@ -345312,7 +345323,7 @@
     {
       "video_id": "AS6LSBejHtw",
       "is_movie": true,
-      "original_title": "Nella rete dell'inganno - Exposed HD | Thriller | Mystery | Film completo in italiano",
+      "original_title": "Exposed",
       "channel": "TVItalia",
       "tmdb_id": 107554,
       "tmdb_title_official": "Nella rete dell'inganno",
@@ -345323,8 +345334,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Nella rete dell'inganno - Exposed HD | Thriller | Mystery | Film completo in italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=AS6LSBejHtw",
         "titolo_italiano": "Nella rete dell'inganno",
         "titolo_originale": "Exposed",
         "anno_uscita": 2011,
@@ -345448,20 +345457,30 @@
             }
           }
         ],
-        "trama": "A young teacher, Emily Bennett, sets out to clear her name after digitally fabricated pornographic photos of her are sent to her students. She soon discovers that this incident is linked to the kidnapping of another young woman and that she is now the kidnapper's next target.",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Una giovane insegnante, Emily Bennett, si impegna a ripulire il suo nome dopo che delle foto pornografiche falsificate digitalmente vengono inviate ai suoi studenti. Scopre presto che questo incidente è collegato al rapimento di un'altra giovane donna e che ora è diventata il prossimo obiettivo del rapitore.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/jGmEzQcziQiDzm44pmIusAPVEw5.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt1878932/videogallery/content_type-trailer"
         },
-        "tmdb_id_scelto": 107554
-      }
+        "tmdb_id_scelto": 107554,
+        "imdb_id_scelto": "tt1878932",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:22:29.052Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "thriller",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:22:29.052Z",
+      "editor_updated_at": "2026-07-05T05:22:29.052Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "gUQ82pwcVkc",
@@ -349127,7 +349146,7 @@
     {
       "video_id": "Zk7nfNtXEvE",
       "is_movie": true,
-      "original_title": "Modelle e Fotografi tra amori e rivalità | COVER GIRLS, ragazze di tutti | Film Completo",
+      "original_title": "Cover Girls",
       "channel": "TVItalia",
       "tmdb_id": 248241,
       "tmdb_title_official": "Cover girls ragazze di tutti",
@@ -349138,8 +349157,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Modelle e Fotografi tra amori e rivalità | COVER GIRLS, ragazze di tutti | Film Completo",
-        "youtube_url": "https://www.youtube.com/watch?v=Zk7nfNtXEvE",
         "titolo_italiano": "Cover girls ragazze di tutti",
         "titolo_originale": "Cover Girls",
         "anno_uscita": 1964,
@@ -349262,20 +349279,30 @@
             }
           }
         ],
-        "trama": "Photographer Philippe Abregas teams up with a Swedish model he met in Roman high society and tells her the story of the four other girls he has chosen to feature on the cover of his magazine.",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Il fotografo Philippe Abregas si unisce a una modella svedese che ha incontrato nell'alta società romana e le racconta la storia delle altre quattro ragazze che ha scelto di mettere in copertina della sua rivista.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/5320ko0KGaUTyfRxmyi1dp5QYB6.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt0056959/videogallery/content_type-trailer"
         },
-        "tmdb_id_scelto": 248241
-      }
+        "tmdb_id_scelto": 248241,
+        "imdb_id_scelto": "tt0056959",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:23:47.772Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "drammatico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:23:47.772Z",
+      "editor_updated_at": "2026-07-05T05:23:47.772Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "l67DdBI0j9c",
