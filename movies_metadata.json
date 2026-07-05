@@ -265619,7 +265619,7 @@
     },
     {
       "video_id": "Ks6FsdwmWyc",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Giovani Iene | George Clooney | Thriller | HD | Film Completo in Italiano",
       "channel": "Azione360",
       "tmdb_id": 46251,
@@ -265783,7 +265783,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T04:31:36.706Z",
       "editor_updated_at": "2026-07-05T04:31:36.706Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_lock_reason": "genere compilato dalla diagnostica editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:20:22.225Z"
     },
     {
       "video_id": "ugOzpQHSm9I",
@@ -304546,7 +304549,7 @@
     },
     {
       "video_id": "AbSIc5pf0Hk",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Cat People",
       "channel": "TVItalia",
       "tmdb_id": 25508,
@@ -304697,7 +304700,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-04T22:32:02.979Z",
       "editor_updated_at": "2026-07-04T22:32:02.979Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:20:22.225Z"
     },
     {
       "video_id": "wtdvVIQAEzY",
@@ -344981,7 +344987,7 @@
     },
     {
       "video_id": "Z9xJh2vPgR8",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Se incontri Sartana prega per la tua morte",
       "channel": "TVItalia",
       "tmdb_id": 83122,
@@ -345137,7 +345143,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T05:17:03.340Z",
       "editor_updated_at": "2026-07-05T05:17:03.340Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:20:22.226Z"
     },
     {
       "video_id": "Jcs4c16e944",
@@ -346380,7 +346389,7 @@
     },
     {
       "video_id": "HPQaQiWjXk0",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Pochi dollari per Django",
       "channel": "TVItalia",
       "tmdb_id": 129577,
@@ -346536,7 +346545,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T05:15:46.853Z",
       "editor_updated_at": "2026-07-05T05:15:46.853Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:20:22.226Z"
     },
     {
       "video_id": "1SOT6je6uiM",
@@ -349267,7 +349279,7 @@
     },
     {
       "video_id": "l67DdBI0j9c",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Two Wrongs",
       "channel": "TVItalia",
       "tmdb_id": 384099,
@@ -349424,7 +349436,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T05:06:58.366Z",
       "editor_updated_at": "2026-07-05T05:06:58.366Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:20:22.226Z"
     },
     {
       "video_id": "iL_nmPZs-7g",
