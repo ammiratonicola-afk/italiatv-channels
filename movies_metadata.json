@@ -324095,7 +324095,7 @@
     },
     {
       "video_id": "DNgVhE4-3Fk",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "MARATONA COMMEDIE ROMANTICHE ❤️ 5 Film Completi in Italiano | Storie d'Amore Emozionanti",
       "channel": "TVItalia",
       "tmdb_id": null,
@@ -324256,7 +324256,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T04:31:36.707Z",
       "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_lock_reason": "genere compilato dalla diagnostica editor",
+      "reason_not_movie": "eliminato dall'editor web",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T04:36:38.426Z"
     },
     {
       "video_id": "Z11tAZo9Dm8",
@@ -324746,23 +324749,19 @@
     {
       "video_id": "6rRcFwwEYOQ",
       "is_movie": true,
-      "original_title": "Film Completo Restaurato: Metello (1970) | Regia Mauro Bolognini",
+      "original_title": "Metello",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 198661,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Film Completo Restaurato: Metello (1970) | Regia Mauro Bolognini",
-        "youtube_url": "https://www.youtube.com/watch?v=6rRcFwwEYOQ",
-        "titolo_corretto": "Metello",
         "titolo_italiano": "Metello",
         "titolo_originale": "Metello",
         "anno_uscita": 1970,
         "durata_minuti": 107,
         "genere": [
-          "Dramma",
-          "Storico"
+          "Dramma"
         ],
         "regista": [
           "Mauro Bolognini"
@@ -324822,132 +324821,107 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/39274",
               "verificata": true
             }
+          },
+          {
+            "nome": "Pino Colizzi",
+            "personaggio": "Renzoli",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5NtFlx4Mi10C2dJG4Qts8hZltmM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/24747",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mariano Rigillo",
+            "personaggio": "Olindo Tinai",
+            "foto_url": "https://image.tmdb.org/t/p/w185/p6bQl4qicc0bFnsKxxKagDjsOOy.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/24290",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Luigi Diberti",
+            "personaggio": "Lippi",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lNLDMKKAyGIGCEmHln82jB5Sdd0.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/27432",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Manuela Andrei",
+            "personaggio": "Adele Salani",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1190674",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Corrado Gaipa",
+            "personaggio": "Badolati",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zqbItAjdOVmAsAXvXLDPOMARjAm.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/24604",
+              "verificata": true
+            }
           }
         ],
-        "trama": "Metello, un giovane muratore nella Firenze di fine Ottocento, si trova a lottare per i diritti dei lavoratori in un periodo di grandi tensioni sociali. Tra amori e sacrifici personali, diventa un leader del primo grande sciopero dei muratori, affrontando il carcere e le tentazioni dell'infedeltà.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Rimasto orfano Metello trova lavoro come muratore nel cantiere di un ex operaio diventato ingegnere che, dimentico delle sue origini, è diventato uno sfruttatore senza scrupoli. Arrestato per essersi scontrato con la forza pubblica, mandata a proibire una manifestazione in seguito alla morte di un muratore anarchico, all'uscita dal carcere trova ad aspettarlo Ersilia, la figlia dell'ingegnere. Nel frattempo a Firenze si è fatto strada l'ideale socialista e Metello, abbandonati gli anarchici, partecipa a una manifestazione per ottenere salari più decorosi.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/5MgU9M0OHfXwnXSyxOq4iEveFiB.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/198661-metello",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": "Da verificare via TMDB videos endpoint"
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt0066075/videogallery/content_type-trailer"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/198661-metello"
-          },
-          {
-            "nome": "OMDb",
-            "url": "http://www.omdbapi.com/?i=tt0066075"
-          },
-          {
-            "nome": "Wikipedia IT",
-            "url": "https://it.wikipedia.org/wiki/Metello_(film)"
-          },
-          {
-            "nome": "Wikipedia EN",
-            "url": "https://en.wikipedia.org/wiki/Metello"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Metello"
-          ],
-          "titolo_originale_trovato_nella_descrizione": "Metello",
-          "anno_trovato": 1970,
-          "durata_video_youtube": "106 min",
-          "attori_trovati": [
-            "Massimo Ranieri",
-            "Ottavia Piccolo",
-            "Frank Wolff"
-          ],
-          "registi_trovati": [
-            "Mauro Bolognini"
-          ],
-          "parole_chiave_trama": [
-            "Firenze",
-            "muratore",
-            "amore",
-            "sciopero",
-            "diritti dei lavoratori",
-            "carcere",
-            "infedeltà"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "alta",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Tutti gli elementi principali (titolo, anno, durata, cast, regista, trama) coincidono perfettamente con il film 'Metello' del 1970."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 100,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "durata",
-            "cast principale",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [],
-          "fonti_concordanti": [
-            "TMDB",
-            "OMDb",
-            "Wikipedia IT",
-            "Wikipedia EN"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "Il film è stato identificato con un alto livello di certezza grazie alla corrispondenza di tutti gli elementi chiave.",
         "tmdb_id_scelto": 198661,
         "imdb_id_scelto": "tt0066075",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:36:01.305Z"
       },
-      "genre": "storico",
+      "genre": "drammatico",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:36:01.305Z",
+      "editor_updated_at": "2026-07-05T04:36:01.305Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/5MgU9M0OHfXwnXSyxOq4iEveFiB.jpg",
+      "tmdb_title_official": "Metello",
+      "tmdb_year_official": 1970,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "Yylo0iS4iLQ",
       "is_movie": true,
-      "original_title": "Forza e Onore: La vendetta dei gladiatori | Film Completo Peplum",
+      "original_title": "La vendetta dei gladiatori",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 343955,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Forza e Onore: La vendetta dei gladiatori | Film Completo Peplum",
-        "youtube_url": "https://www.youtube.com/watch?v=Yylo0iS4iLQ",
-        "titolo_corretto": "La vendetta dei gladiatori",
         "titolo_italiano": "La vendetta dei gladiatori",
         "titolo_originale": "La vendetta dei gladiatori",
         "anno_uscita": 1964,
         "durata_minuti": 94,
         "genere": [
-          "Azione",
-          "Storico"
+          "Avventura"
         ],
         "regista": [
           "Luigi Capuano"
@@ -325007,101 +324981,90 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/45036",
               "verificata": true
             }
+          },
+          {
+            "nome": "Nerio Bernardi",
+            "personaggio": "Tidone",
+            "foto_url": "https://image.tmdb.org/t/p/w185/syfYHY3DeTXSdwGvRb9W9lPwyyJ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/99530",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Andreina Paul",
+            "personaggio": "Calpurnia",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4eEGEzG5DWw63nH84xmJgQi5n9k.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1629712",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mirko Ellis",
+            "personaggio": "Vilfredo, Genserico's Son",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xeVNpzxsPGi6Nhsp34rmnU21THJ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/140436",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Bruno Scipioni",
+            "personaggio": "Guard",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wXNrM7c0bu5eqYnHou0ekBXUYAy.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/237382",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Giulio Tomei",
+            "personaggio": "Christian Leader",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9RP2Pf7OHlWZ3TFlGbJeNoYIjM7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1310050",
+              "verificata": true
+            }
           }
         ],
-        "trama": "Il gladiatore Fabio sfida il potere corrotto di Roma per liberare Flavia, figlia di un imperatore. Dopo essere stato catturato e condannato a morte, Fabio si ribella e combatte per la libertà, affrontando nemici e alleanze inaspettate.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
+        "trama": "I barbari si preparano a invadere Roma. La figlia dell'imperatore, aiutata da sei gladiatori, scongiura il pericolo.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/qeU02PzSbD9Dn3bhoJsqIZnptPf.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/343955-la-vendetta-dei-gladiatori",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": "Da verificare via TMDB videos endpoint"
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt0188269/videogallery/content_type-trailer"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/343955-la-vendetta-dei-gladiatori"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "La vendetta dei gladiatori"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": null,
-          "durata_video_youtube": "93 min",
-          "attori_trovati": [
-            "Mickey Hargitay"
-          ],
-          "registi_trovati": [
-            "Luigi Capuano"
-          ],
-          "parole_chiave_trama": [
-            "gladiatore",
-            "Roma",
-            "liberare",
-            "imperatore",
-            "vendetta"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "alta",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "media",
-          "motivo_scelta": "Il film 'La vendetta dei gladiatori' coincide con il titolo, regista, cast e durata del video YouTube, confermando l'identificazione."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "regista",
-            "cast principale",
-            "durata"
-          ],
-          "elementi_non_confermati": [
-            "trama"
-          ],
-          "fonti_concordanti": [
-            "TMDB"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [
-          {
-            "titolo": "La Vendetta di Spartacus",
-            "titolo_originale": "La Vendetta di Spartacus",
-            "anno": 1964,
-            "motivo_alternativa": "Titolo simile e stesso anno di uscita, ma trama e cast diversi.",
-            "livello_compatibilita": "basso"
-          }
-        ],
-        "note": "Il film identificato è 'La vendetta dei gladiatori' del 1964, diretto da Luigi Capuano, con Mickey Hargitay. La trama del video YouTube coincide parzialmente con quella del film, ma gli elementi principali confermano l'identificazione.",
         "tmdb_id_scelto": 343955,
         "imdb_id_scelto": "tt0188269",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:36:19.945Z"
       },
-      "genre": "storico",
+      "genre": "avventura",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:36:19.945Z",
+      "editor_updated_at": "2026-07-05T04:36:19.945Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/qeU02PzSbD9Dn3bhoJsqIZnptPf.jpg",
+      "tmdb_title_official": "La vendetta dei gladiatori",
+      "tmdb_year_official": 1964,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "og-RqTIdr5k",
@@ -326791,24 +326754,21 @@
     {
       "video_id": "yNWCEJmPWbA",
       "is_movie": true,
-      "original_title": "Film Completo Restaurato: Un poliziotto scomodo (1978) | Azione Cult",
+      "original_title": "Un poliziotto scomodo",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 106139,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Film Completo Restaurato: Un poliziotto scomodo (1978) | Azione Cult",
-        "youtube_url": "https://www.youtube.com/watch?v=yNWCEJmPWbA",
-        "titolo_corretto": "Un poliziotto scomodo",
         "titolo_italiano": "Un poliziotto scomodo",
         "titolo_originale": "Un poliziotto scomodo",
         "anno_uscita": 1978,
         "durata_minuti": 101,
         "genere": [
           "Azione",
-          "Crime",
-          "Thriller"
+          "Thriller",
+          "Crime"
         ],
         "regista": [
           "Stelvio Massi"
@@ -326816,7 +326776,7 @@
         "cast_principale": [
           {
             "nome": "Maurizio Merli",
-            "personaggio": "Ispettore Olmi",
+            "personaggio": "Police Commissioner Olmi",
             "foto_url": "https://image.tmdb.org/t/p/w185/bwhoMXH9hFjaNVGnOgfA0Sn2Ay6.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -326827,7 +326787,7 @@
           },
           {
             "nome": "Massimo Serato",
-            "personaggio": "Degan",
+            "personaggio": "Mr. Degan",
             "foto_url": "https://image.tmdb.org/t/p/w185/7tGVXIILOC1w8TsjjkVVNqmYWaf.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -326838,7 +326798,7 @@
           },
           {
             "nome": "Mario Feliciani",
-            "personaggio": "Questore",
+            "personaggio": "Prosecutor",
             "foto_url": "https://image.tmdb.org/t/p/w185/npKxR6qbSsMOu71rNhnUT8rOdcD.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -326868,105 +326828,90 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/1041221",
               "verificata": true
             }
+          },
+          {
+            "nome": "Attilio Duse",
+            "personaggio": "Agent Ballarin",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hGHapCgzl7ppPmDQvi8nzL9vZ5B.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1089649",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Olga Karlatos",
+            "personaggio": "Anna",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lqMIEjNHJd7actoIttQ9IdhK5XK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/50744",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Piero Gerlini",
+            "personaggio": "Journalist",
+            "foto_url": "https://image.tmdb.org/t/p/w185/sHMLyOGqR9d41o1GP4jQZBPex1o.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1139895",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Luigi Casellato",
+            "personaggio": "Homeless Man",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ftfQniH4E9ehyStbF9PFlMrFiQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/41094",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Maurizio Gueli",
+            "personaggio": "Judge Garganese",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9ZG1tatPD44KSDwb9psNzfdGV0i.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1854344",
+              "verificata": true
+            }
           }
         ],
-        "trama": "Il commissario Olmi, noto per i suoi metodi brutali, indaga sull'omicidio di un'adolescente a Roma. Scopre un legame con potenti figure governative e, nonostante le pressioni per chiudere il caso, continua la sua caccia per smascherare i colpevoli.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Il commissario Olmi, funzionario della Questura di Roma, viene coinvolto in un conflitto a fuoco sotto casa sua e per sbaglio uccide un innocente. Per questo viene trasferito a Civitanova Marche. Lui cerca di rifarsi una vita, abbandonando i metodi brutali. Purtroppo, la sua fidanzata resta coinvolta in un sequestro insieme ad un'intera scolaresca e Olmi torna all'attacco.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/4UKxEnFQFUfVBfSNiB2MHeDAzX9.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/106139-un-poliziotto-scomodo",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=Um6t9us80WQ",
-          "lingua": "en",
           "fonte": "YouTube",
-          "canale": "Un Poliziotto Scomodo   ( Convoy Busters ) english trailer",
+          "lingua": "it",
           "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=Um6t9us80WQ"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/106139-un-poliziotto-scomodo"
-          },
-          {
-            "nome": "Wikipedia IT",
-            "url": "https://it.wikipedia.org/wiki/Un_poliziotto_scomodo"
-          },
-          {
-            "nome": "Wikipedia EN",
-            "url": "https://en.wikipedia.org/wiki/Convoy_Busters"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Un poliziotto scomodo"
-          ],
-          "titolo_originale_trovato_nella_descrizione": "Un poliziotto scomodo",
-          "anno_trovato": 1978,
-          "durata_video_youtube": "95 min",
-          "attori_trovati": [
-            "Maurizio Merli",
-            "Massimo Serato",
-            "Mario Feliciani"
-          ],
-          "registi_trovati": [
-            "Stelvio Massi"
-          ],
-          "parole_chiave_trama": [
-            "poliziottesco",
-            "ispettore Olmi",
-            "Roma",
-            "omicidio",
-            "governativi"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film corrisponde per titolo, anno, regista, cast e trama con i dati forniti e le fonti verificate."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "regista",
-            "cast principale",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "durata"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "Wikipedia IT",
-            "Wikipedia EN"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "La durata del video YouTube è leggermente inferiore alla durata ufficiale del film, ma la corrispondenza degli altri elementi è forte.",
         "tmdb_id_scelto": 106139,
         "imdb_id_scelto": "tt0152018",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:35:45.685Z"
       },
       "genre": "poliziesco",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:35:45.685Z",
+      "editor_updated_at": "2026-07-05T04:35:45.685Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/4UKxEnFQFUfVBfSNiB2MHeDAzX9.jpg",
+      "tmdb_title_official": "Un poliziotto scomodo",
+      "tmdb_year_official": 1978,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "aBjveghO3QA",
@@ -330086,23 +330031,20 @@
     {
       "video_id": "SHjpxku8DrM",
       "is_movie": true,
-      "original_title": "Un Dramma Psicologico sull'Amore Tossico: Il riposo del guerriero | Film Completo",
+      "original_title": "Le Repos du guerrier",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 66916,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Un Dramma Psicologico sull'Amore Tossico: Il riposo del guerriero | Film Completo",
-        "youtube_url": "https://www.youtube.com/watch?v=SHjpxku8DrM",
-        "titolo_corretto": "Il riposo del guerriero",
         "titolo_italiano": "Il riposo del guerriero",
         "titolo_originale": "Le Repos du guerrier",
         "anno_uscita": 1962,
         "durata_minuti": 93,
         "genere": [
-          "Drammatico",
-          "Romantico"
+          "Dramma",
+          "Romance"
         ],
         "regista": [
           "Roger Vadim"
@@ -330132,7 +330074,7 @@
           },
           {
             "nome": "Jean-Marc Bory",
-            "personaggio": "Pierre",
+            "personaggio": "Pierre Leroy",
             "foto_url": "https://image.tmdb.org/t/p/w185/iUH8BfJOfDp2hPpNdcu7RiFbtB.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -330151,101 +330093,101 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/12270",
               "verificata": true
             }
-          }
-        ],
-        "trama": "Geneviève, una giovane ereditiera, salva Renaud, un giovane alcolizzato, da un tentativo di suicidio. Innamoratasi di lui, abbandona la sua vita ordinata per seguirlo in una relazione passionale e distruttiva, cercando di redimerlo dal suo nichilismo.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/awZeIxWEEPEfZYgsoDHk64QGKZ9.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/66916",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
-        "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": "Da verificare via TMDB videos endpoint"
-        },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/66916"
           },
           {
-            "nome": "Wikipedia IT",
-            "url": "https://it.wikipedia.org/wiki/Il_riposo_del_guerriero"
+            "nome": "Jacqueline Porel",
+            "personaggio": "Madame Le Theil - la mère de Geneviève",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vNfRqALxXG2coftUnHH9WqtzbvP.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/584302",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jean-Marc Tennberg",
+            "personaggio": "Coco",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8REr5R83siKnSRYdwhIvJoqjjPi.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/235529",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Robert Dalban",
+            "personaggio": "Le brigadier",
+            "foto_url": "https://image.tmdb.org/t/p/w185/m7sUBO4BiJtRSv3wxFzAMN27YoO.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/19647",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ursula Vian-Kübler",
+            "personaggio": "L'infirmière",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8p761qMMnwxnKrXHBWTqqCDe16f.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/26368",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Christian Melsen",
+            "personaggio": "L'inspecteur de police",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/288970",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Macha Méril",
+            "personaggio": "Raphaële",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6y5tnXwYFwOt7MgUEsN3mX787e4.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/9766",
+              "verificata": true
+            }
           }
         ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Il riposo del guerriero",
-            "Le Repos du guerrier"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": 1962,
-          "durata_video_youtube": "93 min",
-          "attori_trovati": [
-            "Brigitte Bardot",
-            "Robert Hossein",
-            "Jean-Marc Bory",
-            "Michel Serrault"
-          ],
-          "registi_trovati": [
-            "Roger Vadim"
-          ],
-          "parole_chiave_trama": [
-            "amore tossico",
-            "relazione passionale",
-            "nichilismo",
-            "ereditiera",
-            "suicidio"
-          ]
+        "trama": "Una giovane e ricca ragazza borghese salva per caso la vita a un giovane scrittore in procinto di suicidarsi. Rotti i legami con il suo ambiente di provenienza, diventa l'amante dell'intellettuale, e lo segue nonostante le umiliazioni e le infedeltà che questi le infligge.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/awZeIxWEEPEfZYgsoDHk64QGKZ9.jpg",
+        "trailer": {
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt0056404/videogallery/content_type-trailer"
         },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "alta",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Tutti gli elementi principali (titolo, anno, durata, cast, regista, trama) coincidono perfettamente con i dati del film 'Il riposo del guerriero' del 1962."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 100,
-          "elementi_confermati": [
-            "titolo",
-            "anno",
-            "durata",
-            "cast",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [],
-          "fonti_concordanti": [
-            "TMDB",
-            "Wikipedia IT"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "",
         "tmdb_id_scelto": 66916,
         "imdb_id_scelto": "tt0056404",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:35:22.218Z"
       },
       "genre": "romantico",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:35:22.218Z",
+      "editor_updated_at": "2026-07-05T04:35:22.218Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/awZeIxWEEPEfZYgsoDHk64QGKZ9.jpg",
+      "tmdb_title_official": "Il riposo del guerriero",
+      "tmdb_year_official": 1962,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "Mbdbz4gIOt8",
@@ -330891,16 +330833,13 @@
     {
       "video_id": "Yk7tpMRkgog",
       "is_movie": true,
-      "original_title": "Film Completo Restaurato: Sartana nella valle degli avvoltoi (1970) | Western  4K",
+      "original_title": "Sartana nella valle degli avvoltoi",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 112567,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Film Completo Restaurato: Sartana nella valle degli avvoltoi (1970) | Western 4K",
-        "youtube_url": "https://www.youtube.com/watch?v=Yk7tpMRkgog",
-        "titolo_corretto": "Sartana nella valle degli avvoltoi",
         "titolo_italiano": "Sartana nella valle degli avvoltoi",
         "titolo_originale": "Sartana nella valle degli avvoltoi",
         "anno_uscita": 1970,
@@ -330914,7 +330853,7 @@
         "cast_principale": [
           {
             "nome": "William Berger",
-            "personaggio": "Lee Calloway / Sartana",
+            "personaggio": "Lee Calloway alias Sartana",
             "foto_url": "https://image.tmdb.org/t/p/w185/jqm6XmoDe0ibEcFSdG8LT0Ja4a2.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -330960,110 +330899,96 @@
             "nome": "Franco De Rosa",
             "personaggio": "Peter Douglas",
             "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": null,
+              "url_pagina_origine": "https://www.themoviedb.org/person/137382",
               "verificata": false
+            }
+          },
+          {
+            "nome": "Luciano Pigozzi",
+            "personaggio": "Paco",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5PTtLdknAOIPHinNC1C34oh0sFx.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/30900",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jolanda Modio",
+            "personaggio": "Juanita",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tG7BXZ4n77jg9f66FOXokxy1OZ1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/132487",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Pamela Tudor",
+            "personaggio": "Esther",
+            "foto_url": "https://image.tmdb.org/t/p/w185/h8z7D2ryuYOoOeryD4O6ypXTuLM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/976026",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Josiane Tanzilli",
+            "personaggio": "Carmencita",
+            "foto_url": "https://image.tmdb.org/t/p/w185/k6bprlyCuQySlvajyODQlcyTnry.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/955648",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Betsy Bell",
+            "personaggio": "Saloon Singer",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hkGyFwkDcODnm2kUcR0UAXiu0P3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1324407",
+              "verificata": true
             }
           }
         ],
-        "trama": "Il pistolero Lee Calloway, noto come Sartana, si infiltra in un gruppo di banditi per recuperare un carico d'oro nascosto. Tra doppi giochi e sparatorie nella desolata Valle degli Avvoltoi, Sartana deve usare la sua astuzia per sopravvivere e ottenere il tesoro.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Sartana è sulle tracce di una banda che tenta di espatriare con un grosso quantitativo d'oro rubato all'esercito. Dopo avere più volte rischiato la morte, sgomina la banda, già decimata da dissapori interni, ed è oltretutto gratificato dell'oro recuperato da due ufficiali dell'esercito, soddisfatti per parte loro di avere recuperato un documento importantissimo per il governo.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/gHePr4XUWfAoqyWaYnxVt3zD4O.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/112567",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=DlWiw0FkU6E",
-          "lingua": "en",
           "fonte": "YouTube",
-          "canale": "SARTANA IN THE VALLEY OF DEATH   TRAILER",
+          "lingua": "it",
           "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=DlWiw0FkU6E"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/112567"
-          },
-          {
-            "nome": "Wikipedia IT",
-            "url": "https://it.wikipedia.org/wiki/Sartana_nella_valle_degli_avvoltoi"
-          },
-          {
-            "nome": "Wikipedia EN",
-            "url": "https://en.wikipedia.org/wiki/Sartana_in_the_Valley_of_Death"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Sartana nella valle degli avvoltoi"
-          ],
-          "titolo_originale_trovato_nella_descrizione": "Sartana nella valle degli avvoltoi",
-          "anno_trovato": 1970,
-          "durata_video_youtube": "98 min",
-          "attori_trovati": [
-            "William Berger",
-            "Wayde Preston",
-            "Aldo Berti"
-          ],
-          "registi_trovati": [
-            "Roberto Mauri"
-          ],
-          "parole_chiave_trama": [
-            "Sartana",
-            "oro",
-            "banditi",
-            "Valle degli Avvoltoi",
-            "sparatorie"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "alta",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Tutti gli elementi principali (titolo, anno, durata, cast, regista, trama) coincidono perfettamente con i dati del candidato TMDB e le fonti Wikipedia."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 100,
-          "elementi_confermati": [
-            "titolo",
-            "anno",
-            "durata",
-            "cast",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [],
-          "fonti_concordanti": [
-            "TMDB",
-            "Wikipedia IT",
-            "Wikipedia EN"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "Il film è stato identificato con certezza grazie alla corrispondenza completa tra i dati estratti e le fonti verificate.",
         "tmdb_id_scelto": 112567,
         "imdb_id_scelto": "tt0066333",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:35:08.541Z"
       },
       "genre": "western",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:35:08.541Z",
+      "editor_updated_at": "2026-07-05T04:35:08.541Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/gHePr4XUWfAoqyWaYnxVt3zD4O.jpg",
+      "tmdb_title_official": "Sartana nella valle degli avvoltoi",
+      "tmdb_year_official": 1970,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "6HZFhGipSFg",
@@ -331553,17 +331478,14 @@
     {
       "video_id": "0_aj3Wv1VgY",
       "is_movie": true,
-      "original_title": "Alganesh (2021) | Una storia vera che deve essere raccontata",
+      "original_title": "Alganesh: Hope On the Horizon",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 877695,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Alganesh (2021) | Una storia vera che deve essere raccontata",
-        "youtube_url": "https://www.youtube.com/watch?v=0_aj3Wv1VgY",
-        "titolo_corretto": "Alganesh: Hope On the Horizon",
-        "titolo_italiano": null,
+        "titolo_italiano": "Alganesh: Hope On the Horizon",
         "titolo_originale": "Alganesh: Hope On the Horizon",
         "anno_uscita": 2021,
         "durata_minuti": 60,
@@ -331579,10 +331501,10 @@
             "nome": "Alganesh Fessaha",
             "personaggio": null,
             "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": null,
+              "url_pagina_origine": "https://www.themoviedb.org/person/3246201",
               "verificata": false
             }
           },
@@ -331590,10 +331512,10 @@
             "nome": "Music Ghebreghiorghis",
             "personaggio": null,
             "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": null,
+              "url_pagina_origine": "https://www.themoviedb.org/person/3246202",
               "verificata": false
             }
           },
@@ -331601,118 +331523,51 @@
             "nome": "Ezekiel Channe",
             "personaggio": null,
             "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": null,
+              "url_pagina_origine": "https://www.themoviedb.org/person/3246203",
               "verificata": false
             }
           }
         ],
-        "trama": "Alganesh Fessahazion, una dottoressa eritrea, dedica la sua vita a salvare i rifugiati eritrei dalle reti di trafficanti di esseri umani. Operando tra Etiopia, Sudan, Libia e Italia, libera migliaia di persone dai campi del Sinai, offrendo loro una nuova speranza.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Al confine tra Etiopia ed Eritrea, dopo decenni di guerra, oggi si combatte un'altra battaglia: quella della sopravvivenza per migliaia di profughi in fuga dalla dittatura. Sono 5 i campi profughi degli Eritrei sul confine etiopico, e la vita si svolge con difficoltà enormi per la scarsità di acqua, la mancanza di beni di prima necessità, ma soprattutto la mancanza di futuro. Tre i protagonisti del film: la dottoressa Alganesh Fessah, italiana eritrea, una vita in prima linea per i suoi conterranei in fuga; i profughi in arrivo dal confine: l'Etiopia, terra che accoglie in tutto un milione di persone in fuga da Eritrea, Sud Sudan, Somalia, Congo.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/u0Fs6XrnlYvMHDgV1MWfs1Ozk9J.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/877695-alganesh-hope-on-the-horizon",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
-        "trailer": {
-          "url": "https://www.youtube.com/watch?v=TfWZgk9Lr28",
-          "lingua": "en",
-          "fonte": "YouTube",
-          "canale": "Alganesh: All'orizzonte una speranza - Trailer Ufficiale by Film&Clips Documentario",
-          "ufficiale": false,
-          "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
-        },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/877695-alganesh-hope-on-the-horizon"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Alganesh: Hope On the Horizon"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": 2021,
-          "durata_video_youtube": "60 min",
-          "attori_trovati": [
-            "Alganesh Fessahazion"
-          ],
-          "registi_trovati": [
-            "Lia Beltrami",
-            "Marianna Beltrami"
-          ],
-          "parole_chiave_trama": [
-            "Eritrea",
-            "rifugiati",
-            "trafficanti di esseri umani",
-            "campi del Sinai"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "alta",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Tutti gli elementi principali (titolo, anno, durata, registi, trama) coincidono perfettamente con il candidato TMDB."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 100,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "durata",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [],
-          "fonti_concordanti": [
-            "TMDB"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "",
+        "trailer": null,
         "tmdb_id_scelto": 877695,
         "imdb_id_scelto": "tt8289806",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:34:51.645Z"
       },
       "genre": "documentario",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:34:51.645Z",
+      "editor_updated_at": "2026-07-05T04:34:51.645Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/u0Fs6XrnlYvMHDgV1MWfs1Ozk9J.jpg",
+      "tmdb_title_official": "Alganesh: Hope On the Horizon",
+      "tmdb_year_official": 2021,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "ClQQ2YF39nE",
       "is_movie": true,
-      "original_title": "Film Completo Restaurato: Le sorprese dell'amore (1959) | Commedia HD",
+      "original_title": "Le sorprese dell'amore",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 396971,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Film Completo Restaurato: Le sorprese dell'amore (1959) | Commedia HD",
-        "youtube_url": "https://www.youtube.com/watch?v=ClQQ2YF39nE",
-        "titolo_corretto": "Le sorprese dell'amore",
         "titolo_italiano": "Le sorprese dell'amore",
         "titolo_originale": "Le sorprese dell'amore",
         "anno_uscita": 1959,
         "durata_minuti": 105,
         "genere": [
-          "Commedia",
-          "Romantico"
+          "Commedia"
         ],
         "regista": [
           "Luigi Comencini"
@@ -331720,7 +331575,7 @@
         "cast_principale": [
           {
             "nome": "Dorian Gray",
-            "personaggio": "Mariarosa",
+            "personaggio": "Didi",
             "foto_url": "https://image.tmdb.org/t/p/w185/w8tiB8fjzbPnpZsA6wUhZLQmveU.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -331731,7 +331586,7 @@
           },
           {
             "nome": "Walter Chiari",
-            "personaggio": "Didì",
+            "personaggio": "Ferdinando",
             "foto_url": "https://image.tmdb.org/t/p/w185/aRxI3J9SxBefqXkgcSay5XaU9G5.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -331742,7 +331597,7 @@
           },
           {
             "nome": "Anna Maria Ferrero",
-            "personaggio": "Carlotta",
+            "personaggio": "Mariarosa",
             "foto_url": "https://image.tmdb.org/t/p/w185/qT0DjDDBHBnTFmC95s4L3DB896U.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -331772,104 +331627,90 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/556453",
               "verificata": true
             }
+          },
+          {
+            "nome": "Angela Luce",
+            "personaggio": "fidanzata di Gaspare",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rX36uGMFzHkvRsscczfrNsXksa.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/53000",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Elena Zareschi",
+            "personaggio": "Carlotta",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wWjhuQXVzVkEjrAFdoyrBvraW2X.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1266164",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mario Carotenuto",
+            "personaggio": "don Maurizio",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xr7zoHY4fnmvn3ZwUoybvbSpdRG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/120637",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Franco Fabrizi",
+            "personaggio": "Battista Crispi",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qmMv2fKA999PVHVd6c9BAMczRB0.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/30832",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sylva Koscina",
+            "personaggio": "Marianna",
+            "foto_url": "https://image.tmdb.org/t/p/w185/woKWzdVc71f8uX0u0yblFISaMIO.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/21606",
+              "verificata": true
+            }
           }
         ],
-        "trama": "Ferdinando è un insegnante riservato fidanzato con la capricciosa Mariarosa, mentre Didì, un rappresentante intraprendente, è legato alla tranquilla Carlotta. Le coppie, infelici e male assortite, decidono di scambiarsi i partner, dando vita a una serie di equivoci e situazioni comiche che metteranno alla prova i loro sentimenti.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Ferdinando è un timido insegnante fidanzato con Didì, una ragazza esuberante e civettuola mentre il suo amico Battista che è un intraprendente donnaiolo, è fidanzato alla gentile e romantica Marianna amica di Didì. Si tratta di due coppie male assortite e a Didì viene un'idea con il consenso dell'amica: se lei e l'amica si scambiassero i fidanzati, forse le cose andrebbero meglio.  Ma Ferdinando è un galantuomo scrupoloso, che pur  attratto dalla fanciulla, non vorrebbe mancare di lealtà verso il suo amico Battista e verso la propria fidanzata. Incerto tra Marianna e Didì,  Ferdinando s'agita vanamente dando origine ad una serie di equivoci. Alla fine tutto s'accomoda: Marianna riuscirà a strappare al fidanzato una  promessa di matrimonio; mentre Ferdinando si fidanzerà ufficialmente con Maria Rosa, una servetta che,  segretamente innamorata del giovane,  prenderà l'iniziativa e saprà persuaderlo che Didì non è fatta per lui. Didì, dal canto suo, cercherà altrove l'anima gemella.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/4UmiCPbEPq3iGQ6WoecSqhREto7.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/396971-le-sorprese-dell-amore",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": "Da verificare via TMDB videos endpoint"
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt0053297/videogallery/content_type-trailer"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/396971-le-sorprese-dell-amore"
-          },
-          {
-            "nome": "Wikipedia IT",
-            "url": "https://it.wikipedia.org/wiki/Le_sorprese_dell'amore_(film_1959)"
-          },
-          {
-            "nome": "OMDb",
-            "url": "https://www.omdbapi.com/"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Le sorprese dell'amore"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": 1959,
-          "durata_video_youtube": "104 min",
-          "attori_trovati": [
-            "Walter Chiari",
-            "Dorian Gray",
-            "Anna Maria Ferrero"
-          ],
-          "registi_trovati": [
-            "Luigi Comencini"
-          ],
-          "parole_chiave_trama": [
-            "insegnante",
-            "fidanzato",
-            "coppie",
-            "equivoci",
-            "comiche"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "alta",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Tutti gli elementi principali (titolo, anno, cast, regista, durata, trama) coincidono perfettamente con i dati del film 'Le sorprese dell'amore' del 1959."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 100,
-          "elementi_confermati": [
-            "titolo",
-            "anno",
-            "cast",
-            "regista",
-            "durata",
-            "trama"
-          ],
-          "elementi_non_confermati": [],
-          "fonti_concordanti": [
-            "TMDB",
-            "Wikipedia IT",
-            "OMDb"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "",
         "tmdb_id_scelto": 396971,
         "imdb_id_scelto": "tt0053297",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:34:33.493Z"
       },
-      "genre": "romantico",
+      "genre": "commedia",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:34:33.493Z",
+      "editor_updated_at": "2026-07-05T04:34:33.493Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/4UmiCPbEPq3iGQ6WoecSqhREto7.jpg",
+      "tmdb_title_official": "Le sorprese dell'amore",
+      "tmdb_year_official": 1959,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "0felLZTTBjo",
