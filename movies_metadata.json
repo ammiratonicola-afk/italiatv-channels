@@ -350208,7 +350208,7 @@
     {
       "video_id": "xw01Y6nXG-U",
       "is_movie": true,
-      "original_title": "A very english christmas | Romantico | Film completo in italiano HD",
+      "original_title": "A Very English Christmas",
       "channel": "TVItalia",
       "tmdb_id": 1161980,
       "tmdb_title_official": "Un Natale da scoprire",
@@ -350219,8 +350219,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "A very english christmas | Romantico | Film completo in italiano HD",
-        "youtube_url": "https://www.youtube.com/watch?v=xw01Y6nXG-U",
         "titolo_italiano": "Un Natale da scoprire",
         "titolo_originale": "A Very English Christmas",
         "anno_uscita": 2023,
@@ -350346,29 +350344,30 @@
             }
           }
         ],
-        "trama": "Christmas in the English countryside wasn’t on Kate’s meticulously planned festive calendar until her half-sister Amy, who was brought up in England, announces her plan to get married on Christmas Eve. Kate teams up with Amy’s co-Christmas market owner Dylan to bring order to this whirlwind wedding, but will Kate find her own love in the heart of England this Christmas?",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Il Natale nella campagna inglese non era previsto nel calendario festivo meticolosamente pianificato di Kate fino a quando sua sorellastra Amy, cresciuta in Inghilterra, annuncia il suo piano di sposarsi la vigilia di Natale. Kate si unisce a Dylan, il co-proprietario del mercatino di Natale di Amy, per mettere ordine in questo matrimonio caotico, ma riuscirà Kate a trovare il suo amore nel cuore dell'Inghilterra questo Natale?",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/gZVGCg9RWTev6whA430Ehwvm0h0.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=L1--cbcThJc"
         },
         "tmdb_id_scelto": 1161980,
+        "imdb_id_scelto": "tt28505029",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+        "verificato_editor_at": "2026-07-05T05:57:35.548Z"
       },
       "genre": "romantico",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T05:52:08.246Z",
-      "editor_updated_at": "2026-07-05T05:52:08.246Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T05:57:35.548Z",
+      "editor_updated_at": "2026-07-05T05:57:35.548Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "dVAzIt8L76o",
@@ -352155,98 +352154,108 @@
     {
       "video_id": "h0LcQiHI4xY",
       "is_movie": true,
-      "original_title": "Hangar | HD | Thriller | Film Completo in Italiano",
+      "original_title": "Hangar",
       "channel": "TVItalia",
-      "tmdb_id": 1690476,
+      "tmdb_id": 1539611,
       "tmdb_title_official": "Hangar",
-      "tmdb_year_official": 2026,
-      "tmdb_poster_path": "/c8aQ4b7fwSsDdIWraDj6CiCrcXp.jpg",
+      "tmdb_year_official": 2024,
+      "tmdb_poster_path": "/Ad80O1u06sVkpwbZzBv3YzudcGO.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Hangar | HD | Thriller | Film Completo in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=h0LcQiHI4xY",
         "titolo_italiano": "Hangar",
         "titolo_originale": "Hangar",
-        "anno_uscita": 2026,
-        "durata_minuti": 5,
-        "genere": [],
+        "anno_uscita": 2024,
+        "durata_minuti": 84,
+        "genere": [
+          "Thriller"
+        ],
         "regista": [
-          "Joaquin Wall"
+          "Luca Tartaglia"
         ],
         "cast_principale": [
           {
-            "nome": "Agustin Haedo",
-            "personaggio": null,
-            "foto_url": null,
-            "foto_tipo": "nessuna",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/6198365",
-              "verificata": false
-            }
-          },
-          {
-            "nome": "Joaquin Wall",
-            "personaggio": null,
-            "foto_url": "https://image.tmdb.org/t/p/w185/pgASDmzbvJ0xmy8ZkCEFM91xEl8.jpg",
+            "nome": "Alice Fiorentini",
+            "personaggio": "Luna",
+            "foto_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZsfA_ZAZKw0Zodq232SvEgUNICvrNDMA9NCeTMvOwJHOYoY10uexHme20&s=10",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/3333300",
+              "nome": "manuale",
+              "url_pagina_origine": null,
               "verificata": true
             }
           },
           {
-            "nome": "Yero",
-            "personaggio": null,
+            "nome": "Pasquale miraglia",
+            "personaggio": "Salvo",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/4917760",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5663631",
               "verificata": false
             }
           },
           {
-            "nome": "Franco Lihue Nahuelpan",
-            "personaggio": null,
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "nome": "Emanuela Saccardi",
+            "personaggio": "Martina",
+            "foto_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBRDjepU7L9fKvnq8DIZHPf0jiBBGepNX7hQO_3HlG3cssUu52bRdVvmnT2Hu7jcUd7376Um30u1a6zsdYtw4o5rbB5U05Ff5K-SfS6Q&s=10",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/6198367",
-              "verificata": false
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
             }
           },
           {
-            "nome": "Jean D",
+            "nome": "Ellev Derks",
+            "personaggio": "Ellie",
+            "foto_url": "https://woodvivors.it/wp-content/uploads/2021/07/ellev_derks-uai-258x258.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Raffaele Taddei",
             "personaggio": null,
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/6198370",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3693283",
               "verificata": false
             }
           }
         ],
-        "trama": "A group of homosexual men lick, stamp, and dispatch their erotic fantasies through a surreal postal service in an intensely experimental film. Shot on Super 8, the piece unfolds as a rhythmic whirlwind in which desire circulates as physical matter.",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/c8aQ4b7fwSsDdIWraDj6CiCrcXp.jpg",
+        "trama": "Cinque amici scoprono la bellezza e i costumi dell'isola di Pantelleria durante una vacanza, ma una pericolosa bravata li lascia imprigionati in un hangar. Mentre affrontano i loro demoni interiori, il film esplora il lato oscuro della natura umana e le piaghe sociali che può causare.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/Ad80O1u06sVkpwbZzBv3YzudcGO.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt29244973/videogallery/content_type-trailer"
         },
-        "tmdb_id_scelto": 1690476
-      }
+        "tmdb_id_scelto": 1539611,
+        "imdb_id_scelto": "tt29244973",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:56:03.880Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "thriller",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:56:03.880Z",
+      "editor_updated_at": "2026-07-05T05:56:03.880Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "y7U6Sts3uvQ",
@@ -352499,7 +352508,7 @@
     {
       "video_id": "-M6p48aOnlE",
       "is_movie": true,
-      "original_title": "Vite perdute | HD | Noir | Film Completo in Italiano",
+      "original_title": "Vite perdute",
       "channel": "TVItalia",
       "tmdb_id": 692020,
       "tmdb_title_official": "Vite perdute",
@@ -352510,8 +352519,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Vite perdute | HD | Noir | Film Completo in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=-M6p48aOnlE",
         "titolo_italiano": "Vite perdute",
         "titolo_originale": "Vite perdute",
         "anno_uscita": 1959,
@@ -352521,8 +352528,8 @@
           "televisione film"
         ],
         "regista": [
-          "Adelchi Bianchi",
-          "Roberto Mauri"
+          "Roberto Mauri",
+          "Adelchi Bianchi"
         ],
         "cast_principale": [
           {
@@ -352636,29 +352643,30 @@
             }
           }
         ],
-        "trama": "A gang of violent criminals holds captive a group of young women and men in an abandoned mining complex.",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Una banda di criminali violenti tiene in ostaggio un gruppo di giovani donne e uomini in un complesso minerario abbandonato.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/Ahbpll2h4T70esXTSnRn6JRqtwa.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt0052372/videogallery/content_type-trailer"
         },
         "tmdb_id_scelto": 692020,
+        "imdb_id_scelto": "tt0052372",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+        "verificato_editor_at": "2026-07-05T05:56:55.491Z"
       },
       "genre": "avventura",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T05:52:08.246Z",
-      "editor_updated_at": "2026-07-05T05:52:08.246Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T05:56:55.491Z",
+      "editor_updated_at": "2026-07-05T05:56:55.491Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "RKuvaJjb1YI",
@@ -353290,7 +353298,7 @@
     {
       "video_id": "ohHSrOaKYKQ",
       "is_movie": true,
-      "original_title": "Il matrimonio della mia migliore amica | The Engagement Dress | HD | Film Completo in Italiano",
+      "original_title": "The Engagement Dress",
       "channel": "TVItalia",
       "tmdb_id": 1061834,
       "tmdb_title_official": "The Engagement Dress",
@@ -353301,8 +353309,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Il matrimonio della mia migliore amica | The Engagement Dress | HD | Film Completo in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=ohHSrOaKYKQ",
         "titolo_italiano": "The Engagement Dress",
         "titolo_originale": "The Engagement Dress",
         "anno_uscita": 2023,
@@ -353427,29 +353433,30 @@
             }
           }
         ],
-        "trama": "When Michelle finally gets to wear the lucky bridesmaid’s dress that has led to all of her friends getting married, she realizes that she’s been looking for love in all the wrong places.",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Quando Michelle finalmente indossa il vestito da damigella d'onore che ha portato tutte le sue amiche a sposarsi, si rende conto di aver cercato l'amore nei posti sbagliati.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/ys4NA1vVCPRqlIba7Ipi0sAv9T6.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=seqF8qR_8sI"
         },
         "tmdb_id_scelto": 1061834,
+        "imdb_id_scelto": "tt21960810",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+        "verificato_editor_at": "2026-07-05T05:56:32.138Z"
       },
       "genre": "romantico",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T05:52:08.246Z",
-      "editor_updated_at": "2026-07-05T05:52:08.246Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T05:56:32.138Z",
+      "editor_updated_at": "2026-07-05T05:56:32.138Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "zMEPtTAPebY",
