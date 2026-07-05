@@ -352153,7 +352153,7 @@
     },
     {
       "video_id": "h0LcQiHI4xY",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Hangar",
       "channel": "TVItalia",
       "tmdb_id": 1539611,
@@ -352255,7 +352255,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T05:56:03.880Z",
       "editor_updated_at": "2026-07-05T05:56:03.880Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:00:02.679Z"
     },
     {
       "video_id": "y7U6Sts3uvQ",
