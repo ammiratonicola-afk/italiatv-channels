@@ -287819,20 +287819,20 @@
           "lingua": "it",
           "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "inserito manualmente",
+          "motivo_verifica": "trailer YouTube",
           "url": "https://www.youtube.com/watch?v=p4uSXRzHTlM"
         },
         "tmdb_id_scelto": 196731,
         "imdb_id_scelto": "tt2240720",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-06-27T11:23:11.401Z"
+        "verificato_editor_at": "2026-07-05T07:59:15.940Z"
       },
-      "genre": "",
+      "genre": "commedia",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-06-27T11:23:11.401Z",
-      "editor_updated_at": "2026-06-27T11:23:11.401Z",
+      "editor_locked_at": "2026-07-05T07:59:15.940Z",
+      "editor_updated_at": "2026-07-05T07:59:15.940Z",
       "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
