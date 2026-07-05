@@ -350358,8 +350358,17 @@
           "verificato": false,
           "motivo_verifica": ""
         },
-        "tmdb_id_scelto": 1161980
-      }
+        "tmdb_id_scelto": 1161980,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+      },
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:52:08.246Z",
+      "editor_updated_at": "2026-07-05T05:52:08.246Z",
+      "editor_lock_reason": "genere compilato dalla diagnostica editor"
     },
     {
       "video_id": "dVAzIt8L76o",
@@ -350436,8 +350445,17 @@
           "verificato": false,
           "motivo_verifica": ""
         },
-        "tmdb_id_scelto": 884218
-      }
+        "tmdb_id_scelto": 884218,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+      },
+      "genre": "poliziesco",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:52:08.246Z",
+      "editor_updated_at": "2026-07-05T05:52:08.246Z",
+      "editor_lock_reason": "genere compilato dalla diagnostica editor"
     },
     {
       "video_id": "FbKvQ1vaWqo",
@@ -350592,8 +350610,17 @@
           "verificato": false,
           "motivo_verifica": ""
         },
-        "tmdb_id_scelto": 657993
-      }
+        "tmdb_id_scelto": 657993,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+      },
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:52:08.246Z",
+      "editor_updated_at": "2026-07-05T05:52:08.246Z",
+      "editor_lock_reason": "genere compilato dalla diagnostica editor"
     },
     {
       "video_id": "uOxnmcHaKiA",
@@ -350906,8 +350933,17 @@
           "verificato": false,
           "motivo_verifica": ""
         },
-        "tmdb_id_scelto": 116156
-      }
+        "tmdb_id_scelto": 116156,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+      },
+      "genre": "western",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:52:08.246Z",
+      "editor_updated_at": "2026-07-05T05:52:08.246Z",
+      "editor_lock_reason": "genere compilato dalla diagnostica editor"
     },
     {
       "video_id": "r65gVrHUfwE",
@@ -351223,8 +351259,17 @@
           "verificato": false,
           "motivo_verifica": ""
         },
-        "tmdb_id_scelto": 644325
-      }
+        "tmdb_id_scelto": 644325,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+      },
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:52:08.246Z",
+      "editor_updated_at": "2026-07-05T05:52:08.246Z",
+      "editor_lock_reason": "genere compilato dalla diagnostica editor"
     },
     {
       "video_id": "RCelvgOFvl8",
@@ -351702,8 +351747,17 @@
           "verificato": false,
           "motivo_verifica": ""
         },
-        "tmdb_id_scelto": 22342
-      }
+        "tmdb_id_scelto": 22342,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+      },
+      "genre": "poliziesco",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:52:08.246Z",
+      "editor_updated_at": "2026-07-05T05:52:08.246Z",
+      "editor_lock_reason": "genere compilato dalla diagnostica editor"
     },
     {
       "video_id": "fOj5XNB93jI",
@@ -351856,8 +351910,17 @@
           "verificato": false,
           "motivo_verifica": ""
         },
-        "tmdb_id_scelto": 767350
-      }
+        "tmdb_id_scelto": 767350,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+      },
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:52:08.246Z",
+      "editor_updated_at": "2026-07-05T05:52:08.246Z",
+      "editor_lock_reason": "genere compilato dalla diagnostica editor"
     },
     {
       "video_id": "Gi1MN17Ujqc",
@@ -351967,8 +352030,17 @@
           "verificato": false,
           "motivo_verifica": ""
         },
-        "tmdb_id_scelto": 68965
-      }
+        "tmdb_id_scelto": 68965,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+      },
+      "genre": "poliziesco",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:52:08.246Z",
+      "editor_updated_at": "2026-07-05T05:52:08.246Z",
+      "editor_lock_reason": "genere compilato dalla diagnostica editor"
     },
     {
       "video_id": "wqjFtaY4dTg",
@@ -352401,8 +352473,17 @@
           "verificato": false,
           "motivo_verifica": ""
         },
-        "tmdb_id_scelto": 531712
-      }
+        "tmdb_id_scelto": 531712,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+      },
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:52:08.246Z",
+      "editor_updated_at": "2026-07-05T05:52:08.246Z",
+      "editor_lock_reason": "genere compilato dalla diagnostica editor"
     },
     {
       "video_id": "tNl_SzoN0es",
@@ -352567,8 +352648,17 @@
           "verificato": false,
           "motivo_verifica": ""
         },
-        "tmdb_id_scelto": 692020
-      }
+        "tmdb_id_scelto": 692020,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+      },
+      "genre": "avventura",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:52:08.246Z",
+      "editor_updated_at": "2026-07-05T05:52:08.246Z",
+      "editor_lock_reason": "genere compilato dalla diagnostica editor"
     },
     {
       "video_id": "RKuvaJjb1YI",
@@ -352732,8 +352822,17 @@
           "verificato": false,
           "motivo_verifica": ""
         },
-        "tmdb_id_scelto": 924688
-      }
+        "tmdb_id_scelto": 924688,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+      },
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:52:08.246Z",
+      "editor_updated_at": "2026-07-05T05:52:08.246Z",
+      "editor_lock_reason": "genere compilato dalla diagnostica editor"
     },
     {
       "video_id": "_3ZfxsEhfUs",
@@ -352886,8 +352985,17 @@
           "verificato": false,
           "motivo_verifica": ""
         },
-        "tmdb_id_scelto": 430401
-      }
+        "tmdb_id_scelto": 430401,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+      },
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:52:08.246Z",
+      "editor_updated_at": "2026-07-05T05:52:08.246Z",
+      "editor_lock_reason": "genere compilato dalla diagnostica editor"
     },
     {
       "video_id": "43fr417ZKDY",
@@ -353017,8 +353125,17 @@
           "verificato": false,
           "motivo_verifica": ""
         },
-        "tmdb_id_scelto": 123983
-      }
+        "tmdb_id_scelto": 123983,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+      },
+      "genre": "commedia",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:52:08.246Z",
+      "editor_updated_at": "2026-07-05T05:52:08.246Z",
+      "editor_lock_reason": "genere compilato dalla diagnostica editor"
     },
     {
       "video_id": "eUZmha2HWfo",
@@ -353322,8 +353439,17 @@
           "verificato": false,
           "motivo_verifica": ""
         },
-        "tmdb_id_scelto": 1061834
-      }
+        "tmdb_id_scelto": 1061834,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+      },
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:52:08.246Z",
+      "editor_updated_at": "2026-07-05T05:52:08.246Z",
+      "editor_lock_reason": "genere compilato dalla diagnostica editor"
     },
     {
       "video_id": "zMEPtTAPebY",
@@ -353652,8 +353778,17 @@
           "verificato": false,
           "motivo_verifica": ""
         },
-        "tmdb_id_scelto": 1035945
-      }
+        "tmdb_id_scelto": 1035945,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+      },
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:52:08.246Z",
+      "editor_updated_at": "2026-07-05T05:52:08.246Z",
+      "editor_lock_reason": "genere compilato dalla diagnostica editor"
     },
     {
       "video_id": "pBFoAJFz-1Y",
@@ -353806,8 +353941,17 @@
           "verificato": false,
           "motivo_verifica": ""
         },
-        "tmdb_id_scelto": 292431
-      }
+        "tmdb_id_scelto": 292431,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+      },
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:52:08.246Z",
+      "editor_updated_at": "2026-07-05T05:52:08.246Z",
+      "editor_lock_reason": "genere compilato dalla diagnostica editor"
     },
     {
       "video_id": "D2jwv3F69Rc",
@@ -354098,8 +354242,17 @@
           "verificato": false,
           "motivo_verifica": ""
         },
-        "tmdb_id_scelto": 10301
-      }
+        "tmdb_id_scelto": 10301,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+      },
+      "genre": "drammatico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:52:08.246Z",
+      "editor_updated_at": "2026-07-05T05:52:08.246Z",
+      "editor_lock_reason": "genere compilato dalla diagnostica editor"
     },
     {
       "video_id": "l8Bftc1O7K0",
@@ -354394,8 +354547,17 @@
           "verificato": false,
           "motivo_verifica": ""
         },
-        "tmdb_id_scelto": 34180
-      }
+        "tmdb_id_scelto": 34180,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+      },
+      "genre": "famiglia",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:52:08.246Z",
+      "editor_updated_at": "2026-07-05T05:52:08.246Z",
+      "editor_lock_reason": "genere compilato dalla diagnostica editor"
     },
     {
       "video_id": "d_iGPxGjtQ8",
@@ -354548,8 +354710,17 @@
           "verificato": false,
           "motivo_verifica": ""
         },
-        "tmdb_id_scelto": 60422
-      }
+        "tmdb_id_scelto": 60422,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+      },
+      "genre": "commedia",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:52:08.246Z",
+      "editor_updated_at": "2026-07-05T05:52:08.246Z",
+      "editor_lock_reason": "genere compilato dalla diagnostica editor"
     },
     {
       "video_id": "JbpTPZUqZi8",
@@ -354839,8 +355010,17 @@
           "verificato": false,
           "motivo_verifica": ""
         },
-        "tmdb_id_scelto": 156993
-      }
+        "tmdb_id_scelto": 156993,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+      },
+      "genre": "western",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:52:08.246Z",
+      "editor_updated_at": "2026-07-05T05:52:08.246Z",
+      "editor_lock_reason": "genere compilato dalla diagnostica editor"
     },
     {
       "video_id": "SpP0VA9HAt8",
@@ -355203,8 +355383,17 @@
           "verificato": false,
           "motivo_verifica": ""
         },
-        "tmdb_id_scelto": 62590
-      }
+        "tmdb_id_scelto": 62590,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+      },
+      "genre": "commedia",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:52:08.246Z",
+      "editor_updated_at": "2026-07-05T05:52:08.246Z",
+      "editor_lock_reason": "genere compilato dalla diagnostica editor"
     },
     {
       "video_id": "z1kThG31Ctw",
@@ -355591,8 +355780,17 @@
           "verificato": false,
           "motivo_verifica": ""
         },
-        "tmdb_id_scelto": 212417
-      }
+        "tmdb_id_scelto": 212417,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+      },
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:52:08.246Z",
+      "editor_updated_at": "2026-07-05T05:52:08.246Z",
+      "editor_lock_reason": "genere compilato dalla diagnostica editor"
     },
     {
       "video_id": "WPIgNw1Qz3U",
@@ -355896,8 +356094,17 @@
           "verificato": false,
           "motivo_verifica": ""
         },
-        "tmdb_id_scelto": 39477
-      }
+        "tmdb_id_scelto": 39477,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+      },
+      "genre": "drammatico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:52:08.246Z",
+      "editor_updated_at": "2026-07-05T05:52:08.246Z",
+      "editor_lock_reason": "genere compilato dalla diagnostica editor"
     },
     {
       "video_id": "gv6AMp6Q4IA",
@@ -356050,8 +356257,17 @@
           "verificato": true,
           "motivo_verifica": "TMDB videos"
         },
-        "tmdb_id_scelto": 112200
-      }
+        "tmdb_id_scelto": 112200,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+      },
+      "genre": "commedia",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:52:08.246Z",
+      "editor_updated_at": "2026-07-05T05:52:08.246Z",
+      "editor_lock_reason": "genere compilato dalla diagnostica editor"
     },
     {
       "video_id": "zDQOs_Yi3Ac",
@@ -356203,8 +356419,17 @@
           "verificato": false,
           "motivo_verifica": ""
         },
-        "tmdb_id_scelto": 167626
-      }
+        "tmdb_id_scelto": 167626,
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T05:52:08.246Z"
+      },
+      "genre": "commedia",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T05:52:08.246Z",
+      "editor_updated_at": "2026-07-05T05:52:08.246Z",
+      "editor_lock_reason": "genere compilato dalla diagnostica editor"
     },
     {
       "video_id": "b1aNg6nT6gI",
