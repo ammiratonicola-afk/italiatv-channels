@@ -294478,41 +294478,40 @@
     {
       "video_id": "CrsjB9vqsmM",
       "is_movie": true,
-      "original_title": "Scandalo al college (2020) - Verità Pericolose Film Completo UHD 4K",
+      "original_title": "Dying for a Good Grade",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 900473,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Scandalo al college (2020) - Verità Pericolose Film Completo UHD 4K",
-        "youtube_url": "https://www.youtube.com/watch?v=CrsjB9vqsmM",
-        "titolo_corretto": "Scandalo al college",
         "titolo_italiano": "Scandalo al college",
         "titolo_originale": "Dying for a Good Grade",
         "anno_uscita": 2021,
         "durata_minuti": 105,
         "genere": [
-          "Thriller"
+          "Thriller",
+          "televisione film",
+          "Dramma"
         ],
         "regista": [
           "Ken Friss"
         ],
         "cast_principale": [
           {
-            "nome": "Karis Cameron",
-            "personaggio": "Cassie",
-            "foto_url": "https://image.tmdb.org/t/p/w185/ejZsNmrxfHwBLo02L0olIOU0Ft4.jpg",
+            "nome": "Jason Cermak",
+            "personaggio": "Grant Kerr",
+            "foto_url": "https://image.tmdb.org/t/p/w185/Am3whjOE2lmqK1cNT8uY3slgIG2.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1515477",
+              "url_pagina_origine": "https://www.themoviedb.org/person/965413",
               "verificata": true
             }
           },
           {
             "nome": "Stefanie von Pfetten",
-            "personaggio": "Beth",
+            "personaggio": "Jennifer Kerr",
             "foto_url": "https://image.tmdb.org/t/p/w185/tWi0AnHQyAX6tx8B8QVNu9UmY2d.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -294522,24 +294521,13 @@
             }
           },
           {
-            "nome": "Rachelle Gillis",
-            "personaggio": "Emma",
-            "foto_url": "https://image.tmdb.org/t/p/w185/aD4gMqtkYT61f0H8O4uBolis1rx.jpg",
+            "nome": "Karis Cameron",
+            "personaggio": "Anni Kerr",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ejZsNmrxfHwBLo02L0olIOU0Ft4.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1695689",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Jason Cermak",
-            "personaggio": "Grant Kerr",
-            "foto_url": "https://image.tmdb.org/t/p/w185/Am3whjOE2lmqK1cNT8uY3slgIG2.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/965413",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1515477",
               "verificata": true
             }
           },
@@ -294553,103 +294541,101 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/67978",
               "verificata": true
             }
-          }
-        ],
-        "trama": "Determinata a entrare in un prestigioso college, una brillante studentessa si trova coinvolta in uno scandalo per le ammissioni universitarie. La situazione si complica quando la polizia inizia a indagare, portando a conseguenze mortali.",
-        "lingua_trama_originale": "en",
-        "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/vxqqTTPJ5XXee3R7y9GLX5xFI65.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/900473",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
-        "trailer": {
-          "url": "https://www.youtube.com/watch?v=AFiOo21mPC0",
-          "lingua": "en",
-          "fonte": "YouTube",
-          "canale": "Mommy's Cheating Scandal Trailer",
-          "ufficiale": true,
-          "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
-        },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/900473"
           },
           {
-            "nome": "IMDb",
-            "url": "https://www.imdb.com/title/tt11866096/"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Scandalo al college",
-            "Verità Pericolose"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": 2020,
-          "durata_video_youtube": "85 min",
-          "attori_trovati": [
-            "Karis Cameron",
-            "Stefanie von Pfetten",
-            "Rachelle Gillis"
-          ],
-          "registi_trovati": [
-            "Ken Friss"
-          ],
-          "parole_chiave_trama": [
-            "college",
-            "scandalo",
-            "ammissioni",
-            "polizia",
-            "indagine",
-            "segreti",
-            "mortali"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film corrisponde per titolo, regista, cast e trama con il candidato TMDB identificato."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "titolo italiano",
-            "anno di uscita",
-            "cast principale",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "durata"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "IMDb"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [
+            "nome": "Marnie Mahannah",
+            "personaggio": "Regina Kent",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bzruhttEqD86Le9dB1KqqCU7fVA.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2414701",
+              "verificata": true
+            }
+          },
           {
-            "titolo": "Operazione Varsity Blues - Scandalo al college",
-            "titolo_originale": "Operation Varsity Blues: The College Admissions Scandal",
-            "anno": 2021,
-            "motivo_alternativa": "Titolo simile ma trama e cast diversi.",
-            "livello_compatibilita": "basso"
+            "nome": "Rachelle Gillis",
+            "personaggio": "Katie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/aD4gMqtkYT61f0H8O4uBolis1rx.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1695689",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Taylor Kare",
+            "personaggio": "Nathan Aldrich",
+            "foto_url": "https://image.tmdb.org/t/p/w185/csBjW8Rnt5i3dUgW8wCUcNUpuS2.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1885230",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Joel Semande",
+            "personaggio": "Reilly",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vWSxAIG7gW1phZIPq6L8txz5ojR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1596265",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Josh Blacker",
+            "personaggio": "Marshall Kaladis",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uBfmWlJ85bY9u6fq7F2c3G41Yir.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/204420",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Josh Chambers",
+            "personaggio": "Dev Anderson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/71F6OjtKN7g5iud30FjDtTCkaYp.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3429160",
+              "verificata": true
+            }
           }
         ],
-        "note": "Il film identificato è un thriller ispirato a eventi reali, con una trama che coincide con la descrizione fornita.",
+        "trama": "Volendo assicurarsi di entrare in un grande college, una studentessa viene coinvolta nello scandalo delle ammissioni su sollecitazione della sua migliore amica. Quando la polizia inizia a curiosare in giro e ad avvicinarsi al leader del ring, la studentessa dice a sua madre che vuole aiuto per uscire. Ma quando entrambi tentano di porre fine al loro coinvolgimento, le cose diventano mortali.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/vxqqTTPJ5XXee3R7y9GLX5xFI65.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=AFiOo21mPC0"
+        },
         "tmdb_id_scelto": 900473,
-        "imdb_id_scelto": "tt11866096"
-      }
+        "imdb_id_scelto": "tt11866096",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T04:29:19.769Z"
+      },
+      "tmdb_poster_path": "/vxqqTTPJ5XXee3R7y9GLX5xFI65.jpg",
+      "tmdb_title_official": "Scandalo al college",
+      "tmdb_year_official": 2021,
+      "tmdb_media_type": "movie",
+      "genre": "thriller",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T04:29:19.769Z",
+      "editor_updated_at": "2026-07-05T04:29:19.769Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "JEHK6rPfw-4",
@@ -295297,24 +295283,19 @@
     {
       "video_id": "GJksfqeYC0Q",
       "is_movie": true,
-      "original_title": "Vacanze, sole e tradimenti | La bella di Lodi (1963) Film Completo in Italiano",
+      "original_title": "La bella di Lodi",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 333157,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Vacanze, sole e tradimenti | La bella di Lodi (1963) Film Completo in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=GJksfqeYC0Q",
-        "titolo_corretto": "La bella di Lodi",
         "titolo_italiano": "La bella di Lodi",
         "titolo_originale": "La bella di Lodi",
         "anno_uscita": 1963,
         "durata_minuti": 80,
         "genere": [
-          "Commedia",
-          "Dramma",
-          "Romantico"
+          "Dramma"
         ],
         "regista": [
           "Mario Missiroli"
@@ -295333,7 +295314,7 @@
           },
           {
             "nome": "Ángel Aranda",
-            "personaggio": "Franco",
+            "personaggio": "Franco Garbagnati",
             "foto_url": "https://image.tmdb.org/t/p/w185/6G0XdMMgw2e2dQVG0fWKDhhPPvk.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -295344,107 +295325,102 @@
           },
           {
             "nome": "Elena Borgo",
-            "personaggio": "Nonna",
-            "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "personaggio": "La nonna di Roberta",
+            "foto_url": "https://upload.wikimedia.org/wikipedia/it/6/69/Feldmann2.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "Wikipedia IT",
+              "url_pagina_origine": "https://it.wikipedia.org/wiki/Elena_Borgo",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Maria Monti",
+            "personaggio": "Annamaria",
+            "foto_url": "https://image.tmdb.org/t/p/w185/u7hhoohnJriuap3r6ysKRU9HnrF.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": null,
+              "url_pagina_origine": "https://www.themoviedb.org/person/5564",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Giuliano Pogliani",
+            "personaggio": null,
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1446873",
               "verificata": false
+            }
+          },
+          {
+            "nome": "Cesare Di Montignano",
+            "personaggio": "Il nonno di Roberta",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1446874",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Gianni Clerici",
+            "personaggio": "Giorgio, fratello di Roberta",
+            "foto_url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Gianni_Clerici_foto.png",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "Wikipedia IT",
+              "url_pagina_origine": "https://it.wikipedia.org/wiki/Gianni_Clerici",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Renato Montalbano",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/hwTMRx7G45Bark8JBfWPVAzcN84.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/24731",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mario Missiroli",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/wbKFlkbNfxa90KRykNrzRbXEYHk.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/589673",
+              "verificata": true
             }
           }
         ],
-        "trama": "Roberta, giovane imprenditrice di Lodi, trascorre le vacanze a Forte dei Marmi dove incontra Franco, un meccanico. Nonostante le differenze sociali, nasce una passione che li porta a vivere una relazione complessa, esplorando i conflitti di classe e le illusioni dell'amore.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Roberta e Franco si sono conosciuti in maniera occasionale su una spiaggia vicino a Marina di Pietrasanta in un pomeriggio d'estate. I due intraprendono una relazione che li porta in varie località del nord Italia: Modena, Bologna, Venezia e Lodi. La ragazza arriva a vivere per qualche tempo in un motel d'autostrada pur di stare vicina al suo amante nel vano tentativo di plasmarlo ed introdurlo così nel mondo borghese dell'imprenditoria e farne un manager commerciale nel settore delle automobili.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/mcyDBMmE0IpXtVwj7vaacZuCjho.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/333157-la-bella-di-lodi",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
-        "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": "Da verificare via TMDB videos endpoint"
-        },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/333157-la-bella-di-lodi"
-          },
-          {
-            "nome": "OMDb",
-            "url": "http://www.omdbapi.com/?i=tt0157371"
-          },
-          {
-            "nome": "Wikipedia IT",
-            "url": "https://it.wikipedia.org/wiki/La_bella_di_Lodi_(film)"
-          },
-          {
-            "nome": "Wikipedia EN",
-            "url": "https://en.wikipedia.org/wiki/La_bella_di_Lodi"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "La bella di Lodi"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": 1963,
-          "durata_video_youtube": "79 min",
-          "attori_trovati": [
-            "Stefania Sandrelli",
-            "Ángel Aranda",
-            "Elena Borgo"
-          ],
-          "registi_trovati": [
-            "Mario Missiroli"
-          ],
-          "parole_chiave_trama": [
-            "vacanze",
-            "Forte dei Marmi",
-            "meccanico",
-            "relazione",
-            "conflitti di classe"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "alta",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Tutti gli elementi principali (titolo, anno, durata, cast, trama) coincidono perfettamente con le fonti verificate."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 100,
-          "elementi_confermati": [
-            "titolo",
-            "anno",
-            "durata",
-            "cast",
-            "trama"
-          ],
-          "elementi_non_confermati": [],
-          "fonti_concordanti": [
-            "TMDB",
-            "OMDb",
-            "Wikipedia IT",
-            "Wikipedia EN"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "Il film è stato identificato con certezza grazie alla corrispondenza di tutti gli elementi principali tra le fonti disponibili.",
+        "trailer": null,
         "tmdb_id_scelto": 333157,
-        "imdb_id_scelto": "tt0157371"
-      }
+        "imdb_id_scelto": "tt0157371",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T04:28:37.899Z"
+      },
+      "tmdb_poster_path": "/mcyDBMmE0IpXtVwj7vaacZuCjho.jpg",
+      "tmdb_title_official": "La bella di Lodi",
+      "tmdb_year_official": 1963,
+      "tmdb_media_type": "movie",
+      "genre": "drammatico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T04:28:37.899Z",
+      "editor_updated_at": "2026-07-05T04:28:37.899Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "BsR3BGzNVfM",
@@ -299320,23 +299296,20 @@
     {
       "video_id": "UZnwYubm9bc",
       "is_movie": true,
-      "original_title": "Lottare per cambiare vita: Una Ragione per Combattere (A Reason to Fight) - Film 2014",
+      "original_title": "Una ragione per combattere",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 420896,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Lottare per cambiare vita: Una Ragione per Combattere (A Reason to Fight) - Film 2014",
-        "youtube_url": "https://www.youtube.com/watch?v=UZnwYubm9bc",
-        "titolo_corretto": "Una ragione per combattere",
         "titolo_italiano": "Una ragione per combattere",
         "titolo_originale": "Una ragione per combattere",
         "anno_uscita": 2019,
         "durata_minuti": 90,
         "genere": [
           "Azione",
-          "Drammatico"
+          "Dramma"
         ],
         "regista": [
           "Alessandro Baccini"
@@ -299354,35 +299327,24 @@
             }
           },
           {
-            "nome": "Martina Marotta",
-            "personaggio": null,
-            "foto_url": null,
-            "foto_tipo": "non_disponibile",
-            "foto_fonte": {
-              "nome": null,
-              "url_pagina_origine": null,
-              "verificata": false
-            }
-          },
-          {
             "nome": "Alessandra Angeli",
-            "personaggio": "Sara",
-            "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "personaggio": "Lisa",
+            "foto_url": "https://static.tvmaze.com/uploads/images/medium_portrait/490/1227144.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": null,
-              "verificata": false
+              "nome": "TVMaze",
+              "url_pagina_origine": "https://www.tvmaze.com/people/403574/alessandra-angeli",
+              "verificata": true
             }
           },
           {
             "nome": "Moreno Petroni",
             "personaggio": "Armando",
             "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": null,
+              "url_pagina_origine": "https://www.themoviedb.org/person/1693393",
               "verificata": false
             }
           },
@@ -299396,92 +299358,101 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/1693394",
               "verificata": true
             }
-          }
-        ],
-        "trama": "Marco è un giovane tormentato che trova nelle arti marziali miste l'unica via per sfuggire a un destino già segnato. Tra combattimenti clandestini e la ricerca di una redenzione personale, scoprirà che la sfida più difficile non è sul ring, ma contro i propri demoni.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/4m9VeNExrk9l1Qs9JPbUoJGu3mr.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/420896",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
-        "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": "Da verificare via TMDB videos endpoint"
-        },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/420896"
           },
           {
-            "nome": "YouTube",
-            "url": "https://www.youtube.com/watch?v=UZnwYubm9bc"
+            "nome": "Martina Landini",
+            "personaggio": "Sara",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1693395",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Benedetta Bruno",
+            "personaggio": "Jenny",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1693396",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Niccolò Gentili",
+            "personaggio": "Leoluca",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1343613",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Stefano Martinelli",
+            "personaggio": "Francesco",
+            "foto_url": "https://image.tmdb.org/t/p/w185/IOX4UYtZnFfRA2ynxcjrJB53qd.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1693397",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Alex Lucchesi",
+            "personaggio": "Texano",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1411932",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Alessio Cherubini",
+            "personaggio": "Wild Thing",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1483871",
+              "verificata": false
+            }
           }
         ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Una Ragione per Combattere",
-            "A Reason to Fight"
-          ],
-          "titolo_originale_trovato_nella_descrizione": "A Reason to Fight",
-          "anno_trovato": 2014,
-          "durata_video_youtube": "80 min",
-          "attori_trovati": [
-            "Alessandro Baccini",
-            "Martina Marotta"
-          ],
-          "registi_trovati": [
-            "Alessandro Baccini"
-          ],
-          "parole_chiave_trama": [
-            "riscatto",
-            "sacrificio",
-            "arti marziali",
-            "combattimenti clandestini",
-            "redenzione"
-          ]
+        "trama": "Studente modello di giurisprudenza e asso dei combattimenti clandestini in segreto, Marco è diviso in due a causa di un trauma subito da bambino. Trovandosi a scegliere tra un gruppo di amici allo sbando, in cui c'è anche la fidanzata Sara, e la possibilità di una vita diversa intravista nell'insegnante Lisa, innescherà una serie di eventi che lo porteranno ad affrontare un match in cui la posta in gioco è davvero alta.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/4m9VeNExrk9l1Qs9JPbUoJGu3mr.jpg",
+        "trailer": {
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt2551842/videogallery/content_type-trailer"
         },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "media",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film corrisponde per titolo, regista, trama e cast principale. L'anno di distribuzione è confermato come 2019, nonostante il video indichi 2014."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "titolo italiano",
-            "regista",
-            "cast principale",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "anno di uscita",
-            "durata"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "YouTube"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "Il film è stato distribuito nel 2019, nonostante il video indichi 2014 come anno di produzione.",
         "tmdb_id_scelto": 420896,
-        "imdb_id_scelto": "tt2551842"
-      }
+        "imdb_id_scelto": "tt2551842",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T04:27:43.188Z"
+      },
+      "tmdb_poster_path": "/4m9VeNExrk9l1Qs9JPbUoJGu3mr.jpg",
+      "tmdb_title_official": "Una ragione per combattere",
+      "tmdb_year_official": 2019,
+      "tmdb_media_type": "movie",
+      "genre": "azione",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T04:27:43.188Z",
+      "editor_updated_at": "2026-07-05T04:27:43.188Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "h-WspSat3d4",
@@ -299657,23 +299628,20 @@
     {
       "video_id": "8X-ydQR4zdc",
       "is_movie": true,
-      "original_title": "Un uomo perbene (Un uomo perbene) 1999 | Storia vera anni 80",
+      "original_title": "Un uomo perbene",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 143011,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Un uomo perbene (Un uomo perbene) 1999 | Storia vera anni 80",
-        "youtube_url": "https://www.youtube.com/watch?v=8X-ydQR4zdc",
-        "titolo_corretto": "Un uomo perbene",
         "titolo_italiano": "Un uomo perbene",
         "titolo_originale": "Un uomo perbene",
         "anno_uscita": 1999,
         "durata_minuti": 119,
         "genere": [
-          "Drammatico",
-          "Biografico"
+          "Dramma",
+          "Dramma"
         ],
         "regista": [
           "Maurizio Zaccaro"
@@ -299692,23 +299660,12 @@
           },
           {
             "nome": "Stefano Accorsi",
-            "personaggio": "Avvocato Raffaele Della Valle",
+            "personaggio": "Raffaele della Valle (avvocato)",
             "foto_url": "https://image.tmdb.org/t/p/w185/v0juBdStV3KECZL1nEL7AkbWQ0j.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
               "url_pagina_origine": "https://www.themoviedb.org/person/65571",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Mariangela Melato",
-            "personaggio": "Anna Tortora",
-            "foto_url": "https://image.tmdb.org/t/p/w185/skpCWeBKIU1vwOxLGuIxl5VniQK.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/25810",
               "verificata": true
             }
           },
@@ -299724,6 +299681,17 @@
             }
           },
           {
+            "nome": "Mariangela Melato",
+            "personaggio": "Anna Tortora",
+            "foto_url": "https://image.tmdb.org/t/p/w185/skpCWeBKIU1vwOxLGuIxl5VniQK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/25810",
+              "verificata": true
+            }
+          },
+          {
             "nome": "Leo Gullotta",
             "personaggio": "Giovanni Pandico",
             "foto_url": "https://image.tmdb.org/t/p/w185/wn9LQjKRZxrXm6a5zyfrLs71ChM.jpg",
@@ -299733,91 +299701,90 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/119992",
               "verificata": true
             }
-          }
-        ],
-        "trama": "Nel 1983, il presentatore televisivo Enzo Tortora viene arrestato con l'accusa di traffico di droga e associazione camorristica. Il film racconta il suo calvario giudiziario, evidenziando le false accuse e il sistema legale fallace. Supportato dalla famiglia e dai legali, Tortora lotta per dimostrare la sua innocenza e riabilitare il suo onore.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/pXPSnUInLa1H5getqcnyvvqR4CI.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/143011-un-uomo-perbene",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
-        "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": "Da verificare via TMDB videos endpoint"
-        },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/143011-un-uomo-perbene"
           },
           {
-            "nome": "Wikipedia IT",
-            "url": "https://it.wikipedia.org/wiki/Un_uomo_perbene"
+            "nome": "Mariano Rigillo",
+            "personaggio": "Antonio Fontana (giudice)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/p6bQl4qicc0bFnsKxxKagDjsOOy.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/24290",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Luigi Diberti",
+            "personaggio": "Avvocato della pubblica accusa",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lNLDMKKAyGIGCEmHln82jB5Sdd0.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/27432",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Pino Ammendola",
+            "personaggio": "Avvocato Antonio Coppola",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kgkGgGFiKPV0DDqRMXQ6vzJ8A2t.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1014913",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Giuliano Gemma",
+            "personaggio": "Avvocato Alberto Dall'Ora",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hpWbvBhSFklP9rMms1iA5NvXHNZ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/15139",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Vincenzo Peluso",
+            "personaggio": "Gianni Melluso",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oNLUYPIL0zuTg1QMGMAzrbJq1Lp.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/78699",
+              "verificata": true
+            }
           }
         ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Un uomo perbene"
-          ],
-          "titolo_originale_trovato_nella_descrizione": "Un uomo perbene",
-          "anno_trovato": 1999,
-          "durata_video_youtube": "114 min",
-          "attori_trovati": [
-            "Michele Placido",
-            "Stefano Accorsi",
-            "Mariangela Melato",
-            "Giovanna Mezzogiorno",
-            "Leo Gullotta"
-          ],
-          "registi_trovati": [
-            "Maurizio Zaccaro"
-          ],
-          "parole_chiave_trama": [
-            "Enzo Tortora",
-            "giudiziario",
-            "innocente",
-            "accuse false",
-            "sistema legale"
-          ]
+        "trama": "Film biografico, tratta della vicenda giudiziaria legata al cosiddetto \"caso Enzo Tortora\", il conduttore TV ingiustamente accusato di essere legato alla Camorra negli anni '80.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/pXPSnUInLa1H5getqcnyvvqR4CI.jpg",
+        "trailer": {
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt0199118/videogallery/content_type-trailer"
         },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film corrisponde per titolo, anno, cast, regista e trama con i dati forniti e verificati su TMDB e Wikipedia."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 100,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "cast principale",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [],
-          "fonti_concordanti": [
-            "TMDB",
-            "Wikipedia IT"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "Il film è stato identificato con alta certezza grazie alla corrispondenza di più elementi chiave tra le fonti disponibili.",
         "tmdb_id_scelto": 143011,
-        "imdb_id_scelto": "tt0199118"
-      }
+        "imdb_id_scelto": "tt0199118",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T04:28:56.122Z"
+      },
+      "tmdb_poster_path": "/pXPSnUInLa1H5getqcnyvvqR4CI.jpg",
+      "tmdb_title_official": "Un uomo perbene",
+      "tmdb_year_official": 1999,
+      "tmdb_media_type": "movie",
+      "genre": "drammatico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T04:28:56.122Z",
+      "editor_updated_at": "2026-07-05T04:28:56.122Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "njdaky2MuVI",
