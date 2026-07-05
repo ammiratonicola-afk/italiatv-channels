@@ -331874,26 +331874,24 @@
     {
       "video_id": "0felLZTTBjo",
       "is_movie": true,
-      "original_title": "Film Completo Restaurato: La belva col mitra (1977) | Azione HD",
+      "original_title": "La belva col mitra",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 3541,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Film Completo Restaurato: La belva col mitra (1977) | Azione HD",
-        "youtube_url": "https://www.youtube.com/watch?v=0felLZTTBjo",
-        "titolo_corretto": "La belva col mitra",
         "titolo_italiano": "La belva col mitra",
         "titolo_originale": "La belva col mitra",
         "anno_uscita": 1977,
         "durata_minuti": 91,
         "genere": [
           "Azione",
-          "Crime",
-          "Poliziottesco"
+          "Thriller",
+          "Crime"
         ],
         "regista": [
+          "Enzo Milioni",
           "Sergio Grieco"
         ],
         "cast_principale": [
@@ -331910,7 +331908,7 @@
           },
           {
             "nome": "Marisa Mell",
-            "personaggio": "Giuliana",
+            "personaggio": "Giuliana Caroli",
             "foto_url": "https://image.tmdb.org/t/p/w185/s7Y8MOijBZQSiZL4vY3q1OJjay4.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -331921,7 +331919,7 @@
           },
           {
             "nome": "Richard Harrison",
-            "personaggio": "Commissario Santini",
+            "personaggio": "Santini",
             "foto_url": "https://image.tmdb.org/t/p/w185/oDCb0w2qkWV75tkYD15QZXpy7dl.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -331951,275 +331949,246 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/32675",
               "verificata": true
             }
-          }
-        ],
-        "trama": "Nanni Vitali, un rapinatore spietato, evade di prigione e, con l'aiuto dei suoi complici, semina terrore e violenza in cerca di vendetta contro chi lo ha incarcerato, in particolare il commissario Santini. La caccia all'uomo diventa una lotta senza esclusione di colpi.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/4EL1sbJ7YaaAVopq70vBHVwhWq4.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/3541",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
-        "trailer": {
-          "url": "https://www.youtube.com/watch?v=WomEtktqSW4",
-          "lingua": "en",
-          "fonte": "YouTube",
-          "canale": "FEROCIOUS (1977, Sergio Grieco) trailer",
-          "ufficiale": false,
-          "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
-        },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/3541"
           },
           {
-            "nome": "Wikipedia IT",
-            "url": "https://it.wikipedia.org/wiki/La_belva_col_mitra"
+            "nome": "Vittorio Duse",
+            "personaggio": "Giuliana's Father",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tG1UMI35lfXlZ2JTmmaEk6PPVzR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/32676",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Claudio Gora",
+            "personaggio": "Santini's Father",
+            "foto_url": "https://image.tmdb.org/t/p/w185/otKGKlrLIP0NnuVehXGaFyyItGm.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/32677",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Alberto Squillante",
+            "personaggio": "Bimbo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cuf9oDiQRhKsm4mk4YsGOAANyKH.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/32678",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nello Pazzafini",
+            "personaggio": "Pietro",
+            "foto_url": "https://image.tmdb.org/t/p/w185/347gRUcQ55tELUB6KKDaHtANjBG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/32679",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Antonio Basile",
+            "personaggio": "Mario",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/32680",
+              "verificata": false
+            }
           }
         ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "La belva col mitra"
-          ],
-          "titolo_originale_trovato_nella_descrizione": "La belva col mitra",
-          "anno_trovato": 1977,
-          "durata_video_youtube": "84 min",
-          "attori_trovati": [
-            "Helmut Berger",
-            "Marisa Mell",
-            "Richard Harrison"
-          ],
-          "registi_trovati": [
-            "Sergio Grieco"
-          ],
-          "parole_chiave_trama": [
-            "rapinatore",
-            "prigione",
-            "violenza",
-            "vendetta",
-            "commissario Santini"
-          ]
+        "trama": "Nanni Vitali, bello e folle, è a capo di una banda di evasi che torna a seminare terrore dopo un periodo in carcere. Il commissario Giulio Santini cerca di fermare la straripante violenza della belva, accecato dalla sete di vendetta verso coloro che l'hanno tradito.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/4EL1sbJ7YaaAVopq70vBHVwhWq4.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=WomEtktqSW4"
         },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film corrisponde per titolo, anno, cast principale, regista e trama con i dati TMDB e Wikipedia."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "cast principale",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "durata"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "Wikipedia IT"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "La durata del video YouTube è leggermente inferiore alla durata ufficiale del film, ma la corrispondenza degli altri elementi è forte.",
         "tmdb_id_scelto": 3541,
         "imdb_id_scelto": "tt0075740",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:33:47.115Z"
       },
       "genre": "poliziesco",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:33:47.115Z",
+      "editor_updated_at": "2026-07-05T04:33:47.115Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/4EL1sbJ7YaaAVopq70vBHVwhWq4.jpg",
+      "tmdb_title_official": "La belva col mitra",
+      "tmdb_year_official": 1977,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "Xzgt52uFAGg",
       "is_movie": true,
-      "original_title": "L'orrore oltre il confine ottomano | Film Completo: Vampiri",
+      "original_title": "Вурдалаки",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 430988,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "L'orrore oltre il confine ottomano | Film Completo: Vampiri",
-        "youtube_url": "https://www.youtube.com/watch?v=Xzgt52uFAGg",
-        "titolo_corretto": "Vamps - Vampiri",
         "titolo_italiano": "Vamps - Vampiri",
         "titolo_originale": "Вурдалаки",
         "anno_uscita": 2017,
         "durata_minuti": 90,
         "genere": [
           "Horror",
-          "Gotico"
+          "Azione",
+          "Fantasy",
+          "Thriller"
         ],
         "regista": [
-          "Sergey Ginzburg"
+          "Сергей Гинзбург"
         ],
         "cast_principale": [
           {
-            "nome": "Konstantin Kryukov",
-            "personaggio": null,
-            "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "nome": "Константин Крюков",
+            "personaggio": "Andrey Lyubchinskiy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vy8GWSZJElpqpPmMiZJUb4iEUW0.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": null,
-              "url_pagina_origine": null,
-              "verificata": false
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/101436",
+              "verificata": true
             }
           },
           {
-            "nome": "Mikhail Porechenkov",
-            "personaggio": null,
-            "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "nome": "Михаил Пореченков",
+            "personaggio": "Lavr",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2rOk6gG2lZgrmv92PP0k29OkZpM.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": null,
-              "url_pagina_origine": null,
-              "verificata": false
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/86726",
+              "verificata": true
             }
           },
           {
-            "nome": "Aglaya Shilovskaya",
-            "personaggio": null,
-            "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "nome": "Аглая Шиловская",
+            "personaggio": "Milena",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nz1qa5o0ZDRLyli9KJJPZuuwHLR.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": null,
-              "url_pagina_origine": null,
-              "verificata": false
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/585357",
+              "verificata": true
             }
           },
           {
-            "nome": "Andrey Rudensky",
-            "personaggio": null,
-            "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "nome": "Андрей Руденский",
+            "personaggio": "Vitold Peshtefi",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2DTRIFPtuwAYldwabmKOioWNDEI.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": null,
-              "url_pagina_origine": null,
-              "verificata": false
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/226708",
+              "verificata": true
             }
           },
           {
-            "nome": "Igor Khripunov",
-            "personaggio": null,
-            "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "nome": "Игорь Хрипунов",
+            "personaggio": "turk",
+            "foto_url": "https://image.tmdb.org/t/p/w185/k9Nw2mZlLAtbZOJdTmnbX4Vj8hK.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": null,
-              "url_pagina_origine": null,
-              "verificata": false
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1034698",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Константин Милованов",
+            "personaggio": "Georgy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8U5Bu53IXcopEuXWtXKhcO4JpUG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1428558",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Михаил Жигалов",
+            "personaggio": "Gorcha",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fIjHGQnE46kufHUKiussoMZPiRy.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/238695",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Анна Арланова",
+            "personaggio": "Zdenka",
+            "foto_url": "https://image.tmdb.org/t/p/w185/goY35YoNqeB5qmZkNP1MAvuB3D2.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/239153",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Юлия Ауг",
+            "personaggio": "Marika’s mother",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1brGFcIanOuQ0IGx273MyKPDa1g.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/143673",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Роман Мадянов",
+            "personaggio": "Paramon",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8r0rNgELO0rhd60NeV4GEjHepbE.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/97368",
+              "verificata": true
             }
           }
         ],
-        "trama": "Un funzionario zarista viene inviato nei remoti Carpazi per convincere un monaco esiliato a tornare a San Pietroburgo. Tuttavia, il monastero è l'ultimo baluardo contro un antico male che risveglia i morti dalle tombe. Con l'aiuto del monaco, dovranno affrontare questa minaccia.",
-        "lingua_trama_originale": "ru",
+        "trama": "Un funzionario zarista inviato nei remoti Carpazi per ricondurre a San Pietroburgo un monaco esiliato fallisce la sua missione e si ferma in un villaggio vicino, dove si innamora di una giovane misteriosa; presto lui e il suo servitore assistono a eventi terrificanti legati alla rinascita di un Male antico che risveglia i morti dalle tombe, e solo con l’aiuto del monaco dovranno affrontare un esercito di non morti per salvare la ragazza, figura chiave nei piani del Signore delle Tenebre.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/tA7revVjwKOd7JnNyi2P4gK4mVM.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/430988",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
-        "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": "Da verificare via TMDB videos endpoint"
-        },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/430988"
-          },
-          {
-            "nome": "YouTube",
-            "url": "https://www.youtube.com/watch?v=Xzgt52uFAGg"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Vampiri",
-            "Vamps - Vampiri"
-          ],
-          "titolo_originale_trovato_nella_descrizione": "Вурдалаки",
-          "anno_trovato": 2017,
-          "durata_video_youtube": "76 min",
-          "attori_trovati": [
-            "Lera Arefyeva",
-            "Anna Arlanova",
-            "Yuliya Aug"
-          ],
-          "registi_trovati": [
-            "Sergey Ginzburg"
-          ],
-          "parole_chiave_trama": [
-            "Carpazi",
-            "monastero",
-            "male antico",
-            "vampiri",
-            "monaco"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film corrisponde per titolo originale, anno, regista, trama e cast principale."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno",
-            "regista",
-            "cast principale",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "durata"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "YouTube"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "La durata del video YouTube è inferiore alla durata ufficiale del film, suggerendo un possibile taglio o riassunto.",
+        "trailer": null,
         "tmdb_id_scelto": 430988,
         "imdb_id_scelto": "tt6569546",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:33:11.158Z"
       },
       "genre": "horror",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:33:11.158Z",
+      "editor_updated_at": "2026-07-05T04:33:11.158Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/tA7revVjwKOd7JnNyi2P4gK4mVM.jpg",
+      "tmdb_title_official": "Vamps - Vampiri",
+      "tmdb_year_official": 2017,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "AniS_9itj4E",
@@ -332684,23 +332653,23 @@
     {
       "video_id": "DtosntVTMqc",
       "is_movie": true,
-      "original_title": "Film Completo di Damian Harris: Mercy (Senza pietà) (2000) | Giallo",
+      "original_title": "Mercy",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 5247,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Film Completo di Damian Harris: Mercy (Senza pietà) (2000) | Giallo",
-        "youtube_url": "https://www.youtube.com/watch?v=DtosntVTMqc",
-        "titolo_corretto": "Mercy (Senza pietà)",
-        "titolo_italiano": "Mercy (Senza pietà)",
+        "titolo_italiano": "Mercy (senza pietà)",
         "titolo_originale": "Mercy",
         "anno_uscita": 2000,
         "durata_minuti": 117,
         "genere": [
-          "Mystery",
-          "Thriller"
+          "Dramma",
+          "Mistero",
+          "Thriller",
+          "Crime",
+          "Horror"
         ],
         "regista": [
           "Damian Harris"
@@ -332719,7 +332688,7 @@
           },
           {
             "nome": "Wendy Crewson",
-            "personaggio": "Dott.ssa Brinnesse",
+            "personaggio": "Bernadine Mello",
             "foto_url": "https://image.tmdb.org/t/p/w185/6hplkzK8KV5Cw8Z8SVKwlt3nU5I.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -332760,107 +332729,90 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/6104",
               "verificata": true
             }
+          },
+          {
+            "nome": "Stephen Baldwin",
+            "personaggio": "Mechanic",
+            "foto_url": "https://image.tmdb.org/t/p/w185/w2nZjBsEsjboQDZJXEkysuGgue4.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/9045",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marshall Bell",
+            "personaggio": "Gil Reynolds",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zLa0DdHu1pvEme0DyylltLh08rY.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3041",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Beau Starr",
+            "personaggio": "Lt. Finch",
+            "foto_url": "https://image.tmdb.org/t/p/w185/sv4mpa0vquI0zn1Ur2UB49nAm1D.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/42308",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Bill MacDonald",
+            "personaggio": "John Beck",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lzvzEdUiD1X9PFVyzy3Pb4VW4ax.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/236",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Stewart Bick",
+            "personaggio": "Cushing",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/126877",
+              "verificata": false
+            }
           }
         ],
-        "trama": "La detective Catherine Palmer è incaricata di indagare su una serie di omicidi brutali che coinvolgono donne dell'alta società. Le sue indagini la portano in un mondo di club esclusivi e desideri nascosti, mentre sviluppa un'ossessione per la principale sospettata, Vickie, legata a tutte le vittime. Intrappolata in un gioco di seduzione e inganno, Catherine deve scoprire la verità.",
-        "lingua_trama_originale": "en",
+        "trama": "Una donna viene ritrovata morta nel suo appartamento. E' nuda, il suo corpo è stato martoriato ma ha il viso perfettamente truccato e i capelli pettinati con cura. Era dirigente di una società di computer.Sul caso deve investigare il detective Catherine Palmer, una donna sola che lavora in un ambiente ostile. Interrogando Vickie, un'amica e collega della vittima, Palmer scopre l'esistenza di un gruppo di donne, bisessuali e lesbiche, che conducono una doppia vita dalla quale si sente attratta, ed incontra uno psicanalista di successo, Broussard, anche lui in qualche modo legato alle vittime. Quando viene compiuto un terzo assassinio con le stesse caratteristiche Palmer si introduce sempre più a fondo in quell'oscuro mondo di passione e dolore",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/7SfAg6ZRxEHvKaLXneP4CuVIX8j.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/5247-mercy",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=wgmh_UKidFs",
-          "lingua": "en",
           "fonte": "YouTube",
-          "canale": "Mercy (2000) Trailer (VHS Capture)",
+          "lingua": "it",
           "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=DljrEsl1Lp8"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/5247-mercy"
-          },
-          {
-            "nome": "IMDb",
-            "url": "https://www.imdb.com/title/tt0188055/"
-          },
-          {
-            "nome": "OMDb",
-            "url": "http://www.omdbapi.com/?i=tt0188055"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Mercy (Senza pietà)"
-          ],
-          "titolo_originale_trovato_nella_descrizione": "Mercy",
-          "anno_trovato": 2000,
-          "durata_video_youtube": "97 min",
-          "attori_trovati": [
-            "Ellen Barkin",
-            "Wendy Crewson",
-            "Peta Wilson"
-          ],
-          "registi_trovati": [
-            "Damian Harris"
-          ],
-          "parole_chiave_trama": [
-            "detective",
-            "serial killer",
-            "club esclusivi",
-            "ossessione",
-            "sospettata",
-            "seduzione",
-            "inganno"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film corrisponde per titolo, anno, regista, cast principale e trama con i dati forniti."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "cast principale",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "durata"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "IMDb",
-            "OMDb"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "La durata del video YouTube è inferiore alla durata ufficiale del film, suggerendo un possibile taglio o riassunto.",
         "tmdb_id_scelto": 5247,
         "imdb_id_scelto": "tt0188055",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:33:24.973Z"
       },
-      "genre": "thriller",
+      "genre": "horror",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:33:24.973Z",
+      "editor_updated_at": "2026-07-05T04:33:24.973Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/7SfAg6ZRxEHvKaLXneP4CuVIX8j.jpg",
+      "tmdb_title_official": "Mercy (senza pietà)",
+      "tmdb_year_official": 2000,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "DGyYVq3neWw",
@@ -333340,23 +333292,20 @@
     {
       "video_id": "gUPkVWZ2vN0",
       "is_movie": true,
-      "original_title": "Film Completo di Giuliano Carnimeo: Sono Sartana (1969) | Western 4K",
+      "original_title": "Sono Sartana, il vostro becchino",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 64650,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Film Completo di Giuliano Carnimeo: Sono Sartana (1969) | Western 4K",
-        "youtube_url": "https://www.youtube.com/watch?v=gUPkVWZ2vN0",
-        "titolo_corretto": "Sono Sartana, il vostro becchino",
         "titolo_italiano": "Sono Sartana, il vostro becchino",
         "titolo_originale": "Sono Sartana, il vostro becchino",
         "anno_uscita": 1969,
         "durata_minuti": 102,
         "genere": [
           "Western",
-          "Azione"
+          "Mistero"
         ],
         "regista": [
           "Giuliano Carnimeo"
@@ -333374,28 +333323,6 @@
             }
           },
           {
-            "nome": "Frank Wolff",
-            "personaggio": "Buddy Ben",
-            "foto_url": "https://image.tmdb.org/t/p/w185/xRbJq4GwVl5w3pRmWzQP9SehKE1.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/4968",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Ettore Manni",
-            "personaggio": "Baxter",
-            "foto_url": "https://image.tmdb.org/t/p/w185/335BZDhby9j8U2bIPAz834oMf9n.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/563809",
-              "verificata": true
-            }
-          },
-          {
             "nome": "Klaus Kinski",
             "personaggio": "Chadeau / Holden / Hot Dead",
             "foto_url": "https://image.tmdb.org/t/p/w185/twuyGlZJzJXFcbhVS2jlQOsTVFK.jpg",
@@ -333403,6 +333330,17 @@
             "foto_fonte": {
               "nome": "TMDB",
               "url_pagina_origine": "https://www.themoviedb.org/person/14277",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Frank Wolff",
+            "personaggio": "Buddy Ben / Bear",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xRbJq4GwVl5w3pRmWzQP9SehKE1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4968",
               "verificata": true
             }
           },
@@ -333416,104 +333354,101 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/30898",
               "verificata": true
             }
+          },
+          {
+            "nome": "Ettore Manni",
+            "personaggio": "Baxter Red",
+            "foto_url": "https://image.tmdb.org/t/p/w185/335BZDhby9j8U2bIPAz834oMf9n.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/563809",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sal Borgese",
+            "personaggio": "Sheriff Fisher",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dmvigFNtAYoKrscqVLRHAUIKdwi.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/49458",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Renato Baldini",
+            "personaggio": "Judge",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uCLD6wstnzJwO1jny07HA6ymlnW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/33549",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Federico Boido",
+            "personaggio": "Bill Cochran",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lGPoEZtCqn2DdlzKT6xkbPEb8FX.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/98492",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "José Torres",
+            "personaggio": "Shadow",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zNeXv9O4RDfWOyFmKnbV1W4SmGU.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/88687",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tullio Altamura",
+            "personaggio": "Omero Crown",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1Fmof8OeWWR0pXqAc1MwQlpXpn0.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1046561",
+              "verificata": true
+            }
           }
         ],
-        "trama": "Il famigerato pistolero Sartana viene incastrato per una rapina in banca che non ha commesso. Braccato da cacciatori di taglie, deve scoprire i veri colpevoli e recuperare l'oro rubato per ripulire il suo nome.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Il direttore di una banca, unico superstite di una sanguinosa rapina, individua in Sartana il capo dei banditi. Costui è invece innocente e decide di fare luce sulla faccenda. Raggiunta la cittadina e scampato a numerosi attentati, scopre gli insospettabili colpevoli",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/eBKYgrIuyrvcUMSqwZwiq27clQC.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/64650",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=UPXKbxCXj8U",
-          "lingua": "en",
           "fonte": "YouTube",
-          "canale": "I am Sartana, Your Angel of Death (1969) Trailer - A Volta de Sartana VHS Portugal",
+          "lingua": "it",
           "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=UPXKbxCXj8U"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/64650"
-          },
-          {
-            "nome": "IMDb",
-            "url": "https://www.imdb.com/title/tt0065019/"
-          },
-          {
-            "nome": "Wikipedia IT",
-            "url": "https://it.wikipedia.org/wiki/Sono_Sartana%2C_il_vostro_becchino"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Sono Sartana, il vostro becchino"
-          ],
-          "titolo_originale_trovato_nella_descrizione": "Sono Sartana, il vostro becchino",
-          "anno_trovato": 1969,
-          "durata_video_youtube": "103 min",
-          "attori_trovati": [
-            "Gianni Garko",
-            "Frank Wolff",
-            "Ettore Manni"
-          ],
-          "registi_trovati": [
-            "Giuliano Carnimeo"
-          ],
-          "parole_chiave_trama": [
-            "Sartana",
-            "rapina",
-            "banca",
-            "cacciatori di taglie",
-            "oro rubato"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "alta",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Tutti gli elementi principali (titolo, anno, durata, cast, trama) coincidono perfettamente con i dati delle fonti verificate."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 100,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "durata",
-            "cast principale",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [],
-          "fonti_concordanti": [
-            "TMDB",
-            "IMDb",
-            "Wikipedia IT"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "Il film è stato identificato con un alto livello di certezza grazie alla corrispondenza di tutti gli elementi principali tra le fonti disponibili.",
         "tmdb_id_scelto": 64650,
         "imdb_id_scelto": "tt0065019",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:32:59.357Z"
       },
       "genre": "western",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:32:59.357Z",
+      "editor_updated_at": "2026-07-05T04:32:59.357Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/eBKYgrIuyrvcUMSqwZwiq27clQC.jpg",
+      "tmdb_title_official": "Sono Sartana, il vostro becchino",
+      "tmdb_year_official": 1969,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "vj2UvPtfD3g",
