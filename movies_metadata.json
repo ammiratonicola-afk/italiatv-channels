@@ -306396,7 +306396,7 @@
     },
     {
       "video_id": "pPxzIZFkRm8",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "The Runners",
       "channel": "TVItalia",
       "tmdb_id": 688809,
@@ -306531,7 +306531,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-04T22:40:44.313Z",
       "editor_updated_at": "2026-07-04T22:40:44.313Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T04:21:15.737Z"
     },
     {
       "video_id": "UlfAGldlOGo",
