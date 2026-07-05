@@ -229,13 +229,6 @@
       <input id="openai_key" type="text" placeholder="sk-… (ChatGPT: traduzioni + fallback se Gemini dà 429)">
       <div class="help">Usata per le traduzioni (primaria) e come fallback automatico se Gemini esaurisce la quota.</div>
 
-      <label style="margin-top:12px">Google Immagini — API key + motore (cx) <span class="help" style="margin:0">(facoltativo)</span></label>
-      <div class="inline-input">
-        <input id="google_cse_key" type="text" placeholder="Google API key (AIza…)">
-        <input id="google_cse_cx" type="text" placeholder="ID motore di ricerca (cx)">
-      </div>
-      <div class="help">Abilita la ricerca foto cast anche su <b>Google Immagini</b> (Custom Search JSON API). Crea una API key su console.cloud.google.com (abilita "Custom Search API") e un motore su programmablesearchengine.google.com con "Cerca su tutto il web" + immagini. Free ~100 ricerche/giorno. Fonte a bassa priorità: l'AI verifica sempre il volto.</div>
-
       <label style="margin-top:16px">🔐 Sincronizza le chiavi tra browser/dispositivi</label>
       <div class="inline-input">
         <input id="keys_pass" type="text" placeholder="Password per cifrare/decifrare">
@@ -1619,8 +1612,6 @@ async function openSettings(){
     if(obj.gh_token){ $("token").value=obj.gh_token; localStorage.setItem("gh_token",obj.gh_token); }
     if(obj.gemini_key){ $("gemini_key").value=obj.gemini_key; localStorage.setItem("gemini_key",obj.gemini_key); }
     if(obj.openai_key){ $("openai_key").value=obj.openai_key; localStorage.setItem("openai_key",obj.openai_key); }
-    if(obj.google_cse_key){ $("google_cse_key").value=obj.google_cse_key; localStorage.setItem("google_cse_key",obj.google_cse_key); }
-    if(obj.google_cse_cx){ $("google_cse_cx").value=obj.google_cse_cx; localStorage.setItem("google_cse_cx",obj.google_cse_cx); }
     $("keys_pass").value=pass; settingsUnlocked=true;
     $("settings").style.display="flex"; status("✓ Impostazioni sbloccate, chiavi caricate.",true);
   }catch(e){ alert("Password errata."); }
@@ -1980,26 +1971,34 @@ async function tmdbPersonCandidates(nome, filmTitle, year){
     };
   }));
 }
-// Google Immagini via Custom Search JSON API (CORS-friendly). Fonte a BASSA priorita'
-// (immagini web generiche): l'AI verifica sempre il volto. Attiva solo se key+cx configurati.
-async function googleImageCandidates(nome, filmTitle){
-  const kEl=$("google_cse_key"), xEl=$("google_cse_cx");
-  const key=kEl?kEl.value.trim():"", cx=xEl?xEl.value.trim():"";
-  if(!key||!cx) return [];
-  const out=[];
-  const queries=[`"${nome}" attore ${filmTitle}`.trim(), `"${nome}" actor`, `${nome} attore`];
-  for(const q of queries){
-    const d=await fetchJsonSafe(`https://www.googleapis.com/customsearch/v1?key=${encodeURIComponent(key)}&cx=${encodeURIComponent(cx)}&searchType=image&num=6&safe=active&q=${encodeURIComponent(q)}`);
-    ((d&&d.items)||[]).forEach(it=>{
-      const img=it.link; if(!img) return;
-      const k=`google-${img}`; if(out.some(x=>x.key===k)) return;
-      const ctx=`${it.title||""} - ${it.displayLink||""} - ${(it.snippet||"").slice(0,160)}`;
-      out.push({key:k, source:"Google Immagini", title:nome, image:img,
-        page:(it.image&&it.image.contextLink)||img, context:compactText(ctx,400),
-        score:10+filmMatchScore(ctx,nome)+filmMatchScore(ctx,filmTitle)});
-    });
-    if(out.length>=8) break;
-  }
+// Wikidata SPARQL: persone con professione ATTORE ed etichetta = nome (piu' preciso della
+// ricerca testuale, filtra per occupazione). CORS-friendly (query.wikidata.org).
+async function wikidataSparqlImageCandidates(nome, filmTitle){
+  const out=[]; const esc=String(nome).replace(/"/g,"");
+  const values=["it","en","fr","es","de"].map(l=>`"${esc}"@${l}`).join(" ");
+  const q=`SELECT ?person ?personLabel ?image WHERE { VALUES ?occ { wd:Q33999 wd:Q10800557 wd:Q10798782 wd:Q2259451 } ?person wdt:P106 ?occ ; rdfs:label ?lbl . VALUES ?lbl { ${values} } OPTIONAL { ?person wdt:P18 ?image } SERVICE wikibase:label { bd:serviceParam wikibase:language "it,en". } } LIMIT 10`;
+  const d=await fetchJsonSafe(`https://query.wikidata.org/sparql?format=json&query=${encodeURIComponent(q)}`);
+  ((d&&d.results&&d.results.bindings)||[]).forEach(b=>{
+    if(!b.image) return;
+    const id=(b.person.value||"").split("/").pop();
+    const k=`wdsparql-${id}`; if(out.some(x=>x.key===k)) return;
+    out.push({key:k, source:"Wikidata (attore)", title:(b.personLabel&&b.personLabel.value)||nome,
+      image:b.image.value, page:b.person.value, context:"occupazione: attore",
+      score:24+filmMatchScore((b.personLabel&&b.personLabel.value)||"",nome)});
+  });
+  return out;
+}
+// DBpedia: dbo:Person con etichetta = nome, immagine dbo:thumbnail. CORS-friendly.
+async function dbpediaImageCandidates(nome, filmTitle){
+  const out=[]; const esc=String(nome).replace(/"/g,"");
+  const q=`SELECT DISTINCT ?p ?thumb WHERE { ?p a dbo:Person ; rdfs:label ?l . VALUES ?l { "${esc}"@en "${esc}"@it } OPTIONAL { ?p dbo:thumbnail ?thumb } } LIMIT 8`;
+  const d=await fetchJsonSafe(`https://dbpedia.org/sparql?format=${encodeURIComponent("application/sparql-results+json")}&query=${encodeURIComponent(q)}`);
+  ((d&&d.results&&d.results.bindings)||[]).forEach(b=>{
+    if(!b.thumb) return;
+    const k=`dbpedia-${b.p.value}`; if(out.some(x=>x.key===k)) return;
+    out.push({key:k, source:"DBpedia", title:nome, image:b.thumb.value, page:b.p.value,
+      context:"DBpedia dbo:Person", score:18+filmMatchScore(b.p.value,nome)});
+  });
   return out;
 }
 // STRATEGIA PRIMARIA foto cast (massima affidabilita'): l'attore e' NEL cast del FILM
@@ -2034,7 +2033,7 @@ async function findCastPhotoWithAi(nome, personaggio){
   if(_tid){ const direct=await tmdbCastPhotoFromFilm(_tid, q, personaggio); if(direct) return direct; }
   const filmTitle=$("m_title").value.trim()||((editing&&editing.m&&title(editing.m))||"");
   const year=$("m_year").value.trim();
-  const [tmdb,imdb,tvmaze,wikiIt,wikiEn,wikiFr,wikiEs,wikiDe,wikiPt,wikiNl,wikiCa,wikiRu,wikiPl,wdata,commons,openverse,google]=await Promise.all([
+  const [tmdb,imdb,tvmaze,wikiIt,wikiEn,wikiFr,wikiEs,wikiDe,wikiPt,wikiNl,wikiCa,wikiRu,wikiPl,wdata,wdsparql,dbpedia,commons,openverse]=await Promise.all([
     tmdbPersonCandidates(q,filmTitle,year),
     imdbImageCandidates(q,filmTitle,year),
     tvmazeImageCandidates(q,filmTitle,year),
@@ -2049,11 +2048,12 @@ async function findCastPhotoWithAi(nome, personaggio){
     wikiImageCandidates("ru",q,filmTitle),
     wikiImageCandidates("pl",q,filmTitle),
     wikidataImageCandidates(q,filmTitle),
+    wikidataSparqlImageCandidates(q,filmTitle),
+    dbpediaImageCandidates(q,filmTitle),
     commonsSearchImageCandidates(q,filmTitle),
-    openverseImageCandidates(q,filmTitle),
-    googleImageCandidates(q,filmTitle)
+    openverseImageCandidates(q,filmTitle)
   ]);
-  const cands=dedupeCandidates([...tmdb,...imdb,...tvmaze,...wikiIt,...wikiEn,...wikiFr,...wikiEs,...wikiDe,...wikiPt,...wikiNl,...wikiCa,...wikiRu,...wikiPl,...wdata,...commons,...openverse,...google],72);
+  const cands=dedupeCandidates([...tmdb,...imdb,...tvmaze,...wikiIt,...wikiEn,...wikiFr,...wikiEs,...wikiDe,...wikiPt,...wikiNl,...wikiCa,...wikiRu,...wikiPl,...wdata,...wdsparql,...dbpedia,...commons,...openverse],72);
   if(!cands.length) return null;
   const list=cands.map((c,i)=>`${i}. score=${Math.round(c.score||0)}; fonte=${c.source}; titolo="${c.title}"; foto=${c.image?"si":"no"}; pagina=${c.page||""}; contesto=${compactText(c.context,520)}`).join("\n");
   const prompt=`Devi scegliere quale risultato web contiene la foto corretta di un attore.\nLa ricerca e' incrociata: nome attore + nome film, poi allargata a fonti aperte.\nFilm: "${filmTitle}" (${year||"anno non indicato"})\nAttore: "${q}"${personaggio?`\nPersonaggio nel film: "${personaggio}"`:""}\n\nCandidati da TMDB, IMDb, TVMaze, Wikipedia multilingua, Wikidata, Wikimedia Commons, categorie Commons e Openverse:\n${list}\n\nRegole severe:
@@ -2448,7 +2448,7 @@ async function saveKeysEncrypted(){
   try{
     const salt=crypto.getRandomValues(new Uint8Array(16)), iv=crypto.getRandomValues(new Uint8Array(12));
     const key=await _deriveKey(pass, salt);
-    const plain=JSON.stringify({ gh_token:token, gemini_key:$("gemini_key").value.trim(), openai_key:$("openai_key").value.trim(), google_cse_key:$("google_cse_key").value.trim(), google_cse_cx:$("google_cse_cx").value.trim() });
+    const plain=JSON.stringify({ gh_token:token, gemini_key:$("gemini_key").value.trim(), openai_key:$("openai_key").value.trim() });
     const ct=await crypto.subtle.encrypt({ name:"AES-GCM", iv }, key, new TextEncoder().encode(plain));
     const payload={ v:1, salt:_b64e(salt), iv:_b64e(iv), data:_b64e(ct) };
     const api=`https://api.github.com/repos/${OWNER}/${REPO}/contents/${KEYS_FILE}`;
@@ -2477,8 +2477,6 @@ async function loadKeysEncrypted(){
     if(obj.gh_token){ $("token").value=obj.gh_token; localStorage.setItem("gh_token",obj.gh_token); }
     if(obj.gemini_key){ $("gemini_key").value=obj.gemini_key; localStorage.setItem("gemini_key",obj.gemini_key); }
     if(obj.openai_key){ $("openai_key").value=obj.openai_key; localStorage.setItem("openai_key",obj.openai_key); }
-    if(obj.google_cse_key){ $("google_cse_key").value=obj.google_cse_key; localStorage.setItem("google_cse_key",obj.google_cse_key); }
-    if(obj.google_cse_cx){ $("google_cse_cx").value=obj.google_cse_cx; localStorage.setItem("google_cse_cx",obj.google_cse_cx); }
     status("✓ Chiavi caricate e decifrate in questo browser.",true);
   }catch(e){ status("Errore: "+e.message,false); }
 }
@@ -2493,8 +2491,6 @@ function persistKey(id, storeKey){
 persistKey("token","gh_token");
 persistKey("gemini_key","gemini_key");
 persistKey("openai_key","openai_key");
-persistKey("google_cse_key","google_cse_key");
-persistKey("google_cse_cx","google_cse_cx");
 $("genre").innerHTML=GENRE_ORDER.filter(([k])=>k).map(([k,l])=>`<option value="${k}">${l}</option>`).join("");
 load();
 </script>
