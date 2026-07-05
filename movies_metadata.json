@@ -341775,7 +341775,7 @@
     },
     {
       "video_id": "p6GjyUcAM3Q",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "L'ultimo giorno del Toro | Una Commedia da non perdere | Film Completo ITA",
       "channel": "TVItalia",
       "tmdb_id": 820859,
@@ -341868,7 +341868,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T04:31:36.707Z",
       "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_lock_reason": "genere compilato dalla diagnostica editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:47:33.768Z"
     },
     {
       "video_id": "sRp0nIhrWJk",
@@ -349885,7 +349888,7 @@
     },
     {
       "video_id": "n1MG2M1FshM",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Quando le donne si chiamavano Madonne | HD | Commedia | Film Completo in Italiano",
       "channel": "TVItalia",
       "tmdb_id": 154910,
@@ -350043,7 +350046,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T05:24:23.514Z",
       "editor_updated_at": "2026-07-05T05:24:23.514Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_lock_reason": "genere compilato dalla diagnostica editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:47:33.767Z"
     },
     {
       "video_id": "NePU6Rv94-A",
@@ -351384,7 +351390,7 @@
     },
     {
       "video_id": "P0zgJjXtItU",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Ad ovest di Paperino",
       "channel": "TVItalia",
       "tmdb_id": 58190,
@@ -351540,7 +351546,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T05:41:32.835Z",
       "editor_updated_at": "2026-07-05T05:41:32.835Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:47:33.767Z"
     },
     {
       "video_id": "3RizV1WYH_8",
@@ -353362,7 +353371,7 @@
     },
     {
       "video_id": "xTTOYie-W4w",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Del perduto amore",
       "channel": "TVItalia",
       "tmdb_id": 56375,
@@ -353486,7 +353495,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T05:40:40.614Z",
       "editor_updated_at": "2026-07-05T05:40:40.614Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:47:33.767Z"
     },
     {
       "video_id": "mGvYXlHSDO0",
@@ -354091,7 +354103,7 @@
     },
     {
       "video_id": "l8Bftc1O7K0",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Spread",
       "channel": "TVItalia",
       "tmdb_id": 19918,
@@ -354248,7 +354260,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T05:37:26.290Z",
       "editor_updated_at": "2026-07-05T05:37:26.290Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T05:47:33.766Z"
     },
     {
       "video_id": "9blJum-QpDk",
