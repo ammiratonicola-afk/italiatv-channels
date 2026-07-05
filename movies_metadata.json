@@ -328750,26 +328750,23 @@
     {
       "video_id": "37k_GgJrTXc",
       "is_movie": true,
-      "original_title": "Film Completo di Giuseppe Loconsole: Tu mi nascondi qualcosa (2018)",
+      "original_title": "Tu mi nascondi qualcosa",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 512968,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Film Completo di Giuseppe Loconsole: Tu mi nascondi qualcosa (2018)",
-        "youtube_url": "https://www.youtube.com/watch?v=37k_GgJrTXc",
-        "titolo_corretto": "Tu mi nascondi qualcosa",
         "titolo_italiano": "Tu mi nascondi qualcosa",
         "titolo_originale": "Tu mi nascondi qualcosa",
         "anno_uscita": 2018,
         "durata_minuti": 87,
         "genere": [
           "Commedia",
-          "Romantico"
+          "Romance"
         ],
         "regista": [
-          "Giuseppe Loconsole"
+          "Giuseppe Lo Console"
         ],
         "cast_principale": [
           {
@@ -328780,6 +328777,17 @@
             "foto_fonte": {
               "nome": "TMDB",
               "url_pagina_origine": "https://www.themoviedb.org/person/120135",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rocío Muñoz Morales",
+            "personaggio": "Jamila",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ffDnjk9ZvHyZnV2srln6A2hMWBj.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1623194",
               "verificata": true
             }
           },
@@ -328806,6 +328814,17 @@
             }
           },
           {
+            "nome": "Alessandro Tiberi",
+            "personaggio": "Ezio",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oVnlJmXRRghRm8QGnazpfiH9p2U.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/210766",
+              "verificata": true
+            }
+          },
+          {
             "nome": "Stella Egitto",
             "personaggio": "Linda",
             "foto_url": "https://image.tmdb.org/t/p/w185/baHxx2hbytvUzQwr44BuDkqnYVM.jpg",
@@ -328817,123 +328836,78 @@
             }
           },
           {
-            "nome": "Rocío Muñoz Morales",
-            "personaggio": "Jamila",
-            "foto_url": "https://image.tmdb.org/t/p/w185/ffDnjk9ZvHyZnV2srln6A2hMWBj.jpg",
+            "nome": "Eva Robin's",
+            "personaggio": "Pamela",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wjhi6069kDH38pWlY8xdun4p7da.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1623194",
+              "url_pagina_origine": "https://www.themoviedb.org/person/99196",
               "verificata": true
             }
           },
           {
-            "nome": "Alessandro Tiberi",
-            "personaggio": "Ezio",
-            "foto_url": "https://image.tmdb.org/t/p/w185/oVnlJmXRRghRm8QGnazpfiH9p2U.jpg",
+            "nome": "Olga Rossi",
+            "personaggio": "Irene",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nNxDeqvdaF1ZmS4VTXhfVMtX1pu.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/210766",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1921655",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Simon Grechi",
+            "personaggio": "Jacopo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cmvZ8IdygmUcXAtsfLb3l08vEE7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1657019",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Federico Tolardo",
+            "personaggio": "Marco",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vCWKFQI7NVNv5fqA60VxkGF1ZGx.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1505491",
               "verificata": true
             }
           }
         ],
-        "trama": "Tre storie si intrecciano in una commedia di equivoci e segreti. Valeria, investigatrice privata, scopre per errore il tradimento della futura sposa di Francesco. Alberto, dopo un incidente, perde la memoria e si trova conteso tra due donne che affermano di essere sua moglie. Ezio sospetta che la sua compagna Linda, attrice per adulti, lo tradisca. Le loro vite si incrociano in un mosaico di situazioni imbarazzanti.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Valeria è un’investigatrice privata distratta che, pedinando la persona sbagliata, rivela a Francesco che la moglie lo tradisce. Alberto è un uomo che in seguito ad un incidente perde la memoria e al cui capezzale si presentano ben due mogli. Linda fa la pornostar, ma il suo compagno Ezio non mostra segni di gelosia finché non inizia a sospettare che lei abbia una relazione con l’attore con cui “lavora” sul set.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/m7rx6YxAmU7gPUVmxMGX7rN1wUu.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/512968-tu-mi-nascondi-qualcosa",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
           "url": "https://www.youtube.com/watch?v=a--MDD4NZp0",
           "lingua": "it",
           "fonte": "YouTube",
-          "canale": "Tu mi nascondi qualcosa - Trailer ufficiale [HD]",
-          "ufficiale": true,
+          "canale": null,
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
+          "motivo_verifica": "trailer YouTube"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/512968-tu-mi-nascondi-qualcosa"
-          },
-          {
-            "nome": "OMDb",
-            "url": "https://www.omdbapi.com/"
-          },
-          {
-            "nome": "Wikipedia IT",
-            "url": "https://it.wikipedia.org/wiki/Tu_mi_nascondi_qualcosa"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Tu mi nascondi qualcosa"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": 2018,
-          "durata_video_youtube": "84 min",
-          "attori_trovati": [
-            "Rocco Papaleo",
-            "Giuseppe Battiston",
-            "Sarah Felberbaum",
-            "Stella Egitto",
-            "Rocío Muñoz Morales",
-            "Alessandro Tiberi"
-          ],
-          "registi_trovati": [
-            "Giuseppe Loconsole"
-          ],
-          "parole_chiave_trama": [
-            "equivoci",
-            "bugie",
-            "sospetti",
-            "investigatrice privata",
-            "tradimento",
-            "memoria",
-            "moglie",
-            "attrice per adulti",
-            "gelosie"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film corrisponde per titolo, anno, cast, regista e trama con i dati forniti da TMDB, OMDb e Wikipedia."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 95,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "cast principale",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "durata"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "OMDb",
-            "Wikipedia IT"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "Il film è stato identificato con un alto livello di certezza grazie alla corrispondenza di più elementi chiave tra le fonti.",
         "tmdb_id_scelto": 512968,
-        "imdb_id_scelto": "tt7325902"
-      }
+        "imdb_id_scelto": "tt7325902",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-05T04:24:32.363Z"
+      },
+      "tmdb_poster_path": "/m7rx6YxAmU7gPUVmxMGX7rN1wUu.jpg",
+      "tmdb_title_official": "Tu mi nascondi qualcosa",
+      "tmdb_year_official": 2018,
+      "tmdb_media_type": "movie",
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-05T04:24:32.363Z",
+      "editor_updated_at": "2026-07-05T04:24:32.363Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "DtosntVTMqc",
