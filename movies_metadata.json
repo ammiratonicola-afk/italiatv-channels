@@ -315584,17 +315584,14 @@
     {
       "video_id": "EL0nD2EOhp4",
       "is_movie": true,
-      "original_title": "Film Completo Italiano HD: Arriva Durango... paga o muori (1971) | Western",
+      "original_title": "Arriva Durango, paga o muori",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 150029,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Film Completo Italiano HD: Arriva Durango... paga o muori (1971) | Western",
-        "youtube_url": "https://www.youtube.com/watch?v=EL0nD2EOhp4",
-        "titolo_corretto": "Arriva Durango... paga o muori",
-        "titolo_italiano": "Arriva Durango... paga o muori",
+        "titolo_italiano": "Arriva Durango, paga o muori",
         "titolo_originale": "Arriva Durango, paga o muori",
         "anno_uscita": 1971,
         "durata_minuti": 100,
@@ -315640,12 +315637,12 @@
           },
           {
             "nome": "Gino Lavagetto",
-            "personaggio": "Ferguson, Bank Manager",
+            "personaggio": "Ferguson",
             "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": null,
+              "url_pagina_origine": "https://www.themoviedb.org/person/1043966",
               "verificata": false
             }
           },
@@ -315653,105 +315650,96 @@
             "nome": "Maretta Procaccini",
             "personaggio": "Jane",
             "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": null,
+              "url_pagina_origine": "https://www.themoviedb.org/person/1129747",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Roberto Messina",
+            "personaggio": "Morris",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rJEV6WKAZ12a0mEJhpJQgJ50TSz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/544725",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gino Turini",
+            "personaggio": "Esquimindi",
+            "foto_url": "https://image.tmdb.org/t/p/w185/mgRxSyZLWY0glVkCH1QooysKEhx.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/235949",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Emilio Messina",
+            "personaggio": "Diego Avenaja",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kQAEIFNCYVw78q10FxFvgmsFELn.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1127104",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Attilio Dottesio",
+            "personaggio": "Peter, Saloon Host",
+            "foto_url": "https://image.tmdb.org/t/p/w185/Qe1u3NCklcxRKaua9JRVVRDEjy.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/43241",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Irio Fantini",
+            "personaggio": "2nd Saloon Host",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1116545",
               "verificata": false
             }
           }
         ],
-        "trama": "Durango è un esattore di debiti che si trova a dover recuperare una grossa somma per un uomo d'affari corrotto. Quando il pagamento per i suoi servizi viene negato, Durango si ritrova a dover lottare per la sua vita contro il mandante e i suoi scagnozzi, in un conflitto dove il sangue potrebbe essere l'unico modo per saldare il debito.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Durango è un pistolero che si è specializzato nella riscossione dei crediti. Un giorno capita nella cittadina di Tucson dove comanda Fergusson, un losco affarista. Durango, che si vanta della sua abilità con la pistola, riesce a sventare una rapina architettata dal bandito \"El Tuerto\" ma quando torna da Fergusson per riscuotere la ricompensa, questa gli viene negata.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/k5kVi14Asa8GMhSXvCcq7rNHiOC.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/150029",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=2xVRKbNYwm4",
-          "lingua": "en",
           "fonte": "YouTube",
-          "canale": "PAY OR DIE   TRAILER",
+          "lingua": "it",
           "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=2xVRKbNYwm4"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/150029"
-          },
-          {
-            "nome": "Wikipedia IT",
-            "url": "https://it.wikipedia.org/wiki/Arriva_Durango..._paga_o_muori"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Arriva Durango... paga o muori"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": 1971,
-          "durata_video_youtube": "87 min",
-          "attori_trovati": [
-            "Brad Harris",
-            "José Torres",
-            "Gisela Hahn"
-          ],
-          "registi_trovati": [
-            "Roberto Bianchi Montero"
-          ],
-          "parole_chiave_trama": [
-            "esattore di debiti",
-            "uomo d'affari corrotto",
-            "conflitto brutale",
-            "sangue"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film corrisponde per titolo, anno, regista, cast principale e trama. La durata del video YouTube è leggermente inferiore, ma compatibile con possibili tagli."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "regista",
-            "cast principale",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "durata"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "Wikipedia IT"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "Il film è stato identificato con alta certezza grazie alla corrispondenza di più elementi chiave tra le fonti disponibili.",
         "tmdb_id_scelto": 150029,
         "imdb_id_scelto": "tt0069523",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:41:01.521Z"
       },
       "genre": "western",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:41:01.521Z",
+      "editor_updated_at": "2026-07-05T04:41:01.521Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/k5kVi14Asa8GMhSXvCcq7rNHiOC.jpg",
+      "tmdb_title_official": "Arriva Durango, paga o muori",
+      "tmdb_year_official": 1971,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "fFd2NufJPww",
@@ -317220,16 +317208,13 @@
     {
       "video_id": "4MwDEe24P-k",
       "is_movie": true,
-      "original_title": "Film Western Italiano: Lo sceriffo che non spara | Mickey Hargitay e Vincenzo Cascino",
+      "original_title": "Lo sceriffo che non spara",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 198126,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Film Western Italiano: Lo sceriffo che non spara | Mickey Hargitay e Vincenzo Cascino",
-        "youtube_url": "https://www.youtube.com/watch?v=4MwDEe24P-k",
-        "titolo_corretto": "Lo sceriffo che non spara",
         "titolo_italiano": "Lo sceriffo che non spara",
         "titolo_originale": "Lo sceriffo che non spara",
         "anno_uscita": 1965,
@@ -317244,7 +317229,7 @@
         "cast_principale": [
           {
             "nome": "Mickey Hargitay",
-            "personaggio": "Jim",
+            "personaggio": "Allan",
             "foto_url": "https://image.tmdb.org/t/p/w185/lGHa8aYskBpnDrpYR9DhqYYVtzZ.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -317255,13 +317240,13 @@
           },
           {
             "nome": "Vincenzo Cascino",
-            "personaggio": "Allan",
-            "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "personaggio": "Barone Vermont",
+            "foto_url": "https://m.media-amazon.com/images/M/MV5BZjViZWZkNzYtZDlmOC00NGUyLTljMTMtZDE0MDA1YjllNTBhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
+              "nome": "manuale",
               "url_pagina_origine": null,
-              "verificata": false
+              "verificata": true
             }
           },
           {
@@ -317307,97 +317292,72 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/2968510",
               "verificata": true
             }
-          }
-        ],
-        "trama": "Jim, lo sceriffo di una cittadina del West, è tormentato dal segreto che il capo dei criminali è suo fratello. Diviso tra dovere e legame di sangue, deve affrontare una prova estrema per ristabilire la giustizia.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/1ZYnnDWsetdZyT8qeQ3Y7mmK9FI.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/198126-lo-sceriffo-che-non-spara",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
-        "trailer": {
-          "url": "https://www.youtube.com/watch?v=NmsKOxWvRMg",
-          "lingua": "en",
-          "fonte": "YouTube",
-          "canale": "The Sheriff Won't Shoot (1965) - Trailer",
-          "ufficiale": false,
-          "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
-        },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/198126-lo-sceriffo-che-non-spara"
           },
           {
-            "nome": "IMDb",
-            "url": "https://www.imdb.com/title/tt0060970/"
+            "nome": "Victor Kasline",
+            "personaggio": "Deputy with Mexican Hat",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4851113",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Manuel Zarzo",
+            "personaggio": "Brett, Scarface Bandit",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kVYJhBEaOsxhUom2iYiUkDTMZ53.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/54138",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Solvi Stübing",
+            "personaggio": "Rita, Orphan of the Sheriff",
+            "foto_url": "https://image.tmdb.org/t/p/w185/AmGNZUo7N4WlqxyY26rIvh4KF8Q.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/68667",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gianni Dei",
+            "personaggio": "Stephen",
+            "foto_url": "https://image.tmdb.org/t/p/w185/h1B2hHOJp1gWCfd3zXD9gSvPymb.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/41067",
+              "verificata": true
+            }
           }
         ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Lo sceriffo che non spara"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": null,
-          "durata_video_youtube": "79 min",
-          "attori_trovati": [
-            "Mickey Hargitay",
-            "Vincenzo Cascino",
-            "Nana Aslanoglu"
-          ],
-          "registi_trovati": [
-            "Renato Polselli"
-          ],
-          "parole_chiave_trama": [
-            "sheriff",
-            "brother",
-            "criminals",
-            "justice"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "alta",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Tutti gli elementi principali (titolo, anno, durata, cast, trama) coincidono perfettamente con il candidato TMDB."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 100,
-          "elementi_confermati": [
-            "titolo",
-            "anno",
-            "durata",
-            "cast",
-            "trama"
-          ],
-          "elementi_non_confermati": [],
-          "fonti_concordanti": [
-            "TMDB",
-            "IMDb"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "",
+        "trama": "Coinvolto in una sparatoria, lo sceriffo Jim uccide inavvertitamente il padre e getta alle ortiche la stella e la pistola, con gran sollievo dei criminali della zona. Quando deciderà di ricominciare a sparare, saranno guai per tutti.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/1ZYnnDWsetdZyT8qeQ3Y7mmK9FI.jpg",
+        "trailer": null,
         "tmdb_id_scelto": 198126,
         "imdb_id_scelto": "tt0060970",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:40:37.689Z"
       },
       "genre": "western",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:40:37.689Z",
+      "editor_updated_at": "2026-07-05T04:40:37.689Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/1ZYnnDWsetdZyT8qeQ3Y7mmK9FI.jpg",
+      "tmdb_title_official": "Lo sceriffo che non spara",
+      "tmdb_year_official": 1965,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "WIN4p727eCQ",
@@ -317745,16 +317705,13 @@
     {
       "video_id": "4L6rXCXSBNQ",
       "is_movie": true,
-      "original_title": "Pecos non dimentica: 2 once di piombo | Film Western di Maurizio Lucidi",
+      "original_title": "Due once di piombo",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 144354,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Pecos non dimentica: 2 once di piombo | Film Western di Maurizio Lucidi",
-        "youtube_url": "https://www.youtube.com/watch?v=4L6rXCXSBNQ",
-        "titolo_corretto": "Due once di piombo - Il mio nome è Pecos",
         "titolo_italiano": "Due once di piombo - Il mio nome è Pecos",
         "titolo_originale": "Due once di piombo",
         "anno_uscita": 1966,
@@ -317779,7 +317736,7 @@
           },
           {
             "nome": "Pier Paolo Capponi",
-            "personaggio": "Joe Clines",
+            "personaggio": "Joe Kline",
             "foto_url": "https://image.tmdb.org/t/p/w185/nRyfLo2RKJBysI5DTc8Pw5gBqYD.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -317790,7 +317747,7 @@
           },
           {
             "nome": "Lucia Modugno",
-            "personaggio": "Mary",
+            "personaggio": "Mary Burton",
             "foto_url": "https://image.tmdb.org/t/p/w185/449AL4CJvxvGvK5iBKsg10cp8uk.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -317820,101 +317777,90 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/39854",
               "verificata": true
             }
-          }
-        ],
-        "trama": "Pecos Martinez, un pistolero messicano, torna nella sua città natale per vendicarsi di Joe Clines, il capo di una banda di fuorilegge che ha sterminato la sua famiglia. In un'atmosfera di tensione, Pecos elimina uno a uno i complici di Clines fino allo scontro finale.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/g603486FTkKiHOIxOnA1qjvqvZo.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/144354",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
-        "trailer": {
-          "url": "https://www.youtube.com/watch?v=74fDH1aLbg0",
-          "lingua": "en",
-          "fonte": "YouTube",
-          "canale": "My Name Is Pecos (1966) ORIGINAL TRAILER [HD]",
-          "ufficiale": false,
-          "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
-        },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/144354"
           },
           {
-            "nome": "IMDb",
-            "url": "https://www.imdb.com/title/tt0060351/"
+            "nome": "Luigi Casellato",
+            "personaggio": "Eddie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ftfQniH4E9ehyStbF9PFlMrFiQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/41094",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Umberto Raho",
+            "personaggio": "Morton",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oYhu89cnv7KndDnAY5Q4hhGIla2.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/25816",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Giuliano Raffaelli",
+            "personaggio": "Dr. Berton",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gWDpqXI0s6bchLIIAf60YxcKxwx.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/38125",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Pietro Martellanza",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/n0JK5BKsHR50ml9z5toToSSd8I4.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/64078",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Massimo Righi",
+            "personaggio": "Jack",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cxoR8eYBh9p421tpprrm4DQov1n.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/98494",
+              "verificata": true
+            }
           }
         ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Pecos non dimentica: 2 once di piombo",
-            "Due once di piombo - Il mio nome è Pecos"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": null,
-          "durata_video_youtube": "81 min",
-          "attori_trovati": [
-            "Robert Woods",
-            "Pier Paolo Capponi",
-            "Lucia Modugno"
-          ],
-          "registi_trovati": [
-            "Maurizio Lucidi"
-          ],
-          "parole_chiave_trama": [
-            "vendetta",
-            "pistolero",
-            "banda di fuorilegge",
-            "scontro finale"
-          ]
+        "trama": "Il messicano Pecos Martinez assiste all'assalto che Joe Kline e la sua banda portano a Brack, il quale tuttavia riesce a consegnare a Tedder, il padrone del saloon, un barile contenente la refurtiva di una banca.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/g603486FTkKiHOIxOnA1qjvqvZo.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=74fDH1aLbg0"
         },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "media",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film corrisponde per titolo, regista, cast, trama e anno di uscita con i dati TMDB e IMDb."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 90,
-          "elementi_confermati": [
-            "titolo originale",
-            "titolo italiano",
-            "anno di uscita",
-            "cast principale",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [
-            "durata"
-          ],
-          "fonti_concordanti": [
-            "TMDB",
-            "IMDb"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "Il film è stato identificato con alta certezza grazie alla corrispondenza di più elementi chiave tra le fonti disponibili.",
         "tmdb_id_scelto": 144354,
         "imdb_id_scelto": "tt0060351",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:39:41.830Z"
       },
       "genre": "western",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:39:41.830Z",
+      "editor_updated_at": "2026-07-05T04:39:41.830Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/g603486FTkKiHOIxOnA1qjvqvZo.jpg",
+      "tmdb_title_official": "Due once di piombo - Il mio nome è Pecos",
+      "tmdb_year_official": 1966,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "StzqCyRfDMM",
@@ -318396,155 +318342,140 @@
     {
       "video_id": "SpOa7m-acwU",
       "is_movie": true,
-      "original_title": "Film Western Italiano HD: L'uomo venuto per uccidere | Con Brad Harris e Richard Stapley",
+      "original_title": "L'uomo dalla pistola d'oro",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 138138,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Film Western Italiano HD: L'uomo venuto per uccidere | Con Brad Harris e Richard Stapley",
-        "youtube_url": "https://www.youtube.com/watch?v=SpOa7m-acwU",
-        "titolo_corretto": "L'uomo venuto per uccidere",
-        "titolo_italiano": "L'uomo venuto per uccidere",
-        "titolo_originale": "L'uomo venuto per uccidere",
+        "titolo_italiano": "L'uomo dalla pistola d'oro",
+        "titolo_originale": "L'uomo dalla pistola d'oro",
         "anno_uscita": 1965,
-        "durata_minuti": 83,
+        "durata_minuti": 84,
         "genere": [
           "Western"
         ],
         "regista": [
-          "León Klimovsky"
+          "Alfonso Balcázar"
         ],
         "cast_principale": [
           {
-            "nome": "Richard Stapley",
-            "personaggio": "Tony Garrett",
-            "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "nome": "Carl Möhner",
+            "personaggio": "Doc MacGregor",
+            "foto_url": "https://image.tmdb.org/t/p/w185/16PQrfp0v9YcPGCS3xGd2uY5pYu.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": null,
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/11937",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Luis Dávila",
+            "personaggio": "Slade",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dHSKOmu325bStBrrVTGMUXhF3xj.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/19795",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Fernando Sancho",
+            "personaggio": "Pablo Reyes",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zttePUBplDv07MPT4jYPO4daAq5.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/53950",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Gloria Milland",
+            "personaggio": "Norma O'Connor",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lhavPMGISQajbfzpsOQqVOnfe7g.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/45034",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Loris Loddi",
+            "personaggio": "Bob",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5fmsQA9Hn5NKu7FRGpElJy7hxPp.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/7196",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Óscar Pellicer",
+            "personaggio": "Brogas Nephew",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1108156",
               "verificata": false
             }
           },
           {
-            "nome": "Jesús Puente",
-            "personaggio": "Alex Town",
-            "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "nome": "Umberto Raho",
+            "personaggio": "Brogas",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oYhu89cnv7KndDnAY5Q4hhGIla2.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": null,
-              "url_pagina_origine": null,
-              "verificata": false
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/25816",
+              "verificata": true
             }
           },
           {
-            "nome": "Brad Harris",
-            "personaggio": "Bill Manners",
+            "nome": "Irene Mir",
+            "personaggio": null,
             "foto_url": null,
-            "foto_tipo": "non_disponibile",
+            "foto_tipo": "nessuna",
             "foto_fonte": {
-              "nome": null,
-              "url_pagina_origine": null,
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1108157",
               "verificata": false
             }
           }
         ],
-        "trama": "Tony Garrett, un ufficiale ingiustamente accusato di furto, evade di prigione per cercare vendetta e giustizia. Attraversa territori pericolosi per scoprire i veri colpevoli e ripulire il suo nome.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": null,
-        "locandina_fonte": {
-          "nome": null,
-          "url_pagina_origine": null,
-          "verificata": false,
-          "motivo_verifica": "Nessun poster TMDB disponibile"
-        },
+        "trama": "Doc MacGregor è un medico alcolizzato, che viene inseguito dal cacciatore di taglie Slade, per l'omicidio di un pistolero famoso per le sue pistole d'oro. Assumendosene l'identità, inizierà a farne le veci trasformandosi in un vero e proprio giustiziere a Balbosas, il villaggio in cui il defunto era stato richiamato a causa delle continue vessazioni di un bandito.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/nJbqBFssT4WvnIXSeT74DUSWln2.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": "Da verificare via TMDB videos endpoint"
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt0060320/videogallery/content_type-trailer"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org"
-          },
-          {
-            "nome": "IMDb",
-            "url": "https://www.imdb.com"
-          },
-          {
-            "nome": "Wikipedia",
-            "url": "https://it.wikipedia.org"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "L'uomo venuto per uccidere"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": 1965,
-          "durata_video_youtube": "83 min",
-          "attori_trovati": [
-            "Richard Stapley",
-            "Brad Harris",
-            "Jesús Puente"
-          ],
-          "registi_trovati": [
-            "León Klimovsky"
-          ],
-          "parole_chiave_trama": [
-            "vendetta",
-            "giustizia",
-            "fuga",
-            "accusa ingiusta"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "alta",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Tutti gli elementi principali (titolo, anno, durata, cast, trama) coincidono perfettamente con le informazioni disponibili."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 100,
-          "elementi_confermati": [
-            "titolo",
-            "anno",
-            "durata",
-            "cast",
-            "trama"
-          ],
-          "elementi_non_confermati": [],
-          "fonti_concordanti": [
-            "TMDB",
-            "IMDb",
-            "Wikipedia"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "Il film è stato identificato con alta certezza grazie alla corrispondenza di tutti gli elementi chiave.",
-        "tmdb_id_scelto": null,
-        "imdb_id_scelto": null,
+        "tmdb_id_scelto": 138138,
+        "imdb_id_scelto": "tt0060320",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:38:51.237Z"
       },
       "genre": "western",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:38:51.237Z",
+      "editor_updated_at": "2026-07-05T04:38:51.237Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/nJbqBFssT4WvnIXSeT74DUSWln2.jpg",
+      "tmdb_title_official": "L'uomo dalla pistola d'oro",
+      "tmdb_year_official": 1965,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "76qFqsYODA8",
@@ -320771,23 +320702,21 @@
     {
       "video_id": "ntN15RG6gYs",
       "is_movie": true,
-      "original_title": "Film Completo Italiano HD: E Dio disse a Caino (1970) | Western",
+      "original_title": "E Dio disse a Caino…",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 77165,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Film Completo Italiano HD: E Dio disse a Caino (1970) | Western",
-        "youtube_url": "https://www.youtube.com/watch?v=ntN15RG6gYs",
-        "titolo_corretto": "E Dio disse a Caino...",
-        "titolo_italiano": "E Dio disse a Caino...",
-        "titolo_originale": "E Dio disse a Caino...",
+        "titolo_italiano": "E Dio disse a Caino…",
+        "titolo_originale": "E Dio disse a Caino…",
         "anno_uscita": 1970,
         "durata_minuti": 96,
         "genere": [
+          "Western",
           "Horror",
-          "Western"
+          "Mistero"
         ],
         "regista": [
           "Antonio Margheriti"
@@ -320847,109 +320776,91 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/44980",
               "verificata": true
             }
+          },
+          {
+            "nome": "Giuliano Raffaelli",
+            "personaggio": "Doctor",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gWDpqXI0s6bchLIIAf60YxcKxwx.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/38125",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Luciano Pigozzi",
+            "personaggio": "Francisco Santamaria",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5PTtLdknAOIPHinNC1C34oh0sFx.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/30900",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lucio De Santis",
+            "personaggio": "Jim Santamaria",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nM3h6G1g1XEv42SpTu4t8v76Cde.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1121968",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "María Luisa Sala",
+            "personaggio": "Rosy",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1121969",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Furio Meniconi",
+            "personaggio": "Mike",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qra3034q3EyuYW4zocDM4Zh2Qjk.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/52255",
+              "verificata": true
+            }
           }
         ],
-        "trama": "Gary Hamilton, ingiustamente condannato a dieci anni di lavori forzati, torna nella sua città natale per vendicarsi della famiglia Acombar, responsabile della sua condanna. La città è ormai sotto il controllo degli Acombar, ma Hamilton è determinato a riprendersi la sua vita.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Gary Hamilton è un ufficiale dell'esercito nordista che, in seguito alle false accuse di Acombar, viene condannato per una rapina e per omicidio. Dopo dieci anni, Gary ottiene una grazia e torna al suo paese, deciso comunque a vendicarsi del suo accusatore, nel frattempo divenuto molto ricco.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/vcskav3qf1NpDfSb285iOxCYpdg.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/77165",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
           "url": "https://www.youtube.com/watch?v=uD9E4ECtO8U",
           "lingua": "it",
           "fonte": "YouTube",
-          "canale": "E Dio Disse a Caino    Trailer Italiano",
+          "canale": null,
           "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
+          "motivo_verifica": "trailer YouTube"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/77165"
-          },
-          {
-            "nome": "IMDb",
-            "url": "https://www.imdb.com/title/tt0064273/"
-          },
-          {
-            "nome": "Wikipedia IT",
-            "url": "https://it.wikipedia.org/wiki/E_Dio_disse_a_Caino..."
-          },
-          {
-            "nome": "Wikipedia EN",
-            "url": "https://en.wikipedia.org/wiki/And_God_Said_to_Cain"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "E Dio disse a Caino..."
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": 1970,
-          "durata_video_youtube": "96 min",
-          "attori_trovati": [
-            "Klaus Kinski",
-            "Peter Carsten",
-            "Marcella Michelangeli"
-          ],
-          "registi_trovati": [
-            "Antonio Margheriti"
-          ],
-          "parole_chiave_trama": [
-            "vendetta",
-            "ingiustizia",
-            "famiglia Acombar",
-            "città natale",
-            "resa dei conti"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "alta",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Tutti gli elementi principali (titolo, anno, durata, cast, regista, trama) coincidono perfettamente con i dati del film 'E Dio disse a Caino...' del 1970."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 100,
-          "elementi_confermati": [
-            "titolo",
-            "anno",
-            "durata",
-            "cast",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [],
-          "fonti_concordanti": [
-            "TMDB",
-            "IMDb",
-            "Wikipedia IT",
-            "Wikipedia EN"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "",
         "tmdb_id_scelto": 77165,
         "imdb_id_scelto": "tt0064273",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:38:29.589Z"
       },
       "genre": "horror",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:38:29.589Z",
+      "editor_updated_at": "2026-07-05T04:38:29.589Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/vcskav3qf1NpDfSb285iOxCYpdg.jpg",
+      "tmdb_title_official": "E Dio disse a Caino…",
+      "tmdb_year_official": 1970,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "o7h3FtXHCK8",
@@ -322269,22 +322180,20 @@
     {
       "video_id": "FmgY7R6rguQ",
       "is_movie": true,
-      "original_title": "La furia dell'Ottava Meraviglia del Mondo devasta New York. Avventura/Horror, King Kong",
+      "original_title": "King Kong",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 244,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "La furia dell'Ottava Meraviglia del Mondo devasta New York. Avventura/Horror, King Kong",
-        "youtube_url": "https://www.youtube.com/watch?v=FmgY7R6rguQ",
-        "titolo_corretto": "King Kong",
         "titolo_italiano": "King Kong",
         "titolo_originale": "King Kong",
         "anno_uscita": 1933,
         "durata_minuti": 100,
         "genere": [
           "Avventura",
+          "Fantasy",
           "Horror"
         ],
         "regista": [
@@ -322292,17 +322201,6 @@
           "Ernest B. Schoedsack"
         ],
         "cast_principale": [
-          {
-            "nome": "Fay Wray",
-            "personaggio": "Ann Darrow",
-            "foto_url": "https://image.tmdb.org/t/p/w185/dfpwqfEulBX06hOrX56fLhGSWAz.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/3242",
-              "verificata": true
-            }
-          },
           {
             "nome": "Robert Armstrong",
             "personaggio": "Carl Denham",
@@ -322315,8 +322213,19 @@
             }
           },
           {
+            "nome": "Fay Wray",
+            "personaggio": "Ann Darrow",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dfpwqfEulBX06hOrX56fLhGSWAz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3242",
+              "verificata": true
+            }
+          },
+          {
             "nome": "Bruce Cabot",
-            "personaggio": "John 'Jack' Driscoll",
+            "personaggio": "Jack Driscoll",
             "foto_url": "https://image.tmdb.org/t/p/w185/gWG4ECOOHeQWLEI4nwFlLSFiUpd.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -322327,12 +322236,34 @@
           },
           {
             "nome": "Frank Reicher",
-            "personaggio": "Capitano Englehorn",
+            "personaggio": "Captain Englehorn",
             "foto_url": "https://image.tmdb.org/t/p/w185/5q5kXKMDiBg7MrdcSdU5CZSQTgS.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
               "url_pagina_origine": "https://www.themoviedb.org/person/3245",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Victor Wong",
+            "personaggio": "Ship's Cook Charlie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fHqvxkA2vqGjDOfCQnGI4ak2Ect.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1128885",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "James Flavin",
+            "personaggio": "Mate Briggs",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zF6D2GWaLx2TyRm4qDTqwCk6JWg.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3262",
               "verificata": true
             }
           },
@@ -322349,7 +322280,7 @@
           },
           {
             "nome": "Noble Johnson",
-            "personaggio": "Capo Indigeno",
+            "personaggio": "Skull Island Native Chief",
             "foto_url": "https://image.tmdb.org/t/p/w185/ktN2dIxPBTdt7RqpFoWD0upCbUp.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -322357,115 +322288,58 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/3247",
               "verificata": true
             }
+          },
+          {
+            "nome": "Steve Clemente",
+            "personaggio": "Skull Island Witch Doctor",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ghpLqUxVQHCdrtOwGh7s4oGvpVz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3261",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Roscoe Ates",
+            "personaggio": "Press Photographer (uncredited)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jrtu4ej5MLP6Ynl35wPP0bGaroB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1509",
+              "verificata": true
+            }
           }
         ],
-        "trama": "L'ambizioso regista Carl Denham organizza una spedizione verso l'Isola del Teschio, dove scopre un gigantesco gorilla chiamato King Kong. Dopo aver catturato la creatura, la porta a New York per esibirla, ma Kong fugge, scatenando il caos in città.",
-        "lingua_trama_originale": "en",
+        "trama": "Carl Denham è un avventuroso produttore di documentari. Insieme a una giovane disoccupata di New York, Ann, parte alla volta di un'isola tropicale, Skull Island, abitata da un gigantesco e leggendario gorilla, King Kong. Il gorilla s'innamora della bella Ann e, preso in trappola, viene catturato da Denham. Portato a New York in catene, viene esibito. Ma King Kong riesce a liberarsi e a fuggire in cerca della sua amata Ann. Lo uccideranno sulla vetta dell'Empire State Building, dove si è rifugiato con la giovane donna, mitragliato da aerei da guerra.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/lHlnxKL5GbgRibyRFI7n1Ey850i.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/244",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB per il film del 1933."
-        },
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=I8P7RzqOU_M",
-          "lingua": "en",
+          "url": "https://www.youtube.com/watch?v=scQqFQd7m7w",
+          "lingua": "it",
           "fonte": "YouTube",
-          "canale": "Trailer",
-          "ufficiale": true,
+          "canale": null,
+          "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
+          "motivo_verifica": "trailer YouTube"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/244"
-          },
-          {
-            "nome": "IMDb",
-            "url": "https://www.imdb.com/title/tt0024216/"
-          },
-          {
-            "nome": "OMDb",
-            "url": "http://www.omdbapi.com/?i=tt0024216"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "King Kong"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": 1933,
-          "durata_video_youtube": "99 min",
-          "attori_trovati": [
-            "Fay Wray",
-            "Robert Armstrong",
-            "Bruce Cabot",
-            "Frank Reicher",
-            "Sam Hardy",
-            "Noble Johnson"
-          ],
-          "registi_trovati": [
-            "Merian C. Cooper",
-            "Ernest B. Schoedsack"
-          ],
-          "parole_chiave_trama": [
-            "Film di mostri",
-            "scimmione gigante",
-            "stop-motion",
-            "film classico",
-            "avventura",
-            "fantasy",
-            "Skull Island",
-            "Isola del Teschio",
-            "New York City",
-            "Empire State Building",
-            "la bella e la bestia",
-            "creature preistoriche",
-            "dinosauri"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "alta",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Il film del 1933 'King Kong' coincide con tutti gli elementi chiave: titolo, anno, durata, cast e trama."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 100,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "durata",
-            "cast principale",
-            "trama"
-          ],
-          "elementi_non_confermati": [],
-          "fonti_concordanti": [
-            "TMDB",
-            "IMDb",
-            "OMDb"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "Il film identificato è il classico del 1933 'King Kong', confermato da più fonti e dati coerenti.",
         "tmdb_id_scelto": 244,
         "imdb_id_scelto": "tt0024216",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:38:06.357Z"
       },
       "genre": "horror",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:38:06.357Z",
+      "editor_updated_at": "2026-07-05T04:38:06.357Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/lHlnxKL5GbgRibyRFI7n1Ey850i.jpg",
+      "tmdb_title_official": "King Kong",
+      "tmdb_year_official": 1933,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "Ww_gYhSW8Og",
@@ -322632,16 +322506,13 @@
     {
       "video_id": "MOt9F-6Zou4",
       "is_movie": true,
-      "original_title": "Il Vedovo (FILM CULT) con Alberto Sordi e Franca Valeri - Completo HD",
+      "original_title": "Il vedovo",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 56340,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Il Vedovo (FILM CULT) con Alberto Sordi e Franca Valeri - Completo HD",
-        "youtube_url": "https://www.youtube.com/watch?v=MOt9F-6Zou4",
-        "titolo_corretto": "Il vedovo",
         "titolo_italiano": "Il vedovo",
         "titolo_originale": "Il vedovo",
         "anno_uscita": 1959,
@@ -322707,124 +322578,108 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/132194",
               "verificata": true
             }
+          },
+          {
+            "nome": "Ruggero Marchi",
+            "personaggio": "Carlo Fenoglio",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/995204",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Gigi Reder",
+            "personaggio": "avocat Girondi",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8HPNYzMcLgIBaf2BYlovYjnBcOp.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/106346",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mario Passante",
+            "personaggio": "Comm. Lambertoni",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vMrdlmURK6zHhAaZHePdeP6uOIM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5409",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Enzo Petito",
+            "personaggio": "Fritzmayer",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6CYnAdcOg1pns5TKI8Pj6VjefT1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1077276",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nanda Primavera",
+            "personaggio": "Italia",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7IgkGlkLY8W73LkfXpee9P2bulv.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/227515",
+              "verificata": true
+            }
           }
         ],
-        "trama": "Alberto Nardi è un imprenditore romano pieno di debiti, sostenuto solo dal patrimonio della moglie Elvira. Quando un incidente ferroviario fa credere che Elvira sia morta, Alberto sogna una nuova vita di lusso. Tuttavia, la sua gioia è di breve durata.",
-        "lingua_trama_originale": "it",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Un industriale romano organizza il \"delitto perfetto\" per uccidere la ricca moglie milanese ed assicurarsene la cospicua eredità, al fine di riparare ai propri disastri finanziari.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/sK8NVHo9jtUDBU3JEJiaKXaiHbx.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/56340-il-vedovo",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=6BSyoasFgzo",
-          "lingua": "en",
           "fonte": "YouTube",
-          "canale": "The Widower (1959) Original Trailer [HD]",
+          "lingua": "it",
           "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=6BSyoasFgzo"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/56340-il-vedovo"
-          },
-          {
-            "nome": "Wikipedia IT",
-            "url": "https://it.wikipedia.org/wiki/Il_vedovo"
-          },
-          {
-            "nome": "Wikipedia EN",
-            "url": "https://en.wikipedia.org/wiki/Il_vedovo"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Il vedovo"
-          ],
-          "titolo_originale_trovato_nella_descrizione": null,
-          "anno_trovato": 1959,
-          "durata_video_youtube": "90 min",
-          "attori_trovati": [
-            "Alberto Sordi",
-            "Franca Valeri"
-          ],
-          "registi_trovati": [
-            "Dino Risi"
-          ],
-          "parole_chiave_trama": [
-            "imprenditore",
-            "debiti",
-            "moglie",
-            "incidente",
-            "lusso"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "alta",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Tutti gli elementi principali (titolo, anno, cast, regista, trama) coincidono perfettamente con il film 'Il vedovo' del 1959."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 100,
-          "elementi_confermati": [
-            "titolo originale",
-            "anno di uscita",
-            "cast principale",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [],
-          "fonti_concordanti": [
-            "TMDB",
-            "Wikipedia IT",
-            "Wikipedia EN"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "",
         "tmdb_id_scelto": 56340,
         "imdb_id_scelto": "tt0131097",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:37:48.925Z"
       },
       "genre": "commedia",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:37:48.925Z",
+      "editor_updated_at": "2026-07-05T04:37:48.925Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/sK8NVHo9jtUDBU3JEJiaKXaiHbx.jpg",
+      "tmdb_title_official": "Il vedovo",
+      "tmdb_year_official": 1959,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "uAMF-VA1VGE",
       "is_movie": true,
-      "original_title": "Film Completo di Adrian Langley: Come salvare il Natale (2020)",
+      "original_title": "Homemade Christmas",
       "channel": "TVItalia",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match",
+      "tmdb_id": 744940,
+      "tmdb_confidence": "verified",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Film Completo di Adrian Langley: Come salvare il Natale (2020)",
-        "youtube_url": "https://www.youtube.com/watch?v=uAMF-VA1VGE",
-        "titolo_corretto": "Come salvare il Natale",
         "titolo_italiano": "Come salvare il Natale",
         "titolo_originale": "Homemade Christmas",
         "anno_uscita": 2020,
         "durata_minuti": 90,
         "genere": [
-          "Commedia",
-          "Drammatico",
-          "Romantico"
+          "televisione film",
+          "Romance"
         ],
         "regista": [
           "Adrian Langley"
@@ -322832,7 +322687,7 @@
         "cast_principale": [
           {
             "nome": "Michelle Argyris",
-            "personaggio": "Megan",
+            "personaggio": "Megan Miller",
             "foto_url": "https://image.tmdb.org/t/p/w185/gkPhEe3G5MZdJ2hWww4DjDk5dsv.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
@@ -322843,23 +322698,12 @@
           },
           {
             "nome": "Travis Nelson",
-            "personaggio": "Owen",
+            "personaggio": "Kurt",
             "foto_url": "https://image.tmdb.org/t/p/w185/y5aSsFzlsW21qjXb2gxdla8rsKc.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
               "url_pagina_origine": "https://www.themoviedb.org/person/236702",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Marcello Di Fruscia",
-            "personaggio": "Dax",
-            "foto_url": "https://image.tmdb.org/t/p/w185/oI1sIjNqxSLaCQX6XH3b6wwRKrx.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1548175",
               "verificata": true
             }
           },
@@ -322884,104 +322728,90 @@
               "url_pagina_origine": "https://www.themoviedb.org/person/2254809",
               "verificata": true
             }
+          },
+          {
+            "nome": "Tiara Johnny",
+            "personaggio": "Ashley",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kfF0If6LFgLjHSoYOY7qYAE08UN.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2861819",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Alexis Maitland",
+            "personaggio": "Christmas Co-ordinator",
+            "foto_url": "https://image.tmdb.org/t/p/w185/m0gStATdtKQS9FbpzGpTFFmYSxd.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/546216",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marcello Di Fruscia",
+            "personaggio": "Mike",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oI1sIjNqxSLaCQX6XH3b6wwRKrx.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1548175",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kelly Hope Taylor",
+            "personaggio": "Megan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vpiuSvEHjGwxiNLI5eUFIN6V71b.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2313863",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mireille Gagné",
+            "personaggio": "Hair Stylist",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2300817",
+              "verificata": false
+            }
           }
         ],
-        "trama": "Megan, una tuttofare appassionata del Natale, viene incaricata di salvare una festa aziendale natalizia. Mentre cerca di impressionare il suo capo Dax, si ritrova a collaborare con Owen, un affascinante decoratore, e deve scegliere tra l'uomo dei suoi sogni e quello che potrebbe essere giusto per lei.",
-        "lingua_trama_originale": "en",
+        "trama": "Chiamata a salvare la festa di Natale della sua cittadina, Megan si ritrova contesa tra l'uomo dei suoi sogni e il partner ideale.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/xph9wR7lLC9Onh7p3xrD4Wov7i5.jpg",
-        "locandina_fonte": {
-          "nome": "TMDB",
-          "url_pagina_origine": "https://www.themoviedb.org/movie/744940",
-          "verificata": true,
-          "motivo_verifica": "Locandina verificata tramite TMDB."
-        },
         "trailer": {
-          "url": "https://www.youtube.com/watch?v=Vz0xMiwcNVk",
-          "lingua": "en",
           "fonte": "YouTube",
-          "canale": "HOMEMADE CHRISTMAS Trailer 2020",
+          "lingua": "it",
           "ufficiale": false,
           "verificato": true,
-          "motivo_verifica": "TMDB videos endpoint, type=Trailer"
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=Vz0xMiwcNVk"
         },
-        "fonti_usate": [
-          {
-            "nome": "TMDB",
-            "url": "https://www.themoviedb.org/movie/744940"
-          },
-          {
-            "nome": "OMDb",
-            "url": "http://www.omdbapi.com/?i=tt13189624"
-          },
-          {
-            "nome": "IMDb",
-            "url": "https://www.imdb.com/title/tt13189624/"
-          }
-        ],
-        "indizi_estratti": {
-          "titoli_possibili": [
-            "Come salvare il Natale",
-            "Homemade Christmas"
-          ],
-          "titolo_originale_trovato_nella_descrizione": "Homemade Christmas",
-          "anno_trovato": 2020,
-          "durata_video_youtube": "88 min",
-          "attori_trovati": [
-            "Michelle Argyris",
-            "Travis Nelson",
-            "Marcello Di Fruscia"
-          ],
-          "registi_trovati": [
-            "Adrian Langley"
-          ],
-          "parole_chiave_trama": [
-            "Natale",
-            "festa aziendale",
-            "decorazioni",
-            "scelta romantica"
-          ]
-        },
-        "verifica_incrociata": {
-          "corrispondenza_titolo": "alta",
-          "corrispondenza_anno": "alta",
-          "corrispondenza_durata": "alta",
-          "corrispondenza_cast": "alta",
-          "corrispondenza_trama": "alta",
-          "motivo_scelta": "Tutti gli elementi principali (titolo, anno, durata, cast, regista, trama) coincidono perfettamente con il candidato TMDB e OMDb."
-        },
-        "punteggio_compatibilita": {
-          "totale_percentuale": 100,
-          "elementi_confermati": [
-            "titolo",
-            "anno",
-            "durata",
-            "cast",
-            "regista",
-            "trama"
-          ],
-          "elementi_non_confermati": [],
-          "fonti_concordanti": [
-            "TMDB",
-            "OMDb",
-            "IMDb"
-          ],
-          "fonti_contraddittorie": []
-        },
-        "possibili_alternative": [],
-        "note": "",
         "tmdb_id_scelto": 744940,
         "imdb_id_scelto": "tt13189624",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.707Z"
+        "verificato_editor_at": "2026-07-05T04:37:30.393Z"
       },
       "genre": "romantico",
       "locked": true,
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.707Z",
-      "editor_updated_at": "2026-07-05T04:31:36.707Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T04:37:30.393Z",
+      "editor_updated_at": "2026-07-05T04:37:30.393Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_poster_path": "/xph9wR7lLC9Onh7p3xrD4Wov7i5.jpg",
+      "tmdb_title_official": "Come salvare il Natale",
+      "tmdb_year_official": 2020,
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "ldJ5lrH14rc",
