@@ -231185,156 +231185,155 @@
     {
       "video_id": "SNlfJU7wfm8",
       "is_movie": true,
-      "original_title": "Bruce Lee il colpo che frantuma | Film di Kung Fu Anni '70 Completo in Italiano",
+      "original_title": "瘋猴",
       "channel": "Azione360",
-      "tmdb_id": 757444,
-      "tmdb_title_official": "Bruce Lee, il colpo che frantuma",
-      "tmdb_year_official": 1980,
-      "tmdb_poster_path": "/q7mESmwOMJqom0FRk0u1v3LT2dU.jpg",
+      "tmdb_id": 46736,
+      "tmdb_title_official": "Mad Monkey Kung Fu",
+      "tmdb_year_official": 1979,
+      "tmdb_poster_path": "/xDEb92sUkQvs8dgRBxvlbykSNOz.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Bruce Lee il colpo che frantuma | Film di Kung Fu Anni '70 Completo in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=SNlfJU7wfm8",
-        "titolo_italiano": "Bruce Lee, il colpo che frantuma",
-        "titolo_originale": "醉步迷猴",
-        "anno_uscita": 1980,
-        "durata_minuti": 93,
+        "titolo_italiano": "Mad Monkey Kung Fu",
+        "titolo_originale": "瘋猴",
+        "anno_uscita": 1979,
+        "durata_minuti": 116,
         "genere": [
-          "Azione"
+          "Azione",
+          "Commedia"
         ],
         "regista": [
-          "羅棋"
+          "劉家良"
         ],
         "cast_principale": [
           {
-            "nome": "張翼",
-            "personaggio": null,
-            "foto_url": "https://image.tmdb.org/t/p/w185/9Kb0IVLfTrGsT7QJgWY2beawSaD.jpg",
+            "nome": "劉家良",
+            "personaggio": "Uncle Chan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1cKWtvMp0onUAn4OfuclM1693gn.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/126831",
+              "url_pagina_origine": "https://www.themoviedb.org/person/26775",
               "verificata": true
             }
           },
           {
-            "nome": "Sun Jung-Chi",
-            "personaggio": null,
-            "foto_url": "https://image.tmdb.org/t/p/w185/25Rm3Qx2QgVkxgt440BTLh26kKC.jpg",
+            "nome": "小侯",
+            "personaggio": "Little Monkey",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ifBs2JU2sEV1HMZ4659056cyTnP.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1175349",
+              "url_pagina_origine": "https://www.themoviedb.org/person/246385",
               "verificata": true
             }
           },
           {
-            "nome": "岳華",
-            "personaggio": null,
-            "foto_url": "https://image.tmdb.org/t/p/w185/5yOPmbZfqQ3uHtQsLY5fgksz5I7.jpg",
+            "nome": "羅烈",
+            "personaggio": "Duan Shiangyuan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cUZZlI9m1JnxmCvOWDtDu5hqO3p.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/94972",
+              "url_pagina_origine": "https://www.themoviedb.org/person/70673",
               "verificata": true
             }
           },
           {
-            "nome": "陳星",
-            "personaggio": null,
-            "foto_url": "https://image.tmdb.org/t/p/w185/ipHYxKTAa1VM8DBGZlRTVoUbWJx.jpg",
+            "nome": "惠英紅",
+            "personaggio": "Chan Tsuei Hung",
+            "foto_url": "https://image.tmdb.org/t/p/w185/usUroq18HASSFlTh9NFfdWqQmwn.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1178611",
+              "url_pagina_origine": "https://www.themoviedb.org/person/84205",
               "verificata": true
             }
           },
           {
-            "nome": "Cheng Fu-Hung",
-            "personaggio": null,
-            "foto_url": "https://image.tmdb.org/t/p/w185/AnTMLJ8cPrY9Go2P82v08usFDon.jpg",
+            "nome": "林輝煌",
+            "personaggio": "Choi",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2NAjWZMiyGl5ysjTl5tmiG5Y1cG.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1174649",
+              "url_pagina_origine": "https://www.themoviedb.org/person/930251",
               "verificata": true
             }
           },
           {
-            "nome": "高雄",
-            "personaggio": null,
-            "foto_url": "https://image.tmdb.org/t/p/w185/1Zsn0zSmo5AS5p527XDaZvD0i3y.jpg",
+            "nome": "林克明",
+            "personaggio": "Fok",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fvIwpJOGSCtktk6fMt1CIKxJ8t7.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/612216",
+              "url_pagina_origine": "https://www.themoviedb.org/person/119646",
               "verificata": true
             }
           },
           {
-            "nome": "張冰玉",
-            "personaggio": null,
+            "nome": "神仙",
+            "personaggio": "Tien",
+            "foto_url": "https://image.tmdb.org/t/p/w185/of60F0kdrhLHKEvXGGfCMUodkRg.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1193837",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "王清河",
+            "personaggio": "Duan's Accountant",
+            "foto_url": "https://image.tmdb.org/t/p/w185/sVkRZLdHiaGZeGE7cA3jPGy1XQU.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1134505",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Wong Man",
+            "personaggio": "Duan's Mistress",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1125807",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2581462",
               "verificata": false
             }
           },
           {
-            "nome": "吳燕",
-            "personaggio": null,
-            "foto_url": "https://image.tmdb.org/t/p/w185/j2QJLsfnJNFKZcwtNWvRgCYUvSy.jpg",
+            "nome": "湛少雄",
+            "personaggio": "Duan's Thug (uncredited)",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zuToQaedBU8EdpFeaWUeaL9fLBx.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1574969",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1065278",
               "verificata": true
-            }
-          },
-          {
-            "nome": "Ma Yu-Feng",
-            "personaggio": null,
-            "foto_url": "https://image.tmdb.org/t/p/w185/tK41SndHDcgkP4DZ4EsSNP1Vgei.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1583595",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "張宗貴",
-            "personaggio": null,
-            "foto_url": null,
-            "foto_tipo": "nessuna",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/2278061",
-              "verificata": false
             }
           }
         ],
-        "trama": "Un detenuto riceve da un condannato a morte la metà di una medaglia e l'incarico di cercare l'altra metà, che contiene un prezioso segreto. Esso consiste in un manuale per apprendere la tecnica di combattimento chiamata \"dello scimpanzè\", che lo renderà invincibile.",
+        "trama": "Oltre a dirigere Mad Monkey Kung Fu, Liu Chia-liang debutta come personaggio principale paralizzato da un mascalzone e insegna a una giovane scimmia vagabonda il kung-fu che vendica la sua vergogna. I combattimenti stilizzati delle scimmie da non perdere sono selvaggi e stravaganti.",
         "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/q7mESmwOMJqom0FRk0u1v3LT2dU.jpg",
+        "locandina_url": "https://image.tmdb.org/t/p/w500/xDEb92sUkQvs8dgRBxvlbykSNOz.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=y3UXdlbrcFk"
         },
-        "tmdb_id_scelto": 757444,
+        "tmdb_id_scelto": 46736,
+        "imdb_id_scelto": "tt0079147",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.705Z"
+        "verificato_editor_at": "2026-07-05T06:58:41.153Z"
       },
       "related_video_ids": [
         "SNlfJU7wfm8",
@@ -231351,12 +231350,13 @@
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 6,
       "vote_count": 1,
-      "genre": "azione",
+      "genre": "commedia",
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.705Z",
-      "editor_updated_at": "2026-07-05T04:31:36.705Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T06:58:41.153Z",
+      "editor_updated_at": "2026-07-05T06:58:41.153Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "dwhfoMYa-O4",
@@ -236806,168 +236806,167 @@
     {
       "video_id": "8rZze7tAX7E",
       "is_movie": true,
-      "original_title": "Testa o Croce | Un Western Crudele e Dimenticato | Film Completo in Italiano",
+      "original_title": "Testa o croce",
       "channel": "Azione360",
-      "tmdb_id": 121516,
+      "tmdb_id": 148251,
       "tmdb_title_official": "Testa o croce",
-      "tmdb_year_official": 1982,
-      "tmdb_poster_path": "/ePB9pSdamPt1CiBd7a02mlCWPz6.jpg",
+      "tmdb_year_official": 1969,
+      "tmdb_poster_path": "/nIVkZ6XsoAKLu6oXD9ZY6x7AFqZ.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Testa o Croce | Un Western Crudele e Dimenticato | Film Completo in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=8rZze7tAX7E",
         "titolo_italiano": "Testa o croce",
         "titolo_originale": "Testa o croce",
-        "anno_uscita": 1982,
-        "durata_minuti": 104,
+        "anno_uscita": 1969,
+        "durata_minuti": 99,
         "genere": [
-          "Commedia"
+          "Western"
         ],
         "regista": [
-          "Nanni Loy"
+          "Piero Pierotti"
         ],
         "cast_principale": [
           {
-            "nome": "Renato Pozzetto",
-            "personaggio": "Padre Remigio",
-            "foto_url": "https://image.tmdb.org/t/p/w185/fFbbVQ1iMF4QqERVjvXYJMwlExx.jpg",
+            "nome": "John Ericson",
+            "personaggio": "William Huston / Will Hunter / 'Black Talisman'",
+            "foto_url": "https://image.tmdb.org/t/p/w185/383uBWGjEchVGvYaQfLg6DdUZoL.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/119991",
+              "url_pagina_origine": "https://www.themoviedb.org/person/41231",
               "verificata": true
             }
           },
           {
-            "nome": "Nino Manfredi",
-            "personaggio": "Beduino",
-            "foto_url": "https://image.tmdb.org/t/p/w185/iFJ9i6GGJ4romvuF922mZNROPKW.jpg",
+            "nome": "Špela Rozin",
+            "personaggio": "Shanda Lee",
+            "foto_url": "https://image.tmdb.org/t/p/w185/k1z6bXpyZQr36fAHDVKAX9jZqqv.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/37583",
+              "url_pagina_origine": "https://www.themoviedb.org/person/931991",
               "verificata": true
             }
           },
           {
-            "nome": "Mara Venier",
-            "personaggio": "Teresa",
-            "foto_url": "https://image.tmdb.org/t/p/w185/offh2VeyKKGPBRhRVkehVT2e5Hv.jpg",
+            "nome": "Franco Lantieri",
+            "personaggio": "Sheriff",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zHUxP0koyv0efor2cVvBKZ17pdD.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/225550",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1045498",
               "verificata": true
             }
           },
           {
-            "nome": "Ida Di Benedetto",
-            "personaggio": "Stefania",
-            "foto_url": "https://image.tmdb.org/t/p/w185/9uIMhLseXL2VIdVme9S9TNk83CL.jpg",
+            "nome": "Daniela Surina",
+            "personaggio": "Sybille Burton",
+            "foto_url": "https://image.tmdb.org/t/p/w185/w7QtEjyZ7PzvguZajlyWx7cNAv8.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/45196",
+              "url_pagina_origine": "https://www.themoviedb.org/person/38122",
               "verificata": true
             }
           },
           {
-            "nome": "Claudio Aliotti",
-            "personaggio": "Marco",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/105323",
-              "verificata": false
-            }
-          },
-          {
-            "nome": "Maurizio Micheli",
-            "personaggio": "il dottore",
-            "foto_url": "https://image.tmdb.org/t/p/w185/vv3b25Y1jMnNcuIpTRtns9piuT.jpg",
+            "nome": "Isarco Ravaioli",
+            "personaggio": "Deputy sheriff Hold",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rkfkn2KBRFNCkqJCWt74i6BF8QH.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/228158",
+              "url_pagina_origine": "https://www.themoviedb.org/person/41119",
               "verificata": true
             }
           },
           {
-            "nome": "Paolo Stoppa",
-            "personaggio": "il nonno",
-            "foto_url": "https://image.tmdb.org/t/p/w185/3JMNHmi8734eaMT5zh453DsaaEo.jpg",
+            "nome": "Edwige Fenech",
+            "personaggio": "Manuela",
+            "foto_url": "https://image.tmdb.org/t/p/w185/79v8gsqCnqJPpI5RRmMMQP9iXV3.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/4962",
+              "url_pagina_origine": "https://www.themoviedb.org/person/44434",
               "verificata": true
             }
           },
           {
-            "nome": "Leo Gullotta",
-            "personaggio": "Walter",
-            "foto_url": "https://image.tmdb.org/t/p/w185/wn9LQjKRZxrXm6a5zyfrLs71ChM.jpg",
+            "nome": "Dada Gallotti",
+            "personaggio": "Lilly",
+            "foto_url": "https://image.tmdb.org/t/p/w185/t0OzCxWKJKVk3mCDDDIXdAzQMjJ.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/119992",
+              "url_pagina_origine": "https://www.themoviedb.org/person/31548",
               "verificata": true
             }
           },
           {
-            "nome": "Carla Monti",
-            "personaggio": "la madre di Remigio",
-            "foto_url": "https://image.tmdb.org/t/p/w185/zrneYlJ6kqIUQUlvNCq5qTpqUoJ.jpg",
+            "nome": "Loris Gizzi",
+            "personaggio": "Bocca di Rosa",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kWLlyJqZvHqd3etcWDJChC1OxYY.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1859974",
+              "url_pagina_origine": "https://www.themoviedb.org/person/590559",
               "verificata": true
             }
           },
           {
-            "nome": "Giovanni Frezza",
-            "personaggio": "il cherichetto",
-            "foto_url": "https://image.tmdb.org/t/p/w185/pBekmoxX7KuYdYdcIQLlfgpPu6S.jpg",
+            "nome": "Maria Teresa Piaggio",
+            "personaggio": "Miss Pitts",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iNOmeMO2hSEZe4EQSQJ6uWlyvSf.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/102013",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1709085",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Pinuccio Ardia",
+            "personaggio": "Miserere",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bQdP2ERs3EQ8qKUH7ZynYWMkBOR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/237339",
               "verificata": true
             }
           }
         ],
-        "trama": "1° episodio (\"La pecorella smarrita\"): presa una bottigliata in testa un curato lombardo (Pozzetto) perde la memoria e finisce tra le braccia di una donna. 2° episodio (\"Il figlio del beduino\"): edile asfaltista vedovo (Manfredi) sospetta che il suo unico figlio sia omosessuale e lo spinge tra le braccia della sua amante.",
+        "trama": "Una piccante saloon-girl ingiustamente accusata di un omicidio ne passa di tutti i colori. Un bandito di buon cuore la difenderà e si sacrificherà per lei.",
         "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/ePB9pSdamPt1CiBd7a02mlCWPz6.jpg",
+        "locandina_url": "https://image.tmdb.org/t/p/w500/nIVkZ6XsoAKLu6oXD9ZY6x7AFqZ.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=tUe-1Tg8XO4"
         },
-        "tmdb_id_scelto": 121516,
+        "tmdb_id_scelto": 148251,
+        "imdb_id_scelto": "tt0065083",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.706Z"
+        "verificato_editor_at": "2026-07-05T07:08:22.295Z"
       },
       "locked": true,
       "locked_at": "2026-06-27T08:53:30Z",
       "lock_reason": "migrazione protezione metadati identificati da editor/import",
       "vote_average": 5.524,
       "vote_count": 21,
-      "genre": "commedia",
+      "genre": "western",
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.706Z",
-      "editor_updated_at": "2026-07-05T04:31:36.706Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T07:08:22.295Z",
+      "editor_updated_at": "2026-07-05T07:08:22.295Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "oh9NW6u04Cg",
@@ -250017,7 +250016,7 @@
     {
       "video_id": "LYoDkNuNlt4",
       "is_movie": true,
-      "original_title": "Thunder 2 | Azione | Film completo in italiano",
+      "original_title": "Thunder II",
       "channel": "Azione360",
       "tmdb_id": 148278,
       "tmdb_title_official": "Thunder II",
@@ -250028,8 +250027,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Thunder 2 | Azione | Film completo in italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=LYoDkNuNlt4",
         "titolo_italiano": "Thunder II",
         "titolo_originale": "Thunder II",
         "anno_uscita": 1987,
@@ -250135,17 +250132,17 @@
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/xQdNWkRMGCxpapa1yDYzUYeuYJW.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=zr85KzxSDX0"
         },
         "tmdb_id_scelto": 148278,
+        "imdb_id_scelto": "tt0090170",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.706Z"
+        "verificato_editor_at": "2026-07-05T07:07:53.401Z"
       },
       "locked": true,
       "locked_at": "2026-06-27T08:53:30Z",
@@ -250155,9 +250152,10 @@
       "genre": "azione",
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.706Z",
-      "editor_updated_at": "2026-07-05T04:31:36.706Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T07:07:53.401Z",
+      "editor_updated_at": "2026-07-05T07:07:53.401Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "33Tig6BvIi4",
@@ -253197,7 +253195,7 @@
     {
       "video_id": "-WFvmvWv7cA",
       "is_movie": true,
-      "original_title": "La mano violenta del karate | Azione | Film completo in italiano",
+      "original_title": "射鵰英雄傳",
       "channel": "Azione360",
       "tmdb_id": 73749,
       "tmdb_title_official": "La mano violenta del karaté",
@@ -253208,8 +253206,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "La mano violenta del karate | Azione | Film completo in italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=-WFvmvWv7cA",
         "titolo_italiano": "La mano violenta del karaté",
         "titolo_originale": "射鵰英雄傳",
         "anno_uscita": 1977,
@@ -253236,7 +253232,7 @@
           {
             "nome": "恬妞",
             "personaggio": "Huang Rong",
-            "foto_url": "https://image.tmdb.org/t/p/w185/6MxBj1REjW2pwKnglAcli1w08F.jpg",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pON5n5OWUqFO5kytJ4L9teeLNzN.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
@@ -253336,18 +253332,11 @@
         "trama": "Protagonisti del film, con esili allusioni alla storia del Giappone medievale, sono due giovani fidanzati. La loro isola è minacciata da una banda di farabutti violenti e ingordi, per cui devono fuggire di casa. Si trovano così a dover affrontare una serie interminabile di peripezie, nelle quali il fidanzato si distingue per la pratica del karatè che gli serve a sgominare i nemici assalitori in favore dei deboli, costretti a subire le angherie di diverse bande nemiche. Riesce infine a riportare la pace e la giustizia e può ritornare nella sua isola, dove la fidanzata potrà essere riconosciuta come nuovo capo del raduno \"dei mendicanti\", il cui \"maestro\" era stato soppresso a tradimento dai malvagi.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/stmxK5cCCHpsXYoqpr3G7jpchmi.jpg",
-        "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
-        },
+        "trailer": null,
         "tmdb_id_scelto": 73749,
+        "imdb_id_scelto": "tt0078249",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.706Z"
+        "verificato_editor_at": "2026-07-05T07:07:01.581Z"
       },
       "locked": true,
       "locked_at": "2026-06-27T08:53:30Z",
@@ -253357,9 +253346,10 @@
       "genre": "azione",
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.706Z",
-      "editor_updated_at": "2026-07-05T04:31:36.706Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T07:07:01.581Z",
+      "editor_updated_at": "2026-07-05T07:07:01.581Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "TqwQYmiEaPA",
@@ -268218,7 +268208,7 @@
     {
       "video_id": "7bN2Nkp-bsk",
       "is_movie": true,
-      "original_title": "Delta Force Commando II | Action | Film Completo in Italiano",
+      "original_title": "Delta Force Commando II: Priority Red One",
       "channel": "Azione360",
       "tmdb_id": 80559,
       "tmdb_title_official": "Delta Force Commando II: Priority Red One",
@@ -268229,8 +268219,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Delta Force Commando II | Action | Film Completo in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=7bN2Nkp-bsk",
         "titolo_italiano": "Delta Force Commando II: Priority Red One",
         "titolo_originale": "Delta Force Commando II: Priority Red One",
         "anno_uscita": 1990,
@@ -268320,21 +268308,21 @@
             }
           }
         ],
-        "trama": "Solo un nemico lo ha mai battuto. Ora ha bisogno di lei per salvargli la vita.",
+        "trama": "Solo un nemico è riuscito a sconfiggerlo. Ora ha bisogno di lei per salvare la sua vita.",
         "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/bJKxz0RjdlzJPYm2xO9xEC2MCtG.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "fonte": "IMDb",
+          "lingua": "altra",
+          "ufficiale": true,
+          "verificato": true,
+          "motivo_verifica": "videogallery trailer IMDb",
+          "url": "https://www.imdb.com/title/tt0101703/videogallery/content_type-trailer"
         },
         "tmdb_id_scelto": 80559,
+        "imdb_id_scelto": "tt0101703",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-07-05T04:31:36.706Z"
+        "verificato_editor_at": "2026-07-05T06:59:05.085Z"
       },
       "locked": true,
       "locked_at": "2026-06-27T08:53:30Z",
@@ -268344,9 +268332,10 @@
       "genre": "azione",
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-07-05T04:31:36.706Z",
-      "editor_updated_at": "2026-07-05T04:31:36.706Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_locked_at": "2026-07-05T06:59:05.085Z",
+      "editor_updated_at": "2026-07-05T06:59:05.085Z",
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "tmdb_media_type": "movie"
     },
     {
       "video_id": "V8lubQaYgvI",
@@ -270338,19 +270327,12 @@
         ],
         "trama": "Un detective privato viene assunto da un uomo ricco per trovare sua nipote, scomparsa mentre viaggiava in Europa.",
         "trama_tradotta_in_italiano": true,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/oPQN5zDw6U8BgmIEYUEWVUFaN8O.jpg",
-        "trailer": {
-          "fonte": "YouTube",
-          "lingua": "it",
-          "ufficiale": false,
-          "verificato": true,
-          "motivo_verifica": "inserito manualmente",
-          "url": "https://www.youtube.com/watch?v=jQYtpbsNdJI"
-        },
+        "locandina_url": "/mnt/data/foxtrap_ripulita.jpg",
+        "trailer": null,
         "tmdb_id_scelto": 165641,
         "imdb_id_scelto": "tt0091072",
         "verificato_editor": true,
-        "verificato_editor_at": "2026-06-28T04:56:07.342Z"
+        "verificato_editor_at": "2026-07-05T07:04:42.149Z"
       },
       "locked": true,
       "locked_at": "2026-06-27T08:53:30Z",
@@ -270359,8 +270341,8 @@
       "genre": "azione",
       "editor_locked": true,
       "editor_verified": true,
-      "editor_locked_at": "2026-06-28T04:56:07.342Z",
-      "editor_updated_at": "2026-06-28T04:56:07.342Z",
+      "editor_locked_at": "2026-07-05T07:04:42.149Z",
+      "editor_updated_at": "2026-07-05T07:04:42.149Z",
       "editor_lock_reason": "ri-identificazione manuale editor",
       "vote_average": 3.429,
       "vote_count": 7
