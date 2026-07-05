@@ -235396,7 +235396,7 @@
     },
     {
       "video_id": "sqq60VjuUhY",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Ercole Contro Roma - Film Intero (Peplum, 1964) ITALIANO",
       "channel": "Azione360",
       "tmdb_id": 221792,
@@ -235560,7 +235560,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T04:31:36.706Z",
       "editor_updated_at": "2026-07-05T04:31:36.706Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_lock_reason": "genere compilato dalla diagnostica editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:24:12.811Z"
     },
     {
       "video_id": "7Ho9wWWa2N4",
@@ -244019,7 +244022,7 @@
     },
     {
       "video_id": "snTlF16QkfY",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Larceny | L'infiltrato | HD | Azione | Thriller | Film Completo in Italiano",
       "channel": "Azione360",
       "tmdb_id": 445962,
@@ -244182,7 +244185,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T04:31:36.706Z",
       "editor_updated_at": "2026-07-05T04:31:36.706Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_lock_reason": "genere compilato dalla diagnostica editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:24:12.814Z"
     },
     {
       "video_id": "LArb3Mq6FeQ",
@@ -359902,7 +359908,7 @@
     },
     {
       "video_id": "9-1Y0ovIZEU",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Critical Mass",
       "channel": "Film&Clips Azione",
       "tmdb_id": 134464,
@@ -360060,7 +360066,10 @@
       "editor_locked_at": "2026-07-05T06:21:49.122Z",
       "editor_updated_at": "2026-07-05T06:21:49.122Z",
       "editor_lock_reason": "ri-identificazione manuale editor",
-      "tmdb_media_type": "movie"
+      "tmdb_media_type": "movie",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:24:12.807Z"
     },
     {
       "video_id": "GXFpjCyu21o",
@@ -364863,7 +364872,7 @@
     },
     {
       "video_id": "BqXDYnf_6NI",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "No Surrender",
       "channel": "Film&Clips Azione",
       "tmdb_id": 115376,
@@ -365022,7 +365031,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T06:15:18.549Z",
       "editor_updated_at": "2026-07-05T06:15:18.549Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:24:12.804Z"
     },
     {
       "video_id": "VyJBMhcEzuc",
@@ -365703,7 +365715,7 @@
     },
     {
       "video_id": "VfB_Y0ylo6Q",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Furious - Gli Ultimi Guerrieri (2017) | Film Storico d'Azione",
       "channel": "Film&Clips Azione",
       "tmdb_id": 415381,
@@ -365864,7 +365876,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T06:01:39.277Z",
       "editor_updated_at": "2026-07-05T06:01:39.277Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_lock_reason": "genere compilato dalla diagnostica editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:24:12.812Z"
     },
     {
       "video_id": "GwvCNxX-_vo",
@@ -367072,7 +367087,7 @@
     },
     {
       "video_id": "rcOaOSDDdl0",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Giarrettiera Colt",
       "channel": "Film&Clips Azione",
       "tmdb_id": 143767,
@@ -367231,7 +367246,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T06:12:14.015Z",
       "editor_updated_at": "2026-07-05T06:12:14.015Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:24:12.808Z"
     },
     {
       "video_id": "0ca5W4Jhdfk",
@@ -367275,7 +367293,7 @@
     },
     {
       "video_id": "gTSSxpsIZaE",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Uccidi Django... uccidi per primo!",
       "channel": "Film&Clips Azione",
       "tmdb_id": 149691,
@@ -367425,7 +367443,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T06:14:26.054Z",
       "editor_updated_at": "2026-07-05T06:14:26.054Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:24:12.810Z"
     },
     {
       "video_id": "DSj1Qy-JgT8",
@@ -367680,7 +367701,7 @@
     },
     {
       "video_id": "UFcckm3zU4I",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "FANatic",
       "channel": "Film&Clips Azione",
       "tmdb_id": 435690,
@@ -367837,7 +367858,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T06:13:56.179Z",
       "editor_updated_at": "2026-07-05T06:13:56.179Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T06:24:12.813Z"
     },
     {
       "video_id": "DSzODyAD6gY",
