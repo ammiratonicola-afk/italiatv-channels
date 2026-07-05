@@ -368798,7 +368798,7 @@
     },
     {
       "video_id": "UMGRxpkbX3Q",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "瘋猴",
       "channel": "Film&Clips Azione",
       "tmdb_id": 46736,
@@ -368955,7 +368955,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T06:36:45.975Z",
       "editor_updated_at": "2026-07-05T06:36:45.975Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-05T07:11:35.191Z"
     },
     {
       "video_id": "iStAdu2VtGY",
