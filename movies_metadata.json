@@ -249365,7 +249365,7 @@
     },
     {
       "video_id": "Ml4HMuTbJTg",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "The knight of shadows | HD | Azione | Film Completo in Italiano",
       "channel": "Azione360",
       "tmdb_id": 512901,
@@ -249531,7 +249531,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T04:31:36.706Z",
       "editor_updated_at": "2026-07-05T04:31:36.706Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_lock_reason": "genere compilato dalla diagnostica editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-06T06:45:44.071Z"
     },
     {
       "video_id": "St6rFHlITeg",
@@ -374942,7 +374945,7 @@
     },
     {
       "video_id": "WuznTT5LBlo",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Critical Mass",
       "channel": "Film&Clips Azione",
       "tmdb_id": 134464,
@@ -375100,7 +375103,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-06T06:38:40.282Z",
       "editor_updated_at": "2026-07-06T06:38:40.282Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-06T06:45:44.070Z"
     },
     {
       "video_id": "MaJVCGkpkAg",
