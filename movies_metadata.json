@@ -373415,7 +373415,7 @@
     {
       "video_id": "IJ5X0zNycmE",
       "is_movie": true,
-      "original_title": "Meteor Moon | HD | Azione | Film Completo sottotitolato in Italiano",
+      "original_title": "Meteor Moon",
       "channel": "Film&Clips Azione",
       "tmdb_id": 781728,
       "tmdb_title_official": "Meteor Moon",
@@ -373426,8 +373426,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Meteor Moon | HD | Azione | Film Completo sottotitolato in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=IJ5X0zNycmE",
         "titolo_italiano": "Meteor Moon",
         "titolo_originale": "Meteor Moon",
         "anno_uscita": 2020,
@@ -373551,20 +373549,30 @@
             }
           }
         ],
-        "trama": "When a meteor crashes into the moon and shifts its axis, Earth's gravity pulls the moon into the path of the planet. Now, a group of scientists must figure out how to stop the moon from hitting the earth before it's too late.",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Quando un meteorite colpisce la luna e ne altera l'asse, la gravità terrestre la trascina verso il pianeta. Ora, un gruppo di scienziati deve trovare un modo per fermare la luna prima che colpisca la Terra, prima che sia troppo tardi.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/pqi519jCXLW0OUY1KAzjsH3B8c6.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=BOB6NOO6eZ0"
         },
-        "tmdb_id_scelto": 781728
-      }
+        "tmdb_id_scelto": 781728,
+        "imdb_id_scelto": "tt13179918",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-06T06:33:14.813Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "fantascienza",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-06T06:33:14.813Z",
+      "editor_updated_at": "2026-07-06T06:33:14.813Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "p3m1c8-EMVw",
@@ -374197,7 +374205,7 @@
     {
       "video_id": "EaiArX_3P5Q",
       "is_movie": true,
-      "original_title": "Il ritorno di Clint il solitario | Western | Film Completo in Italiano",
+      "original_title": "Il ritorno di Clint il solitario",
       "channel": "Film&Clips Azione",
       "tmdb_id": 90538,
       "tmdb_title_official": "Il ritorno di Clint il solitario",
@@ -374208,8 +374216,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Il ritorno di Clint il solitario | Western | Film Completo in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=EaiArX_3P5Q",
         "titolo_italiano": "Il ritorno di Clint il solitario",
         "titolo_originale": "Il ritorno di Clint il solitario",
         "anno_uscita": 1972,
@@ -374332,20 +374338,23 @@
             }
           }
         ],
-        "trama": "This sequel to the popular spaghetti western \"Clint the Stranger\" was released four years after the success of the first film and essentially uses the same plot. George Martin returns as Clint (renamed Trinity in some countries), an ex-gunslinger desperately wanting to be forgiven and accepted by his family that he abandoned years earlier. One major differences in the plot when compared to the first film is the addition of Klaus Kinski as a ruthless bounty hunter. The bounty hunter tracks Clint down and forces him to return to his violent ways to protect himself and his family.",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Questo sequel del popolare spaghetti western \"Clint lo Straniero\" è uscito quattro anni dopo il successo del primo film e utilizza essenzialmente la stessa trama. George Martin torna nei panni di Clint (rinominato Trinity in alcuni paesi), un ex pistolero che desidera disperatamente essere perdonato e accettato dalla sua famiglia che ha abbandonato anni prima. Una delle principali differenze nella trama rispetto al primo film è l'aggiunta di Klaus Kinski nel ruolo di un spietato cacciatore di taglie. Il cacciatore di taglie rintraccia Clint e lo costringe a tornare alle sue violente abitudini per proteggere se stesso e la sua famiglia.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/tNzMfTndR1yUOcfRnwIm0gxKruS.jpg",
-        "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
-        },
-        "tmdb_id_scelto": 90538
-      }
+        "trailer": null,
+        "tmdb_id_scelto": 90538,
+        "imdb_id_scelto": "tt0069184",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-06T06:45:06.605Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "western",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-06T06:45:06.605Z",
+      "editor_updated_at": "2026-07-06T06:45:06.605Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "TPtBrcG_MdQ",
@@ -374649,67 +374658,134 @@
     {
       "video_id": "xLEr3-Xxig8",
       "is_movie": true,
-      "original_title": "Italia: ultimo atto? | Azione | Film completo in italiano",
+      "original_title": "Italia: Ultimo atto?",
       "channel": "Film&Clips Azione",
-      "tmdb_id": 511641,
-      "tmdb_title_official": "Lia",
-      "tmdb_year_official": 2017,
-      "tmdb_poster_path": "/idRB2s5NcBnriK1e3mGM2zxXAIf.jpg",
+      "tmdb_id": 260886,
+      "tmdb_title_official": "Italia: Ultimo atto?",
+      "tmdb_year_official": 1977,
+      "tmdb_poster_path": "/bhBPyHHqmFm6pC4UuMWYrD2UrZn.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Italia: ultimo atto? | Azione | Film completo in italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=xLEr3-Xxig8",
-        "titolo_italiano": "Lia",
-        "titolo_originale": "Lia",
-        "anno_uscita": 2017,
-        "durata_minuti": 11,
+        "titolo_italiano": "Italia: Ultimo atto?",
+        "titolo_originale": "Italia: Ultimo atto?",
+        "anno_uscita": 1977,
+        "durata_minuti": 90,
         "genere": [
-          "Famiglia"
+          "Crime"
         ],
         "regista": [
-          "Giulia Donato"
+          "Massimo Pirri"
         ],
         "cast_principale": [
           {
-            "nome": "Lívia Feltre",
+            "nome": "Luc Merenda",
+            "personaggio": "Ferruccio",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9i9moFaHJlDzlUjhUH67f091ZWt.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/36913",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lou Castel",
+            "personaggio": "Marco",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nfSbW6awANxaRI769Bo2ZLDb22P.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/32827",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Andrea Franchetti",
+            "personaggio": "Bruno",
+            "foto_url": "https://image.tmdb.org/t/p/w185/eO5muRxzA65w8y3IZ0H8AAsNfRV.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1315510",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marcella Michelangeli",
+            "personaggio": "Mara",
+            "foto_url": "https://image.tmdb.org/t/p/w185/p5dwzrQA4hjr71PsZ3uPie8zRpK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/225392",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ines Pellegrini",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/3YPVnn69jIX20RxN10oQrUFyDnX.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/101593",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Luigi Casellato",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/ftfQniH4E9ehyStbF9PFlMrFiQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/41094",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Fabrizia Castagnoli",
             "personaggio": null,
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1997898",
+              "url_pagina_origine": "https://www.themoviedb.org/person/548338",
               "verificata": false
             }
           },
           {
-            "nome": "Gabriel Antunes",
+            "nome": "Valentino Dain",
             "personaggio": null,
-            "foto_url": "https://image.tmdb.org/t/p/w185/qlxLYVdLLItxS38piFJ1k6MqLkg.jpg",
-            "foto_tipo": "foto_attore",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1839875",
-              "verificata": true
+              "url_pagina_origine": "https://www.themoviedb.org/person/2041700",
+              "verificata": false
             }
           }
         ],
-        "trama": "Lia, a nothing scary little monster that inhabits the room under the bed of the girl Ana, leaves her hiding place at night while the child sleeps. Between unsuccessful attempts to frighten the girl, who no longer fears her peripécias, receives an unexpected visit and, with her, the news that she needs to leave.",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/idRB2s5NcBnriK1e3mGM2zxXAIf.jpg",
-        "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
-        },
-        "tmdb_id_scelto": 511641
-      }
+        "trama": "Ferruccio, caporeparto di un'officina; Bruno, delinquente comune convertitosi alla lotta politica armata; Mara, di estrazione borghese, sono tre terroristi cui, nei piani della loro organizzazione spettava il compito di uccidere il ministro degli Interni. Giudicando però che nell'attuale situazione del nostro paese l'attentato farebbe il gioco della reazione, i capi decidono di differirlo. Trasgredendo ai loro ordini, Ferruccio e i suoi due compagni lo portano ugualmente a termine. Durante l'azione omicida di cui restano vittime, oltre al ministro, anche gli uomini della sua scorta.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/bhBPyHHqmFm6pC4UuMWYrD2UrZn.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 260886,
+        "imdb_id_scelto": "tt0076218",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-06T06:42:53.371Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "poliziesco",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-06T06:42:53.371Z",
+      "editor_updated_at": "2026-07-06T06:42:53.371Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "dTNia50jt7A",
@@ -374867,56 +374943,164 @@
     {
       "video_id": "WuznTT5LBlo",
       "is_movie": true,
-      "original_title": "Critical Mass | Azione | Film Completo in Italiano",
+      "original_title": "Critical Mass",
       "channel": "Film&Clips Azione",
-      "tmdb_id": 520153,
-      "tmdb_title_official": "Critical Mass",
-      "tmdb_year_official": 2013,
-      "tmdb_poster_path": "/o9aJ9ioIuns0Z5hYQJdeVusAU56.jpg",
+      "tmdb_id": 134464,
+      "tmdb_title_official": "Missione ad alto rischio",
+      "tmdb_year_official": 2001,
+      "tmdb_poster_path": "/tkWxqFTbf6sWxoagqFSGTc5kN3j.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Critical Mass | Azione | Film Completo in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=WuznTT5LBlo",
-        "titolo_italiano": "Critical Mass",
+        "titolo_italiano": "Missione ad alto rischio",
         "titolo_originale": "Critical Mass",
-        "anno_uscita": 2013,
-        "durata_minuti": 100,
+        "anno_uscita": 2001,
+        "durata_minuti": 95,
         "genere": [
-          "Documentario"
+          "Azione",
+          "Thriller"
         ],
         "regista": [
-          "Mike Freedman"
+          "Fred Olen Ray"
         ],
         "cast_principale": [
           {
-            "nome": "Robert Rapier",
-            "personaggio": "Himself",
+            "nome": "Treat Williams",
+            "personaggio": "Mike Jeffers",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jbRMOU2K7ePg7Zs59nfgEYLeD1e.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4515",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lori Loughlin",
+            "personaggio": "Janine",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uelwtzItSLYEgaSjfzxfQ1AE1YK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/92509",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Udo Kier",
+            "personaggio": "Samson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lIOGDMvrVHMgPXdhicLI41tY1zf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1646",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Blake Clark",
+            "personaggio": "Sheriff Borden",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pA4OZQPyATEX9AqZYUIOItQ447o.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/21485",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jack Betts",
+            "personaggio": "Atty. Gen. Ames",
+            "foto_url": "https://image.tmdb.org/t/p/w185/aC8uOwxVW2NJ5sYUvQImFZuVKQ7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/20581",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Richard Anthony Crenna",
+            "personaggio": "Tanner",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/2028653",
+              "url_pagina_origine": "https://www.themoviedb.org/person/181757",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Charles Cyphers",
+            "personaggio": "Henderson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cfDwWOFY9xOGiRxUwjIHhZ7U6lh.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/11786",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Neil Delama",
+            "personaggio": "Peterson",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/99607",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Charles Emmett",
+            "personaggio": "Steve Johnson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/25FGJQHO3ofwGWakrTLdq9JXM47.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/60767",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "David \"Shark\" Fralick",
+            "personaggio": "Rand",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/58488",
               "verificata": false
             }
           }
         ],
-        "trama": "Things aren't looking good for the world's population; as we multiply at an alarming rate there is not enough food, space... or sense. This intelligent film interweaves a fascinating 1960s rat experiment by Dr. John B. Calhoun with a slick snapshot of today's urban jungle.",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/o9aJ9ioIuns0Z5hYQJdeVusAU56.jpg",
+        "trama": "Mentre scorta un camion carico di materiali tossici in un luogo segreto nel deserto del Mojave, l'agente Mike Jeffers vede le cose complicarsi per un assalto di un commando terroristico.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/tkWxqFTbf6sWxoagqFSGTc5kN3j.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=XAO4aZkAFFs"
         },
-        "tmdb_id_scelto": 520153
-      }
+        "tmdb_id_scelto": 134464,
+        "imdb_id_scelto": "tt0218126",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-06T06:38:40.282Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "thriller",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-06T06:38:40.282Z",
+      "editor_updated_at": "2026-07-06T06:38:40.282Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "MaJVCGkpkAg",
@@ -375074,144 +375258,167 @@
     {
       "video_id": "JPk8z8xNG78",
       "is_movie": true,
-      "original_title": "The Knight of Shadows | HD | Jackie Chan | Avventura | Film Completo in Italiano",
+      "original_title": "神探蒲松齡",
       "channel": "Film&Clips Azione",
-      "tmdb_id": 1126583,
-      "tmdb_title_official": "ಜಾಕಿ ಚಾನ್",
-      "tmdb_year_official": 1997,
-      "tmdb_poster_path": "/gU6HVslRDY1DcSR4Sv7YUCd2NOK.jpg",
+      "tmdb_id": 512901,
+      "tmdb_title_official": "The Knight of Shadows - Between Yin and Yang",
+      "tmdb_year_official": 2019,
+      "tmdb_poster_path": "/ipXEk12zm5XLJtGMZpTMzkSk7jl.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "The Knight of Shadows | HD | Jackie Chan | Avventura | Film Completo in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=JPk8z8xNG78",
-        "titolo_italiano": "ಜಾಕಿ ಚಾನ್",
-        "titolo_originale": "ಜಾಕಿ ಚಾನ್",
-        "anno_uscita": 1997,
-        "durata_minuti": 140,
+        "titolo_italiano": "The Knight of Shadows - Between Yin and Yang",
+        "titolo_originale": "神探蒲松齡",
+        "anno_uscita": 2019,
+        "durata_minuti": 108,
         "genere": [
-          "Azione"
+          "Azione",
+          "Avventura",
+          "Famiglia",
+          "Fantasy",
+          "Romance"
         ],
         "regista": [
-          "Thriller Manju"
+          "严嘉"
         ],
         "cast_principale": [
           {
-            "nome": "Thriller Manju",
-            "personaggio": null,
-            "foto_url": "https://image.tmdb.org/t/p/w185/4I7ihdWUFJzQE3WBEaI5Evye76D.jpg",
+            "nome": "Jackie Chan",
+            "personaggio": "Pu Songling",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nraZoTzwJQPHspAVsKfgl3RXKKa.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1506318",
+              "url_pagina_origine": "https://www.themoviedb.org/person/18897",
               "verificata": true
             }
           },
           {
-            "nome": "Suman Talwar",
-            "personaggio": null,
-            "foto_url": "https://image.tmdb.org/t/p/w185/p8hY2ZtAuZRx7LMpimQa5wCYG60.jpg",
+            "nome": "钟楚曦",
+            "personaggio": "Nie Xiaoqian",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tkEzMiPQykYsSC5wIZ9TkHs5OIg.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/91557",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1815238",
               "verificata": true
             }
           },
           {
-            "nome": "C. Arun Pandian",
-            "personaggio": null,
-            "foto_url": "https://image.tmdb.org/t/p/w185/rKIQWsynKIxHJRBZqEERNcZTNGF.jpg",
+            "nome": "阮經天",
+            "personaggio": "Yan Chixia / Ning Caichen",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vDiFcca1TYcFssxjU9efGjIAWN4.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/91551",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1063128",
               "verificata": true
             }
           },
           {
-            "nome": "Avinash",
-            "personaggio": null,
-            "foto_url": "https://image.tmdb.org/t/p/w185/uvDw1elYkPDooFNnq6yHJKBhz6s.jpg",
+            "nome": "林柏宏",
+            "personaggio": "Yan Fei",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ab0t5eYYEWWDtMwN6R4VTfbSz3Q.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1179742",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1266721",
               "verificata": true
             }
           },
           {
-            "nome": "Doddanna",
-            "personaggio": null,
-            "foto_url": "https://image.tmdb.org/t/p/w185/eeorsDvwI5GfsYXRPtZ4GHnpnug.jpg",
+            "nome": "喬杉",
+            "personaggio": "Liu Quanzhen",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zaTccwcq61PWWzWIgqapnpQph00.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1342978",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1734106",
               "verificata": true
             }
           },
           {
-            "nome": "Sadhu Kokila",
-            "personaggio": null,
-            "foto_url": "https://image.tmdb.org/t/p/w185/wy1kpfqGoxja5469Ft4HZoU2QHw.jpg",
+            "nome": "Charles Luu",
+            "personaggio": "Jian Kang",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nekQGnlt6vT2od0TF3qYpPNyWgC.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1298330",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2002792",
               "verificata": true
             }
           },
           {
-            "nome": "Sithara",
-            "personaggio": null,
-            "foto_url": "https://image.tmdb.org/t/p/w185/9km7P6HyYOg0qMFMicgbg64Fkn5.jpg",
+            "nome": "Lance Luu",
+            "personaggio": "Jian Mei",
+            "foto_url": "https://image.tmdb.org/t/p/w185/etp6rnQvT7hKfIY7QoUynRWxyDq.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/582184",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2002791",
               "verificata": true
             }
           },
           {
-            "nome": "Karibasavaiah",
-            "personaggio": null,
-            "foto_url": "https://image.tmdb.org/t/p/w185/xfxvh23Vug8FN4z19Mc6hjZcUpw.jpg",
+            "nome": "Mark Luu",
+            "personaggio": "Jian Zhuang",
+            "foto_url": "https://image.tmdb.org/t/p/w185/f61v6HIw1jnhcSFQjSBQeW2sRVn.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1270697",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2002793",
               "verificata": true
             }
           },
           {
-            "nome": "Krishne Gowda",
+            "nome": "Pan Changjiang",
             "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/8s9wCZZ2FLQHxcSqA84dg0rIbmU.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/551531",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Xia Meng",
+            "personaggio": "Girl",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/5530242",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2484834",
               "verificata": false
             }
           }
         ],
-        "trama": "An upright and brave police officer, Simha, along with two righteous young men, Rana and Pratap, takes on anti-social elements and wipes out terrorism.",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/gU6HVslRDY1DcSR4Sv7YUCd2NOK.jpg",
+        "trama": "La barriera che protegge gli esseri umani dal regno dei demoni è crollata. orde di demoni si stanno riversando tra gli uomini e Songling, leggendario cacciatore di demoni, sotto le mentite spoglie di un detective ha il compito di rintracciarli per volere del Re dei Demoni…",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/ipXEk12zm5XLJtGMZpTMzkSk7jl.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=JRohen4LXz0"
         },
-        "tmdb_id_scelto": 1126583
-      }
+        "tmdb_id_scelto": 512901,
+        "imdb_id_scelto": "tt7587984",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-06T06:43:27.620Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "fantasy",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-06T06:43:27.620Z",
+      "editor_updated_at": "2026-07-06T06:43:27.620Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "mbm3Uor-5jw",
@@ -375543,7 +375750,7 @@
     {
       "video_id": "q_GJjjatn7k",
       "is_movie": true,
-      "original_title": "6 Headed Shark Attack | HD | Azione | Film Completo sottotitolato in Italiano",
+      "original_title": "6-Headed Shark Attack",
       "channel": "Film&Clips Azione",
       "tmdb_id": 522438,
       "tmdb_title_official": "6-Headed Shark Attack",
@@ -375554,8 +375761,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "6 Headed Shark Attack | HD | Azione | Film Completo sottotitolato in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=q_GJjjatn7k",
         "titolo_italiano": "6-Headed Shark Attack",
         "titolo_originale": "6-Headed Shark Attack",
         "anno_uscita": 2018,
@@ -375681,20 +375886,30 @@
             }
           }
         ],
-        "trama": "What is supposed to be a marriage boot camp on a remote island turns into the ultimate test for survival when a 6-headed shark starts attacking the beach. Trapped with minimal weapons they try to fight off the shark, but quickly discover that no one is safe in the water or on land.",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Quello che doveva essere un campo di addestramento per matrimoni su un'isola remota si trasforma nel test definitivo per la sopravvivenza quando uno squalo a sei teste inizia ad attaccare la spiaggia. Intrappolati con armi minime, cercano di difendersi dallo squalo, ma scoprono rapidamente che nessuno è al sicuro né in acqua né sulla terraferma.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/pFUBy1KaIcIs49NtThthYA6EKIX.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=Ksmjm7OeX_E"
         },
-        "tmdb_id_scelto": 522438
-      }
+        "tmdb_id_scelto": 522438,
+        "imdb_id_scelto": "tt8360902",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-06T06:41:54.427Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "horror",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-06T06:41:54.427Z",
+      "editor_updated_at": "2026-07-06T06:41:54.427Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "JwAdkHHWAI4",
@@ -375853,7 +376068,7 @@
     {
       "video_id": "Ht8Gx2ArJjs",
       "is_movie": true,
-      "original_title": "Supersonic Man | Avventura | Film Completo in Italiano",
+      "original_title": "Supersonic Man",
       "channel": "Film&Clips Azione",
       "tmdb_id": 28482,
       "tmdb_title_official": "Supersonic Man",
@@ -375864,8 +376079,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Supersonic Man | Avventura | Film Completo in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=Ht8Gx2ArJjs",
         "titolo_italiano": "Supersonic Man",
         "titolo_originale": "Supersonic Man",
         "anno_uscita": 1979,
@@ -375990,25 +376203,35 @@
             }
           }
         ],
-        "trama": "Kronos, hero of a distant galaxy, tangles with mad scientist Gulik over the fate of mankind.",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Kronos, eroe di una galassia lontana, si scontra con il folle scienziato Gulik per il destino dell'umanità.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/b5T5SWUGNpKmlmAhHU4uav3Ks04.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=CrQCk9mzi-Y"
         },
-        "tmdb_id_scelto": 28482
-      }
+        "tmdb_id_scelto": 28482,
+        "imdb_id_scelto": "tt0079971",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-06T06:36:25.474Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "fantascienza",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-06T06:36:25.474Z",
+      "editor_updated_at": "2026-07-06T06:36:25.474Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "BydJA0fNhn0",
       "is_movie": true,
-      "original_title": "La ragazza d'acciaio | Azione | Film Completo in Italiano",
+      "original_title": "La ragazza d'acciaio",
       "channel": "Film&Clips Azione",
       "tmdb_id": 834604,
       "tmdb_title_official": "La ragazza d'acciaio",
@@ -376019,8 +376242,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "La ragazza d'acciaio | Azione | Film Completo in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=BydJA0fNhn0",
         "titolo_italiano": "La ragazza d'acciaio",
         "titolo_originale": "La ragazza d'acciaio",
         "anno_uscita": 1994,
@@ -376035,51 +376256,54 @@
           {
             "nome": "Sarah Brooks",
             "personaggio": "Susan Plant / Ginger",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "foto_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-Ky0-OjgmBfWDkVmN6KBQ99-opa3mu22J2Q4sY0epI0tNo439WBUWh7m-HRRxk6ezLJeGcGlYfeEPmJjbVV2_sJIjNeMOLPYcqiv9lV8&s=10",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/3728800",
-              "verificata": false
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
             }
           },
           {
             "nome": "Ray Coleman",
             "personaggio": null,
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "foto_url": "https://www.panattasport.com/wp-content/uploads/2024/12/ronnie-coleman--png.webp",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/3728801",
-              "verificata": false
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
             }
           },
           {
             "nome": "Sasha D'Arc",
             "personaggio": "Beck",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "foto_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXIfeSkJk_2WDkHXS264y8ndLCIYoQ91SfsHwa3GB0cyqvJSiVMbmpEWo&s=10",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/101202",
-              "verificata": false
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
             }
           }
         ],
-        "trama": "A good looking young girl named Susan is out roller blading when a biker gang rape her. She aims to seek revenge and uses the aid of a karate teacher and a bike trainer to give her the confidence she needs to avenge her attackers. As she learns karate she becomes a biker herself and changes her name to Ginger. Only to her friends she is Susan but to all the bikers she is the Iron girl Ginger. She uses her courage to track down that Biker gang and now she is out to get even with them.",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Una giovane ragazza di bell'aspetto di nome Susan sta pattinando quando una banda di motociclisti la violenta. Decide di vendicarsi e chiede l'aiuto di un insegnante di karate e di un allenatore di moto per acquisire la fiducia necessaria a vendicare i suoi aggressori. Mentre impara il karate, diventa lei stessa una motociclista e cambia il suo nome in Ginger. Solo i suoi amici la chiamano Susan, ma per tutti i motociclisti è la Iron girl Ginger. Usa il suo coraggio per rintracciare quella banda di motociclisti e ora è determinata a farsi giustizia.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/4ayzWAoDvMhjGQ4xcQF6XtFUU36.jpg",
-        "trailer": {
-          "url": null,
-          "lingua": null,
-          "fonte": "YouTube",
-          "canale": null,
-          "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
-        },
-        "tmdb_id_scelto": 834604
-      }
+        "trailer": null,
+        "tmdb_id_scelto": 834604,
+        "imdb_id_scelto": "tt0288070",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-06T06:40:56.336Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "azione",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-06T06:40:56.336Z",
+      "editor_updated_at": "2026-07-06T06:40:56.336Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "lg2TYf8iuzk",
@@ -379242,7 +379466,7 @@
     },
     {
       "video_id": "C2OVpaeuF8A",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Delta Force Commando | Azione | Film Completo in Italiano",
       "channel": "Film&Clips Azione",
       "tmdb_id": 87337,
@@ -379325,7 +379549,10 @@
           "motivo_verifica": ""
         },
         "tmdb_id_scelto": 87337
-      }
+      },
+      "reason_not_movie": "eliminato dall'editor web",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-06T06:38:48.290Z"
     },
     {
       "video_id": "8KNEuGeOG1k",
@@ -379462,163 +379689,171 @@
     {
       "video_id": "LnfpIcaFt9E",
       "is_movie": true,
-      "original_title": "Crash and Burn - Super Action! - by Film&Clips Azione",
+      "original_title": "Crash and Burn",
       "channel": "Film&Clips Azione",
-      "tmdb_id": 32243,
-      "tmdb_title_official": "Crash and Burn",
-      "tmdb_year_official": 2008,
-      "tmdb_poster_path": "/qXRv8ng3NEj6njUar0mK0cRJhnT.jpg",
+      "tmdb_id": 24862,
+      "tmdb_title_official": "Distruzione totale",
+      "tmdb_year_official": 1990,
+      "tmdb_poster_path": "/5tysnCndwYJ6I7D8lw1lHdD3AsF.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Crash and Burn - Super Action! - by Film&Clips Azione",
-        "youtube_url": "https://www.youtube.com/watch?v=LnfpIcaFt9E",
-        "titolo_italiano": "Crash and Burn",
+        "titolo_italiano": "Distruzione totale",
         "titolo_originale": "Crash and Burn",
-        "anno_uscita": 2008,
+        "anno_uscita": 1990,
         "durata_minuti": 85,
         "genere": [
-          "televisione film",
-          "Azione",
+          "Fantascienza",
           "Thriller",
-          "Crime"
+          "Azione",
+          "Horror"
         ],
         "regista": [
-          "Russell Mulcahy"
+          "Charles Band"
         ],
         "cast_principale": [
           {
-            "nome": "Michael Madsen",
-            "personaggio": "Vincent Scaillo",
-            "foto_url": "https://image.tmdb.org/t/p/w185/fvr2EXEPrVwsF2JlfRp0Olbj4g8.jpg",
+            "nome": "Paul Ganus",
+            "personaggio": "Tyson Keen",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8kUA4cwSMBFkUsUz21RjfVNM9er.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/147",
+              "url_pagina_origine": "https://www.themoviedb.org/person/168140",
               "verificata": true
             }
           },
           {
-            "nome": "Erik Palladino",
-            "personaggio": "Kevin Hawkins",
-            "foto_url": "https://image.tmdb.org/t/p/w185/k8wx0HCCcjRYKqowh8E1yIdrsVu.jpg",
+            "nome": "Megan Ward",
+            "personaggio": "Arren",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wMrxzRi6101yXfcOzJnw7fNgZpl.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/43902",
+              "url_pagina_origine": "https://www.themoviedb.org/person/64999",
               "verificata": true
             }
           },
           {
-            "nome": "Heather Marie Marsden",
-            "personaggio": "Penny Middleton",
-            "foto_url": "https://image.tmdb.org/t/p/w185/88mmu9Vm4cxAUpAqpYLheTen0Ki.jpg",
+            "nome": "Ralph Waite",
+            "personaggio": "Lathan Hooks",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9piV2h6tAuhynRP0PSmM2IsSh69.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/141225",
+              "url_pagina_origine": "https://www.themoviedb.org/person/8853",
               "verificata": true
             }
           },
           {
-            "nome": "David Moscow",
-            "personaggio": "Hill Dorset",
-            "foto_url": "https://image.tmdb.org/t/p/w185/b0tUWBy7Ia2JcaLtepeZvYUkUZm.jpg",
+            "nome": "Bill Moseley",
+            "personaggio": "Quinn",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tRyt4wTgNYJl7eqhM56B3gukU2A.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/62123",
+              "url_pagina_origine": "https://www.themoviedb.org/person/27737",
               "verificata": true
             }
           },
           {
-            "nome": "Mirelly Taylor",
-            "personaggio": "Lucia Mendez",
-            "foto_url": "https://image.tmdb.org/t/p/w185/pDByq8LDx9BG77n8eTLsh4CuQil.jpg",
+            "nome": "Eva LaRue",
+            "personaggio": "Parice",
+            "foto_url": "https://image.tmdb.org/t/p/w185/q07Ii35UFA3ayPPFBe98ARzbDg8.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/97470",
+              "url_pagina_origine": "https://www.themoviedb.org/person/121769",
               "verificata": true
             }
           },
           {
-            "nome": "Peter Jason",
-            "personaggio": "Winston Manny",
-            "foto_url": "https://image.tmdb.org/t/p/w185/xoqIuVvEH6BG6sOg4NnZzUKFnaf.jpg",
+            "nome": "Jack McGee",
+            "personaggio": "Winston Wickett",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4fmjQ4z0Y7UraH8Pk2qxABvwmGS.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/6916",
+              "url_pagina_origine": "https://www.themoviedb.org/person/10489",
               "verificata": true
             }
           },
           {
-            "nome": "Owen Beckman",
-            "personaggio": "Benny Dorset Tommy",
-            "foto_url": "https://image.tmdb.org/t/p/w185/yhE8xn5vKwEHMaoA9AXscX7ow00.jpg",
+            "nome": "Elizabeth Maclellan",
+            "personaggio": "Sandra",
+            "foto_url": "https://image.tmdb.org/t/p/w185/eR3rro435dTWEsB4tHSVnR6TXOH.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/130842",
+              "url_pagina_origine": "https://www.themoviedb.org/person/554043",
               "verificata": true
             }
           },
           {
-            "nome": "Rebeka Montoya",
-            "personaggio": "Mareya",
-            "foto_url": "https://image.tmdb.org/t/p/w185/gRxF8e5mo4dHjjmOtY4e7t0Xd3m.jpg",
+            "nome": "Katherine Armstrong",
+            "personaggio": "Christie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qvO8USvpHjZilBsdllNDUiYrGZh.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1224160",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1372638",
               "verificata": true
             }
           },
           {
-            "nome": "Tony Denison",
-            "personaggio": "Francis Garrard",
-            "foto_url": "https://image.tmdb.org/t/p/w185/yt3umgKk1UFRrrVJHhl92wX21RT.jpg",
+            "nome": "John Davis Chandler",
+            "personaggio": "Bud",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wyWeZ4fr1RCNtq8EDCxQiXfDdn8.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/85154",
+              "url_pagina_origine": "https://www.themoviedb.org/person/32786",
               "verificata": true
             }
           },
           {
-            "nome": "Lobo Sebastian",
-            "personaggio": "Ramiro Chiapa",
-            "foto_url": "https://image.tmdb.org/t/p/w185/jY11dhfqwvh5BTx0cVU5ZooHcpU.jpg",
+            "nome": "Kristopher Logan",
+            "personaggio": "Scratch",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hpOFbwkiA3Cf2ZQFxm0vcGtm00a.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/48071",
+              "url_pagina_origine": "https://www.themoviedb.org/person/98554",
               "verificata": true
             }
           }
         ],
-        "trama": "When undercover FBI agent Kevin Hawkins agrees to infiltrate the ruthless underground world of choppers, he is quickly thrown into a world of fast cars and high stakes. Pitted between a ruthless crime boss and cutthroat gangsters with a penchant for murder Hawkins must risk everything in the most deadly race of his life.",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/qXRv8ng3NEj6njUar0mK0cRJhnT.jpg",
+        "trama": "Il collasso del sistema economico mondiale nel 2030 ha portato al potere la Unicom, gigante industriale, leader nelle più sofisticate tecnologie computerizzate, che ha assunto il ruolo di guida perduto dai vari governi. Ma l'autorità, esercitata con eccessiva durezza, provoca la nascita di movimenti rivoluzionari, che la compagnia tenta di soffocare infiltrando i suoi perfetti androidi tra la popolazione per individuare i dissidenti. Quando in una stazione radiotelevisiva indipendente della California viene misteriosamente assassinato Lathan Hooks, responsabile dell'impianto ed esponente di spicco della resistenza, fra gli addetti matura la convinzione che uno di loro sia un sicario della Unicom. Tyson Keen, che vi ha appena consegnato un delicato carico, e la giovane Arren, abile pilota di robot da lavoro, tenteranno ogni mezzo - compreso il cruento gioco del Crash and Burn - per scoprirne l'identità.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/5tysnCndwYJ6I7D8lw1lHdD3AsF.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=nOqlnK0NR5M"
         },
-        "tmdb_id_scelto": 32243
-      }
+        "tmdb_id_scelto": 24862,
+        "imdb_id_scelto": "tt0099313",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-06T06:34:10.224Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "horror",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-06T06:34:10.224Z",
+      "editor_updated_at": "2026-07-06T06:34:10.224Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "S9CwAMJ1Ml0",
       "is_movie": true,
-      "original_title": "Dilemma - Film Completo Film by Film&Clips Azione",
+      "original_title": "Dilemma",
       "channel": "Film&Clips Azione",
       "tmdb_id": 107647,
       "tmdb_title_official": "Dilemma",
@@ -379629,8 +379864,6 @@
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Dilemma - Film Completo Film by Film&Clips Azione",
-        "youtube_url": "https://www.youtube.com/watch?v=S9CwAMJ1Ml0",
         "titolo_italiano": "Dilemma",
         "titolo_originale": "Dilemma",
         "anno_uscita": 1997,
@@ -379755,20 +379988,30 @@
             }
           }
         ],
-        "trama": "Whichever side he chooses, someone's gonna die. Death row inmate Rudy Salazar cuts a deal he can't refuse: he'll donate his rare bone marrow to a young girl dying of leukemia. In return, his death sentence is commuted to life without parole. L.A. Detective Quin (C. Thomas Howell), the cop who brought Salazar's murderous rampage to an end, sees through Salazar's selfless facade. En route to the hospital, Salazar makes a daring escape. Now it's up to Quin and his sexy partner, Lydia, to bring Salazar to justice one more time and save the life of an innocent little girl before it's too late.",
-        "trama_tradotta_in_italiano": false,
+        "trama": "Qualunque scelta faccia, qualcuno morirà. Rudy Salazar, un condannato a morte, accetta un accordo che non può rifiutare: donerà il suo raro midollo osseo a una giovane ragazza malata di leucemia. In cambio, la sua condanna a morte viene commutata in ergastolo senza possibilità di libertà condizionale. L'agente di polizia di Los Angeles Quin, il poliziotto che ha messo fine alla folle corsa omicida di Salazar, vede oltre la facciata altruista di quest'ultimo. Durante il tragitto verso l'ospedale, Salazar compie una fuga audace. Ora spetta a Quin e alla sua affascinante partner, Lydia, riportare Salazar davanti alla giustizia un'ultima volta e salvare la vita di una piccola innocente prima che sia troppo tardi.",
+        "trama_tradotta_in_italiano": true,
         "locandina_url": "https://image.tmdb.org/t/p/w500/8x5yzQFS2uUN16O1fhMcrxKABva.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=pGYnH9tQhsM"
         },
-        "tmdb_id_scelto": 107647
-      }
+        "tmdb_id_scelto": 107647,
+        "imdb_id_scelto": "tt0129040",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-06T06:34:49.936Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "thriller",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-06T06:34:49.936Z",
+      "editor_updated_at": "2026-07-06T06:34:49.936Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "v56u2RRdymA",
