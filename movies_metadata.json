@@ -378601,156 +378601,166 @@
     {
       "video_id": "9nrg8wWvSWo",
       "is_movie": true,
-      "original_title": "The Legionary - Fuga all'inferno | Azione | Film Completo in italiano",
+      "original_title": "Legionnaire",
       "channel": "Film&Clips Azione",
-      "tmdb_id": 666090,
-      "tmdb_title_official": "A halhatatlan légiós",
-      "tmdb_year_official": 1971,
-      "tmdb_poster_path": "/unUOPieP6r69ACm0OYuEFOc0sou.jpg",
+      "tmdb_id": 3513,
+      "tmdb_title_official": "The Legionary - Fuga all'inferno",
+      "tmdb_year_official": 1998,
+      "tmdb_poster_path": "/soMRDdIfcMjMZnd6YlEk3AjgjwG.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "The Legionary - Fuga all'inferno | Azione | Film Completo in italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=9nrg8wWvSWo",
-        "titolo_italiano": "A halhatatlan légiós",
-        "titolo_originale": "A halhatatlan légiós",
-        "anno_uscita": 1971,
-        "durata_minuti": 0,
+        "titolo_italiano": "The Legionary - Fuga all'inferno",
+        "titolo_originale": "Legionnaire",
+        "anno_uscita": 1998,
+        "durata_minuti": 99,
         "genere": [
-          "Commedia",
-          "Dramma"
+          "Azione",
+          "Guerra",
+          "Avventura",
+          "Storia"
         ],
         "regista": [
-          "Tamás Somló"
+          "Peter MacDonald"
         ],
         "cast_principale": [
           {
-            "nome": "Őze Lajos",
-            "personaggio": "Az író",
-            "foto_url": "https://image.tmdb.org/t/p/w185/2osu1Z7eQRocXfeIxKCi9od0VUT.jpg",
+            "nome": "Jean-Claude Van Damme",
+            "personaggio": "Alain Lefevre",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7DP3bm3MS0qa0L8tBLHGebbCu6H.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/125162",
+              "url_pagina_origine": "https://www.themoviedb.org/person/15111",
               "verificata": true
             }
           },
           {
-            "nome": "Virág Dőry",
-            "personaggio": "Az író barátnője",
-            "foto_url": "https://image.tmdb.org/t/p/w185/79A8Qv5yEOBhmt8AJiz3jnrviY4.jpg",
+            "nome": "Adewale Akinnuoye-Agbaje",
+            "personaggio": "Luther",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zdtwVtVmmm7VzYfu8xH7mbuTvrH.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1537634",
+              "url_pagina_origine": "https://www.themoviedb.org/person/31164",
               "verificata": true
             }
           },
           {
-            "nome": "Károly Kovács",
-            "personaggio": "Müller kiadó",
-            "foto_url": "https://image.tmdb.org/t/p/w185/iMVXAhtAhg1Rlh3KlC8AelLMkyK.jpg",
+            "nome": "Steven Berkoff",
+            "personaggio": "Sgt. Steinkampf",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3u4gxLWmDXAtY37GvkyCN05X2zw.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/125751",
+              "url_pagina_origine": "https://www.themoviedb.org/person/782",
               "verificata": true
             }
           },
           {
-            "nome": "Alfonzó",
-            "personaggio": "Abdullah",
+            "nome": "Nicholas Farrell",
+            "personaggio": "Mackintosh",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gheuwhycSxpBRhGv7Qbfub2uuB2.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/32357",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jim Carter",
+            "personaggio": "Lucien Galgani",
+            "foto_url": "https://image.tmdb.org/t/p/w185/okiL3gc0mNqP0kPfMQHHvFjKnHb.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/20070",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ana Sofrenović",
+            "personaggio": "Katarina",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1424611",
+              "url_pagina_origine": "https://www.themoviedb.org/person/32358",
               "verificata": false
             }
           },
           {
-            "nome": "Raksányi Gellért",
-            "personaggio": "Légiós",
-            "foto_url": "https://image.tmdb.org/t/p/w185/nt7ngiWDuEmT0e36vgDZcfitNFi.jpg",
+            "nome": "Daniel Caltagirone",
+            "personaggio": "Guido Rosetti",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2LUz4M9PVRxMePqJ74hP05Wdwi3.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/125760",
+              "url_pagina_origine": "https://www.themoviedb.org/person/19875",
               "verificata": true
             }
           },
           {
-            "nome": "Gyula Kéry",
-            "personaggio": null,
+            "nome": "Joseph Long",
+            "personaggio": "Maxim",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kIh1s4CVXqcPb57ya3AMY2v1zxc.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/27649",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mario Kalli",
+            "personaggio": "Rene Galgano",
             "foto_url": null,
             "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1918488",
+              "url_pagina_origine": "https://www.themoviedb.org/person/32359",
               "verificata": false
             }
           },
           {
-            "nome": "András Márton",
-            "personaggio": null,
-            "foto_url": "https://image.tmdb.org/t/p/w185/1dMLODHhm2Xbx3ijPO8vB8dOjJ9.jpg",
+            "nome": "Joe Montana",
+            "personaggio": "Julot",
+            "foto_url": "https://image.tmdb.org/t/p/w185/sqatKLk9VoDJofD23txsCosAs6m.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/81513",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Bárdy György",
-            "personaggio": "Matróz",
-            "foto_url": "https://image.tmdb.org/t/p/w185/rlk5WIIvrpKqTA1A7BDY4irEsRL.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/125680",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Juhász Jácint",
-            "personaggio": "Fülig Jimmy/Gorcsev Iván",
-            "foto_url": "https://image.tmdb.org/t/p/w185/yMGmSeJpS8CpNwRDPz7mAOEBy7h.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/146822",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Kern András",
-            "personaggio": "Hadnagy",
-            "foto_url": "https://image.tmdb.org/t/p/w185/kdyRXDVjj2ptPZVAS3Mt7KNx6OL.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/64412",
+              "url_pagina_origine": "https://www.themoviedb.org/person/32360",
               "verificata": true
             }
           }
         ],
-        "trama": "Marching through the snowfields of Ukraine, the Writer is already haunted by visions. His famous characters in his novels, Jimmy Fülig, Ivan Gorchev, Sir Yolland, Marshal Podvinecz and others, appear in his visions, blurring reality. The heroes of the novel do not deny themselves here either, and try to counterbalance the terrible reality of everyday life with wry, grotesque humour...",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/unUOPieP6r69ACm0OYuEFOc0sou.jpg",
+        "trama": "Alain è un pugile che deve fuggire da Marsiglia per aver insidiato la moglie del boss locale e per essersi rifiutato di vendere un incontro. Siamo negli anni Venti, e la sua unica possibilità di fuga è il reclutamento nella Legione Straniera; in Marocco tra la dura disciplina della legione e gli attacchi sanguinosi delle tribù berbere, Alain chiude finalmente i conti col suo passato.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/soMRDdIfcMjMZnd6YlEk3AjgjwG.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=_SG7kiDdjMg"
         },
-        "tmdb_id_scelto": 666090
-      }
+        "tmdb_id_scelto": 3513,
+        "imdb_id_scelto": "tt0126388",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-06T06:26:37.286Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "guerra",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-06T06:26:37.286Z",
+      "editor_updated_at": "2026-07-06T06:26:37.286Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "4fOq4GCtd5c",
@@ -379317,44 +379327,131 @@
     {
       "video_id": "8KNEuGeOG1k",
       "is_movie": true,
-      "original_title": "Afganistan - The Last War Bus | Azione | Film Completo in Italiano",
+      "original_title": "L'ultimo bus di guerra",
       "channel": "Film&Clips Azione",
-      "tmdb_id": 1100285,
-      "tmdb_title_official": "Przeżyć Afganistan",
-      "tmdb_year_official": 2012,
-      "tmdb_poster_path": "/ghar9simJy8mjNSXOCo4jzdi22d.jpg",
+      "tmdb_id": 97560,
+      "tmdb_title_official": "Afganistan - The last war bus (L'ultimo bus di guerra)",
+      "tmdb_year_official": 1989,
+      "tmdb_poster_path": "/ywxsadIE4KYqvrHdUM92anUQrEQ.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Afganistan - The Last War Bus | Azione | Film Completo in Italiano",
-        "youtube_url": "https://www.youtube.com/watch?v=8KNEuGeOG1k",
-        "titolo_italiano": "Przeżyć Afganistan",
-        "titolo_originale": "Przeżyć Afganistan",
-        "anno_uscita": 2012,
-        "durata_minuti": 0,
+        "titolo_italiano": "Afganistan - The last war bus (L'ultimo bus di guerra)",
+        "titolo_originale": "L'ultimo bus di guerra",
+        "anno_uscita": 1989,
+        "durata_minuti": 90,
         "genere": [
-          "Documentario"
+          "Azione",
+          "Guerra"
         ],
         "regista": [
-          "Małgorzata Imielska"
+          "Pierluigi Ciriaci"
         ],
-        "cast_principale": [],
-        "trama": "",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/ghar9simJy8mjNSXOCo4jzdi22d.jpg",
+        "cast_principale": [
+          {
+            "nome": "Mark Gregory",
+            "personaggio": "Johnny Hondo",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4M0EvU5ziGhN3YDBN9fJpiBmRSU.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/234314",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "John Vernon",
+            "personaggio": "Ken Ross",
+            "foto_url": "https://image.tmdb.org/t/p/w185/m4atQ6vOlPDH0oP2X1Owc5J53A1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/17580",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Savina Geršak",
+            "personaggio": "Linda Cain",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qAYu5GkO6myRkoIzE50ADqw9N08.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/103130",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mario Novelli",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/y8QDhsMXe5vWE18xqQuTWSBgC6V.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/240906",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Bobby Rhodes",
+            "personaggio": "P.O.W. Mechanic",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wcEVIWGYeUKSn82TlVpEbBFfreQ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/95457",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Branko Đurić",
+            "personaggio": "Russian Commander",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ccVJvWqpppXXjrs2hkaUsRn5vnB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1312536",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Frank von Kuegelgen",
+            "personaggio": "Johnny Hondo",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1696031",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Soldati si trovano intrappolati e in pericolo mortale dietro le linee nemiche in Afghanistan. La loro unica speranza di sopravvivenza è salire a bordo di un autobus appositamente progettato. L'AUTOBUS DELLA GUERRA!!!!",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/ywxsadIE4KYqvrHdUM92anUQrEQ.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=CzCqkJKyT8M"
         },
-        "tmdb_id_scelto": 1100285
-      }
+        "tmdb_id_scelto": 97560,
+        "imdb_id_scelto": "tt0094618",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-06T06:27:09.913Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "guerra",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-06T06:27:09.913Z",
+      "editor_updated_at": "2026-07-06T06:27:09.913Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "LnfpIcaFt9E",
