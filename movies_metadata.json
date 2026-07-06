@@ -378302,7 +378302,7 @@
     },
     {
       "video_id": "NixCm4eQR0k",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Titanic II | Drammatico |  Film Completo con sottotitoli in Italiano",
       "channel": "Film&Clips Azione",
       "tmdb_id": 44918,
@@ -378464,7 +378464,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-06T06:47:15.564Z",
       "editor_updated_at": "2026-07-06T06:47:15.564Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_lock_reason": "genere compilato dalla diagnostica editor",
+      "reason_not_movie": "eliminato dall'editor web",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-06T06:48:19.861Z"
     },
     {
       "video_id": "rl1la0csTj8",
