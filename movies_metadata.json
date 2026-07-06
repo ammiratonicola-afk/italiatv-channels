@@ -366210,7 +366210,7 @@
     },
     {
       "video_id": "ovL07vDIEAc",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Виктор",
       "channel": "Film&Clips Azione",
       "tmdb_id": 290556,
@@ -366369,11 +366369,14 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T07:20:37.351Z",
       "editor_updated_at": "2026-07-05T07:20:37.351Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-06T06:24:28.816Z"
     },
     {
       "video_id": "oKyIY51HKRk",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Iron Sky: The Coming Race",
       "channel": "Film&Clips Azione",
       "tmdb_id": 302349,
@@ -366542,7 +366545,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T07:20:06.672Z",
       "editor_updated_at": "2026-07-05T07:20:06.672Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-06T06:24:28.817Z"
     },
     {
       "video_id": "FOSMo2qAOjI",
@@ -368345,7 +368351,7 @@
     },
     {
       "video_id": "MhdwhhAnS70",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "La tua vita per mio figlio",
       "channel": "Film&Clips Azione",
       "tmdb_id": 260913,
@@ -368458,7 +368464,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T07:19:33.394Z",
       "editor_updated_at": "2026-07-05T07:19:33.394Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-06T06:24:28.815Z"
     },
     {
       "video_id": "YIUVqbVV3tw",
@@ -368671,7 +368680,7 @@
     },
     {
       "video_id": "hn1YlWI24XY",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Dio non paga il sabato",
       "channel": "Film&Clips Azione",
       "tmdb_id": 159276,
@@ -368828,7 +368837,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T07:18:43.602Z",
       "editor_updated_at": "2026-07-05T07:18:43.602Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-06T06:24:28.813Z"
     },
     {
       "video_id": "gTSSxpsIZaE",
@@ -369364,7 +369376,7 @@
     },
     {
       "video_id": "xhnjfBZvm4c",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Pochi dollari per Django",
       "channel": "Film&Clips Azione",
       "tmdb_id": 129577,
@@ -369520,7 +369532,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T07:18:06.983Z",
       "editor_updated_at": "2026-07-05T07:18:06.983Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-06T06:24:28.801Z"
     },
     {
       "video_id": "5QSFQoIbec0",
@@ -369876,7 +369891,7 @@
     },
     {
       "video_id": "WbvwoctpGLY",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "警察故事2013",
       "channel": "Film&Clips Azione",
       "tmdb_id": 219572,
@@ -370034,7 +370049,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T07:15:34.175Z",
       "editor_updated_at": "2026-07-05T07:15:34.175Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-06T06:24:28.814Z"
     },
     {
       "video_id": "Ie81t6qnwFA",
