@@ -378600,7 +378600,7 @@
     },
     {
       "video_id": "9nrg8wWvSWo",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Legionnaire",
       "channel": "Film&Clips Azione",
       "tmdb_id": 3513,
@@ -378760,7 +378760,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-06T06:26:37.286Z",
       "editor_updated_at": "2026-07-06T06:26:37.286Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-06T06:28:15.954Z"
     },
     {
       "video_id": "4fOq4GCtd5c",
@@ -379326,7 +379329,7 @@
     },
     {
       "video_id": "8KNEuGeOG1k",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "L'ultimo bus di guerra",
       "channel": "Film&Clips Azione",
       "tmdb_id": 97560,
@@ -379451,7 +379454,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-06T06:27:09.913Z",
       "editor_updated_at": "2026-07-06T06:27:09.913Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-06T06:28:15.955Z"
     },
     {
       "video_id": "LnfpIcaFt9E",
