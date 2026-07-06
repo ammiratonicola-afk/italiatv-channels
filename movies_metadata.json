@@ -214353,7 +214353,7 @@
     },
     {
       "video_id": "a6b_xK0j2Ec",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Vicini Da Incubo | Un Segreto Mortale dietro la Porta Accanto - Film Completo 4K Thriller",
       "channel": "Azione360",
       "tmdb_id": 960398,
@@ -214519,7 +214519,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-05T04:31:36.705Z",
       "editor_updated_at": "2026-07-05T04:31:36.705Z",
-      "editor_lock_reason": "genere compilato dalla diagnostica editor"
+      "editor_lock_reason": "genere compilato dalla diagnostica editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-06T07:17:40.449Z"
     },
     {
       "video_id": "9HwWAvXRQbg",
@@ -366727,7 +366730,7 @@
     },
     {
       "video_id": "IseKGFqeESk",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Bury Me Twice",
       "channel": "Film&Clips Azione",
       "tmdb_id": 1120246,
@@ -366856,11 +366859,14 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-06T07:13:02.124Z",
       "editor_updated_at": "2026-07-06T07:13:02.124Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-06T07:17:40.451Z"
     },
     {
       "video_id": "l8YWJxq0caE",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "The Runners",
       "channel": "Film&Clips Azione",
       "tmdb_id": 688809,
@@ -366995,7 +367001,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-06T06:57:23.737Z",
       "editor_updated_at": "2026-07-06T06:57:23.737Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-06T07:17:40.448Z"
     },
     {
       "video_id": "mXzecbguXDo",
@@ -367015,7 +367024,7 @@
     },
     {
       "video_id": "NDugTrEVhng",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Easter Bloody Easter",
       "channel": "Film&Clips Azione",
       "tmdb_id": 1201176,
@@ -367173,7 +367182,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-06T07:14:04.176Z",
       "editor_updated_at": "2026-07-06T07:14:04.176Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-06T07:17:40.452Z"
     },
     {
       "video_id": "-JaGReI8bA8",
@@ -367745,7 +367757,7 @@
     },
     {
       "video_id": "J2whb8IfTSI",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "General Commander",
       "channel": "Film&Clips Azione",
       "tmdb_id": 585311,
@@ -367902,7 +367914,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-06T06:51:40.298Z",
       "editor_updated_at": "2026-07-06T06:51:40.298Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-06T07:17:40.447Z"
     },
     {
       "video_id": "IfQ5MJ1VbUE",
@@ -368573,7 +368588,7 @@
     },
     {
       "video_id": "rrvHVjMKrvw",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Вурдалаки",
       "channel": "Film&Clips Azione",
       "tmdb_id": 430988,
@@ -368725,7 +368740,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-06T06:58:16.005Z",
       "editor_updated_at": "2026-07-06T06:58:16.005Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-06T07:17:40.444Z"
     },
     {
       "video_id": "SXOaxWSc-KE",
@@ -368745,7 +368763,7 @@
     },
     {
       "video_id": "zyFx7Dj1i74",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Willed to Kill",
       "channel": "Film&Clips Azione",
       "tmdb_id": 158689,
@@ -368904,7 +368922,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-06T07:10:13.277Z",
       "editor_updated_at": "2026-07-06T07:10:13.277Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-06T07:17:40.440Z"
     },
     {
       "video_id": "ELN6OFgPmpc",
@@ -369174,7 +369195,7 @@
     },
     {
       "video_id": "INOSqn4oHTA",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Two Wrongs",
       "channel": "Film&Clips Azione",
       "tmdb_id": 384099,
@@ -369331,7 +369352,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-06T07:10:54.548Z",
       "editor_updated_at": "2026-07-06T07:10:54.548Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-06T07:17:40.443Z"
     },
     {
       "video_id": "jmJjGnmyPDA",
@@ -369497,7 +369521,7 @@
     },
     {
       "video_id": "oc2DoiznvJs",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "黃面老虎",
       "channel": "Film&Clips Azione",
       "tmdb_id": 85020,
@@ -369654,7 +369678,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-06T07:14:52.076Z",
       "editor_updated_at": "2026-07-06T07:14:52.076Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-06T07:17:40.426Z"
     },
     {
       "video_id": "vtPLRzJYueo",
@@ -370332,7 +370359,7 @@
     },
     {
       "video_id": "DSj1Qy-JgT8",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "La vendetta dei gladiatori",
       "channel": "Film&Clips Azione",
       "tmdb_id": 343955,
@@ -370488,7 +370515,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-06T07:11:44.880Z",
       "editor_updated_at": "2026-07-06T07:11:44.880Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-06T07:17:40.442Z"
     },
     {
       "video_id": "X3GoBQYmbzI",
@@ -371022,7 +371052,7 @@
     },
     {
       "video_id": "5QSFQoIbec0",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Rule of 3",
       "channel": "Film&Clips Azione",
       "tmdb_id": 616257,
@@ -371135,7 +371165,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-06T06:54:04.999Z",
       "editor_updated_at": "2026-07-06T06:54:04.999Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-06T07:17:40.447Z"
     },
     {
       "video_id": "UMGRxpkbX3Q",
@@ -375532,7 +375565,7 @@
     },
     {
       "video_id": "CO5Mf0tp6K4",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Drone",
       "channel": "Film&Clips Azione",
       "tmdb_id": 452068,
@@ -375688,7 +375721,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-06T06:55:44.386Z",
       "editor_updated_at": "2026-07-06T06:55:44.386Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-06T07:17:40.445Z"
     },
     {
       "video_id": "Ztgn5-Hf7PY",
@@ -376319,7 +376355,7 @@
     },
     {
       "video_id": "xqTKvq7H11U",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Due Magnum .38 per una città di carogne",
       "channel": "Film&Clips Azione",
       "tmdb_id": 260857,
@@ -376476,7 +376512,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-06T07:07:56.103Z",
       "editor_updated_at": "2026-07-06T07:07:56.103Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-06T07:17:40.441Z"
     },
     {
       "video_id": "YK6P1CidD1M",
