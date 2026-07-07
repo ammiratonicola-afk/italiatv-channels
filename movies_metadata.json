@@ -384350,288 +384350,286 @@
     {
       "video_id": "nYWGIGVAWcY",
       "is_movie": true,
-      "original_title": "Furious - Gli ultimi guerrieri - Film Completo by Film&Clips Azione",
+      "original_title": "Легенда о Коловрате",
       "channel": "Film&Clips Azione",
-      "tmdb_id": 291310,
-      "tmdb_title_official": "Gli ultimi guerrieri",
-      "tmdb_year_official": 1989,
-      "tmdb_poster_path": "/lZCkkGqwqvgH249QBY6AMeEvZiN.jpg",
+      "tmdb_id": 415381,
+      "tmdb_title_official": "Furious",
+      "tmdb_year_official": 2017,
+      "tmdb_poster_path": "/mcWdKnd8ghsGIpjEaxDekdno1Cr.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "Furious - Gli ultimi guerrieri - Film Completo by Film&Clips Azione",
-        "youtube_url": "https://www.youtube.com/watch?v=nYWGIGVAWcY",
-        "titolo_italiano": "Gli ultimi guerrieri",
-        "titolo_originale": "The Last Warrior",
-        "anno_uscita": 1989,
-        "durata_minuti": 94,
+        "titolo_italiano": "Furious",
+        "titolo_originale": "Легенда о Коловрате",
+        "anno_uscita": 2017,
+        "durata_minuti": 107,
         "genere": [
-          "Guerra"
+          "Fantasy",
+          "Azione",
+          "Avventura"
         ],
         "regista": [
-          "Martin Wragge"
+          "Ivan Shurkhovetskiy",
+          "Джаник Файзиев"
         ],
         "cast_principale": [
           {
-            "nome": "Gary Graham",
-            "personaggio": "Gibb",
-            "foto_url": "https://image.tmdb.org/t/p/w185/uu3S6uK3mlRyjsabMg1NADuV0Vw.jpg",
+            "nome": "Илья Малаков",
+            "personaggio": "Evpatii Kolovrat",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4hEENKKK5B7yjCoM6FVmqEwRQgD.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/78463",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1677546",
               "verificata": true
             }
           },
           {
-            "nome": "Maria Holvoe",
-            "personaggio": "Katherine",
-            "foto_url": "https://image.tmdb.org/t/p/w185/qLEsrR7J8tQrzgyy6iYYAHiuFES.jpg",
+            "nome": "Александр Цой",
+            "personaggio": "Khan Batiy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/atTMCSrT1sOcEf7BrCteRzNcc0U.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/169141",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1677545",
               "verificata": true
             }
           },
           {
-            "nome": "Cary-Hiroyuki Tagawa",
-            "personaggio": "Imperial Marine",
-            "foto_url": "https://image.tmdb.org/t/p/w185/5F8MQ4J4qIqUwGIfcWN4osrTUtP.jpg",
+            "nome": "Андрей Бурковский",
+            "personaggio": "Rostislav",
+            "foto_url": "https://image.tmdb.org/t/p/w185/o4O9tC7mSPYZFL5TiSWaiHMs2oj.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/11398",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1594434",
               "verificata": true
             }
           },
           {
-            "nome": "John Carson",
-            "personaggio": "Priest",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/100097",
-              "verificata": false
-            }
-          },
-          {
-            "nome": "Peter Butler",
-            "personaggio": "Deck Hand",
-            "foto_url": "https://image.tmdb.org/t/p/w185/bt8rWadjxilIrRUsmWh0eT7IqgA.jpg",
+            "nome": "Александр Ильин мл.",
+            "personaggio": "Karkun",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ljBP6ockm60lkplGBCvGxDWYnpq.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/152244",
+              "url_pagina_origine": "https://www.themoviedb.org/person/126861",
               "verificata": true
             }
           },
           {
-            "nome": "Al Karaki",
-            "personaggio": "Imperial Marine",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/611367",
-              "verificata": false
-            }
-          },
-          {
-            "nome": "Ivan D. Lucas",
-            "personaggio": "Deck Hand",
-            "foto_url": "https://image.tmdb.org/t/p/w185/oueFbgkCTf5TAoaCQ5w8w0IDmgW.jpg",
+            "nome": "Алексей Серебряков",
+            "personaggio": "Knyaz Yutiy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ch67oszo5D7lK64xnDp9JFcmGLp.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/1198509",
+              "url_pagina_origine": "https://www.themoviedb.org/person/113332",
               "verificata": true
             }
           },
           {
-            "nome": "Steven D. Ito",
-            "personaggio": "Imperial Marine",
-            "foto_url": null,
-            "foto_tipo": "nessuna",
+            "nome": "Тимофей Трибунцев",
+            "personaggio": "Zakhar",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ltsMXQPlt8VuS1f72URYMKThZW8.jpg",
+            "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/4072878",
-              "verificata": false
+              "url_pagina_origine": "https://www.themoviedb.org/person/1034699",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Виктор Проскурин",
+            "personaggio": "Svyasschennik",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nKKXOJjWfcue29pzYcZfUjCGLnR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/240781",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Александр Ильин",
+            "personaggio": "Knyaz Svyatoslav",
+            "foto_url": "https://image.tmdb.org/t/p/w185/12Bje7DdeFxMADJHogg1GK1950B.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/579743",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Валерия Шкирандо",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/tG80xbEMQdf6y1ECD0mUL6fm1MS.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1523621",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Марта Кесслер",
+            "personaggio": "Zhdana",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xwAeS3aE3RfqbGP2bZuj0a601sv.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1677547",
+              "verificata": true
             }
           }
         ],
-        "trama": "Stranded on a deserted Pacific island during the Second World War an American and Japanese soldier battle it out in this exciting war-time drama.",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/lZCkkGqwqvgH249QBY6AMeEvZiN.jpg",
+        "trama": "Una storia di una battaglia leggendaria, dove diciassette guerrieri senza paura difendeno la loro terra contro un esercito di migliaia soldati ben addestrati. Nel 13 ° secolo orde mongole di guerrieri e il loro leader, Batu Khan, controllano la maggior parte del mondo conosciuto. Fino a che i mongoli si muovono verso l’Europa fino a che si ritrovano sulla loro strada l’ultimo principato russo rimasto in piedi . Non sanno che  i loro piani sono in procinto di essere rovinati da un piccolo distaccamento di uomini forti ed eroici guidati da un guerriero coraggioso misterioso. Questa è una storia di coraggio, la resistenza e il proprio sacrificio  per il bene del proprio paese. Questa è la storia di Evpaty Furious.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/mcWdKnd8ghsGIpjEaxDekdno1Cr.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
+          "url": "https://www.youtube.com/watch?v=JHt3qJMURSU",
+          "lingua": "it",
           "fonte": "YouTube",
           "canale": null,
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube"
         },
-        "tmdb_id_scelto": 291310
-      }
+        "tmdb_id_scelto": 415381,
+        "imdb_id_scelto": "tt6054874",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-07T05:58:56.318Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "fantasy",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-07T05:58:56.318Z",
+      "editor_updated_at": "2026-07-07T05:58:56.318Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "klKEyjQZ0lw",
       "is_movie": true,
-      "original_title": "The Presence - Film Completo by Film&Clips Azione",
+      "original_title": "The Presence",
       "channel": "Film&Clips Azione",
-      "tmdb_id": 22468,
-      "tmdb_title_official": "L'isola maledetta",
-      "tmdb_year_official": 1992,
-      "tmdb_poster_path": "/vAJB9KKyv8SK3RqyHsfwDxDlB6M.jpg",
+      "tmdb_id": 54700,
+      "tmdb_title_official": "The Presence",
+      "tmdb_year_official": 2010,
+      "tmdb_poster_path": "/xkEaKWDlM6AQpzQuyo0y1i0hVE0.jpg",
       "tmdb_confidence": "verified",
       "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
       "strict_id_v2": {
         "identificato": true,
         "livello_certezza": "alto",
-        "titolo_youtube_originale": "The Presence - Film Completo by Film&Clips Azione",
-        "youtube_url": "https://www.youtube.com/watch?v=klKEyjQZ0lw",
-        "titolo_italiano": "L'isola maledetta",
+        "titolo_italiano": "The Presence",
         "titolo_originale": "The Presence",
-        "anno_uscita": 1992,
-        "durata_minuti": 90,
+        "anno_uscita": 2010,
+        "durata_minuti": 83,
         "genere": [
+          "Dramma",
           "Horror",
-          "Thriller",
-          "televisione film"
+          "Thriller"
         ],
         "regista": [
-          "Tommy Lee Wallace"
+          "Tom Provost"
         ],
         "cast_principale": [
           {
-            "nome": "Lisa Banes",
-            "personaggio": "Diana",
-            "foto_url": "https://image.tmdb.org/t/p/w185/bSYs9z8Su9Ewg71XO8LdiNu2OwU.jpg",
+            "nome": "Mira Sorvino",
+            "personaggio": "The Woman",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3CPM8yvppihiKsA1pf4x8PJe4x6.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/52878",
+              "url_pagina_origine": "https://www.themoviedb.org/person/23931",
               "verificata": true
             }
           },
           {
-            "nome": "Richard Beymer",
-            "personaggio": "Ben",
-            "foto_url": "https://image.tmdb.org/t/p/w185/puuEWRSOqNub8esjyln654aA3SM.jpg",
+            "nome": "Shane West",
+            "personaggio": "Ghost",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ojneb5n8o7THBxUdaJZb58MkGZ6.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/6679",
+              "url_pagina_origine": "https://www.themoviedb.org/person/81295",
               "verificata": true
             }
           },
           {
-            "nome": "María Celedonio",
-            "personaggio": "Melissa",
-            "foto_url": "https://image.tmdb.org/t/p/w185/wU8pPR8giJJpoTen5gHyN3vjT4X.jpg",
+            "nome": "Justin Kirk",
+            "personaggio": "The Man",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hwPliH9zK3keAYt3uo1ksAlIsNV.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/141384",
+              "url_pagina_origine": "https://www.themoviedb.org/person/20301",
               "verificata": true
             }
           },
           {
-            "nome": "Gary Graham",
-            "personaggio": "Rick",
-            "foto_url": "https://image.tmdb.org/t/p/w185/uu3S6uK3mlRyjsabMg1NADuV0Vw.jpg",
+            "nome": "Tony Curran",
+            "personaggio": "The Man in Black",
+            "foto_url": "https://image.tmdb.org/t/p/w185/s50kh2ubcoCV6rvXobebvcyNALE.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/78463",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2220",
               "verificata": true
             }
           },
           {
-            "nome": "Kathy Ireland",
-            "personaggio": "Laura",
-            "foto_url": "https://image.tmdb.org/t/p/w185/iuqJwQMDWGqRF5ZloPwwi3ZcrjW.jpg",
+            "nome": "Deobia Oparei",
+            "personaggio": "Angel",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kcw8vNMlYgK8peuN80zhX6TqeNk.jpg",
             "foto_tipo": "foto_attore",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/58277",
+              "url_pagina_origine": "https://www.themoviedb.org/person/58758",
               "verificata": true
             }
           },
           {
-            "nome": "Joe Lara",
-            "personaggio": "Matt",
-            "foto_url": "https://image.tmdb.org/t/p/w185/roS4HzTih6QeZYwtWvIDTlqXke4.jpg",
-            "foto_tipo": "foto_attore",
+            "nome": "Adam Croce",
+            "personaggio": "Figure in Boat",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
             "foto_fonte": {
               "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/158014",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Christopher Pettiet",
-            "personaggio": "Brian",
-            "foto_url": "https://image.tmdb.org/t/p/w185/zuVb7NpQcOBrKq08wGbCUxvQM56.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/15311",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Beth Toussaint",
-            "personaggio": "Karen",
-            "foto_url": "https://image.tmdb.org/t/p/w185/dv95RwgAf9mdqtB0jwAEBKrFero.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/68225",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Eddie Velez",
-            "personaggio": "Vic",
-            "foto_url": "https://image.tmdb.org/t/p/w185/mnITDWkqvMWFdjtaXItRFKP0rv8.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/88031",
-              "verificata": true
-            }
-          },
-          {
-            "nome": "Nikki Cox",
-            "personaggio": "Ariel",
-            "foto_url": "https://image.tmdb.org/t/p/w185/56OU8DPaELhhH7wr0sPf1jap1HO.jpg",
-            "foto_tipo": "foto_attore",
-            "foto_fonte": {
-              "nome": "TMDB",
-              "url_pagina_origine": "https://www.themoviedb.org/person/87317",
-              "verificata": true
+              "url_pagina_origine": "https://www.themoviedb.org/person/1448724",
+              "verificata": false
             }
           }
         ],
-        "trama": "After their plane crashes in the Pacific Ocean after a storm a group of people scramble to a tropical island. At first the place seems home to palm trees and exotic wildlife but on the discovery of a disused military base they find out the island poses a severe threat to them",
-        "trama_tradotta_in_italiano": false,
-        "locandina_url": "https://image.tmdb.org/t/p/w500/vAJB9KKyv8SK3RqyHsfwDxDlB6M.jpg",
+        "trama": "Una donna va in uno chalet isolato in montagna per ritrovare la serenità perduta. Ma in quello chalet si aggira un' oscura presenza. Con l'arrivo imprevisto del suo fidanzato lo spirito oscuro comincerà a manifestarsi sempre più ossessivamente. Non appena poi la donna inizierà a comportarsi in modo strano e irrazionale, sarà difficile stabilire il confine tra pazzia e regno del male.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/xkEaKWDlM6AQpzQuyo0y1i0hVE0.jpg",
         "trailer": {
-          "url": null,
-          "lingua": null,
           "fonte": "YouTube",
-          "canale": null,
+          "lingua": "it",
           "ufficiale": false,
-          "verificato": false,
-          "motivo_verifica": ""
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=g-p76wzF2RU"
         },
-        "tmdb_id_scelto": 22468
-      }
+        "tmdb_id_scelto": 54700,
+        "imdb_id_scelto": "tt1298594",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-07T05:58:02.914Z"
+      },
+      "tmdb_media_type": "movie",
+      "genre": "horror",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-07T05:58:02.914Z",
+      "editor_updated_at": "2026-07-07T05:58:02.914Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "WCLQfEcKVn4",
