@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T16:35:10",
+  "generated_at": "2026-07-07T12:45:05",
   "total_videos": 716,
   "classified": 716,
   "movies": [
@@ -388217,6 +388217,743 @@
       "editor_locked_at": "2026-07-07T06:30:31.660Z",
       "editor_updated_at": "2026-07-07T06:30:31.660Z",
       "editor_lock_reason": "ri-identificazione manuale editor"
+    },
+    {
+      "video_id": "9ASQEklsGfo",
+      "is_movie": true,
+      "original_title": "NEVER BACK DOWN: LA RIVOLTA | Film THRILLER completo in italiano 🍿 Moviedome IT",
+      "channel": "Moviedome IT",
+      "tmdb_id": 763025,
+      "tmdb_title_official": "Never Back Down - La rivolta",
+      "tmdb_year_official": 2021,
+      "tmdb_poster_path": "/qK2iXsepLDW25WgT46vj2Sze7Ky.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_youtube_originale": "NEVER BACK DOWN: LA RIVOLTA | Film THRILLER completo in italiano 🍿 Moviedome IT",
+        "youtube_url": "https://www.youtube.com/watch?v=9ASQEklsGfo",
+        "titolo_italiano": "Never Back Down - La rivolta",
+        "titolo_originale": "Never Back Down: Revolt",
+        "anno_uscita": 2021,
+        "durata_minuti": 89,
+        "genere": [
+          "Azione"
+        ],
+        "regista": [
+          "Kellie Madison"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Olivia Popica",
+            "personaggio": "Anya",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pN2zo0l83Vu1K70YKHYhA2pPJeB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1347006",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Michael Bisping",
+            "personaggio": "Janek",
+            "foto_url": "https://image.tmdb.org/t/p/w185/stYzWc8WJHe2Te8ZzbSSnthvdtP.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/78909",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Brooke Johnston",
+            "personaggio": "Mariah",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wZxB0aji7UAsqn9huwm1foAQlPR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1586723",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Diana Hoyos",
+            "personaggio": "Valentina",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fjyHzQHJb9O43vXagG4WVzzPtK7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2851847",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Neetu Chandra",
+            "personaggio": "Jaya",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8gVCfDlE2sf1Pxpx9qg0OTlCL4k.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/85587",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "James Faulkner",
+            "personaggio": "Julian",
+            "foto_url": "https://image.tmdb.org/t/p/w185/969qmhcUDkb0Ms8sduDXIymsqRe.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/9140",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lee Charles",
+            "personaggio": "Vanko",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hPcEeF8mG9PiOJmnduVjq9yH9jD.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1301638",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Raffaello Degruttola",
+            "personaggio": "Marco Olek",
+            "foto_url": "https://image.tmdb.org/t/p/w185/21biohMlTyRfPw4ni6WExC2tFrh.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/94137",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Hannah Al Rashid",
+            "personaggio": "Lori",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9dhmyPwVwqnzIJiiS3QIGRcPRH1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1028461",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Christopher Sciueref",
+            "personaggio": "Dr. Moretti",
+            "foto_url": "https://image.tmdb.org/t/p/w185/f2PnkyHfph7NCgxTJQZfpWeF9gF.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1440871",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Aslan, atleta di arti marziali miste, ha un debito col boss della malavita Julian e l’unica sua speranza risiede in sua sorella Anya, anch’essa combattente. La giovane si reca a Roma per combattere di fronte a un pubblico d'élite ma, una volta giunta nella Capitale, viene rapita dallo spietato Janek e si rende conto di essere una delle tante donne sequestrate e costrette a combattere in una sorta di “tratta delle combattenti”.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/qK2iXsepLDW25WgT46vj2Sze7Ky.jpg",
+        "trailer": {
+          "url": null,
+          "lingua": null,
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": false,
+          "motivo_verifica": ""
+        },
+        "tmdb_id_scelto": 763025
+      }
+    },
+    {
+      "video_id": "kucEOhb3ThM",
+      "is_movie": true,
+      "original_title": "Intrappolati nel Deserto contro una Banda Senza Pietà | Film Thriller Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "3Q8BO1I0s4g",
+      "is_movie": true,
+      "original_title": "Sophia Loren tra Amore, Lusso e Situazioni Impossibili | Film Commedia Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "1qfCCr1x6gM",
+      "is_movie": true,
+      "original_title": "Nel Mezzo dell’Oceano Risvegliano Qualcosa di Mostruoso | Film Thriller Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "fnC5BAhDJp4",
+      "is_movie": true,
+      "original_title": "Dietro alla Strage c’è una Coppia Fuori Controllo | Film Azione Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "2P9Mzk7FyvI",
+      "is_movie": true,
+      "original_title": "Dietro le Sparizioni si Nasconde un Antico Male | Film Horror Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "Ft0Jhzf6INw",
+      "is_movie": true,
+      "original_title": "Un Guerriero Medievale contro un Regno Pieno di Tradimenti | Film Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "RryRYunr2Mo",
+      "is_movie": true,
+      "original_title": "Kate Hudson Scopre che la Vita Può Cambiare in un Attimo | Film Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "t8Wy6PEMHJw",
+      "is_movie": true,
+      "original_title": "Demi Moore e Miley Cyrus: Madre e Figlia contro Tutto | Film Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "VmLt59vXnpk",
+      "is_movie": true,
+      "original_title": "Brendan Fraser in un’Amicizia Fuori da Ogni Regola | Film Commedia Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "A108UiKlfag",
+      "is_movie": true,
+      "original_title": "Intrappolata Sottoterra Senza Via di Fuga | Film Thriller Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "OZXXoftz0EI",
+      "is_movie": true,
+      "original_title": "Voleva Cambiare Vita… ma Finisce in una Guerra tra Criminali | Film Azione Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "T1LcAyYjf-I",
+      "is_movie": true,
+      "original_title": "Evocano una Presenza Oscura… e il Bosco Diventa una Trappola | Film Horror Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "sh7wxzV9QKI",
+      "is_movie": true,
+      "original_title": "Nel Profondo del Mare si Sono Risvegliate Creature Mortali | Film Azione Sci-Fi Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "F6E9IhImbVc",
+      "is_movie": true,
+      "original_title": "In una Notte di Caos i Loro Destini si Incrociano | Film Drammatico Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "O99fl3IKE_M",
+      "is_movie": true,
+      "original_title": "Val Kilmer in una Guerra contro una Gang Spietata | Film Azione Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "yw6oXPZyTtM",
+      "is_movie": true,
+      "original_title": "Eva Longoria e Christian Slater in un Villaggio Senza Uomini | Film Commedia Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "0dA84h0qDCI",
+      "is_movie": true,
+      "original_title": "Scompare nel Nulla… ma Qualcuno Sa la Verità | Film Thriller Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "GI5Znnw4amw",
+      "is_movie": true,
+      "original_title": "Zombie, Caos e una Setta Pronta a Distruggere il Mondo | Film Horror Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "JxqEfJT4bP0",
+      "is_movie": true,
+      "original_title": "Fuga ad Alta Velocità da un Nemico Misterioso | Film Azione Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "sj1SoeS3_zs",
+      "is_movie": true,
+      "original_title": "Un Segreto che Nessuno Deve Scoprire | Film Drammatico Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "4dGnnWi4D2Q",
+      "is_movie": true,
+      "original_title": "Vuole Cambiare Vita… ma Sbaglia Sempre Tutto | Film Commedia Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "TGxeV_Q4qoY",
+      "is_movie": true,
+      "original_title": "Ogni Notte si Trasforma in Qualcosa di Terribile | Film Horror Completo in Italiano con Thora Birch",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "k9B7xkhKK10",
+      "is_movie": true,
+      "original_title": "Un Soldato Contro una Base Militare Piena di Nemici | Film Azione Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "jaPpA1Y_p78",
+      "is_movie": true,
+      "original_title": "Scappano Insieme… e Quel Viaggio li Cambia per Sempre | Film Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "WpjV1Zq647s",
+      "is_movie": true,
+      "original_title": "Una Missione che Nessuno Era Pronto ad Affrontare | Film Guerra Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "1jMbD4Y425k",
+      "is_movie": true,
+      "original_title": "Gli Eroi Più Folli di Sempre Tornano in Azione | Film Commedia Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "9XnEs9hSq9c",
+      "is_movie": true,
+      "original_title": "Dentro la Sua Testa C’è Qualcosa di Maligno | Film Horror Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "wWyuXnkTGJI",
+      "is_movie": true,
+      "original_title": "Un Affare Sporco Diventa una Caccia all’Uomo | Film Azione Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "QGFOCqYnLmo",
+      "is_movie": true,
+      "original_title": "La Sua Paura Peggiore È Diventata Reale | Film Horror Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "unjONC7-E38",
+      "is_movie": true,
+      "original_title": "Una Nuova Vita… Che Diventa un Disastro! | Film Commedia Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "ARx5eySkSr8",
+      "is_movie": true,
+      "original_title": "Un Uomo Qualunque Finisce in uno Spionaggio Letale | Film Thriller Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "BppeBeKVcVE",
+      "is_movie": true,
+      "original_title": "Un Bodyguard Contro Killer Senza Regole | Tony Jaa | Film Azione Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "wLqnHqpGk7k",
+      "is_movie": true,
+      "original_title": "Scappano dalla Legge… ma Trovano la Morte | Film Horror Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "ttHKxilu-Zw",
+      "is_movie": true,
+      "original_title": "Lui la Lascia… Ma Non Sa Cosa Ha Scatenato | Film Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "wYw9lsrGrSo",
+      "is_movie": true,
+      "original_title": "Ving Rhames in una Lotta Senza Pietà | Film Azione Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "vzEN2squYVc",
+      "is_movie": true,
+      "original_title": "Una Commedia Cult con Keanu Reeves tra Mostri e Mutazioni | Film Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "Uu61gYeSQXY",
+      "is_movie": true,
+      "original_title": "Qualcosa di Demoniaco la Sta Cercando | Film Horror Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "g0CZ1kdaEbI",
+      "is_movie": true,
+      "original_title": "Intrappolati in Iraq Sotto Fuoco Nemico | Film Azione Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "6cFr_eqkseg",
+      "is_movie": true,
+      "original_title": "Cinque Ragazze Contro un Demone Infernale | Film Horror Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "TeamvXsqhYM",
+      "is_movie": true,
+      "original_title": "Una Squadra Improbabile Contro un Nemico Spietato | Film Completo in Italiano con Laurence Fishburne",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "WhpBmRjOe0I",
+      "is_movie": true,
+      "original_title": "Una Storia Vera: Nata Senza Vedere, Sentire e Parlare… Ma Non Si Arrende | Film Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": 1427610,
+      "tmdb_title_official": "Una storia vera",
+      "tmdb_year_official": 2025,
+      "tmdb_poster_path": "/FKHCrlYkA19MLbgpPNQPGp7ROv.jpg",
+      "tmdb_confidence": "verified",
+      "tmdb_reasoning": "Aggiunto da canale Film&More (add_channel.py)",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_youtube_originale": "Una Storia Vera: Nata Senza Vedere, Sentire e Parlare… Ma Non Si Arrende | Film Completo in Italiano",
+        "youtube_url": "https://www.youtube.com/watch?v=WhpBmRjOe0I",
+        "titolo_italiano": "Una storia vera",
+        "titolo_originale": "Una storia vera",
+        "anno_uscita": 2025,
+        "durata_minuti": 80,
+        "genere": [
+          "Dramma"
+        ],
+        "regista": [
+          "Mariano Lamberti"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Giulio Guerrisi",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/qu0eJ8wBtyC6UmeM0dIt66BIZaf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5219008",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Alessio Bisaccia",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/1AyEPyDcy0fatRDaK6WSKanE2AV.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5219005",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Grazia La Ferla",
+            "personaggio": null,
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5219012",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Giulio Forges Davanzati",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/8wSltEl1vYGNV8Kqe2k59IvpCpz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1346690",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lorenzo Balducci",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/dxFgIDVZIcatsopanPZrHpZgylV.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/87899",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Valerio Di Benedetto",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/gLoOdH8mTc8nweE4daqve3lPeTR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1279786",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Carlo Giuliano",
+            "personaggio": null,
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1800180",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Giulio and Alessio are two gay guys in their twenties who meet in Rome during a fiery month of August. Despite being very different, they are attracted to each other. Alessio is only staying in the capital for the weekend. This short term relationship will bring to light ancient wounds and important abandonments, forcing the two to face an unexpected tenderness and the blossoming of an overbearing and unprecedented feeling.",
+        "trama_tradotta_in_italiano": false,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/FKHCrlYkA19MLbgpPNQPGp7ROv.jpg",
+        "trailer": {
+          "url": null,
+          "lingua": null,
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": false,
+          "motivo_verifica": ""
+        },
+        "tmdb_id_scelto": 1427610
+      }
+    },
+    {
+      "video_id": "kTFL5iIfzoQ",
+      "is_movie": true,
+      "original_title": "Un Orso Killer Trasforma il Parco in un Incubo | Film Horror Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "PO9rRWwtY7I",
+      "is_movie": true,
+      "original_title": "Rapita e Intrappolata per Due Anni | Film Thriller Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "J4yxV4KL8I0",
+      "is_movie": true,
+      "original_title": "Il Paziente che Uccide Solo con la Mente | Film Horror Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "Ilqe-YxjiJw",
+      "is_movie": true,
+      "original_title": "24 Ore per Vendicarsi Senza Pietà | Film Azione Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "LMElGIg7bs4",
+      "is_movie": true,
+      "original_title": "Bloccati nella Natura Selvaggia…Solo una Leggenda Può Salvarli | Film Avventura Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "70tmSKYMAiQ",
+      "is_movie": true,
+      "original_title": "Nel Posto Sbagliato al Momento Sbagliato | Film Poliziesco Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "lRAhGKXGNDE",
+      "is_movie": true,
+      "original_title": "Tre Ragazze, Milioni in Contanti… e un Tradimento Mortale | Film Azione Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "Eap_PlAFLJw",
+      "is_movie": true,
+      "original_title": "Quello che Hanno Fatto Non È Rimasto Sepolto | Film Horror Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "UQzmgjlHZOU",
+      "is_movie": true,
+      "original_title": "La Terra è Sotto Attacco… e Lui è l’Ultima Difesa | Film Azione Fantascienza Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "cnO1fasNVgA",
+      "is_movie": true,
+      "original_title": "Un Viaggio Estremo che Nessuno Pensava Possibile | Film Avventura Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "92wiCx9PFyQ",
+      "is_movie": true,
+      "original_title": "Hanno Risvegliato Qualcosa di Inarrestabile | Film Fantascienza Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "20lcH4e0skg",
+      "is_movie": true,
+      "original_title": "Un Complotto Segreto… e Solo Lui Può Fermarlo | Film Avventura Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "_Baf9kXfbeA",
+      "is_movie": true,
+      "original_title": "Un Uomo Contro un Killer Senza Regole | Film Thriller Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "XXNsFoq7bZs",
+      "is_movie": true,
+      "original_title": "Jessica Biel e Kaya Scodelario in un Mistero Inquietante | Film Thriller Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "5pWqgMgT7bM",
+      "is_movie": true,
+      "original_title": "Un Uomo Solo Contro il Crimine di New York | Film Azione Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "rFwHI0IjNU4",
+      "is_movie": true,
+      "original_title": "Non Credevano agli Spiriti… Poi Succede l’Impossibile | Film Horror Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "AdyZNkpYzGA",
+      "is_movie": true,
+      "original_title": "Una Squadra Speciale Scatena la Guerra a Los Angeles | Film Azione Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
+    },
+    {
+      "video_id": "aBmMmRHHSpU",
+      "is_movie": true,
+      "original_title": "La Vera Storia dell’Uomo che Sfidò gli Imperi | Film Avventura Completo in Italiano",
+      "channel": "Cinema FilmIsNow",
+      "tmdb_id": null,
+      "tmdb_confidence": "no_match"
     }
   ],
   "title_validated_at": "2026-06-16T06:48:35",
