@@ -384349,7 +384349,7 @@
     },
     {
       "video_id": "nYWGIGVAWcY",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Легенда о Коловрате",
       "channel": "Film&Clips Azione",
       "tmdb_id": 415381,
@@ -384510,11 +384510,14 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-07T05:58:56.318Z",
       "editor_updated_at": "2026-07-07T05:58:56.318Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-07T06:18:17.756Z"
     },
     {
       "video_id": "klKEyjQZ0lw",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "The Presence",
       "channel": "Film&Clips Azione",
       "tmdb_id": 54700,
@@ -384629,7 +384632,10 @@
       "editor_verified": true,
       "editor_locked_at": "2026-07-07T05:58:02.914Z",
       "editor_updated_at": "2026-07-07T05:58:02.914Z",
-      "editor_lock_reason": "ri-identificazione manuale editor"
+      "editor_lock_reason": "ri-identificazione manuale editor",
+      "reason_not_movie": "doppione bonificato dall'editor",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-07T06:18:17.750Z"
     },
     {
       "video_id": "WCLQfEcKVn4",
