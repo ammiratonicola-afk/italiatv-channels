@@ -384933,18 +384933,324 @@
     {
       "video_id": "VW19oQpK9TI",
       "is_movie": true,
-      "original_title": "Inviato nella Giungla per un Lavoro Impossibile | Film Commedia Completo in Italiano",
+      "original_title": "La Loi de la jungle",
       "channel": "Cinema FilmIsNow",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 377276,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/weCwpJUPMG8dYwOEoSx3X0Uba9B.jpg",
+      "tmdb_title_official": "La legge della giungla",
+      "tmdb_year_official": 2016,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "La legge della giungla",
+        "titolo_originale": "La Loi de la jungle",
+        "anno_uscita": 2016,
+        "durata_minuti": 99,
+        "genere": [
+          "Commedia"
+        ],
+        "regista": [
+          "Antonin Peretjatko"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Vincent Macaigne",
+            "personaggio": "Marc Châtaigne",
+            "foto_url": "https://image.tmdb.org/t/p/w185/6Z4JmAauiallW2lXTOuSAiHdHGf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/992623",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Vimala Pons",
+            "personaggio": "Tarzan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fPbAn7NyV6n3BXZlFOlmBmgUKoP.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/146342",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Pascal Légitimus",
+            "personaggio": "Duplex",
+            "foto_url": "https://image.tmdb.org/t/p/w185/l2IlQPB86JlAfiUDeHpTH0AXd1D.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/41878",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mathieu Amalric",
+            "personaggio": "Galgaric",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fMhfoTbjlXQy2Iojp7oYx49hLQl.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/8789",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jean-Luc Bideau",
+            "personaggio": "Rosio",
+            "foto_url": "https://image.tmdb.org/t/p/w185/AvGFSbGn5xlI67M0G7m5OG2g6PY.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/38898",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ricky Tribord",
+            "personaggio": "Acteur",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9NY0npXycsknoV3fgxK9blUCxVs.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1355622",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Fred Tousch",
+            "personaggio": "Friquelin",
+            "foto_url": "https://image.tmdb.org/t/p/w185/12lhBsgTjv08WYsVQtQjgRsAjjH.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1169052",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rodolphe Pauly",
+            "personaggio": "Damien",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lJLx3MO5Zv2yI3ahETrIXNDFb8c.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/654",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Pascal Tagnati",
+            "personaggio": "Ulrich",
+            "foto_url": "https://image.tmdb.org/t/p/w185/sT1yBn1uLOpvHdgore0OFYeIHrM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1369434",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Thomas De Pourquery",
+            "personaggio": "Georges",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gyx6jCWgsjwkASxcnwnUZWggKVp.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1367034",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Marc Châtaigne, stagista ministeriale, viene inviato in Guyana per la messa in norma del cantiere della Guyaneige, la prima pista sciistica d’Amazzonia, destinata a rilanciare il turismo nella zona. Qui, ha modo di incontrare Tarzan, una bella stagista che lavora presso l’ufficio nazionale delle foreste, con la quale avrà modo di perdersi nella giungla e vivere un’avventura che lo porterà lontano…",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/weCwpJUPMG8dYwOEoSx3X0Uba9B.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=huqRrbSXBao"
+        },
+        "tmdb_id_scelto": 377276,
+        "imdb_id_scelto": "tt5115004",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-07T06:50:05.043Z"
+      },
+      "genre": "commedia",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-07T06:50:05.043Z",
+      "editor_updated_at": "2026-07-07T06:50:05.043Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "lA7eHL6ATi4",
       "is_movie": true,
-      "original_title": "Ron Perlman in un Thriller Dove Ogni Scelta Ha un Prezzo | Film Completo in Italiano",
+      "original_title": "13 Sins",
       "channel": "Cinema FilmIsNow",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 155084,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/xOMYL6uqwQguUutLQoawYZSCgTI.jpg",
+      "tmdb_title_official": "13 peccati",
+      "tmdb_year_official": 2014,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "13 peccati",
+        "titolo_originale": "13 Sins",
+        "anno_uscita": 2014,
+        "durata_minuti": 93,
+        "genere": [
+          "Horror",
+          "Thriller"
+        ],
+        "regista": [
+          "Daniel Stamm"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Mark Webber",
+            "personaggio": "Elliot Brindle",
+            "foto_url": "https://image.tmdb.org/t/p/w185/y30VskmtlxNLz1HIMEIxjknUBQ4.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4451",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Devon Graye",
+            "personaggio": "Michael Brindle",
+            "foto_url": "https://image.tmdb.org/t/p/w185/kVqBgzkjWNaNFmXSJ7MLI3jOMOT.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/111518",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tom Bower",
+            "personaggio": "Father",
+            "foto_url": "https://image.tmdb.org/t/p/w185/q26z6T3QZfpirZV3Ex885zUgUR4.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/19453",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ron Perlman",
+            "personaggio": "Det. Chilcoat",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pOgMRdJhbBsvwGLRFXPRASTfcay.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2372",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rutina Wesley",
+            "personaggio": "Shelby",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ujpdNAKxlv6TRI2mm0k3eSSZJkB.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/210773",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Pruitt Taylor Vince",
+            "personaggio": "Vogler",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jqC1v8tF92QcmkQycnaLSuJiQfl.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3201",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Clyde Jones",
+            "personaggio": "Gerry",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2cBB2KLk9C5IBPfEleYOLDpPukK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/108188",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Deneen Tyler",
+            "personaggio": "Joyce",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bNe71eFG8nfyH4ip1tvHd3cd5L3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/29933",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tom Lawson Jr.",
+            "personaggio": "Prof. Edgar Solomon",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7IU5qo8P5PmRTXi7NFaUawwbntz.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1613758",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sharon Smith",
+            "personaggio": "Hostess",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1336429",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Elliot Brindle (Mark Webber), mite coordinatore di servizi sociali, è in procinto di sposare la fidanzata nonostante stia affogando nei debiti. Una misteriosa telefonata lo informa però che le telecamere nascoste di un game show lo stanno riprendendo e che per vincere il milionario premio in palio deve portare a termine tutti i 13 compiti che gli verranno assegnati: ad ogni compito assolto man mano il denaro gli verrà accreditato sul conto. Subito dopo le prime due semplici istruzioni, il suo conto in banca comincia a lievitare e, seppur scettico, Elliot continua il gioco. Man mano che va avanti i compiti diventano sempre più estremi ed Elliot si ritrova intrappolato in orrori guidati da spettatori invisibili che lo conducono fino ad un devastante punto di non ritorno.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/xOMYL6uqwQguUutLQoawYZSCgTI.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=mPTkIVJfAyg",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube"
+        },
+        "tmdb_id_scelto": 155084,
+        "imdb_id_scelto": "tt2059171",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-07T06:49:14.194Z"
+      },
+      "genre": "horror",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-07T06:49:14.194Z",
+      "editor_updated_at": "2026-07-07T06:49:14.194Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "dmEPnssZAY0",
@@ -385053,10 +385359,165 @@
     {
       "video_id": "yDcLNd4IbgM",
       "is_movie": true,
-      "original_title": "Il Rapinatore Ha Scelto il Posto Sbagliato | Film Thriller Completo con Josh Hutcherson",
+      "original_title": "Burn",
       "channel": "Cinema FilmIsNow",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 508138,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/rrGWwDJLkpovVXZJH6paR54khaO.jpg",
+      "tmdb_title_official": "Burn - Una notte d'inferno",
+      "tmdb_year_official": 2019,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Burn - Una notte d'inferno",
+        "titolo_originale": "Burn",
+        "anno_uscita": 2019,
+        "durata_minuti": 88,
+        "genere": [
+          "Thriller",
+          "Crime",
+          "Azione"
+        ],
+        "regista": [
+          "Mike Gan"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Tilda Cobham-Hervey",
+            "personaggio": "Melinda",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7Ho0GsWSsbLGKWCgT9rEDk54gev.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1280060",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Josh Hutcherson",
+            "personaggio": "Billy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/f0eosZ1Fx0VBUyspq8K2f8sUSBn.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/27972",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Suki Waterhouse",
+            "personaggio": "Sheila",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bpGRoG2DRsySQBICMzCuvfFDg0e.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1325961",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Shiloh Fernandez",
+            "personaggio": "Perry",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lS3I6nLQ3VxmE6KRmjoXDskDBnn.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/79795",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Harry Shum Jr.",
+            "personaggio": "Officer Liu",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xFQsThmdyuOk9jt3zgZL08ixf2b.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/232499",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "James Devoti",
+            "personaggio": "Dominik",
+            "foto_url": "https://image.tmdb.org/t/p/w185/g9Rn7Q19YsAW0uC0GbnbLsyKWJZ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/117516",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Robert Figueroa",
+            "personaggio": "Philip",
+            "foto_url": "https://image.tmdb.org/t/p/w185/iY9kPzDCcOS05SMSdpcn3tTgUGk.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1949304",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "John D. Hickman",
+            "personaggio": "Bruce",
+            "foto_url": "https://image.tmdb.org/t/p/w185/um4ptUtpUBZoHTZlr1EaCdJRoH2.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1788486",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Wayne Pyle",
+            "personaggio": "Fred",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tzgSJOPeqXbAldO4f8FQHnqQ0k2.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/108923",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Winter-Lee Holland",
+            "personaggio": "Delores",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8oK31SiPVzdDVUEJHIFZNIY5Nb7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1650214",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Un tentativo di rapina ai danni di una stazione di benzina sperduta nella valle dell'Hudson si trasforma in un vero inferno quando una delle due inservienti rivela una personalità psicotica.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/rrGWwDJLkpovVXZJH6paR54khaO.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=Icb1Y_ZrKpk",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube"
+        },
+        "tmdb_id_scelto": 508138,
+        "imdb_id_scelto": "tt8009314",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-07T06:48:09.555Z"
+      },
+      "genre": "poliziesco",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-07T06:48:09.555Z",
+      "editor_updated_at": "2026-07-07T06:48:09.555Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "Bv3NUf2bUH4",
@@ -385405,10 +385866,155 @@
     {
       "video_id": "bojv7pv69GI",
       "is_movie": true,
-      "original_title": "Jeremy Irons e Neve Campbell nelle Origini del Grande Gatsby | Film Completo in Italiano",
+      "original_title": "Last Call",
       "channel": "Cinema FilmIsNow",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 139516,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/993pFm7B930Xl9ScCzibb1PROyP.jpg",
+      "tmdb_title_official": "Last Call - Genio Ribelle",
+      "tmdb_year_official": 2002,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Last Call - Genio Ribelle",
+        "titolo_originale": "Last Call",
+        "anno_uscita": 2002,
+        "durata_minuti": 96,
+        "genere": [
+          "Dramma"
+        ],
+        "regista": [
+          "Henry Bromell"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Jeremy Irons",
+            "personaggio": "F. Scott Fitzgerald",
+            "foto_url": "https://image.tmdb.org/t/p/w185/w8Ct1q02Ht3sWdOSqfp3B85TzT.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/16940",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Neve Campbell",
+            "personaggio": "Frances Kroll",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zQzNg6Kiufj2VCltprI6jilNtl3.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/9206",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sissy Spacek",
+            "personaggio": "Zelda Fitzgerald",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xAxenjxjLNQFq4v1ccS2to3Mnoq.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/5606",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Shannon Lawson",
+            "personaggio": "Sarah Kroll",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/20697",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Paul Hecht",
+            "personaggio": "Samuel Kroll",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9gFO2YuQKrEblEQKNcxcqxLAEG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/170953",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Natalie Radford",
+            "personaggio": "Sheilah Graham",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/131009",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Kathleen Munroe",
+            "personaggio": "Scottie",
+            "foto_url": "https://image.tmdb.org/t/p/w185/co8l2AzgtCnx4SgJpcqDrIfIxli.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/168610",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Brian Paul",
+            "personaggio": "Dr. Mahoney",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cnWximgnI7cgrskYHioSlOpt0hJ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/124353",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marium Carvell",
+            "personaggio": "Lucy",
+            "foto_url": "https://image.tmdb.org/t/p/w185/oTedDy2i0gbG0D8gqqtsNJuLhjU.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/64624",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Roman Podhora",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/iOA0UBOMktb5J6dGg9ZIbj9ba0d.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/55588",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "F. Scott Fitzgerald (Jeremy Irons) è una leggenda in tutto il mondo quando assume come segretaria la giovane Frances (Neve Campbell). Attratta dal genio turbato e ribelle di Fitzgerald la ragazza entra sempre più nella vita privata dell'uomo fino a sviscerare i segreti più intimi del rapporto tra Fitzgerald e la moglie Zelda (Sissy Spacek). E mentre il nuovo capolavoro prende forma, Francis stessa diventa parte dell'opera facendosi assorbire dai fantasmi, dagli eccessi e dalle ossessioni di un genio maledetto.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/993pFm7B930Xl9ScCzibb1PROyP.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 139516,
+        "imdb_id_scelto": "tt0302240",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-07T06:47:32.146Z"
+      },
+      "genre": "drammatico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-07T06:47:32.146Z",
+      "editor_updated_at": "2026-07-07T06:47:32.146Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "vEIXyPstsnI",
@@ -385421,10 +386027,140 @@
     {
       "video_id": "NKWwuZi2hm4",
       "is_movie": true,
-      "original_title": "Tre Amici, Una Donna e una Vendetta dall'Oltretomba | Film Horror Completo in Italiano",
+      "original_title": "The Black Magic",
       "channel": "Cinema FilmIsNow",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 251559,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/aRvMsFbXYcGgIQRKusHtxYEFGUS.jpg",
+      "tmdb_title_official": "The Black Magic",
+      "tmdb_year_official": 2002,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "The Black Magic",
+        "titolo_originale": "The Black Magic",
+        "anno_uscita": 2002,
+        "durata_minuti": 87,
+        "genere": [
+          "Horror"
+        ],
+        "regista": [
+          "Marc-Ivan O'Gorman"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Brian Bianchini",
+            "personaggio": "Craig",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1029938",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Daniel Lennox",
+            "personaggio": "Andrew",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/567059",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Christina Wieber",
+            "personaggio": "Heather",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1286913",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Guy Bracca",
+            "personaggio": "David",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1286914",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Sheny Andrea",
+            "personaggio": "Sita",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nGgpuSIEDf1XKzDYNX2yHZz0lDo.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1286916",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Alberto Carroll",
+            "personaggio": "Male Nurse",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1286917",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Stephanie Northrup",
+            "personaggio": "Jenny",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zDggzWOzC8HJOik84Ay7KCYwvIu.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/116464",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jayne Trcka",
+            "personaggio": "Hospital Security",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jbJhPpkBA4IDqvJGx7ospexqTBZ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1286919",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Tre giovani uomini in vacanza a Bangkok, in Tailandia, incontrano una donna tailandese che muore la mattina dopo. Una volta tornati negli Stati Uniti, gli uomini sono perseguitati dallo spirito vendicativo della donna.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/aRvMsFbXYcGgIQRKusHtxYEFGUS.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=zIxqIOerInQ"
+        },
+        "tmdb_id_scelto": 251559,
+        "imdb_id_scelto": "tt0338791",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-07T06:48:42.190Z"
+      },
+      "genre": "horror",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-07T06:48:42.190Z",
+      "editor_updated_at": "2026-07-07T06:48:42.190Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "hkW0AsYBYDw",
