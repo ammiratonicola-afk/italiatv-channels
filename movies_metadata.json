@@ -385530,10 +385530,129 @@
     {
       "video_id": "CabGOw2WQ2c",
       "is_movie": true,
-      "original_title": "Quando la Possessione Ha Inizio, Nessuno è al Sicuro | Film Horror Completo",
+      "original_title": "Devil Seed",
       "channel": "Cinema FilmIsNow",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 119478,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/zjrDE4agtUL3xGEVAlN0SkCjbuk.jpg",
+      "tmdb_title_official": "Devil Seed",
+      "tmdb_year_official": 2012,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Devil Seed",
+        "titolo_originale": "Devil Seed",
+        "anno_uscita": 2012,
+        "durata_minuti": 108,
+        "genere": [
+          "Horror"
+        ],
+        "regista": [
+          "Greg A. Sager"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Michelle Argyris",
+            "personaggio": "Alex Froshiber",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gkPhEe3G5MZdJ2hWww4DjDk5dsv.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1070385",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Shantelle Canzanese",
+            "personaggio": "Jessica Martin",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hDUqomoMSmmFMIkZq5Lfvq2BbCc.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1070386",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Vanessa Broze",
+            "personaggio": "Breanne Whitaker",
+            "foto_url": "https://image.tmdb.org/t/p/w185/AdSmO4mB0TCx12wNnxMz9AXRJ12.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1010147",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kevin Walker",
+            "personaggio": "Brian Wolski",
+            "foto_url": "https://image.tmdb.org/t/p/w185/t5jH5rc4szRCMxiTTllP6BLzuTn.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1389863",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Wayne Conroy",
+            "personaggio": "Professor Madison",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1975180",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Michael G. Wilmot",
+            "personaggio": "Father Madison",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1070387",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Colin Smith",
+            "personaggio": "Young Priest 1970",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2987598",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Finite le vacanze estive, Alexandra, studentessa universitaria, torna a vivere con le compagne di stanza Jessica e Breanne. Dopo una notte passata a bere, Alex si fa leggere il futuro per sapere come andrà con il fidanzato Brian ma durante la lettura qualcosa va terribilmente storto. La mattina successiva Alex non ricorda nulla ma comincia ad avvertire strani rumori, ha allucinazioni e si ritrova graffi e segni su tutto il corpo.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/zjrDE4agtUL3xGEVAlN0SkCjbuk.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=KBNdjbKamcI"
+        },
+        "tmdb_id_scelto": 119478,
+        "imdb_id_scelto": "tt2061822",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-07T07:14:08.216Z"
+      },
+      "genre": "horror",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-07T07:14:08.216Z",
+      "editor_updated_at": "2026-07-07T07:14:08.216Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "NvgJ9txO23w",
@@ -386019,10 +386138,164 @@
     {
       "video_id": "vEIXyPstsnI",
       "is_movie": true,
-      "original_title": "Il Padre è Scappato. I Guai Sono Appena Iniziati | Film Completo in Italiano",
+      "original_title": "Simple Men",
       "channel": "Cinema FilmIsNow",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 47802,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/kB03zN890CYjNvp9iqe8f9HC3n.jpg",
+      "tmdb_title_official": "Uomini semplici",
+      "tmdb_year_official": 1992,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Uomini semplici",
+        "titolo_originale": "Simple Men",
+        "anno_uscita": 1992,
+        "durata_minuti": 105,
+        "genere": [
+          "Crime",
+          "Dramma",
+          "Romance"
+        ],
+        "regista": [
+          "Hal Hartley"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Robert John Burke",
+            "personaggio": "Bill McCabe",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uWEaY5gypb6cp1bdUYG4uCKw4sK.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/31512",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Bill Sage",
+            "personaggio": "Dennis McCabe",
+            "foto_url": "https://image.tmdb.org/t/p/w185/3q2r6eDcC843GgVHVA7mSehcqC9.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/32029",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Karen Sillas",
+            "personaggio": "Kate",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vQhlcyC2TZkHJQ2w86e1BSmRdae.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/135162",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Elina Löwensohn",
+            "personaggio": "Elina",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pRFLUsONKzg0hnl2CLnNBE4AJZ1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/17257",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Martin Donovan",
+            "personaggio": "Martin",
+            "foto_url": "https://image.tmdb.org/t/p/w185/wTCmpcmd8mcAbsX6Yc7zFs2J98Q.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/42993",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mark Chandler Bailey",
+            "personaggio": "Mike",
+            "foto_url": "https://image.tmdb.org/t/p/w185/fL2ycZP3agR8DyOHE6nC8w1VVuD.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/120675",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Chris Cooke",
+            "personaggio": "Vic",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9fILPMCcpSE7BpmwUIgqvfeeG07.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/188721",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jeffrey Howard",
+            "personaggio": "Ned Rifle",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/99708",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Holly Marie Combs",
+            "personaggio": "Kim",
+            "foto_url": "https://image.tmdb.org/t/p/w185/smZy91UWhB8bZib6A28kTQ8w9sT.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/26469",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Joe Stevens",
+            "personaggio": "Jack",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pCflBRau0xOGR17W1kzue7ySVqv.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/177905",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Due fratelli diametralmente opposti partono per un viaggio per riunirsi con il padre da cui sono stati allontanati, ma quando la loro moto si guasta mentre attraversano un piccolo paese, si ritrovano coinvolti nella vita locale.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/kB03zN890CYjNvp9iqe8f9HC3n.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=i43BKdVbhak"
+        },
+        "tmdb_id_scelto": 47802,
+        "imdb_id_scelto": "tt0105411",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-07T07:16:55.137Z"
+      },
+      "genre": "poliziesco",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-07T07:16:55.137Z",
+      "editor_updated_at": "2026-07-07T07:16:55.137Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "NKWwuZi2hm4",
@@ -386165,10 +386438,164 @@
     {
       "video_id": "hkW0AsYBYDw",
       "is_movie": true,
-      "original_title": "Una Rapina Finisce nel Peggiore dei Modi | Film Thriller Completo in Italiano",
+      "original_title": "7 Minutes",
       "channel": "Cinema FilmIsNow",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 200511,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/1qOWQEisrKKGWCfBwSN6cSOgw0a.jpg",
+      "tmdb_title_official": "7 minuti - Rapina fuori controllo",
+      "tmdb_year_official": 2014,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "7 minuti - Rapina fuori controllo",
+        "titolo_originale": "7 Minutes",
+        "anno_uscita": 2014,
+        "durata_minuti": 90,
+        "genere": [
+          "Crime",
+          "Dramma",
+          "Thriller"
+        ],
+        "regista": [
+          "Jay Martin"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Luke Mitchell",
+            "personaggio": "Sam",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gwG06fukGZ5BT7YoRQc0GT0CJeM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1181361",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Leven Rambin",
+            "personaggio": "Kate",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vjXXg3QCtFIxvLl1Aa0fTHFhA3d.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/207401",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Jason Ritter",
+            "personaggio": "Mike",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9i4YvUpSlQDzH0U8y5FWXQkaAGf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/50095",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Zane Holtz",
+            "personaggio": "Owen",
+            "foto_url": "https://image.tmdb.org/t/p/w185/z5sXU2zOR59A3kfJTgwPObgrPhf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/987572",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kris Kristofferson",
+            "personaggio": "Mr. B",
+            "foto_url": "https://image.tmdb.org/t/p/w185/efD2Uu8QYBN7ZWSFa79mm3Pkk4L.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/10823",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kevin Gage",
+            "personaggio": "Tuckey",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nTaDLkN1RAhPGaM0AO1CFysnwUl.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/34839",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Joel Murray",
+            "personaggio": "Uncle Pete",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xWkvfTlnEVkUrYKQz4ajRjUWyxC.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/155649",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Russell Hodgkinson",
+            "personaggio": "Lawrence",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9SRQQbUjhsXxJFQOoGJTxTIjGwg.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/115433",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Dylan Arnold",
+            "personaggio": "Johnny",
+            "foto_url": "https://image.tmdb.org/t/p/w185/aeEErE7FcRbGkpxRRkGVdObB7j1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1039523",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mariel Neto",
+            "personaggio": "Brandi",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rCNAEGGVl9YtGIZaOEgQW8eI20L.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2121087",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Tre amici - Sam, Mike e Owen - sono costretti dalle circostanze a mettere a segno una rapina. Ciò che inizia come un semplice piano da portare a termine in sette minuti si trasforma presto in un pericoloso gioco di vita e di morte. Man mano che trascorrono i secondi, la posta in gioco si spingerà sempre più in alto, culminando nel rapimento della fidanzata incinta di Sam.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/1qOWQEisrKKGWCfBwSN6cSOgw0a.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=5N3EYMWFshA"
+        },
+        "tmdb_id_scelto": 200511,
+        "imdb_id_scelto": "tt2828954",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-07T07:13:25.049Z"
+      },
+      "genre": "poliziesco",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-07T07:13:25.049Z",
+      "editor_updated_at": "2026-07-07T07:13:25.049Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "zDu1_ITyp04",
