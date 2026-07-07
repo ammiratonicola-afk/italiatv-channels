@@ -385541,34 +385541,609 @@
     {
       "video_id": "L-DFi7KvW8E",
       "is_movie": true,
-      "original_title": "Un Hacker Cerca Vendetta… e Nessuno Può Fermarlo | Film Thriller Completo in Italiano",
+      "original_title": "Confess",
       "channel": "Cinema FilmIsNow",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 18428,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/b4LAVNFa4icdsN8HrkDdfMRcoUL.jpg",
+      "tmdb_title_official": "Confess - La verità.. è in rete",
+      "tmdb_year_official": 2005,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Confess - La verità.. è in rete",
+        "titolo_originale": "Confess",
+        "anno_uscita": 2005,
+        "durata_minuti": 90,
+        "genere": [
+          "Azione",
+          "Dramma",
+          "Thriller"
+        ],
+        "regista": [
+          "Stefan C. Schaefer"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Eugene Byrd",
+            "personaggio": "Terell Lessor",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4Vs64bmZC4MgOnwIhGEeZWUw7q1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/342",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ali Larter",
+            "personaggio": "Olivia Averill",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5qaQFxx8Az83ycd4LHyQ39HXaEJ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/17303",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Melissa Leo",
+            "personaggio": "Agnes Lessor",
+            "foto_url": "https://image.tmdb.org/t/p/w185/ueAIX0MH68xCei3N8vFLS0EUEjY.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/6832",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Glenn Fitzgerald",
+            "personaggio": "Greg Lanser",
+            "foto_url": "https://image.tmdb.org/t/p/w185/2WLTC09IDaDB2Fz2rcIu9KeFzQG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/10694",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "William Sadler",
+            "personaggio": "Senator Lampert",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rWeb2kjYCA7V9MC9kRwRpm57YoY.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/6573",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Paul Butler",
+            "personaggio": "Agent Davis",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qQIjo92vpwqK9Uwt54Myjlc1sfs.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/21384",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "David Harbour",
+            "personaggio": "Agent Jim McAllister",
+            "foto_url": "https://image.tmdb.org/t/p/w185/qMFtMWlYVtFVyBoBhX5IoA5sN5a.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/35029",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Josh Pais",
+            "personaggio": "Allen Kelner",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uH90fGfLLzYCX02yOW3kH4LMO7n.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/6181",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ross Gibby",
+            "personaggio": "Richard Heston",
+            "foto_url": "https://image.tmdb.org/t/p/w185/25jOrDHpRNgbQCn6j5wsCcXXR5U.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1446852",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Johnny Pruitt",
+            "personaggio": "Convex",
+            "foto_url": "https://image.tmdb.org/t/p/w185/x0k2EQ6x60Y9q3S2zAFMnIDHoD.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/81504",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "La storia di un ex hacker le cui gesta da teenager sono diventate leggenda. Dieci anni dopo Terrel è però un uomo disilluso e distante dalla realtà, che arriva a New York solo per trovarsi di fronte ad un'umiliante ricerca di un nuovo lavoro. Combinando ideali rivoluzionari e la sua esperienza da hacker, e utilizzando microcamere strategicamente posizionate, Terell decide di combattere il sistema. Ma la situazione si appresta a sfuggirgli tragicamente completamente di mano.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/b4LAVNFa4icdsN8HrkDdfMRcoUL.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=WnJlm2dw5fw"
+        },
+        "tmdb_id_scelto": 18428,
+        "imdb_id_scelto": "tt0391877",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-07T06:32:12.572Z"
+      },
+      "genre": "thriller",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-07T06:32:12.572Z",
+      "editor_updated_at": "2026-07-07T06:32:12.572Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "-Av_UvB_ufw",
       "is_movie": true,
-      "original_title": "In Quell’Appartamento Non È Sola | Film Horror Completo in Italiano con Noomi Rapace",
+      "original_title": "Babycall",
       "channel": "Cinema FilmIsNow",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 75229,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/A6xHW36MOC3Ct3iCgoUzHcXPkg6.jpg",
+      "tmdb_title_official": "Babycall",
+      "tmdb_year_official": 2011,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Babycall",
+        "titolo_originale": "Babycall",
+        "anno_uscita": 2011,
+        "durata_minuti": 93,
+        "genere": [
+          "Dramma",
+          "Thriller"
+        ],
+        "regista": [
+          "Pål Sletaune"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Noomi Rapace",
+            "personaggio": "Anna",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zkg9wfbXZi9OqvwW2ku38zNC1Hk.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/87722",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Vetle Qvenild Werring",
+            "personaggio": "Anders",
+            "foto_url": "https://image.tmdb.org/t/p/w185/alve4N62X9tVXlcRsyyePRW435U.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/574201",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Kristoffer Joner",
+            "personaggio": "Helge",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vufeSWAdY9653t5Vxu3HysCnIkY.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/7742",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Stig R. Amdam",
+            "personaggio": "Ole",
+            "foto_url": "https://image.tmdb.org/t/p/w185/poJH7EEUfBi7uEGOcE5flOpSPWG.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/105282",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Maria Bock",
+            "personaggio": "Grete",
+            "foto_url": "https://image.tmdb.org/t/p/w185/v6tYl4Fjx3TiPEXfEERz8JRLr2E.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/522533",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Torkil Høeg",
+            "personaggio": "Nabogutten",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/563058",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Henrik Rafaelsen",
+            "personaggio": "Male Doctor",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5gsgGlgRYjYGEjHkiFZvsuKLBbJ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/135120",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Tom Hugo Nielsen",
+            "personaggio": "School Inspector",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2542306",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Mona Engh",
+            "personaggio": "Secretary",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2542307",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Eva Zeidler",
+            "personaggio": "Helge's Mother",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4bf35SdVByZRuLy1NUUvFSw2KXx.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1871760",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Anna ha un bambino di otto anni e una casa in affitto dove si è rifugiata, con l'aiuto dell'assistenza sociale, da un marito violento. Separata e terrorizzata dall'uomo che ha cercato di uccidere suo figlio, il piccolo Anders, Anna vive in uno stato di ansia e confusione permanente da cui sembra uscire davanti al sorriso di Helge, un giovane uomo incontrato sull'autobus che ne accoglie la fragilità e il dolore. Ossessionata dal padre di Anders, acquista un babycall, un dispositivo senza fili che le assicura il contatto costante col figlio addormentato nella stanza accanto. Una notte è svegliata di soprassalto dalle urla di un bambino che comprende molto presto non essere Anders. La violenza intesa la spinge a cercare all'interno del condominio i proprietari dell'apparecchio che produce l'interferenza col suo. La ricerca darà esiti sconvolgenti, avviando un viaggio ai confini con la realtà.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/A6xHW36MOC3Ct3iCgoUzHcXPkg6.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 75229,
+        "imdb_id_scelto": "tt1595833",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-07T06:31:24.484Z"
+      },
+      "genre": "thriller",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-07T06:31:24.484Z",
+      "editor_updated_at": "2026-07-07T06:31:24.484Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "NFXR1It0xfk",
       "is_movie": true,
-      "original_title": "Solo un Poliziotto può Fermare il Laser Killer | Film Azione Completo in Italiano",
+      "original_title": "Colpi di luce",
       "channel": "Cinema FilmIsNow",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 89716,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/euquTRe9K1ioRHJl4BKUhJ3hNtB.jpg",
+      "tmdb_title_official": "Colpi di luce",
+      "tmdb_year_official": 1985,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Colpi di luce",
+        "titolo_originale": "Colpi di luce",
+        "anno_uscita": 1985,
+        "durata_minuti": 86,
+        "genere": [
+          "Azione",
+          "Fantascienza",
+          "Thriller"
+        ],
+        "regista": [
+          "Enzo G. Castellari"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Erik Estrada",
+            "personaggio": "Inspector Ronn Warren",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tz6WeBwL435g8xoXrteQLejGe7n.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/102209",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Enio Girolami",
+            "personaggio": "Dr. Yuri Soboda",
+            "foto_url": "https://image.tmdb.org/t/p/w185/IaKRXO5ojklRArTPdVMFDIgiPf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/128674",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Michael Pritchard",
+            "personaggio": "Swann",
+            "foto_url": "https://image.tmdb.org/t/p/w185/a3mkot889wa8kJAbI8fv9bPWcME.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/164684",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Peggy Rowe",
+            "personaggio": "Jacqueline",
+            "foto_url": "https://m.media-amazon.com/images/M/MV5BMjAzNzYyMjk2N15BMl5BanBnXkFtZTcwMjgxOTEzMQ@@._V1_FMjpg_UX1000_.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nancy Fish",
+            "personaggio": "Bonnie Rolando",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4hsbpX8MaxXDQBh9T4IJZD3wGza.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/42168",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Massimo Vanni",
+            "personaggio": "Policeman in Warehouse",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dm6dn7lsXfXiorjPcFvyJok4dn8.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/45580",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Elizabeth Holmes",
+            "personaggio": null,
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4860579",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Un medico impazzito inventa un raggio della morte e minaccia di distruggere San Francisco a meno che non venga pagato $ 10 milioni.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/euquTRe9K1ioRHJl4BKUhJ3hNtB.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=uM2Q3IOoOOg"
+        },
+        "tmdb_id_scelto": 89716,
+        "imdb_id_scelto": "tt0088940",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-07T06:29:18.288Z"
+      },
+      "genre": "fantascienza",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-07T06:29:18.288Z",
+      "editor_updated_at": "2026-07-07T06:29:18.288Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "KQGqF8x7XxY",
       "is_movie": true,
-      "original_title": "Ryan Reynolds Torna a Casa… e Finisce nei Guai | Film Commedia Completo in Italiano",
+      "original_title": "Just Friends",
       "channel": "Cinema FilmIsNow",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 10033,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/9uptTchEthe8XFQ7FOX2JRj4FNA.jpg",
+      "tmdb_title_official": "Just Friends - Solo amici",
+      "tmdb_year_official": 2005,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Just Friends - Solo amici",
+        "titolo_originale": "Just Friends",
+        "anno_uscita": 2005,
+        "durata_minuti": 93,
+        "genere": [
+          "Commedia",
+          "Romance"
+        ],
+        "regista": [
+          "Roger Kumble"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Ryan Reynolds",
+            "personaggio": "Chris Brander",
+            "foto_url": "https://image.tmdb.org/t/p/w185/trzgptffGvAlAT6MEu01fz47cLW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/10859",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Amy Smart",
+            "personaggio": "Jamie Palamino",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9GQwkmqd5klfXvhd29YI5OKAx3N.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/20189",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Anna Faris",
+            "personaggio": "Samantha James",
+            "foto_url": "https://image.tmdb.org/t/p/w185/tptTb0BQwCpKWETNqzkZzzf5qSZ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1772",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Chris Klein",
+            "personaggio": "Dusty Dinkleman",
+            "foto_url": "https://image.tmdb.org/t/p/w185/56kCtPVfvjm5IRPa2GyaQHTPIOy.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/21594",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Christopher Rodriguez Marquette",
+            "personaggio": "Mike Brander",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8AL7UPXM4sVkOMgTHIxNdRi2SXP.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/59238",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Julie Hagerty",
+            "personaggio": "Carol Brander",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bQZ0bcFNyE4a3GDNfYMmfO7eWMl.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/14415",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Amy Matysio",
+            "personaggio": "Darla",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bQWkwRf4RM45vyb7nz7rW05HwaW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/62246",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Giacomo Beltrami",
+            "personaggio": "Young Mike Brander",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/62244",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Fred Ewanuick",
+            "personaggio": "Clark",
+            "foto_url": "https://image.tmdb.org/t/p/w185/66rucdqwcOhOCZMW6o9Fi0hiXIe.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/62245",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Wendy Anderson",
+            "personaggio": "Mrs. Palamino",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cR6uftUWXlomnokqAlSd5Rdk3eW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/62247",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Chris Brander è un adolescente decisamente sovrappeso che si trova in una situazione per lui decisamente difficile da sostenere. Consapevole della sua scarsa avvenenza è però da sempre il 'migliore amico' della bella Jamie Palamino che non è nemmeno sfiorata dall'idea che lui possa essersene innamorato. Umiliato pubblicamente da coetanei spacconi nel corso di una festa Chris prende una decisione definitiva: lasciare la città. Lo ritroveremo dieci anni dopo. Chris è diventato un bel ragazzo che frequenta il jet set artistico di Los Angeles e che si diverte a prendere e gettare via le ragazze. Costretto da un produttore a viaggiare con una cantante dalla sensualità tanto prorompente quanto volgare, Chris si trova coinvolto in una sosta forzata proprio dalle parti di casa sua. Ritroverà sua madre, il fratello minore col quale è sempre stato in conflitto e...Jamie.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/9uptTchEthe8XFQ7FOX2JRj4FNA.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=V__b9vN5lps",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube"
+        },
+        "tmdb_id_scelto": 10033,
+        "imdb_id_scelto": "tt0433400",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-07T06:30:31.660Z"
+      },
+      "genre": "romantico",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-07T06:30:31.660Z",
+      "editor_updated_at": "2026-07-07T06:30:31.660Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     }
   ],
   "title_validated_at": "2026-06-16T06:48:35",
