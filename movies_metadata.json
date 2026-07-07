@@ -385445,10 +385445,96 @@
     {
       "video_id": "MuBDSav1paw",
       "is_movie": true,
-      "original_title": "Ha Perso Tutto... Tranne la Voglia di Vendicarsi | Film d'Azione Completo in Italiano",
+      "original_title": "Loaded Dice",
       "channel": "Cinema FilmIsNow",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 760037,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/tvwhmTj6HjgWs4zULgflt4LLT0L.jpg",
+      "tmdb_title_official": "Loaded Dice",
+      "tmdb_year_official": 2007,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Loaded Dice",
+        "titolo_originale": "Loaded Dice",
+        "anno_uscita": 2007,
+        "durata_minuti": 95,
+        "genere": [
+          "Azione"
+        ],
+        "regista": [
+          "Matt Green"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Tom Savini",
+            "personaggio": "The Bishop",
+            "foto_url": "https://image.tmdb.org/t/p/w185/zBYnzxzlAIEoanEU00bGYJmRS6k.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/11161",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Derek Reynolds",
+            "personaggio": "Zane",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2989616",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Dawn Zenner",
+            "personaggio": "Lara",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2989617",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Raymond Lloyd",
+            "personaggio": "Uno",
+            "foto_url": "https://image.tmdb.org/t/p/w185/8S5c4DmGSymdjxHI8m0PNlU39CA.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1216290",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Zane è un giocatore in difficoltà che si è cacciato in un grosso guaio. Con solo trentasei ore per ripagare il suo debito, Zane si ritrova nel bel mezzo di un gioco ad alto rischio di gatto e topo.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/tvwhmTj6HjgWs4zULgflt4LLT0L.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=31z2AIhKj6k"
+        },
+        "tmdb_id_scelto": 760037,
+        "imdb_id_scelto": "tt1130736",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-07T06:44:51.831Z"
+      },
+      "genre": "azione",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-07T06:44:51.831Z",
+      "editor_updated_at": "2026-07-07T06:44:51.831Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "A2PV0jW_pqc",
@@ -385469,10 +385555,164 @@
     {
       "video_id": "8PMxv3oqWi4",
       "is_movie": true,
-      "original_title": "Banditi, Soldati e una Terra da Conquistare | Film Western Completo in Italiano con Robert Taylor",
+      "original_title": "Savage Pampas",
       "channel": "Cinema FilmIsNow",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 110614,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/AuYajllaPX5AA83B4CeyS9dDZpK.jpg",
+      "tmdb_title_official": "El Cjorro",
+      "tmdb_year_official": 1966,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "El Cjorro",
+        "titolo_originale": "Savage Pampas",
+        "anno_uscita": 1966,
+        "durata_minuti": 112,
+        "genere": [
+          "Avventura",
+          "Dramma",
+          "Western"
+        ],
+        "regista": [
+          "Hugo Fregonese"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Robert Taylor",
+            "personaggio": "Captain Martín",
+            "foto_url": "https://image.tmdb.org/t/p/w185/1CDILPhiOQztlvZwsU55kKBspIV.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/82216",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ron Randell",
+            "personaggio": "Padrón",
+            "foto_url": "https://image.tmdb.org/t/p/w185/xeLep7t85yDghTDqpOwHTKmQsf4.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/115308",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marc Lawrence",
+            "personaggio": "Sargent Barril",
+            "foto_url": "https://image.tmdb.org/t/p/w185/exCnOfb7yD7VSppd32RA9K4TIWx.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3140",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ty Hardin",
+            "personaggio": "Miguel Carreras",
+            "foto_url": "https://image.tmdb.org/t/p/w185/yAs5uuenoUTj5szJ62MdoqxDjPS.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/45369",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Rosenda Monteros",
+            "personaggio": "Rucu",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vSiCWg1OQjQCgwsMs5BRQdJE7ji.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/14534",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Laya Raki",
+            "personaggio": "Mimí",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pHVkGuQvR69oCZna0tTvSXWjPKF.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/353825",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Felicia Roc",
+            "personaggio": "Camila Ometio",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7eBaF3lp0sJQeN1CCiHZrRABZ8i.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2791390",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Susana Mara",
+            "personaggio": "Sarita",
+            "foto_url": "https://image.tmdb.org/t/p/w185/brSQvyzSOinKFSj9f0im5tw72GN.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/2791393",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Laura Granados",
+            "personaggio": "Carmen",
+            "foto_url": "https://image.tmdb.org/t/p/w185/lTPLpF5aoXRtp9eYr8knBfqrcPM.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1178392",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ingrid Ohlenschläger",
+            "personaggio": "Dolores",
+            "foto_url": "https://image.tmdb.org/t/p/w185/AcdI6EVseU1ai9M2NwQMSDekfYa.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1989146",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "In Argentina, in un forte all'estremo limite della pampa non ancora del tutto colonizzata, numerosi soldati, reclutati tra la feccia della società, disertano e si uniscono ad altri sbandati e alle tribù di indios ribelli, vivendo di rapine ai danni dei coloni. Il capitano dell'avamposto convince i suoi superiori che occorrono delle donne, e sul posto vengono inviate delle prostitute.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/AuYajllaPX5AA83B4CeyS9dDZpK.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=rx1qnL5d5YA"
+        },
+        "tmdb_id_scelto": 110614,
+        "imdb_id_scelto": "tt0060942",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-07T06:39:43.375Z"
+      },
+      "genre": "western",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-07T06:39:43.375Z",
+      "editor_updated_at": "2026-07-07T06:39:43.375Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "r_bmt5nFcMs",
@@ -385485,26 +385725,453 @@
     {
       "video_id": "hHvFU1NyZ90",
       "is_movie": true,
-      "original_title": "Il Rapimento che Sconvolse un Intero Paese | Film Poliziesco Completo in Italiano",
+      "original_title": "The Black Panther",
       "channel": "Cinema FilmIsNow",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 106876,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/wG17WyXGvuGTk8B4kJcfsDsUkDb.jpg",
+      "tmdb_title_official": "Donald Neilson, La iena di Londra",
+      "tmdb_year_official": 1977,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Donald Neilson, La iena di Londra",
+        "titolo_originale": "The Black Panther",
+        "anno_uscita": 1977,
+        "durata_minuti": 98,
+        "genere": [
+          "Crime",
+          "Dramma",
+          "Thriller"
+        ],
+        "regista": [
+          "Ian Merrick"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Donald Sumpter",
+            "personaggio": "Donald Neilson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/jfdH7vojRZ3fRSesLF8K3tZwwtq.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/20425",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Debbie Farrington",
+            "personaggio": "Lesley Whittle",
+            "foto_url": "https://image.tmdb.org/t/p/w185/pJAnqPpVLfhZie6wqlyvuDoJ2ox.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1041189",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Marjorie Yates",
+            "personaggio": "Neilson's Wife",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hYEBkiuKmXFvJIfV1B4DYd2Njgg.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/143090",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Sylvia O'Donnell",
+            "personaggio": "Neilson's Daughter",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1041190",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Andrew Burt",
+            "personaggio": "Lesley's Brother",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5fTuGTpXXlbKaUBGgukRUT80kHX.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/133037",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Alison Key",
+            "personaggio": "Lesley's Sister-in-Law",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1041191",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Ruth Dunning",
+            "personaggio": "Lesley's Mother",
+            "foto_url": "https://image.tmdb.org/t/p/w185/afMRGXk3AvnzON6xT88ESHtuqLI.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/115465",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "David Swift",
+            "personaggio": "Det. Chief Superintendent",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/20770",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Michael Barrington",
+            "personaggio": null,
+            "foto_url": "https://static.tvmaze.com/uploads/images/medium_portrait/344/860047.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TVMaze",
+              "url_pagina_origine": "https://www.tvmaze.com/people/177821/michael-barrington",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Lila Kaye",
+            "personaggio": null,
+            "foto_url": "https://image.tmdb.org/t/p/w185/qHemjOuXxcTL2CnASDxLeXWmdzA.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/14466",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Donald Neilson è un ex sergente dei corpi speciali dell'esercito inglese che dal duro addestramento ha subito profonde deformazioni psichiche che dimostra in due modi:  un rapporto autoritario con la moglie e la figlia Katy e una maniacale passione per le armi e l'addestramento all'azione. Dopo aver pensato (e fallito) una rapina, due anni dopo, affinate le tecniche, inizia una serie di colpi nel corso dei quali uccide diverse persone. Al culmine delle rapine, decide di rapire la giovane ereditiera Lesley Whittle e di chiedere un grosso riscatto. Nascosta la ragazza in un nascondiglio, Donald comincia le trattative con la famiglia via via complicate dall'ingerenza della polizia e dei media. In un impeto di rabbia Donald uccide l'ostaggio. Diversi mesi dopo viene catturato dalla polizia, processato e condannato all'ergastolo.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/wG17WyXGvuGTk8B4kJcfsDsUkDb.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 106876,
+        "imdb_id_scelto": "tt0075764",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-07T06:43:37.182Z"
+      },
+      "genre": "poliziesco",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-07T06:43:37.182Z",
+      "editor_updated_at": "2026-07-07T06:43:37.182Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "hC31yagZaXw",
       "is_movie": true,
-      "original_title": "Una Vampira Trasforma un'Intera Città in un Incubo | Film Horror Completo in Italiano",
+      "original_title": "Dark Town",
       "channel": "Cinema FilmIsNow",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 58806,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/xGao8tJukVjF1Ff6qhkmJGlSNbq.jpg",
+      "tmdb_title_official": "Immortal Ecstasy",
+      "tmdb_year_official": 2004,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Immortal Ecstasy",
+        "titolo_originale": "Dark Town",
+        "anno_uscita": 2004,
+        "durata_minuti": 88,
+        "genere": [
+          "Horror"
+        ],
+        "regista": [
+          "Desi Scarpone"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Janet Martin",
+            "personaggio": "Jen Armstrong",
+            "foto_url": "https://imgproxy.filmmakers.eu/4BcRQj_qzh4m6AHWzRhxuTgYB27wg896XtDbGUznAT0/rt:fit/w:3840/h:2160/czM6Ly9maWxtbWFr/ZXJzLWV1LXdlc3Qt/MS9wcm9kdWN0aW9u/L25mczQvbWVkaWEv/dHJfbWVkaWFfZGF0/YS82NS8zOS8xNTYz/OTY1",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "manuale",
+              "url_pagina_origine": null,
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Delpaneaux Wills",
+            "personaggio": "Rakeem",
+            "foto_url": "https://image.tmdb.org/t/p/w185/gFWwjxIXjr9XVnqM5AqMYvCFTHc.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1187312",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Meghan Stansfield",
+            "personaggio": "Lisa",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1098059",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Claire Mills",
+            "personaggio": "Ellen",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1516883",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Curtis Nysmith",
+            "personaggio": "Curtis Armstrong Jr",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1516884",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Ariana Fronti",
+            "personaggio": "Monique",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1516885",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Sarah Horváth",
+            "personaggio": "Heather",
+            "foto_url": "https://image.tmdb.org/t/p/w185/sXBnyXN3hNVL9lxKoI1TRXZZppf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1062757",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Joel King",
+            "personaggio": "Curtis Armstrong Sr.",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1377389",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Alison Miller",
+            "personaggio": "Sandy Armstrong",
+            "foto_url": "https://image.tmdb.org/t/p/w185/nmRhprEbJm5Mi2NPooaTXU4WMFV.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3083238",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Mentre tutto il quartiere è al buio per una serie di improvvisi black out, gli Armstrong aspettano Curtis, il capo famiglia, per festeggiare il suo compleanno. Quando Curtis riuscirà finalmente a tornare a casa, sarà un uomo molto cambiato, contagiato nel profondo da un morbo oscuro che gli corrompe l'anima, rendendolo avido di sangue e vite umane. La sua ombra oscura funesterà i festeggiamenti, minacciando la sua famiglia e arrivando a trasformare l'intero quartiere in una landa desolata di orrore e morte dominata da vampiri.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/xGao8tJukVjF1Ff6qhkmJGlSNbq.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 58806,
+        "imdb_id_scelto": "tt0408666",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-07T06:39:08.811Z"
+      },
+      "genre": "horror",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-07T06:39:08.811Z",
+      "editor_updated_at": "2026-07-07T06:39:08.811Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "-CFlUgtBDFw",
       "is_movie": true,
-      "original_title": "Una Missione negli Abissi Risveglia una Creatura Mostruosa | Film d'Avventura Completo in Italiano",
+      "original_title": "The Neptune Factor",
       "channel": "Cinema FilmIsNow",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 62754,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/Am1HboS868fSf6kDn2U4Ct0UQgL.jpg",
+      "tmdb_title_official": "L'odissea del Neptune nell'impero sommerso",
+      "tmdb_year_official": 1973,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "L'odissea del Neptune nell'impero sommerso",
+        "titolo_originale": "The Neptune Factor",
+        "anno_uscita": 1973,
+        "durata_minuti": 98,
+        "genere": [
+          "Azione",
+          "Fantascienza"
+        ],
+        "regista": [
+          "Daniel Petrie"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Ben Gazzara",
+            "personaggio": "Cmdr. Adrian Blake",
+            "foto_url": "https://image.tmdb.org/t/p/w185/eGvi9AtDsxB3HYarc3hB512R0Gn.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/856",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Walter Pidgeon",
+            "personaggio": "Dr. Samuel Andrews",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bzSDciaTy9vshH4Rguyu5elcSR7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/12308",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Ernest Borgnine",
+            "personaggio": "Chief Diver Don MacKay",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vlq94UdNfjLnd9DAkKC94vKLfJJ.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/7502",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Yvette Mimieux",
+            "personaggio": "Dr. Leah Jansen",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uGXko0Q8kzxUzwtFOqGNzNSWgYq.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/21876",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Donnelly Rhodes",
+            "personaggio": "Diver Bob Cousins",
+            "foto_url": "https://image.tmdb.org/t/p/w185/rORAUcj05OMRVeUlensXUzj5hgt.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/9602",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Chris Wiggins",
+            "personaggio": "Capt. Williams",
+            "foto_url": "https://image.tmdb.org/t/p/w185/HMpppR5Jc1YX9YfTUE3jlvJOlf.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/44163",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Michael J. Reynolds",
+            "personaggio": "Dr. Hal Hamilton",
+            "foto_url": "https://image.tmdb.org/t/p/w185/4fjOXTU96Hlv2gHNqlXt19SJaPW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/86442",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Mark Walker",
+            "personaggio": "Diver Dave Moulton",
+            "foto_url": "https://image.tmdb.org/t/p/w185/i5SAoM4eAKFs8lEgB5sj32G6Bqu.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/931788",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Leslie Carlson",
+            "personaggio": "Brigs, Triton Radioman",
+            "foto_url": "https://image.tmdb.org/t/p/w185/9WEm25ndfB1pzJspHsigUn1y0iX.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/12716",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Stuart Gillard",
+            "personaggio": "Diver Phil Bradley",
+            "foto_url": "https://image.tmdb.org/t/p/w185/5p2exq83Z9W80u2wRQbbFGkLJQ7.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/76418",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "In seguito a un terremoto sottomarino il laboratorio subacqueo \"Oceanlab II\" viene inghiottito da un crepaccio. Vi restano intrappolati i suoi tre occupanti, cui rimane ossigeno per una sola settimana. Fallito il tentativo di salvataggio portato con un normale sottomarino, tocca all'equipaggio del batiscafo \"Neptune\" provarci.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/Am1HboS868fSf6kDn2U4Ct0UQgL.jpg",
+        "trailer": null,
+        "tmdb_id_scelto": 62754,
+        "imdb_id_scelto": "tt0070438",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-07T06:37:56.437Z"
+      },
+      "genre": "fantascienza",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-07T06:37:56.437Z",
+      "editor_updated_at": "2026-07-07T06:37:56.437Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "EMhFL9MeEeg",
@@ -385517,26 +386184,269 @@
     {
       "video_id": "PiUeU-ePHxs",
       "is_movie": true,
-      "original_title": "Una Missione Impossibile nel Cuore della Guerra | Film Completo in Italiano",
+      "original_title": "Men in War",
       "channel": "Cinema FilmIsNow",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 61370,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/1KUaESZdttyp72jzYZYN7kvVFB6.jpg",
+      "tmdb_title_official": "Uomini in guerra",
+      "tmdb_year_official": 1957,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Uomini in guerra",
+        "titolo_originale": "Men in War",
+        "anno_uscita": 1957,
+        "durata_minuti": 102,
+        "genere": [
+          "Guerra",
+          "Dramma"
+        ],
+        "regista": [
+          "Anthony Mann"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Robert Ryan",
+            "personaggio": "Lt. Benson",
+            "foto_url": "https://image.tmdb.org/t/p/w185/hpWgaPTbBLGCdYXHcEVLIWaA3m0.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/8253",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Aldo Ray",
+            "personaggio": "Sgt. Montana",
+            "foto_url": "https://image.tmdb.org/t/p/w185/x00IKE88CleZRaUg6lPtyx2xyYW.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/45232",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Robert Keith",
+            "personaggio": "The Colonel",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7nhscSi9oF7B48qYkfDd1OvfKOR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/46711",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Phillip Pine",
+            "personaggio": "Sgt. Riordan",
+            "foto_url": "https://image.tmdb.org/t/p/w185/cka1xgxdjoe2Sd5wtdUyg9IxrDc.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/16126",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Nehemiah Persoff",
+            "personaggio": "Sgt. Lewis",
+            "foto_url": "https://image.tmdb.org/t/p/w185/7HwQUpb0VOqICmwQF8hfn2dl5Ov.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3160",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Vic Morrow",
+            "personaggio": "Cpl. Zwickley",
+            "foto_url": "https://image.tmdb.org/t/p/w185/i9UyJ4ltwwpnqeqbdA1FUPJjdP8.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/83810",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "James Edwards",
+            "personaggio": "Sgt. Killian",
+            "foto_url": "https://image.tmdb.org/t/p/w185/uzqmuY7Ujm7dew56XZGgkQ5Yy1I.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/3342",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "L.Q. Jones",
+            "personaggio": "Sgt. Davis",
+            "foto_url": "https://image.tmdb.org/t/p/w185/vSGLFloekrgC8eIaqxCiKe7VW0u.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/8262",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Scott Marlowe",
+            "personaggio": "Pvt. Meredith",
+            "foto_url": "https://image.tmdb.org/t/p/w185/bItG6NNOL8o4lXUDGzDXXZP95WR.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/105176",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Adam Kennedy",
+            "personaggio": "Pvt. Maslow",
+            "foto_url": "https://image.tmdb.org/t/p/w185/a6557GeiiXHJ14iTacxk9YjtxE1.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1234544",
+              "verificata": true
+            }
+          }
+        ],
+        "trama": "Nel 1950 durante la guerra di Corea una pattuglia americana resta tagliata fuori dal grosso delle truppe. Anche la loro jeep si guasta e i materiali non possono più essere trasportati. Nel frattempo però sopraggiunge un'altra jeep sulla quale viaggiano il sergente Montana e un colonnello ferito.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/1KUaESZdttyp72jzYZYN7kvVFB6.jpg",
+        "trailer": {
+          "fonte": "YouTube",
+          "lingua": "it",
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube",
+          "url": "https://www.youtube.com/watch?v=rPIC8zk_-AQ"
+        },
+        "tmdb_id_scelto": 61370,
+        "imdb_id_scelto": "tt0050699",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-07T06:35:50.356Z"
+      },
+      "genre": "guerra",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-07T06:35:50.356Z",
+      "editor_updated_at": "2026-07-07T06:35:50.356Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "zv0F0KzJUrI",
       "is_movie": true,
-      "original_title": "Tre Amici, un Biglietto Vincente e un Mare di Guai | Film Commedia Completo in Italiano",
+      "original_title": "Leggende metropolitane",
       "channel": "Cinema FilmIsNow",
-      "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_id": 1244833,
+      "tmdb_confidence": "verified",
+      "tmdb_poster_path": "/pqhpckBKqtTcPRZGqUDIQYhjIE6.jpg",
+      "tmdb_title_official": "Leggende metropolitane",
+      "tmdb_year_official": 2024,
+      "tmdb_media_type": "movie",
+      "strict_id_v2": {
+        "identificato": true,
+        "livello_certezza": "alto",
+        "titolo_italiano": "Leggende metropolitane",
+        "titolo_originale": "Leggende metropolitane",
+        "anno_uscita": 2024,
+        "durata_minuti": 88,
+        "genere": [
+          "Commedia"
+        ],
+        "regista": [
+          "Stefano Meloncelli"
+        ],
+        "cast_principale": [
+          {
+            "nome": "Diego Paul Galtieri",
+            "personaggio": "Gigi",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4537717",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Edoardo Costa",
+            "personaggio": "Mario",
+            "foto_url": "https://image.tmdb.org/t/p/w185/dT8roPncLy5YMogsCsKv2A77EqN.jpg",
+            "foto_tipo": "foto_attore",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/1332493",
+              "verificata": true
+            }
+          },
+          {
+            "nome": "Fabrizio Marchegiani",
+            "personaggio": "Cico",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4537719",
+              "verificata": false
+            }
+          },
+          {
+            "nome": "Papa K Mensah",
+            "personaggio": "Tini",
+            "foto_url": null,
+            "foto_tipo": "nessuna",
+            "foto_fonte": {
+              "nome": "TMDB",
+              "url_pagina_origine": "https://www.themoviedb.org/person/4537732",
+              "verificata": false
+            }
+          }
+        ],
+        "trama": "Tre amici, ognuno con problemi di inserimento nella società, si imbarcano in una avventura legata alle scommesse sulle corse dei cavalli.",
+        "trama_tradotta_in_italiano": true,
+        "locandina_url": "https://image.tmdb.org/t/p/w500/pqhpckBKqtTcPRZGqUDIQYhjIE6.jpg",
+        "trailer": {
+          "url": "https://www.youtube.com/watch?v=ULT5ApYY3ls",
+          "lingua": "it",
+          "fonte": "YouTube",
+          "canale": null,
+          "ufficiale": false,
+          "verificato": true,
+          "motivo_verifica": "trailer YouTube"
+        },
+        "tmdb_id_scelto": 1244833,
+        "imdb_id_scelto": "tt30428634",
+        "verificato_editor": true,
+        "verificato_editor_at": "2026-07-07T06:35:15.360Z"
+      },
+      "genre": "commedia",
+      "locked": true,
+      "editor_locked": true,
+      "editor_verified": true,
+      "editor_locked_at": "2026-07-07T06:35:15.360Z",
+      "editor_updated_at": "2026-07-07T06:35:15.360Z",
+      "editor_lock_reason": "ri-identificazione manuale editor"
     },
     {
       "video_id": "My056xnG47g",
-      "is_movie": true,
+      "is_movie": false,
       "original_title": "Arriva a Roma… e Scopre il Segreto più Oscuro della Chiesa | Film Completo in Italiano",
       "channel": "Cinema FilmIsNow",
       "tmdb_id": null,
-      "tmdb_confidence": "no_match"
+      "tmdb_confidence": "no_match",
+      "reason_not_movie": "eliminato dall'editor web",
+      "deleted_by_editor": true,
+      "deleted_at": "2026-07-07T06:34:16.378Z"
     },
     {
       "video_id": "L-DFi7KvW8E",
